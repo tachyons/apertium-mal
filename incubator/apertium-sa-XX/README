@@ -1,0 +1,52 @@
+Morphological analyser for Sanskrit
+===================================
+
+==Files==
+
+* apertium-sa-XX.sa.dix     - Sanskrit morphological dictionary
+* apertium-sa-XX.ucs-wx.xml - Transliteration file
+
+==Installation==
+
+To compile it you need lttoolbox installed:
+
+$ lt-comp lr apertium-sa-XX.sa.dix sa.automorf.bin
+
+To use it:
+
+$ echo "rAmeNa" | lt-proc -c sa.automorf.bin 
+
+You should get the output:
+
+^rAmeNa/rAma<n><m><ins><sg>$
+
+Note: the -c option is important to respect case.
+
+To use the generator:
+
+$ lt-comp rl apertium-sa-XX.sa.dix sa.autogen.bin
+
+Then:
+
+$ echo "^rAma<n><m><ins><sg>$" | lt-proc -c -g sa.autogen.bin
+rAmeNa
+
+If you want to install it and have it to work
+with apertium deformatters etc. you will need to have
+apertium installed.
+
+Just run:
+
+./autogen.sh
+./configure
+make
+make install
+
+==Encoding==
+
+The dictionary is in ASCII and uses the wx-notation. 
+
+==Further reading==
+
+You can find more information on lttoolbox on the Apertium
+wiki: http://xixona.dlsi.ua.es/wiki/index.php/lttoolbox

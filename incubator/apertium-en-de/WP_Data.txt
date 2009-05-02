@@ -1,0 +1,603 @@
+    <e><p><l>abacus<s n="n"/></l><r>Abakus<s n="n"/></r></p></e> <!-- m -->
+    <e><p><l>abandonment<s n="n"/></l><r>Preisgabe<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>abbey<s n="n"/></l><r>Abtei<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>abbot<s n="n"/></l><r>Abt<s n="n"/></r></p></e> <!-- m -->
+    <e><p><l>abbreviation<s n="n"/></l><r>Abkuerzung<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>abdomen<s n="n"/></l><r>Bauch<s n="n"/></r></p></e> <!-- m -->
+    <e><p><l>aberration<s n="n"/></l><r>Abweichung<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>ablation<s n="n"/></l><r>Ablation<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>ablative<s n="n"/></l><r>Ablativ<s n="n"/></r></p></e> <!-- m -->
+    <e><p><l>abolitionism<s n="n"/></l><r>Abolitionismus<s n="n"/></r></p></e> <!-- ??? -->
+    <e><p><l>abolitionist<s n="n"/></l><r>Abolitionist<s n="n"/></r></p></e> <!-- m -->
+    <e><p><l>abortionist<s n="n"/></l><r>Engelmacherin<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>abrasion<s n="n"/></l><r>Abschuerfung<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>absence<s n="n"/></l><r>Abwesenheit<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>absolution<s n="n"/></l><r>Lossprechung<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>absorption<s n="n"/></l><r>Absorption<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>abstinence<s n="n"/></l><r>Abstinenz<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>abstraction<s n="n"/></l><r>Entnahme<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>abuse<s n="n"/></l><r>Missbrauch<s n="n"/></r></p></e> <!-- m -->
+    <e><p><l>academy<s n="n"/></l><r>Akademie<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>acanthus<s n="n"/></l><r>Akanthus<s n="n"/></r></p></e> <!-- m -->
+    <e><p><l>acaricide<s n="n"/></l><r>Akarizid<s n="n"/></r></p></e> <!-- nt -->
+    <e><p><l>acarus<s n="n"/></l><r>Milbe<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>acceleration<s n="n"/></l><r>Beschleunigung<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>accent<s n="n"/></l><r>Akzent<s n="n"/></r></p></e> <!-- m -->
+    <e><p><l>accentuation<s n="n"/></l><r>Akzentuierung<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>access<s n="n"/></l><r>Zugriff<s n="n"/></r></p></e> <!-- m -->
+    <e><p><l>accident<s n="n"/></l><r>Unfall<s n="n"/></r></p></e> <!-- m -->
+    <e><p><l>acclamation<s n="n"/></l><r>Akklamation<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>acclimatization<s n="n"/></l><r>Akklimatisation<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>accompaniment<s n="n"/></l><r>Begleiterscheinung<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>accordion<s n="n"/></l><r>Akkordeon<s n="n"/></r></p></e> <!-- nt -->
+    <e><p><l>account<s n="n"/></l><r>Konto<s n="n"/></r></p></e> <!-- nt -->
+    <e><p><l>accountancy<s n="n"/></l><r>Buchführung<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>accretion<s n="n"/></l><r>Anwachsung<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>acculturation<s n="n"/></l><r>Akkulturation<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>accumulator<s n="n"/></l><r>Akkumulator<s n="n"/></r></p></e> <!-- m -->
+    <e><p><l>ace<s n="n"/></l><r>Ass<s n="n"/></r></p></e> <!-- m -->
+    <e><p><l>acetal<s n="n"/></l><r>Acetal<s n="n"/></r></p></e> <!-- nt -->
+    <e><p><l>acetone<s n="n"/></l><r>Azeton<s n="n"/></r></p></e> <!-- nt -->
+    <e><p><l>acetophenone<s n="n"/></l><r>Acetophenon<s n="n"/></r></p></e> <!-- nt -->
+    <e><p><l>acetylcholine<s n="n"/></l><r>Acetylcholin<s n="n"/></r></p></e> <!-- nt -->
+    <e><p><l>acid<s n="n"/></l><r>Säure<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>acidification<s n="n"/></l><r>Absäuerung<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>acidity<s n="n"/></l><r>Acidität<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>acidosis<s n="n"/></l><r>Azidämie<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>acme<s n="n"/></l><r>Höhepunkt<s n="n"/></r></p></e> <!-- m -->
+    <e><p><l>acne<s n="n"/></l><r>Akne<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>acoustics<s n="n"/></l><r>Akustik<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>acre<s n="n"/></l><r>Acker<s n="n"/></r></p></e> <!-- m -->
+    <e><p><l>year<s n="n"/></l><r>Jahr<s n="n"/></r></p></e> <!-- f -->
+    <e><p><l>affix<s n="n"/></l><r>Affix<s n="n"/></r></p></e> <!-- f -->
+
+    <!-- Bottom of File -->
+    <e><p><l>tibia<s n="n"/></l><r>Tibia<s n="n"/></r></p></e>
+    <e><p><l>tic<s n="n"/></l><r>Macke<s n="n"/></r></p></e>
+    <e><p><l>tick<s n="n"/></l><r>Holzbock<s n="n"/></r></p></e>
+    <e><p><l>ticket<s n="n"/></l><r>Ticket<s n="n"/></r></p></e>
+    <e><p><l>tide<s n="n"/></l><r>Gezeit<s n="n"/></r></p></e>
+    <e><p><l>tiger<s n="n"/></l><r>Tiger<s n="n"/></r></p></e>
+    <e><p><l>tilde<s n="n"/></l><r>Tilde<s n="n"/></r></p></e>
+    <e><p><l>tillite<s n="n"/></l><r>Tillit<s n="n"/></r></p></e>
+    <e><p><l>timer<s n="n"/></l><r>Zeitschaltuhr<s n="n"/></r></p></e>
+    <e><p><l>timetable<s n="n"/></l><r>Fahrplan<s n="n"/></r></p></e>
+    <e><p><l>tin<s n="n"/></l><r>Zinn<s n="n"/></r></p></e>
+    <e><p><l>tinder<s n="n"/></l><r>Zunder<s n="n"/></r></p></e>
+    <e><p><l>tip<s n="n"/></l><r>Trinkgeld<s n="n"/></r></p></e>
+    <e><p><l>tire<s n="n"/></l><r>Autoreifen<s n="n"/></r></p></e>
+    <e><p><l>tissue<s n="n"/></l><r>Gewebe<s n="n"/></r></p></e>
+    <e><p><l>titanite<s n="n"/></l><r>Titanit<s n="n"/></r></p></e>
+    <e><p><l>titin<s n="n"/></l><r>Titin<s n="n"/></r></p></e>
+    <e><p><l>title<s n="n"/></l><r>Titel<s n="n"/></r></p></e>
+    <e><p><l>titrimetry<s n="n"/></l><r>Titrimetrie<s n="n"/></r></p></e>
+    <e><p><l>toad<s n="n"/></l><r>Kröte<s n="n"/></r></p></e>
+    <e><p><l>toast<s n="n"/></l><r>Toastbrot<s n="n"/></r></p></e>
+    <e><p><l>toaster<s n="n"/></l><r>Toaster<s n="n"/></r></p></e>
+    <e><p><l>toe<s n="n"/></l><r>Zehe<s n="n"/></r></p></e>
+    <e><p><l>toga<s n="n"/></l><r>Toga<s n="n"/></r></p></e>
+    <e><p><l>toilet<s n="n"/></l><r>Toilette<s n="n"/></r></p></e>
+    <e><p><l>tomato<s n="n"/></l><r>Tomate<s n="n"/></r></p></e>
+    <e><p><l>tombola<s n="n"/></l><r>Tombola<s n="n"/></r></p></e>
+    <e><p><l>tomography<s n="n"/></l><r>Tomographie<s n="n"/></r></p></e>
+    <e><p><l>ton<s n="n"/></l><r>Tonne<s n="n"/></r></p></e>
+    <e><p><l>tone<s n="n"/></l><r>Ton<s n="n"/></r></p></e>
+    <e><p><l>toner<s n="n"/></l><r>Toner<s n="n"/></r></p></e>
+    <e><p><l>tongue<s n="n"/></l><r>Zunge<s n="n"/></r></p></e>
+    <e><p><l>tonnage<s n="n"/></l><r>Tonnage<s n="n"/></r></p></e>
+    <e><p><l>tonne<s n="n"/></l><r>metrische Tonne<s n="n"/></r></p></e>
+    <e><p><l>tonoplast<s n="n"/></l><r>Tonoplast<s n="n"/></r></p></e>
+    <e><p><l>tonsil<s n="n"/></l><r>Mandel<s n="n"/></r></p></e>
+    <e><p><l>tool<s n="n"/></l><r>Werkzeug<s n="n"/></r></p></e>
+    <e><p><l>tooling<s n="n"/></l><r>Fertigungsmittel<s n="n"/></r></p></e>
+    <e><p><l>tooth<s n="n"/></l><r>Zahn<s n="n"/></r></p></e>
+    <e><p><l>toothpaste<s n="n"/></l><r>Zahnpasta<s n="n"/></r></p></e>
+    <e><p><l>toothpick<s n="n"/></l><r>Zahnstocher<s n="n"/></r></p></e>
+    <e><p><l>top<s n="n"/></l><r>Deckel<s n="n"/></r></p></e>
+    <e><p><l>topic<s n="n"/></l><r>Thema<s n="n"/></r></p></e>
+    <e><p><l>topoisomerase<s n="n"/></l><r>Topoisomerase<s n="n"/></r></p></e>
+    <e><p><l>topology<s n="n"/></l><r>Topologie<s n="n"/></r></p></e>
+    <e><p><l>toponym<s n="n"/></l><r>Toponym<s n="n"/></r></p></e>
+    <e><p><l>toponymy<s n="n"/></l><r>Toponymir<s n="n"/></r></p></e>
+    <e><p><l>tornado<s n="n"/></l><r>Tornado<s n="n"/></r></p></e>
+    <e><p><l>toroid<s n="n"/></l><r>Toroid<s n="n"/></r></p></e>
+    <e><p><l>torpedo<s n="n"/></l><r>Torpedo<s n="n"/></r></p></e>
+    <e><p><l>torrent<s n="n"/></l><r>Sturzbach<s n="n"/></r></p></e>
+    <e><p><l>torticollis<s n="n"/></l><r>Torticollis<s n="n"/></r></p></e>
+    <e><p><l>torture<s n="n"/></l><r>Folter<s n="n"/></r></p></e>
+    <e><p><l>totalitarianism<s n="n"/></l><r>Totalitarismus<s n="n"/></r></p></e>
+    <e><p><l>totem<s n="n"/></l><r>Totem<s n="n"/></r></p></e>
+    <e><p><l>totemism<s n="n"/></l><r>Totemismus<s n="n"/></r></p></e>
+    <e><p><l>touch<s n="n"/></l><r>Berührung<s n="n"/></r></p></e>
+    <e><p><l>tour<s n="n"/></l><r>Tour<s n="n"/></r></p></e>
+    <e><p><l>tourist<s n="n"/></l><r>Tourist<s n="n"/></r></p></e>
+    <e><p><l>tourmaline<s n="n"/></l><r>Turmalin<s n="n"/></r></p></e>
+    <e><p><l>tournament<s n="n"/></l><r>Turnier<s n="n"/></r></p></e>
+    <e><p><l>tourniquet<s n="n"/></l><r>Stauschlauch<s n="n"/></r></p></e>
+    <e><p><l>towel<s n="n"/></l><r>Handtuch<s n="n"/></r></p></e>
+    <e><p><l>tower<s n="n"/></l><r>Turm<s n="n"/></r></p></e>
+    <e><p><l>town<s n="n"/></l><r>Stadt<s n="n"/></r></p></e>
+    <e><p><l>toxicologist<s n="n"/></l><r>Toxikologe<s n="n"/></r></p></e>
+    <e><p><l>toxicology<s n="n"/></l><r>Toxikologie<s n="n"/></r></p></e>
+    <e><p><l>toxoplasmosis<s n="n"/></l><r>Toxoplasmose<s n="n"/></r></p></e>
+    <e><p><l>toy<s n="n"/></l><r>Spielzeug<s n="n"/></r></p></e>
+    <e><p><l>trabecula<s n="n"/></l><r>Trabekel<s n="n"/></r></p></e>
+    <e><p><l>tracheostomy<s n="n"/></l><r>Tracheostomie<s n="n"/></r></p></e>
+    <e><p><l>tracheotomy<s n="n"/></l><r>Tracheotomie<s n="n"/></r></p></e>
+    <e><p><l>trachoma<s n="n"/></l><r>Trachom<s n="n"/></r></p></e>
+    <e><p><l>track<s n="n"/></l><r>Track<s n="n"/></r></p></e>
+    <e><p><l>tractor<s n="n"/></l><r>Traktor<s n="n"/></r></p></e>
+    <e><p><l>trade<s n="n"/></l><r>Handel<s n="n"/></r></p></e>
+    <e><p><l>trademark<s n="n"/></l><r>Marke<s n="n"/></r></p></e>
+    <e><p><l>tradition<s n="n"/></l><r>Tradition<s n="n"/></r></p></e>
+    <e><p><l>tragedy<s n="n"/></l><r>Tragödie<s n="n"/></r></p></e>
+    <e><p><l>trailer<s n="n"/></l><r>Trailer<s n="n"/></r></p></e>
+    <e><p><l>train<s n="n"/></l><r>Zug<s n="n"/></r></p></e>
+    <e><p><l>trainer<s n="n"/></l><r>Trainer<s n="n"/></r></p></e>
+    <e><p><l>training<s n="n"/></l><r>Training<s n="n"/></r></p></e>
+    <e><p><l>tram<s n="n"/></l><r>Straßenbahn<s n="n"/></r></p></e>
+    <e><p><l>tramcar<s n="n"/></l><r>Straßenbahnwagen<s n="n"/></r></p></e>
+    <e><p><l>tramp<s n="n"/></l><r>Tramp<s n="n"/></r></p></e>
+    <e><p><l>tranquillizer<s n="n"/></l><r>Tranquilizer<s n="n"/></r></p></e>
+    <e><p><l>transaction<s n="n"/></l><r>Transaktion<s n="n"/></r></p></e>
+    <e><p><l>transceiver<s n="n"/></l><r>Transceiver<s n="n"/></r></p></e>
+    <e><p><l>transcendence<s n="n"/></l><r>Transzendenz<s n="n"/></r></p></e>
+    <e><p><l>transcendentalism<s n="n"/></l><r>Transzendentalismus<s n="n"/></r></p></e>
+    <e><p><l>transcriber<s n="n"/></l><r>Umsetzeinrichtung<s n="n"/></r></p></e>
+    <e><p><l>transcription<s n="n"/></l><r>Transkription<s n="n"/></r></p></e>
+    <e><p><l>transfection<s n="n"/></l><r>Transfektion<s n="n"/></r></p></e>
+    <e><p><l>transformation<s n="n"/></l><r>Transformation<s n="n"/></r></p></e>
+    <e><p><l>transformer<s n="n"/></l><r>Transformator<s n="n"/></r></p></e>
+    <e><p><l>transgression<s n="n"/></l><r>Transgression<s n="n"/></r></p></e>
+    <e><p><l>transistor<s n="n"/></l><r>Transistor<s n="n"/></r></p></e>
+    <e><p><l>transition<s n="n"/></l><r>Transition<s n="n"/></r></p></e>
+    <e><p><l>transitivity<s n="n"/></l><r>Transitivität<s n="n"/></r></p></e>
+    <e><p><l>translation<s n="n"/></l><r>Übersetzung<s n="n"/></r></p></e>
+    <e><p><l>transmission<s n="n"/></l><r>Transmission<s n="n"/></r></p></e>
+    <e><p><l>transmittance<s n="n"/></l><r>Transmission<s n="n"/></r></p></e>
+    <e><p><l>transparency<s n="n"/></l><r>Transparenz<s n="n"/></r></p></e>
+    <e><p><l>transpiration<s n="n"/></l><r>Transpiration<s n="n"/></r></p></e>
+    <e><p><l>transposon<s n="n"/></l><r>Transposon<s n="n"/></r></p></e>
+    <e><p><l>transvestism<s n="n"/></l><r>Transvestitismus<s n="n"/></r></p></e>
+    <e><p><l>trap<s n="n"/></l><r>Falle<s n="n"/></r></p></e>
+    <e><p><l>trap<s n="n"/></l><r>Haftstelle<s n="n"/></r></p></e>
+    <e><p><l>trapeze<s n="n"/></l><r>Trapez<s n="n"/></r></p></e>
+    <e><p><l>trapezoid<s n="n"/></l><r>Trapez-<s n="n"/></r></p></e>
+    <e><p><l>trauma<s n="n"/></l><r>Trauma<s n="n"/></r></p></e>
+    <e><p><l>traumatologist<s n="n"/></l><r>Traumatoloe<s n="n"/></r></p></e>
+    <e><p><l>traumatology<s n="n"/></l><r>Traumatologie<s n="n"/></r></p></e>
+    <e><p><l>travel<s n="n"/></l><r>Reise<s n="n"/></r></p></e>
+    <e><p><l>traveller<s n="n"/></l><r>Reisender<s n="n"/></r></p></e>
+    <e><p><l>travelling<s n="n"/></l><r>Reisen<s n="n"/></r></p></e>
+    <e><p><l>traverse<s n="n"/></l><r>Traverse<s n="n"/></r></p></e>
+    <e><p><l>treasure<s n="n"/></l><r>Schatz<s n="n"/></r></p></e>
+    <e><p><l>treasurer<s n="n"/></l><r>Schatzmeister<s n="n"/></r></p></e>
+    <e><p><l>treasury<s n="n"/></l><r>Finanzministerium<s n="n"/></r></p></e>
+    <e><p><l>treaty<s n="n"/></l><r>Vertrag<s n="n"/></r></p></e>
+    <e><p><l>tree<s n="n"/></l><r>Baum<s n="n"/></r></p></e>
+    <e><p><l>tremolite<s n="n"/></l><r>Tremolit<s n="n"/></r></p></e>
+    <e><p><l>tremor<s n="n"/></l><r>Tremor<s n="n"/></r></p></e>
+    <e><p><l>trend<s n="n"/></l><r>Trend<s n="n"/></r></p></e>
+    <e><p><l>triacylglyceride<s n="n"/></l><r>Triacylglyzerid<s n="n"/></r></p></e>
+    <e><p><l>trial<s n="n"/></l><r>Prozess<s n="n"/></r></p></e>
+    <e><p><l>triangle<s n="n"/></l><r>Dreieck<s n="n"/></r></p></e>
+    <e><p><l>triangulation<s n="n"/></l><r>Triangulation<s n="n"/></r></p></e>
+    <e><p><l>tribe<s n="n"/></l><r>Volksstamm<s n="n"/></r></p></e>
+    <e><p><l>triboelectricity<s n="n"/></l><r>Reibungselektrizität<s n="n"/></r></p></e>
+    <e><p><l>tribometer<s n="n"/></l><r>Tribometer<s n="n"/></r></p></e>
+    <e><p><l>tribune<s n="n"/></l><r>Tribüne<s n="n"/></r></p></e>
+    <e><p><l>tribute<s n="n"/></l><r>Tribut<s n="n"/></r></p></e>
+    <e><p><l>trichiasis<s n="n"/></l><r>Trichiasis<s n="n"/></r></p></e>
+    <e><p><l>trichinosis<s n="n"/></l><r>Trichinose<s n="n"/></r></p></e>
+    <e><p><l>trichomoniasis<s n="n"/></l><r>Trichomoniasis<s n="n"/></r></p></e>
+    <e><p><l>trichonosis<s n="n"/></l><r>Trichinose<s n="n"/></r></p></e>
+    <e><p><l>trichotomy<s n="n"/></l><r>Trichotomie<s n="n"/></r></p></e>
+    <e><p><l>pelochroism<s n="n"/></l><r>Pleochroismus<s n="n"/></r></p></e>
+    <e><p><l>trick<s n="n"/></l><r>Trick<s n="n"/></r></p></e>
+    <e><p><l>tricycle<s n="n"/></l><r>Dreirad<s n="n"/></r></p></e>
+    <e><p><l>trifle<s n="n"/></l><r>Trifle<s n="n"/></r></p></e>
+    <e><p><l>trigger<s n="n"/></l><r>Trigger<s n="n"/></r></p></e>
+    <e><p><l>triglyceride<s n="n"/></l><r>Triglyzerid<s n="n"/></r></p></e>
+    <e><p><l>trigonometry<s n="n"/></l><r>Trigonometrie<s n="n"/></r></p></e>
+    <e><p><l>trilateration<s n="n"/></l><r>Trilateration<s n="n"/></r></p></e>
+    <e><p><l>trillion<s n="n"/></l><r>Trillion<s n="n"/></r></p></e>
+    <e><p><l>trilogy<s n="n"/></l><r>Trilogie<s n="n"/></r></p></e>
+    <e><p><l>trimeter<s n="n"/></l><r>Trimeter<s n="n"/></r></p></e>
+    <e><p><l>trimming<s n="n"/></l><r>Beschneiden<s n="n"/></r></p></e>
+    <e><p><l>trinomial<s n="n"/></l><r>Trinom<s n="n"/></r></p></e>
+    <e><p><l>trio<s n="n"/></l><r>Trio<s n="n"/></r></p></e>
+    <e><p><l>trip<s n="n"/></l><r>Ausflug<s n="n"/></r></p></e>
+    <e><p><l>trisection<s n="n"/></l><r>Dreiteilung<s n="n"/></r></p></e>
+    <e><p><l>trismus<s n="n"/></l><r>Trismus<s n="n"/></r></p></e>
+    <e><p><l>trisomy<s n="n"/></l><r>Trisomie<s n="n"/></r></p></e>
+    <e><p><l>tritanomaly<s n="n"/></l><r>Azyanoblepsie <s n="n"/></r></p></e>
+    <e><p><l>tritium<s n="n"/></l><r>Tritium<s n="n"/></r></p></e>
+    <e><p><l>triton<s n="n"/></l><r>Triton<s n="n"/></r></p></e>
+    <e><p><l>triumph<s n="n"/></l><r>Triumph<s n="n"/></r></p></e>
+    <e><p><l>triumvirate<s n="n"/></l><r>Triumvirat<s n="n"/></r></p></e>
+    <e><p><l>trivium<s n="n"/></l><r>Trivium<s n="n"/></r></p></e>
+    <e><p><l>trochoid<s n="n"/></l><r>Trochoide<s n="n"/></r></p></e>
+    <e><p><l>trolleybus<s n="n"/></l><r>Trolleybus<s n="n"/></r></p></e>
+    <e><p><l>trombone<s n="n"/></l><r>Posaune<s n="n"/></r></p></e>
+    <e><p><l>trophoblast<s n="n"/></l><r>Trophoblast<s n="n"/></r></p></e>
+    <e><p><l>trophy<s n="n"/></l><r>Trophäe<s n="n"/></r></p></e>
+    <e><p><l>tropic<s n="n"/></l><r>Wendekreis<s n="n"/></r></p></e>
+    <e><p><l>tropism<s n="n"/></l><r>Tropismus<s n="n"/></r></p></e>
+    <e><p><l>tropopause<s n="n"/></l><r>Tropopause<s n="n"/></r></p></e>
+    <e><p><l>troposphere<s n="n"/></l><r>Troposphäre<s n="n"/></r></p></e>
+    <e><p><l>trousers<s n="n"/></l><r>Hose<s n="n"/></r></p></e>
+    <e><p><l>trowel<s n="n"/></l><r>Maurerkelle<s n="n"/></r></p></e>
+    <e><p><l>truce<s n="n"/></l><r>Waffenruhe<s n="n"/></r></p></e>
+    <e><p><l>truck<s n="n"/></l><r>Lastkraftwagen<s n="n"/></r></p></e>
+    <e><p><l>trunk<s n="n"/></l><r>Torso<s n="n"/></r></p></e>
+    <e><p><l>trust<s n="n"/></l><r>Trust<s n="n"/></r></p></e>
+    <e><p><l>trypanosomiasis<s n="n"/></l><r>Trypanosomiasis<s n="n"/></r></p></e>
+    <e><p><l>tsarism<s n="n"/></l><r>Zarismus<s n="n"/></r></p></e>
+    <e><p><l>tuba<s n="n"/></l><r>Tuba<s n="n"/></r></p></e>
+    <e><p><l>tube<s n="n"/></l><r>Tube<s n="n"/></r></p></e>
+    <e><p><l>tuber<s n="n"/></l><r>Knolle<s n="n"/></r></p></e>
+    <e><p><l>tuberculosis<s n="n"/></l><r>Tuberkulose<s n="n"/></r></p></e>
+    <e><p><l>tubulin<s n="n"/></l><r>Tubulin<s n="n"/></r></p></e>
+    <e><p><l>Tuesday<s n="n"/></l><r>Dienstag<s n="n"/></r></p></e>
+    <e><p><l>tulip<s n="n"/></l><r>Tulpe<s n="n"/></r></p></e>
+    <e><p><l>tumor<s n="n"/></l><r>Tumor<s n="n"/></r></p></e>
+    <e><p><l>tuna<s n="n"/></l><r>Thunfisch<s n="n"/></r></p></e>
+    <e><p><l>tundra<s n="n"/></l><r>Tundra<s n="n"/></r></p></e>
+    <e><p><l>tuner<s n="n"/></l><r>Empfänger<s n="n"/></r></p></e>
+    <e><p><l>tunic<s n="n"/></l><r>Tunika<s n="n"/></r></p></e>
+    <e><p><l>tuning<s n="n"/></l><r>Abstimmen<s n="n"/></r></p></e>
+    <e><p><l>tunnel<s n="n"/></l><r>Tunnel<s n="n"/></r></p></e>
+    <e><p><l>turban<s n="n"/></l><r>Turban<s n="n"/></r></p></e>
+    <e><p><l>turbidimeter<s n="n"/></l><r>Trübungsmesser<s n="n"/></r></p></e>
+    <e><p><l>turbidity<s n="n"/></l><r>Trübheit<s n="n"/></r></p></e>
+    <e><p><l>turbine<s n="n"/></l><r>Turbine<s n="n"/></r></p></e>
+    <e><p><l>turbocompressor<s n="n"/></l><r>Turbolader<s n="n"/></r></p></e>
+    <e><p><l>turbot<s n="n"/></l><r>Steinbutt<s n="n"/></r></p></e>
+    <e><p><l>tureen<s n="n"/></l><r>Terrine<s n="n"/></r></p></e>
+    <e><p><l>Turk<s n="n"/></l><r>Türke<s n="n"/></r></p></e>
+    <e><p><l>turncoat<s n="n"/></l><r>Verräter<s n="n"/></r></p></e>
+    <e><p><l>turner<s n="n"/></l><r>Turner<s n="n"/></r></p></e>
+    <e><p><l>turnery<s n="n"/></l><r>Drechseln<s n="n"/></r></p></e>
+    <e><p><l>turning<s n="n"/></l><r>Biegung<s n="n"/></r></p></e>
+    <e><p><l>turning<s n="n"/></l><r>Drehen<s n="n"/></r></p></e>
+    <e><p><l>turnip<s n="n"/></l><r>Weißrübe<s n="n"/></r></p></e>
+    <e><p><l>turnip<s n="n"/></l><r>Rübe<s n="n"/></r></p></e>
+    <e><p><l>turnover<s n="n"/></l><r>Umsatz<s n="n"/></r></p></e>
+    <e><p><l>turpentine<s n="n"/></l><r>Terpentin<s n="n"/></r></p></e>
+    <e><p><l>turquoise<s n="n"/></l><r>Türkis<s n="n"/></r></p></e>
+    <e><p><l>turret<s n="n"/></l><r>Drehkreuz<s n="n"/></r></p></e>
+    <e><p><l>turtle<s n="n"/></l><r>Schildkröte<s n="n"/></r></p></e>
+    <e><p><l>tuxedo<s n="n"/></l><r>Smoking<s n="n"/></r></p></e>
+    <e><p><l>TV<s n="n"/></l><r>Fernsehen<s n="n"/></r></p></e>
+    <e><p><l>twist<s n="n"/></l><r>Twist<s n="n"/></r></p></e>
+    <e><p><l>tycoon<s n="n"/></l><r>Tycoon<s n="n"/></r></p></e>
+    <e><p><l>tympanometry<s n="n"/></l><r>Tympanometrie<s n="n"/></r></p></e>
+    <e><p><l>type<s n="n"/></l><r>Typ<s n="n"/></r></p></e>
+    <e><p><l>typhoon<s n="n"/></l><r>Taifun<s n="n"/></r></p></e>
+    <e><p><l>typhus<s n="n"/></l><r>Fleckfieber<s n="n"/></r></p></e>
+    <e><p><l>typology<s n="n"/></l><r>Typologie<s n="n"/></r></p></e>
+    <e><p><l>tyranny<s n="n"/></l><r>Tyrannei<s n="n"/></r></p></e>
+    <e><p><l>tyrant<s n="n"/></l><r>Tyrann<s n="n"/></r></p></e>
+    <e><p><l>tzar<s n="n"/></l><r>Zar<s n="n"/></r></p></e>
+    <e><p><l>ulcer<s n="n"/></l><r>Geschwür<s n="n"/></r></p></e>
+    <e><p><l>ulceration<s n="n"/></l><r>Ulzeration<s n="n"/></r></p></e>
+    <e><p><l>ultimatum<s n="n"/></l><r>Ultimatum<s n="n"/></r></p></e>
+    <e><p><l>ultrasound<s n="n"/></l><r>Ultraschall<s n="n"/></r></p></e>
+    <e><p><l>ultraviolet radiation<s n="n"/></l><r>Ultraviolettstrahlung<s n="n"/></r></p></e>
+    <e><p><l>umbel<s n="n"/></l><r>Dolde<s n="n"/></r></p></e>
+    <e><p><l>umbrella<s n="n"/></l><r>Regenschirm<s n="n"/></r></p></e>
+    <e><p><l>UN<s n="n"/></l><r>Vereinte Nationen<s n="n"/></r></p></e>
+    <e><p><l>uncertainty<s n="n"/></l><r>Unsicherheit<s n="n"/></r></p></e>
+    <e><p><l>unconformity<s n="n"/></l><r>Diskordanz<s n="n"/></r></p></e>
+    <e><p><l>underemployment<s n="n"/></l><r>Unterbeschäftigung<s n="n"/></r></p></e>
+    <e><p><l>undergraduate<s n="n"/></l><r>Student ohne Abschluss<s n="n"/></r></p></e>
+    <e><p><l>understanding<s n="n"/></l><r>Verstehen<s n="n"/></r></p></e>
+    <e><p><l>underwear<s n="n"/></l><r>Unterwäsche<s n="n"/></r></p></e>
+    <e><p><l>unemployment<s n="n"/></l><r>Arbeitslosigkeit<s n="n"/></r></p></e>
+    <e><p><l>ungulate<s n="n"/></l><r>Huftier<s n="n"/></r></p></e>
+    <e><p><l>unicorn<s n="n"/></l><r>Einhorn<s n="n"/></r></p></e>
+    <e><p><l>unification<s n="n"/></l><r>Unifikation<s n="n"/></r></p></e>
+    <e><p><l>uniform<s n="n"/></l><r>Uniform<s n="n"/></r></p></e>
+    <e><p><l>unijunction transistor<s n="n"/></l><r>Unijunctiontransistor<s n="n"/></r></p></e>
+    <e><p><l>unintelligence<s n="n"/></l><r>Dummheit<s n="n"/></r></p></e>
+    <e><p><l>union<s n="n"/></l><r>Union<s n="n"/></r></p></e>
+    <e><p><l>unit<s n="n"/></l><r>Einheit<s n="n"/></r></p></e>
+    <e><p><l>unitarianism<s n="n"/></l><r>Unitarismus<s n="n"/></r></p></e>
+    <e><p><l>univalve<s n="n"/></l><r>Molluske<s n="n"/></r></p></e>
+    <e><p><l>universalism<s n="n"/></l><r>Universalismus<s n="n"/></r></p></e>
+    <e><p><l>universe<s n="n"/></l><r>Universum<s n="n"/></r></p></e>
+    <e><p><l>university<s n="n"/></l><r>Universität<s n="n"/></r></p></e>
+    <e><p><l>upholstery<s n="n"/></l><r>Polsterung<s n="n"/></r></p></e>
+    <e><p><l>uranium<s n="n"/></l><r>Uran<s n="n"/></r></p></e>
+    <e><p><l>urbanization<s n="n"/></l><r>Urbanisierung<s n="n"/></r></p></e>
+    <e><p><l>ureter<s n="n"/></l><r>Harnleiter<s n="n"/></r></p></e>
+    <e><p><l>urethra<s n="n"/></l><r>Harnröhre<s n="n"/></r></p></e>
+    <e><p><l>urine<s n="n"/></l><r>Urin<s n="n"/></r></p></e>
+    <e><p><l>urn<s n="n"/></l><r>Urne<s n="n"/></r></p></e>
+    <e><p><l>urobilinogen<s n="n"/></l><r>Urobilinogen<s n="n"/></r></p></e>
+    <e><p><l>urologist<s n="n"/></l><r>Urologe<s n="n"/></r></p></e>
+    <e><p><l>urology<s n="n"/></l><r>Urologie<s n="n"/></r></p></e>
+    <e><p><l>usage<s n="n"/></l><r>Gebrauch<s n="n"/></r></p></e>
+    <e><p><l>user<s n="n"/></l><r>Benutzer<s n="n"/></r></p></e>
+    <e><p><l>usufruct<s n="n"/></l><r>Nießbrauch<s n="n"/></r></p></e>
+    <e><p><l>utensil<s n="n"/></l><r>Gerät<s n="n"/></r></p></e>
+    <e><p><l>utilitarism<s n="n"/></l><r>Utilitarismus<s n="n"/></r></p></e>
+    <e><p><l>utility<s n="n"/></l><r>Dienstprogramm<s n="n"/></r></p></e>
+    <e><p><l>utopia<s n="n"/></l><r>Utopie<s n="n"/></r></p></e>
+    <e><p><l>vacation<s n="n"/></l><r>Urlaub<s n="n"/></r></p></e>
+    <e><p><l>vaccination<s n="n"/></l><r>Impfung<s n="n"/></r></p></e>
+    <e><p><l>vaccine<s n="n"/></l><r>Impfstoff<s n="n"/></r></p></e>
+    <e><p><l>vacuole<s n="n"/></l><r>Vakuole<s n="n"/></r></p></e>
+    <e><p><l>vagina<s n="n"/></l><r>Vagina<s n="n"/></r></p></e>
+    <e><p><l>valency<s n="n"/></l><r>Valenz<s n="n"/></r></p></e>
+    <e><p><l>validation<s n="n"/></l><r>Plausibilitätsprüfung<s n="n"/></r></p></e>
+    <e><p><l>valley<s n="n"/></l><r>Tal<s n="n"/></r></p></e>
+    <e><p><l>valorization<s n="n"/></l><r>Valorisierung<s n="n"/></r></p></e>
+    <e><p><l>valuation<s n="n"/></l><r>Bewertung<s n="n"/></r></p></e>
+    <e><p><l>value<s n="n"/></l><r>Wert<s n="n"/></r></p></e>
+    <e><p><l>vamp<s n="n"/></l><r>Vamp<s n="n"/></r></p></e>
+    <e><p><l>vampire<s n="n"/></l><r>Vampir<s n="n"/></r></p></e>
+    <e><p><l>vanadium<s n="n"/></l><r>Vanadium<s n="n"/></r></p></e>
+    <e><p><l>vandal<s n="n"/></l><r>Vandal<s n="n"/></r></p></e>
+    <e><p><l>vandalism<s n="n"/></l><r>Vandalismus<s n="n"/></r></p></e>
+    <e><p><l>vanity<s n="n"/></l><r>Eitelkeit<s n="n"/></r></p></e>
+    <e><p><l>vaporization<s n="n"/></l><r>Verdampfung<s n="n"/></r></p></e>
+    <e><p><l>vaporizer<s n="n"/></l><r>Verdampfer<s n="n"/></r></p></e>
+    <e><p><l>varactor<s n="n"/></l><r>Kapazitätsdiode<s n="n"/></r></p></e>
+    <e><p><l>variable<s n="n"/></l><r>Variable<s n="n"/></r></p></e>
+    <e><p><l>variance<s n="n"/></l><r>Varianz<s n="n"/></r></p></e>
+    <e><p><l>variation<s n="n"/></l><r>Variation<s n="n"/></r></p></e>
+    <e><p><l>variety<s n="n"/></l><r>Varietät<s n="n"/></r></p></e>
+    <e><p><l>variolation<s n="n"/></l><r>Inokulation<s n="n"/></r></p></e>
+    <e><p><l>varistor<s n="n"/></l><r>Varistor<s n="n"/></r></p></e>
+    <e><p><l>vase<s n="n"/></l><r>Vase<s n="n"/></r></p></e>
+    <e><p><l>vasodilation<s n="n"/></l><r>Vasodilatation<s n="n"/></r></p></e>
+    <e><p><l>vassal<s n="n"/></l><r>Vasall<s n="n"/></r></p></e>
+    <e><p><l>vassalage<s n="n"/></l><r>Vasallentum<s n="n"/></r></p></e>
+    <e><p><l>vector<s n="n"/></l><r>Vektor<s n="n"/></r></p></e>
+    <e><p><l>vegetable<s n="n"/></l><r>Gemüse<s n="n"/></r></p></e>
+    <e><p><l>vegetarian<s n="n"/></l><r>Vegetarier<s n="n"/></r></p></e>
+    <e><p><l>vehicle<s n="n"/></l><r>Fahrzeug<s n="n"/></r></p></e>
+    <e><p><l>veil<s n="n"/></l><r>Schleier<s n="n"/></r></p></e>
+    <e><p><l>velarisation<s n="n"/></l><r>Velarisierung<s n="n"/></r></p></e>
+    <e><p><l>velocity<s n="n"/></l><r>Geschwindigkeit<s n="n"/></r></p></e>
+    <e><p><l>velodrome<s n="n"/></l><r>Velodrom<s n="n"/></r></p></e>
+    <e><p><l>velum<s n="n"/></l><r>Velum<s n="n"/></r></p></e>
+    <e><p><l>vendor<s n="n"/></l><r>Verkäufer<s n="n"/></r></p></e>
+    <e><p><l>ventilation<s n="n"/></l><r>Ventilation<s n="n"/></r></p></e>
+    <e><p><l>ventricle<s n="n"/></l><r>Ventrikel<s n="n"/></r></p></e>
+    <e><p><l>venule<s n="n"/></l><r>Venole<s n="n"/></r></p></e>
+    <e><p><l>veranda<s n="n"/></l><r>Veranda<s n="n"/></r></p></e>
+    <e><p><l>verb<s n="n"/></l><r>Verb<s n="n"/></r></p></e>
+    <e><p><l>vermicompost<s n="n"/></l><r>Wurmkiste<s n="n"/></r></p></e>
+    <e><p><l>vernacular<s n="n"/></l><r>Umgangssprache<s n="n"/></r></p></e>
+    <e><p><l>verse<s n="n"/></l><r>Vers<s n="n"/></r></p></e>
+    <e><p><l>vertebra<s n="n"/></l><r>Wirbel<s n="n"/></r></p></e>
+    <e><p><l>vertebrate<s n="n"/></l><r>Wirbeltier<s n="n"/></r></p></e>
+    <e><p><l>vesicle<s n="n"/></l><r>Vesikel<s n="n"/></r></p></e>
+    <e><p><l>vetch<s n="n"/></l><r>Wicke<s n="n"/></r></p></e>
+    <e><p><l>veteran<s n="n"/></l><r>Veteran<s n="n"/></r></p></e>
+    <e><p><l>veterinarian<s n="n"/></l><r>Tierarzt<s n="n"/></r></p></e>
+    <e><p><l>viaduct<s n="n"/></l><r>Viadukt<s n="n"/></r></p></e>
+    <e><p><l>vibration<s n="n"/></l><r>Vibration<s n="n"/></r></p></e>
+    <e><p><l>vicar<s n="n"/></l><r>Vikar<s n="n"/></r></p></e>
+    <e><p><l>vice<s n="n"/></l><r>Laster<s n="n"/></r></p></e>
+    <e><p><l>vicinity<s n="n"/></l><r>Umgebung<s n="n"/></r></p></e>
+    <e><p><l>victim<s n="n"/></l><r>Opfer<s n="n"/></r></p></e>
+    <e><p><l>victimization<s n="n"/></l><r>Betrügerei<s n="n"/></r></p></e>
+    <e><p><l>victimology<s n="n"/></l><r>Viktimologie<s n="n"/></r></p></e>
+    <e><p><l>victory<s n="n"/></l><r>Sieg<s n="n"/></r></p></e>
+    <e><p><l>video<s n="n"/></l><r>Video<s n="n"/></r></p></e>
+    <e><p><l>videocassette<s n="n"/></l><r>Videokassette<s n="n"/></r></p></e>
+    <e><p><l>videoconference<s n="n"/></l><r>Videokonferenz<s n="n"/></r></p></e>
+    <e><p><l>videotext<s n="n"/></l><r>Teletext<s n="n"/></r></p></e>
+    <e><p><l>vidicon<s n="n"/></l><r>Vidikon<s n="n"/></r></p></e>
+    <e><p><l>view<s n="n"/></l><r>Ansicht<s n="n"/></r></p></e>
+    <e><p><l>viewing<s n="n"/></l><r>Ansicht<s n="n"/></r></p></e>
+    <e><p><l>villa<s n="n"/></l><r>Villa<s n="n"/></r></p></e>
+    <e><p><l>village<s n="n"/></l><r>Dorf<s n="n"/></r></p></e>
+    <e><p><l>village<s n="n"/></l><r>Dorf<s n="n"/></r></p></e>
+    <e><p><l>vinaigrette<s n="n"/></l><r>Vinaigrette<s n="n"/></r></p></e>
+    <e><p><l>vine<s n="n"/></l><r>Kletterpflanze<s n="n"/></r></p></e>
+    <e><p><l>vinegar<s n="n"/></l><r>Essig<s n="n"/></r></p></e>
+    <e><p><l>vineyard<s n="n"/></l><r>Weinberg<s n="n"/></r></p></e>
+    <e><p><l>vintage<s n="n"/></l><r>Traubenlese<s n="n"/></r></p></e>
+    <e><p><l>vinyl<s n="n"/></l><r>Vinyl<s n="n"/></r></p></e>
+    <e><p><l>viola<s n="n"/></l><r>Bratsche<s n="n"/></r></p></e>
+    <e><p><l>violin<s n="n"/></l><r>Violine<s n="n"/></r></p></e>
+    <e><p><l>violinist<s n="n"/></l><r>Violinist<s n="n"/></r></p></e>
+    <e><p><l>virgin<s n="n"/></l><r>Jungfrau<s n="n"/></r></p></e>
+    <e><p><l>virology<s n="n"/></l><r>Virologie<s n="n"/></r></p></e>
+    <e><p><l>virtue<s n="n"/></l><r>Tugend<s n="n"/></r></p></e>
+    <e><p><l>virtuosity<s n="n"/></l><r>Virtuosität<s n="n"/></r></p></e>
+    <e><p><l>virus<s n="n"/></l><r>Virus<s n="n"/></r></p></e>
+    <e><p><l>visa<s n="n"/></l><r>Visa<s n="n"/></r></p></e>
+    <e><p><l>viscose<s n="n"/></l><r>Viskose<s n="n"/></r></p></e>
+    <e><p><l>viscosimeter<s n="n"/></l><r>Viskosimeter<s n="n"/></r></p></e>
+    <e><p><l>viscosity<s n="n"/></l><r>Viskosität<s n="n"/></r></p></e>
+    <e><p><l>vision<s n="n"/></l><r>Vision<s n="n"/></r></p></e>
+    <e><p><l>visitor<s n="n"/></l><r>Besucher<s n="n"/></r></p></e>
+    <e><p><l>visualization<s n="n"/></l><r>Visualisierung<s n="n"/></r></p></e>
+    <e><p><l>vitalism<s n="n"/></l><r>Vitalismus<s n="n"/></r></p></e>
+    <e><p><l>vitamin<s n="n"/></l><r>Vitamin<s n="n"/></r></p></e>
+    <e><p><l>viticulture<s n="n"/></l><r>Weinbau<s n="n"/></r></p></e>
+    <e><p><l>vitrification<s n="n"/></l><r>Vitrifizierung<s n="n"/></r></p></e>
+    <e><p><l>vivisection<s n="n"/></l><r>Vivisektion<s n="n"/></r></p></e>
+    <e><p><l>vizier<s n="n"/></l><r>Wesir<s n="n"/></r></p></e>
+    <e><p><l>vocabulary<s n="n"/></l><r>Wortschatz<s n="n"/></r></p></e>
+    <e><p><l>vocalization<s n="n"/></l><r>Vokalisierung<s n="n"/></r></p></e>
+    <e><p><l>vocation<s n="n"/></l><r>Berufung<s n="n"/></r></p></e>
+    <e><p><l>vocative<s n="n"/></l><r>Vokativ<s n="n"/></r></p></e>
+    <e><p><l>vodka<s n="n"/></l><r>Wodka<s n="n"/></r></p></e>
+    <e><p><l>voice<s n="n"/></l><r>Stimme<s n="n"/></r></p></e>
+    <e><p><l>volatility<s n="n"/></l><r>Volatilität<s n="n"/></r></p></e>
+    <e><p><l>volcano<s n="n"/></l><r>Vulkan<s n="n"/></r></p></e>
+    <e><p><l>volt<s n="n"/></l><r>Volt<s n="n"/></r></p></e>
+    <e><p><l>voltage<s n="n"/></l><r>elektrische Spannung<s n="n"/></r></p></e>
+    <e><p><l>voltameter<s n="n"/></l><r>Spannungsmessgerät<s n="n"/></r></p></e>
+    <e><p><l>voltammetry<s n="n"/></l><r>Voltammetrie<s n="n"/></r></p></e>
+    <e><p><l>voltmeter<s n="n"/></l><r>Spannungsmessgerät<s n="n"/></r></p></e>
+    <e><p><l>volume<s n="n"/></l><r>Volumen<s n="n"/></r></p></e>
+    <e><p><l>voluntarism<s n="n"/></l><r>Voluntarismus<s n="n"/></r></p></e>
+    <e><p><l>voluntarist<s n="n"/></l><r>Volontär<s n="n"/></r></p></e>
+    <e><p><l>volunteer<s n="n"/></l><r>Ehrenamtliche<s n="n"/></r></p></e>
+    <e><p><l>volunteering<s n="n"/></l><r>ehrenamtliche Arbeit<s n="n"/></r></p></e>
+    <e><p><l>vomit<s n="n"/></l><r>Erbrochene<s n="n"/></r></p></e>
+    <e><p><l>vorticity<s n="n"/></l><r>Vorticity<s n="n"/></r></p></e>
+    <e><p><l>vote<s n="n"/></l><r>Abstimmung<s n="n"/></r></p></e>
+    <e><p><l>voyeurism<s n="n"/></l><r>Voyeurismus<s n="n"/></r></p></e>
+    <e><p><l>vulcanism<s n="n"/></l><r>Vulkanismus<s n="n"/></r></p></e>
+    <e><p><l>vulcanologist<s n="n"/></l><r>Vulkanologe<s n="n"/></r></p></e>
+    <e><p><l>vulcanology<s n="n"/></l><r>Vulkanologie<s n="n"/></r></p></e>
+    <e><p><l>vulnerability<s n="n"/></l><r>Verwundbarkeit<s n="n"/></r></p></e>
+    <e><p><l>vulture<s n="n"/></l><r>Aasgeier<s n="n"/></r></p></e>
+    <e><p><l>vulva<s n="n"/></l><r>Vulva<s n="n"/></r></p></e>
+    <e><p><l>wafer<s n="n"/></l><r>Oblate<s n="n"/></r></p></e>
+    <e><p><l>waffle<s n="n"/></l><r>Waffel<s n="n"/></r></p></e>
+    <e><p><l>wage<s n="n"/></l><r>Lohn<s n="n"/></r></p></e>
+    <e><p><l>waist<s n="n"/></l><r>Taille<s n="n"/></r></p></e>
+    <e><p><l>waistcoat<s n="n"/></l><r>Weste<s n="n"/></r></p></e>
+    <e><p><l>waiter<s n="n"/></l><r>Kellner<s n="n"/></r></p></e>
+    <e><p><l>waitress<s n="n"/></l><r>Kellnerin<s n="n"/></r></p></e>
+    <e><p><l>walk<s n="n"/></l><r>Spaziergang<s n="n"/></r></p></e>
+    <e><p><l>walkie-talkie<s n="n"/></l><r>Handsprechfunkgerät<s n="n"/></r></p></e>
+    <e><p><l>walking<s n="n"/></l><r>Gehen<s n="n"/></r></p></e>
+    <e><p><l>wall<s n="n"/></l><r>Mauer<s n="n"/></r></p></e>
+    <e><p><l>wallet<s n="n"/></l><r>Geldbeutel<s n="n"/></r></p></e>
+    <e><p><l>walnut<s n="n"/></l><r>Walnuss<s n="n"/></r></p></e>
+    <e><p><l>walrus<s n="n"/></l><r>Walross<s n="n"/></r></p></e>
+    <e><p><l>wand<s n="n"/></l><r>Zauberstab<s n="n"/></r></p></e>
+    <e><p><l>war<s n="n"/></l><r>Krieg<s n="n"/></r></p></e>
+    <e><p><l>wardrobe<s n="n"/></l><r>Kleiderschrank<s n="n"/></r></p></e>
+    <e><p><l>warehouse<s n="n"/></l><r>Lagerhaus<s n="n"/></r></p></e>
+    <e><p><l>warmongering<s n="n"/></l><r>Kriegshetze<s n="n"/></r></p></e>
+    <e><p><l>warning<s n="n"/></l><r>Warnung<s n="n"/></r></p></e>
+    <e><p><l>warranty<s n="n"/></l><r>Garantie<s n="n"/></r></p></e>
+    <e><p><l>wart<s n="n"/></l><r>Warze<s n="n"/></r></p></e>
+    <e><p><l>washing<s n="n"/></l><r>Waschen<s n="n"/></r></p></e>
+    <e><p><l>waste<s n="n"/></l><r>Abfall<s n="n"/></r></p></e>
+    <e><p><l>watch<s n="n"/></l><r>Armbanduhr<s n="n"/></r></p></e>
+    <e><p><l>watchmaker<s n="n"/></l><r>Uhrmacher<s n="n"/></r></p></e>
+    <e><p><l>watchmaking<s n="n"/></l><r>Uhrmacherei<s n="n"/></r></p></e>
+    <e><p><l>watchtower<s n="n"/></l><r>Wachturm<s n="n"/></r></p></e>
+    <e><p><l>watercolour<s n="n"/></l><r>Aquarell<s n="n"/></r></p></e>
+    <e><p><l>waterfall<s n="n"/></l><r>Wasserfall<s n="n"/></r></p></e>
+    <e><p><l>watermelon<s n="n"/></l><r>Wassermelone<s n="n"/></r></p></e>
+    <e><p><l>watt<s n="n"/></l><r>Watt<s n="n"/></r></p></e>
+    <e><p><l>watt<s n="n"/></l><r>Watt<s n="n"/></r></p></e>
+    <e><p><l>wattmeter<s n="n"/></l><r>Leistungsmessgerät<s n="n"/></r></p></e>
+    <e><p><l>wave<s n="n"/></l><r>Welle<s n="n"/></r></p></e>
+    <e><p><l>way<s n="n"/></l><r>Weg<s n="n"/></r></p></e>
+    <e><p><l>weakening<s n="n"/></l><r>Schwäschung<s n="n"/></r></p></e>
+    <e><p><l>wealth<s n="n"/></l><r>Wohlstand<s n="n"/></r></p></e>
+    <e><p><l>weaning<s n="n"/></l><r>Entwöhnung<s n="n"/></r></p></e>
+    <e><p><l>weapon<s n="n"/></l><r>Waffe<s n="n"/></r></p></e>
+    <e><p><l>wear<s n="n"/></l><r>Verschleiß<s n="n"/></r></p></e>
+    <e><p><l>weathercock<s n="n"/></l><r>Wetterhahn<s n="n"/></r></p></e>
+    <e><p><l>weaving<s n="n"/></l><r>Weben<s n="n"/></r></p></e>
+    <e><p><l>web<s n="n"/></l><r>Web<s n="n"/></r></p></e>
+    <e><p><l>website<s n="n"/></l><r>Website<s n="n"/></r></p></e>
+    <e><p><l>wedding<s n="n"/></l><r>Hochzeit<s n="n"/></r></p></e>
+    <e><p><l>Wednesday<s n="n"/></l><r>Mittwoch<s n="n"/></r></p></e>
+    <e><p><l>weeding<s n="n"/></l><r>Jäten<s n="n"/></r></p></e>
+    <e><p><l>week<s n="n"/></l><r>Woche<s n="n"/></r></p></e>
+    <e><p><l>weekend<s n="n"/></l><r>Wochenende<s n="n"/></r></p></e>
+    <e><p><l>weevil<s n="n"/></l><r>Rüsselkäfer<s n="n"/></r></p></e>
+    <e><p><l>weight<s n="n"/></l><r>Gewicht<s n="n"/></r></p></e>
+    <e><p><l>weightlifting<s n="n"/></l><r>Gewichtheben<s n="n"/></r></p></e>
+    <e><p><l>welding<s n="n"/></l><r>Schweißen<s n="n"/></r></p></e>
+    <e><p><l>Welsh<s n="n"/></l><r>Welsh<s n="n"/></r></p></e>
+    <e><p><l>wettability<s n="n"/></l><r>Benetzbarkeit<s n="n"/></r></p></e>
+    <e><p><l>whale<s n="n"/></l><r>Wal<s n="n"/></r></p></e>
+    <e><p><l>whaler<s n="n"/></l><r>Walfänger<s n="n"/></r></p></e>
+    <e><p><l>wheel<s n="n"/></l><r>Rad<s n="n"/></r></p></e>
+    <e><p><l>wheelbase<s n="n"/></l><r>Radstand<s n="n"/></r></p></e>
+    <e><p><l>whip<s n="n"/></l><r>Peitsche<s n="n"/></r></p></e>
+    <e><p><l>whisky<s n="n"/></l><r>Whisky<s n="n"/></r></p></e>
+    <e><p><l>whistle<s n="n"/></l><r>Trillerpfeife<s n="n"/></r></p></e>
+    <e><p><l>white<s n="n"/></l><r>Weiß<s n="n"/></r></p></e>
+    <e><p><l>whole<s n="n"/></l><r>Gesamtheit<s n="n"/></r></p></e>
+    <e><p><l>wholesaler<s n="n"/></l><r>Großhändler<s n="n"/></r></p></e>
+    <e><p><l>whore<s n="n"/></l><r>Hure<s n="n"/></r></p></e>
+    <e><p><l>widower<s n="n"/></l><r>Witwer<s n="n"/></r></p></e>
+    <e><p><l>widowhood<s n="n"/></l><r>Witwenstand<s n="n"/></r></p></e>
+    <e><p><l>width<s n="n"/></l><r>Breite<s n="n"/></r></p></e>
+    <e><p><l>wife<s n="n"/></l><r>Ehefrau<s n="n"/></r></p></e>
+    <e><p><l>will<s n="n"/></l><r>Wille<s n="n"/></r></p></e>
+    <e><p><l>wind<s n="n"/></l><r>Wind<s n="n"/></r></p></e>
+    <e><p><l>winding<s n="n"/></l><r>Aufwicklung<s n="n"/></r></p></e>
+    <e><p><l>window<s n="n"/></l><r>Fenster<s n="n"/></r></p></e>
+    <e><p><l>windscreen<s n="n"/></l><r>Windschutzscheibe<s n="n"/></r></p></e>
+    <e><p><l>wine<s n="n"/></l><r>Wein<s n="n"/></r></p></e>
+    <e><p><l>wing<s n="n"/></l><r>Tragfläche<s n="n"/></r></p></e>
+    <e><p><l>winter<s n="n"/></l><r>Winter<s n="n"/></r></p></e>
+    <e><p><l>wire<s n="n"/></l><r>Draht<s n="n"/></r></p></e>
+    <e><p><l>wisdom<s n="n"/></l><r>Weisheit<s n="n"/></r></p></e>
+    <e><p><l>wit<s n="n"/></l><r>Verstand<s n="n"/></r></p></e>
+    <e><p><l>witchcraft<s n="n"/></l><r>Hexerei<s n="n"/></r></p></e>
+    <e><p><l>withdrawal<s n="n"/></l><r>Entzug<s n="n"/></r></p></e>
+    <e><p><l>witness<s n="n"/></l><r>Zeuge<s n="n"/></r></p></e>
+    <e><p><l>wollastonite<s n="n"/></l><r>Wollastonit<s n="n"/></r></p></e>
+    <e><p><l>woman<s n="n"/></l><r>Frau<s n="n"/></r></p></e>
+    <e><p><l>wood<s n="n"/></l><r>Holz<s n="n"/></r></p></e>
+    <e><p><l>word<s n="n"/></l><r>Wort<s n="n"/></r></p></e>
+    <e><p><l>work<s n="n"/></l><r>Arbeit<s n="n"/></r></p></e>
+    <e><p><l>workbench<s n="n"/></l><r>Werkbank<s n="n"/></r></p></e>
+    <e><p><l>worker<s n="n"/></l><r>Arbeitskraft<s n="n"/></r></p></e>
+    <e><p><l>workforce<s n="n"/></l><r>Belegschaft<s n="n"/></r></p></e>
+    <e><p><l>workshop<s n="n"/></l><r>Workshop<s n="n"/></r></p></e>
+    <e><p><l>world<s n="n"/></l><r>Welt<s n="n"/></r></p></e>
+    <e><p><l>worm<s n="n"/></l><r>Wurm<s n="n"/></r></p></e>
+    <e><p><l>worry<s n="n"/></l><r>Sorge<s n="n"/></r></p></e>
+    <e><p><l>wound<s n="n"/></l><r>Wunde<s n="n"/></r></p></e>
+    <e><p><l>wrist<s n="n"/></l><r>Handgelenk<s n="n"/></r></p></e>
+    <e><p><l>wristband<s n="n"/></l><r>Armband<s n="n"/></r></p></e>
+    <e><p><l>writer<s n="n"/></l><r>Schriftsteller<s n="n"/></r></p></e>
+    <e><p><l>writing<s n="n"/></l><r>Schreiben<s n="n"/></r></p></e>
+    <e><p><l>wulfenite<s n="n"/></l><r>Wulfenit<s n="n"/></r></p></e>
+    <e><p><l>xanthoma<s n="n"/></l><r>Xanthom<s n="n"/></r></p></e>
+    <e><p><l>xanthomatosis<s n="n"/></l><r>Xanthomatose<s n="n"/></r></p></e>
+    <e><p><l>xenograft<s n="n"/></l><r>Heterotransplantat<s n="n"/></r></p></e>
+    <e><p><l>xerography<s n="n"/></l><r>Xerographie<s n="n"/></r></p></e>
+    <e><p><l>xerophyte<s n="n"/></l><r>Xerophyt<s n="n"/></r></p></e>
+    <e><p><l>xiphoid<s n="n"/></l><r>Xiphoid<s n="n"/></r></p></e>
+    <e><p><l>xylem<s n="n"/></l><r>Xylem<s n="n"/></r></p></e>
+    <e><p><l>xylography<s n="n"/></l><r>Xylographie<s n="n"/></r></p></e>
+    <e><p><l>xylophone<s n="n"/></l><r>Xylophon<s n="n"/></r></p></e>
+    <e><p><l>yacht<s n="n"/></l><r>Yacht<s n="n"/></r></p></e>
+    <e><p><l>Yankee<s n="n"/></l><r>Yankee<s n="n"/></r></p></e>
+    <e><p><l>yard<s n="n"/></l><r>Yard<s n="n"/></r></p></e>
+    <e><p><l>yardarm<s n="n"/></l><r>Rah<s n="n"/></r></p></e>
+    <e><p><l>yawl<s n="n"/></l><r>Yawl<s n="n"/></r></p></e>
+    <e><p><l>yawn<s n="n"/></l><r>Gähnen<s n="n"/></r></p></e>
+    <e><p><l>year<s n="n"/></l><r>Jahr<s n="n"/></r></p></e>
+    <e><p><l>yeast<s n="n"/></l><r>Hefe<s n="n"/></r></p></e>
+    <e><p><l>yellow<s n="n"/></l><r>Gelb<s n="n"/></r></p></e>
+    <e><p><l>yen<s n="n"/></l><r>Yen<s n="n"/></r></p></e>
+    <e><p><l>yield<s n="n"/></l><r>Ertrag<s n="n"/></r></p></e>
+    <e><p><l>yoghourt<s n="n"/></l><r>Joghurt<s n="n"/></r></p></e>
+    <e><p><l>yoke<s n="n"/></l><r>Geschirr<s n="n"/></r></p></e>
+    <e><p><l>youngster<s n="n"/></l><r>Jugendliche<s n="n"/></r></p></e>
+    <e><p><l>youth<s n="n"/></l><r>Jugend<s n="n"/></r></p></e>
+    <e><p><l>yttrium<s n="n"/></l><r>Yttrium<s n="n"/></r></p></e>
+    <e><p><l>zebra<s n="n"/></l><r>Zebra<s n="n"/></r></p></e>
+    <e><p><l>Zen<s n="n"/></l><r>Zen<s n="n"/></r></p></e>
+    <e><p><l>zeolite<s n="n"/></l><r>Zeolith<s n="n"/></r></p></e>
+    <e><p><l>zeppelin<s n="n"/></l><r>Zeppelin<s n="n"/></r></p></e>
+    <e><p><l>zinc<s n="n"/></l><r>Zink<s n="n"/></r></p></e>
+    <e><p><l>Zionism<s n="n"/></l><r>Zionismus<s n="n"/></r></p></e>
+    <e><p><l>zircon<s n="n"/></l><r>Zirkon<s n="n"/></r></p></e>
+    <e><p><l>zirconium<s n="n"/></l><r>Zirconium<s n="n"/></r></p></e>
+    <e><p><l>zither<s n="n"/></l><r>Zither<s n="n"/></r></p></e>
+    <e><p><l>zodiac<s n="n"/></l><r>Tierkreis<s n="n"/></r></p></e>
+    <e><p><l>zoisite<s n="n"/></l><r>Zoisit<s n="n"/></r></p></e>
+    <e><p><l>zombie<s n="n"/></l><r>Zombie<s n="n"/></r></p></e>
+    <e><p><l>zone<s n="n"/></l><r>Zone<s n="n"/></r></p></e>
+    <e><p><l>zoning<s n="n"/></l><r>Gebietsaufteilung<s n="n"/></r></p></e>
+    <e><p><l>zoologist<s n="n"/></l><r>Zoologe<s n="n"/></r></p></e>
+    <e><p><l>zoom<s n="n"/></l><r>Zoom<s n="n"/></r></p></e>
+    <e><p><l>zoonosis<s n="n"/></l><r>Zoonose<s n="n"/></r></p></e>
+    <e><p><l>zwitterion<s n="n"/></l><r>Zwitterion<s n="n"/></r></p></e>
+    <e><p><l>zygoma<s n="n"/></l><r>Jochbein<s n="n"/></r></p></e>
+    <e><p><l>zygote<s n="n"/></l><r>Zygote<s n="n"/></r></p></e>
+    <e><p><l>zymogen<s n="n"/></l><r>Zymogen<s n="n"/></r></p></e>

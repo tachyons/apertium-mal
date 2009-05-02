@@ -1,0 +1,216 @@
+# This is an adaptation of the English grammar distributed with Steven Abney's SCOL.
+
+phrase h;  ## immediate head
+phrase s;  ## subject
+phrase o;  ## object
+phrase f;  ## function word
+phrase k;  ## `kind' -- potential partitive complement
+
+
+###  Level 0: tags;
+###  Level 1: date cdqlx cdx doll ci-st mx;
+###  Level 2: nx advp vp inf vbnx vbg ap;
+###  Level 3: nmess;
+###  Level 4: np;
+###  Level 5: ng
+###  Level 6: pp pp-comp
+###  Level 7: src orc
+###  Level 8: c0 subc0
+###  Level 9: c subc infc vbnc vbgc cc-vp
+
+
+:mx
+
+    ## Date
+    date -> month cd (cma cd cma?)?;
+
+    ## Prenumeral Chunk
+    cdqlx -> as much as | more than | about | only | well? over;
+
+    ## Numeral Chunk
+    cdx -> (cdql|cdqlx) cd | (cdql|cdqlx)? cd+ cd;
+ 
+    ## Dollars
+    doll -> cdqlx? dol cdx;
+ 
+    ## City-State
+    ci-st -> nnp+ cma place cma?;
+ 
+    ## Measure Phrase Chunk
+    mx -> (cd|cdx) h=(units|tunits)
+       |  (cdql|cdqlx)? dt-a h=(unit|tunit)
+       ;
+
+    timex -> dtp h=tunit;
+
+    tadvx -> ( cdx? h=(nns|units|tunits)
+             | (cdql|cdqlx)? dt-a h=(nn|unit|tunit)
+             )
+             ago
+             ;
+
+    person -> tt? i* fn (i|nnp)*
+           | tt (i|nnp)*
+           ;
+
+    name -> (nnp|nnps|i)+;
+
+
+:nx
+ 
+    PROPER = place | person | name | ci-st | doll;
+    COMMON = nn | nns | month | unit | units | tunit | tunits;
+    N = PROPER | COMMON | date;
+    ADVHD = rb | cdql | then | well;
+    ADV = ADVHD | rbr | more | rbs | ql;
+    
+    VADVP =  ADV* (ADVHD | only);
+    JX = ADV? (jj | jjr | jjs);
+    JXC = JX (cma JX)* (cc | cma) JX;
+    ADJ = JX | JXC | mx;
+    PTC = ADV* (vbn | vbg);
+    DET = dt | dtp | prps | (cdql | cdqlx)? (dt-a | dt-q | dtp-q);
+    NUM = cd | cdx;
+    MX = mx | units | tunits;
+ 
+    ## Noun Chunk
+    nx -> such? DET? NUM? (ADJ | PTC)* (ADJ | N)* h=COMMON cd?
+       |  DET? NUM? (ADJ | PTC)* h=PROPER
+       |  DET h=(jjr | jjs | such)
+       |  cdql? h=dtp-q
+       |  h=( prp | cd | dtp | cd | dtp | qq | ex        # prp=Personal Pronoun
+            | name | person | doll | ci-st | rbr | rbs
+            )
+       ;
+ 
+    perx -> ( (cd | cdx | dt-a) (COMMON | doll)
+            | MX
+            )
+            (dt-a | per)
+            COMMON;
+ 
+    such-as -> such as;
+
+    rx ->  ADV+ ADV
+        |  by then
+        |  MX ago
+        ;
+
+    ax -> MX? (ADV | rx)* h=(jj | jjr | jjs);
+
+    vgx -> VADVP? h=vbg;
+    vnx -> VADVP? h=vbn;
+
+    VB-TNS = vb | vbp | vbz | vbd;
+    DO-TNS = do | doz | dod;
+    HV-TNS = hv | hvz | hvd;
+    BE-TNS = be | bem | bez | bedz | bed | ber | bedr;
+    MODAL = md | doz | do | dod;
+
+    VP-PASS = VADVP? h=(vbn | vbd | hvn | ben);
+    VP-PROG = VADVP? ( h=(vbg | hvg | beg)
+                     | f=beg VP-PASS
+                     | beg h=ax
+                     );
+    VP-PERF = VADVP? ( h=(vbn | hvn | ben)
+                     | f=ben (VP-PROG | VP-PASS)
+                     | ben h=ax
+                     );
+    VP-INF = VADVP? ( h=(vb | do | hv | be)
+                    | f=hv VP-PERF
+                    | f=be (VP-PROG | VP-PASS)
+                    | be h=ax
+                    );
+    vx -> VADVP? ( h=(md | DO-TNS | HV-TNS | BE-TNS | VB-TNS)
+                 | md VP-INF
+                 | DO-TNS VP-INF
+                 | f=HV-TNS VP-PERF
+                 | f=BE-TNS (VP-PROG | VP-PASS)
+                 | BE-TNS h=ax
+                 );
+ 
+    inf -> VADVP? to VADVP? h=VP-INF;
+ 
+
+:nmess
+    
+    DET = dt | dtp | prps cdql? (dt-q | dtp-q);
+    NOM = nx | mx | cdx | place | person | name | ci-st | doll | date;
+ 
+    nmess -> DET ax* h=NOM?;
+
+ 
+:np
+ 
+    NOM = nx | mx | cdx | place | person | name | ci-st | doll | date | today;
+    np -> only? (NOM | nmess) pos h=NOM?;
+
+ 
+:ng
+ 
+    NOM0 = nmess | np | nx | mx | cdx | place | person | name | ci-st | doll | date;
+    NPof = NOM0 (of NOM0)+;
+    NOM = NOM0 | NPof;
+    CONNECT = cma | cc | cma cc;
+ 
+    ng -> h=NOM0 of k=NOM0 (of NOM0)*
+       |  h=NOM0 (of k=NOM0 (of NOM0)*)?
+          ( cc NOM
+          | (CONNECT NOM)+ cma? cc NOM
+          )
+       ;
+ 
+
+:pp
+ 
+    PREP = in | by | to | of | than | as | cdqlx | according to | because of
+         | including | such-as;
+    NOM = ng | nmess | np | nx | mx | cdx | place | person | name | ci-st | doll | date;
+ 
+    pp -> f=PREP h=(NOM | tadvx);
+    pp-comp -> p-comp h=(NOM | tadvx);
+ 
+:rc
+
+    WH = wdt | wp;
+    NOM = ng | nmess | np | nx | mx | cdx | place | person | name | ci-st | doll | date;
+    ADV = rb | cdql | then | well | rbr | more | rbs | ql | such
+        | pp | pp-comp | rx | ax | in | tadvx | today | date;
+
+    src0 -> s=WH h=vx;
+    orc0 -> WH s=(ng | np | nx) pp* h=vx;
+
+    # The reason these are here is because they can appear in the subj-tail
+    vnp -> h=vnx (o=NOM | ADV)*;
+    vgp -> h=vgx (o=NOM | ADV)*;
+    infp -> h=inf (o=NOM | ADV)*; 
+ 
+ 
+:c0
+ 
+    NOM = ng | nmess | np | nx | mx | cdx | place | person | name | ci-st | doll | date;
+    ADV = rb | cdql | then | well | rbr | more | rbs | ql | such
+        | pp | pp-comp | rx | ax | in | tadvx | today | date;
+    MOD = NOM | ADV | infp | vnp | vgp
+        | [rc h=src0 o=NOM? ADV* ]
+        | [rc h=orc0 ADV* ]
+        ;
+    SUBJ-TAIL = MOD*
+              | pp* cma (MOD | cc)* cma
+              ;
+ 
+    c0 -> s=NOM SUBJ-TAIL h=vx;
+    subc0 -> in? (s=pp-comp | (comp | because | wrb) s=NOM) SUBJ-TAIL h=vx;
+
+ 
+:cl
+ 
+    NOM = ng | nmess | np | nx | mx | cdx | place | person | name | ci-st | doll | date;
+    ADV = rb | cdql | then | well | rbr | more | rbs | ql | such
+        | pp | pp-comp | rx | ax | in | tadvx | today | date;
+
+    c -> h=c0 o=NOM? ADV*;
+    c-inv -> h=vx s=NOM;
+    subc -> h=subc0 o=NOM? ADV*;
+    rc -> h=(src0|orc0) o=NOM? ADV*;
+    vp -> h=vx o=NOM? ADV*;

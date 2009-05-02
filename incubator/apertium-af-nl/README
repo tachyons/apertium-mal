@@ -1,0 +1,17 @@
+apertium-af-nl
+Apertium 2 Afrikaans-Nederlands machine translation data.
+
+Files:
+
+apertium-af-nl.af.dix           -- Afrikaans morphological dictionary
+apertium-af-nl.af.tsx           -- Tagger tag definition file
+apertium-af-nl.af-nl.dix        -- Bilingual dictionary
+apertium-af-nl.nl.dix           -- Netherlands morphological dictionary
+apertium-af-nl.trules-af-nl.xml -- Transfer rules for Afrikaans-Nederlands translation
+apertium-af-nl.trules-af-nl.xml -- Transfer rules for Nederlands-Afrikaans translation
+
+==Pipeline==
+
+===af -> nl===
+
+apertium-destxt | lt-proc af-nl.automorf.bin | apertium-pretransfer |  apertium-tagger --tagger ../apertium-en-de/de-en.prob | apertium-transfer trules-af-nl.xml trules-af-nl.bin af-nl.autobil.bin | lt-proc -g af-nl.autogen.bin | lt-proc -p af-nl.autopgen.bin | apertium-retxt

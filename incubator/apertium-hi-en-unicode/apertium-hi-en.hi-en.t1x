@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transfer default="chunk">
+  <section-def-cats>
+    <def-cat n="nom">
+      <cat-item tags="n.*"/>
+    </def-cat>
+    <def-cat n="num">
+      <cat-item tags="num.*"/>
+    </def-cat>
+    <def-cat n="adj">
+      <cat-item tags="adj.*"/>
+    </def-cat>
+    <def-cat n="adj_nom">
+      <cat-item tags="adj.nom.*"/>
+    </def-cat>
+    <def-cat n="cnjcoo">
+      <cat-item tags="cnjcoo.*"/>
+    </def-cat>
+<def-cat n="vrb">
+   <cat-item tags="vblex.*"/>
+</def-cat>
+  </section-def-cats>
+
+  <section-def-attrs>
+    <def-attr n="a_nom">
+      <attr-item tags="n"/>
+    </def-attr>
+    <def-attr n="a_num">
+      <attr-item tags="cat:num"/>
+    </def-attr>
+    <def-attr n="gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="nt"/>
+      <attr-item tags="any"/>
+    </def-attr>
+    <def-attr n="pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+    </def-attr>
+    <def-attr n="cc_of">
+      <attr-item tags="cnjcoo"/>
+      <attr-item tags="cc"/>
+    </def-attr>  
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>
+    </def-attr>
+
+    <def-attr n="nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+    </def-attr>
+    <def-attr n="cas">
+      <attr-item tags="o"/>
+      <attr-item tags="d"/>
+    </def-attr>
+    <def-attr n="cc">
+      <attr-item tags="cc"/>
+    </def-attr>
+
+  </section-def-attrs>
+
+
+  <section-def-vars>
+    <def-var n="number"/>
+    <def-var n="genere"/>
+  </section-def-vars>
+
+  <section-rules>
+
+
+    <rule>
+      <pattern>
+        <pattern-item n="num"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="num" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_num"/>
+              <clip pos="1" side="tl" part="nbr" link-to="2"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
+    <rule>
+      <pattern>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="nbr" link-to="2"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule>
+     <pattern>
+	<pattern-item n="adj"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="adj_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="ADJ"/></tag>
+            </tags>
+            <lu>   
+              <clip pos="1" side="tl" part="lem"/> 
+              <clip pos="1" side="tl" part="a_adj"/>
+            </lu> 
+	    <lu>   
+              <clip pos="2" side="tl" part="lem"/> 
+              <clip pos="2" side="tl" part="a_nom"/>
+	      <clip pos="2" side="tl" part="nbr" link-to="2"/>
+            </lu> 
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule>
+      <pattern>
+        <pattern-item n="cnjcoo"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="cc_of" case="caseFirstWord">
+        <tags>
+          <tag><lit-tag v="CC"/></tag>
+        </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="cc_of"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    
+  <rule>
+    <pattern>
+     <pattern-item n="vrb"/>
+   </pattern>
+   <action>
+     <out>
+	<chunk name="vrb" case="caseFirstWord">
+        <tags>
+          <tag><lit-tag v="SV"/></tag>
+        </tags>
+       <lu>
+         <clip pos="1" side="tl" part="lem"/>
+         <clip pos="1" side="tl" part="a_verb"/>
+         <clip pos="1" side="tl" part="gen"/>
+	 <clip pos="1" side="tl" part="nbr"/>
+	 <clip pos="1" side="tl" part="pers"/>
+       </lu>
+	</chunk>
+     </out>
+   </action>
+  </rule>
+
+  </section-rules>
+</transfer>

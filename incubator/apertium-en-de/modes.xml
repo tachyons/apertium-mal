@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+  <mode name="en-de" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="en-de.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="en-de.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-en-de.en-de.t1x"/>
+        <file name="en-de.t1x.bin"/>
+        <file name="en-de.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-en-de.en-de.t2x"/>
+        <file name="en-de.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-en-de.en-de.t3x"/>
+        <file name="en-de.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="en-de.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="en-de.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="de-en" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="de-en.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="de-en.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-en-de.de-en.t1x"/>
+        <file name="de-en.t1x.bin"/>
+        <file name="de-en.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-en-de.de-en.t2x"/>
+        <file name="de-en.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-en-de.de-en.t3x"/>
+        <file name="de-en.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="de-en.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="de-en.autopgen.bin"/>
+      </program> 
+    </pipeline>
+  </mode>
+
+  <mode name="de-en-analysis">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="de-en.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="de-en-tagger" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="de-en.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="de-en.prob"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+</modes>

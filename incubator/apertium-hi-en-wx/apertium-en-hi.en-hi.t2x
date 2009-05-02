@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
+<interchunk>
+  <section-def-cats>
+
+    <def-cat n="noun">
+      <cat-item tags="NP.*"/>
+    </def-cat>
+    <def-cat n="verb">
+      <cat-item tags="VP.*"/>    
+    </def-cat>
+    <def-cat n="PP">
+      <cat-item tags="PP.*"/>    
+    </def-cat>
+
+    <def-cat n="SN">
+      <cat-item tags="SN.*"/>
+      <cat-item lemma="relnom" tags="REL.*"/>
+    </def-cat>
+
+     <def-cat n="SNnorel">
+      <cat-item tags="SN.*"/>
+    </def-cat>
+    
+    <def-cat n="SNnopro"><!-- BCN-->
+      <cat-item tags="SN.DET.*"/>
+      <cat-item tags="SN.UNDET.*"/>
+    </def-cat>
+    
+    <def-cat n="negacio"><!-- BCN-->
+      <cat-item tags="SN.DET.*.*.negacio"/>
+    </def-cat>
+    
+    <def-cat n="pr">
+      <cat-item tags="PREP"/>
+    </def-cat>
+    
+    <def-cat n="and">
+      <cat-item lemma="cnj" tags="cnjcoo"/>
+    </def-cat>
+    
+
+    <def-cat n="SN_nopron">
+      <cat-item tags="SN.DET.*"/>
+      <cat-item tags="SN.UNDET.*"/>
+      <cat-item tags="SN.NUM.*"/>
+    </def-cat>
+
+    <def-cat n="SNundet">
+      <cat-item tags="SN.UNDET.*"/>
+    </def-cat>
+
+    <def-cat n="SV"><!--Verb conjugat, i tb infinitiu per quan el tagger s'equivoca. -->
+      <cat-item lemma="verbcj" tags="SV.*"/>
+      <cat-item tags="Vcop.*"/>
+      <cat-item lemma="mod" tags="SV.*"/><!--MG: I have to <sent> : no deixar-ho penjat (haig de 'fer-ho'). En canvi : 'I have to <desconeguda>: sí que és 'haig de'. -->
+      <cat-item lemma="auxmod_inf" tags="SV.*"/>
+      <cat-item lemma="auxmod_inf_inf" tags="SV.*"/><!--BCN-->
+      <cat-item lemma="be_ger_inf" tags="SV.*"/> <!--BCN-->
+      <cat-item lemma="verbcj_inf" tags="SV.*"/>
+      <cat-item lemma="verbcj_inf_perif" tags="SV.*"/>
+      <cat-item lemma="verbcj_inf_enc" tags="SV.*"/>
+      <cat-item lemma="auxmod_mod_inf" tags="SV.*"/>
+      <cat-item lemma="do_inf" tags="SV.*"/>
+      <cat-item lemma="mod_inf" tags="SV.*"/>
+      <cat-item lemma="mod_perif" tags="SV.*"/>
+      <cat-item lemma="mod_inf_perif" tags="SV.*"/>
+      <cat-item lemma="aux_mod" tags="SV.*"/><!--Aquests van davant desconegudes o sent (I will have to.) -->
+      <cat-item lemma="have_pp" tags="SV.*"/>
+      <cat-item lemma="have_pp_inf" tags="SV.*"/><!-- BCN-->
+      <cat-item lemma="auxmod_have_pp" tags="SV.*"/>
+      <cat-item lemma="pro_auxmod_have_pp" tags="SV.*"/>
+      <cat-item lemma="auxmod_have_pp_inf" tags="SV.*"/>
+      <cat-item lemma="be_ger" tags="SV.*"/>
+      <cat-item lemma="be_ger_enc" tags="SV.*"/>
+      <cat-item tags="SV.vblex.inf.*"/>
+      <cat-item tags="SV.pron.inf.*"/><!--afegit 16-01-2008 -->
+      <cat-item tags="SV.vbmod.inf.*"/>
+      <cat-item lemma="verbcj_perif" tags="SV.*"/>
+      <cat-item lemma="pro_verbcj" tags="SV.*"/>
+      <cat-item lemma="pro_verbcj_perif" tags="SV.*"/>
+      <cat-item lemma="pro_auxmod_inf" tags="SV.*"/>
+      <cat-item lemma="pro_mod_inf" tags="SV.*"/>
+      <cat-item lemma="pro_mod_inf_perif" tags="SV.*"/>
+      <cat-item lemma="pro_auxmod_mod_inf" tags="SV.*"/>
+      <cat-item lemma="pro_have_pp" tags="SV.*"/>
+      <cat-item lemma="pro_be_ger" tags="SV.*"/>
+      <cat-item lemma="pro_do_inf" tags="SV.*"/>
+      <cat-item tags="SV.reporting.inf.*"/>
+      <cat-item tags="SV.reporting.pri.*"/>
+      <cat-item tags="SV.reporting.cni.*"/>
+      <cat-item tags="SV.reporting.ifip.*"/>
+      <cat-item tags="SV.reporting.fti*"/>
+      <cat-item tags="SV.reporting.pii*"/>
+      
+    </def-cat>
+    
+    <def-cat n="SVGER"><!-- BCN. Per ara no entren els compostos amb have (having won)-->
+      <cat-item lemma="ger" tags="SV.*"/>
+      <cat-item lemma="ger_enc" tags="SV.*"/>
+      <cat-item lemma="ger_enc_enc" tags="SV.*"/>
+    </def-cat>
+    
+  
+    
+    <def-cat n="vblike">
+      <cat-item tags="SV.like.*"/>
+    </def-cat>
+    
+    <def-cat n="vbreporting"><!-- BCN-->
+      <cat-item tags="SV.reporting.*"/>
+    </def-cat>
+    
+    <def-cat n="there">
+      <cat-item lemma="there" tags="adv"/>
+    </def-cat>
+
+    <def-cat n="thereis">
+      <cat-item lemma="be" tags="Vcop.*"/>
+      <cat-item lemma="verbcj" tags="SV.vbser.*"/>
+      <cat-item lemma="auxmod_inf" tags="SV.vbser.*"/>
+      <cat-item lemma="auxmod_mod_inf" tags="SV.vbser.*"/>
+      <cat-item lemma="auxmod_have_pp" tags="SV.vbser.*"/>
+      <cat-item lemma="mod_inf" tags="SV.vbser.*"/>
+      <cat-item lemma="mod_inf_perif" tags="SV.vbser.*"/>
+      <cat-item lemma="have_pp" tags="SV.vbser.*"/>
+      <cat-item lemma="verbcj_perif" tags="SV.vbser.*"/> 
+    </def-cat>
+
+
+    <def-cat n="pro_vblike">
+      <cat-item lemma="pro_verbcj" tags="SV.like.*"/>
+      <cat-item lemma="pro_verbcj_perif" tags="SV.like.*"/>
+      <cat-item lemma="pro_auxmod_inf" tags="SV.like.*"/>
+      <cat-item lemma="pro_mod_inf" tags="SV.like.*"/>
+      <cat-item lemma="pro_mod_inf_perif" tags="SV.like.*"/>
+      <cat-item lemma="pro_auxmod_mod_inf" tags="SV.like.*"/>
+      <cat-item lemma="pro_have_pp" tags="SV.like.*"/>
+      <cat-item lemma="pro_be_ger" tags="SV.like.*"/>
+      <cat-item lemma="pro_do_inf" tags="SV.like.*"/>
+    </def-cat>
+
+    <def-cat n="ADV">
+      <cat-item tags="adv"/>
+      <cat-item tags="adv.*"/>
+    </def-cat>
+
+   
+    <def-cat n="SA">
+      <cat-item tags="SA.*"/>
+    </def-cat>
+
+    <def-cat n="pp">
+      <cat-item lemma="pp"  tags="SA.*"/>
+      <cat-item lemma="adj"  tags="SA.*"/><!-- BCN per que agafi bé resolutions adopted -->
+    </def-cat>
+
+
+    <def-cat n="adj">
+      <cat-item lemma="adj"  tags="SA.*"/>
+      <cat-item lemma="np_pp"  tags="SA.*"/>
+    </def-cat>
+
+    <def-cat n="DET">
+      <cat-item tags="DET.*"/>
+    </def-cat>
+
+   
+    <def-cat n="RELAN">
+      <cat-item tags="REL.an.*"/>
+      <!--<cat-item tags="SN.an.*"/>-->
+    </def-cat>
+    
+    <def-cat n="NUM">
+      <cat-item tags="NUM.*"/>
+    </def-cat>
+
+    <def-cat n="punt">
+      <cat-item tags="sent"/>
+    </def-cat>
+
+    <def-cat n="cnjcoo"> 
+      <cat-item tags="cnjcoo"/>
+    </def-cat>
+
+
+  </section-def-cats>
+
+  <section-def-attrs>
+
+    <def-attr n="pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
+    </def-attr>
+
+    <def-attr n="gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="GD"/>
+      <attr-item tags="nt"/>
+    </def-attr>
+
+    <def-attr n="nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+
+    <def-attr n="temps">
+      <attr-item tags="inf"/>
+      <attr-item tags="pres"/>
+      <attr-item tags="past"/>
+      <attr-item tags="pri"/>
+      <attr-item tags="ifip"/>
+      <attr-item tags="cni"/>
+      <attr-item tags="fti"/>
+      <attr-item tags="pp"/>
+      <attr-item tags="ger"/>
+      <attr-item tags="pprs"/>
+      <attr-item tags="subs"/>
+      <attr-item tags="imp"/>
+      <attr-item tags="ifi"/>
+      <attr-item tags="pii"/>
+      <attr-item tags="pis"/>
+      <attr-item tags="prs"/>
+      
+    </def-attr>
+
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>	  
+      <attr-item tags="vblex.pron"/>
+      <attr-item tags="vbhaver"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="vbmod"/>
+      <attr-item tags="HAVER"/>
+    </def-attr>
+    
+    <def-attr n="a_SN">
+      <attr-item tags="DET"/>
+      <attr-item tags="UNDET"/>
+      <attr-item tags="NUM"/>
+      <attr-item tags="PDET"/><!--'Per determinar', per a SN UNDET que han de passar a determinats, transformació que farà el postchunk detectant els PDET. -->
+    </def-attr>
+
+  </section-def-attrs>
+
+  <section-def-vars>
+    <def-var n="uno"/>
+    <def-var n="nombre"/>
+    <def-var n="genere"/>
+  </section-def-vars>
+
+  <section-def-macros>
+
+    <def-macro n="determina_nbr_gen_SN" npar="1">
+      <choose><!--To determine value of variables of gender and
+		  number and propagate to other rules.  Variables are
+		  not used again in this rule -->
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	  </test>
+	  <let><var n="nombre"/><lit-tag v="sg"/></let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="pl"/>
+	    </equal>
+	  </test>
+	  <let><var n="nombre"/><lit-tag v="pl"/></let>
+	</when>
+	<otherwise>
+	  <let><var n="nombre"/><lit-tag v="sg"/></let>
+	</otherwise>
+      </choose> 
+       <choose>
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="1" part="gen"/>
+	      <lit-tag v="m"/>
+	    </equal>
+	  </test>
+	  <let><var n="genere"/><lit-tag v="m"/></let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" part="gen"/>
+	      <lit-tag v="f"/>
+	    </equal>
+	  </test>
+	  <let><var n="genere"/><lit-tag v="f"/></let>
+	</when>
+	<otherwise>
+	  <let><var n="genere"/><lit-tag v="m"/></let>
+	</otherwise>
+      </choose> 
+    </def-macro>
+
+    <def-macro n="f_bcond" npar="1"><!--Per mirar si el blanc conté o no format. Cal posar aquesta funció en les regles en què desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si conté format cal conservar-la, si no en conté cal eliminar-la perquè no apareguin dos espais seguits. -->
+      <choose>
+	<when>
+	  <test>
+	    <not>
+	      <equal>
+		<b pos="1"/>
+		<lit v=" "/>
+	      </equal>
+	    </not>
+	  </test>
+	  <out>
+	    <b pos="1"/>
+	  </out>
+	</when>     	    
+      </choose>
+    </def-macro>
+
+
+
+ <def-macro n="concord_SN_SV" npar="2">
+	<choose>
+	  <when>
+	    <test>
+	      <or>
+		<equal caseless="yes">
+		  <clip pos="1" part="lem"/>
+		  <lit v="prnsubj"/>
+		</equal>
+		<equal caseless="yes">
+		  <clip pos="1" part="lem"/>
+		  <lit v="prnsubj2"/>
+		</equal>
+	      </or>
+	    </test>	    
+	    <choose>
+	      <when>
+		<test>
+		  <and>
+		    <equal>
+		      <clip pos="2" part="pers"/>
+		      <lit-tag v="PD"/>
+		    </equal>
+		    <not><!--en les regles de SV no hi entren els 'ger', però s'ha afegit perquè en les regles de reporting verbs hi entren tots els temps -->
+		      <equal>
+			<clip pos="2" part="temps"/>
+			<lit-tag v="ger"/>
+		      </equal>
+		    </not>
+		  </and>
+		</test>
+		<let>
+		  <clip pos="2" part="pers"/>
+		  <clip pos="1" part="pers"/>
+		</let>
+	      </when>
+	    </choose>
+	    <choose>
+	      <when>
+		<test>
+		  <and>
+		    <equal>
+		      <clip pos="2" part="nbr"/>
+		      <lit-tag v="ND"/>
+		    </equal>
+		    <not>
+		      <equal>
+			<clip pos="2" part="temps"/>
+			<lit-tag v="ger"/>
+		      </equal>
+		    </not>
+		  </and>
+		</test>
+		<let>
+		  <clip pos="2" part="nbr"/>
+		  <clip pos="1" part="nbr"/>
+		</let>
+	      </when>
+	    </choose>
+	    <choose>
+	      <when>
+		<test>
+		  <equal>
+		    <clip pos="2" part="gen"/>
+		    <lit-tag v="GD"/>
+		  </equal>
+		</test>
+		<choose>
+		  <when>
+		    <test>
+		      <not>
+			<equal>
+			  <clip pos="1" part="gen"/>
+			  <lit-tag v="mf"/>
+			</equal>
+		      </not>
+		    </test>
+		    <let>
+		      <clip pos="2" part="gen"/>
+		      <clip pos="1" part="gen"/>
+		    </let>
+		  </when>
+		  <otherwise>
+		    <let>
+		      <clip pos="2" part="gen"/>
+		      <lit-tag v="m"/>
+		    </let>
+		  </otherwise>		    
+		</choose>
+	      </when>
+	    </choose>
+	  </when>
+
+	  <otherwise><!--Quan SN no és pronom subjecte, per tant, quan és qualsevol altre SN -->
+	    <choose>
+	      <when>
+		<test>
+		  <equal>
+		    <clip pos="1" part="gen"/>
+		    <lit-tag v="GD"/>
+		  </equal>
+		</test>
+		<let>
+		  <clip pos="1" part="gen"/>
+		  <lit-tag v="m"/>
+		</let>
+	      </when>
+	    </choose>
+	    <choose>
+	      <when>
+		<test>
+		  <equal>
+		    <clip pos="1" part="nbr"/>
+		    <lit-tag v="ND"/>
+		  </equal>
+		</test>
+		<choose>
+		  <when>
+		    <test>
+		      <and>
+			<equal>
+			  <clip pos="2" part="temps"/>
+			  <lit-tag v="pri"/>
+			</equal>
+			<equal>
+			  <clip pos="2" part="nbr"/>
+			  <lit-tag v="ND"/>
+			</equal>
+		      </and>
+		    </test>
+		    <let>
+		      <clip pos="1" part="nbr"/>
+		      <lit-tag v="pl"/>
+		    </let>
+		  </when>
+		  <when>
+		    <test>
+		      <equal>
+			<clip pos="2" part="temps"/>
+			<lit-tag v="pri"/>
+		      </equal>
+		    </test>
+		    <let>
+		      <clip pos="1" part="nbr"/>
+		      <lit-tag v="sg"/>
+		    </let>
+		  </when>
+		  <when>
+		    <test>
+		      <and>
+			<equal>
+			  <clip pos="2" part="temps"/>
+			  <lit-tag v="ifip"/>
+			</equal>
+			<equal caseless="yes">
+			  <clip pos="2" part="lem"/>
+			  <lit v="be"/>
+			</equal>
+			<equal>
+			  <clip pos="2" part="nbr"/>
+			  <lit-tag v="ND"/>
+			</equal>
+		      </and>
+		    </test>
+		    <let>
+		      <clip pos="1" part="nbr"/>
+		      <lit-tag v="pl"/>
+		    </let>
+		  </when>
+		  <otherwise>
+		    <let>
+		      <clip pos="1" part="nbr"/>
+		      <lit-tag v="sg"/>
+		    </let>
+		  </otherwise>
+		</choose>
+	      </when>
+	    </choose>
+	    
+	    <choose>
+	      <when>
+		<test>
+		  <and>
+		    <equal>
+		      <clip pos="2" part="pers"/>
+		      <lit-tag v="PD"/>
+		    </equal>
+		    <not>
+		      <equal>
+			<clip pos="2" part="temps"/>
+			<lit-tag v="ger"/>
+		      </equal>
+		    </not>
+		  </and>
+		</test>
+		<let>
+		  <clip pos="2" part="pers"/>
+		  <lit-tag v="p3"/>
+		</let>
+	      </when>
+	    </choose>
+	    <choose>
+	      <when>
+		<test>
+		  <and>
+		    <equal>
+		      <clip pos="2" part="nbr"/>
+		      <lit-tag v="ND"/>
+		    </equal>
+		    <not>
+		      <equal>
+			<clip pos="2" part="temps"/>
+			<lit-tag v="ger"/>
+		      </equal>
+		    </not>
+		  </and>
+		</test>
+		<choose>
+		  <when>
+		    <test>
+		      <not>
+			<equal>
+			  <clip pos="1" part="nbr"/>
+			  <lit-tag v="sp"/>
+			</equal>
+		      </not>
+		    </test>
+		    <let>
+		      <clip pos="2" part="nbr"/>
+		      <clip pos="1" part="nbr"/>
+		    </let>
+		  </when>
+		  <otherwise>
+		    <let>
+		      <clip pos="2" part="nbr"/>
+		      <lit-tag v="sg"/>
+		    </let>
+		  </otherwise>
+		</choose>
+	      </when>
+	    </choose>
+	    <choose>
+	      <when>
+		<test>
+		  <equal>
+		    <clip pos="2" part="gen"/>
+		    <lit-tag v="GD"/>
+		  </equal>
+		</test>
+		<choose>
+		  <when>
+		    <test>
+		      <not>
+			<equal>
+			  <clip pos="1" part="gen"/>
+			  <lit-tag v="mf"/>
+			</equal>
+		      </not>
+		    </test>
+		    <let>
+		      <clip pos="2" part="gen"/>
+		      <clip pos="1" part="gen"/>
+		    </let>
+		  </when>
+		  <otherwise>
+		    <let>
+		      <clip pos="2" part="gen"/>
+		      <lit-tag v="m"/>
+		    </let>
+		  </otherwise>
+		</choose>
+	      </when>
+	    </choose>
+	  </otherwise>
+	</choose>
+ </def-macro>
+
+<def-macro n="concord_SNcoo_SV" npar="3"><!--per a 2 sintagmes nominals, coordinats entre sí. El nombre del SV serà sempre pl. 
+Arreglar si pot ser alguns errors de concordança encara:
+You and your mother will come - Tu i la vostra mare vindreu
+Your mother and you will come - La vostra mare i tu vindran
+-->
+	<choose>
+	  <when>
+	    <test>
+	      <or>
+		<equal caseless="yes">
+		  <clip pos="1" part="lem"/>
+		  <lit v="prnsubj"/>
+		</equal>
+		<equal caseless="yes">
+		  <clip pos="1" part="lem"/>
+		  <lit v="prnsubj2"/>
+		</equal>
+	      </or>
+	    </test>	    
+	    <choose>
+	      <when>
+		<test>
+		  <and>
+		    <equal>
+		      <clip pos="3" part="pers"/>
+		      <lit-tag v="PD"/>
+		    </equal>
+		    <not><!--en les regles de SV no hi entren els 'ger', però s'ha afegit perquè en les regles de reporting verbs hi entren tots els temps -->
+		      <equal>
+			<clip pos="3" part="temps"/>
+			<lit-tag v="ger"/>
+		      </equal>
+		    </not>
+		  </and>
+		</test>
+		<let>
+		  <clip pos="3" part="pers"/>
+		  <clip pos="1" part="pers"/>
+		</let>
+	      </when>
+	    </choose>
+	    <choose>
+	      <when>
+		<test>
+		  <and>
+		    <equal>
+		      <clip pos="3" part="nbr"/>
+		      <lit-tag v="ND"/>
+		    </equal>
+		    <not>
+		      <equal>
+			<clip pos="2" part="temps"/>
+			<lit-tag v="ger"/>
+		      </equal>
+		    </not>
+		  </and>
+		</test>
+		<let>
+		  <clip pos="3" part="nbr"/>
+		  <lit-tag v="pl"/>        <!-- el nombre del verb sempre pl-->
+		</let>
+	      </when>
+	    </choose>
+	    <choose>
+	      <when>
+		<test>
+		  <equal>
+		    <clip pos="3" part="gen"/>
+		    <lit-tag v="GD"/>
+		  </equal>
+		</test>
+		<choose>
+		  <when>
+		    <test>
+		      <and>
+			<not>
+			  <equal>
+			    <clip pos="1" part="gen"/>
+			    <lit-tag v="mf"/>
+			  </equal>
+			</not>
+			<equal>
+			  <clip pos="1" part="gen"/>
+			  <clip pos="2" part="gen"/>
+			</equal>
+		      </and>			
+		    </test>
+		    <let>
+		      <clip pos="3" part="gen"/>
+		      <clip pos="1" part="gen"/>
+		    </let>
+		  </when>
+		  <otherwise>
+		    <let>
+		      <clip pos="3" part="gen"/>
+		      <lit-tag v="m"/>
+		    </let>
+		  </otherwise>		    
+		</choose>
+	      </when>
+	    </choose>
+	  </when>
+
+	  <otherwise><!--Quan SN1 no és pronom subjecte, per tant, quan és qualsevol altre SN -->
+	    <choose>
+	      <when>
+		<test>
+		  <equal>
+		    <clip pos="1" part="gen"/>
+		    <lit-tag v="GD"/>
+		  </equal>
+		</test>
+		<let>
+		  <clip pos="1" part="gen"/>
+		  <lit-tag v="m"/>
+		</let>
+	      </when>
+	    </choose>
+	    <choose>
+	      <when>
+		<test>
+		  <equal>
+		    <clip pos="1" part="nbr"/>
+		    <lit-tag v="ND"/>
+		  </equal>
+		</test>
+		<choose>
+		  <when>
+		    <test>
+		      <and>
+			<equal>
+			  <clip pos="3" part="temps"/>
+			  <lit-tag v="pri"/>
+			</equal>
+			<equal>
+			  <clip pos="3" part="nbr"/>
+			  <lit-tag v="ND"/>
+			</equal>
+		      </and>
+		    </test>
+		    <let>
+		      <clip pos="1" part="nbr"/>
+		      <lit-tag v="pl"/>
+		    </let>
+		  </when>
+		  <when>
+		    <test>
+		      <equal>
+			<clip pos="3" part="temps"/>
+			<lit-tag v="pri"/>
+		      </equal>
+		    </test>
+		    <let>
+		      <clip pos="1" part="nbr"/>
+		      <lit-tag v="sg"/>
+		    </let>
+		  </when>
+		  <when>
+		    <test>
+		      <and>
+			<equal>
+			  <clip pos="3" part="temps"/>
+			  <lit-tag v="ifip"/>
+			</equal>
+			<equal caseless="yes">
+			  <clip pos="3" part="lem"/>
+			  <lit v="be"/>
+			</equal>
+			<equal>
+			  <clip pos="3" part="nbr"/>
+			  <lit-tag v="ND"/>
+			</equal>
+		      </and>
+		    </test>
+		    <let>
+		      <clip pos="1" part="nbr"/>
+		      <lit-tag v="pl"/>
+		    </let>
+		  </when>
+		  <otherwise>
+		    <let>
+		      <clip pos="1" part="nbr"/>
+		      <lit-tag v="sg"/>
+		    </let>
+		  </otherwise>
+		</choose>
+	      </when>
+	    </choose>
+	    
+	    <choose>
+	      <when>
+		<test>
+		  <and>
+		    <equal>
+		      <clip pos="3" part="pers"/>
+		      <lit-tag v="PD"/>
+		    </equal>
+		    <not>
+		      <equal>
+			<clip pos="3" part="temps"/>
+			<lit-tag v="ger"/>
+		      </equal>
+		    </not>
+		  </and>
+		</test>
+		<let>
+		  <clip pos="3" part="pers"/>
+		  <lit-tag v="p3"/><!-- MG: revisar casos, no sempre serà p3 -->
+		</let>
+	      </when>
+	    </choose>
+	    <choose>
+	      <when>
+		<test>
+		  <and>
+		    <equal>
+		      <clip pos="3" part="nbr"/>
+		      <lit-tag v="ND"/>
+		    </equal>
+		    <not>
+		      <equal>
+			<clip pos="3" part="temps"/>
+			<lit-tag v="ger"/>
+		      </equal>
+		    </not>
+		  </and>
+		</test>
+		<let>
+		  <clip pos="3" part="nbr"/>
+		  <lit-tag v="pl"/><!--verbs sempre pl-->
+		</let>
+	      </when>
+	    </choose>
+	    <choose>
+	      <when>
+		<test>
+		  <equal>
+		    <clip pos="3" part="gen"/>
+		    <lit-tag v="GD"/>
+		  </equal>
+		</test>
+		<choose>
+		  <when>
+		    <test>
+		      <and>
+		      <not>
+			<equal>
+			  <clip pos="1" part="gen"/>
+			  <lit-tag v="mf"/>
+			</equal>
+		      </not>
+		      <equal>
+			<clip pos="1" part="gen"/>
+			<clip pos="2" part="gen"/>
+		      </equal>
+		      </and>	
+		    </test>
+		    <let>
+		      <clip pos="3" part="gen"/>
+		      <clip pos="1" part="gen"/>
+		    </let>
+		  </when>
+		  <otherwise>
+		    <let>
+		      <clip pos="3" part="gen"/>
+		      <lit-tag v="m"/>
+		    </let>
+		  </otherwise>
+		</choose>
+	      </when>
+	    </choose>
+	  </otherwise>
+	</choose>
+	<choose> <!-- per al segon SN, repassar-->
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="2" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="2" part="gen"/>
+	      <lit-tag v="m"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose> 
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="2" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="2" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	</choose>
+ </def-macro>
+
+
+
+
+<def-macro n="posadet_SN" npar="1">
+ <choose>
+	      <when>
+		<test>
+		  <!-- <and>-->
+		  <or>
+		    <equal caseless="yes">
+		      <clip pos="1" part="lem"/>
+		      <lit v="nom"/>
+		    </equal>
+		    <equal caseless="yes">
+		      <clip pos="1" part="lem"/>
+		      <lit v="adj_nom"/>
+		    </equal>
+		    <equal caseless="yes">
+		      <clip pos="1" part="lem"/>
+		      <lit v="nom_conj_nom"/>
+		    </equal>
+		    <equal caseless="yes">
+		      <clip pos="1" part="lem"/>
+		      <lit v="adj_adj_nom"/>
+		    </equal>
+		    <!--   <equal caseless="yes">
+			 <clip pos="1" part="lem"/>
+			 <lit v="nom_nom"/>
+			 </equal> -->
+		    <!--   <equal caseless="yes">
+			 <clip pos="1" part="lem"/>
+			 <lit v="nom_de_nom"/>
+			 </equal> -->
+		    <!--  <equal caseless="yes"> Aquests encara no estan posats en t3x
+			 <clip pos="1" part="lem"/>
+			 <lit v="adj_nom_nom"/> fer aquest
+			 </equal>
+			 <equal caseless="yes">
+			 <clip pos="1" part="lem"/>
+			 <lit v="adj_nom_conj_nom"/>
+			 </equal> -->
+		  </or>
+		</test>
+		<let>
+		  <clip pos="1" part="a_SN"/>
+		  <lit-tag v="PDET"/>
+		</let>
+	      </when>
+	    </choose>
+</def-macro>
+
+
+  </section-def-macros>
+
+  <section-rules>
+    
+
+    <!--REGLES LÈXIQUES: definides en primer lloc perquè si no es posen per altres regles -->
+<rule comment="REGLA: NP VP NP">
+      <pattern>
+	<pattern-item n="noun"/>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+	<out>
+	 <chunk>
+	  <clip pos="2" part="whole"/>
+          <clip pos="1" part="whole"/>
+	 </chunk>
+	</out>
+      </action>
+</rule>
+ </section-rules>
+</interchunk>
+         

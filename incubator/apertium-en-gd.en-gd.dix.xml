@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="n"/>
+    <sdef n="np"/>
+    <sdef n="top"/>
+    <sdef n="ant"/>
+    <sdef n="vblex"/>
+    <sdef n="adj"/>
+    <sdef n="adv"/>
+    <sdef n="cnjsub"/>
+    <sdef n="cnjcoo"/>
+    <sdef n="m"/>
+    <sdef n="f"/>
+    <sdef n="pr"/>
+    <sdef n="adv"/>
+    <sdef n="num"/>
+    <sdef n="ord"/>
+    <sdef n="mon"/>
+    <sdef n="pers"/>
+    <sdef n="iter"/>
+    <sdef n="sent"/>
+    <sdef n="lquest"/>
+    <sdef n="lpar"/>
+    <sdef n="rpar"/>
+    <sdef n="apos"/>
+  </sdefs>
+  
+  <section id="main" type="standard">
+    <e><p><l>enough<s n="adv"/></l><r>gu<b/>leòr<s n="adv"/></r></p></e>
+    <e><p><l>often<s n="adv"/></l><r>gu<b/>minig<s n="adv"/></r></p></e>
+  
+    <e><p><l>across<s n="pr"/></l><r>thar<s n="pr"/></r></p></e>
+    <e><p><l>around<s n="pr"/></l><r>timcheall<s n="pr"/></r></p></e>
+    <e><p><l>but<s n="cnjsub"/></l><r>ach<s n="cnjsub"/></r></p></e>
+    <e><p><l>and<s n="cnjcoo"/></l><r>agus<s n="cnjcoo"/></r></p></e>
+    
+    <e><p><l>abbot<s n="n"/></l><r>aba<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>abacus<s n="n"/></l><r>abacas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>sentence<s n="n"/></l><r>abairt<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sentence<s n="n"/></l><r>abairt<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ability<s n="n"/></l><r>abaltachd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bunker<s n="n"/></l><r>abar<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dwarf<s n="n"/></l><r>abhag<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mirth<s n="n"/></l><r>àbhachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>river<s n="n"/></l><r>abhainn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>subject<s n="n"/></l><r>adhbhar<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>advocate<s n="n"/></l><r>neach-lagha<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>wafer<s n="n"/></l><r>abhlan<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>yarn<s n="n"/></l><r>abhras<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>academy<s n="n"/></l><r>acadamaidh<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mooring<s n="n"/></l><r>acarsaid<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>request<s n="n"/></l><r>athchuinge<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gibe<s n="n"/></l><r>achmhasan<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dispute<s n="n"/></l><r>achran<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>act<s n="n"/></l><r>achd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>capability<s n="n"/></l><r>acfhainn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>acre<s n="n"/></l><r>acainn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>acronym<s n="n"/></l><r>geàrr-ainm<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>atom<s n="n"/></l><r>dadam<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>luck<s n="n"/></l><r>àgh<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bolster<s n="n"/></l><r>adhartan<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>adulterous<s n="n"/></l><r>adhaltranach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>adultery<s n="n"/></l><r>adhaltranas<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>horn<s n="n"/></l><r>adharc<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>halter<s n="n"/></l><r>aghastar<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>burial<s n="n"/></l><r>adhlacadh<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>undertaker<s n="n"/></l><r>adhlacair<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>high praise<s n="n"/></l><r>feart-mholadh<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>worship<s n="n"/></l><r>adhradh<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>fortune<s n="n"/></l><r>aidmheil<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>liver<s n="n"/></l><r>adha<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>air<s n="n"/></l><r>adhar<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>aircraft<s n="n"/></l><r>eathar-adhair<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>aerospace<s n="n"/></l><r>fànas-adhair<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>air lock<s n="n"/></l><r>bacadh-adhair<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>airport<s n="n"/></l><r>port adhair<s n="n"/></r></p></e>
+    <e><p><l>airmail<s n="n"/></l><r>post-adhair<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>retribution<s n="n"/></l><r>agairt<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>agate<s n="n"/></l><r>agait<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>interview<s n="n"/></l><r>agallamh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>interviewer<s n="n"/></l><r>agallaiche<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>face<s n="n"/></l><r>aghaidh<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>agnostic<s n="n"/></l><r>neach-adhbharachais<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>organiser<s n="n"/></l><r>tagarair<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>appendix<s n="n"/></l><r>agusan<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ripening<s n="n"/></l><r>abachadh<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>abyss<s n="n"/></l><r>àibheis<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>devil<s n="n"/></l><r>abharsair<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>electricity<s n="n"/></l><r>dealan<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>spark<s n="n"/></l><r>èibhleag<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>alphabet<s n="n"/></l><r>aibidil<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>apricot<s n="n"/></l><r>apragod<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>side<s n="n"/></l><r>faisge<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>authenticity<s n="n"/></l><r>barantachd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>aphid<s n="n"/></l><r>cuileag ghlas<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>acid<s n="n"/></l><r>aigeann<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>mind<s n="n"/></l><r>aigne<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>psychologist<s n="n"/></l><r>inntinn-eòlaiche<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>alveolus<s n="n"/></l><r>còsag<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>algebra<s n="n"/></l><r>ailseabra<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>alligator<s n="n"/></l><r>ailigeutair<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>desire<s n="n"/></l><r>àilgheas<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>cliff<s n="n"/></l><r>aill<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>beauty<s n="n"/></l><r>àilleachd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>trinket<s n="n"/></l><r>àilleagan<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>cancer<s n="n"/></l><r>aillse<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>architect<s n="n"/></l><r>ailtire<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>architecture<s n="n"/></l><r>ailtireachd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>disadvantage<s n="n"/></l><r>aimhleas<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>amethyst<s n="n"/></l><r>clach luachmhor<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>amnesia<s n="n"/></l><r>dìth-chuimhne<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sterilisation<s n="n"/></l><r>seasgachadh<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>retriever<s n="n"/></l><r>cù-eunaidh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>weather<s n="n"/></l><r>aimsir<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ignorance<s n="n"/></l><r>ainfhios<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>injustice<s n="n"/></l><r>faoin-bhreith<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>wrong<s n="n"/></l><r>mì-cheartas<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>doubt<s n="n"/></l><r>aincheist<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>unbelief<s n="n"/></l><r>mì-chreideamh<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>unbeliever<s n="n"/></l><r>dì-chreidmheach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>atheist<s n="n"/></l><r>ain-diadhach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>atheism<s n="n"/></l><r>ain-diadhachd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pleasure<s n="n"/></l><r>taitneas<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ignorance<s n="n"/></l><r>aineolas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>angel<s n="n"/></l><r>aingeal<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>blemish<s n="n"/></l><r>aineamh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>name<s n="n"/></l><r>ainm<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>intemperance<s n="n"/></l><r>neo-mheasarrachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>animal<s n="n"/></l><r>ainmhidh<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lust<s n="n"/></l><r>ana-miann<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>nominalism <s n="n"/></l><r>ainmeachas<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>denomination<s n="n"/></l><r>ainmeachadh<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>nominee<s n="n"/></l><r>neach-ainmichte<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tyrant<s n="n"/></l><r>aintighearna<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tyranny<s n="n"/></l><r>aintighearnas<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hospitality<s n="n"/></l><r>aoigheachd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>appendicitis<s n="n"/></l><r>grèim-mionaich<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ark<s n="n"/></l><r>àirc<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>attention<s n="n"/></l><r>àird<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>height<s n="n"/></l><r>àirde<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>care<s n="n"/></l><r>aire<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>minister<s n="n"/></l><r>ministear<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ministry<s n="n"/></l><r>ministrealachd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>perception<s n="n"/></l><r>faireachdainn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>calculation<s n="n"/></l><r>àireamh<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>calculator<s n="n"/></l><r>àireamhair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>money<s n="n"/></l><r>airgead<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>financier<s n="n"/></l><r>maoiniche<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>finance<s n="n"/></l><r>airgeadas<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>cashier<s n="n"/></l><r>airgeadair<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>currency<s n="n"/></l><r>airgead<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>aria<s n="n"/></l><r>àiria<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>chattel<s n="n"/></l><r>àirneis<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>dependence<s n="n"/></l><r>aisil<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>aid<s n="n"/></l><r>leas<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gift<s n="n"/></l><r>asgaidh<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>dream<s n="n"/></l><r>aisling<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>essay<s n="n"/></l><r>aiste<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>exchange<s n="n"/></l><r>taisdeal<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>place<s n="n"/></l><r>àite<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>fort<s n="n"/></l><r>àth<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>recognition<s n="n"/></l><r>aithneachadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>alcohol<s n="n"/></l><r>alcol<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>sweat<s n="n"/></l><r>fallas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>paragraph<s n="n"/></l><r>alt<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>altar<s n="n"/></l><r>altair<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>fool<s n="n"/></l><r>amadan<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>theatre<s n="n"/></l><r>taigh-cluiche<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>song<s n="n"/></l><r>òran<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>singer<s n="n"/></l><r>òranaiche<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>breath<s n="n"/></l><r>anail<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>inhale<s n="n"/></l><r>analachadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>soul<s n="n"/></l><r>anam<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>salt<s n="n"/></l><r>annlan<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>soup<s n="n"/></l><r>eanraich<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>age<s n="n"/></l><r>aois<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>bread<s n="n"/></l><r>aran<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>elevator<s n="n"/></l><r>àrdaichear<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>cathedral<s n="n"/></l><r>àrd-eaglais<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>archbishop<s n="n"/></l><r>àrd-easbaig<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>lift<s n="n"/></l><r>àrdachadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>donkey<s n="n"/></l><r>asal<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sorcery<s n="n"/></l><r>asarlachd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>asthma<s n="n"/></l><r>an sac<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>fort<s n="n"/></l><r>àth<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>father<s n="n"/></l><r>athair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>change<s n="n"/></l><r>atharrachadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>atlas<s n="n"/></l><r>atlas<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>attorney<s n="n"/></l><r>neach-lagha<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bowl<s n="n"/></l><r>bobhla<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>doll<s n="n"/></l><r>liùdhag<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>boat<s n="n"/></l><r>bàta<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>badminton<s n="n"/></l><r>badmantan<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>baker<s n="n"/></l><r>bèicear<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>town<s n="n"/></l><r>baile<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>collector<s n="n"/></l><r>neach-trusaidh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>banker<s n="n"/></l><r>bancair<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>wedding<s n="n"/></l><r>banais<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>manager<s n="n"/></l><r>manaidsear<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>milk<s n="n"/></l><r>bainne<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>widow<s n="n"/></l><r>banntrach<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>rain<s n="n"/></l><r>baisteadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>member<s n="n"/></l><r>ball<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>wall<s n="n"/></l><r>balla<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>balloon<s n="n"/></l><r>balùn<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>white<s n="n"/></l><r>bàn<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>nurse<s n="n"/></l><r>banaltram<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nursing<s n="n"/></l><r>banaltrachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>banana<s n="n"/></l><r>banana<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>piglet<s n="n"/></l><r>banbh<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>baroness<s n="n"/></l><r>bana-bharan<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bank<s n="n"/></l><r>banca<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>wife<s n="n"/></l><r>bean-chèile<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>daughter in law<s n="n"/></l><r>bana-chliamhainn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>band<s n="n"/></l><r>bann<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bandwidth<s n="n"/></l><r>leud-bainne<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>goddess<s n="n"/></l><r>ban-dia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>duchess<s n="n"/></l><r>ban-diùc<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>empress<s n="n"/></l><r>ban-iompaire<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>princess<s n="n"/></l><r>bana-phrionnsa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>top<s n="n"/></l><r>bàrr<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>death<s n="n"/></l><r>bàs<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>bat<s n="n"/></l><r>bata<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mushroom<s n="n"/></l><r>balgan-buachair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>small<s n="n"/></l><r>beagan<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>little<s n="n"/></l><r>beagan<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>little<s n="n"/></l><r>beagan<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>mouth<s n="n"/></l><r>beul<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>route<s n="n"/></l><r>bealach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lubricant<s n="n"/></l><r>bealadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>woman<s n="n"/></l><r>bean<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>blessing<s n="n"/></l><r>beannachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>greeting<s n="n"/></l><r>beannachadh<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gap<s n="n"/></l><r>beàrn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pass<s n="n"/></l><r>beàrn<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>parcel<s n="n"/></l><r>beairt<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>live<s n="n"/></l><r>beò<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>beer<s n="n"/></l><r>beòir<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>food<s n="n"/></l><r>biadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>restaurant<s n="n"/></l><r>biadhlann<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>sheet<s n="n"/></l><r>bileag<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>bill<s n="n"/></l><r>bile<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>billion<s n="n"/></l><r>billean<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>bench<s n="n"/></l><r>being<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>point<s n="n"/></l><r>bior<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>needle<s n="n"/></l><r>bior<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>premium<s n="n"/></l><r>piseach<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>blanket<s n="n"/></l><r>plangaid<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>taste<s n="n"/></l><r>blas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>flower<s n="n"/></l><r>blàth<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>year<s n="n"/></l><r>bliadhna<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>blackguard<s n="n"/></l><r>bleigeard<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>cow<s n="n"/></l><r>bò<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>poor<s n="n"/></l><r>bochd<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>poverty<s n="n"/></l><r>bochdainn<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>smell<s n="n"/></l><r>boladh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>volcano<s n="n"/></l><r>bholcàno<s n="n"/><s n="GD"/></r></p></e>
+    <e a="coregan"><p><l>stomach<s n="n"/></l><r>balg<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>bulb<s n="n"/></l><r>builgean<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>bonus<s n="n"/></l><r>bònas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>medal<s n="n"/></l><r>bonn<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>table<s n="n"/></l><r>bòrd<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>box<s n="n"/></l><r>bogsa<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>road<s n="n"/></l><r>rathad<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>salmon<s n="n"/></l><r>bradan<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>drop<s n="n"/></l><r>braon<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>umbrella<s n="n"/></l><r>braith-lìn<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>brandy<s n="n"/></l><r>branndaidh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>flag<s n="n"/></l><r>brat<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>feel<s n="n"/></l><r>brath<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>FALSE<s n="n"/></l><r>breug<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>liar<s n="n"/></l><r>breugadair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>birthday<s n="n"/></l><r>breith-là<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>verb<s n="n"/></l><r>briathar<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>dream<s n="n"/></l><r>aisling<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>biscuit<s n="n"/></l><r>briosgaid<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>break<s n="n"/></l><r>briseadh<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>badger<s n="n"/></l><r>broc<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>shoe<s n="n"/></l><r>bròg<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>sorrow<s n="n"/></l><r>bròn<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>present<s n="n"/></l><r>bronntas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>push<s n="n"/></l><r>brùthadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>hit<s n="n"/></l><r>buaile<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>worry<s n="n"/></l><r>buaireas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>bucket<s n="n"/></l><r>bucaid<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>bottle<s n="n"/></l><r>buideal<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>gratitude<s n="n"/></l><r>buidheachas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>butler<s n="n"/></l><r>buidileir<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>end<s n="n"/></l><r>bun<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>bungalow<s n="n"/></l><r>bungalo<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>constitution<s n="n"/></l><r>bun-reachd<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>primary school<s n="n"/></l><r>bun-sgoil<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>invent<s n="n"/></l><r>bunas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>bus<s n="n"/></l><r>bus<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>chapter<s n="n"/></l><r>caibideil<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>cabinet<s n="n"/></l><r>caibineat<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>relation<s n="n"/></l><r>caidreamh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>coffee<s n="n"/></l><r>cofaidh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>caffeine<s n="n"/></l><r>cafein<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>chalk<s n="n"/></l><r>cailc<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>calendar<s n="n"/></l><r>caladair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>girl<s n="n"/></l><r>cailin<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>cauliflower<s n="n"/></l><r>cailis<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>lose<s n="n"/></l><r>call<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>loss<s n="n"/></l><r>milleadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>speaker<s n="n"/></l><r>cainnt<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>speaker<s n="n"/></l><r>neach-labhairt<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>cap<s n="n"/></l><r>ceap<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>friend<s n="n"/></l><r>màirneal<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>cardigan<s n="n"/></l><r>càrdagan<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>friendship<s n="n"/></l><r>càirdeas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>carpet<s n="n"/></l><r>tapais<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>cart<s n="n"/></l><r>cairt<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>cheese<s n="n"/></l><r>càise<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>cassette<s n="n"/></l><r>cèiseag<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>castle<s n="n"/></l><r>caisteal<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>expenditure<s n="n"/></l><r>caiteachas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>fame<s n="n"/></l><r>càl<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>batteries<s n="n"/></l><r>glaodhaire<s n="n"/><s n="m"/> --></r></p></e>
+    <e a="coregan"><p><l>camp<s n="n"/></l><r>campa<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>camping<s n="n"/></l><r>campachadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>canvas<s n="n"/></l><r>canabhas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>kangaroo<s n="n"/></l><r>cangarù<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>fifty<s n="n"/></l><r>caogad<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>memory<s n="n"/></l><r>caoineadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>cry<s n="n"/></l><r>caoineadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>narrow<s n="n"/></l><r>caol<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>sheep<s n="n"/></l><r>caora<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>horse<s n="n"/></l><r>capall<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>capsule<s n="n"/></l><r>capsal<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>captain<s n="n"/></l><r>caiptean<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>friend<s n="n"/></l><r>caraid<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>character<s n="n"/></l><r>caractar<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>caramel<s n="n"/></l><r>caramail<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>carat<s n="n"/></l><r>carat<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>tie<s n="n"/></l><r>grabhat<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>cairn<s n="n"/></l><r>càrn<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>car<s n="n"/></l><r>càr<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>boulder<s n="n"/></l><r>carraig<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>carpark<s n="n"/></l><r>pàirc chàraichean<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>card<s n="n"/></l><r>cairt<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>cartoon<s n="n"/></l><r>cartùn<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>case<s n="n"/></l><r>ceas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>turn<s n="n"/></l><r>casadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>casserole<s n="n"/></l><r>casaroil<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>shoemaker<s n="n"/></l><r>casag<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>cat<s n="n"/></l><r>cat<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>catamaran<s n="n"/></l><r>catamaran<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>battle<s n="n"/></l><r>cath<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>city<s n="n"/></l><r>cathair<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>chair<s n="n"/></l><r>cathair<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>chairperson<s n="n"/></l><r>neach-cathrach<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>quay<s n="n"/></l><r>cidhe<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>lesson<s n="n"/></l><r>leasan<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>permission<s n="n"/></l><r>cead<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>hundred<s n="n"/></l><r>ceud<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>centipede<s n="n"/></l><r>mial-chòsach<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>allow<s n="n"/></l><r>ceadachadh<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>flake<s n="n"/></l><r>cealla<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>camera<s n="n"/></l><r>camara<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>cannister<s n="n"/></l><r>canastair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>knot<s n="n"/></l><r>ceangal<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>buy<s n="n"/></l><r>ceannach<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>leader<s n="n"/></l><r>ceannair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>buyer<s n="n"/></l><r>neach-ceannaich<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>capital city<s n="n"/></l><r>ceannchathair<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>thought<s n="n"/></l><r>ceap<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>sandwich<s n="n"/></l><r>ceapaire<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>hen<s n="n"/></l><r>cearc<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>square<s n="n"/></l><r>ceàrnag<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>right<s n="n"/></l><r>ceart<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>correct<s n="n"/></l><r>ceartachadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>party<s n="n"/></l><r>ceusadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>four<s n="n"/></l><r>ceithir<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>quarter<s n="n"/></l><r>ceathramh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>together<s n="n"/></l><r>cèile<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>dance<s n="n"/></l><r>cèilidh<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>step<s n="n"/></l><r>ceum<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>chemistry<s n="n"/></l><r>ceimig<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>question<s n="n"/></l><r>ceist<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>music<s n="n"/></l><r>ceòl<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>concert<s n="n"/></l><r>ceòlchuirm<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>musician<s n="n"/></l><r>ceòladair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>sense<s n="n"/></l><r>ciall<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>certain<s n="n"/></l><r>cinnteachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>certainty<s n="n"/></l><r>breithneachadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>circle<s n="n"/></l><r>cearcall<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>left<b/>hander<s n="n"/></l><r>ciotag<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>basket<s n="n"/></l><r>cisean<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>basketball<s n="n"/></l><r>ball-basgaid<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>kitchen<s n="n"/></l><r>cidsin<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>cube<s n="n"/></l><r>ciùb<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>quiet<s n="n"/></l><r>ciùineas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>clamp<s n="n"/></l><r>glamradh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>family<s n="n"/></l><r>clann<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>organiser<s n="n"/></l><r>neach-clàraidh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>canine tooth<s n="n"/></l><r>clàr-fhiacail<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>schedule<s n="n"/></l><r>clàrachadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>classical<s n="n"/></l><r>clasaigeach<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>clasp<s n="n"/></l><r>claspa<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>practice<s n="n"/></l><r>cleachdadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>trick<s n="n"/></l><r>cleas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>magician<s n="n"/></l><r>cleasaiche<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>magician<s n="n"/></l><r>cleasachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>feather<s n="n"/></l><r>cleit<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>stone<s n="n"/></l><r>clach<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>pebble<s n="n"/></l><r>clachan<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>convent<s n="n"/></l><r>clochar<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>bell<s n="n"/></l><r>clag<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>helmet<s n="n"/></l><r>clogad<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>monastery<s n="n"/></l><r>claistinn<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>clue<s n="n"/></l><r>cliù<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>ear<s n="n"/></l><r>cluas<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>knock<s n="n"/></l><r>cnag<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>bone<s n="n"/></l><r>cnàimh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>skeleton<s n="n"/></l><r>cnàmharlach<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>bonfire<s n="n"/></l><r>cnàmhag<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>ghost story<s n="n"/></l><r>cnàmh-sgeul<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>button<s n="n"/></l><r>cnap<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>nut<s n="n"/></l><r>cnò<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>hill<s n="n"/></l><r>cnoc<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>mound<s n="n"/></l><r>cnocan<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>cook<s n="n"/></l><r>còc<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>chef<s n="n"/></l><r>còcaire<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>cocoa<s n="n"/></l><r>còco<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>code<s n="n"/></l><r>còd<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>whisper<s n="n"/></l><r>codarsnachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>sleep<s n="n"/></l><r>cadal<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>fight<s n="n"/></l><r>cogadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>puppy<s n="n"/></l><r>cuilean<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>forest<s n="n"/></l><r>coille<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>keep<s n="n"/></l><r>reul<b/>chearbach<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>hide<s n="n"/></l><r>coimhead<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>respect<s n="n"/></l><r>coimheas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>commission<s n="n"/></l><r>coimisean<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>rabbit<s n="n"/></l><r>coineanach<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>candle<s n="n"/></l><r>coinneal<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>conversation<s n="n"/></l><r>còmhradh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>college<s n="n"/></l><r>colaiste<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>competition<s n="n"/></l><r>farpais<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>cone<s n="n"/></l><r>còn<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>live<s n="n"/></l><r>còmhnaidh<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>county<s n="n"/></l><r>siorrachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>copper<s n="n"/></l><r>copar<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>chorus<s n="n"/></l><r>còras<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>body<s n="n"/></l><r>corp<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>foot<s n="n"/></l><r>cas<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>footpath<s n="n"/></l><r>cas-cheum<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>ban<s n="n"/></l><r>casg<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>coast<s n="n"/></l><r>costa<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>price<s n="n"/></l><r>cosgais<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>coat<s n="n"/></l><r>còta<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>equal<s n="n"/></l><r>cothrom<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>equality<s n="n"/></l><r>cothrom<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>skin<s n="n"/></l><r>craiceann<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>tree<s n="n"/></l><r>crann<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>crannock<s n="n"/></l><r>crannag<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>clay<s n="n"/></l><r>crèadh<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>creature<s n="n"/></l><r>creutair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>religion<s n="n"/></l><r>creideamh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>end<s n="n"/></l><r>crìoch<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>ending<s n="n"/></l><r>crìochnachadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>cross<s n="n"/></l><r>crios<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>crystal<s n="n"/></l><r>criostal<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>shake<s n="n"/></l><r>crith<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>hang<s n="n"/></l><r>crochadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>hangman?<s n="n"/></l><r>crochadair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>crocodile<s n="n"/></l><r>crogall<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>heart<s n="n"/></l><r>cridhe<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>crossword<s n="n"/></l><r>tòimhseachan-tarsainn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dilemma<s n="n"/></l><r>cruadhag<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>hardware<s n="n"/></l><r>bathar cruaidh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>meeting<s n="n"/></l><r>cruinneachadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>corn<s n="n"/></l><r>cruithneachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>court<s n="n"/></l><r>cuairt<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>visitor<s n="n"/></l><r>cuairtear<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>goal<s n="n"/></l><r>cual<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>reason<s n="n"/></l><r>cuas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>some<s n="n"/></l><r>cuid<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>help<s n="n"/></l><r>cuideachadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>five<s n="n"/></l><r>còig<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>fifth<s n="n"/></l><r>còigeamh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>behind<s n="n"/></l><r>cùil<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>remember<s n="n"/></l><r>cuimhne<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>corner<s n="n"/></l><r>cuinne<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>invitation<s n="n"/></l><r>cuireadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>visit<s n="n"/></l><r>cùirt<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>curtain<s n="n"/></l><r>cùirtean<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>reason<s n="n"/></l><r>cùis<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>refrigerator<s n="n"/></l><r>inneal-fionnarachaidh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>backtalk<s n="n"/></l><r>cùl-chainnt<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>culture<s n="n"/></l><r>cultar<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>commute<s n="n"/></l><r>conaltradh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>accountant<s n="n"/></l><r>cunntasair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>accounting<s n="n"/></l><r>cunntasachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>counter<s n="n"/></l><r>cungantair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>cup<s n="n"/></l><r>cupa<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>couple<s n="n"/></l><r>càraid<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>course<s n="n"/></l><r>cùrsa<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>custom<s n="n"/></l><r>cusbann<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>custard<s n="n"/></l><r>ughagan<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>nothing<s n="n"/></l><r>dad<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>forty<s n="n"/></l><r>dà fhichead<s n="n"/></r></p></e>
+    <e a="coregan"><p><l>daddy<s n="n"/></l><r>dadaidh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>oak<s n="n"/></l><r>darach<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>blind<s n="n"/></l><r>dall<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>student<s n="n"/></l><r>sgoilear<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>damage<s n="n"/></l><r>damaiste<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>dance<s n="n"/></l><r>dannsa<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>colour<s n="n"/></l><r>dath<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>holy<s n="n"/></l><r>deò<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>nice taste<s n="n"/></l><r>deagh-bhlas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>nice smell<s n="n"/></l><r>deagh-bholadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>hard<s n="n"/></l><r>deacaireachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>teenager<s n="n"/></l><r>deugair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>thorn<s n="n"/></l><r>dealg<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>needle<s n="n"/></l><r>dealgan<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>red<s n="n"/></l><r>dearg<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>forget<s n="n"/></l><r>dearmad<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>brother<s n="n"/></l><r>bràthair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>desk<s n="n"/></l><r>deasg<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>right<b/>hand<s n="n"/></l><r>deasag<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>right<b/>hander<s n="n"/></l><r>deasag<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>ten<s n="n"/></l><r>deich<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>tenth<s n="n"/></l><r>deicheamh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>ten<s n="n"/></l><r>deichnear<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>rush<s n="n"/></l><r>diofar<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>end<s n="n"/></l><r>deireadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>sister<s n="n"/></l><r>piuthar<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>mend<s n="n"/></l><r>deasachadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>disgust<s n="n"/></l><r>dèistinn<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>drink<s n="n"/></l><r>deoch<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>dioxide<s n="n"/></l><r>dà-ocsaid<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>bead<s n="n"/></l><r>deur<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>grant<s n="n"/></l><r>bronntas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>god<s n="n"/></l><r>dia<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>diary<s n="n"/></l><r>leabhar-latha<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>work hard<s n="n"/></l><r>dìcheall<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>difference<s n="n"/></l><r>diofar<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>sell<s n="n"/></l><r>dìol<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>shame<s n="n"/></l><r>dìmeas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>hard<s n="n"/></l><r>dìon<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>debate<s n="n"/></l><r>deasbaireachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>guy<s n="n"/></l><r>diùlanach<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>law<s n="n"/></l><r>lagh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>forensic scientist<s n="n"/></l><r>neach-lagha<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>forensic science<s n="n"/></l><r>eòlas-lagha<s n="n"/><s n="GD"/></r></p></e>
+    <e a="coregan"><p><l>lawyer<s n="n"/></l><r>neach-lagha<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>density<s n="n"/></l><r>dlùths<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>dense<s n="n"/></l><r>dlùth<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>compact<b/>disc<s n="n"/></l><r>meanbh-chlàr<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>two<s n="n"/></l><r>dòthadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>ass<s n="n"/></l><r>dòbhran<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>harm<s n="n"/></l><r>dochann<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>hope<s n="n"/></l><r>dòchas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>doctor<s n="n"/></l><r>dotair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>doctoring<s n="n"/></l><r>dotaireachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>burn<s n="n"/></l><r>dòigh<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>sink<s n="n"/></l><r>doirteal<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>fire<s n="n"/></l><r>toitean<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>earth<s n="n"/></l><r>domhan<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>door<s n="n"/></l><r>doras<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>darkness<s n="n"/></l><r>dorchadas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>boxer<s n="n"/></l><r>dòrnadair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>magic<s n="n"/></l><r>draoidheachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>drama<s n="n"/></l><r>dràma<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>hiker<s n="n"/></l><r>streapadair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>wren<s n="n"/></l><r>dreòlan<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>back<s n="n"/></l><r>druim<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>rectangle<s n="n"/></l><r>dronn-uileann<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>drug<s n="n"/></l><r>droga<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>closer<s n="n"/></l><r>druideadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>drum<s n="n"/></l><r>druma<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>drummer<s n="n"/></l><r>drumair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>drumming<s n="n"/></l><r>drumaireachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>prize<s n="n"/></l><r>duais<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>kidney<s n="n"/></l><r>dubhan<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>black<s n="n"/></l><r>dubh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>nature<s n="n"/></l><r>dùchas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>native<s n="n"/></l><r>dùthchasach<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>leaf<s n="n"/></l><r>duilleag<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>person<s n="n"/></l><r>duine<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>close<s n="n"/></l><r>dùn<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>murder<s n="n"/></l><r>murtadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>achievement<s n="n"/></l><r>euchd<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>incident<s n="n"/></l><r>feuchainn<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>edit<s n="n"/></l><r>eagar<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>editor<s n="n"/></l><r>neach-deasachaidh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>fear<s n="n"/></l><r>eagal<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>organisation<s n="n"/></l><r>eagrachadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>swan<s n="n"/></l><r>eala<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>art<s n="n"/></l><r>ealain<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>artist<s n="n"/></l><r>ealantair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>escape<s n="n"/></l><r>èalaidh<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>bird<s n="n"/></l><r>eun<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>spring<s n="n"/></l><r>earrach<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>waterfall<s n="n"/></l><r>eas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>lack<s n="n"/></l><r>easbhaidh<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>bishop<s n="n"/></l><r>easbaig<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>rise<s n="n"/></l><r>èirigh<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>listen<s n="n"/></l><r>èisteachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>listener<s n="n"/></l><r>èisdear<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>key<s n="n"/></l><r>iuchair<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>keyword<s n="n"/></l><r>facal-luirg<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>scientist<s n="n"/></l><r>eòlaiche<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>science<s n="n"/></l><r>eòlaidheachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>information<s n="n"/></l><r>eòlas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>leaving<s n="n"/></l><r>fàgail<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>nothing<s n="n"/></l><r>dad<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>chess<s n="n"/></l><r>faiceall<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>get<s n="n"/></l><r>faighinn<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>welcome<s n="n"/></l><r>fàilte<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>greeting<s n="n"/></l><r>fàilteachadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>ring<s n="n"/></l><r>fàinne<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>advice<s n="n"/></l><r>aisneis<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>fear<s n="n"/></l><r>faiteas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>sea<s n="n"/></l><r>fairge<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>reason<s n="n"/></l><r>fàth<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>improvement<s n="n"/></l><r>feabhas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>improve<s n="n"/></l><r>feabhas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>looking<s n="n"/></l><r>feuchainn<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>tube<s n="n"/></l><r>feadan<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>whistle<s n="n"/></l><r>feadag<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>man<s n="n"/></l><r>fear<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>grass<s n="n"/></l><r>feur<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>anger<s n="n"/></l><r>fearg<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>beard<s n="n"/></l><r>feusag<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>party<s n="n"/></l><r>fèisd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>see<s n="n"/></l><r>faicinn<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>function<s n="n"/></l><r>feum<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>festival<s n="n"/></l><r>fèill<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>suicide<s n="n"/></l><r>fèin-mhurt<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>Self respect<s n="n"/></l><r>fèin-mheas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>self control<s n="n"/></l><r>fèin-smachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>farm<s n="n"/></l><r>tuathanas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>farmer<s n="n"/></l><r>tuathanach<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>farming<s n="n"/></l><r>tuathanachas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>wait<s n="n"/></l><r>feitheamh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>fly<s n="n"/></l><r>beithir<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>meat<s n="n"/></l><r>feòil<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>deer<s n="n"/></l><r>fiadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>tooth<s n="n"/></l><r>fiacail<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>dentist<s n="n"/></l><r>fiaclair<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>inquiry<s n="n"/></l><r>iarraidh<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>evidence<s n="n"/></l><r>fianais<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>twenty<s n="n"/></l><r>fichead<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>chess<s n="n"/></l><r>fidhcheall<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>twentieth<s n="n"/></l><r>ficheadamh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>fiddle<s n="n"/></l><r>fidheall<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>fiddler<s n="n"/></l><r>fìdhlear<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>figure<s n="n"/></l><r>figear<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>poetry<s n="n"/></l><r>filidheachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>folder<s n="n"/></l><r>filleag<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>knowledge<s n="n"/></l><r>fios<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>investigation<s n="n"/></l><r>fiosrachadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>video player<s n="n"/></l><r>bhidio<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>physics<s n="n"/></l><r>fiosaig<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>videotape<s n="n"/></l><r>bhidio<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>word<s n="n"/></l><r>facal<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>dictionary<s n="n"/></l><r>faclair<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lexicography<s n="n"/></l><r>faclaireachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>notice<s n="n"/></l><r>fògradh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>advertisement<s n="n"/></l><r>sanasachd<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>mood<s n="n"/></l><r>fonn<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>development<s n="n"/></l><r>leasachadh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>force<s n="n"/></l><r>fòrsa<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>answer<s n="n"/></l><r>freagairt<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>attending<s n="n"/></l><r>freastal<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>waste<s n="n"/></l><r>fuaigheal<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>noise<s n="n"/></l><r>fuaim<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>blood<s n="n"/></l><r>fuil<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>energy<s n="n"/></l><r>toinneamh<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>window<s n="n"/></l><r>uinneag<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>suffering<s n="n"/></l><r>fulang<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>radius<s n="n"/></l><r>gath<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>capture<s n="n"/></l><r>gabhail<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>goat<s n="n"/></l><r>gobhar<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>thieves<s n="n"/></l><r>gadaiche<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>sand<s n="n"/></l><r>gainmheach<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>laughter<s n="n"/></l><r>gàire<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>award<s n="n"/></l><r>bàrraisg<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>disease<s n="n"/></l><r>galar<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>golf<s n="n"/></l><r>golf<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>relation<s n="n"/></l><r>cleamhnas<s n="n"/><s n="m"/></r></p></e>
+    <e a="coregan"><p><l>wind<s n="n"/></l><r>gaoth<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>garage<s n="n"/></l><r>garaids<s n="n"/><s n="f"/></r></p></e>
+    <e a="coregan"><p><l>guard<s n="n"/></l><r>poileas<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lobster<s n="n"/></l><r>giomach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hair<s n="n"/></l><r>gruag<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>butter<s n="n"/></l><r>ìm<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>engineer<s n="n"/></l><r>innleadair<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>engineering<s n="n"/></l><r>innleadaireachd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>hand<s n="n"/></l><r>làmh<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>evening<s n="n"/></l><r>oidhche<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>start<s n="n"/></l><r>tùs<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>water<s n="n"/></l><r>uisge<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>X-ray<s n="n"/></l><r>x-ghath<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>xylophone<s n="n"/></l><r>saidhleafòn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>zoo<s n="n"/></l><r>sù<s n="n"/><s n="m"/></r></p></e>
+
+    <e><p><l>African<s n="adj"/></l><r>Afraganach<s n="adj"/></r></p></e>
+    <e><p><l>Albanian<s n="adj"/></l><r>Albannach<s n="adj"/></r></p></e>
+    <e><p><l>Belgian<s n="adj"/></l><r>Beilgeach<s n="adj"/></r></p></e>
+    <e><p><l>Catholic<s n="adj"/></l><r>Caitligeach<s n="adj"/></r></p></e>
+    <e><p><l>Celtic<s n="adj"/></l><r>Ceilteach<s n="adj"/></r></p></e>
+    <e><p><l>Irish<s n="adj"/></l><r>Èireannach<s n="adj"/></r></p></e>
+    <e><p><l>European<s n="adj"/></l><r>Eòrpach<s n="adj"/></r></p></e>
+    <e><p><l>Finnish<s n="adj"/></l><r>Fionnlannach<s n="adj"/></r></p></e>
+    <e><p><l>French<s n="adj"/></l><r>Frangach<s n="adj"/></r></p></e>
+    <e><p><l>Gaelic<s n="adj"/></l><r>Gàidhealach<s n="adj"/></r></p></e>
+    <e><p><l>German<s n="adj"/></l><r>Gearmailteach<s n="adj"/></r></p></e>
+    <e><p><l>Greek<s n="adj"/></l><r>Greugach<s n="adj"/></r></p></e>
+    <e><p><l>Iberian<s n="adj"/></l><r>Eireannach<s n="adj"/></r></p></e>
+    <e><p><l>American<s n="adj"/></l><r>Ameireaganach<s n="adj"/></r></p></e>
+    <e><p><l>Austrian<s n="adj"/></l><r>Ostaireach<s n="adj"/></r></p></e>
+    <e><p><l>Polish<s n="adj"/></l><r>Pòlainneach<s n="adj"/></r></p></e>
+    <e><p><l>Portuguese<s n="adj"/></l><r>Portagaileach<s n="adj"/></r></p></e>
+    <e><p><l>Protestant<s n="adj"/></l><r>Pròstanach<s n="adj"/></r></p></e>
+    <e><p><l>Romanian<s n="adj"/></l><r>Romàinianach<s n="adj"/></r></p></e>
+    <e><p><l>Russian<s n="adj"/></l><r>Ruiseanach<s n="adj"/></r></p></e>
+    <e><p><l>English<s n="adj"/></l><r>Sasannach<s n="adj"/></r></p></e>
+    <e><p><l>Chinese<s n="adj"/></l><r>Sìonach<s n="adj"/></r></p></e>
+    <e><p><l>Spanish<s n="adj"/></l><r>Spàinneach<s n="adj"/></r></p></e>
+    <e><p><l>Hungarian<s n="adj"/></l><r>Ungaireach<s n="adj"/></r></p></e>
+    <e><p><l>able<s n="adj"/></l><r>abalta<s n="adj"/></r></p></e>
+    <e><p><l>high<s n="adj"/></l><r>àrd<s n="adj"/></r></p></e>
+    <e><p><l>lame<s n="adj"/></l><r>bacach<s n="adj"/></r></p></e>
+    <e><p><l>white<s n="adj"/></l><r>bàn<s n="adj"/></r></p></e>
+    <e><p><l>soft<s n="adj"/></l><r>bog<s n="adj"/></r></p></e>
+    <e><p><l>broken<s n="adj"/></l><r>briste<s n="adj"/></r></p></e>
+    <e><p><l>quiet<s n="adj"/></l><r>ciùin<s n="adj"/></r></p></e>
+    <e><p><l>dark<s n="adj"/></l><r>dorcha<s n="adj"/></r></p></e>
+    <e><p><l>closed<s n="adj"/></l><r>dùinte<s n="adj"/></r></p></e>
+    <e><p><l>wet<s n="adj"/></l><r>fliuch<s n="adj"/></r></p></e>
+    <e><p><l>empty<s n="adj"/></l><r>falamh<s n="adj"/></r></p></e>
+    <e><p><l>cold<s n="adj"/></l><r>fuar<s n="adj"/></r></p></e>
+
+    <e><p><l>bury<s n="vblex"/></l><r>adhlaic<s n="vblex"/></r></p></e>
+    <e><p><l>admit<s n="vblex"/></l><r>ceadaich<s n="vblex"/></r></p></e>
+    <e><p><l>claim<s n="vblex"/></l><r>agair<s n="vblex"/></r></p></e>
+    <e><p><l>ripen<s n="vblex"/></l><r>abaich<s n="vblex"/></r></p></e>
+    <e><p><l>recite<s n="vblex"/></l><r>aithris<s n="vblex"/></r></p></e>
+    <e><p><l>rewrite<s n="vblex"/></l><r>ath-sgrìobh<s n="vblex"/></r></p></e>
+    <e><p><l>threaten<s n="vblex"/></l><r>bagair<s n="vblex"/></r></p></e>
+    <e><p><l>drown<s n="vblex"/></l><r>bàth<s n="vblex"/></r></p></e>
+    <e><p><l>catch<s n="vblex"/></l><r>beir<s n="vblex"/></r></p></e>
+    <e><p><l>break<s n="vblex"/></l><r>bris<s n="vblex"/></r></p></e>
+    <e><p><l>press<s n="vblex"/></l><r>brùth<s n="vblex"/></r></p></e>
+    <e><p><l>win<s n="vblex"/></l><r>buidhinn<s n="vblex"/></r></p></e>
+    <e><p><l>hit<s n="vblex"/></l><r>buail<s n="vblex"/></r></p></e>
+    <e><p><l>help<s n="vblex"/></l><r>cuidich<s n="vblex"/></r></p></e>
+    <e><p><l>learn<s n="vblex"/></l><r>foghlaim<s n="vblex"/></r></p></e>
+    <e><p><l>eat<s n="vblex"/></l><r>ith<s n="vblex"/></r></p></e>
+    <e><p><l>show<s n="vblex"/></l><r>taisbean<s n="vblex"/></r></p></e>
+
+    <e><p><l>Act<s n="n"/></l><r>Achd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Ethiopia<s n="np"/><s n="top"/></l><r>Etiopia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Afghanistan<s n="np"/><s n="top"/></l><r>Afganastan<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>African<s n="n"/></l><r>Afraganach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Africa<s n="np"/><s n="top"/></l><r>Afraga<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>April<s n="n"/></l><r>Giblean<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Mass<s n="n"/></l><r>Aifreann<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Aegean<s n="np"/><s n="top"/></l><r>Aigeann<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Antichrist<s n="n"/></l><r>ana-Crìosd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Scotland<s n="np"/><s n="top"/></l><r>Alba<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Albania<s n="np"/><s n="top"/></l><r>Albàinia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Friday<s n="n"/></l><r>Dihaoine<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Age<s n="n"/></l><r>Aois<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Azerbaijan<s n="np"/><s n="top"/></l><r>Asarbaidean<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Australia<s n="np"/><s n="top"/></l><r>Astràilia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Australasia<s n="np"/><s n="top"/></l><r>Astralàisia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>May<s n="n"/></l><r>Bealltainn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>English<s n="n"/></l><r>Beurla<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Belgium<s n="np"/><s n="top"/></l><r>Beilg<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Britain<s n="np"/><s n="top"/></l><r>Breatainn<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Brian<s n="np"/><s n="top"/><s n="m"/></l><r>Brian<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Brussels<s n="np"/><s n="top"/></l><r>Bruiseal<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Bulgaria<s n="np"/><s n="top"/></l><r>Bulgàiria<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Catholic<s n="n"/></l><r>Caitligeach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Wednesday<s n="n"/></l><r>Diciadain<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Canada<s n="np"/><s n="top"/></l><r>Canada<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Celt<s n="n"/></l><r>Ceilteach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Kerry<s n="np"/><s n="top"/></l><r>Ciarraighe<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Clare<s n="np"/><s n="top"/></l><r>Clàr<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>College<s n="n"/></l><r>Colaiste<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Christ<s n="n"/></l><r>Crìosd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Croatia<s n="np"/><s n="top"/></l><r>Croatia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Denmark<s n="np"/><s n="top"/></l><r>Danmhairg<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Thursday<s n="n"/></l><r>Diardaoin<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>God<s n="n"/></l><r>Dia<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Derry<s n="np"/><s n="top"/></l><r>Doire<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>January<s n="n"/></l><r>Faoilteach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Estonia<s n="np"/><s n="top"/></l><r>Estòinia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Egypt<s n="np"/><s n="top"/></l><r>Èipheit<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Switzerland<s n="np"/><s n="top"/></l><r>Eilbheis<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Ireland<s n="np"/><s n="top"/></l><r>Èirinn<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Irish<s n="n"/></l><r>Èireannach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Europe<s n="np"/><s n="top"/></l><r>Eòrpa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>European<s n="n"/></l><r>Eòrpach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>February<s n="n"/></l><r>Gearran<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Finland<s n="np"/><s n="top"/></l><r>Fionnlainn<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>France<s n="np"/><s n="top"/></l><r>Fraing<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>French<s n="n"/></l><r>Fraingis<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>French<s n="n"/></l><r>Frangach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Irish<s n="n"/></l><r>Gàidhlig<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Gaelic<s n="n"/></l><r>Gàidheal<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Gaeltacht<s n="np"/><s n="top"/></l><r>Gàidhealtachd<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Ghana<s n="np"/><s n="top"/></l><r>Gana<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>Garda<s n="n"/></l><r>Poileas<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Germany<s n="np"/><s n="top"/></l><r>Gearmailt<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>German<s n="n"/></l><r>Gearmailtis<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>German<s n="n"/></l><r>Gearmailteach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Glasgow<s n="np"/><s n="top"/></l><r>Glaschu<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Greek<s n="n"/></l><r>Greugach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Greece<s n="np"/><s n="top"/></l><r>Grèig<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Greek<s n="n"/></l><r>Greugais<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Iraq<s n="np"/><s n="top"/></l><r>Iarag<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Iran<s n="np"/><s n="top"/></l><r>Iaran<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Jerusalem<s n="np"/><s n="top"/></l><r>Iarusalem<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Inverness<s n="np"/><s n="top"/></l><r>Inbhir Nis<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Italy<s n="np"/><s n="top"/></l><r>Eadailt<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Jordan<s n="np"/><s n="top"/></l><r>Iòrdan<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Netherlands<s n="np"/><s n="top"/></l><r>Tìr Ìosal<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Yugoslavia<s n="np"/><s n="top"/></l><r>Iùgoslaibhia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>July<s n="n"/></l><r>Iuchar<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Jupiter<s n="np"/></l><r>Iupatar<s n="np"/><s n="m"/></r></p></e>
+    <e><p><l>Latin<s n="n"/></l><r>Laideann<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Latvia<s n="np"/><s n="top"/></l><r>Latbhia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Liam<s n="np"/><s n="ant"/><s n="m"/></l><r>Liam<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Liberia<s n="np"/><s n="top"/></l><r>Libeiria<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Libia<s n="np"/><s n="top"/></l><r>Libia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Lithuania<s n="np"/><s n="top"/></l><r>Lituàinia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Lake<s n="n"/></l><r>Loch<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>London<s n="np"/><s n="top"/></l><r>Lunnainn<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Monday<s n="n"/></l><r>Diluain<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Luxembourg<s n="np"/><s n="top"/></l><r>Lugsamburg<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Limerick<s n="np"/><s n="top"/></l><r>Luimneach<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>August<s n="n"/></l><r>Lùnastal<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Máire<s n="np"/><s n="ant"/><s n="f"/></l><r>Máire<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>Tuesday<s n="n"/></l><r>Dimàirt<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>March<s n="n"/></l><r>Màrt<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>America<s n="np"/><s n="top"/></l><r>Ameireaga<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>American<s n="n"/></l><r>Ameireaganach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>June<s n="n"/></l><r>Ògmhios<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Micheál<s n="np"/><s n="ant"/><s n="m"/></l><r>Micheál<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Muslim<s n="n"/></l><r>Muslamach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Mary<s n="np"/><s n="ant"/><s n="f"/></l><r>Muire<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>Christmas<s n="n"/></l><r>Nollaig<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Office<s n="n"/></l><r>Oifis<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>University<s n="n"/></l><r>Oilthigh<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Austria<s n="np"/><s n="top"/></l><r>Ostair<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Austrian<s n="n"/></l><r>Ostaireach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Pakistan<s n="np"/><s n="top"/></l><r>Pagastan<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Park<s n="n"/></l><r>Pàirc<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Pope<s n="n"/></l><r>Pàpa<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Parliament<s n="n"/></l><r>Pàrlamaid<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Patagonia<s n="np"/><s n="top"/></l><r>Patagòinia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Poland<s n="np"/><s n="top"/></l><r>Pòlainn<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Polish<s n="n"/></l><r>Pòlainneach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Portugal<s n="np"/><s n="top"/></l><r>Portagail<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Prince<s n="n"/></l><r>Prionnsa<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Protestant<s n="n"/></l><r>Pròstanach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Romania<s n="np"/><s n="top"/></l><r>Romàinia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Romanian<s n="n"/></l><r>Romàinianach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Rwanda<s n="np"/><s n="top"/></l><r>Ruanda<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Russia<s n="np"/><s n="top"/></l><r>Ruis<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Russian<s n="n"/></l><r>Ruiseanach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Russian<s n="n"/></l><r>Ruisis<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Father<s n="n"/></l><r>Sagart<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Zambia<s n="np"/><s n="top"/></l><r>Sambia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Samhain<s n="n"/></l><r>Samhain<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>England<s n="np"/><s n="top"/></l><r>Sasainn<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>English<s n="n"/></l><r>Sasannach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Saturday<s n="n"/></l><r>Disathairne<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Seán<s n="np"/><s n="ant"/><s n="m"/></l><r>Seán<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Senate<s n="n"/></l><r>Seanadh<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Japan<s n="np"/><s n="top"/></l><r>Iapan<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Czech<s n="np"/><s n="top"/></l><r>Seic<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Czech<s n="n"/></l><r>Seiceach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Serbia<s n="np"/><s n="top"/></l><r>Serbia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Georgia<s n="np"/><s n="top"/></l><r>Deòirsia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Chile<s n="np"/><s n="top"/></l><r>Síle<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>China<s n="np"/><s n="top"/></l><r>Sìona<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Chinese<s n="n"/></l><r>Sìonach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Zimbabwe<s n="np"/><s n="top"/></l><r>Simbabue<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Slovenia<s n="np"/><s n="top"/></l><r>Slobhinia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Slovakia<s n="np"/><s n="top"/></l><r>Slobhagia<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Spain<s n="np"/><s n="top"/></l><r>Spàinn<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>spanish<s n="n"/></l><r>Spàinnis<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Street<s n="n"/></l><r>Sràid<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Tadhg<s n="np"/><s n="ant"/><s n="m"/></l><r>Tadhg<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Taoiseach<s n="n"/></l><r>Taoiseach<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>President<s n="n"/></l><r>Uachdaran<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Hungary<s n="np"/><s n="top"/></l><r>Ungair<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Hungarian<s n="n"/></l><r>Ungaireach<s n="n"/><s n="m"/></r></p></e>
+  </section>
+</dictionary>

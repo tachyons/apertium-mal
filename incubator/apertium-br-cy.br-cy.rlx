@@ -1,0 +1,226 @@
+DELIMITERS            = (sent);
+
+LIST BOS              = (>>>);
+LIST EOS              = (<<<);
+
+# Nouns
+LIST NC               = (n);
+LIST NP               = (np top) (np ant) (np cog) (np al);
+LIST Toponim          = (np top);
+
+SET  N                = NC | NP;
+
+# Numerals
+LIST Num              = (num);
+
+# Determiners         
+LIST Det              = (det);
+
+# Demonstratives
+LIST Dem              = (prn dem) (det dem);
+
+# Adjectives
+LIST Adj              = (adj);
+
+LIST Itg              = (itg);
+
+# Pronouns
+LIST PrnSubj          = (prn subj);
+LIST PrnDObj          = ("direct"ri prn obj);
+LIST PrnIObj          = ("indirect"ri prn obj) (+indirect);  # Lemmas from sub-readings are expressed as tags and prefixed with '+'
+
+SET Prn               = PrnSubj | PrnDObj | PrnIObj;
+
+# Determiners
+LIST DetDef           = (det def);
+LIST DetInd           = (det ind);
+LIST DetPos           = (det pos);
+
+# Prepositions
+LIST Prep             = (pr);
+
+# Verbal particles 
+LIST Vpart            = (vpart);
+LIST VpartSDO         = ("a" vpart);
+LIST VpartIDO         = ("e" vpart);
+LIST VpartNeg         = (vpart neg);
+LIST VpartGer         = (vpart ger);
+LIST VpartNegImp      = ("na" vpart neg);
+
+# Verbs
+LIST Vbloc            = (vbloc);
+LIST Vblex            = (vblex);
+LIST Vbser            = (vbser);
+
+LIST VerbPP           = (vblex pp);
+LIST VerbImp          = (vblex imp);
+LIST VerbInf          = (vblex inf);
+
+LIST TempsFin         = (pri) (pii) (past) (fti);
+
+SET Verb              = Vbloc | Vblex | Vbser;
+SET VerbFin           = Verb | TempsFin;
+
+# Adverbs
+LIST Adv              = (adv);
+
+# Conjunctions
+
+LIST CC               = (cnjcoo);
+LIST CS               = (cnjsub);
+
+# Mutations
+LIST SoftMut          = ("<g.*>"ri "k.*"ri) ("<d.*>"ri "t.*"ri) ("<b.*>"ri "p.*"ri) ("<c’h.*>"ri "g.*"ri) 
+                        ("<w.*>"ri "gw.*"ri) ("<z.*>"ri "d.*"ri) ("<v.*>"ri "b.*"ri) ("<v.*>"ri "m.*"ri);
+
+LIST AspMut           = ("<c’h.*>"ri "k.*"ri) ("<z.*>"ri "t.*"ri) ("<f.*>"ri "p.*"ri); 
+LIST HardMut          = ("<k.*>"ri "g.*"ri) ("<t.*>"ri "d.*"ri) ("<p.*>"ri "b.*"ri); 
+LIST MixedMut         = ("<c’h.*>"ri "g.*"ri) ("<w.*>"ri "gw.*"ri) ("<t.*>"ri "d.*"ri) ("<v.*>"ri "b.*"ri) ("<v.*>"ri "m.*"ri); 
+
+LIST HardMutTrigger   = ("ho" det pos) ("e" +da det pos);
+LIST AspMutTrigger    = ("o" det pos) ("va" det pos) ("he" det pos) ("peder" num f) ("pevar" num m) ("teir" num f) 
+                        ("tri" num m) ("nav" num) ;
+
+                        # Missing: "tra" (while), "seul" (all the more), "re" (too), "re" (those, ones)
+			# "en em" reflexive particle, "en ur" while, 
+
+LIST SoftMutTrigger   = ("a" vpart) ("a" pr) ("aba" adv) ("da" pr) ("ez" vpart) ("hanter" adj) ("holl" adj)
+                        ("da" det pos) ("daou" num m) ("div" num f) ("dindan" adv) ("diwar" pr) ("dre" pr)
+                        ("e" det pos m) ("na" vpart neg) ("ne" vpart neg) ("pa" cnjsub) ("pe" cnjcoo) 
+                        ("pe" adv itg) ("ra" vpart opt) ("re" adj) ("war" pr); 
+
+# Orthography
+LIST DroppedG         = ("<[aeiou].*>"r "g[aeiou].*"ri);
+
+# Sets
+
+SET PRE-N =  Adj | Det | Dem | NC | Num ; 
+
+SET WORD = NC | Verb | Adj | Prep | Prn | Adv | CC | CS | Num | ("\?") ;
+SET MARK =  ("\,") | ("\:") | ("\;") ;
+SET WORDMARK = WORD | MARK ;
+
+SET NPNH = WORDMARK - PRE-N ;
+SET NPNHA = WORDMARK - PRE-N - Adv ;
+SET NOT-ADV = WORDMARK - Adv ;
+SET NOT-ADJ = WORDMARK - Adj ;
+
+SET S-BOUNDARY = CS | (sent) ;
+
+#
+# Main section
+#
+
+SECTION
+
+# REGLA (B0022): "ha zo bet skrivet"
+REMOVE SoftMut IF (NOT -1 SoftMutTrigger);
+
+# REGLA (B0001): "me a had"
+SELECT VpartSDO IF ((-1 PrnSubj) OR (-1 PrnDObj));
+
+# REGLA (B0002): "eviti e laboure"
+SELECT VpartIDO IF ((-1 PrnIObj) OR (-1 Adv));
+
+# REGLA (B0003): "na ganit ket"
+SELECT VpartNegImp IF (1 VerbImp);
+
+# REGLA (B0004): "a had"
+#SELECT Verb IF (-1 Vpart);
+
+# REGLA (B0005): "na ganit ket"
+SELECT VerbImp IF (-1 VpartNegImp);
+
+# REGLA (B0006): "emañ e Brest"
+SELECT Prep IF (-1 Vbloc);
+
+# REGLA (B0008): "edo o vervel"
+SELECT VpartGer IF (1 VerbInf);
+
+# REGLA (B0015): "o chom e Roazhon"
+SELECT VerbInf IF (-1 VpartGer);
+
+# REGLA (B0009): "Geriadur digor ha frank"
+SELECT Adj IF (-1 NC) (0 NC) (0 Adj);
+
+# REGLA (B0010): "Ar stad zo unan eus stummoù aozadur politikel ur vro."
+REMOVE VerbFin IF (*-1 VerbFin BARRIER S-BOUNDARY)
+
+# REGLA (B0011): "Stad da lod"
+REMOVE PrnDObj IF (NOT -1 VerbFin) (NOT 1 VerbFin);
+
+# REGLA (B0012): "An dud a zeu da Roazhon"
+REMOVE VerbFin IF (0 Det) (1 NC)
+
+# REGLA (B0013): "Me am eus kanet"
+REMOVE VerbImp IF (-1 VerbFin);
+
+# REGLA (B0014): "Yann a zeuy"
+SELECT Vpart IF (1 VerbFin);
+
+# REGLA (B0016): >The particle is omitted before every form of 'endevout' and the locative forms of 'bezañ'
+REMOVE Vpart IF (1 ("endevout" vblex));
+REMOVE Vpart IF (1 Vbloc);
+
+# REGLA (B0017): >The particle is omitted before verbal nouns and imperatives
+REMOVE Vpart IF ((1 VerbInf) OR (1 VerbImp));
+
+# REGLA (B0018): 
+REMOVE Vpart IF (*-1 VerbFin BARRIER Vpart);
+
+# REGLA (B0019): "o chom e Roazhon"
+REMOVE PrnDObj IF (-1 VerbInf);
+
+# REGLA (B0020): "Ni a ro al laezh"
+SELECT VerbFin IF (-1 VpartSDO) (-2 PrnSubj)
+
+# REGLA (B0021): >The particle is omitted before verbal nouns and imperatives
+REMOVE VerbInf IF (-1 Vpart) (0 VerbFin);
+REMOVE VerbImp IF (-1 Vpart) (0 VerbFin);
+
+REMOVE Itg IF (1 VerbPP);
+
+SECTION
+
+# REGLA (A0002): "hi a oar"
+SELECT DroppedG IF (-1 Vpart);
+
+# REGLA (A0003): "na ganit ket"
+SELECT SoftMut IF (-1 SoftMutTrigger);
+
+# REGLA (A0004): "emañ e Brest"
+REMOVE SoftMut IF (NOT -1 SoftMutTrigger);
+
+# REGLA (A0006): ""
+SELECT SoftMutTrigger IF (1 SoftMut);
+
+# REGLA (A0005): "ez di"
+SELECT HardMut IF (-1 HardMutTrigger);
+
+# REGLA (A0006): "ez di"
+SELECT HardMutTrigger IF (1 HardMut);
+
+# REGLA (A0007): "o deus kanet"
+REMOVE HardMut IF (NOT -1 HardMutTrigger);
+
+# REGLA (A0008): "nemet peder flanedenn"
+SELECT AspMut IF (-1 AspMutTrigger);
+
+# REGLA (A0009): "nemet peder flanedenn"
+SELECT AspMutTrigger IF (1 AspMut);
+
+# REGLA (A0009): ""
+REMOVE AspMut IF (NOT -1 AspMutTrigger);
+
+SECTION
+
+# REGLA (C0001): "o chom e Roazhon"
+REMOVE DetPos IF (1 Toponim);
+
+# REGLA (C0002): "zeu da Gwengamp"
+REMOVE PrnDObj IF (1 Toponim);
+
+REMOVE (obj) IF (-1 BOS);
+
+# Remove imperatives for now
+REMOVE VerbImp IF (0 VerbImp);

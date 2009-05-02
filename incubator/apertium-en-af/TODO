@@ -1,0 +1,228 @@
+This file contains some observations and a general 
+"TODO" list / discussion.
+
+# Afrikaans
+: lit. English
+@ English
+
+* Solutions?
+
+==================================================================
+Tagger
+--------
+
+A tagger needs to be generated. Currently both en-af.prob and
+af-en.prob are copies of the de-en.prob
+
+==================================================================
+
+Transfer
+--------
+
+= Afrikaans to English =
+
+== SOV to SVO transfer ==
+
+===Example 1===
+
+# nie een van hulle die taal     kan praat nie.
+: not one of  them  the language can speak not.
+  NP                NP           V 
+
+@ [not one of them] [can  speak not] [the language] 
+   NP                V                NP
+
+===Example 2===
+
+# Vir elke Engelse woord moet   jy    een Afrikaanse woord   kies    en  dis   nie altyd  so duidelik wat   om te kies   nie.
+: For each English word [must] [you] [one Afrikaans  word ] [choose] and it's  not always so clear    what  to    choose not.
+			        NP    NP                     V
+                         VAUX   SUB   OBJ                    V 
+			 VAUX   PRN   DET ADJ        N       VBLEX
+
+@ For each English word [you] [must] [choose] [one Afrikaans word]   and it is not always so clear    which to    choose.
+                         SUB   VAUX   V        OBJ
+			 PRN   VAUX   VBLEX    DET ADJ       N
+
+* <vaux><prn><det><adj><n><vblex> --> <prn><vaux><vblex><det><adj><n>
+
+==Example 3==
+
+# Sterrekundiges kondig   die ontdekking aan van Gliese 581 c, 'n Aarde-agtige planeet buite   ons sonnestelsel wat  lewe mag     onderhou
+: Astronomers    announce the discovery      of  Gliese 581 c, an Earth-like   planet  outside our solar system that life may     sustain
+
+@ Astronomers    announce the discovery      of  Gliese 581 c, an Earth-like   planet  outside our solar system that may  sustain life
+
+===Example 4===
+
+# Ek dink  hulle sal  hulp waardeer   van mense  wat Afrikaans ken
+: I  think they  will help appreciate of  people who Afrikaans know
+
+  I  think they  will appreciate help of people who Afrikaans know
+
+  I  think they  will appreciate help of people who know Afrikaans
+
+  <prpers> <vblex> <prpers> <vaux> <n> <vblex> <pr> <n> <rel> <n> <vblex>
+
+  NP VBLEX NP    VAUX NP                                       VBLEX                      
+
+@ I think they will appreciate help of people who know Afrikaans.
+
+<rel> <n> <vblex> -> <rel> <vblex> <n>
+
+<vaux> <n> <vblex> -> <vaux> <vblex> <n>
+
+== Double negatives ==
+
+# nie een van hulle die taal kan praat nie.
+: not one of them the language can speak not.
+
+@ [not one of them] [can speak] [the language]
+
+// Solution 1
+
+* <vaux><vblex>nie --> <vaux><vblex>
+
+// Solution 2
+
+Basically drop the extra negative at the end
+of all sentences (well, at the full stop).
+
+* nie<sent> --> <sent>
+
+==Example 4==
+
+# Ek is nie so bekend   met   presies hoe die opstelling werk  nie
+: I  am not so familiar with  exactly how the setup      works not 
+
+@ I  am not so familiar with  exactly how the setup      works
+
+== Constructions with 'do' ==
+
+# Nee, ek het  ook  nie       'n idee wat  dit beteken nie
+
+No,  I [have also not]      an idea what it  means   not
+
+No,  I [also have not]      an idea what it  means
+
+No,  I [also do   not have] an idea what it  means
+
+No,  I [also don't    have] an idea what it  means
+
+@ No, I don't have an idea what it means either
+
+
+== Tenses ==
+== The ge<verb> construction ==
+
+The past tense is formed regularly by adding the prefix ge- to the verb's infinitive/present form.
+
+* Ek breek - I break
+* Ek het gebreek - I broke, I have broken, I had broken 
+
+het               gebreek
+^het<vaux><pres>$ ^ge<past><prefix>+breek<vblex><inf>$
+
+= breek<vblex><past>
+
+= break<vblex><past>
+
+== Detachable prefixes ==
+
+* Ek tree op
+
+     optree
+
+== Multi-prepositions ==
+
+* om met 
+* om uit
+* oor te
+* om in
+* toe om
+* 
+
+=English to Afrikaans=
+
+== SVO -> SOV ==
+
+* You can also write in Afrikaans.
+# Jy  kan ook  skryf in Afrikaans.
+
+      <vaux><adv><vblex><pr><n>
+
+  ->
+
+      <vaux><adv><pr><n><vblex>
+
+: Jy  kan ook  in Afrikaans skryf.
+
+
+== Adjective inflection ==
+
+http://web.sois.uwm.edu/AFR101/Document/index.asp?Parent=7324
+
+Attributive = before noun
+Predicative = after noun
+
+Adjectives in Afrikaans sometimes change depending
+on their position. Adjectives in the attributive 
+position often morph. e.g.
+
+Die blompot is goud. > Die goue   blompot.
+The vase    is gold. > The golden vase.
+
+goud -> goue
+
+This    man is     most famous   , this    is the most famous   man
+Hierdie man is die meeste beroemd, hierdie is die mees beroemde man
+
+== Determiners ==
+
+His dog is red.
+Sy hond is rooi.
+
+This is his dog, the dog is his = 
+Dit is sy hond,  die hond is syne.
+
+== Verbs ==
+
+That was a nice = Dit was lekker, Dit was lekker gewees
+
+It was a good poem = Dit was 'n goeie gedig, dit was 'n goeie gedig gewees
+
+It will be a good poem = dit sal 'n goeie gedig wees
+
+It would have been a good poem = Dit sou 'n goeie gedig gewees het.
+
+it would have been a good idea = dit sou 'n goeie idee wees, dit sou 'n goeie idee gewees het (both correct)
+
+it would have been a good poem = dit sou 'n goeie gedig gewees het (only this form is correct)
+
+===Separable verbs===
+
+afskei, oplaai, inkoop, aftel, 
+
+Ek het  dit op   die kar gelaai.
+I  have it  into the car loaded.
+
+I loaded it onto the car
+
+=General examples=
+
+Hy is na bewering deurgesoek en sy sleutels en selfoon is by hom afgevat.
+He was allegedly searched and his keys and cell phone was taken from him.
+
+Nel het na bewering ook weggehardloop en in 'n boom geskuil.
+Allegedly Nel also ran away and hid in a tree.
+
+Dit is 'n behoorlike stukkie vleis daai.
+That's a proper peace of meat.
+
+Maak seker dat julle die vrae behoorlik antwoord
+Make sure you answer the questions properly.
+
+Hy het borgtog van R1 500 gekry en moet weer op 2 Julie in die hof verskyn.
+He had got bail of R1 500 and must appear again on 2 July in the court.
+
+He had #bail of *R1 500 got and must again on 2 July in the court appear.

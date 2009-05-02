@@ -1,0 +1,27 @@
+TRANSLATOR
+
+These are the linguistic data for the Apertium English--Catalan machine translator. 
+You need apertium-3.0 and lttoolbox-3.0 to use this translator.
+
+To compile the linguistical data simply do:
+
+$ ./configure
+
+to generate a Makefile file and then
+
+$ make
+
+inside of this directory.
+
+TAGGER 
+
+To use this language-pair package with apertium YOU DO NOT NEED TO
+RETRAIN THE TAGGER. Probabilities and auxiliary data are provided for
+both the en-ca and the ca-en translation directions which should be
+acceptable for most applications, and should work even if you change
+the dictionaries in a reasonable way.
+
+If for some reason you need to retrain the tagger (for example, you
+have made really extensive changes to the dictionaries such as
+creating new lexical categories), see the documentation on our wiki
+at: http://xixona.dlsi.ua.es/wiki/Tagger_training.

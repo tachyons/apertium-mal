@@ -1,0 +1,4684 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+  <alphabet></alphabet>
+  <sdefs>
+    <sdef n="pr"/>
+    
+    <sdef n="m"/>
+    <sdef n="f"/>
+
+    <sdef n="p1"/>
+    <sdef n="p2"/>
+    <sdef n="p3"/>
+
+    <sdef n="sg"/>
+    <sdef n="pl"/>
+    
+    <sdef n="len" c="lenition ~~ séimhiú"/>
+    <sdef n="ecl" c="eclipsis ~~ urú"/>
+    <sdef n="tpro" c="T prothetic"/>
+    <sdef n="hpro" c="H prothetic"/>
+    
+    <sdef n="nom"/>
+    <sdef n="voc"/>
+    <sdef n="gen"/>
+    <sdef n="dat"/>
+    
+    <sdef n="itg"/>
+    <sdef n="cnjcoo"/>
+    <sdef n="cnjsub"/>
+    <sdef n="ij"/>
+    <sdef n="adv"/>
+    
+    <sdef n="det"/>
+    <sdef n="def"/>
+    
+    <sdef n="cnjcoo"/>
+    <sdef n="cnjsub"/>
+
+    <sdef n="n"/>
+    <sdef n="spl"/>
+    <sdef n="ssp"/>
+  </sdefs>
+  <pardefs>
+    <pardef n="guionet">
+      <e>
+        <p>
+          <l>-</l>
+          <r>-<s n="guio"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="coma">
+      <e>
+        <p>
+          <l>,</l>
+          <r>,<s n="cm"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="cometa">
+      <e>
+        <p>
+          <l>'</l>
+          <r>'<s n="apos"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="numeros">
+      <e>
+        <re>[0-9]+([.,][0-9]+)?</re>
+        <p>
+          <l/>
+          <r><s n="num"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="ordinals">
+      <e>
+        <re>[0-9]+([.,][0-9]+)?ú</re>
+        <p>
+          <l/>
+          <r><s n="num"/><s n="ord"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="currency">
+      <e>
+        <re>[£$€][0-9]+([.,][0-9]+)?</re>
+        <p>
+          <l/>
+          <r><s n="num"/><s n="mon"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="separa">
+      <e>
+        <re>[.\?;:!·]</re>
+        <p>
+          <l/>
+          <r><s n="sent"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="separ">
+      <e>
+        <re>[¿¡]</re>
+        <p>
+          <l/>
+          <r><s n="lquest"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="paresq">
+      <e>
+        <re>[\(\[]</re>
+        <p>
+          <l/>
+          <r><s n="lpar"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="pardret">
+      <e>
+        <re>[\)\]]</re>
+        <p>
+          <l/>
+          <r><s n="rpar"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <!-- Initial mutations -->
+    <pardef n="b_init">
+      <e r="LR">
+        <p>
+          <l>b</l>
+          <r>b</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>bh</l>
+          <r><s n="len"/><j/>b</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>mb</l>
+          <r><s n="ecl"/><j/>b</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l></l>
+          <r></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="b_init_gen">
+      <e r="RL">
+        <p>
+          <l>bh</l>
+          <r>b<s n="len"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>mb</l>
+          <r>b<s n="ecl"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>b</l>
+          <r>b</r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="c_init">
+      <e r="LR">
+        <p>
+          <l>c</l>
+          <r>c</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ch</l>
+          <r><s n="len"/><j/>c</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>gc</l>
+          <r><s n="ecl"/><j/>c</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l></l>
+          <r></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="c_init_gen">
+      <e r="RL">
+        <p>
+          <l>ch</l>
+          <r>c<s n="len"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>gc</l>
+          <r>c<s n="ecl"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>c</l>
+          <r>c</r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="d_init">
+      <e r="LR">
+        <p>
+          <l>d</l>
+          <r>d</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>dh</l>
+          <r><s n="len"/><j/>d</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>nd</l>
+          <r><s n="ecl"/><j/>d</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l></l>
+          <r></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="d_init_gen">
+      <e r="RL">
+        <p>
+          <l>dh</l>
+          <r>d<s n="len"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>nd</l>
+          <r>d<s n="ecl"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>d</l>
+          <r>d</r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="f_init">
+      <e r="LR">
+        <p>
+          <l>f</l>
+          <r>f</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>fh</l>
+          <r><s n="len"/><j/>f</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>bhf</l>
+          <r><s n="ecl"/><j/>f</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l></l>
+          <r></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="f_init_gen">
+      <e r="RL">
+        <p>
+          <l>fh</l>
+          <r>f<s n="len"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>bhf</l>
+          <r>f<s n="ecl"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>f</l>
+          <r>f</r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="g_init">
+      <e r="LR">
+        <p>
+          <l>g</l>
+          <r>g</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>gh</l>
+          <r><s n="len"/><j/>g</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ng</l>
+          <r><s n="ecl"/><j/>g</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l></l>
+          <r></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="g_init_gen">
+      <e r="RL">
+        <p>
+          <l>gh</l>
+          <r>g<s n="len"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>ng</l>
+          <r>g<s n="ecl"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>g</l>
+          <r>g</r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="m_init">
+      <e r="LR">
+        <p>
+          <l>m</l>
+          <r>m</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>mh</l>
+          <r><s n="len"/><j/>m</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l></l>
+          <r></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="m_init_gen">
+      <e r="RL">
+        <p>
+          <l>mh</l>
+          <r>m<s n="len"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>b</l>
+          <r>b</r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="p_init">
+      <e r="LR">
+        <p>
+          <l>p</l>
+          <r>p</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ph</l>
+          <r><s n="len"/><j/>p</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>bp</l>
+          <r><s n="ecl"/><j/>p</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l></l>
+          <r></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="p_init_gen">
+      <e r="RL">
+        <p>
+          <l>ph</l>
+          <r>p<s n="len"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>bp</l>
+          <r>p<s n="ecl"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>p</l>
+          <r>p</r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="s_init">
+      <e>
+        <p>
+          <l>s</l>
+          <r>s</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sh</l>
+          <r><s n="len"/><j/>s</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ts</l>
+          <r><s n="ecl"/><j/>s</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l></l>
+          <r></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="s_init_gen">
+      <e r="RL">
+        <p>
+          <l>sh</l>
+          <r>s<s n="len"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>ts</l>
+          <r>s<s n="ecl"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>s</l>
+          <r>s</r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="t_init">
+      <e>
+        <p>
+          <l>t</l>
+          <r>t</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>th</l>
+          <r><s n="len"/><j/>t</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>dt</l>
+          <r><s n="ecl"/><j/>t</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l></l>
+          <r></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="t_init_gen">
+      <e r="RL">
+        <p>
+          <l>th</l>
+          <r>t<s n="len"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>dt</l>
+          <r>t<s n="ecl"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>t</l>
+          <r>t</r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="a_init">
+      <e>
+        <p>
+          <l>a</l>
+          <r>a</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>n-a</l>
+          <r>a<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nA</l>
+          <r>A<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>t-a</l>
+          <r>a<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>tA</l>
+          <r>A<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ha</l>
+          <r>a<s n="hpro"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="á_init">
+      <e>
+        <p>
+          <l>á</l>
+          <r>á</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>n-á</l>
+          <r>á<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nÁ</l>
+          <r>Á<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>t-á</l>
+          <r>á<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>tÁ</l>
+          <r>Á<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>há</l>
+          <r>á<s n="hpro"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="e_init">
+      <e>
+        <p>
+          <l>e</l>
+          <r>e</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>n-e</l>
+          <r>e<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nE</l>
+          <r>E<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>t-e</l>
+          <r>e<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>tE</l>
+          <r>E<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>he</l>
+          <r>e<s n="hpro"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="é_init">
+      <e>
+        <p>
+          <l>é</l>
+          <r>é</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>n-é</l>
+          <r>é<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nÉ</l>
+          <r>É<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>t-é</l>
+          <r>é<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>tÉ</l>
+          <r>É<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hé</l>
+          <r>é<s n="hpro"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="i_init">
+      <e>
+        <p>
+          <l>i</l>
+          <r>i</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>n-i</l>
+          <r>i<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nI</l>
+          <r>I<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>t-i</l>
+          <r>i<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>tI</l>
+          <r>I<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hi</l>
+          <r>i<s n="hpro"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="í_init">
+      <e>
+        <p>
+          <l>í</l>
+          <r>í</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>n-í</l>
+          <r>í<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nÍ</l>
+          <r>Í<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>t-í</l>
+          <r>í<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>tÍ</l>
+          <r>Í<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hí</l>
+          <r>í<s n="hpro"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="o_init">
+      <e>
+        <p>
+          <l>o</l>
+          <r>o</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>n-o</l>
+          <r>o<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nO</l>
+          <r>O<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>t-o</l>
+          <r>o<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>tO</l>
+          <r>O<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ho</l>
+          <r>o<s n="hpro"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="ó_init">
+      <e>
+        <p>
+          <l>ó</l>
+          <r>ó</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>n-ó</l>
+          <r>ó<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nÓ</l>
+          <r>Ó<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>t-ó</l>
+          <r>ó<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>tÓ</l>
+          <r>Ó<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hó</l>
+          <r>ó<s n="hpro"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="u_init">
+      <e>
+        <p>
+          <l>u</l>
+          <r>u</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>n-u</l>
+          <r>u<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nU</l>
+          <r>U<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>t-u</l>
+          <r>u<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>tU</l>
+          <r>U<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hu</l>
+          <r>u<s n="hpro"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="ú_init">
+      <e>
+        <p>
+          <l>ú</l>
+          <r>ú</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>n-ú</l>
+          <r>ú<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nÚ</l>
+          <r>Ú<s n="ecl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>t-ú</l>
+          <r>ú<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>tÚ</l>
+          <r>Ú<s n="tpro"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hú</l>
+          <r>ú<s n="hpro"/></r>
+        </p>
+      </e>
+    </pardef>
+    
+    <pardef n="an__itg">
+      <e>
+        <p>
+          <l/>
+          <r><s n="itg"/></r>
+        </p>
+      </e>
+    </pardef>
+    
+    <pardef n="agus__cnjcoo">
+      <e>
+        <p>
+          <l/>
+          <r><s n="cnjcoo"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="anseo__adv">
+      <e>
+        <p>
+          <l/>
+          <r><s n="adv"/></r>
+        </p>
+      </e>
+    </pardef>
+    
+    <pardef n="an__det">
+      <e>
+        <p>
+          <l>an</l>
+          <r>an<s n="det"/><s n="def"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>na</l>
+          <r>an<s n="det"/><s n="def"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+    <!-- Prepositions -->
+    <pardef n="le__pr">
+      <e>
+        <p>
+          <l>le</l>
+          <r>le<s n="pr"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>liom</l>
+          <r>le<s n="pr"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>leat</l>
+          <r>le<s n="pr"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lies</l>
+          <r>le<s n="pr"/><s n="p3"/><s n="sg"/><s n="m"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>léi</l>
+          <r>le<s n="pr"/><s n="p3"/><s n="sg"/><s n="f"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>linn</l>
+          <r>le<s n="pr"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>libh</l>
+          <r>le<s n="pr"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>leo</l>
+          <r>le<s n="pr"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="ag__pr">
+      <e>
+        <p>
+          <l>ag</l>
+          <r>ag<s n="pr"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>agam</l>
+          <r>ag<s n="pr"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>agat</l>
+          <r>ag<s n="pr"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>aige</l>
+          <r>ag<s n="pr"/><s n="p3"/><s n="sg"/><s n="m"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>aici</l>
+          <r>ag<s n="pr"/><s n="p3"/><s n="sg"/><s n="f"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>againn</l>
+          <r>ag<s n="pr"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>agaibh</l>
+          <r>ag<s n="pr"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>acu</l>
+          <r>ag<s n="pr"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="ca/ra__n">
+      <e>
+        <p>
+          <l>ra</l>
+          <r>ra<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ra</l>
+          <r>ra<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rad</l>
+          <r>ra<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ra</l>
+          <r>ra<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irde</l>
+          <r>ra<s n="n"/><s n="spl"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="ca/t__n">
+      <e>
+        <p>
+          <l>t</l>
+          <r>t<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>it</l>
+          <r>t<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>it</l>
+          <r>t<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>t</l>
+          <r>t<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>it</l>
+          <r>t<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ta</l>
+          <r>t<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>t</l>
+          <r>t<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>it</l>
+          <r>t<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="f/ear__n">
+      <e>
+        <p>
+          <l>ear</l>
+          <r>ear<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r>ear<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r>ear<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ear</l>
+          <r>ear<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r>ear<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eara</l>
+          <r>ear<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ear</l>
+          <r>ear<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r>ear<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="b/eart__n">
+      <e>
+        <p>
+          <l>ear</l>
+          <r>ear<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irt</l>
+          <r>eart<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irt</l>
+          <r>eart<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eart</l>
+          <r>eart<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>earta</l>
+          <r>eart<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>earta</l>
+          <r>eart<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eart</l>
+          <r>eart<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irt</l>
+          <r>eart<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="gné/as__n">
+      <e>
+        <p>
+          <l>as</l>
+          <r>as<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>as<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>as<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>as</l>
+          <r>as<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>asanna</l>
+          <r>as<s n="n"/><s n="spl"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="bó/thar__n">
+      <e>
+        <p>
+          <l>thar</l>
+          <r>thar<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>thair</l>
+          <r>thar<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>thair</l>
+          <r>thar<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>thar</l>
+          <r>thar<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ithre</l>
+          <r>thar<s n="n"/><s n="spl"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <!-- f1 -->
+    <pardef n="ba/rr__n">
+      <e>
+        <p>
+          <l>rr</l>
+          <r>rr<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irr</l>
+          <r>rr<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irr</l>
+          <r>rr<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rr</l>
+          <r>rr<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irr</l>
+          <r>rr<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rra</l>
+          <r>rr<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rr</l>
+          <r>rr<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irr</l>
+          <r>rr<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="po/ll__n">
+      <e>
+        <p>
+          <l>ll</l>
+          <r>ll<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ill</l>
+          <r>ll<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ill</l>
+          <r>ll<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ll</l>
+          <r>ll<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ill</l>
+          <r>ll<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lla</l>
+          <r>ll<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ll</l>
+          <r>ll<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ill</l>
+          <r>ll<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="foca/l__n">
+      <e>
+        <p>
+          <l>l</l>
+          <r>l<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>il</l>
+          <r>l<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>il</l>
+          <r>l<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>l</l>
+          <r>l<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>il</l>
+          <r>l<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>la</l>
+          <r>l<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>l</l>
+          <r>l<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>il</l>
+          <r>l<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="bro/c__n">
+      <e>
+        <p>
+          <l>c</l>
+          <r>c<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ic</l>
+          <r>c<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ic</l>
+          <r>c<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>c</l>
+          <r>c<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ic</l>
+          <r>c<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ca</l>
+          <r>c<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>c</l>
+          <r>c<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ic</l>
+          <r>c<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="pu/nt__n">
+      <e>
+        <p>
+          <l>nt</l>
+          <r>nt<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>int</l>
+          <r>nt<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>int</l>
+          <r>nt<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nt</l>
+          <r>nt<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>int</l>
+          <r>nt<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nta</l>
+          <r>nt<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nt</l>
+          <r>nt<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>int</l>
+          <r>nt<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="amha/rc__n">
+      <e>
+        <p>
+          <l>rc</l>
+          <r>rc<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irc</l>
+          <r>rc<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irc</l>
+          <r>rc<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rc</l>
+          <r>rc<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irc</l>
+          <r>rc<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rca</l>
+          <r>rc<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rc</l>
+          <r>rc<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irc</l>
+          <r>rc<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="creid/eamh__n">
+      <e>
+        <p>
+          <l>eamh</l>
+          <r>eamh<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>imh</l>
+          <r>eamh<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>imh</l>
+          <r>eamh<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eamh</l>
+          <r>eamh<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>imh</l>
+          <r>eamh<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eamha</l>
+          <r>eamh<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eamh</l>
+          <r>eamh<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>imh</l>
+          <r>eamh<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="ta/rbh__n">
+      <e>
+        <p>
+          <l>rbh</l>
+          <r>rbh<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irbh</l>
+          <r>rbh<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irbh</l>
+          <r>rbh<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rbh</l>
+          <r>rbh<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irbh</l>
+          <r>rbh<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rbha</l>
+          <r>rbh<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rbh</l>
+          <r>rbh<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irbh</l>
+          <r>rbh<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="saga/rt__n">
+      <e>
+        <p>
+          <l>rt</l>
+          <r>rt<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irt</l>
+          <r>rt<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irt</l>
+          <r>rt<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rt</l>
+          <r>rt<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irt</l>
+          <r>rt<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rta</l>
+          <r>rt<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rt</l>
+          <r>rt<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irt</l>
+          <r>rt<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="go/b__n">
+      <e>
+        <p>
+          <l>b</l>
+          <r>b<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ib</l>
+          <r>b<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ib</l>
+          <r>b<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>b</l>
+          <r>b<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ib</l>
+          <r>b<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ba</l>
+          <r>b<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>b</l>
+          <r>b<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ib</l>
+          <r>b<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="tao/bh__n">
+      <e>
+        <p>
+          <l>bh</l>
+          <r>bh<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ibh</l>
+          <r>bh<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ibh</l>
+          <r>bh<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>bh</l>
+          <r>bh<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ibh</l>
+          <r>bh<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>bha</l>
+          <r>bh<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>bh</l>
+          <r>bh<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ibh</l>
+          <r>bh<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="bo/cht__n">
+      <e>
+        <p>
+          <l>cht</l>
+          <r>cht<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>icht</l>
+          <r>cht<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>icht</l>
+          <r>cht<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>cht</l>
+          <r>cht<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>icht</l>
+          <r>cht<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>chta</l>
+          <r>cht<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>cht</l>
+          <r>cht<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>icht</l>
+          <r>cht<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <!-- Declension 2-->
+    <pardef n="craic/__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="spl"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="spl"/><s n="f"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>e</l>
+          <r><s n="n"/><s n="spl"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="spl"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eanna</l>
+          <r><s n="n"/><s n="spl"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="bainne/__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="ssp"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="mí/__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="spl"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="spl"/><s n="f"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sa</l>
+          <r><s n="n"/><s n="spl"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="spl"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>onna</l>
+          <r><s n="n"/><s n="spl"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="fáinn/e__n">
+      <e>
+        <p>
+          <l>e</l>
+          <r>e<s n="n"/><s n="ssp"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>í</l>
+          <r>e<s n="n"/><s n="ssp"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="abairt/__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="spl"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="spl"/><s n="f"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>e</l>
+          <r><s n="n"/><s n="spl"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="spl"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>í</l>
+          <r><s n="n"/><s n="spl"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="do/ras__n">
+      <e>
+        <p>
+          <l>ras</l>
+          <r>ras<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rais</l>
+          <r>ras<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rais</l>
+          <r>ras<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ras</l>
+          <r>ras<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irse</l>
+          <r>ras<s n="n"/><s n="spl"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="p/eann__n">
+      <e>
+        <p>
+          <l>eann</l>
+          <r>eann<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>inn</l>
+          <r>eann<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>inn</l>
+          <r>eann<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eann</l>
+          <r>eann<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>inn</l>
+          <r>eann<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eanna</l>
+          <r>eann<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eann</l>
+          <r>eann<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>inn</l>
+          <r>eann<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="airg/ead__n">
+      <e>
+        <p>
+          <l>ead</l>
+          <r>ead<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>id</l>
+          <r>ead<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>id</l>
+          <r>ead<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ead</l>
+          <r>ead<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>id</l>
+          <r>ead<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eada</l>
+          <r>ead<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ead</l>
+          <r>ead<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>id</l>
+          <r>ead<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="ceo/l__n">
+      <e>
+        <p>
+          <l>l</l>
+          <r>l<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>il</l>
+          <r>l<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>il</l>
+          <r>l<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>l</l>
+          <r>l<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lta</l>
+          <r>l<s n="n"/><s n="spl"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="ú/ll__n">
+      <e>
+        <p>
+          <l>ll</l>
+          <r>l<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ill</l>
+          <r>l<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ill</l>
+          <r>l<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ll</l>
+          <r>l<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lla</l>
+          <r>l<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lla</l>
+          <r>l<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ll</l>
+          <r>l<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lla</l>
+          <r>l<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="teampa/ll__n">
+      <e>
+        <p>
+          <l>ll</l>
+          <r>ll<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ill</l>
+          <r>ll<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ill</l>
+          <r>ll<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ll</l>
+          <r>ll<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ill</l>
+          <r>ll<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lla</l>
+          <r>ll<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ll</l>
+          <r>ll<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ill</l>
+          <r>ll<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="ca/rr__n">
+      <e>
+        <p>
+          <l>rr</l>
+          <r>rr<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irr</l>
+          <r>rr<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irr</l>
+          <r>rr<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rr</l>
+          <r>rr<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rranna</l>
+          <r>rr<s n="n"/><s n="spl"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="ath/air__n">
+      <e>
+        <p>
+          <l>air</l>
+          <r>air<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>air</l>
+          <r>air<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ar</l>
+          <r>air<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>air</l>
+          <r>air<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>reacha</l>
+          <r>air<s n="n"/><s n="spl"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="máth/air__n">
+      <e>
+        <p>
+          <l>air</l>
+          <r>air<s n="n"/><s n="spl"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>air</l>
+          <r>air<s n="n"/><s n="spl"/><s n="f"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ar</l>
+          <r>air<s n="n"/><s n="spl"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>air</l>
+          <r>air<s n="n"/><s n="spl"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>reacha</l>
+          <r>air<s n="n"/><s n="spl"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="urlá/r__n">
+      <e>
+        <p>
+          <l>r</l>
+          <r>r<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r>r<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r>r<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>r</l>
+          <r>r<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r>r<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ra</l>
+          <r>r<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r>r<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r>r<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="m/ac__n">
+      <e>
+        <p>
+          <l>ac</l>
+          <r>ac<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ic</l>
+          <r>ac<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ic</l>
+          <r>ac<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ac</l>
+          <r>ac<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ic</l>
+          <r>ac<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>aca</l>
+          <r>ac<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ac</l>
+          <r>ac<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ic</l>
+          <r>ac<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="amadá/n__n">
+      <e>
+        <p>
+          <l>n</l>
+          <r>n<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>in</l>
+          <r>n<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>in</l>
+          <r>n<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>n</l>
+          <r>n<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>in</l>
+          <r>n<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>na</l>
+          <r>n<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>in</l>
+          <r>n<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>in</l>
+          <r>n<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="iara/nn__n">
+      <e>
+        <p>
+          <l>nn</l>
+          <r>nn<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>inn</l>
+          <r>nn<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>inn</l>
+          <r>nn<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nn</l>
+          <r>nn<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>inn</l>
+          <r>nn<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nna</l>
+          <r>nn<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>inn</l>
+          <r>nn<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>inn</l>
+          <r>nn<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="l/á__n">
+      <e>
+        <p>
+          <l>á</l>
+          <r>á<s n="n"/><s n="ssp"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>aethanta</l>
+          <r>á<s n="n"/><s n="ssp"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="cas/adh__n">
+      <e>
+        <p>
+          <l>adh</l>
+          <r>adh<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>aidh</l>
+          <r>adh<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>aidh</l>
+          <r>adh<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>adh</l>
+          <r>adh<s n="n"/><s n="spl"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>taí</l>
+          <r>adh<s n="n"/><s n="spl"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <!-- Declension 4 -->
+    <pardef n="Baile__np">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="np"/><s n="top"/><s n="ssp"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="ainmh/í__n">
+      <e>
+        <p>
+          <l>í</l>
+          <r>í<s n="n"/><s n="ssp"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ithe</l>
+          <r>í<s n="n"/><s n="ssp"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="bail/e__n">
+      <e>
+        <p>
+          <l>e</l>
+          <r>e<s n="n"/><s n="ssp"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>te</l>
+          <r>e<s n="n"/><s n="ssp"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="bus/__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="ssp"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>anna</l>
+          <r><s n="n"/><s n="ssp"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="gé/__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="ssp"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>anna</l>
+          <r><s n="n"/><s n="ssp"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="cró/__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="ssp"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ite</l>
+          <r><s n="n"/><s n="ssp"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="cneá/__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="ssp"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>cha</l>
+          <r><s n="n"/><s n="ssp"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="tin/e__n">
+      <e>
+        <p>
+          <l>e</l>
+          <r>e<s n="n"/><s n="ssp"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>te</l>
+          <r>e<s n="n"/><s n="ssp"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="madra/__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="ssp"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>í</l>
+          <r><s n="n"/><s n="ssp"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="cú/__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="ssp"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nna</l>
+          <r><s n="n"/><s n="spl"/><s n="spl"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="ainm/__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="ssp"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>neacha</l>
+          <r><s n="n"/><s n="ssp"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+  </pardefs>
+  <section id="main" type="standard">
+    <e lm="an"><i>an</i><par n="an__itg"/></e>
+    <e lm="ar"><i>ar</i><par n="an__itg"/></e>
+    <e lm="nach"><i>nach</i><par n="an__itg"/></e>
+    <e lm="nár"><i>nár</i><par n="an__itg"/></e>
+
+    <e lm="cá"><i>cá</i><par n="an__itg"/></e>
+    <!-- these forms generally have an 'a' following them, but just in case... -->
+    <e lm="cad"><i>cad</i><par n="an__itg"/></e>
+    <e lm="céard"><p><l>céard</l><r>cad</r></p><par n="an__itg"/></e>
+    <e lm="cé"><i>cé</i><par n="an__itg"/></e>
+    <e lm="cathain"><i>cathain</i><par n="an__itg"/></e>
+    <e lm="conas"><i>conas</i><par n="an__itg"/></e>
+    <!-- proper forms. probably need to do the 'conas atá' thing, too... -->
+    <e lm="cad a"><i>cad<b/>a</i><par n="an__itg"/></e>
+    <e lm="céard a"><p><l>céard<b/>a</l><r>cad<b/>a</r></p><par n="an__itg"/></e>
+    <e lm="cé a"><i>cé<b/>a</i><par n="an__itg"/></e>
+    <e lm="cathain a"><i>cathain<b/>a</i><par n="an__itg"/></e>
+    <e lm="conas a"><i>conas<b/>a</i><par n="an__itg"/></e>
+
+    <e lm="cén fáth"><i>cén<b/>fáth</i><par n="an__itg"/></e>
+
+    <e lm="an"><par n="an__det"/></e>
+
+    <e lm="agus"><i>agus</i><par n="agus__cnjcoo"/></e>
+    <e lm="ach"><i>ach</i><par n="agus__cnjcoo"/></e>
+  
+    <e lm="ag"><par n="ag__pr"/></e>
+    <e lm="le"><par n="le__pr"/></e>
+    
+    <!-- Adverbs -->
+    <e lm="abhaile"><i>abhaile</i><par n="anseo__adv"/></e>
+    <e lm="ábhairín"><i>ábhairín</i><par n="anseo__adv"/></e>
+    <e lm="abhus"><i>abhus</i><par n="anseo__adv"/></e>
+    <e lm="ach"><i>ach</i><par n="anseo__adv"/></e>
+    <e lm="aduaidh"><i>aduaidh</i><par n="anseo__adv"/></e>
+    <e lm="áfach"><i>áfach</i><par n="anseo__adv"/></e>
+    <e lm="amach"><i>amach</i><par n="anseo__adv"/></e>
+    <e lm="amanna"><i>amanna</i><par n="anseo__adv"/></e>
+    <e lm="amárach"><i>amárach</i><par n="anseo__adv"/></e>
+    <e lm="ámh"><i>ámh</i><par n="anseo__adv"/></e>
+    <e lm="amháin"><i>amháin</i><par n="anseo__adv"/></e>
+    <e lm="amhlaidh"><i>amhlaidh</i><par n="anseo__adv"/></e>
+    <e lm="amuigh"><i>amuigh</i><par n="anseo__adv"/></e>
+    <e lm="anall"><i>anall</i><par n="anseo__adv"/></e>
+    <e lm="anallód"><i>anallód</i><par n="anseo__adv"/></e>
+    <e lm="aneas"><i>aneas</i><par n="anseo__adv"/></e>
+    <e lm="ania"><i>ania</i><par n="anseo__adv"/></e>
+    <e lm="aníos"><i>aníos</i><par n="anseo__adv"/></e>
+    <e lm="ann"><i>ann</i><par n="anseo__adv"/></e>
+    <e lm="anocht"><i>anocht</i><par n="anseo__adv"/></e>
+    <e lm="anois"><i>anois</i><par n="anseo__adv"/></e>
+    <e lm="anonn"><i>anonn</i><par n="anseo__adv"/></e>
+    <e lm="anseo"><i>anseo</i><par n="anseo__adv"/></e>
+    <e lm="ansin"><i>ansin</i><par n="anseo__adv"/></e>
+    <e lm="ansiúd"><i>ansiúd</i><par n="anseo__adv"/></e>
+    <e lm="anuas"><i>anuas</i><par n="anseo__adv"/></e>
+    <e lm="arae"><i>arae</i><par n="anseo__adv"/></e>
+    <e lm="arís"><i>arís</i><par n="anseo__adv"/></e>
+    <e lm="athuai"><i>athuai</i><par n="anseo__adv"/></e>
+    <e lm="beagán"><i>beagán</i><par n="anseo__adv"/></e>
+    <e lm="beagnach"><i>beagnach</i><par n="anseo__adv"/></e>
+    <e lm="b'fhéidi"><i>b'fhéidi</i><par n="anseo__adv"/></e>
+    <e lm="cheana"><i>cheana</i><par n="anseo__adv"/></e>
+    <e lm="choíche"><i>choíche</i><par n="anseo__adv"/></e>
+    <e lm="chomh"><i>chomh</i><par n="anseo__adv"/></e>
+    <e lm="chuige"><i>chuige</i><par n="anseo__adv"/></e>
+    <e lm="cineál"><i>cineál</i><par n="anseo__adv"/></e>
+    <e lm="comhlámh"><i>comhlámh</i><par n="anseo__adv"/></e>
+    <e lm="corruai"><i>corruai</i><par n="anseo__adv"/></e>
+    <e lm="dá"><i>dá</i><par n="anseo__adv"/></e>
+    <e lm="dáiríre"><i>dáiríre</i><par n="anseo__adv"/></e>
+    <e lm="deiseal"><i>deiseal</i><par n="anseo__adv"/></e>
+    <e lm="eadhon"><i>eadhon</i><par n="anseo__adv"/></e>
+    <e lm="fadó"><i>fadó</i><par n="anseo__adv"/></e>
+    <e lm="feasta"><i>feasta</i><par n="anseo__adv"/></e>
+    <e lm="féin"><i>féin</i><par n="anseo__adv"/></e>
+    <e lm="fiarlaoid"><i>fiarlaoid</i><par n="anseo__adv"/></e>
+    <e lm="fiarthrasna"><i>fiarthrasna</i><par n="anseo__adv"/></e>
+    <e lm="fiú"><i>fiú</i><par n="anseo__adv"/></e>
+    <e lm="fós"><i>fós</i><par n="anseo__adv"/></e>
+    <e lm="fosta"><i>fosta</i><par n="anseo__adv"/></e>
+    <e lm="freisin"><i>freisin</i><par n="anseo__adv"/></e>
+    <e lm="gearró"><i>gearró</i><par n="anseo__adv"/></e>
+    <e lm="iaramh"><i>iaramh</i><par n="anseo__adv"/></e>
+    <e lm="iardain"><i>iardain</i><par n="anseo__adv"/></e>
+    <e lm="inné"><i>inné</i><par n="anseo__adv"/></e>
+    <e lm="inniu"><i>inniu</i><par n="anseo__adv"/></e>
+    <e lm="iomorra"><i>iomorra</i><par n="anseo__adv"/></e>
+    <e lm="iontach"><i>iontach</i><par n="anseo__adv"/></e>
+    <e lm="isteach"><i>isteach</i><par n="anseo__adv"/></e>
+    <e lm="istigh"><i>istigh</i><par n="anseo__adv"/></e>
+    <e lm="laisteas"><i>laisteas</i><par n="anseo__adv"/></e>
+    <e lm="laistia"><i>laistia</i><par n="anseo__adv"/></e>
+    <e lm="laistigh"><i>laistigh</i><par n="anseo__adv"/></e>
+    <e lm="laistíos"><i>laistíos</i><par n="anseo__adv"/></e>
+    <e lm="láithreach"><i>láithreach</i><par n="anseo__adv"/></e>
+    <e lm="lasmuigh"><i>lasmuigh</i><par n="anseo__adv"/></e>
+    <e lm="lasnairde"><i>lasnairde</i><par n="anseo__adv"/></e>
+    <e lm="lastall"><i>lastall</i><par n="anseo__adv"/></e>
+    <e lm="lastoi"><i>lastoi</i><par n="anseo__adv"/></e>
+    <e lm="lastuaidh"><i>lastuaidh</i><par n="anseo__adv"/></e>
+    <e lm="lastuas"><i>lastuas</i><par n="anseo__adv"/></e>
+    <e lm="leis"><i>leis</i><par n="anseo__adv"/></e>
+    <e lm="leoga"><i>leoga</i><par n="anseo__adv"/></e>
+    <e lm="máguaird"><i>máguaird</i><par n="anseo__adv"/></e>
+    <e lm="mós"><i>mós</i><par n="anseo__adv"/></e>
+    <e lm="níos"><i>níos</i><par n="anseo__adv"/></e>
+    <e lm="pic"><i>pic</i><par n="anseo__adv"/></e>
+    <e lm="riamh"><i>riamh</i><par n="anseo__adv"/></e>
+    <e lm="roimhe"><i>roimhe</i><par n="anseo__adv"/></e>
+    <e lm="sall"><i>sall</i><par n="anseo__adv"/></e>
+    <e lm="scaití"><i>scaití</i><par n="anseo__adv"/></e>
+    <e lm="seacha"><i>seacha</i><par n="anseo__adv"/></e>
+    <e lm="sia"><i>sia</i><par n="anseo__adv"/></e>
+    <e lm="síos"><i>síos</i><par n="anseo__adv"/></e>
+    <e lm="soi"><i>soi</i><par n="anseo__adv"/></e>
+    <e lm="suas"><i>suas</i><par n="anseo__adv"/></e>
+    <e lm="tan"><i>tan</i><par n="anseo__adv"/></e>
+    <e lm="thall"><i>thall</i><par n="anseo__adv"/></e>
+    <e lm="thart"><i>thart</i><par n="anseo__adv"/></e>
+    <e lm="theas"><i>theas</i><par n="anseo__adv"/></e>
+    <e lm="thia"><i>thia</i><par n="anseo__adv"/></e>
+    <e lm="thíos"><i>thíos</i><par n="anseo__adv"/></e>
+    <e lm="thoi"><i>thoi</i><par n="anseo__adv"/></e>
+    <e lm="thuaidh"><i>thuaidh</i><par n="anseo__adv"/></e>
+    <e lm="thuas"><i>thuas</i><par n="anseo__adv"/></e>
+    <e lm="timpeall"><i>timpeall</i><par n="anseo__adv"/></e>
+    <e lm="trasna"><i>trasna</i><par n="anseo__adv"/></e>
+    <e lm="tráth"><i>tráth</i><par n="anseo__adv"/></e>
+    <e lm="uaireanta"><i>uaireanta</i><par n="anseo__adv"/></e>
+    <e lm="uile"><i>uile</i><par n="anseo__adv"/></e>
+    <e lm="abhus anseo" c="mw"><i>abhus<b/>anseo</i><par n="anseo__adv"/></e>
+    <e lm="ach chomh beag" c="mw"><i>ach<b/>chomh<b/>beag</i><par n="anseo__adv"/></e>
+    <e lm="a chéaduai" c="mw"><i>a<b/>chéaduai</i><par n="anseo__adv"/></e>
+    <e lm="ach go háirithe" c="mw"><i>ach<b/>go<b/>háirithe</i><par n="anseo__adv"/></e>
+    <e lm="a chlog" c="mw"><i>a<b/>chlog</i><par n="anseo__adv"/></e>
+    <e lm="ach oiread" c="mw"><i>ach<b/>oiread</i><par n="anseo__adv"/></e>
+    <e lm="ach oiread leis sin" c="mw"><i>ach<b/>oiread<b/>leis<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="a dhála sin" c="mw"><i>a<b/>dhála<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="a fhearacht sin" c="mw"><i>a<b/>fhearacht<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="amach agus isteach le" c="mw"><i>amach<b/>agus<b/>isteach<b/>le</i><par n="anseo__adv"/></e>
+    <e lm="amach anseo" c="mw"><i>amach<b/>anseo</i><par n="anseo__adv"/></e>
+    <e lm="amach is amach" c="mw"><i>amach<b/>is<b/>amach</i><par n="anseo__adv"/></e>
+    <e lm="anois agus arís" c="mw"><i>anois<b/>agus<b/>arís</i><par n="anseo__adv"/></e>
+    <e lm="anois beag" c="mw"><i>anois<b/>beag</i><par n="anseo__adv"/></e>
+    <e lm="anois féin" c="mw"><i>anois<b/>féin</i><par n="anseo__adv"/></e>
+    <e lm="anois go díreach" c="mw"><i>anois<b/>go<b/>díreach</i><par n="anseo__adv"/></e>
+    <e lm="anois láithreach" c="mw"><i>anois<b/>láithreach</i><par n="anseo__adv"/></e>
+    <e lm="anonn agus anall" c="mw"><i>anonn<b/>agus<b/>anall</i><par n="anseo__adv"/></e>
+    <e lm="anseo timpeall" c="mw"><i>anseo<b/>timpeall</i><par n="anseo__adv"/></e>
+    <e lm="ansiúd agus anseo" c="mw"><i>ansiúd<b/>agus<b/>anseo</i><par n="anseo__adv"/></e>
+    <e lm="ar aghaidh" c="mw"><i>ar<b/>aghaidh</i><par n="anseo__adv"/></e>
+    <e lm="ar ais" c="mw"><i>ar<b/>ais</i><par n="anseo__adv"/></e>
+    <e lm="ar ais nó ar éigean" c="mw"><i>ar<b/>ais<b/>nó<b/>ar<b/>éigean</i><par n="anseo__adv"/></e>
+    <e lm="ar a laghad" c="mw"><i>ar<b/>a<b/>laghad</i><par n="anseo__adv"/></e>
+    <e lm="ar ala na huaire" c="mw"><i>ar<b/>ala<b/>na<b/>huaire</i><par n="anseo__adv"/></e>
+    <e lm="ar a mhéad" c="mw"><i>ar<b/>a<b/>mhéad</i><par n="anseo__adv"/></e>
+    <e lm="ar an ábhar sin" c="mw"><i>ar<b/>an<b/>ábhar<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="ar an bpointe" c="mw"><i>ar<b/>an<b/>bpointe</i><par n="anseo__adv"/></e>
+    <e lm="ar an drochuai" c="mw"><i>ar<b/>an<b/>drochuai</i><par n="anseo__adv"/></e>
+    <e lm="ar an gcaoi sin" c="mw"><i>ar<b/>an<b/>gcaoi<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="ar an gcéad ásc" c="mw"><i>ar<b/>an<b/>gcéad<b/>ásc</i><par n="anseo__adv"/></e>
+    <e lm="ar an gcéad dul síos" c="mw"><i>ar<b/>an<b/>gcéad<b/>dul<b/>síos</i><par n="anseo__adv"/></e>
+    <e lm="ar an gcoigríoch" c="mw"><i>ar<b/>an<b/>gcoigríoch</i><par n="anseo__adv"/></e>
+    <e lm="ar an gcuma chéanna" c="mw"><i>ar<b/>an<b/>gcuma<b/>chéanna</i><par n="anseo__adv"/></e>
+    <e lm="ar an gcuma sin" c="mw"><i>ar<b/>an<b/>gcuma<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="ar an mball" c="mw"><i>ar<b/>an<b/>mball</i><par n="anseo__adv"/></e>
+    <e lm="ar an mhodh sin" c="mw"><i>ar<b/>an<b/>mhodh<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="ar an nós céanna" c="mw"><i>ar<b/>an<b/>nós<b/>céanna</i><par n="anseo__adv"/></e>
+    <e lm="ar an toirt" c="mw"><i>ar<b/>an<b/>toirt</i><par n="anseo__adv"/></e>
+    <e lm="ar aon chaoi" c="mw"><i>ar<b/>aon<b/>chaoi</i><par n="anseo__adv"/></e>
+    <e lm="ar aon cho" c="mw"><i>ar<b/>aon<b/>cho</i><par n="anseo__adv"/></e>
+    <e lm="ar aon chuma" c="mw"><i>ar<b/>aon<b/>chuma</i><par n="anseo__adv"/></e>
+    <e lm="ar aon dóigh" c="mw"><i>ar<b/>aon<b/>dóigh</i><par n="anseo__adv"/></e>
+    <e lm="ar aon nós" c="mw"><i>ar<b/>aon<b/>nós</i><par n="anseo__adv"/></e>
+    <e lm="ar a shon sin" c="mw"><i>ar<b/>a<b/>shon<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="ar ball" c="mw"><i>ar<b/>ball</i><par n="anseo__adv"/></e>
+    <e lm="ar ball beag" c="mw"><i>ar<b/>ball<b/>beag</i><par n="anseo__adv"/></e>
+    <e lm="ar bhuille boise" c="mw"><i>ar<b/>bhuille<b/>boise</i><par n="anseo__adv"/></e>
+    <e lm="ar chaoi ar bith" c="mw"><i>ar<b/>chaoi<b/>ar<b/>bith</i><par n="anseo__adv"/></e>
+    <e lm="ar chaoi éigin" c="mw"><i>ar<b/>chaoi<b/>éigin</i><par n="anseo__adv"/></e>
+    <e lm="ar chaoi eile" c="mw"><i>ar<b/>chaoi<b/>eile</i><par n="anseo__adv"/></e>
+    <e lm="ar chor ar bith" c="mw"><i>ar<b/>chor<b/>ar<b/>bith</i><par n="anseo__adv"/></e>
+    <e lm="ar chúla téarmaí" c="mw"><i>ar<b/>chúla<b/>téarmaí</i><par n="anseo__adv"/></e>
+    <e lm="ar chuma ar bith" c="mw"><i>ar<b/>chuma<b/>ar<b/>bith</i><par n="anseo__adv"/></e>
+    <e lm="ar chuma éigin" c="mw"><i>ar<b/>chuma<b/>éigin</i><par n="anseo__adv"/></e>
+    <e lm="ar deireadh" c="mw"><i>ar<b/>deireadh</i><par n="anseo__adv"/></e>
+    <e lm="ar deireadh is ar sia" c="mw"><i>ar<b/>deireadh<b/>is<b/>ar<b/>sia</i><par n="anseo__adv"/></e>
+    <e lm="ar deiseal" c="mw"><i>ar<b/>deiseal</i><par n="anseo__adv"/></e>
+    <e lm="ar dhóigh ar bith" c="mw"><i>ar<b/>dhóigh<b/>ar<b/>bith</i><par n="anseo__adv"/></e>
+    <e lm="ar dhóigh éigin" c="mw"><i>ar<b/>dhóigh<b/>éigin</i><par n="anseo__adv"/></e>
+    <e lm="ar domhan" c="mw"><i>ar<b/>domhan</i><par n="anseo__adv"/></e>
+    <e lm="ar dtús" c="mw"><i>ar<b/>dtús</i><par n="anseo__adv"/></e>
+    <e lm="ar eagla na heagla" c="mw"><i>ar<b/>eagla<b/>na<b/>heagla</i><par n="anseo__adv"/></e>
+    <e lm="ar éigean" c="mw"><i>ar<b/>éigean</i><par n="anseo__adv"/></e>
+    <e lm="ar fad" c="mw"><i>ar<b/>fad</i><par n="anseo__adv"/></e>
+    <e lm="ar feadh na faide" c="mw"><i>ar<b/>feadh<b/>na<b/>faide</i><par n="anseo__adv"/></e>
+    <e lm="ar feadh scaithimh" c="mw"><i>ar<b/>feadh<b/>scaithimh</i><par n="anseo__adv"/></e>
+    <e lm="ar feadh tamaill" c="mw"><i>ar<b/>feadh<b/>tamaill</i><par n="anseo__adv"/></e>
+    <e lm="ar fia" c="mw"><i>ar<b/>fia</i><par n="anseo__adv"/></e>
+    <e lm="ar fud" c="mw"><i>ar<b/>fud</i><par n="anseo__adv"/></e>
+    <e lm="ar fud na bhfud" c="mw"><i>ar<b/>fud<b/>na<b/>bhfud</i><par n="anseo__adv"/></e>
+    <e lm="ar gcúl" c="mw"><i>ar<b/>gcúl</i><par n="anseo__adv"/></e>
+    <e lm="ar inn ar ea" c="mw"><i>ar<b/>inn<b/>ar<b/>ea</i><par n="anseo__adv"/></e>
+    <e lm="ar inn ar éigean" c="mw"><i>ar<b/>inn<b/>ar<b/>éigean</i><par n="anseo__adv"/></e>
+    <e lm="arís agus arís eile" c="mw"><i>arís<b/>agus<b/>arís<b/>eile</i><par n="anseo__adv"/></e>
+    <e lm="ar leithligh" c="mw"><i>ar<b/>leithligh</i><par n="anseo__adv"/></e>
+    <e lm="ar meán" c="mw"><i>ar<b/>meán</i><par n="anseo__adv"/></e>
+    <e lm="ar mhodh eile" c="mw"><i>ar<b/>mhodh<b/>eile</i><par n="anseo__adv"/></e>
+    <e lm="ar na mallaibh" c="mw"><i>ar<b/>na<b/>mallaibh</i><par n="anseo__adv"/></e>
+    <e lm="ar ndóigh" c="mw"><i>ar<b/>ndóigh</i><par n="anseo__adv"/></e>
+    <e lm="ar scor ar bith" c="mw"><i>ar<b/>scor<b/>ar<b/>bith</i><par n="anseo__adv"/></e>
+    <e lm="ar shiúl" c="mw"><i>ar<b/>shiúl</i><par n="anseo__adv"/></e>
+    <e lm="ar talamh" c="mw"><i>ar<b/>talamh</i><par n="anseo__adv"/></e>
+    <e lm="ar togradh" c="mw"><i>ar<b/>togradh</i><par n="anseo__adv"/></e>
+    <e lm="ar tosach" c="mw"><i>ar<b/>tosach</i><par n="anseo__adv"/></e>
+    <e lm="ar triail" c="mw"><i>ar<b/>triail</i><par n="anseo__adv"/></e>
+    <e lm="ar uainibh" c="mw"><i>ar<b/>uainibh</i><par n="anseo__adv"/></e>
+    <e lm="ar uairibh" c="mw"><i>ar<b/>uairibh</i><par n="anseo__adv"/></e>
+    <e lm="as a aithle sin" c="mw"><i>as<b/>a<b/>aithle<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="as a chéile" c="mw"><i>as<b/>a<b/>chéile</i><par n="anseo__adv"/></e>
+    <e lm="as an nua" c="mw"><i>as<b/>an<b/>nua</i><par n="anseo__adv"/></e>
+    <e lm="as éadan" c="mw"><i>as<b/>éadan</i><par n="anseo__adv"/></e>
+    <e lm="as fuil fhua" c="mw"><i>as<b/>fuil<b/>fhua</i><par n="anseo__adv"/></e>
+    <e lm="as seo amach" c="mw"><i>as<b/>seo<b/>amach</i><par n="anseo__adv"/></e>
+    <e lm="as sin amach" c="mw"><i>as<b/>sin<b/>amach</i><par n="anseo__adv"/></e>
+    <e lm="as úire" c="mw"><i>as<b/>úire</i><par n="anseo__adv"/></e>
+    <e lm="ceann ar aghaidh" c="mw"><i>ceann<b/>ar<b/>aghaidh</i><par n="anseo__adv"/></e>
+    <e lm="ceann ar cheann" c="mw"><i>ceann<b/>ar<b/>cheann</i><par n="anseo__adv"/></e>
+    <e lm="ceann sa turas" c="mw"><i>ceann<b/>sa<b/>turas</i><par n="anseo__adv"/></e>
+    <e lm="céim ar chéim" c="mw"><i>céim<b/>ar<b/>chéim</i><par n="anseo__adv"/></e>
+    <e lm="chóir a bheith" c="mw"><i>chóir<b/>a<b/>bheith</i><par n="anseo__adv"/></e>
+    <e lm="chomh fada seo" c="mw"><i>chomh<b/>fada<b/>seo</i><par n="anseo__adv"/></e>
+    <e lm="chomh maith" c="mw"><i>chomh<b/>maith</i><par n="anseo__adv"/></e>
+    <e lm="chomh maith leis sin" c="mw"><i>chomh<b/>maith<b/>leis<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="chomh minic lena athrach" c="mw"><i>chomh<b/>minic<b/>lena<b/>athrach</i><par n="anseo__adv"/></e>
+    <e lm="chun cinn" c="mw"><i>chun<b/>cinn</i><par n="anseo__adv"/></e>
+    <e lm="chun deireadh" c="mw"><i>chun<b/>deireadh</i><par n="anseo__adv"/></e>
+    <e lm="chun tosaigh" c="mw"><i>chun<b/>tosaigh</i><par n="anseo__adv"/></e>
+    <e lm="cibé ar bith" c="mw"><i>cibé<b/>ar<b/>bith</i><par n="anseo__adv"/></e>
+    <e lm="cibé scéal é" c="mw"><i>cibé<b/>scéal<b/>é</i><par n="anseo__adv"/></e>
+    <e lm="dá bharr sin" c="mw"><i>dá<b/>bharr<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="dá bhíthin sin" c="mw"><i>dá<b/>bhíthin<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="dá bhrí sin" c="mw"><i>dá<b/>bhrí<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="dá dheasca sin" c="mw"><i>dá<b/>dheasca<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="dála an scéil" c="mw"><i>dála<b/>an<b/>scéil</i><par n="anseo__adv"/></e>
+    <e lm="d'aon ghnó" c="mw"><i>d'aon<b/>ghnó</i><par n="anseo__adv"/></e>
+    <e lm="d'aon iarraidh" c="mw"><i>d'aon<b/>iarraidh</i><par n="anseo__adv"/></e>
+    <e lm="d'aon turas" c="mw"><i>d'aon<b/>turas</i><par n="anseo__adv"/></e>
+    <e lm="dá réir sin" c="mw"><i>dá<b/>réir<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="dá thairbhe sin" c="mw"><i>dá<b/>thairbhe<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="déanta na fírinne" c="mw"><i>déanta<b/>na<b/>fírinne</i><par n="anseo__adv"/></e>
+    <e lm="de chói" c="mw"><i>de<b/>chói</i><par n="anseo__adv"/></e>
+    <e lm="de dheoin nó d'ainneoin" c="mw"><i>de<b/>dheoin<b/>nó<b/>d'ainneoin</i><par n="anseo__adv"/></e>
+    <e lm="de dhoirte dhairte" c="mw"><i>de<b/>dhoirte<b/>dhairte</i><par n="anseo__adv"/></e>
+    <e lm="de ghlanmheabhai" c="mw"><i>de<b/>ghlanmheabhai</i><par n="anseo__adv"/></e>
+    <e lm="de ghnáth" c="mw"><i>de<b/>ghnáth</i><par n="anseo__adv"/></e>
+    <e lm="de ghréas" c="mw"><i>de<b/>ghréas</i><par n="anseo__adv"/></e>
+    <e lm="de léim" c="mw"><i>de<b/>léim</i><par n="anseo__adv"/></e>
+    <e lm="de mhaoil do mhainge" c="mw"><i>de<b/>mhaoil<b/>do<b/>mhainge</i><par n="anseo__adv"/></e>
+    <e lm="den chéad uai" c="mw"><i>den<b/>chéad<b/>uai</i><par n="anseo__adv"/></e>
+    <e lm="de réir a chéile" c="mw"><i>de<b/>réir<b/>a<b/>chéile</i><par n="anseo__adv"/></e>
+    <e lm="de réir cosúlachta" c="mw"><i>de<b/>réir<b/>cosúlachta</i><par n="anseo__adv"/></e>
+    <e lm="de réir dealraimh" c="mw"><i>de<b/>réir<b/>dealraimh</i><par n="anseo__adv"/></e>
+    <e lm="de sciotán" c="mw"><i>de<b/>sciotán</i><par n="anseo__adv"/></e>
+    <e lm="de shío" c="mw"><i>de<b/>shío</i><par n="anseo__adv"/></e>
+    <e lm="de thaisme" c="mw"><i>de<b/>thaisme</i><par n="anseo__adv"/></e>
+    <e lm="de theip" c="mw"><i>de<b/>theip</i><par n="anseo__adv"/></e>
+    <e lm="do leataobh" c="mw"><i>do<b/>leataobh</i><par n="anseo__adv"/></e>
+    <e lm="fada ó shin" c="mw"><i>fada<b/>ó<b/>shin</i><par n="anseo__adv"/></e>
+    <e lm="faoi bhealach" c="mw"><i>faoi<b/>bhealach</i><par n="anseo__adv"/></e>
+    <e lm="faoi cheathai" c="mw"><i>faoi<b/>cheathai</i><par n="anseo__adv"/></e>
+    <e lm="faoi cheilt" c="mw"><i>faoi<b/>cheilt</i><par n="anseo__adv"/></e>
+    <e lm="faoi choim" c="mw"><i>faoi<b/>choim</i><par n="anseo__adv"/></e>
+    <e lm="faoi dheireadh" c="mw"><i>faoi<b/>dheireadh</i><par n="anseo__adv"/></e>
+    <e lm="faoi dheireadh thia" c="mw"><i>faoi<b/>dheireadh<b/>thia</i><par n="anseo__adv"/></e>
+    <e lm="faoi dheoidh" c="mw"><i>faoi<b/>dheoidh</i><par n="anseo__adv"/></e>
+    <e lm="faoi dhó" c="mw"><i>faoi<b/>dhó</i><par n="anseo__adv"/></e>
+    <e lm="faoi lán seoil" c="mw"><i>faoi<b/>lán<b/>seoil</i><par n="anseo__adv"/></e>
+    <e lm="faoi láthai" c="mw"><i>faoi<b/>láthai</i><par n="anseo__adv"/></e>
+    <e lm="faoin ae" c="mw"><i>faoin<b/>ae</i><par n="anseo__adv"/></e>
+    <e lm="faoi nó thairis" c="mw"><i>faoi<b/>nó<b/>thairis</i><par n="anseo__adv"/></e>
+    <e lm="faoi riocht seoil" c="mw"><i>faoi<b/>riocht<b/>seoil</i><par n="anseo__adv"/></e>
+    <e lm="faoi rún" c="mw"><i>faoi<b/>rún</i><par n="anseo__adv"/></e>
+    <e lm="faoi seach" c="mw"><i>faoi<b/>seach</i><par n="anseo__adv"/></e>
+    <e lm="faoi thrí" c="mw"><i>faoi<b/>thrí</i><par n="anseo__adv"/></e>
+    <e lm="feasta choíche" c="mw"><i>feasta<b/>choíche</i><par n="anseo__adv"/></e>
+    <e lm="fiú amháin" c="mw"><i>fiú<b/>amháin</i><par n="anseo__adv"/></e>
+    <e lm="gach ala" c="mw"><i>gach<b/>ala</i><par n="anseo__adv"/></e>
+    <e lm="gach uile áit" c="mw"><i>gach<b/>uile<b/>áit</i><par n="anseo__adv"/></e>
+    <e lm="gan amhras" c="mw"><i>gan<b/>amhras</i><par n="anseo__adv"/></e>
+    <e lm="gan bhréag" c="mw"><i>gan<b/>bhréag</i><par n="anseo__adv"/></e>
+    <e lm="gan dabht" c="mw"><i>gan<b/>dabht</i><par n="anseo__adv"/></e>
+    <e lm="gan dua" c="mw"><i>gan<b/>dua</i><par n="anseo__adv"/></e>
+    <e lm="gan éifeacht" c="mw"><i>gan<b/>éifeacht</i><par n="anseo__adv"/></e>
+    <e lm="gan fhios" c="mw"><i>gan<b/>fhios</i><par n="anseo__adv"/></e>
+    <e lm="gan ghó" c="mw"><i>gan<b/>ghó</i><par n="anseo__adv"/></e>
+    <e lm="gan mhoill" c="mw"><i>gan<b/>mhoill</i><par n="anseo__adv"/></e>
+    <e lm="gan mórán achai" c="mw"><i>gan<b/>mórán<b/>achai</i><par n="anseo__adv"/></e>
+    <e lm="gan stró" c="mw"><i>gan<b/>stró</i><par n="anseo__adv"/></e>
+    <e lm="gan torann" c="mw"><i>gan<b/>torann</i><par n="anseo__adv"/></e>
+    <e lm="geall le" c="mw"><i>geall<b/>le</i><par n="anseo__adv"/></e>
+    <e lm="go bog" c="mw"><i>go<b/>bog</i><par n="anseo__adv"/></e>
+    <e lm="go brách" c="mw"><i>go<b/>brách</i><par n="anseo__adv"/></e>
+    <e lm="go breá" c="mw"><i>go<b/>breá</i><par n="anseo__adv"/></e>
+    <e lm="go breas nó go treas" c="mw"><i>go<b/>breas<b/>nó<b/>go<b/>treas</i><par n="anseo__adv"/></e>
+    <e lm="go buan" c="mw"><i>go<b/>buan</i><par n="anseo__adv"/></e>
+    <e lm="go ceann tamaill" c="mw"><i>go<b/>ceann<b/>tamaill</i><par n="anseo__adv"/></e>
+    <e lm="go cinnte" c="mw"><i>go<b/>cinnte</i><par n="anseo__adv"/></e>
+    <e lm="go ciúin" c="mw"><i>go<b/>ciúin</i><par n="anseo__adv"/></e>
+    <e lm="go coitianta" c="mw"><i>go<b/>coitianta</i><par n="anseo__adv"/></e>
+    <e lm="go cothrom" c="mw"><i>go<b/>cothrom</i><par n="anseo__adv"/></e>
+    <e lm="go crua" c="mw"><i>go<b/>crua</i><par n="anseo__adv"/></e>
+    <e lm="go cruinn" c="mw"><i>go<b/>cruinn</i><par n="anseo__adv"/></e>
+    <e lm="go cuibheasach" c="mw"><i>go<b/>cuibheasach</i><par n="anseo__adv"/></e>
+    <e lm="go daingean" c="mw"><i>go<b/>daingean</i><par n="anseo__adv"/></e>
+    <e lm="go dearfa" c="mw"><i>go<b/>dearfa</i><par n="anseo__adv"/></e>
+    <e lm="go deimhin" c="mw"><i>go<b/>deimhin</i><par n="anseo__adv"/></e>
+    <e lm="go deo" c="mw"><i>go<b/>deo</i><par n="anseo__adv"/></e>
+    <e lm="go diai" c="mw"><i>go<b/>diai</i><par n="anseo__adv"/></e>
+    <e lm="go díomhaoin" c="mw"><i>go<b/>díomhaoin</i><par n="anseo__adv"/></e>
+    <e lm="go díreach" c="mw"><i>go<b/>díreach</i><par n="anseo__adv"/></e>
+    <e lm="go docht" c="mw"><i>go<b/>docht</i><par n="anseo__adv"/></e>
+    <e lm="go dtaga thiar ania" c="mw"><i>go<b/>dtaga<b/>thiar<b/>ania</i><par n="anseo__adv"/></e>
+    <e lm="go dtí anois" c="mw"><i>go<b/>dtí<b/>anois</i><par n="anseo__adv"/></e>
+    <e lm="go dtí seo" c="mw"><i>go<b/>dtí<b/>seo</i><par n="anseo__adv"/></e>
+    <e lm="go fairsing" c="mw"><i>go<b/>fairsing</i><par n="anseo__adv"/></e>
+    <e lm="go feillbhinn" c="mw"><i>go<b/>feillbhinn</i><par n="anseo__adv"/></e>
+    <e lm="go fíbín" c="mw"><i>go<b/>fíbín</i><par n="anseo__adv"/></e>
+    <e lm="go fío" c="mw"><i>go<b/>fío</i><par n="anseo__adv"/></e>
+    <e lm="go fírinneach" c="mw"><i>go<b/>fírinneach</i><par n="anseo__adv"/></e>
+    <e lm="go fóill" c="mw"><i>go<b/>fóill</i><par n="anseo__adv"/></e>
+    <e lm="go fóill beag" c="mw"><i>go<b/>fóill<b/>beag</i><par n="anseo__adv"/></e>
+    <e lm="go foirfe" c="mw"><i>go<b/>foirfe</i><par n="anseo__adv"/></e>
+    <e lm="go follasach" c="mw"><i>go<b/>follasach</i><par n="anseo__adv"/></e>
+    <e lm="go fras" c="mw"><i>go<b/>fras</i><par n="anseo__adv"/></e>
+    <e lm="go furasta" c="mw"><i>go<b/>furasta</i><par n="anseo__adv"/></e>
+    <e lm="go gairid" c="mw"><i>go<b/>gairid</i><par n="anseo__adv"/></e>
+    <e lm="go gasta" c="mw"><i>go<b/>gasta</i><par n="anseo__adv"/></e>
+    <e lm="go háirithe" c="mw"><i>go<b/>háirithe</i><par n="anseo__adv"/></e>
+    <e lm="go hamhrasach" c="mw"><i>go<b/>hamhrasach</i><par n="anseo__adv"/></e>
+    <e lm="go héag" c="mw"><i>go<b/>héag</i><par n="anseo__adv"/></e>
+    <e lm="go héasca" c="mw"><i>go<b/>héasca</i><par n="anseo__adv"/></e>
+    <e lm="go héifeachtach" c="mw"><i>go<b/>héifeachtach</i><par n="anseo__adv"/></e>
+    <e lm="go hiomlán" c="mw"><i>go<b/>hiomlán</i><par n="anseo__adv"/></e>
+    <e lm="go hiondúil" c="mw"><i>go<b/>hiondúil</i><par n="anseo__adv"/></e>
+    <e lm="go hionraic" c="mw"><i>go<b/>hionraic</i><par n="anseo__adv"/></e>
+    <e lm="go hoscailte" c="mw"><i>go<b/>hoscailte</i><par n="anseo__adv"/></e>
+    <e lm="go huile" c="mw"><i>go<b/>huile</i><par n="anseo__adv"/></e>
+    <e lm="go léi" c="mw"><i>go<b/>léi</i><par n="anseo__adv"/></e>
+    <e lm="go luath" c="mw"><i>go<b/>luath</i><par n="anseo__adv"/></e>
+    <e lm="go macánta" c="mw"><i>go<b/>macánta</i><par n="anseo__adv"/></e>
+    <e lm="go maith" c="mw"><i>go<b/>maith</i><par n="anseo__adv"/></e>
+    <e lm="go mall" c="mw"><i>go<b/>mall</i><par n="anseo__adv"/></e>
+    <e lm="go mea" c="mw"><i>go<b/>mea</i><par n="anseo__adv"/></e>
+    <e lm="go measartha" c="mw"><i>go<b/>measartha</i><par n="anseo__adv"/></e>
+    <e lm="go minic" c="mw"><i>go<b/>minic</i><par n="anseo__adv"/></e>
+    <e lm="go míosúil" c="mw"><i>go<b/>míosúil</i><par n="anseo__adv"/></e>
+    <e lm="go moch" c="mw"><i>go<b/>moch</i><par n="anseo__adv"/></e>
+    <e lm="go moch is go mall" c="mw"><i>go<b/>moch<b/>is<b/>go<b/>mall</i><par n="anseo__adv"/></e>
+    <e lm="go mór mó" c="mw"><i>go<b/>mór<b/>mó</i><par n="anseo__adv"/></e>
+    <e lm="go nimhneach" c="mw"><i>go<b/>nimhneach</i><par n="anseo__adv"/></e>
+    <e lm="go nuige seo" c="mw"><i>go<b/>nuige<b/>seo</i><par n="anseo__adv"/></e>
+    <e lm="go rábach" c="mw"><i>go<b/>rábach</i><par n="anseo__adv"/></e>
+    <e lm="go réidh" c="mw"><i>go<b/>réidh</i><par n="anseo__adv"/></e>
+    <e lm="go sámh" c="mw"><i>go<b/>sámh</i><par n="anseo__adv"/></e>
+    <e lm="go sea" c="mw"><i>go<b/>sea</i><par n="anseo__adv"/></e>
+    <e lm="go síoraí" c="mw"><i>go<b/>síoraí</i><par n="anseo__adv"/></e>
+    <e lm="go socai" c="mw"><i>go<b/>socai</i><par n="anseo__adv"/></e>
+    <e lm="go speisialta" c="mw"><i>go<b/>speisialta</i><par n="anseo__adv"/></e>
+    <e lm="go stuama" c="mw"><i>go<b/>stuama</i><par n="anseo__adv"/></e>
+    <e lm="go suaimhneach" c="mw"><i>go<b/>suaimhneach</i><par n="anseo__adv"/></e>
+    <e lm="go talamh" c="mw"><i>go<b/>talamh</i><par n="anseo__adv"/></e>
+    <e lm="go tapa" c="mw"><i>go<b/>tapa</i><par n="anseo__adv"/></e>
+    <e lm="go teagmhasach" c="mw"><i>go<b/>teagmhasach</i><par n="anseo__adv"/></e>
+    <e lm="go tobann" c="mw"><i>go<b/>tobann</i><par n="anseo__adv"/></e>
+    <e lm="go trásta" c="mw"><i>go<b/>trásta</i><par n="anseo__adv"/></e>
+    <e lm="go tráthrialta" c="mw"><i>go<b/>tráthrialta</i><par n="anseo__adv"/></e>
+    <e lm="go trom" c="mw"><i>go<b/>trom</i><par n="anseo__adv"/></e>
+    <e lm="iar sin" c="mw"><i>iar<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="i bhfad Éireann" c="mw"><i>i<b/>bhfad<b/>Éireann</i><par n="anseo__adv"/></e>
+    <e lm="i bhfail a chéile" c="mw"><i>i<b/>bhfail<b/>a<b/>chéile</i><par n="anseo__adv"/></e>
+    <e lm="i bhfaiteadh na súl" c="mw"><i>i<b/>bhfaiteadh<b/>na<b/>súl</i><par n="anseo__adv"/></e>
+    <e lm="i bhfrithing" c="mw"><i>i<b/>bhfrithing</i><par n="anseo__adv"/></e>
+    <e lm="i d'ionad" c="mw"><i>i<b/>d'ionad</i><par n="anseo__adv"/></e>
+    <e lm="idir an dá linn" c="mw"><i>idir<b/>an<b/>dá<b/>linn</i><par n="anseo__adv"/></e>
+    <e lm="idir sin is tráthas" c="mw"><i>idir<b/>sin<b/>is<b/>tráthas</i><par n="anseo__adv"/></e>
+    <e lm="i dtaca leis sin" c="mw"><i>i<b/>dtaca<b/>leis<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="i dtaisce" c="mw"><i>i<b/>dtaisce</i><par n="anseo__adv"/></e>
+    <e lm="i dteannta a chéile" c="mw"><i>i<b/>dteannta<b/>a<b/>chéile</i><par n="anseo__adv"/></e>
+    <e lm="i dtólamh" c="mw"><i>i<b/>dtólamh</i><par n="anseo__adv"/></e>
+    <e lm="i dtosach" c="mw"><i>i<b/>dtosach</i><par n="anseo__adv"/></e>
+    <e lm="i dtosach báire" c="mw"><i>i<b/>dtosach<b/>báire</i><par n="anseo__adv"/></e>
+    <e lm="i dtreo" c="mw"><i>i<b/>dtreo</i><par n="anseo__adv"/></e>
+    <e lm="i gceann a chéile" c="mw"><i>i<b/>gceann<b/>a<b/>chéile</i><par n="anseo__adv"/></e>
+    <e lm="i gceart" c="mw"><i>i<b/>gceart</i><par n="anseo__adv"/></e>
+    <e lm="i gcéin is i gcónga" c="mw"><i>i<b/>gcéin<b/>is<b/>i<b/>gcónga</i><par n="anseo__adv"/></e>
+    <e lm="i gcoitinne" c="mw"><i>i<b/>gcoitinne</i><par n="anseo__adv"/></e>
+    <e lm="i gcomhthráth" c="mw"><i>i<b/>gcomhthráth</i><par n="anseo__adv"/></e>
+    <e lm="i gcónaí" c="mw"><i>i<b/>gcónaí</i><par n="anseo__adv"/></e>
+    <e lm="i láthair na huaire" c="mw"><i>i<b/>láthair<b/>na<b/>huaire</i><par n="anseo__adv"/></e>
+    <e lm="i leataobh" c="mw"><i>i<b/>leataobh</i><par n="anseo__adv"/></e>
+    <e lm="i leith" c="mw"><i>i<b/>leith</i><par n="anseo__adv"/></e>
+    <e lm="i mbéal a chéile" c="mw"><i>i<b/>mbéal<b/>a<b/>chéile</i><par n="anseo__adv"/></e>
+    <e lm="i mbéal do chinn" c="mw"><i>i<b/>mbéal<b/>do<b/>chinn</i><par n="anseo__adv"/></e>
+    <e lm="ina áit sin" c="mw"><i>ina<b/>áit<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="ina dhiaidh sin" c="mw"><i>ina<b/>dhiaidh<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="ina dhiaidh sin féin" c="mw"><i>ina<b/>dhiaidh<b/>sin<b/>féin</i><par n="anseo__adv"/></e>
+    <e lm="in aghaidh na bliana" c="mw"><i>in<b/>aghaidh<b/>na<b/>bliana</i><par n="anseo__adv"/></e>
+    <e lm="in aicearracht" c="mw"><i>in<b/>aicearracht</i><par n="anseo__adv"/></e>
+    <e lm="in airde" c="mw"><i>in<b/>airde</i><par n="anseo__adv"/></e>
+    <e lm="in áit eile" c="mw"><i>in<b/>áit<b/>eile</i><par n="anseo__adv"/></e>
+    <e lm="in áit na mbonn" c="mw"><i>in<b/>áit<b/>na<b/>mbonn</i><par n="anseo__adv"/></e>
+    <e lm="in am" c="mw"><i>in<b/>am</i><par n="anseo__adv"/></e>
+    <e lm="in am agus i dtráth" c="mw"><i>in<b/>am<b/>agus<b/>i<b/>dtráth</i><par n="anseo__adv"/></e>
+    <e lm="ina theannta sin" c="mw"><i>ina<b/>theannta<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="i ndeireadh na dála" c="mw"><i>i<b/>ndeireadh<b/>na<b/>dála</i><par n="anseo__adv"/></e>
+    <e lm="i ndeireadh na mbeart" c="mw"><i>i<b/>ndeireadh<b/>na<b/>mbeart</i><par n="anseo__adv"/></e>
+    <e lm="i ndeireadh na scríbe" c="mw"><i>i<b/>ndeireadh<b/>na<b/>scríbe</i><par n="anseo__adv"/></e>
+    <e lm="i ndiaidh a chéile" c="mw"><i>i<b/>ndiaidh<b/>a<b/>chéile</i><par n="anseo__adv"/></e>
+    <e lm="i ndiaidh ar ndiaidh" c="mw"><i>i<b/>ndiaidh<b/>ar<b/>ndiaidh</i><par n="anseo__adv"/></e>
+    <e lm="i ndiaidh do chúil" c="mw"><i>i<b/>ndiaidh<b/>do<b/>chúil</i><par n="anseo__adv"/></e>
+    <e lm="i ndiaidh sin" c="mw"><i>i<b/>ndiaidh<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="in éindí" c="mw"><i>in<b/>éindí</i><par n="anseo__adv"/></e>
+    <e lm="in éineacht" c="mw"><i>in<b/>éineacht</i><par n="anseo__adv"/></e>
+    <e lm="ionann is" c="mw"><i>ionann<b/>is</i><par n="anseo__adv"/></e>
+    <e lm="i rith an ama" c="mw"><i>i<b/>rith<b/>an<b/>ama</i><par n="anseo__adv"/></e>
+    <e lm="is é sin" c="mw"><i>is<b/>é<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="lá den saol" c="mw"><i>lá<b/>den<b/>saol</i><par n="anseo__adv"/></e>
+    <e lm="láithreach bonn" c="mw"><i>láithreach<b/>bonn</i><par n="anseo__adv"/></e>
+    <e lm="le chéile" c="mw"><i>le<b/>chéile</i><par n="anseo__adv"/></e>
+    <e lm="le cois" c="mw"><i>le<b/>cois</i><par n="anseo__adv"/></e>
+    <e lm="le déanaí" c="mw"><i>le<b/>déanaí</i><par n="anseo__adv"/></e>
+    <e lm="le deireanas" c="mw"><i>le<b/>deireanas</i><par n="anseo__adv"/></e>
+    <e lm="le fada" c="mw"><i>le<b/>fada</i><par n="anseo__adv"/></e>
+    <e lm="le gairid" c="mw"><i>le<b/>gairid</i><par n="anseo__adv"/></e>
+    <e lm="le héifeacht" c="mw"><i>le<b/>héifeacht</i><par n="anseo__adv"/></e>
+    <e lm="lena chois sin" c="mw"><i>lena<b/>chois<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="lom láithreach" c="mw"><i>lom<b/>láithreach</i><par n="anseo__adv"/></e>
+    <e lm="luath nó mall" c="mw"><i>luath<b/>nó<b/>mall</i><par n="anseo__adv"/></e>
+    <e lm="mar an gcéanna" c="mw"><i>mar<b/>an<b/>gcéanna</i><par n="anseo__adv"/></e>
+    <e lm="mar atá" c="mw"><i>mar<b/>atá</i><par n="anseo__adv"/></e>
+    <e lm="mar is ceart" c="mw"><i>mar<b/>is<b/>ceart</i><par n="anseo__adv"/></e>
+    <e lm="mar is gnách" c="mw"><i>mar<b/>is<b/>gnách</i><par n="anseo__adv"/></e>
+    <e lm="mar leanas" c="mw"><i>mar<b/>leanas</i><par n="anseo__adv"/></e>
+    <e lm="mar seo" c="mw"><i>mar<b/>seo</i><par n="anseo__adv"/></e>
+    <e lm="mar shampla" c="mw"><i>mar<b/>shampla</i><par n="anseo__adv"/></e>
+    <e lm="mar sin" c="mw"><i>mar<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="mar sin de" c="mw"><i>mar<b/>sin<b/>de</i><par n="anseo__adv"/></e>
+    <e lm="mar sin féin" c="mw"><i>mar<b/>sin<b/>féin</i><par n="anseo__adv"/></e>
+    <e lm="nach beag" c="mw"><i>nach<b/>beag</i><par n="anseo__adv"/></e>
+    <e lm="nach mó" c="mw"><i>nach<b/>mó</i><par n="anseo__adv"/></e>
+    <e lm="ní hansa" c="mw"><i>ní<b/>hansa</i><par n="anseo__adv"/></e>
+    <e lm="ní móide go" c="mw"><i>ní<b/>móide<b/>go</i><par n="anseo__adv"/></e>
+    <e lm="nó neachtar acu" c="mw"><i>nó<b/>neachtar<b/>acu</i><par n="anseo__adv"/></e>
+    <e lm="ó am go ham" c="mw"><i>ó<b/>am<b/>go<b/>ham</i><par n="anseo__adv"/></e>
+    <e lm="ó chéile" c="mw"><i>ó<b/>chéile</i><par n="anseo__adv"/></e>
+    <e lm="ó chianaibh" c="mw"><i>ó<b/>chianaibh</i><par n="anseo__adv"/></e>
+    <e lm="ó dheas" c="mw"><i>ó<b/>dheas</i><par n="anseo__adv"/></e>
+    <e lm="ó shin" c="mw"><i>ó<b/>shin</i><par n="anseo__adv"/></e>
+    <e lm="ó thosach" c="mw"><i>ó<b/>thosach</i><par n="anseo__adv"/></e>
+    <e lm="ó thuaidh" c="mw"><i>ó<b/>thuaidh</i><par n="anseo__adv"/></e>
+    <e lm="ó uair go chéile" c="mw"><i>ó<b/>uair<b/>go<b/>chéile</i><par n="anseo__adv"/></e>
+    <e lm="pas beag" c="mw"><i>pas<b/>beag</i><par n="anseo__adv"/></e>
+    <e lm="plinc pleainc" c="mw"><i>plinc<b/>pleainc</i><par n="anseo__adv"/></e>
+    <e lm="riamh agus choíche" c="mw"><i>riamh<b/>agus<b/>choíche</i><par n="anseo__adv"/></e>
+    <e lm="roimhe seo" c="mw"><i>roimhe<b/>seo</i><par n="anseo__adv"/></e>
+    <e lm="roimh i bhfad" c="mw"><i>roimh<b/>i<b/>bhfad</i><par n="anseo__adv"/></e>
+    <e lm="roimh ré" c="mw"><i>roimh<b/>ré</i><par n="anseo__adv"/></e>
+    <e lm="rud eile de" c="mw"><i>rud<b/>eile<b/>de</i><par n="anseo__adv"/></e>
+    <e lm="sa bhaile" c="mw"><i>sa<b/>bhaile</i><par n="anseo__adv"/></e>
+    <e lm="sa bhreis" c="mw"><i>sa<b/>bhreis</i><par n="anseo__adv"/></e>
+    <e lm="sa chéad áit" c="mw"><i>sa<b/>chéad<b/>áit</i><par n="anseo__adv"/></e>
+    <e lm="sa lá" c="mw"><i>sa<b/>lá</i><par n="anseo__adv"/></e>
+    <e lm="san am céanna" c="mw"><i>san<b/>am<b/>céanna</i><par n="anseo__adv"/></e>
+    <e lm="san am i láthai" c="mw"><i>san<b/>am<b/>i<b/>láthai</i><par n="anseo__adv"/></e>
+    <e lm="sa spéi" c="mw"><i>sa<b/>spéi</i><par n="anseo__adv"/></e>
+    <e lm="sa tslánchruinne" c="mw"><i>sa<b/>tslánchruinne</i><par n="anseo__adv"/></e>
+    <e lm="scun scan" c="mw"><i>scun<b/>scan</i><par n="anseo__adv"/></e>
+    <e lm="soir sia" c="mw"><i>soir<b/>sia</i><par n="anseo__adv"/></e>
+    <e lm="suas le" c="mw"><i>suas<b/>le</i><par n="anseo__adv"/></e>
+    <e lm="sula i bhfad" c="mw"><i>sula<b/>i<b/>bhfad</i><par n="anseo__adv"/></e>
+    <e lm="taobh thall" c="mw"><i>taobh<b/>thall</i><par n="anseo__adv"/></e>
+    <e lm="tar éis an tsaoil" c="mw"><i>tar<b/>éis<b/>an<b/>tsaoil</i><par n="anseo__adv"/></e>
+    <e lm="tar éis sin" c="mw"><i>tar<b/>éis<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="thairis sin" c="mw"><i>thairis<b/>sin</i><par n="anseo__adv"/></e>
+    <e lm="thall agus abhus" c="mw"><i>thall<b/>agus<b/>abhus</i><par n="anseo__adv"/></e>
+    <e lm="thar a bheith" c="mw"><i>thar<b/>a<b/>bheith</i><par n="anseo__adv"/></e>
+    <e lm="thar barr amach" c="mw"><i>thar<b/>barr<b/>amach</i><par n="anseo__adv"/></e>
+    <e lm="thar bráid" c="mw"><i>thar<b/>bráid</i><par n="anseo__adv"/></e>
+    <e lm="thar cuimse" c="mw"><i>thar<b/>cuimse</i><par n="anseo__adv"/></e>
+    <e lm="thar farraige" c="mw"><i>thar<b/>farraige</i><par n="anseo__adv"/></e>
+    <e lm="thar lea" c="mw"><i>thar<b/>lea</i><par n="anseo__adv"/></e>
+    <e lm="thar mui" c="mw"><i>thar<b/>mui</i><par n="anseo__adv"/></e>
+    <e lm="thar na bearta" c="mw"><i>thar<b/>na<b/>bearta</i><par n="anseo__adv"/></e>
+    <e lm="thar sáile" c="mw"><i>thar<b/>sáile</i><par n="anseo__adv"/></e>
+    <e lm="thart faoi seo" c="mw"><i>thart<b/>faoi<b/>seo</i><par n="anseo__adv"/></e>
+    <e lm="tríd is tríd" c="mw"><i>tríd<b/>is<b/>tríd</i><par n="anseo__adv"/></e>
+    <e lm="tríd síos" c="mw"><i>tríd<b/>síos</i><par n="anseo__adv"/></e>
+    <e lm="uaidh seo amach" c="mw"><i>uaidh<b/>seo<b/>amach</i><par n="anseo__adv"/></e>
+    <e lm="uair amháin" c="mw"><i>uair<b/>amháin</i><par n="anseo__adv"/></e>
+    <e lm="uair amháin eile" c="mw"><i>uair<b/>amháin<b/>eile</i><par n="anseo__adv"/></e>
+    <e lm="uair faoi seach" c="mw"><i>uair<b/>faoi<b/>seach</i><par n="anseo__adv"/></e>
+    <e lm="uair sa mhí" c="mw"><i>uair<b/>sa<b/>mhí</i><par n="anseo__adv"/></e>
+    <e lm="uair sa ré" c="mw"><i>uair<b/>sa<b/>ré</i><par n="anseo__adv"/></e>
+    <e lm="uair sa tseachtain" c="mw"><i>uair<b/>sa<b/>tseachtain</i><par n="anseo__adv"/></e>
+    <e lm="uile go léi" c="mw"><i>uile<b/>go<b/>léi</i><par n="anseo__adv"/></e>
+
+
+    <e lm="cara"><par n="c_init"/><i>a</i><par n="ca/ra__n"/></e>
+    <e lm="cat"><par n="c_init"/><i>a</i><par n="ca/t__n"/></e>
+    <e lm="gnéas"><par n="g_init"/><i>né</i><par n="gné/as__n"/></e>
+    <e lm="bóthar"><par n="b_init"/><i>ó</i><par n="bó/thar__n"/></e>
+    <e lm="madra"><par n="m_init"/><i>adra</i><par n="madra/__n"/></e>
+    <e lm="mála"><par n="m_init"/><i>ála</i><par n="madra/__n"/></e>
+    <e lm="cailín"><par n="c_init"/><i>ailín</i><par n="madra/__n"/></e>
+    <e lm="bata"><par n="b_init"/><i>ata</i><par n="madra/__n"/></e>
+    <e lm="cú"><par n="c_init"/><i>ú</i><par n="cú/__n"/></e>
+    <e lm="craic"><par n="c_init"/><i>raic</i><par n="craic/__n"/></e>
+    <e lm="bainne"><par n="b_init"/><i>ainne</i><par n="bainne/__n"/></e>
+    <e lm="mí"><par n="m_init"/><i>í</i><par n="mí/__n"/></e>
+    <e lm="fáinne"><par n="f_init"/><i>áinn</i><par n="fáinn/e__n"/></e>
+    <e lm="oráiste"><par n="o_init"/><i>ráist</i><par n="fáinn/e__n"/></e>
+    <e lm="páiste"><par n="p_init"/><i>áist</i><par n="fáinn/e__n"/></e>
+    <e lm="abairt"><par n="a_init"/><i>bairt</i><par n="abairt/__n"/></e>
+    <e lm="doras"><par n="d_init"/><i>o</i><par n="do/ras__n"/></e>
+    <e lm="peann"><par n="p_init"/><par n="p/eann__n"/></e>
+    <e lm="airgead"><par n="a_init"/><i>irg</i><par n="airg/ead__n"/></e>
+    <e lm="ceol"><par n="c_init"/><i>eo</i><par n="ceo/l__n"/></e>
+    <e lm="úll"><par n="ú_init"/><par n="ú/ll__n"/></e>
+    <e lm="teampall"><par n="t_init"/><i>eampa</i><par n="teampa/ll__n"/></e>
+    <e lm="ainm"><par n="a_init"/><i>inm</i><par n="ainm/__n"/></e>
+    <e lm="carr"><par n="c_init"/><i>a</i><par n="ca/rr__n"/></e>
+    <e lm="athair"><par n="a_init"/><i>th</i><par n="ath/air__n"/></e>
+    <e lm="máthair"><par n="m_init"/><i>áth</i><par n="máth/air__n"/></e>
+    <e lm="urlár"><par n="u_init"/><i>rlá</i><par n="urlá/r__n"/></e>
+    <e lm="fiar"><par n="f_init"/><i>ia</i><par n="urlá/r__n"/></e>
+    <e lm="amadán"><par n="a_init"/><i>madá</i><par n="amadá/n__n"/></e>
+    <e lm="iarann"><par n="i_init"/><i>ara</i><par n="iara/nn__n"/></e>
+    <e lm="lá"><i>l</i><par n="l/á__n"/></e>
+    <e lm="mac"><par n="m_init"/><par n="m/ac__n"/></e>
+    <e lm="focal"><par n="f_init"/><i>oca</i><par n="foca/l__n"/></e>
+    <e lm="asal"><par n="a_init"/><i>sa</i><par n="foca/l__n"/></e>
+    <e lm="broc"><par n="b_init"/><i>ro</i><par n="bro/c__n"/></e>
+    <e lm="punt"><par n="p_init"/><i>u</i><par n="pu/nt__n"/></e>
+    <e lm="casadh"><par n="c_init"/><i>as</i><par n="cas/adh__n"/></e>
+    <e lm="amharc"><par n="a_init"/><i>mha</i><par n="amha/rc__n"/></e>
+    <e lm="tarbh"><par n="t_init"/><i>a</i><par n="ta/rbh__n"/></e>
+
+    <!-- fear -->
+    <e lm="fear"><par n="f_init"/><par n="f/ear__n"/></e>
+    <e lm="ardfhear"><par n="a_init"/><i>rdfh</i><par n="f/ear__n"/></e>
+    <e lm="barrfhear"><par n="b_init"/><i>arrfh</i><par n="f/ear__n"/></e>
+    <e lm="ógfhear"><par n="ó_init"/><i>gfh</i><par n="f/ear__n"/></e>
+    <e lm="rífhear"><i>rífh</i><par n="f/ear__n"/></e>
+    <e lm="saorfhear"><par n="s_init"/><i>aorfh</i><par n="f/ear__n"/></e>
+    <e lm="seanfhear"><par n="s_init"/><i>eanfh</i><par n="f/ear__n"/></e>
+
+    <!-- urlár -->
+    <e lm="abar"><par n="a_init"/><i>ba</i><par n="urlá/r__n"/></e>
+    <e lm="ábhar"><par n="á_init"/><i>bha</i><par n="urlá/r__n"/></e>
+    <e lm="ábharchlár"><par n="á_init"/><i>bharchlá</i><par n="urlá/r__n"/></e>
+    <e lm="achar"><par n="a_init"/><i>cha</i><par n="urlá/r__n"/></e>
+    <e lm="adaptar"><par n="a_init"/><i>dapta</i><par n="urlá/r__n"/></e>
+    <e lm="adhastar"><par n="a_init"/><i>dhasta</i><par n="urlá/r__n"/></e>
+    <e lm="aer"><par n="a_init"/><i>e</i><par n="urlá/r__n"/></e>
+    <e lm="aerchór"><par n="a_init"/><i>erchó</i><par n="urlá/r__n"/></e>
+    <e lm="aeriompar"><par n="a_init"/><i>eriompa</i><par n="urlá/r__n"/></e>
+    <e lm="agar"><par n="a_init"/><i>ga</i><par n="urlá/r__n"/></e>
+    <e lm="ágar"><par n="á_init"/><i>ga</i><par n="urlá/r__n"/></e>
+    <e lm="áiléar"><par n="á_init"/><i>iléa</i><par n="urlá/r__n"/></e>
+    <e lm="ailgéabar"><par n="a_init"/><i>ilgéaba</i><par n="urlá/r__n"/></e>
+    <e lm="ailigéadar"><par n="a_init"/><i>iligéada</i><par n="urlá/r__n"/></e>
+    <e lm="áiméar"><par n="á_init"/><i>iméa</i><par n="urlá/r__n"/></e>
+    <e lm="aimfitéatar"><par n="a_init"/><i>imfitéata</i><par n="urlá/r__n"/></e>
+    <e lm="aimpéar"><par n="a_init"/><i>impéa</i><par n="urlá/r__n"/></e>
+    <e lm="aimpmhéadar"><par n="a_init"/><i>impmhéada</i><par n="urlá/r__n"/></e>
+    <e lm="ainéimiméadar"><par n="a_init"/><i>inéimiméada</i><par n="urlá/r__n"/></e>
+    <e lm="ainmchlár"><par n="a_init"/><i>inmchlá</i><par n="urlá/r__n"/></e>
+    <e lm="airdemhéadar"><par n="a_init"/><i>irdemhéada</i><par n="urlá/r__n"/></e>
+    <e lm="aischur"><par n="a_init"/><i>ischu</i><par n="urlá/r__n"/></e>
+    <e lm="aistear"><par n="a_init"/><i>istea</i><par n="urlá/r__n"/></e>
+    <e lm="albastar"><par n="a_init"/><i>lbasta</i><par n="urlá/r__n"/></e>
+    <e lm="alcólaiméadar"><par n="a_init"/><i>lcólaiméada</i><par n="urlá/r__n"/></e>
+    <e lm="allagar"><par n="a_init"/><i>llaga</i><par n="urlá/r__n"/></e>
+    <e lm="amchlár"><par n="a_init"/><i>mchlá</i><par n="urlá/r__n"/></e>
+    <e lm="amhábhar"><par n="a_init"/><i>mhábha</i><par n="urlá/r__n"/></e>
+    <e lm="amhantar"><par n="a_init"/><i>mhanta</i><par n="urlá/r__n"/></e>
+    <e lm="anchor"><par n="a_init"/><i>ncho</i><par n="urlá/r__n"/></e>
+    <e lm="angar"><par n="a_init"/><i>nga</i><par n="urlá/r__n"/></e>
+    <e lm="aonar"><par n="a_init"/><i>ona</i><par n="urlá/r__n"/></e>
+    <e lm="ar"><par n="a_init"/><i></i><par n="urlá/r__n"/></e>
+    <e lm="ár"><par n="á_init"/><i></i><par n="urlá/r__n"/></e>
+    <e lm="arathar"><par n="a_init"/><i>ratha</i><par n="urlá/r__n"/></e>
+    <e lm="arbhar"><par n="a_init"/><i>rbha</i><par n="urlá/r__n"/></e>
+    <e lm="ardchlár"><par n="a_init"/><i>rdchlá</i><par n="urlá/r__n"/></e>
+    <e lm="ardsaothar"><par n="a_init"/><i>rdsaotha</i><par n="urlá/r__n"/></e>
+    <e lm="armatúr"><par n="a_init"/><i>rmatú</i><par n="urlá/r__n"/></e>
+    <e lm="armúr"><par n="a_init"/><i>rmú</i><par n="urlá/r__n"/></e>
+    <e lm="arócar"><par n="a_init"/><i>róca</i><par n="urlá/r__n"/></e>
+    <e lm="ascar"><par n="a_init"/><i>sca</i><par n="urlá/r__n"/></e>
+    <e lm="aschur"><par n="a_init"/><i>schu</i><par n="urlá/r__n"/></e>
+    <e lm="astar"><par n="a_init"/><i>sta</i><par n="urlá/r__n"/></e>
+    <e lm="athchur"><par n="a_init"/><i>thchu</i><par n="urlá/r__n"/></e>
+    <e lm="atheagar"><par n="a_init"/><i>theaga</i><par n="urlá/r__n"/></e>
+    <e lm="athsholáthar"><par n="a_init"/><i>thsholátha</i><par n="urlá/r__n"/></e>
+    <e lm="atmaisféar"><par n="a_init"/><i>tmaisféa</i><par n="urlá/r__n"/></e>
+    <e lm="babhlaer"><par n="b_init"/><i>abhlae</i><par n="urlá/r__n"/></e>
+    <e lm="babhstar"><par n="b_init"/><i>abhsta</i><par n="urlá/r__n"/></e>
+    <e lm="baictéar"><par n="b_init"/><i>aictéa</i><par n="urlá/r__n"/></e>
+    <e lm="bailecheantar"><par n="b_init"/><i>ailecheanta</i><par n="urlá/r__n"/></e>
+    <e lm="bairitéar"><par n="b_init"/><i>airitéa</i><par n="urlá/r__n"/></e>
+    <e lm="balastar"><par n="b_init"/><i>alasta</i><par n="urlá/r__n"/></e>
+    <e lm="bar"><par n="b_init"/><i>a</i><par n="urlá/r__n"/></e>
+    <e lm="baraiméadar"><par n="b_init"/><i>araiméada</i><par n="urlá/r__n"/></e>
+    <e lm="baralár"><par n="b_init"/><i>aralá</i><par n="urlá/r__n"/></e>
+    <e lm="barrliobar"><par n="b_init"/><i>arrlioba</i><par n="urlá/r__n"/></e>
+    <e lm="basár"><par n="b_init"/><i>asá</i><par n="urlá/r__n"/></e>
+    <e lm="batar"><par n="b_init"/><i>ata</i><par n="urlá/r__n"/></e>
+    <e lm="béabhar"><par n="b_init"/><i>éabha</i><par n="urlá/r__n"/></e>
+    <e lm="béar"><par n="b_init"/><i>éa</i><par n="urlá/r__n"/></e>
+    <e lm="beár"><par n="b_init"/><i>eá</i><par n="urlá/r__n"/></e>
+    <e lm="biachlár"><par n="b_init"/><i>iachlá</i><par n="urlá/r__n"/></e>
+    <e lm="biachuntar"><par n="b_init"/><i>iachunta</i><par n="urlá/r__n"/></e>
+    <e lm="bileastar"><par n="b_init"/><i>ileasta</i><par n="urlá/r__n"/></e>
+    <e lm="bintiúr"><par n="b_init"/><i>intiú</i><par n="urlá/r__n"/></e>
+    <e lm="bíocar"><par n="b_init"/><i>íoca</i><par n="urlá/r__n"/></e>
+    <e lm="biolar"><par n="b_init"/><i>iola</i><par n="urlá/r__n"/></e>
+    <e lm="bithsféar"><par n="b_init"/><i>ithsféa</i><par n="urlá/r__n"/></e>
+    <e lm="bladar"><par n="b_init"/><i>lada</i><par n="urlá/r__n"/></e>
+    <e lm="blár"><par n="b_init"/><i>lá</i><par n="urlá/r__n"/></e>
+    <e lm="bleadar"><par n="b_init"/><i>leada</i><par n="urlá/r__n"/></e>
+    <e lm="bléasar"><par n="b_init"/><i>léasa</i><par n="urlá/r__n"/></e>
+    <e lm="bliústar"><par n="b_init"/><i>liústa</i><par n="urlá/r__n"/></e>
+    <e lm="bodhar"><par n="b_init"/><i>odha</i><par n="urlá/r__n"/></e>
+    <e lm="bogoighear"><par n="b_init"/><i>ogoighea</i><par n="urlá/r__n"/></e>
+    <e lm="bogshodar"><par n="b_init"/><i>ogshoda</i><par n="urlá/r__n"/></e>
+    <e lm="bolastar"><par n="b_init"/><i>olasta</i><par n="urlá/r__n"/></e>
+    <e lm="bonneagar"><par n="b_init"/><i>onneaga</i><par n="urlá/r__n"/></e>
+    <e lm="bóthar"><par n="b_init"/><i>ótha</i><par n="urlá/r__n"/></e>
+    <e lm="branar"><par n="b_init"/><i>rana</i><par n="urlá/r__n"/></e>
+    <e lm="breacleabhar"><par n="b_init"/><i>reacleabha</i><par n="urlá/r__n"/></e>
+    <e lm="briathar"><par n="b_init"/><i>riatha</i><par n="urlá/r__n"/></e>
+    <e lm="briodar"><par n="b_init"/><i>rioda</i><par n="urlá/r__n"/></e>
+    <e lm="broimfhéar"><par n="b_init"/><i>roimfhéa</i><par n="urlá/r__n"/></e>
+    <e lm="bróisiúr"><par n="b_init"/><i>róisiú</i><par n="urlá/r__n"/></e>
+    <e lm="bruadar"><par n="b_init"/><i>ruada</i><par n="urlá/r__n"/></e>
+    <e lm="bruar"><par n="b_init"/><i>rua</i><par n="urlá/r__n"/></e>
+    <e lm="bruscar"><par n="b_init"/><i>rusca</i><par n="urlá/r__n"/></e>
+    <e lm="buachar"><par n="b_init"/><i>uacha</i><par n="urlá/r__n"/></e>
+    <e lm="buar"><par n="b_init"/><i>ua</i><par n="urlá/r__n"/></e>
+    <e lm="budragár"><par n="b_init"/><i>udragá</i><par n="urlá/r__n"/></e>
+    <e lm="bultúr"><par n="b_init"/><i>ultú</i><par n="urlá/r__n"/></e>
+    <e lm="bunábhar"><par n="b_init"/><i>unábha</i><par n="urlá/r__n"/></e>
+    <e lm="bunachar"><par n="b_init"/><i>unacha</i><par n="urlá/r__n"/></e>
+    <e lm="buncar"><par n="b_init"/><i>unca</i><par n="urlá/r__n"/></e>
+    <e lm="bunleabhar"><par n="b_init"/><i>unleabha</i><par n="urlá/r__n"/></e>
+    <e lm="bunúdar"><par n="b_init"/><i>unúda</i><par n="urlá/r__n"/></e>
+    <e lm="búr"><par n="b_init"/><i>ú</i><par n="urlá/r__n"/></e>
+    <e lm="burgar"><par n="b_init"/><i>urga</i><par n="urlá/r__n"/></e>
+    <e lm="cabar"><par n="c_init"/><i>aba</i><par n="urlá/r__n"/></e>
+    <e lm="cadar"><par n="c_init"/><i>ada</i><par n="urlá/r__n"/></e>
+    <e lm="caecar"><par n="c_init"/><i>aeca</i><par n="urlá/r__n"/></e>
+    <e lm="caibheár"><par n="c_init"/><i>aibheá</i><par n="urlá/r__n"/></e>
+    <e lm="caidhséar"><par n="c_init"/><i>aidhséa</i><par n="urlá/r__n"/></e>
+    <e lm="caileandar"><par n="c_init"/><i>aileanda</i><par n="urlá/r__n"/></e>
+    <e lm="cailpéar"><par n="c_init"/><i>ailpéa</i><par n="urlá/r__n"/></e>
+    <e lm="cainniúr"><par n="c_init"/><i>ainniú</i><par n="urlá/r__n"/></e>
+    <e lm="cairtchlár"><par n="c_init"/><i>airtchlá</i><par n="urlá/r__n"/></e>
+    <e lm="caitidéar"><par n="c_init"/><i>aitidéa</i><par n="urlá/r__n"/></e>
+    <e lm="calar"><par n="c_init"/><i>ala</i><par n="urlá/r__n"/></e>
+    <e lm="calraiméadar"><par n="c_init"/><i>alraiméada</i><par n="urlá/r__n"/></e>
+    <e lm="camfar"><par n="c_init"/><i>amfa</i><par n="urlá/r__n"/></e>
+    <e lm="camruathar"><par n="c_init"/><i>amruatha</i><par n="urlá/r__n"/></e>
+    <e lm="cancar"><par n="c_init"/><i>anca</i><par n="urlá/r__n"/></e>
+    <e lm="cár"><par n="c_init"/><i>á</i><par n="urlá/r__n"/></e>
+    <e lm="caracatúr"><par n="c_init"/><i>aracatú</i><par n="urlá/r__n"/></e>
+    <e lm="carachtar"><par n="c_init"/><i>arachta</i><par n="urlá/r__n"/></e>
+    <e lm="caschlár"><par n="c_init"/><i>aschlá</i><par n="urlá/r__n"/></e>
+    <e lm="casúr"><par n="c_init"/><i>asú</i><par n="urlá/r__n"/></e>
+    <e lm="céadar"><par n="c_init"/><i>éada</i><par n="urlá/r__n"/></e>
+    <e lm="ceáfar"><par n="c_init"/><i>eáfa</i><par n="urlá/r__n"/></e>
+    <e lm="ceanastar"><par n="c_init"/><i>eanasta</i><par n="urlá/r__n"/></e>
+    <e lm="ceantar"><par n="c_init"/><i>eanta</i><par n="urlá/r__n"/></e>
+    <e lm="ceartlár"><par n="c_init"/><i>eartlá</i><par n="urlá/r__n"/></e>
+    <e lm="ceiliúr"><par n="c_init"/><i>eiliú</i><par n="urlá/r__n"/></e>
+    <e lm="ceinteár"><par n="c_init"/><i>einteá</i><par n="urlá/r__n"/></e>
+    <e lm="Ceinteár"><par n="c_init"/><i>einteá</i><par n="urlá/r__n"/></e>
+    <e lm="ceintilítear"><par n="c_init"/><i>eintilítea</i><par n="urlá/r__n"/></e>
+    <e lm="ceintiméadar"><par n="c_init"/><i>eintiméada</i><par n="urlá/r__n"/></e>
+    <e lm="ciarsúr"><par n="c_init"/><i>iarsú</i><par n="urlá/r__n"/></e>
+    <e lm="cíléar"><par n="c_init"/><i>íléa</i><par n="urlá/r__n"/></e>
+    <e lm="ciliméadar"><par n="c_init"/><i>iliméada</i><par n="urlá/r__n"/></e>
+    <e lm="ciobar"><par n="c_init"/><i>ioba</i><par n="urlá/r__n"/></e>
+    <e lm="clabar"><par n="c_init"/><i>laba</i><par n="urlá/r__n"/></e>
+    <e lm="clábar"><par n="c_init"/><i>lába</i><par n="urlá/r__n"/></e>
+    <e lm="clabhar"><par n="c_init"/><i>labha</i><par n="urlá/r__n"/></e>
+    <e lm="clabhstar"><par n="c_init"/><i>labhsta</i><par n="urlá/r__n"/></e>
+    <e lm="clabhsúr"><par n="c_init"/><i>labhsú</i><par n="urlá/r__n"/></e>
+    <e lm="clampar"><par n="c_init"/><i>lampa</i><par n="urlá/r__n"/></e>
+    <e lm="clár"><par n="c_init"/><i>lá</i><par n="urlá/r__n"/></e>
+    <e lm="cleatar"><par n="c_init"/><i>leata</i><par n="urlá/r__n"/></e>
+    <e lm="clíbhéar"><par n="c_init"/><i>líbhéa</i><par n="urlá/r__n"/></e>
+    <e lm="cliotar"><par n="c_init"/><i>liota</i><par n="urlá/r__n"/></e>
+    <e lm="clipéar"><par n="c_init"/><i>lipéa</i><par n="urlá/r__n"/></e>
+    <e lm="clóbhar"><par n="c_init"/><i>lóbha</i><par n="urlá/r__n"/></e>
+    <e lm="clochar"><par n="c_init"/><i>locha</i><par n="urlá/r__n"/></e>
+    <e lm="cogar"><par n="c_init"/><i>oga</i><par n="urlá/r__n"/></e>
+    <e lm="cóidiútar"><par n="c_init"/><i>óidiúta</i><par n="urlá/r__n"/></e>
+    <e lm="coiléar"><par n="c_init"/><i>oiléa</i><par n="urlá/r__n"/></e>
+    <e lm="coimeasár"><par n="c_init"/><i>oimeasá</i><par n="urlá/r__n"/></e>
+    <e lm="coimheascar"><par n="c_init"/><i>oimheasca</i><par n="urlá/r__n"/></e>
+    <e lm="coineascar"><par n="c_init"/><i>oineasca</i><par n="urlá/r__n"/></e>
+    <e lm="coinicéar"><par n="c_init"/><i>oinicéa</i><par n="urlá/r__n"/></e>
+    <e lm="coiriandar"><par n="c_init"/><i>oirianda</i><par n="urlá/r__n"/></e>
+    <e lm="coisear"><par n="c_init"/><i>oisea</i><par n="urlá/r__n"/></e>
+    <e lm="coitéar"><par n="c_init"/><i>oitéa</i><par n="urlá/r__n"/></e>
+    <e lm="coltar"><par n="c_init"/><i>olta</i><par n="urlá/r__n"/></e>
+    <e lm="colúr"><par n="c_init"/><i>olú</i><par n="urlá/r__n"/></e>
+    <e lm="comhábhar"><par n="c_init"/><i>omhábha</i><par n="urlá/r__n"/></e>
+    <e lm="comhar"><par n="c_init"/><i>omha</i><par n="urlá/r__n"/></e>
+    <e lm="comheagar"><par n="c_init"/><i>omheaga</i><par n="urlá/r__n"/></e>
+    <e lm="comhfhiontar"><par n="c_init"/><i>omhfhionta</i><par n="urlá/r__n"/></e>
+    <e lm="comhfhoghar"><par n="c_init"/><i>omhfhogha</i><par n="urlá/r__n"/></e>
+    <e lm="comhiompar"><par n="c_init"/><i>omhiompa</i><par n="urlá/r__n"/></e>
+    <e lm="comhluadar"><par n="c_init"/><i>omhluada</i><par n="urlá/r__n"/></e>
+    <e lm="comhscór"><par n="c_init"/><i>omhscó</i><par n="urlá/r__n"/></e>
+    <e lm="comhstruchtúr"><par n="c_init"/><i>omhstruchtú</i><par n="urlá/r__n"/></e>
+    <e lm="compar"><par n="c_init"/><i>ompa</i><par n="urlá/r__n"/></e>
+    <e lm="compútar"><par n="c_init"/><i>ompúta</i><par n="urlá/r__n"/></e>
+    <e lm="cónaiféar"><par n="c_init"/><i>ónaiféa</i><par n="urlá/r__n"/></e>
+    <e lm="conamar"><par n="c_init"/><i>onama</i><par n="urlá/r__n"/></e>
+    <e lm="concar"><par n="c_init"/><i>onca</i><par n="urlá/r__n"/></e>
+    <e lm="condar"><par n="c_init"/><i>onda</i><par n="urlá/r__n"/></e>
+    <e lm="cóngar"><par n="c_init"/><i>ónga</i><par n="urlá/r__n"/></e>
+    <e lm="copar"><par n="c_init"/><i>opa</i><par n="urlá/r__n"/></e>
+    <e lm="cor"><par n="c_init"/><i>o</i><par n="urlá/r__n"/></e>
+    <e lm="cór"><par n="c_init"/><i>ó</i><par n="urlá/r__n"/></e>
+    <e lm="cornchlár"><par n="c_init"/><i>ornchlá</i><par n="urlá/r__n"/></e>
+    <e lm="corplár"><par n="c_init"/><i>orplá</i><par n="urlá/r__n"/></e>
+    <e lm="cosamar"><par n="c_init"/><i>osama</i><par n="urlá/r__n"/></e>
+    <e lm="coscar"><par n="c_init"/><i>osca</i><par n="urlá/r__n"/></e>
+    <e lm="craicear"><par n="c_init"/><i>raicea</i><par n="urlá/r__n"/></e>
+    <e lm="cráitéar"><par n="c_init"/><i>ráitéa</i><par n="urlá/r__n"/></e>
+    <e lm="crannchur"><par n="c_init"/><i>rannchu</i><par n="urlá/r__n"/></e>
+    <e lm="crannstruchtúr"><par n="c_init"/><i>rannstruchtú</i><par n="urlá/r__n"/></e>
+    <e lm="craosghalar"><par n="c_init"/><i>raosghala</i><par n="urlá/r__n"/></e>
+    <e lm="creabhar"><par n="c_init"/><i>reabha</i><par n="urlá/r__n"/></e>
+    <e lm="créatúr"><par n="c_init"/><i>réatú</i><par n="urlá/r__n"/></e>
+    <e lm="crécholúr"><par n="c_init"/><i>récholú</i><par n="urlá/r__n"/></e>
+    <e lm="criathar"><par n="c_init"/><i>riatha</i><par n="urlá/r__n"/></e>
+    <e lm="criogar"><par n="c_init"/><i>rioga</i><par n="urlá/r__n"/></e>
+    <e lm="critéar"><par n="c_init"/><i>ritéa</i><par n="urlá/r__n"/></e>
+    <e lm="cróchar"><par n="c_init"/><i>rócha</i><par n="urlá/r__n"/></e>
+    <e lm="croílár"><par n="c_init"/><i>roílá</i><par n="urlá/r__n"/></e>
+    <e lm="croisiféar"><par n="c_init"/><i>roisiféa</i><par n="urlá/r__n"/></e>
+    <e lm="crónaiméadar"><par n="c_init"/><i>rónaiméada</i><par n="urlá/r__n"/></e>
+    <e lm="crosbhóthar"><par n="c_init"/><i>rosbhótha</i><par n="urlá/r__n"/></e>
+    <e lm="crupar"><par n="c_init"/><i>rupa</i><par n="urlá/r__n"/></e>
+    <e lm="cuar"><par n="c_init"/><i>ua</i><par n="urlá/r__n"/></e>
+    <e lm="cuasár"><par n="c_init"/><i>uasá</i><par n="urlá/r__n"/></e>
+    <e lm="cúcamar"><par n="c_init"/><i>úcama</i><par n="urlá/r__n"/></e>
+    <e lm="cúgar"><par n="c_init"/><i>úga</i><par n="urlá/r__n"/></e>
+    <e lm="cuilpháipéar"><par n="c_init"/><i>uilpháipéa</i><par n="urlá/r__n"/></e>
+    <e lm="cuitéar"><par n="c_init"/><i>uitéa</i><par n="urlá/r__n"/></e>
+    <e lm="cultúr"><par n="c_init"/><i>ultú</i><par n="urlá/r__n"/></e>
+    <e lm="cumar"><par n="c_init"/><i>uma</i><par n="urlá/r__n"/></e>
+    <e lm="cuntar"><par n="c_init"/><i>unta</i><par n="urlá/r__n"/></e>
+    <e lm="cur"><par n="c_init"/><i>u</i><par n="urlá/r__n"/></e>
+    <e lm="cúr"><par n="c_init"/><i>ú</i><par n="urlá/r__n"/></e>
+    <e lm="daigéar"><par n="d_init"/><i>aigéa</i><par n="urlá/r__n"/></e>
+    <e lm="dáilcheantar"><par n="d_init"/><i>áilcheanta</i><par n="urlá/r__n"/></e>
+    <e lm="dainséar"><par n="d_init"/><i>ainséa</i><par n="urlá/r__n"/></e>
+    <e lm="danar"><par n="d_init"/><i>ana</i><par n="urlá/r__n"/></e>
+    <e lm="Danar"><par n="d_init"/><i>ana</i><par n="urlá/r__n"/></e>
+    <e lm="daor"><par n="d_init"/><i>ao</i><par n="urlá/r__n"/></e>
+    <e lm="daorghalar"><par n="d_init"/><i>aorghala</i><par n="urlá/r__n"/></e>
+    <e lm="daoscar"><par n="d_init"/><i>aosca</i><par n="urlá/r__n"/></e>
+    <e lm="deacantar"><par n="d_init"/><i>eacanta</i><par n="urlá/r__n"/></e>
+    <e lm="deargruathar"><par n="d_init"/><i>eargruatha</i><par n="urlá/r__n"/></e>
+    <e lm="défhoghar"><par n="d_init"/><i>éfhogha</i><par n="urlá/r__n"/></e>
+    <e lm="deiciméadar"><par n="d_init"/><i>eiciméada</i><par n="urlá/r__n"/></e>
+    <e lm="díchur"><par n="d_init"/><i>íchu</i><par n="urlá/r__n"/></e>
+    <e lm="difear"><par n="d_init"/><i>ifea</i><par n="urlá/r__n"/></e>
+    <e lm="dineasár"><par n="d_init"/><i>ineasá</i><par n="urlá/r__n"/></e>
+    <e lm="dinnéar"><par n="d_init"/><i>innéa</i><par n="urlá/r__n"/></e>
+    <e lm="dintiúr"><par n="d_init"/><i>intiú</i><par n="urlá/r__n"/></e>
+    <e lm="diomar"><par n="d_init"/><i>ioma</i><par n="urlá/r__n"/></e>
+    <e lm="díscor"><par n="d_init"/><i>ísco</i><par n="urlá/r__n"/></e>
+    <e lm="dlúthchomhar"><par n="d_init"/><i>lúthchomha</i><par n="urlá/r__n"/></e>
+    <e lm="dobhar"><par n="d_init"/><i>obha</i><par n="urlá/r__n"/></e>
+    <e lm="Dobhar"><par n="d_init"/><i>obha</i><par n="urlá/r__n"/></e>
+    <e lm="dobharcheantar"><par n="d_init"/><i>obharcheanta</i><par n="urlá/r__n"/></e>
+    <e lm="dobhriathar"><par n="d_init"/><i>obhriatha</i><par n="urlá/r__n"/></e>
+    <e lm="dochar"><par n="d_init"/><i>ocha</i><par n="urlá/r__n"/></e>
+    <e lm="dollar"><par n="d_init"/><i>olla</i><par n="urlá/r__n"/></e>
+    <e lm="dordghiotár"><par n="d_init"/><i>ordghiotá</i><par n="urlá/r__n"/></e>
+    <e lm="dórtúr"><par n="d_init"/><i>órtú</i><par n="urlá/r__n"/></e>
+    <e lm="drár"><par n="d_init"/><i>rá</i><par n="urlá/r__n"/></e>
+    <e lm="dríodar"><par n="d_init"/><i>ríoda</i><par n="urlá/r__n"/></e>
+    <e lm="drisiúr"><par n="d_init"/><i>risiú</i><par n="urlá/r__n"/></e>
+    <e lm="drochfhuadar"><par n="d_init"/><i>rochfhuada</i><par n="urlá/r__n"/></e>
+    <e lm="drochiompar"><par n="d_init"/><i>rochiompa</i><par n="urlá/r__n"/></e>
+    <e lm="drochthuar"><par n="d_init"/><i>rochthua</i><par n="urlá/r__n"/></e>
+    <e lm="duar"><par n="d_init"/><i>ua</i><par n="urlá/r__n"/></e>
+    <e lm="duileascar"><par n="d_init"/><i>uileasca</i><par n="urlá/r__n"/></e>
+    <e lm="duilliúr"><par n="d_init"/><i>uilliú</i><par n="urlá/r__n"/></e>
+    <e lm="dúlagar"><par n="d_init"/><i>úlaga</i><par n="urlá/r__n"/></e>
+    <e lm="eabhar"><par n="e_init"/><i>abha</i><par n="urlá/r__n"/></e>
+    <e lm="éadar"><par n="é_init"/><i>ada</i><par n="urlá/r__n"/></e>
+    <e lm="eagar"><par n="e_init"/><i>aga</i><par n="urlá/r__n"/></e>
+    <e lm="eathar"><par n="e_init"/><i>atha</i><par n="urlá/r__n"/></e>
+    <e lm="eibhear"><par n="e_init"/><i>ibhea</i><par n="urlá/r__n"/></e>
+    <e lm="éimear"><par n="é_init"/><i>imea</i><par n="urlá/r__n"/></e>
+    <e lm="eisothar"><par n="e_init"/><i>isotha</i><par n="urlá/r__n"/></e>
+    <e lm="éitear"><par n="é_init"/><i>itea</i><par n="urlá/r__n"/></e>
+    <e lm="eochairchlár"><par n="e_init"/><i>ochairchlá</i><par n="urlá/r__n"/></e>
+    <e lm="fabhar"><par n="f_init"/><i>abha</i><par n="urlá/r__n"/></e>
+    <e lm="faobhar"><par n="f_init"/><i>aobha</i><par n="urlá/r__n"/></e>
+    <e lm="féar"><par n="f_init"/><i>éa</i><par n="urlá/r__n"/></e>
+    <e lm="feascar"><par n="f_init"/><i>easca</i><par n="urlá/r__n"/></e>
+    <e lm="feidhmchlár"><par n="f_init"/><i>eidhmchlá</i><par n="urlá/r__n"/></e>
+    <e lm="féimear"><par n="f_init"/><i>éimea</i><par n="urlá/r__n"/></e>
+    <e lm="féinphléisiúr"><par n="f_init"/><i>éinphléisiú</i><par n="urlá/r__n"/></e>
+    <e lm="fiaghabhar"><par n="f_init"/><i>iaghabha</i><par n="urlá/r__n"/></e>
+    <e lm="fiar"><par n="f_init"/><i>ia</i><par n="urlá/r__n"/></e>
+    <e lm="figiúr"><par n="f_init"/><i>igiú</i><par n="urlá/r__n"/></e>
+    <e lm="fíleachtaer"><par n="f_init"/><i>íleachtae</i><par n="urlá/r__n"/></e>
+    <e lm="fínéagar"><par n="f_init"/><i>ínéaga</i><par n="urlá/r__n"/></e>
+    <e lm="fiondar"><par n="f_init"/><i>ionda</i><par n="urlá/r__n"/></e>
+    <e lm="fiontar"><par n="f_init"/><i>ionta</i><par n="urlá/r__n"/></e>
+    <e lm="flípear"><par n="f_init"/><i>lípea</i><par n="urlá/r__n"/></e>
+    <e lm="flústar"><par n="f_init"/><i>lústa</i><par n="urlá/r__n"/></e>
+    <e lm="fochlár"><par n="f_init"/><i>ochlá</i><par n="urlá/r__n"/></e>
+    <e lm="fochultúr"><par n="f_init"/><i>ochultú</i><par n="urlá/r__n"/></e>
+    <e lm="fodar"><par n="f_init"/><i>oda</i><par n="urlá/r__n"/></e>
+    <e lm="foghar"><par n="f_init"/><i>ogha</i><par n="urlá/r__n"/></e>
+    <e lm="fómhar"><par n="f_init"/><i>ómha</i><par n="urlá/r__n"/></e>
+    <e lm="forábhar"><par n="f_init"/><i>orábha</i><par n="urlá/r__n"/></e>
+    <e lm="forar"><par n="f_init"/><i>ora</i><par n="urlá/r__n"/></e>
+    <e lm="forchur"><par n="f_init"/><i>orchu</i><par n="urlá/r__n"/></e>
+    <e lm="forlár"><par n="f_init"/><i>orlá</i><par n="urlá/r__n"/></e>
+    <e lm="formhór"><par n="f_init"/><i>ormhó</i><par n="urlá/r__n"/></e>
+    <e lm="formhuirear"><par n="f_init"/><i>ormhuirea</i><par n="urlá/r__n"/></e>
+    <e lm="fosfar"><par n="f_init"/><i>osfa</i><par n="urlá/r__n"/></e>
+    <e lm="fótaiméadar"><par n="f_init"/><i>ótaiméada</i><par n="urlá/r__n"/></e>
+    <e lm="francfurtar"><par n="f_init"/><i>rancfurta</i><par n="urlá/r__n"/></e>
+    <e lm="frásleabhar"><par n="f_init"/><i>rásleabha</i><par n="urlá/r__n"/></e>
+    <e lm="freaschur"><par n="f_init"/><i>reaschu</i><par n="urlá/r__n"/></e>
+    <e lm="frithábhar"><par n="f_init"/><i>rithábha</i><par n="urlá/r__n"/></e>
+    <e lm="fuadar"><par n="f_init"/><i>uada</i><par n="urlá/r__n"/></e>
+    <e lm="fuascar"><par n="f_init"/><i>uasca</i><par n="urlá/r__n"/></e>
+    <e lm="fudar"><par n="f_init"/><i>uda</i><par n="urlá/r__n"/></e>
+    <e lm="fústar"><par n="f_init"/><i>ústa</i><par n="urlá/r__n"/></e>
+    <e lm="fútar"><par n="f_init"/><i>úta</i><par n="urlá/r__n"/></e>
+    <e lm="gabhar"><par n="g_init"/><i>abha</i><par n="urlá/r__n"/></e>
+    <e lm="Gabhar"><par n="g_init"/><i>abha</i><par n="urlá/r__n"/></e>
+    <e lm="gadhar"><par n="g_init"/><i>adha</i><par n="urlá/r__n"/></e>
+    <e lm="gairtéar"><par n="g_init"/><i>airtéa</i><par n="urlá/r__n"/></e>
+    <e lm="gáitéar"><par n="g_init"/><i>áitéa</i><par n="urlá/r__n"/></e>
+    <e lm="galar"><par n="g_init"/><i>ala</i><par n="urlá/r__n"/></e>
+    <e lm="gangstaer"><par n="g_init"/><i>angstae</i><par n="urlá/r__n"/></e>
+    <e lm="ganntar"><par n="g_init"/><i>annta</i><par n="urlá/r__n"/></e>
+    <e lm="gaobhar"><par n="g_init"/><i>aobha</i><par n="urlá/r__n"/></e>
+    <e lm="gar"><par n="g_init"/><i>a</i><par n="urlá/r__n"/></e>
+    <e lm="garbhfhéar"><par n="g_init"/><i>arbhfhéa</i><par n="urlá/r__n"/></e>
+    <e lm="gasaitéar"><par n="g_init"/><i>asaitéa</i><par n="urlá/r__n"/></e>
+    <e lm="gásmhéadar"><par n="g_init"/><i>ásmhéada</i><par n="urlá/r__n"/></e>
+    <e lm="gasúr"><par n="g_init"/><i>asú</i><par n="urlá/r__n"/></e>
+    <e lm="gátar"><par n="g_init"/><i>áta</i><par n="urlá/r__n"/></e>
+    <e lm="geafar"><par n="g_init"/><i>eafa</i><par n="urlá/r__n"/></e>
+    <e lm="geallchur"><par n="g_init"/><i>eallchu</i><par n="urlá/r__n"/></e>
+    <e lm="gealtartar"><par n="g_init"/><i>ealtarta</i><par n="urlá/r__n"/></e>
+    <e lm="géar"><par n="g_init"/><i>éa</i><par n="urlá/r__n"/></e>
+    <e lm="gearrshodar"><par n="g_init"/><i>earrshoda</i><par n="urlá/r__n"/></e>
+    <e lm="géasar"><par n="g_init"/><i>éasa</i><par n="urlá/r__n"/></e>
+    <e lm="geilleagar"><par n="g_init"/><i>eilleaga</i><par n="urlá/r__n"/></e>
+    <e lm="geistear"><par n="g_init"/><i>eistea</i><par n="urlá/r__n"/></e>
+    <e lm="giar"><par n="g_init"/><i>ia</i><par n="urlá/r__n"/></e>
+    <e lm="giotár"><par n="g_init"/><i>iotá</i><par n="urlá/r__n"/></e>
+    <e lm="giúmar"><par n="g_init"/><i>iúma</i><par n="urlá/r__n"/></e>
+    <e lm="glanachar"><par n="g_init"/><i>lanacha</i><par n="urlá/r__n"/></e>
+    <e lm="glár"><par n="g_init"/><i>lá</i><par n="urlá/r__n"/></e>
+    <e lm="gliadar"><par n="g_init"/><i>liada</i><par n="urlá/r__n"/></e>
+    <e lm="gliogar"><par n="g_init"/><i>lioga</i><par n="urlá/r__n"/></e>
+    <e lm="gliondar"><par n="g_init"/><i>lionda</i><par n="urlá/r__n"/></e>
+    <e lm="glór"><par n="g_init"/><i>ló</i><par n="urlá/r__n"/></e>
+    <e lm="glothar"><par n="g_init"/><i>lotha</i><par n="urlá/r__n"/></e>
+    <e lm="gluaisrothar"><par n="g_init"/><i>luaisrotha</i><par n="urlá/r__n"/></e>
+    <e lm="glugar"><par n="g_init"/><i>luga</i><par n="urlá/r__n"/></e>
+    <e lm="gnócheantar"><par n="g_init"/><i>nócheanta</i><par n="urlá/r__n"/></e>
+    <e lm="goldar"><par n="g_init"/><i>olda</i><par n="urlá/r__n"/></e>
+    <e lm="gor"><par n="g_init"/><i>o</i><par n="urlá/r__n"/></e>
+    <e lm="grabhar"><par n="g_init"/><i>rabha</i><par n="urlá/r__n"/></e>
+    <e lm="grafpháipéar"><par n="g_init"/><i>rafpháipéa</i><par n="urlá/r__n"/></e>
+    <e lm="grampar"><par n="g_init"/><i>rampa</i><par n="urlá/r__n"/></e>
+    <e lm="gráscar"><par n="g_init"/><i>rásca</i><par n="urlá/r__n"/></e>
+    <e lm="greanpháipéar"><par n="g_init"/><i>reanpháipéa</i><par n="urlá/r__n"/></e>
+    <e lm="gualcheantar"><par n="g_init"/><i>ualcheanta</i><par n="urlá/r__n"/></e>
+    <e lm="habhatsar"><i>habhatsa</i><par n="urlá/r__n"/></e>
+    <e lm="háilléar"><i>háilléa</i><par n="urlá/r__n"/></e>
+    <e lm="haingear"><i>haingea</i><par n="urlá/r__n"/></e>
+    <e lm="hamstar"><i>hamsta</i><par n="urlá/r__n"/></e>
+    <e lm="heicteár"><i>heicteá</i><par n="urlá/r__n"/></e>
+    <e lm="héileacaptar"><i>héileacapta</i><par n="urlá/r__n"/></e>
+    <e lm="husár"><i>husá</i><par n="urlá/r__n"/></e>
+    <e lm="iaguar"><par n="i_init"/><i>agua</i><par n="urlá/r__n"/></e>
+    <e lm="ianaisféar"><par n="i_init"/><i>anaisféa</i><par n="urlá/r__n"/></e>
+    <e lm="iarchur"><par n="i_init"/><i>archu</i><par n="urlá/r__n"/></e>
+    <e lm="iarmhar"><par n="i_init"/><i>armha</i><par n="urlá/r__n"/></e>
+    <e lm="iarthar"><par n="i_init"/><i>artha</i><par n="urlá/r__n"/></e>
+    <e lm="idirchur"><par n="i_init"/><i>dirchu</i><par n="urlá/r__n"/></e>
+    <e lm="idirurlár"><par n="i_init"/><i>dirurlá</i><par n="urlá/r__n"/></e>
+    <e lm="imeachtar"><par n="i_init"/><i>meachta</i><par n="urlá/r__n"/></e>
+    <e lm="imleabhar"><par n="i_init"/><i>mleabha</i><par n="urlá/r__n"/></e>
+    <e lm="inbhear"><par n="i_init"/><i>nbhea</i><par n="urlá/r__n"/></e>
+    <e lm="infear"><par n="i_init"/><i>nfea</i><par n="urlá/r__n"/></e>
+    <e lm="infreastruchtúr"><par n="i_init"/><i>nfreastruchtú</i><par n="urlá/r__n"/></e>
+    <e lm="ingear"><par n="i_init"/><i>ngea</i><par n="urlá/r__n"/></e>
+    <e lm="iníor"><par n="i_init"/><i>nío</i><par n="urlá/r__n"/></e>
+    <e lm="inneachar"><par n="i_init"/><i>nneacha</i><par n="urlá/r__n"/></e>
+    <e lm="íochtar"><par n="í_init"/><i>ochta</i><par n="urlá/r__n"/></e>
+    <e lm="iolar"><par n="i_init"/><i>ola</i><par n="urlá/r__n"/></e>
+    <e lm="Iolar"><par n="i_init"/><i>ola</i><par n="urlá/r__n"/></e>
+    <e lm="iompar"><par n="i_init"/><i>ompa</i><par n="urlá/r__n"/></e>
+    <e lm="ionar"><par n="i_init"/><i>ona</i><par n="urlá/r__n"/></e>
+    <e lm="ionathar"><par n="i_init"/><i>onatha</i><par n="urlá/r__n"/></e>
+    <e lm="ionchur"><par n="i_init"/><i>onchu</i><par n="urlá/r__n"/></e>
+    <e lm="irisleabhar"><par n="i_init"/><i>risleabha</i><par n="urlá/r__n"/></e>
+    <e lm="Iúpatar"><par n="i_init"/><i>úpata</i><par n="urlá/r__n"/></e>
+    <e lm="iúr"><par n="i_init"/><i>ú</i><par n="urlá/r__n"/></e>
+    <e lm="labhandar"><i>labhanda</i><par n="urlá/r__n"/></e>
+    <e lm="Labradar"><i>Labrada</i><par n="urlá/r__n"/></e>
+    <e lm="lachtar"><i>lachta</i><par n="urlá/r__n"/></e>
+    <e lm="lacstar"><i>lacsta</i><par n="urlá/r__n"/></e>
+    <e lm="ladar"><i>lada</i><par n="urlá/r__n"/></e>
+    <e lm="lagachar"><i>lagacha</i><par n="urlá/r__n"/></e>
+    <e lm="lagar"><i>laga</i><par n="urlá/r__n"/></e>
+    <e lm="lágar"><i>lága</i><par n="urlá/r__n"/></e>
+    <e lm="laicear"><i>laicea</i><par n="urlá/r__n"/></e>
+    <e lm="laindéar"><i>laindéa</i><par n="urlá/r__n"/></e>
+    <e lm="láinnéar"><i>láinnéa</i><par n="urlá/r__n"/></e>
+    <e lm="lámhleabhar"><i>lámhleabha</i><par n="urlá/r__n"/></e>
+    <e lm="lánscor"><i>lánsco</i><par n="urlá/r__n"/></e>
+    <e lm="lár"><i>lá</i><par n="urlá/r__n"/></e>
+    <e lm="láthar"><i>látha</i><par n="urlá/r__n"/></e>
+    <e lm="leabhar"><i>leabha</i><par n="urlá/r__n"/></e>
+    <e lm="léamar"><i>léama</i><par n="urlá/r__n"/></e>
+    <e lm="leamstar"><i>leamsta</i><par n="urlá/r__n"/></e>
+    <e lm="léasar"><i>léasa</i><par n="urlá/r__n"/></e>
+    <e lm="leastar"><i>leasta</i><par n="urlá/r__n"/></e>
+    <e lm="leathar"><i>leatha</i><par n="urlá/r__n"/></e>
+    <e lm="leathsféar"><i>leathsféa</i><par n="urlá/r__n"/></e>
+    <e lm="leiceadar"><i>leiceada</i><par n="urlá/r__n"/></e>
+    <e lm="léigear"><i>léigea</i><par n="urlá/r__n"/></e>
+    <e lm="liathábhar"><i>liathábha</i><par n="urlá/r__n"/></e>
+    <e lm="licéar"><i>licéa</i><par n="urlá/r__n"/></e>
+    <e lm="lictéar"><i>lictéa</i><par n="urlá/r__n"/></e>
+    <e lm="líméar"><i>líméa</i><par n="urlá/r__n"/></e>
+    <e lm="limistéar"><i>limistéa</i><par n="urlá/r__n"/></e>
+    <e lm="lindéar"><i>lindéa</i><par n="urlá/r__n"/></e>
+    <e lm="línéar"><i>línéa</i><par n="urlá/r__n"/></e>
+    <e lm="lintéar"><i>lintéa</i><par n="urlá/r__n"/></e>
+    <e lm="liobar"><i>lioba</i><par n="urlá/r__n"/></e>
+    <e lm="lítear"><i>lítea</i><par n="urlá/r__n"/></e>
+    <e lm="liúdar"><i>liúda</i><par n="urlá/r__n"/></e>
+    <e lm="liútar"><i>liúta</i><par n="urlá/r__n"/></e>
+    <e lm="lobhar"><i>lobha</i><par n="urlá/r__n"/></e>
+    <e lm="locar"><i>loca</i><par n="urlá/r__n"/></e>
+    <e lm="lodar"><i>loda</i><par n="urlá/r__n"/></e>
+    <e lm="luadar"><i>luada</i><par n="urlá/r__n"/></e>
+    <e lm="luasmhéadar"><i>luasmhéada</i><par n="urlá/r__n"/></e>
+    <e lm="luchtar"><i>luchta</i><par n="urlá/r__n"/></e>
+    <e lm="lugar"><i>luga</i><par n="urlá/r__n"/></e>
+    <e lm="luibheanchlár"><i>luibheanchlá</i><par n="urlá/r__n"/></e>
+    <e lm="lumpar"><i>lumpa</i><par n="urlá/r__n"/></e>
+    <e lm="lústar"><i>lústa</i><par n="urlá/r__n"/></e>
+    <e lm="madar"><par n="m_init"/><i>ada</i><par n="urlá/r__n"/></e>
+    <e lm="maghar"><par n="m_init"/><i>agha</i><par n="urlá/r__n"/></e>
+    <e lm="maighnéadaiméadar"><par n="m_init"/><i>aighnéadaiméada</i><par n="urlá/r__n"/></e>
+    <e lm="máindúlagar"><par n="m_init"/><i>áindúlaga</i><par n="urlá/r__n"/></e>
+    <e lm="mainéar"><par n="m_init"/><i>ainéa</i><par n="urlá/r__n"/></e>
+    <e lm="mainséar"><par n="m_init"/><i>ainséa</i><par n="urlá/r__n"/></e>
+    <e lm="mallachar"><par n="m_init"/><i>allacha</i><par n="urlá/r__n"/></e>
+    <e lm="maor"><par n="m_init"/><i>ao</i><par n="urlá/r__n"/></e>
+    <e lm="maoschlár"><par n="m_init"/><i>aoschlá</i><par n="urlá/r__n"/></e>
+    <e lm="marbhleathar"><par n="m_init"/><i>arbhleatha</i><par n="urlá/r__n"/></e>
+    <e lm="marmar"><par n="m_init"/><i>arma</i><par n="urlá/r__n"/></e>
+    <e lm="meabhairghalar"><par n="m_init"/><i>eabhairghala</i><par n="urlá/r__n"/></e>
+    <e lm="meáchanlár"><par n="m_init"/><i>eáchanlá</i><par n="urlá/r__n"/></e>
+    <e lm="méadar"><par n="m_init"/><i>éada</i><par n="urlá/r__n"/></e>
+    <e lm="meafar"><par n="m_init"/><i>eafa</i><par n="urlá/r__n"/></e>
+    <e lm="mealdar"><par n="m_init"/><i>ealda</i><par n="urlá/r__n"/></e>
+    <e lm="meamar"><par n="m_init"/><i>eama</i><par n="urlá/r__n"/></e>
+    <e lm="meánábhar"><par n="m_init"/><i>eánábha</i><par n="urlá/r__n"/></e>
+    <e lm="meandar"><par n="m_init"/><i>eanda</i><par n="urlá/r__n"/></e>
+    <e lm="meánlár"><par n="m_init"/><i>eánlá</i><par n="urlá/r__n"/></e>
+    <e lm="meannleathar"><par n="m_init"/><i>eannleatha</i><par n="urlá/r__n"/></e>
+    <e lm="méarchlár"><par n="m_init"/><i>éarchlá</i><par n="urlá/r__n"/></e>
+    <e lm="meitéar"><par n="m_init"/><i>eitéa</i><par n="urlá/r__n"/></e>
+    <e lm="míchóngar"><par n="m_init"/><i>íchónga</i><par n="urlá/r__n"/></e>
+    <e lm="micriméadar"><par n="m_init"/><i>icriméada</i><par n="urlá/r__n"/></e>
+    <e lm="míghar"><par n="m_init"/><i>ígha</i><par n="urlá/r__n"/></e>
+    <e lm="míghiúmar"><par n="m_init"/><i>íghiúma</i><par n="urlá/r__n"/></e>
+    <e lm="milliméadar"><par n="m_init"/><i>illiméada</i><par n="urlá/r__n"/></e>
+    <e lm="mionbhruar"><par n="m_init"/><i>ionbhrua</i><par n="urlá/r__n"/></e>
+    <e lm="mionruathar"><par n="m_init"/><i>ionruatha</i><par n="urlá/r__n"/></e>
+    <e lm="miontúr"><par n="m_init"/><i>iontú</i><par n="urlá/r__n"/></e>
+    <e lm="miosúr"><par n="m_init"/><i>iosú</i><par n="urlá/r__n"/></e>
+    <e lm="mítéar"><par n="m_init"/><i>ítéa</i><par n="urlá/r__n"/></e>
+    <e lm="míthéagar"><par n="m_init"/><i>íthéaga</i><par n="urlá/r__n"/></e>
+    <e lm="móihéar"><par n="m_init"/><i>óihéa</i><par n="urlá/r__n"/></e>
+    <e lm="móinéar"><par n="m_init"/><i>óinéa</i><par n="urlá/r__n"/></e>
+    <e lm="moirtéar"><par n="m_init"/><i>oirtéa</i><par n="urlá/r__n"/></e>
+    <e lm="monabhar"><par n="m_init"/><i>onabha</i><par n="urlá/r__n"/></e>
+    <e lm="monarothar"><par n="m_init"/><i>onarotha</i><par n="urlá/r__n"/></e>
+    <e lm="mór"><par n="m_init"/><i>ó</i><par n="urlá/r__n"/></e>
+    <e lm="mórleabhar"><par n="m_init"/><i>órleabha</i><par n="urlá/r__n"/></e>
+    <e lm="mórsheisear"><par n="m_init"/><i>órsheisea</i><par n="urlá/r__n"/></e>
+    <e lm="mótar"><par n="m_init"/><i>óta</i><par n="urlá/r__n"/></e>
+    <e lm="mothar"><par n="m_init"/><i>otha</i><par n="urlá/r__n"/></e>
+    <e lm="muirchur"><par n="m_init"/><i>uirchu</i><par n="urlá/r__n"/></e>
+    <e lm="muirear"><par n="m_init"/><i>uirea</i><par n="urlá/r__n"/></e>
+    <e lm="muirghalar"><par n="m_init"/><i>uirghala</i><par n="urlá/r__n"/></e>
+    <e lm="muirmhúr"><par n="m_init"/><i>uirmhú</i><par n="urlá/r__n"/></e>
+    <e lm="muirphictiúr"><par n="m_init"/><i>uirphictiú</i><par n="urlá/r__n"/></e>
+    <e lm="múr"><par n="m_init"/><i>ú</i><par n="urlá/r__n"/></e>
+    <e lm="murdar"><par n="m_init"/><i>urda</i><par n="urlá/r__n"/></e>
+    <e lm="mustar"><par n="m_init"/><i>usta</i><par n="urlá/r__n"/></e>
+    <e lm="nádúr"><i>nádú</i><par n="urlá/r__n"/></e>
+    <e lm="neachtar"><i>neachta</i><par n="urlá/r__n"/></e>
+    <e lm="neamhstaidéar"><i>neamhstaidéa</i><par n="urlá/r__n"/></e>
+    <e lm="néigear"><i>néigea</i><par n="urlá/r__n"/></e>
+    <e lm="neodar"><i>neoda</i><par n="urlá/r__n"/></e>
+    <e lm="nuachar"><i>nuacha</i><par n="urlá/r__n"/></e>
+    <e lm="nuachtpháipéar"><i>nuachtpháipéa</i><par n="urlá/r__n"/></e>
+    <e lm="nuar"><i>nua</i><par n="urlá/r__n"/></e>
+    <e lm="ócar"><par n="ó_init"/><i>ca</i><par n="urlá/r__n"/></e>
+    <e lm="odaiméadar"><par n="o_init"/><i>daiméada</i><par n="urlá/r__n"/></e>
+    <e lm="oighear"><par n="o_init"/><i>ighea</i><par n="urlá/r__n"/></e>
+    <e lm="oirthear"><par n="o_init"/><i>irthea</i><par n="urlá/r__n"/></e>
+    <e lm="Oirthear"><par n="o_init"/><i>irthea</i><par n="urlá/r__n"/></e>
+    <e lm="olar"><par n="o_init"/><i>la</i><par n="urlá/r__n"/></e>
+    <e lm="ór"><par n="ó_init"/><i></i><par n="urlá/r__n"/></e>
+    <e lm="oscar"><par n="o_init"/><i>sca</i><par n="urlá/r__n"/></e>
+    <e lm="osnádúr"><par n="o_init"/><i>snádú</i><par n="urlá/r__n"/></e>
+    <e lm="othar"><par n="o_init"/><i>tha</i><par n="urlá/r__n"/></e>
+    <e lm="pacoighear"><par n="p_init"/><i>acoighea</i><par n="urlá/r__n"/></e>
+    <e lm="painnéar"><par n="p_init"/><i>ainnéa</i><par n="urlá/r__n"/></e>
+    <e lm="paintéar"><par n="p_init"/><i>aintéa</i><par n="urlá/r__n"/></e>
+    <e lm="páipéar"><par n="p_init"/><i>áipéa</i><par n="urlá/r__n"/></e>
+    <e lm="pannacar"><par n="p_init"/><i>annaca</i><par n="urlá/r__n"/></e>
+    <e lm="pantar"><par n="p_init"/><i>anta</i><par n="urlá/r__n"/></e>
+    <e lm="par"><par n="p_init"/><i>a</i><par n="urlá/r__n"/></e>
+    <e lm="pár"><par n="p_init"/><i>á</i><par n="urlá/r__n"/></e>
+    <e lm="paraiméadar"><par n="p_init"/><i>araiméada</i><par n="urlá/r__n"/></e>
+    <e lm="párpháipéar"><par n="p_init"/><i>árpháipéa</i><par n="urlá/r__n"/></e>
+    <e lm="péatar"><par n="p_init"/><i>éata</i><par n="urlá/r__n"/></e>
+    <e lm="peiriméadar"><par n="p_init"/><i>eiriméada</i><par n="urlá/r__n"/></e>
+    <e lm="pictiúr"><par n="p_init"/><i>ictiú</i><par n="urlá/r__n"/></e>
+    <e lm="pílear"><par n="p_init"/><i>ílea</i><par n="urlá/r__n"/></e>
+    <e lm="piléar"><par n="p_init"/><i>iléa</i><par n="urlá/r__n"/></e>
+    <e lm="piliúr"><par n="p_init"/><i>iliú</i><par n="urlá/r__n"/></e>
+    <e lm="pilséar"><par n="p_init"/><i>ilséa</i><par n="urlá/r__n"/></e>
+    <e lm="pinniúr"><par n="p_init"/><i>inniú</i><par n="urlá/r__n"/></e>
+    <e lm="piobar"><par n="p_init"/><i>ioba</i><par n="urlá/r__n"/></e>
+    <e lm="piodar"><par n="p_init"/><i>ioda</i><par n="urlá/r__n"/></e>
+    <e lm="pionnachlár"><par n="p_init"/><i>ionnachlá</i><par n="urlá/r__n"/></e>
+    <e lm="pitséar"><par n="p_init"/><i>itséa</i><par n="urlá/r__n"/></e>
+    <e lm="plástar"><par n="p_init"/><i>lásta</i><par n="urlá/r__n"/></e>
+    <e lm="pléisiúr"><par n="p_init"/><i>léisiú</i><par n="urlá/r__n"/></e>
+    <e lm="plódcheantar"><par n="p_init"/><i>lódcheanta</i><par n="urlá/r__n"/></e>
+    <e lm="plúr"><par n="p_init"/><i>lú</i><par n="urlá/r__n"/></e>
+    <e lm="pócar"><par n="p_init"/><i>óca</i><par n="urlá/r__n"/></e>
+    <e lm="pocleandar"><par n="p_init"/><i>ocleanda</i><par n="urlá/r__n"/></e>
+    <e lm="poileistear"><par n="p_init"/><i>oileistea</i><par n="urlá/r__n"/></e>
+    <e lm="poparbhar"><par n="p_init"/><i>oparbha</i><par n="urlá/r__n"/></e>
+    <e lm="pór"><par n="p_init"/><i>ó</i><par n="urlá/r__n"/></e>
+    <e lm="pórtar"><par n="p_init"/><i>órta</i><par n="urlá/r__n"/></e>
+    <e lm="póstaer"><par n="p_init"/><i>óstae</i><par n="urlá/r__n"/></e>
+    <e lm="preabchlár"><par n="p_init"/><i>reabchlá</i><par n="urlá/r__n"/></e>
+    <e lm="preableabhar"><par n="p_init"/><i>reableabha</i><par n="urlá/r__n"/></e>
+    <e lm="priméar"><par n="p_init"/><i>riméa</i><par n="urlá/r__n"/></e>
+    <e lm="príomhábhar"><par n="p_init"/><i>ríomhábha</i><par n="urlá/r__n"/></e>
+    <e lm="príomhbhóthar"><par n="p_init"/><i>ríomhbhótha</i><par n="urlá/r__n"/></e>
+    <e lm="prócar"><par n="p_init"/><i>róca</i><par n="urlá/r__n"/></e>
+    <e lm="púdar"><par n="p_init"/><i>úda</i><par n="urlá/r__n"/></e>
+    <e lm="pulsár"><par n="p_init"/><i>ulsá</i><par n="urlá/r__n"/></e>
+    <e lm="quizchlár"><i>quizchlá</i><par n="urlá/r__n"/></e>
+    <e lm="radachur"><i>radachu</i><par n="urlá/r__n"/></e>
+    <e lm="radar"><i>rada</i><par n="urlá/r__n"/></e>
+    <e lm="ráipéar"><i>ráipéa</i><par n="urlá/r__n"/></e>
+    <e lm="rampar"><i>rampa</i><par n="urlá/r__n"/></e>
+    <e lm="rapar"><i>rapa</i><par n="urlá/r__n"/></e>
+    <e lm="rásúr"><i>rású</i><par n="urlá/r__n"/></e>
+    <e lm="réalgar"><i>réalga</i><par n="urlá/r__n"/></e>
+    <e lm="rianpháipéar"><i>rianpháipéa</i><par n="urlá/r__n"/></e>
+    <e lm="rianphiléar"><i>rianphiléa</i><par n="urlá/r__n"/></e>
+    <e lm="ribhéar"><i>ribhéa</i><par n="urlá/r__n"/></e>
+    <e lm="rífear"><i>rífea</i><par n="urlá/r__n"/></e>
+    <e lm="rigéar"><i>rigéa</i><par n="urlá/r__n"/></e>
+    <e lm="ringear"><i>ringea</i><par n="urlá/r__n"/></e>
+    <e lm="ríomhchlár"><i>ríomhchlá</i><par n="urlá/r__n"/></e>
+    <e lm="roghchlár"><i>roghchlá</i><par n="urlá/r__n"/></e>
+    <e lm="rómhar"><i>rómha</i><par n="urlá/r__n"/></e>
+    <e lm="rótar"><i>róta</i><par n="urlá/r__n"/></e>
+    <e lm="rothar"><i>rotha</i><par n="urlá/r__n"/></e>
+    <e lm="ruathar"><i>ruatha</i><par n="urlá/r__n"/></e>
+    <e lm="rubar"><i>ruba</i><par n="urlá/r__n"/></e>
+    <e lm="sacar"><par n="s_init"/><i>aca</i><par n="urlá/r__n"/></e>
+    <e lm="sádar"><par n="s_init"/><i>áda</i><par n="urlá/r__n"/></e>
+    <e lm="saghdar"><par n="s_init"/><i>aghda</i><par n="urlá/r__n"/></e>
+    <e lm="saidhbhéar"><par n="s_init"/><i>aidhbhéa</i><par n="urlá/r__n"/></e>
+    <e lm="sailpítear"><par n="s_init"/><i>ailpítea</i><par n="urlá/r__n"/></e>
+    <e lm="saincheantar"><par n="s_init"/><i>aincheanta</i><par n="urlá/r__n"/></e>
+    <e lm="salachar"><par n="s_init"/><i>alacha</i><par n="urlá/r__n"/></e>
+    <e lm="salamandar"><par n="s_init"/><i>alamanda</i><par n="urlá/r__n"/></e>
+    <e lm="samabhár"><par n="s_init"/><i>amabhá</i><par n="urlá/r__n"/></e>
+    <e lm="saor"><par n="s_init"/><i>ao</i><par n="urlá/r__n"/></e>
+    <e lm="saothar"><par n="s_init"/><i>aotha</i><par n="urlá/r__n"/></e>
+    <e lm="sapar"><par n="s_init"/><i>apa</i><par n="urlá/r__n"/></e>
+    <e lm="sár"><par n="s_init"/><i>á</i><par n="urlá/r__n"/></e>
+    <e lm="sárshaothar"><par n="s_init"/><i>árshaotha</i><par n="urlá/r__n"/></e>
+    <e lm="sásar"><par n="s_init"/><i>ása</i><par n="urlá/r__n"/></e>
+    <e lm="scáthphictiúr"><par n="s_init"/><i>cáthphictiú</i><par n="urlá/r__n"/></e>
+    <e lm="scibhéar"><par n="s_init"/><i>cibhéa</i><par n="urlá/r__n"/></e>
+    <e lm="scigphictiúr"><par n="s_init"/><i>cigphictiú</i><par n="urlá/r__n"/></e>
+    <e lm="sciodar"><par n="s_init"/><i>cioda</i><par n="urlá/r__n"/></e>
+    <e lm="scioltar"><par n="s_init"/><i>ciolta</i><par n="urlá/r__n"/></e>
+    <e lm="sciotar"><par n="s_init"/><i>ciota</i><par n="urlá/r__n"/></e>
+    <e lm="scleondar"><par n="s_init"/><i>cleonda</i><par n="urlá/r__n"/></e>
+    <e lm="scor"><par n="s_init"/><i>co</i><par n="urlá/r__n"/></e>
+    <e lm="scór"><par n="s_init"/><i>có</i><par n="urlá/r__n"/></e>
+    <e lm="scórchlár"><par n="s_init"/><i>córchlá</i><par n="urlá/r__n"/></e>
+    <e lm="scótar"><par n="s_init"/><i>cóta</i><par n="urlá/r__n"/></e>
+    <e lm="scrioptúr"><par n="s_init"/><i>crioptú</i><par n="urlá/r__n"/></e>
+    <e lm="scroidchuntar"><par n="s_init"/><i>croidchunta</i><par n="urlá/r__n"/></e>
+    <e lm="scúnar"><par n="s_init"/><i>cúna</i><par n="urlá/r__n"/></e>
+    <e lm="scútar"><par n="s_init"/><i>cúta</i><par n="urlá/r__n"/></e>
+    <e lm="seabhdar"><par n="s_init"/><i>eabhda</i><par n="urlá/r__n"/></e>
+    <e lm="seachbhóthar"><par n="s_init"/><i>eachbhótha</i><par n="urlá/r__n"/></e>
+    <e lm="seachghalar"><par n="s_init"/><i>eachghala</i><par n="urlá/r__n"/></e>
+    <e lm="seachtar"><par n="s_init"/><i>eachta</i><par n="urlá/r__n"/></e>
+    <e lm="séamafór"><par n="s_init"/><i>éamafó</i><par n="urlá/r__n"/></e>
+    <e lm="seamsúr"><par n="s_init"/><i>eamsú</i><par n="urlá/r__n"/></e>
+    <e lm="seaspar"><par n="s_init"/><i>easpa</i><par n="urlá/r__n"/></e>
+    <e lm="séasúr"><par n="s_init"/><i>éasú</i><par n="urlá/r__n"/></e>
+    <e lm="seiceamar"><par n="s_init"/><i>eiceama</i><par n="urlá/r__n"/></e>
+    <e lm="seicleabhar"><par n="s_init"/><i>eicleabha</i><par n="urlá/r__n"/></e>
+    <e lm="seileagar"><par n="s_init"/><i>eileaga</i><par n="urlá/r__n"/></e>
+    <e lm="seimineár"><par n="s_init"/><i>eimineá</i><par n="urlá/r__n"/></e>
+    <e lm="sféar"><par n="s_init"/><i>féa</i><par n="urlá/r__n"/></e>
+    <e lm="sifear"><par n="s_init"/><i>ifea</i><par n="urlá/r__n"/></e>
+    <e lm="siléar"><par n="s_init"/><i>iléa</i><par n="urlá/r__n"/></e>
+    <e lm="simeatár"><par n="s_init"/><i>imeatá</i><par n="urlá/r__n"/></e>
+    <e lm="simléar"><par n="s_init"/><i>imléa</i><par n="urlá/r__n"/></e>
+    <e lm="sinsear"><par n="s_init"/><i>insea</i><par n="urlá/r__n"/></e>
+    <e lm="sinséar"><par n="s_init"/><i>inséa</i><par n="urlá/r__n"/></e>
+    <e lm="síolchur"><par n="s_init"/><i>íolchu</i><par n="urlá/r__n"/></e>
+    <e lm="siosúr"><par n="s_init"/><i>iosú</i><par n="urlá/r__n"/></e>
+    <e lm="siotar"><par n="s_init"/><i>iota</i><par n="urlá/r__n"/></e>
+    <e lm="síothmhaor"><par n="s_init"/><i>íothmhao</i><par n="urlá/r__n"/></e>
+    <e lm="slamar"><par n="s_init"/><i>lama</i><par n="urlá/r__n"/></e>
+    <e lm="slapar"><par n="s_init"/><i>lapa</i><par n="urlá/r__n"/></e>
+    <e lm="sliotar"><par n="s_init"/><i>liota</i><par n="urlá/r__n"/></e>
+    <e lm="slipéar"><par n="s_init"/><i>lipéa</i><par n="urlá/r__n"/></e>
+    <e lm="smeadar"><par n="s_init"/><i>meada</i><par n="urlá/r__n"/></e>
+    <e lm="smiodar"><par n="s_init"/><i>mioda</i><par n="urlá/r__n"/></e>
+    <e lm="smionagar"><par n="s_init"/><i>mionaga</i><par n="urlá/r__n"/></e>
+    <e lm="smúdar"><par n="s_init"/><i>múda</i><par n="urlá/r__n"/></e>
+    <e lm="smúr"><par n="s_init"/><i>mú</i><par n="urlá/r__n"/></e>
+    <e lm="snasleathar"><par n="s_init"/><i>nasleatha</i><par n="urlá/r__n"/></e>
+    <e lm="sneabhsar"><par n="s_init"/><i>neabhsa</i><par n="urlá/r__n"/></e>
+    <e lm="sneaicbheár"><par n="s_init"/><i>neaicbheá</i><par n="urlá/r__n"/></e>
+    <e lm="sneatar"><par n="s_init"/><i>neata</i><par n="urlá/r__n"/></e>
+    <e lm="snuaphúdar"><par n="s_init"/><i>nuaphúda</i><par n="urlá/r__n"/></e>
+    <e lm="snúcar"><par n="s_init"/><i>núca</i><par n="urlá/r__n"/></e>
+    <e lm="sobalchlár"><par n="s_init"/><i>obalchlá</i><par n="urlá/r__n"/></e>
+    <e lm="sochar"><par n="s_init"/><i>ocha</i><par n="urlá/r__n"/></e>
+    <e lm="sodar"><par n="s_init"/><i>oda</i><par n="urlá/r__n"/></e>
+    <e lm="sóisear"><par n="s_init"/><i>óisea</i><par n="urlá/r__n"/></e>
+    <e lm="solamar"><par n="s_init"/><i>olama</i><par n="urlá/r__n"/></e>
+    <e lm="soláthar"><par n="s_init"/><i>olátha</i><par n="urlá/r__n"/></e>
+    <e lm="sonuachar"><par n="s_init"/><i>onuacha</i><par n="urlá/r__n"/></e>
+    <e lm="sor"><par n="s_init"/><i>o</i><par n="urlá/r__n"/></e>
+    <e lm="sotar"><par n="s_init"/><i>ota</i><par n="urlá/r__n"/></e>
+    <e lm="spadhar"><par n="s_init"/><i>padha</i><par n="urlá/r__n"/></e>
+    <e lm="spáinnéar"><par n="s_init"/><i>páinnéa</i><par n="urlá/r__n"/></e>
+    <e lm="speatar"><par n="s_init"/><i>peata</i><par n="urlá/r__n"/></e>
+    <e lm="speictriméadar"><par n="s_init"/><i>peictriméada</i><par n="urlá/r__n"/></e>
+    <e lm="spiléar"><par n="s_init"/><i>piléa</i><par n="urlá/r__n"/></e>
+    <e lm="spinéar"><par n="s_init"/><i>pinéa</i><par n="urlá/r__n"/></e>
+    <e lm="spleantar"><par n="s_init"/><i>pleanta</i><par n="urlá/r__n"/></e>
+    <e lm="spleodar"><par n="s_init"/><i>pleoda</i><par n="urlá/r__n"/></e>
+    <e lm="spor"><par n="s_init"/><i>po</i><par n="urlá/r__n"/></e>
+    <e lm="spór"><par n="s_init"/><i>pó</i><par n="urlá/r__n"/></e>
+    <e lm="spruadar"><par n="s_init"/><i>pruada</i><par n="urlá/r__n"/></e>
+    <e lm="sraithchlár"><par n="s_init"/><i>raithchlá</i><par n="urlá/r__n"/></e>
+    <e lm="stádar"><par n="s_init"/><i>táda</i><par n="urlá/r__n"/></e>
+    <e lm="staidéar"><par n="s_init"/><i>taidéa</i><par n="urlá/r__n"/></e>
+    <e lm="státar"><par n="s_init"/><i>táta</i><par n="urlá/r__n"/></e>
+    <e lm="steamar"><par n="s_init"/><i>teama</i><par n="urlá/r__n"/></e>
+    <e lm="steámar"><par n="s_init"/><i>teáma</i><par n="urlá/r__n"/></e>
+    <e lm="steigeasár"><par n="s_init"/><i>teigeasá</i><par n="urlá/r__n"/></e>
+    <e lm="steotar"><par n="s_init"/><i>teota</i><par n="urlá/r__n"/></e>
+    <e lm="stilliúr"><par n="s_init"/><i>tilliú</i><par n="urlá/r__n"/></e>
+    <e lm="stíméar"><par n="s_init"/><i>tíméa</i><par n="urlá/r__n"/></e>
+    <e lm="stipéar"><par n="s_init"/><i>tipéa</i><par n="urlá/r__n"/></e>
+    <e lm="stór"><par n="s_init"/><i>tó</i><par n="urlá/r__n"/></e>
+    <e lm="strataisféar"><par n="s_init"/><i>trataisféa</i><par n="urlá/r__n"/></e>
+    <e lm="struchtúr"><par n="s_init"/><i>truchtú</i><par n="urlá/r__n"/></e>
+    <e lm="struipear"><par n="s_init"/><i>truipea</i><par n="urlá/r__n"/></e>
+    <e lm="suanghalar"><par n="s_init"/><i>uanghala</i><par n="urlá/r__n"/></e>
+    <e lm="suipéar"><par n="s_init"/><i>uipéa</i><par n="urlá/r__n"/></e>
+    <e lm="sulfar"><par n="s_init"/><i>ulfa</i><par n="urlá/r__n"/></e>
+    <e lm="sútar"><par n="s_init"/><i>úta</i><par n="urlá/r__n"/></e>
+    <e lm="tabúr"><par n="t_init"/><i>abú</i><par n="urlá/r__n"/></e>
+    <e lm="tacar"><par n="t_init"/><i>aca</i><par n="urlá/r__n"/></e>
+    <e lm="taiscumar"><par n="t_init"/><i>aiscuma</i><par n="urlá/r__n"/></e>
+    <e lm="talcphúdar"><par n="t_init"/><i>alcphúda</i><par n="urlá/r__n"/></e>
+    <e lm="tambór"><par n="t_init"/><i>ambó</i><par n="urlá/r__n"/></e>
+    <e lm="tancaer"><par n="t_init"/><i>ancae</i><par n="urlá/r__n"/></e>
+    <e lm="taobhmhaor"><par n="t_init"/><i>aobhmhao</i><par n="urlá/r__n"/></e>
+    <e lm="tarathar"><par n="t_init"/><i>aratha</i><par n="urlá/r__n"/></e>
+    <e lm="tarbhghadhar"><par n="t_init"/><i>arbhghadha</i><par n="urlá/r__n"/></e>
+    <e lm="tarchur"><par n="t_init"/><i>archu</i><par n="urlá/r__n"/></e>
+    <e lm="tartar"><par n="t_init"/><i>arta</i><par n="urlá/r__n"/></e>
+    <e lm="téacsleabhar"><par n="t_init"/><i>éacsleabha</i><par n="urlá/r__n"/></e>
+    <e lm="téadchlár"><par n="t_init"/><i>éadchlá</i><par n="urlá/r__n"/></e>
+    <e lm="téagar"><par n="t_init"/><i>éaga</i><par n="urlá/r__n"/></e>
+    <e lm="teanór"><par n="t_init"/><i>eanó</i><par n="urlá/r__n"/></e>
+    <e lm="téastar"><par n="t_init"/><i>éasta</i><par n="urlá/r__n"/></e>
+    <e lm="téatar"><par n="t_init"/><i>éata</i><par n="urlá/r__n"/></e>
+    <e lm="teircheantar"><par n="t_init"/><i>eircheanta</i><par n="urlá/r__n"/></e>
+    <e lm="teirmeastar"><par n="t_init"/><i>eirmeasta</i><par n="urlá/r__n"/></e>
+    <e lm="teirmiméadar"><par n="t_init"/><i>eirmiméada</i><par n="urlá/r__n"/></e>
+    <e lm="timbléar"><par n="t_init"/><i>imbléa</i><par n="urlá/r__n"/></e>
+    <e lm="tintiúr"><par n="t_init"/><i>intiú</i><par n="urlá/r__n"/></e>
+    <e lm="tíogar"><par n="t_init"/><i>íoga</i><par n="urlá/r__n"/></e>
+    <e lm="tiolar"><par n="t_init"/><i>iola</i><par n="urlá/r__n"/></e>
+    <e lm="tionchar"><par n="t_init"/><i>ioncha</i><par n="urlá/r__n"/></e>
+    <e lm="tionnúr"><par n="t_init"/><i>ionnú</i><par n="urlá/r__n"/></e>
+    <e lm="tionúr"><par n="t_init"/><i>ionú</i><par n="urlá/r__n"/></e>
+    <e lm="tírphictiúr"><par n="t_init"/><i>írphictiú</i><par n="urlá/r__n"/></e>
+    <e lm="tiúbar"><par n="t_init"/><i>iúba</i><par n="urlá/r__n"/></e>
+    <e lm="tobar"><par n="t_init"/><i>oba</i><par n="urlá/r__n"/></e>
+    <e lm="tobscor"><par n="t_init"/><i>obsco</i><par n="urlá/r__n"/></e>
+    <e lm="tóchar"><par n="t_init"/><i>ócha</i><par n="urlá/r__n"/></e>
+    <e lm="toghcheantar"><par n="t_init"/><i>oghcheanta</i><par n="urlá/r__n"/></e>
+    <e lm="tor"><par n="t_init"/><i>o</i><par n="urlá/r__n"/></e>
+    <e lm="torathar"><par n="t_init"/><i>oratha</i><par n="urlá/r__n"/></e>
+    <e lm="tóstaer"><par n="t_init"/><i>óstae</i><par n="urlá/r__n"/></e>
+    <e lm="trálaer"><par n="t_init"/><i>rálae</i><par n="urlá/r__n"/></e>
+    <e lm="traslár"><par n="t_init"/><i>raslá</i><par n="urlá/r__n"/></e>
+    <e lm="tráthchlár"><par n="t_init"/><i>ráthchlá</i><par n="urlá/r__n"/></e>
+    <e lm="treasghiar"><par n="t_init"/><i>reasghia</i><par n="urlá/r__n"/></e>
+    <e lm="tréiléar"><par n="t_init"/><i>réiléa</i><par n="urlá/r__n"/></e>
+    <e lm="treoirleabhar"><par n="t_init"/><i>reoirleabha</i><par n="urlá/r__n"/></e>
+    <e lm="trinsiúr"><par n="t_init"/><i>rinsiú</i><par n="urlá/r__n"/></e>
+    <e lm="triúr"><par n="t_init"/><i>riú</i><par n="urlá/r__n"/></e>
+    <e lm="trópaisféar"><par n="t_init"/><i>rópaisféa</i><par n="urlá/r__n"/></e>
+    <e lm="truicear"><par n="t_init"/><i>ruicea</i><par n="urlá/r__n"/></e>
+    <e lm="tuar"><par n="t_init"/><i>ua</i><par n="urlá/r__n"/></e>
+    <e lm="túr"><par n="t_init"/><i>ú</i><par n="urlá/r__n"/></e>
+    <e lm="turasleabhar"><par n="t_init"/><i>urasleabha</i><par n="urlá/r__n"/></e>
+    <e lm="turscar"><par n="t_init"/><i>ursca</i><par n="urlá/r__n"/></e>
+    <e lm="turtar"><par n="t_init"/><i>urta</i><par n="urlá/r__n"/></e>
+    <e lm="uabhar"><par n="u_init"/><i>abha</i><par n="urlá/r__n"/></e>
+    <e lm="uachtar"><par n="u_init"/><i>achta</i><par n="urlá/r__n"/></e>
+    <e lm="uainchlár"><par n="u_init"/><i>ainchlá</i><par n="urlá/r__n"/></e>
+    <e lm="údar"><par n="ú_init"/><i>da</i><par n="urlá/r__n"/></e>
+    <e lm="uilethacar"><par n="u_init"/><i>ilethaca</i><par n="urlá/r__n"/></e>
+    <e lm="uimhirchlár"><par n="u_init"/><i>imhirchlá</i><par n="urlá/r__n"/></e>
+    <e lm="umar"><par n="u_init"/><i>ma</i><par n="urlá/r__n"/></e>
+    <e lm="umbar"><par n="u_init"/><i>mba</i><par n="urlá/r__n"/></e>
+    <e lm="urchar"><par n="u_init"/><i>rcha</i><par n="urlá/r__n"/></e>
+    <e lm="urlár"><par n="u_init"/><i>rlá</i><par n="urlá/r__n"/></e>
+    <e lm="uscar"><par n="u_init"/><i>sca</i><par n="urlá/r__n"/></e>
+    <e lm="voltaiméadar"><i>voltaiméada</i><par n="urlá/r__n"/></e>
+    
+    <!-- creideamh -->
+    <e lm="ainchreideamh"><par n="a_init"/><i>inchreid</i><par n="creid/eamh__n"/></e>
+    <e lm="aireamh"><par n="a_init"/><i>ir</i><par n="creid/eamh__n"/></e>
+    <e lm="áireamh"><par n="á_init"/><i>ir</i><par n="creid/eamh__n"/></e>
+    <e lm="anchaitheamh"><par n="a_init"/><i>nchaith</i><par n="creid/eamh__n"/></e>
+    <e lm="aonsmaoineamh"><par n="a_init"/><i>onsmaoin</i><par n="creid/eamh__n"/></e>
+    <e lm="athchaidreamh"><par n="a_init"/><i>thchaidr</i><par n="creid/eamh__n"/></e>
+    <e lm="athchomhaireamh"><par n="a_init"/><i>thchomhair</i><par n="creid/eamh__n"/></e>
+    <e lm="athsmaoineamh"><par n="a_init"/><i>thsmaoin</i><par n="creid/eamh__n"/></e>
+    <e lm="baothchreideamh"><par n="b_init"/><i>aothchreid</i><par n="creid/eamh__n"/></e>
+    <e lm="breitheamh"><par n="b_init"/><i>reith</i><par n="creid/eamh__n"/></e>
+    <e lm="buaireamh"><par n="b_init"/><i>uair</i><par n="creid/eamh__n"/></e>
+    <e lm="bunsmaoineamh"><par n="b_init"/><i>unsmaoin</i><par n="creid/eamh__n"/></e>
+    <e lm="caidreamh"><par n="c_init"/><i>aidr</i><par n="creid/eamh__n"/></e>
+    <e lm="caitheamh"><par n="c_init"/><i>aith</i><par n="creid/eamh__n"/></e>
+    <e lm="ceartchreideamh"><par n="c_init"/><i>eartchreid</i><par n="creid/eamh__n"/></e>
+    <e lm="ceisneamh"><par n="c_init"/><i>eisn</i><par n="creid/eamh__n"/></e>
+    <e lm="comhaireamh"><par n="c_init"/><i>omhair</i><par n="creid/eamh__n"/></e>
+    <e lm="comhchaidreamh"><par n="c_init"/><i>omhchaidr</i><par n="creid/eamh__n"/></e>
+    <e lm="creideamh"><par n="c_init"/><i>reid</i><par n="creid/eamh__n"/></e>
+    <e lm="cuimhneamh"><par n="c_init"/><i>uimhn</i><par n="creid/eamh__n"/></e>
+    <e lm="cúiseamh"><par n="c_init"/><i>úis</i><par n="creid/eamh__n"/></e>
+    <e lm="cúiteamh"><par n="c_init"/><i>úit</i><par n="creid/eamh__n"/></e>
+    <e lm="dáileamh"><par n="d_init"/><i>áil</i><par n="creid/eamh__n"/></e>
+    <e lm="daonáireamh"><par n="d_init"/><i>aonáir</i><par n="creid/eamh__n"/></e>
+    <e lm="díchreideamh"><par n="d_init"/><i>íchreid</i><par n="creid/eamh__n"/></e>
+    <e lm="díotchúiseamh"><par n="d_init"/><i>íotchúis</i><par n="creid/eamh__n"/></e>
+    <e lm="dlúthchaidreamh"><par n="d_init"/><i>lúthchaidr</i><par n="creid/eamh__n"/></e>
+    <e lm="dúileamh"><par n="d_init"/><i>úil</i><par n="creid/eamh__n"/></e>
+    <e lm="éileamh"><par n="é_init"/><i>il</i><par n="creid/eamh__n"/></e>
+    <e lm="faoiseamh"><par n="f_init"/><i>aois</i><par n="creid/eamh__n"/></e>
+    <e lm="feitheamh"><par n="f_init"/><i>eith</i><par n="creid/eamh__n"/></e>
+    <e lm="fofhoirgneamh"><par n="f_init"/><i>ofhoirgn</i><par n="creid/eamh__n"/></e>
+    <e lm="foighneamh"><par n="f_init"/><i>oighn</i><par n="creid/eamh__n"/></e>
+    <e lm="foirgneamh"><par n="f_init"/><i>oirgn</i><par n="creid/eamh__n"/></e>
+    <e lm="foláireamh"><par n="f_init"/><i>oláir</i><par n="creid/eamh__n"/></e>
+    <e lm="foréileamh"><par n="f_init"/><i>oréil</i><par n="creid/eamh__n"/></e>
+    <e lm="fritháireamh"><par n="f_init"/><i>ritháir</i><par n="creid/eamh__n"/></e>
+    <e lm="frithchaitheamh"><par n="f_init"/><i>rithchaith</i><par n="creid/eamh__n"/></e>
+    <e lm="fuaidreamh"><par n="f_init"/><i>uaidr</i><par n="creid/eamh__n"/></e>
+    <e lm="fuaiscneamh"><par n="f_init"/><i>uaiscn</i><par n="creid/eamh__n"/></e>
+    <e lm="fuidreamh"><par n="f_init"/><i>uidr</i><par n="creid/eamh__n"/></e>
+    <e lm="fuilleamh"><par n="f_init"/><i>uill</i><par n="creid/eamh__n"/></e>
+    <e lm="fuinneamh"><par n="f_init"/><i>uinn</i><par n="creid/eamh__n"/></e>
+    <e lm="gaineamh"><par n="g_init"/><i>ain</i><par n="creid/eamh__n"/></e>
+    <e lm="idirchaidreamh"><par n="i_init"/><i>dirchaidr</i><par n="creid/eamh__n"/></e>
+    <e lm="intleamh"><par n="i_init"/><i>ntl</i><par n="creid/eamh__n"/></e>
+    <e lm="ionchúiseamh"><par n="i_init"/><i>onchúis</i><par n="creid/eamh__n"/></e>
+    <e lm="léirsmaoineamh"><i>léirsmaoin</i><par n="creid/eamh__n"/></e>
+    <e lm="leorchúiteamh"><i>leorchúit</i><par n="creid/eamh__n"/></e>
+    <e lm="maitheamh"><par n="m_init"/><i>aith</i><par n="creid/eamh__n"/></e>
+    <e lm="Meitheamh"><par n="m_init"/><i>eith</i><par n="creid/eamh__n"/></e>
+    <e lm="míthaitneamh"><par n="m_init"/><i>íthaitn</i><par n="creid/eamh__n"/></e>
+    <e lm="móráireamh"><par n="m_init"/><i>óráir</i><par n="creid/eamh__n"/></e>
+    <e lm="neamhthaitneamh"><i>neamhthaitn</i><par n="creid/eamh__n"/></e>
+    <e lm="rinnfheitheamh"><i>rinnfheith</i><par n="creid/eamh__n"/></e>
+    <e lm="róchaitheamh"><i>róchaith</i><par n="creid/eamh__n"/></e>
+    <e lm="sainchreideamh"><par n="s_init"/><i>ainchreid</i><par n="creid/eamh__n"/></e>
+    <e lm="saobhchreideamh"><par n="s_init"/><i>aobhchreid</i><par n="creid/eamh__n"/></e>
+    <e lm="saorchaitheamh"><par n="s_init"/><i>aorchaith</i><par n="creid/eamh__n"/></e>
+    <e lm="scaitheamh"><par n="s_init"/><i>caith</i><par n="creid/eamh__n"/></e>
+    <e lm="scráibchaitheamh"><par n="s_init"/><i>cráibchaith</i><par n="creid/eamh__n"/></e>
+    <e lm="seicheamh"><par n="s_init"/><i>eich</i><par n="creid/eamh__n"/></e>
+    <e lm="smaoineamh"><par n="s_init"/><i>maoin</i><par n="creid/eamh__n"/></e>
+    <e lm="staidreamh"><par n="s_init"/><i>taidr</i><par n="creid/eamh__n"/></e>
+    <e lm="stocáireamh"><par n="s_init"/><i>tocáir</i><par n="creid/eamh__n"/></e>
+    <e lm="taibhreamh"><par n="t_init"/><i>aibhr</i><par n="creid/eamh__n"/></e>
+    <e lm="taibhseamh"><par n="t_init"/><i>aibhs</i><par n="creid/eamh__n"/></e>
+    <e lm="táinseamh"><par n="t_init"/><i>áins</i><par n="creid/eamh__n"/></e>
+    <e lm="tairiseamh"><par n="t_init"/><i>airis</i><par n="creid/eamh__n"/></e>
+    <e lm="taitneamh"><par n="t_init"/><i>aitn</i><par n="creid/eamh__n"/></e>
+    <e lm="tinreamh"><par n="t_init"/><i>inr</i><par n="creid/eamh__n"/></e>
+    <e lm="tritheamh"><par n="t_init"/><i>rith</i><par n="creid/eamh__n"/></e>
+    <e lm="tuilleamh"><par n="t_init"/><i>uill</i><par n="creid/eamh__n"/></e>
+    <e lm="tuinseamh"><par n="t_init"/><i>uins</i><par n="creid/eamh__n"/></e>
+    <e lm="tuireamh"><par n="t_init"/><i>uir</i><par n="creid/eamh__n"/></e>
+    
+    <!-- poll -->
+    <e lm="adhall"><par n="a_init"/><i>dha</i><par n="po/ll__n"/></e>
+    <e lm="airdeall"><par n="a_init"/><i>irdea</i><par n="po/ll__n"/></e>
+    <e lm="aiteall"><par n="a_init"/><i>itea</i><par n="po/ll__n"/></e>
+    <e lm="aogall"><par n="a_init"/><i>oga</i><par n="po/ll__n"/></e>
+    <e lm="atall"><par n="a_init"/><i>ta</i><par n="po/ll__n"/></e>
+    <e lm="ball"><par n="b_init"/><i>a</i><par n="po/ll__n"/></e>
+    <e lm="bastall"><par n="b_init"/><i>asta</i><par n="po/ll__n"/></e>
+    <e lm="broigheall"><par n="b_init"/><i>roighea</i><par n="po/ll__n"/></e>
+    <e lm="brothall"><par n="b_init"/><i>rotha</i><par n="po/ll__n"/></e>
+    <e lm="buabhall"><par n="b_init"/><i>uabha</i><par n="po/ll__n"/></e>
+    <e lm="camall"><par n="c_init"/><i>ama</i><par n="po/ll__n"/></e>
+    <e lm="capall"><par n="c_init"/><i>apa</i><par n="po/ll__n"/></e>
+    <e lm="carball"><par n="c_init"/><i>arba</i><par n="po/ll__n"/></e>
+    <e lm="caschall"><par n="c_init"/><i>ascha</i><par n="po/ll__n"/></e>
+    <e lm="cochall"><par n="c_init"/><i>ocha</i><par n="po/ll__n"/></e>
+    <e lm="coinníoll"><par n="c_init"/><i>oinnío</i><par n="po/ll__n"/></e>
+    <e lm="cóipinneall"><par n="c_init"/><i>óipinnea</i><par n="po/ll__n"/></e>
+    <e lm="coll"><par n="c_init"/><i>o</i><par n="po/ll__n"/></e>
+    <e lm="comhall"><par n="c_init"/><i>omha</i><par n="po/ll__n"/></e>
+    <e lm="comhbhall"><par n="c_init"/><i>omhbha</i><par n="po/ll__n"/></e>
+    <e lm="comhthadhall"><par n="c_init"/><i>omhthadha</i><par n="po/ll__n"/></e>
+    <e lm="connall"><par n="c_init"/><i>onna</i><par n="po/ll__n"/></e>
+    <e lm="crapall"><par n="c_init"/><i>rapa</i><par n="po/ll__n"/></e>
+    <e lm="crogall"><par n="c_init"/><i>roga</i><par n="po/ll__n"/></e>
+    <e lm="cruinnmheall"><par n="c_init"/><i>ruinnmhea</i><par n="po/ll__n"/></e>
+    <e lm="dall"><par n="d_init"/><i>a</i><par n="po/ll__n"/></e>
+    <e lm="dícheall"><par n="d_init"/><i>íchea</i><par n="po/ll__n"/></e>
+    <e lm="doicheall"><par n="d_init"/><i>oichea</i><par n="po/ll__n"/></e>
+    <e lm="drogall"><par n="d_init"/><i>roga</i><par n="po/ll__n"/></e>
+    <e lm="dúnpholl"><par n="d_init"/><i>únpho</i><par n="po/ll__n"/></e>
+    <e lm="dúpholl"><par n="d_init"/><i>úpho</i><par n="po/ll__n"/></e>
+    <e lm="eireaball"><i>eireaba</i><par n="po/ll__n"/></e>
+    <e lm="fáiteall"><par n="f_init"/><i>áitea</i><par n="po/ll__n"/></e>
+    <e lm="feall"><par n="f_init"/><i>ea</i><par n="po/ll__n"/></e>
+    <e lm="feoilmheall"><par n="f_init"/><i>eoilmhea</i><par n="po/ll__n"/></e>
+    <e lm="fochall"><par n="f_init"/><i>ocha</i><par n="po/ll__n"/></e>
+    <e lm="forbhall"><par n="f_init"/><i>orbha</i><par n="po/ll__n"/></e>
+    <e lm="forimeall"><par n="f_init"/><i>orimea</i><par n="po/ll__n"/></e>
+    <e lm="fuíoll"><par n="f_init"/><i>uío</i><par n="po/ll__n"/></e>
+    <e lm="galinneall"><par n="g_init"/><i>alinnea</i><par n="po/ll__n"/></e>
+    <e lm="Gall"><par n="g_init"/><i>a</i><par n="po/ll__n"/></e>
+    <e lm="geall"><par n="g_init"/><i>ea</i><par n="po/ll__n"/></e>
+    <e lm="gearrchapall"><par n="g_init"/><i>earrchapa</i><par n="po/ll__n"/></e>
+    <e lm="giall"><par n="g_init"/><i>ia</i><par n="po/ll__n"/></e>
+    <e lm="gránúll"><par n="g_init"/><i>ránú</i><par n="po/ll__n"/></e>
+    <e lm="grinneall"><par n="g_init"/><i>rinnea</i><par n="po/ll__n"/></e>
+    <e lm="guairdeall"><par n="g_init"/><i>uairdea</i><par n="po/ll__n"/></e>
+    <e lm="imeall"><i>imea</i><par n="po/ll__n"/></e>
+    <e lm="inneall"><i>innea</i><par n="po/ll__n"/></e>
+    <e lm="iomrall"><i>iomra</i><par n="po/ll__n"/></e>
+    <e lm="Learpholl"><i>Learpho</i><par n="po/ll__n"/></e>
+    <e lm="leathchapall"><i>leathchapa</i><par n="po/ll__n"/></e>
+    <e lm="lochall"><i>locha</i><par n="po/ll__n"/></e>
+    <e lm="logall"><i>loga</i><par n="po/ll__n"/></e>
+    <e lm="macall"><par n="m_init"/><i>aca</i><par n="po/ll__n"/></e>
+    <e lm="meall"><par n="m_init"/><i>ea</i><par n="po/ll__n"/></e>
+    <e lm="mearbhall"><par n="m_init"/><i>earbha</i><par n="po/ll__n"/></e>
+    <e lm="meideall"><par n="m_init"/><i>eidea</i><par n="po/ll__n"/></e>
+    <e lm="meigeall"><par n="m_init"/><i>eigea</i><par n="po/ll__n"/></e>
+    <e lm="mogall"><par n="m_init"/><i>oga</i><par n="po/ll__n"/></e>
+    <e lm="moll"><par n="m_init"/><i>o</i><par n="po/ll__n"/></e>
+    <e lm="mórthimpeall"><par n="m_init"/><i>órthimpea</i><par n="po/ll__n"/></e>
+    <e lm="mothall"><par n="m_init"/><i>otha</i><par n="po/ll__n"/></e>
+    <e lm="murtall"><par n="m_init"/><i>urta</i><par n="po/ll__n"/></e>
+    <e lm="neamhairdeall"><i>neamhairdea</i><par n="po/ll__n"/></e>
+    <e lm="nuall"><i>nua</i><par n="po/ll__n"/></e>
+    <e lm="ollphuball"><i>ollphuba</i><par n="po/ll__n"/></e>
+    <e lm="peall"><par n="p_init"/><i>ea</i><par n="po/ll__n"/></e>
+    <e lm="poll"><par n="p_init"/><i>o</i><par n="po/ll__n"/></e>
+    <e lm="puball"><par n="p_init"/><i>uba</i><par n="po/ll__n"/></e>
+    <e lm="rachmall"><i>rachma</i><par n="po/ll__n"/></e>
+    <e lm="réamhchoinníoll"><i>réamhchoinnío</i><par n="po/ll__n"/></e>
+    <e lm="sabhall"><par n="s_init"/><i>abha</i><par n="po/ll__n"/></e>
+    <e lm="sárthadhall"><par n="s_init"/><i>árthadha</i><par n="po/ll__n"/></e>
+    <e lm="scaball"><par n="s_init"/><i>caba</i><par n="po/ll__n"/></e>
+    <e lm="scafall"><par n="s_init"/><i>cafa</i><par n="po/ll__n"/></e>
+    <e lm="scairdinneall"><par n="s_init"/><i>cairdinnea</i><par n="po/ll__n"/></e>
+    <e lm="scamall"><par n="s_init"/><i>cama</i><par n="po/ll__n"/></e>
+    <e lm="scaoll"><par n="s_init"/><i>cao</i><par n="po/ll__n"/></e>
+    <e lm="scofall"><par n="s_init"/><i>cofa</i><par n="po/ll__n"/></e>
+    <e lm="scragall"><par n="s_init"/><i>craga</i><par n="po/ll__n"/></e>
+    <e lm="screaball"><par n="s_init"/><i>creaba</i><par n="po/ll__n"/></e>
+    <e lm="screatall"><par n="s_init"/><i>creata</i><par n="po/ll__n"/></e>
+    <e lm="scrogall"><par n="s_init"/><i>croga</i><par n="po/ll__n"/></e>
+    <e lm="scrupall"><par n="s_init"/><i>crupa</i><par n="po/ll__n"/></e>
+    <e lm="scuabgheall"><par n="s_init"/><i>cuabghea</i><par n="po/ll__n"/></e>
+    <e lm="seachmall"><par n="s_init"/><i>eachma</i><par n="po/ll__n"/></e>
+    <e lm="sleaspholl"><par n="s_init"/><i>leaspho</i><par n="po/ll__n"/></e>
+    <e lm="sliospholl"><par n="s_init"/><i>liospho</i><par n="po/ll__n"/></e>
+    <e lm="spreachall"><par n="s_init"/><i>preacha</i><par n="po/ll__n"/></e>
+    <e lm="sroigheall"><par n="s_init"/><i>roighea</i><par n="po/ll__n"/></e>
+    <e lm="tabhall"><par n="t_init"/><i>abha</i><par n="po/ll__n"/></e>
+    <e lm="tadhall"><par n="t_init"/><i>adha</i><par n="po/ll__n"/></e>
+    <e lm="tamall"><par n="t_init"/><i>ama</i><par n="po/ll__n"/></e>
+    <e lm="teadhall"><par n="t_init"/><i>eadha</i><par n="po/ll__n"/></e>
+    <e lm="teampall"><par n="t_init"/><i>eampa</i><par n="po/ll__n"/></e>
+    <e lm="timpeall"><par n="t_init"/><i>impea</i><par n="po/ll__n"/></e>
+    <e lm="toll"><par n="t_init"/><i>o</i><par n="po/ll__n"/></e>
+    <e lm="triopall"><par n="t_init"/><i>riopa</i><par n="po/ll__n"/></e>
+    <e lm="troll"><par n="t_init"/><i>ro</i><par n="po/ll__n"/></e>
+    <e lm="uiríoll"><par n="u_init"/><i>irío</i><par n="po/ll__n"/></e>
+    <e lm="urchall"><par n="u_init"/><i>rcha</i><par n="po/ll__n"/></e>
+    <e lm="urthimpeall"><par n="u_init"/><i>rthimpea</i><par n="po/ll__n"/></e>
+    <!-- focal -->
+    <e lm="acomhal"><par n="a_init"/><i>comha</i><par n="foca/l__n"/></e>
+    <e lm="adhal"><par n="a_init"/><i>dha</i><par n="foca/l__n"/></e>
+    <e lm="aerasól"><par n="a_init"/><i>erasó</i><par n="foca/l__n"/></e>
+    <e lm="aerthaisteal"><par n="a_init"/><i>erthaistea</i><par n="foca/l__n"/></e>
+    <e lm="aimiréal"><par n="a_init"/><i>imiréa</i><par n="foca/l__n"/></e>
+    <e lm="aingeal"><par n="a_init"/><i>ingea</i><par n="foca/l__n"/></e>
+    <e lm="ainmfhocal"><par n="a_init"/><i>inmfhoca</i><par n="foca/l__n"/></e>
+    <e lm="aireagal"><par n="a_init"/><i>ireaga</i><par n="foca/l__n"/></e>
+    <e lm="airteagal"><par n="a_init"/><i>irteaga</i><par n="foca/l__n"/></e>
+    <e lm="aiseal"><par n="a_init"/><i>isea</i><par n="foca/l__n"/></e>
+    <e lm="aiteal"><par n="a_init"/><i>itea</i><par n="foca/l__n"/></e>
+    <e lm="aitheascal"><par n="a_init"/><i>itheasca</i><par n="foca/l__n"/></e>
+    <e lm="ál"><par n="á_init"/><i></i><par n="foca/l__n"/></e>
+    <e lm="alcól"><par n="a_init"/><i>lcó</i><par n="foca/l__n"/></e>
+    <e lm="anacal"><par n="a_init"/><i>naca</i><par n="foca/l__n"/></e>
+    <e lm="anamcheol"><par n="a_init"/><i>namcheo</i><par n="foca/l__n"/></e>
+    <e lm="aoibheal"><par n="a_init"/><i>oibhea</i><par n="foca/l__n"/></e>
+    <e lm="aol"><par n="a_init"/><i>o</i><par n="foca/l__n"/></e>
+    <e lm="asal"><par n="a_init"/><i>sa</i><par n="foca/l__n"/></e>
+    <e lm="aspal"><par n="a_init"/><i>spa</i><par n="foca/l__n"/></e>
+    <e lm="athfhriotal"><par n="a_init"/><i>thfhriota</i><par n="foca/l__n"/></e>
+    <e lm="bagaitéal"><par n="b_init"/><i>agaitéa</i><par n="foca/l__n"/></e>
+    <e lm="bairbéal"><par n="b_init"/><i>airbéa</i><par n="foca/l__n"/></e>
+    <e lm="bál"><par n="b_init"/><i>á</i><par n="foca/l__n"/></e>
+    <e lm="baol"><par n="b_init"/><i>ao</i><par n="foca/l__n"/></e>
+    <e lm="bardal"><par n="b_init"/><i>arda</i><par n="foca/l__n"/></e>
+    <e lm="barrsheol"><par n="b_init"/><i>arrsheo</i><par n="foca/l__n"/></e>
+    <e lm="béal"><par n="b_init"/><i>éa</i><par n="foca/l__n"/></e>
+    <e lm="beibheal"><par n="b_init"/><i>eibhea</i><par n="foca/l__n"/></e>
+    <e lm="béigeal"><par n="b_init"/><i>éigea</i><par n="foca/l__n"/></e>
+    <e lm="beiséal"><par n="b_init"/><i>eiséa</i><par n="foca/l__n"/></e>
+    <e lm="bíol"><par n="b_init"/><i>ío</i><par n="foca/l__n"/></e>
+    <e lm="bíomal"><par n="b_init"/><i>íoma</i><par n="foca/l__n"/></e>
+    <e lm="breasal"><par n="b_init"/><i>reasa</i><par n="foca/l__n"/></e>
+    <e lm="brischeol"><par n="b_init"/><i>rischeo</i><par n="foca/l__n"/></e>
+    <e lm="buafhocal"><par n="b_init"/><i>uafhoca</i><par n="foca/l__n"/></e>
+    <e lm="buidéal"><par n="b_init"/><i>uidéa</i><par n="foca/l__n"/></e>
+    <e lm="buiséal"><par n="b_init"/><i>uiséa</i><par n="foca/l__n"/></e>
+    <e lm="bunphrionsabal"><par n="b_init"/><i>unphrionsaba</i><par n="foca/l__n"/></e>
+    <e lm="buthal"><par n="b_init"/><i>utha</i><par n="foca/l__n"/></e>
+    <e lm="cagúl"><par n="c_init"/><i>agú</i><par n="foca/l__n"/></e>
+    <e lm="caidéal"><par n="c_init"/><i>aidéa</i><par n="foca/l__n"/></e>
+    <e lm="cainéal"><par n="c_init"/><i>ainéa</i><par n="foca/l__n"/></e>
+    <e lm="caipiteal"><par n="c_init"/><i>aipitea</i><par n="foca/l__n"/></e>
+    <e lm="cairdinéal"><par n="c_init"/><i>airdinéa</i><par n="foca/l__n"/></e>
+    <e lm="cairéal"><par n="c_init"/><i>airéa</i><par n="foca/l__n"/></e>
+    <e lm="cairtéal"><par n="c_init"/><i>airtéa</i><par n="foca/l__n"/></e>
+    <e lm="caiseal"><par n="c_init"/><i>aisea</i><par n="foca/l__n"/></e>
+    <e lm="cál"><par n="c_init"/><i>á</i><par n="foca/l__n"/></e>
+    <e lm="camleithscéal"><par n="c_init"/><i>amleithscéa</i><par n="foca/l__n"/></e>
+    <e lm="cantal"><par n="c_init"/><i>anta</i><par n="foca/l__n"/></e>
+    <e lm="caol"><par n="c_init"/><i>ao</i><par n="foca/l__n"/></e>
+    <e lm="capsúl"><par n="c_init"/><i>apsú</i><par n="foca/l__n"/></e>
+    <e lm="caramal"><par n="c_init"/><i>arama</i><par n="foca/l__n"/></e>
+    <e lm="carbuncal"><par n="c_init"/><i>arbunca</i><par n="foca/l__n"/></e>
+    <e lm="carnabhal"><par n="c_init"/><i>arnabha</i><par n="foca/l__n"/></e>
+    <e lm="carrmhogal"><par n="c_init"/><i>arrmhoga</i><par n="foca/l__n"/></e>
+    <e lm="carúl"><par n="c_init"/><i>arú</i><par n="foca/l__n"/></e>
+    <e lm="casal"><par n="c_init"/><i>asa</i><par n="foca/l__n"/></e>
+    <e lm="casaról"><par n="c_init"/><i>asaró</i><par n="foca/l__n"/></e>
+    <e lm="casfhocal"><par n="c_init"/><i>asfhoca</i><par n="foca/l__n"/></e>
+    <e lm="ceadal"><par n="c_init"/><i>eada</i><par n="foca/l__n"/></e>
+    <e lm="ceangal"><par n="c_init"/><i>eanga</i><par n="foca/l__n"/></e>
+    <e lm="ceannfhocal"><par n="c_init"/><i>eannfhoca</i><par n="foca/l__n"/></e>
+    <e lm="ceannteideal"><par n="c_init"/><i>eannteidea</i><par n="foca/l__n"/></e>
+    <e lm="ceol"><par n="c_init"/><i>eo</i><par n="foca/l__n"/></e>
+    <e lm="cineál"><par n="c_init"/><i>ineá</i><par n="foca/l__n"/></e>
+    <e lm="cinseal"><par n="c_init"/><i>insea</i><par n="foca/l__n"/></e>
+    <e lm="ciombal"><par n="c_init"/><i>iomba</i><par n="foca/l__n"/></e>
+    <e lm="ciorcal"><par n="c_init"/><i>iorca</i><par n="foca/l__n"/></e>
+    <e lm="ciseal"><par n="c_init"/><i>isea</i><par n="foca/l__n"/></e>
+    <e lm="citeal"><par n="c_init"/><i>itea</i><par n="foca/l__n"/></e>
+    <e lm="clabhacal"><par n="c_init"/><i>labhaca</i><par n="foca/l__n"/></e>
+    <e lm="claisceadal"><par n="c_init"/><i>laisceada</i><par n="foca/l__n"/></e>
+    <e lm="clásal"><par n="c_init"/><i>lása</i><par n="foca/l__n"/></e>
+    <e lm="cnámhscéal"><par n="c_init"/><i>námhscéa</i><par n="foca/l__n"/></e>
+    <e lm="cnuasfhocal"><par n="c_init"/><i>nuasfhoca</i><par n="foca/l__n"/></e>
+    <e lm="cocól"><par n="c_init"/><i>ocó</i><par n="foca/l__n"/></e>
+    <e lm="cogal"><par n="c_init"/><i>oga</i><par n="foca/l__n"/></e>
+    <e lm="coigeadal"><par n="c_init"/><i>oigeada</i><par n="foca/l__n"/></e>
+    <e lm="cóimhiotal"><par n="c_init"/><i>óimhiota</i><par n="foca/l__n"/></e>
+    <e lm="coirdial"><par n="c_init"/><i>oirdia</i><par n="foca/l__n"/></e>
+    <e lm="coiréal"><par n="c_init"/><i>oiréa</i><par n="foca/l__n"/></e>
+    <e lm="coirnéal"><par n="c_init"/><i>oirnéa</i><par n="foca/l__n"/></e>
+    <e lm="col"><par n="c_init"/><i>o</i><par n="foca/l__n"/></e>
+    <e lm="colaistéaról"><par n="c_init"/><i>olaistéaró</i><par n="foca/l__n"/></e>
+    <e lm="comhal"><par n="c_init"/><i>omha</i><par n="foca/l__n"/></e>
+    <e lm="comhcheangal"><par n="c_init"/><i>omhcheanga</i><par n="foca/l__n"/></e>
+    <e lm="comhcheol"><par n="c_init"/><i>omhcheo</i><par n="foca/l__n"/></e>
+    <e lm="comhghaol"><par n="c_init"/><i>omhghao</i><par n="foca/l__n"/></e>
+    <e lm="comhphobal"><par n="c_init"/><i>omhphoba</i><par n="foca/l__n"/></e>
+    <e lm="comhshaol"><par n="c_init"/><i>omhshao</i><par n="foca/l__n"/></e>
+    <e lm="comhthionól"><par n="c_init"/><i>omhthionó</i><par n="foca/l__n"/></e>
+    <e lm="compal"><par n="c_init"/><i>ompa</i><par n="foca/l__n"/></e>
+    <e lm="consal"><par n="c_init"/><i>onsa</i><par n="foca/l__n"/></e>
+    <e lm="corrmhíol"><par n="c_init"/><i>orrmhío</i><par n="foca/l__n"/></e>
+    <e lm="cradhscal"><par n="c_init"/><i>radhsca</i><par n="foca/l__n"/></e>
+    <e lm="craosól"><par n="c_init"/><i>raosó</i><par n="foca/l__n"/></e>
+    <e lm="críol"><par n="c_init"/><i>río</i><par n="foca/l__n"/></e>
+    <e lm="criól"><par n="c_init"/><i>rió</i><par n="foca/l__n"/></e>
+    <e lm="criostal"><par n="c_init"/><i>riosta</i><par n="foca/l__n"/></e>
+    <e lm="croiméal"><par n="c_init"/><i>roiméa</i><par n="foca/l__n"/></e>
+    <e lm="crosfhocal"><par n="c_init"/><i>rosfhoca</i><par n="foca/l__n"/></e>
+    <e lm="crotal"><par n="c_init"/><i>rota</i><par n="foca/l__n"/></e>
+    <e lm="cuadal"><par n="c_init"/><i>uada</i><par n="foca/l__n"/></e>
+    <e lm="cual"><par n="c_init"/><i>ua</i><par n="foca/l__n"/></e>
+    <e lm="cudal"><par n="c_init"/><i>uda</i><par n="foca/l__n"/></e>
+    <e lm="cuideal"><par n="c_init"/><i>uidea</i><par n="foca/l__n"/></e>
+    <e lm="cúl"><par n="c_init"/><i>ú</i><par n="foca/l__n"/></e>
+    <e lm="daol"><par n="d_init"/><i>ao</i><par n="foca/l__n"/></e>
+    <e lm="deisceabal"><par n="d_init"/><i>eisceaba</i><par n="foca/l__n"/></e>
+    <e lm="deiseal"><par n="d_init"/><i>eisea</i><par n="foca/l__n"/></e>
+    <e lm="diabhal"><par n="d_init"/><i>iabha</i><par n="foca/l__n"/></e>
+    <e lm="dícheangal"><par n="d_init"/><i>ícheanga</i><par n="foca/l__n"/></e>
+    <e lm="díosal"><par n="d_init"/><i>íosa</i><par n="foca/l__n"/></e>
+    <e lm="diúl"><par n="d_init"/><i>iú</i><par n="foca/l__n"/></e>
+    <e lm="dócúl"><par n="d_init"/><i>ócú</i><par n="foca/l__n"/></e>
+    <e lm="doirteal"><par n="d_init"/><i>oirtea</i><par n="foca/l__n"/></e>
+    <e lm="dól"><par n="d_init"/><i>ó</i><par n="foca/l__n"/></e>
+    <e lm="dordfhocal"><par n="d_init"/><i>ordfhoca</i><par n="foca/l__n"/></e>
+    <e lm="drandal"><par n="d_init"/><i>randa</i><par n="foca/l__n"/></e>
+    <e lm="draoibeal"><par n="d_init"/><i>raoibea</i><par n="foca/l__n"/></e>
+    <e lm="drochshaol"><par n="d_init"/><i>rochshao</i><par n="foca/l__n"/></e>
+    <e lm="Drochshaol"><par n="d_init"/><i>rochshao</i><par n="foca/l__n"/></e>
+    <e lm="dual"><par n="d_init"/><i>ua</i><par n="foca/l__n"/></e>
+    <e lm="dubhfhocal"><par n="d_init"/><i>ubhfhoca</i><par n="foca/l__n"/></e>
+    <e lm="dufal"><par n="d_init"/><i>ufa</i><par n="foca/l__n"/></e>
+    <e lm="dúmhál"><par n="d_init"/><i>úmhá</i><par n="foca/l__n"/></e>
+    <e lm="eagarfhocal"><par n="e_init"/><i>agarfhoca</i><par n="foca/l__n"/></e>
+    <e lm="éiseal"><par n="é_init"/><i>isea</i><par n="foca/l__n"/></e>
+    <e lm="eiseamal"><par n="e_init"/><i>iseama</i><par n="foca/l__n"/></e>
+    <e lm="eochairfhocal"><par n="e_init"/><i>ochairfhoca</i><par n="foca/l__n"/></e>
+    <e lm="fabhalscéal"><par n="f_init"/><i>abhalscéa</i><par n="foca/l__n"/></e>
+    <e lm="fál"><par n="f_init"/><i>á</i><par n="foca/l__n"/></e>
+    <e lm="faol"><par n="f_init"/><i>ao</i><par n="foca/l__n"/></e>
+    <e lm="fardal"><par n="f_init"/><i>arda</i><par n="foca/l__n"/></e>
+    <e lm="fáthscéal"><par n="f_init"/><i>áthscéa</i><par n="foca/l__n"/></e>
+    <e lm="fial"><par n="f_init"/><i>ia</i><par n="foca/l__n"/></e>
+    <e lm="finéal"><par n="f_init"/><i>inéa</i><par n="foca/l__n"/></e>
+    <e lm="finscéal"><par n="f_init"/><i>inscéa</i><par n="foca/l__n"/></e>
+    <e lm="fiobúl"><par n="f_init"/><i>iobú</i><par n="foca/l__n"/></e>
+    <e lm="fioghual"><par n="f_init"/><i>ioghua</i><par n="foca/l__n"/></e>
+    <e lm="fíothal"><par n="f_init"/><i>íotha</i><par n="foca/l__n"/></e>
+    <e lm="focal"><par n="f_init"/><i>oca</i><par n="foca/l__n"/></e>
+    <e lm="foirceadal"><par n="f_init"/><i>oirceada</i><par n="foca/l__n"/></e>
+    <e lm="foral"><par n="f_init"/><i>ora</i><par n="foca/l__n"/></e>
+    <e lm="foscéal"><par n="f_init"/><i>oscéa</i><par n="foca/l__n"/></e>
+    <e lm="fotheideal"><par n="f_init"/><i>otheidea</i><par n="foca/l__n"/></e>
+    <e lm="fréamhfhocal"><par n="f_init"/><i>réamhfhoca</i><par n="foca/l__n"/></e>
+    <e lm="freastal"><par n="f_init"/><i>reasta</i><par n="foca/l__n"/></e>
+    <e lm="friotal"><par n="f_init"/><i>riota</i><par n="foca/l__n"/></e>
+    <e lm="fual"><par n="f_init"/><i>ua</i><par n="foca/l__n"/></e>
+    <e lm="gabhal"><par n="g_init"/><i>abha</i><par n="foca/l__n"/></e>
+    <e lm="Gael"><par n="g_init"/><i>ae</i><par n="foca/l__n"/></e>
+    <e lm="gáibéal"><par n="g_init"/><i>áibéa</i><par n="foca/l__n"/></e>
+    <e lm="gairbhéal"><par n="g_init"/><i>airbhéa</i><par n="foca/l__n"/></e>
+    <e lm="gairnéal"><par n="g_init"/><i>airnéa</i><par n="foca/l__n"/></e>
+    <e lm="gál"><par n="g_init"/><i>á</i><par n="foca/l__n"/></e>
+    <e lm="gamal"><par n="g_init"/><i>ama</i><par n="foca/l__n"/></e>
+    <e lm="gandal"><par n="g_init"/><i>anda</i><par n="foca/l__n"/></e>
+    <e lm="gaol"><par n="g_init"/><i>ao</i><par n="foca/l__n"/></e>
+    <e lm="geal"><par n="g_init"/><i>ea</i><par n="foca/l__n"/></e>
+    <e lm="geál"><par n="g_init"/><i>eá</i><par n="foca/l__n"/></e>
+    <e lm="gearrscéal"><par n="g_init"/><i>earrscéa</i><par n="foca/l__n"/></e>
+    <e lm="geospal"><par n="g_init"/><i>eospa</i><par n="foca/l__n"/></e>
+    <e lm="ginearál"><par n="g_init"/><i>ineará</i><par n="foca/l__n"/></e>
+    <e lm="giobal"><par n="g_init"/><i>ioba</i><par n="foca/l__n"/></e>
+    <e lm="giodal"><par n="g_init"/><i>ioda</i><par n="foca/l__n"/></e>
+    <e lm="glasmhíol"><par n="g_init"/><i>lasmhío</i><par n="foca/l__n"/></e>
+    <e lm="gliocról"><par n="g_init"/><i>liocró</i><par n="foca/l__n"/></e>
+    <e lm="gnáthphobal"><par n="g_init"/><i>náthphoba</i><par n="foca/l__n"/></e>
+    <e lm="gogal"><par n="g_init"/><i>oga</i><par n="foca/l__n"/></e>
+    <e lm="gol"><par n="g_init"/><i>o</i><par n="foca/l__n"/></e>
+    <e lm="graiseamal"><par n="g_init"/><i>raiseama</i><par n="foca/l__n"/></e>
+    <e lm="griothal"><par n="g_init"/><i>riotha</i><par n="foca/l__n"/></e>
+    <e lm="gual"><par n="g_init"/><i>ua</i><par n="foca/l__n"/></e>
+    <e lm="gúl"><par n="g_init"/><i>ú</i><par n="foca/l__n"/></e>
+    <e lm="gustal"><par n="g_init"/><i>usta</i><par n="foca/l__n"/></e>
+    <e lm="habal"><i>haba</i><par n="foca/l__n"/></e>
+    <e lm="iarfhocal"><i>iarfhoca</i><par n="foca/l__n"/></e>
+    <e lm="iarscéal"><i>iarscéa</i><par n="foca/l__n"/></e>
+    <e lm="idéal"><i>idéa</i><par n="foca/l__n"/></e>
+    <e lm="idircheol"><i>idircheo</i><par n="foca/l__n"/></e>
+    <e lm="idirghaol"><i>idirghao</i><par n="foca/l__n"/></e>
+    <e lm="imshaol"><i>imshao</i><par n="foca/l__n"/></e>
+    <e lm="iniseal"><i>inisea</i><par n="foca/l__n"/></e>
+    <e lm="íol"><par n="í_init"/><i>o</i><par n="foca/l__n"/></e>
+    <e lm="íseal"><par n="í_init"/><i>sea</i><par n="foca/l__n"/></e>
+    <e lm="iúl"><i>iú</i><par n="foca/l__n"/></e>
+    <e lm="leabhal"><i>leabha</i><par n="foca/l__n"/></e>
+    <e lm="leabharcheangal"><i>leabharcheanga</i><par n="foca/l__n"/></e>
+    <e lm="leachtchriostal"><i>leachtchriosta</i><par n="foca/l__n"/></e>
+    <e lm="leamhaol"><i>leamhao</i><par n="foca/l__n"/></e>
+    <e lm="leathchiorcal"><i>leathchiorca</i><par n="foca/l__n"/></e>
+    <e lm="leathfhocal"><i>leathfhoca</i><par n="foca/l__n"/></e>
+    <e lm="leathréal"><i>leathréa</i><par n="foca/l__n"/></e>
+    <e lm="leathshaol"><i>leathshao</i><par n="foca/l__n"/></e>
+    <e lm="leibhéal"><i>leibhéa</i><par n="foca/l__n"/></e>
+    <e lm="leithscéal"><i>leithscéa</i><par n="foca/l__n"/></e>
+    <e lm="lorgfhocal"><i>lorgfhoca</i><par n="foca/l__n"/></e>
+    <e lm="machdual"><par n="m_init"/><i>achdua</i><par n="foca/l__n"/></e>
+    <e lm="macúl"><par n="m_init"/><i>acú</i><par n="foca/l__n"/></e>
+    <e lm="madragal"><par n="m_init"/><i>adraga</i><par n="foca/l__n"/></e>
+    <e lm="maicréal"><par n="m_init"/><i>aicréa</i><par n="foca/l__n"/></e>
+    <e lm="mál"><par n="m_init"/><i>á</i><par n="foca/l__n"/></e>
+    <e lm="mandabal"><par n="m_init"/><i>andaba</i><par n="foca/l__n"/></e>
+    <e lm="maol"><par n="m_init"/><i>ao</i><par n="foca/l__n"/></e>
+    <e lm="maorghinearál"><par n="m_init"/><i>aorghineará</i><par n="foca/l__n"/></e>
+    <e lm="maothal"><par n="m_init"/><i>aotha</i><par n="foca/l__n"/></e>
+    <e lm="marascal"><par n="m_init"/><i>arasca</i><par n="foca/l__n"/></e>
+    <e lm="matal"><par n="m_init"/><i>ata</i><par n="foca/l__n"/></e>
+    <e lm="meabhal"><par n="m_init"/><i>eabha</i><par n="foca/l__n"/></e>
+    <e lm="meaingeal"><par n="m_init"/><i>eaingea</i><par n="foca/l__n"/></e>
+    <e lm="meánchiorcal"><par n="m_init"/><i>eánchiorca</i><par n="foca/l__n"/></e>
+    <e lm="meispeal"><par n="m_init"/><i>eispea</i><par n="foca/l__n"/></e>
+    <e lm="miodal"><par n="m_init"/><i>ioda</i><par n="foca/l__n"/></e>
+    <e lm="míol"><par n="m_init"/><i>ío</i><par n="foca/l__n"/></e>
+    <e lm="miontal"><par n="m_init"/><i>ionta</i><par n="foca/l__n"/></e>
+    <e lm="miortal"><par n="m_init"/><i>iorta</i><par n="foca/l__n"/></e>
+    <e lm="miotal"><par n="m_init"/><i>iota</i><par n="foca/l__n"/></e>
+    <e lm="míshócúl"><par n="m_init"/><i>íshócú</i><par n="foca/l__n"/></e>
+    <e lm="modal"><par n="m_init"/><i>oda</i><par n="foca/l__n"/></e>
+    <e lm="modúl"><par n="m_init"/><i>odú</i><par n="foca/l__n"/></e>
+    <e lm="mogal"><par n="m_init"/><i>oga</i><par n="foca/l__n"/></e>
+    <e lm="moirtéal"><par n="m_init"/><i>oirtéa</i><par n="foca/l__n"/></e>
+    <e lm="mol"><par n="m_init"/><i>o</i><par n="foca/l__n"/></e>
+    <e lm="Mol"><par n="m_init"/><i>o</i><par n="foca/l__n"/></e>
+    <e lm="mongral"><par n="m_init"/><i>ongra</i><par n="foca/l__n"/></e>
+    <e lm="morchal"><par n="m_init"/><i>orcha</i><par n="foca/l__n"/></e>
+    <e lm="mórchiorcal"><par n="m_init"/><i>órchiorca</i><par n="foca/l__n"/></e>
+    <e lm="mórshiúl"><par n="m_init"/><i>órshiú</i><par n="foca/l__n"/></e>
+    <e lm="mufal"><par n="m_init"/><i>ufa</i><par n="foca/l__n"/></e>
+    <e lm="muineál"><par n="m_init"/><i>uineá</i><par n="foca/l__n"/></e>
+    <e lm="musal"><par n="m_init"/><i>usa</i><par n="foca/l__n"/></e>
+    <e lm="narbhal"><i>narbha</i><par n="foca/l__n"/></e>
+    <e lm="néal"><i>néa</i><par n="foca/l__n"/></e>
+    <e lm="neamhbhaol"><i>neamhbhao</i><par n="foca/l__n"/></e>
+    <e lm="neasghaol"><i>neasghao</i><par n="foca/l__n"/></e>
+    <e lm="nuachtspól"><i>nuachtspó</i><par n="foca/l__n"/></e>
+    <e lm="nuafhocal"><i>nuafhoca</i><par n="foca/l__n"/></e>
+    <e lm="núdal"><i>núda</i><par n="foca/l__n"/></e>
+    <e lm="oirdéal"><i>oirdéa</i><par n="foca/l__n"/></e>
+    <e lm="óiréal"><par n="ó_init"/><i>iréa</i><par n="foca/l__n"/></e>
+    <e lm="ól"><par n="ó_init"/><i></i><par n="foca/l__n"/></e>
+    <e lm="ópal"><par n="ó_init"/><i>pa</i><par n="foca/l__n"/></e>
+    <e lm="oracal"><i>oraca</i><par n="foca/l__n"/></e>
+    <e lm="ospidéal"><i>ospidéa</i><par n="foca/l__n"/></e>
+    <e lm="painéal"><par n="p_init"/><i>ainéa</i><par n="foca/l__n"/></e>
+    <e lm="páirteagal"><par n="p_init"/><i>áirteaga</i><par n="foca/l__n"/></e>
+    <e lm="paol"><par n="p_init"/><i>ao</i><par n="foca/l__n"/></e>
+    <e lm="parabal"><par n="p_init"/><i>araba</i><par n="foca/l__n"/></e>
+    <e lm="parasól"><par n="p_init"/><i>arasó</i><par n="foca/l__n"/></e>
+    <e lm="parúl"><par n="p_init"/><i>arú</i><par n="foca/l__n"/></e>
+    <e lm="pasfhocal"><par n="p_init"/><i>asfhoca</i><par n="foca/l__n"/></e>
+    <e lm="pastal"><par n="p_init"/><i>asta</i><par n="foca/l__n"/></e>
+    <e lm="patról"><par n="p_init"/><i>atró</i><par n="foca/l__n"/></e>
+    <e lm="peisteal"><par n="p_init"/><i>eistea</i><par n="foca/l__n"/></e>
+    <e lm="peiteal"><par n="p_init"/><i>eitea</i><par n="foca/l__n"/></e>
+    <e lm="peitreal"><par n="p_init"/><i>eitrea</i><par n="foca/l__n"/></e>
+    <e lm="piostal"><par n="p_init"/><i>iosta</i><par n="foca/l__n"/></e>
+    <e lm="pobal"><par n="p_init"/><i>oba</i><par n="foca/l__n"/></e>
+    <e lm="poitéinseal"><par n="p_init"/><i>oitéinsea</i><par n="foca/l__n"/></e>
+    <e lm="pol"><par n="p_init"/><i>o</i><par n="foca/l__n"/></e>
+    <e lm="popcheol"><par n="p_init"/><i>opcheo</i><par n="foca/l__n"/></e>
+    <e lm="pratancól"><par n="p_init"/><i>ratancó</i><par n="foca/l__n"/></e>
+    <e lm="priacal"><par n="p_init"/><i>riaca</i><par n="foca/l__n"/></e>
+    <e lm="príomhscéal"><par n="p_init"/><i>ríomhscéa</i><par n="foca/l__n"/></e>
+    <e lm="prionsabal"><par n="p_init"/><i>rionsaba</i><par n="foca/l__n"/></e>
+    <e lm="próchonsal"><par n="p_init"/><i>róchonsa</i><par n="foca/l__n"/></e>
+    <e lm="proibhinseal"><par n="p_init"/><i>roibhinsea</i><par n="foca/l__n"/></e>
+    <e lm="prótacal"><par n="p_init"/><i>rótaca</i><par n="foca/l__n"/></e>
+    <e lm="púdal"><par n="p_init"/><i>úda</i><par n="foca/l__n"/></e>
+    <e lm="puzal"><par n="p_init"/><i>uza</i><par n="foca/l__n"/></e>
+    <e lm="rádal"><i>ráda</i><par n="foca/l__n"/></e>
+    <e lm="rapcheol"><i>rapcheo</i><par n="foca/l__n"/></e>
+    <e lm="rastal"><i>rasta</i><par n="foca/l__n"/></e>
+    <e lm="réal"><i>réa</i><par n="foca/l__n"/></e>
+    <e lm="réaltnéal"><i>réaltnéa</i><par n="foca/l__n"/></e>
+    <e lm="réamhcheol"><i>réamhcheo</i><par n="foca/l__n"/></e>
+    <e lm="réamhfhocal"><i>réamhfhoca</i><par n="foca/l__n"/></e>
+    <e lm="réamhscéal"><i>réamhscéa</i><par n="foca/l__n"/></e>
+    <e lm="riosól"><i>riosó</i><par n="foca/l__n"/></e>
+    <e lm="ról"><i>ró</i><par n="foca/l__n"/></e>
+    <e lm="rúbal"><i>rúba</i><par n="foca/l__n"/></e>
+    <e lm="santal"><par n="s_init"/><i>anta</i><par n="foca/l__n"/></e>
+    <e lm="saol"><par n="s_init"/><i>ao</i><par n="foca/l__n"/></e>
+    <e lm="scabhal"><par n="s_init"/><i>cabha</i><par n="foca/l__n"/></e>
+    <e lm="scannal"><par n="s_init"/><i>canna</i><par n="foca/l__n"/></e>
+    <e lm="scéal"><par n="s_init"/><i>céa</i><par n="foca/l__n"/></e>
+    <e lm="sceideal"><par n="s_init"/><i>ceidea</i><par n="foca/l__n"/></e>
+    <e lm="scioból"><par n="s_init"/><i>ciobó</i><par n="foca/l__n"/></e>
+    <e lm="sciorrfhocal"><par n="s_init"/><i>ciorrfhoca</i><par n="foca/l__n"/></e>
+    <e lm="scodal"><par n="s_init"/><i>coda</i><par n="foca/l__n"/></e>
+    <e lm="seacál"><par n="s_init"/><i>eacá</i><par n="foca/l__n"/></e>
+    <e lm="seachfhocal"><par n="s_init"/><i>eachfhoca</i><par n="foca/l__n"/></e>
+    <e lm="seagal"><par n="s_init"/><i>eaga</i><par n="foca/l__n"/></e>
+    <e lm="seál"><par n="s_init"/><i>eá</i><par n="foca/l__n"/></e>
+    <e lm="seanascal"><par n="s_init"/><i>eanasca</i><par n="foca/l__n"/></e>
+    <e lm="seanfhocal"><par n="s_init"/><i>eanfhoca</i><par n="foca/l__n"/></e>
+    <e lm="seansaol"><par n="s_init"/><i>eansao</i><par n="foca/l__n"/></e>
+    <e lm="seanscéal"><par n="s_init"/><i>eanscéa</i><par n="foca/l__n"/></e>
+    <e lm="seiceal"><par n="s_init"/><i>eicea</i><par n="foca/l__n"/></e>
+    <e lm="séipéal"><par n="s_init"/><i>éipéa</i><par n="foca/l__n"/></e>
+    <e lm="seol"><par n="s_init"/><i>eo</i><par n="foca/l__n"/></e>
+    <e lm="síol"><par n="s_init"/><i>ío</i><par n="foca/l__n"/></e>
+    <e lm="síscéal"><par n="s_init"/><i>íscéa</i><par n="foca/l__n"/></e>
+    <e lm="siséal"><par n="s_init"/><i>iséa</i><par n="foca/l__n"/></e>
+    <e lm="sistéal"><par n="s_init"/><i>istéa</i><par n="foca/l__n"/></e>
+    <e lm="siúl"><par n="s_init"/><i>iú</i><par n="foca/l__n"/></e>
+    <e lm="siurnal"><par n="s_init"/><i>iurna</i><par n="foca/l__n"/></e>
+    <e lm="smál"><par n="s_init"/><i>má</i><par n="foca/l__n"/></e>
+    <e lm="smól"><par n="s_init"/><i>mó</i><par n="foca/l__n"/></e>
+    <e lm="snagcheol"><par n="s_init"/><i>nagcheo</i><par n="foca/l__n"/></e>
+    <e lm="snorcal"><par n="s_init"/><i>norca</i><par n="foca/l__n"/></e>
+    <e lm="sobal"><par n="s_init"/><i>oba</i><par n="foca/l__n"/></e>
+    <e lm="sócúl"><par n="s_init"/><i>ócú</i><par n="foca/l__n"/></e>
+    <e lm="sofhriotal"><par n="s_init"/><i>ofhriota</i><par n="foca/l__n"/></e>
+    <e lm="soiscéal"><par n="s_init"/><i>oiscéa</i><par n="foca/l__n"/></e>
+    <e lm="sól"><par n="s_init"/><i>ó</i><par n="foca/l__n"/></e>
+    <e lm="sotal"><par n="s_init"/><i>ota</i><par n="foca/l__n"/></e>
+    <e lm="spadal"><par n="s_init"/><i>pada</i><par n="foca/l__n"/></e>
+    <e lm="spástaisteal"><par n="s_init"/><i>pástaistea</i><par n="foca/l__n"/></e>
+    <e lm="spearbal"><par n="s_init"/><i>pearba</i><par n="foca/l__n"/></e>
+    <e lm="spól"><par n="s_init"/><i>pó</i><par n="foca/l__n"/></e>
+    <e lm="sraithscéal"><par n="s_init"/><i>raithscéa</i><par n="foca/l__n"/></e>
+    <e lm="srapnal"><par n="s_init"/><i>rapna</i><par n="foca/l__n"/></e>
+    <e lm="sreangscéal"><par n="s_init"/><i>reangscéa</i><par n="foca/l__n"/></e>
+    <e lm="sról"><par n="s_init"/><i>ró</i><par n="foca/l__n"/></e>
+    <e lm="staghsheol"><par n="s_init"/><i>taghsheo</i><par n="foca/l__n"/></e>
+    <e lm="standal"><par n="s_init"/><i>tanda</i><par n="foca/l__n"/></e>
+    <e lm="stionsal"><par n="s_init"/><i>tionsa</i><par n="foca/l__n"/></e>
+    <e lm="stól"><par n="s_init"/><i>tó</i><par n="foca/l__n"/></e>
+    <e lm="strufal"><par n="s_init"/><i>trufa</i><par n="foca/l__n"/></e>
+    <e lm="suansiúl"><par n="s_init"/><i>uansiú</i><par n="foca/l__n"/></e>
+    <e lm="taibearnacal"><par n="t_init"/><i>aibearnaca</i><par n="foca/l__n"/></e>
+    <e lm="taisteal"><par n="t_init"/><i>aistea</i><par n="foca/l__n"/></e>
+    <e lm="tál"><par n="t_init"/><i>á</i><par n="foca/l__n"/></e>
+    <e lm="támhnéal"><par n="t_init"/><i>ámhnéa</i><par n="foca/l__n"/></e>
+    <e lm="tarpól"><par n="t_init"/><i>arpó</i><par n="foca/l__n"/></e>
+    <e lm="tátal"><par n="t_init"/><i>áta</i><par n="foca/l__n"/></e>
+    <e lm="teideal"><par n="t_init"/><i>eidea</i><par n="foca/l__n"/></e>
+    <e lm="teimheal"><par n="t_init"/><i>eimhea</i><par n="foca/l__n"/></e>
+    <e lm="teirminéal"><par n="t_init"/><i>eirminéa</i><par n="foca/l__n"/></e>
+    <e lm="tionól"><par n="t_init"/><i>ionó</i><par n="foca/l__n"/></e>
+    <e lm="tionscadal"><par n="t_init"/><i>ionscada</i><par n="foca/l__n"/></e>
+    <e lm="tionscal"><par n="t_init"/><i>ionsca</i><par n="foca/l__n"/></e>
+    <e lm="tochsal"><par n="t_init"/><i>ochsa</i><par n="foca/l__n"/></e>
+    <e lm="tóstal"><par n="t_init"/><i>ósta</i><par n="foca/l__n"/></e>
+    <e lm="trál"><par n="t_init"/><i>rá</i><par n="foca/l__n"/></e>
+    <e lm="tréithchineál"><par n="t_init"/><i>réithchineá</i><par n="foca/l__n"/></e>
+    <e lm="treoirfhocal"><par n="t_init"/><i>reoirfhoca</i><par n="foca/l__n"/></e>
+    <e lm="treoirthionscadal"><par n="t_init"/><i>reoirthionscada</i><par n="foca/l__n"/></e>
+    <e lm="tristéal"><par n="t_init"/><i>ristéa</i><par n="foca/l__n"/></e>
+    <e lm="trostal"><par n="t_init"/><i>rosta</i><par n="foca/l__n"/></e>
+    <e lm="truascéal"><par n="t_init"/><i>ruascéa</i><par n="foca/l__n"/></e>
+    <e lm="tuarastal"><par n="t_init"/><i>uarasta</i><par n="foca/l__n"/></e>
+    <e lm="tuathal"><par n="t_init"/><i>uatha</i><par n="foca/l__n"/></e>
+    <e lm="tuiseal"><par n="t_init"/><i>uisea</i><par n="foca/l__n"/></e>
+    <e lm="turchainéal"><par n="t_init"/><i>urchainéa</i><par n="foca/l__n"/></e>
+    <e lm="uaillghol"><par n="u_init"/><i>aillgho</i><par n="foca/l__n"/></e>
+    <e lm="uasal"><par n="u_init"/><i>asa</i><par n="foca/l__n"/></e>
+    <e lm="úbhal"><par n="ú_init"/><i>bha</i><par n="foca/l__n"/></e>
+    <e lm="úirinéal"><par n="ú_init"/><i>irinéa</i><par n="foca/l__n"/></e>
+    <e lm="ursal"><par n="u_init"/><i>rsa</i><par n="foca/l__n"/></e>
+    <e lm="úrscéal"><par n="ú_init"/><i>rscéa</i><par n="foca/l__n"/></e>
+    <e lm="vaiféal"><i>vaiféa</i><par n="foca/l__n"/></e>
+    <e lm="Vandal"><i>Vanda</i><par n="foca/l__n"/></e>
+    <e lm="vitrial"><i>vitria</i><par n="foca/l__n"/></e>
+    <e lm="vól"><i>vó</i><par n="foca/l__n"/></e>
+    <!-- beart -->
+    <e lm="ainbheart"><par n="a_init"/><i>inbh</i><par n="b/eart__n"/></e>
+    <e lm="aincheart"><par n="a_init"/><i>inch</i><par n="b/eart__n"/></e>
+    <e lm="beart"><par n="b_init"/><i></i><par n="b/eart__n"/></e>
+    <e lm="bodbheart"><par n="b_init"/><i>odbh</i><par n="b/eart__n"/></e>
+    <e lm="ceannbheart"><par n="c_init"/><i>eannbh</i><par n="b/eart__n"/></e>
+    <e lm="ceart"><par n="c_init"/><i></i><par n="b/eart__n"/></e>
+    <e lm="cilibheart"><par n="c_init"/><i>ilibh</i><par n="b/eart__n"/></e>
+    <e lm="cíochbheart"><par n="c_init"/><i>íochbh</i><par n="b/eart__n"/></e>
+    <e lm="cóipcheart"><par n="c_init"/><i>óipch</i><par n="b/eart__n"/></e>
+    <e lm="coisbheart"><par n="c_init"/><i>oisbh</i><par n="b/eart__n"/></e>
+    <e lm="críochbheart"><par n="c_init"/><i>ríochbh</i><par n="b/eart__n"/></e>
+    <e lm="deisceart"><par n="d_init"/><i>eisc</i><par n="b/eart__n"/></e>
+    <e lm="díseart"><par n="d_init"/><i>ís</i><par n="b/eart__n"/></e>
+    <e lm="dobheart"><par n="d_init"/><i>obh</i><par n="b/eart__n"/></e>
+    <e lm="drochbheart"><par n="d_init"/><i>rochbh</i><par n="b/eart__n"/></e>
+    <e lm="dúbheart"><par n="d_init"/><i>úbh</i><par n="b/eart__n"/></e>
+    <e lm="éigeart"><par n="é_init"/><i>ig</i><par n="b/eart__n"/></e>
+    <e lm="éineart"><par n="é_init"/><i>in</i><par n="b/eart__n"/></e>
+    <e lm="feillbheart"><par n="f_init"/><i>eillbh</i><par n="b/eart__n"/></e>
+    <e lm="forneart"><par n="f_init"/><i>orn</i><par n="b/eart__n"/></e>
+    <e lm="frithbheart"><par n="f_init"/><i>rithbh</i><par n="b/eart__n"/></e>
+    <e lm="iardheisceart"><par n="i_init"/><i>ardheisc</i><par n="b/eart__n"/></e>
+    <e lm="iarthuaisceart"><par n="i_init"/><i>arthuaisc</i><par n="b/eart__n"/></e>
+    <e lm="idirbheart"><par n="i_init"/><i>dirbh</i><par n="b/eart__n"/></e>
+    <e lm="meigibheart"><par n="m_init"/><i>eigibh</i><par n="b/eart__n"/></e>
+    <e lm="míbheart"><par n="m_init"/><i>íbh</i><par n="b/eart__n"/></e>
+    <e lm="neart"><i>n</i><par n="b/eart__n"/></e>
+    <e lm="oilbheart"><par n="o_init"/><i>ilbh</i><par n="b/eart__n"/></e>
+    <e lm="oirbheart"><par n="o_init"/><i>irbh</i><par n="b/eart__n"/></e>
+    <e lm="oirdheisceart"><par n="o_init"/><i>irdheisc</i><par n="b/eart__n"/></e>
+    <e lm="oirthuaisceart"><par n="o_init"/><i>irthuaisc</i><par n="b/eart__n"/></e>
+    <e lm="réamhbheart"><i>réamhbh</i><par n="b/eart__n"/></e>
+    <e lm="tuaisceart"><par n="t_init"/><i>uaisc</i><par n="b/eart__n"/></e>
+    <!-- sagart -->
+    <e lm="aerfort"><par n="a_init"/><i>erfo</i><par n="saga/rt__n"/></e>
+    <e lm="ardsagart"><par n="a_init"/><i>rdsaga</i><par n="saga/rt__n"/></e>
+    <e lm="art"><par n="a_init"/><i></i><par n="saga/rt__n"/></e>
+    <e lm="bacart"><par n="b_init"/><i>aca</i><par n="saga/rt__n"/></e>
+    <e lm="calafort"><par n="c_init"/><i>alafo</i><par n="saga/rt__n"/></e>
+    <e lm="cárt"><par n="c_init"/><i>á</i><par n="saga/rt__n"/></e>
+    <e lm="ceannfort"><par n="c_init"/><i>eannfo</i><par n="saga/rt__n"/></e>
+    <e lm="ciafart"><par n="c_init"/><i>iafa</i><par n="saga/rt__n"/></e>
+    <e lm="claífort"><par n="c_init"/><i>laífo</i><par n="saga/rt__n"/></e>
+    <e lm="cohórt"><par n="c_init"/><i>ohó</i><par n="saga/rt__n"/></e>
+    <e lm="críochfort"><par n="c_init"/><i>ríochfo</i><par n="saga/rt__n"/></e>
+    <e lm="dragart"><par n="d_init"/><i>raga</i><par n="saga/rt__n"/></e>
+    <e lm="dronbhacart"><par n="d_init"/><i>ronbhaca</i><par n="saga/rt__n"/></e>
+    <e lm="dúnfort"><par n="d_init"/><i>únfo</i><par n="saga/rt__n"/></e>
+    <e lm="fíonghort"><par n="f_init"/><i>íongho</i><par n="saga/rt__n"/></e>
+    <e lm="foslongfort"><par n="f_init"/><i>oslongfo</i><par n="saga/rt__n"/></e>
+    <e lm="gort"><par n="g_init"/><i>o</i><par n="saga/rt__n"/></e>
+    <e lm="hart"><i>ha</i><par n="saga/rt__n"/></e>
+    <e lm="iógart"><par n="i_init"/><i>óga</i><par n="saga/rt__n"/></e>
+    <e lm="longfort"><i>longfo</i><par n="saga/rt__n"/></e>
+    <e lm="luibhghort"><i>luibhgho</i><par n="saga/rt__n"/></e>
+    <e lm="mart"><par n="m_init"/><i>a</i><par n="saga/rt__n"/></e>
+    <e lm="mort"><par n="m_init"/><i>o</i><par n="saga/rt__n"/></e>
+    <e lm="neamart"><i>neama</i><par n="saga/rt__n"/></e>
+    <e lm="port"><par n="p_init"/><i>o</i><par n="saga/rt__n"/></e>
+    <e lm="pórt"><par n="p_init"/><i>ó</i><par n="saga/rt__n"/></e>
+    <e lm="sagart"><par n="s_init"/><i>aga</i><par n="saga/rt__n"/></e>
+    <e lm="saorphort"><par n="s_init"/><i>aorpho</i><par n="saga/rt__n"/></e>
+    <e lm="slíogart"><par n="s_init"/><i>líoga</i><par n="saga/rt__n"/></e>
+    <e lm="sórt"><par n="s_init"/><i>ó</i><par n="saga/rt__n"/></e>
+    <e lm="spórt"><par n="s_init"/><i>pó</i><par n="saga/rt__n"/></e>
+  </section>
+ </dictionary>
+

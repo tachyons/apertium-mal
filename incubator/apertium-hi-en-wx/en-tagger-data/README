@@ -1,0 +1,9 @@
+In order to train the English part-of-speech tagger yo need to place here
+some corpora:
+* For supervised training: 
+  - A file called 'en.tagged' should contain the hand-tagged corpus.
+  - A file called 'en.tagged.txt' should contain the same corpus that
+    'en.tagged' contains, but in RAW format.
+
+* For unsupervised training:
+  - A file called 'en.crp.txt' should contain large corpus in RAW format

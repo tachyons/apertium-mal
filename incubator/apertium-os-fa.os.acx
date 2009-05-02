@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<analysis-chars>
+  <!-- Make apostrophe variants equal ' -->
+  <char value="'">
+    <equiv-char value="’"/>
+    <equiv-char value="ʼ"/>
+  </char>
+
+  <!-- Sometimes things are written with Latin and not Cyrillic ligatures -->
+  <char value="ӕ">
+    <equiv-char value="æ"/>
+  </char>
+
+  <char value="Ӕ">
+    <equiv-char value="Æ"/>
+  </char>
+
+  <char value="ъ">
+    <equiv-char value="ь"/>
+  </char>
+</analysis-chars>

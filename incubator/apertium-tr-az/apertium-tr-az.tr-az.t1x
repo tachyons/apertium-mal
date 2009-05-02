@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
+
+<transfer default="chunk">
+<section-def-cats>
+    <def-cat n="conj">
+      <cat-item tags="cnjadv.*"/>
+      <cat-item tags="cnjadv"/>
+    </def-cat>
+    <def-cat n="adj">
+      <cat-item tags="adj"/>
+      <cat-item tags="adj.*"/>
+    </def-cat>
+    <def-cat n="nom">
+      <cat-item tags="n.*"/>
+      <cat-item tags="np.*"/>
+    </def-cat>
+    <def-cat n="sent">
+      <cat-item tags="sent"/>
+    </def-cat>
+    <def-cat n="det">
+      <cat-item tags="det.ind.*"/>
+      <cat-item tags="det.def.*"/>
+    </def-cat>
+    <def-cat n="prpers">
+      <cat-item lemma="prpers" tags="prn.*"/>
+    </def-cat>
+    <def-cat n="verb">
+      <cat-item tags="vaux.*"/>
+      <cat-item tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="prep"> <!-- preposition -->
+      <cat-item tags="pr"/>
+    </def-cat>
+  </section-def-cats>
+
+  <section-def-attrs>
+    <def-attr n="nbr">			<!-- Number -->
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+    </def-attr>
+    <def-attr n="gen">			<!-- Gender -->
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+    </def-attr>
+    <def-attr n="a_conj">
+      <attr-item tags="cnjadv"/>
+    </def-attr>
+    <def-attr n="a_case">
+      <attr-item tags="abs"/>
+      <attr-item tags="dac"/>
+      <attr-item tags="dat"/>
+      <attr-item tags="abl"/>
+      <attr-item tags="loc"/>
+      <attr-item tags="gen"/>
+      <attr-item tags="com"/>
+    </def-attr>
+    <def-attr n="a_nom">
+      <attr-item tags="n"/>
+      <attr-item tags="n.acr"/>
+      <attr-item tags="n.unc"/>
+      <attr-item tags="np.loc"/>
+    </def-attr>
+    <def-attr n="a_adj">
+      <attr-item tags="adj.sint"/>
+      <attr-item tags="adj"/>
+      <attr-item tags="comp"/>
+      <attr-item tags="sup"/>
+    </def-attr>
+    <def-attr n="a_det">
+      <attr-item tags="det.ind"/>
+      <attr-item tags="det.def"/>
+    </def-attr>
+    <def-attr n="tipus_prn">
+      <attr-item tags="prn.subj"/>
+      <attr-item tags="prn.obj"/>
+    </def-attr>
+    <def-attr n="pers">			<!-- Person -->
+       <attr-item tags="p1"/>
+       <attr-item tags="p2"/>
+       <attr-item tags="p3"/>
+    </def-attr>
+    <def-attr n="a_posesv">			<!-- Possessives -->
+       <attr-item tags="pp1s"/>
+       <attr-item tags="pp2s"/>
+       <attr-item tags="pp3s"/>
+       <attr-item tags="pp1p"/>
+       <attr-item tags="pp2p"/>
+       <attr-item tags="pp3p"/>
+    </def-attr>
+    <def-attr n="a_verb">
+       <attr-item tags="vblex"/>
+       <attr-item tags="vbser"/>
+       <attr-item tags="vbhaver"/>
+       <attr-item tags="vbmod"/>
+       <attr-item tags="vaux"/>
+    </def-attr>
+    <def-attr n="modo">
+       <attr-item tags="aff"/>
+       <attr-item tags="neg"/>
+    </def-attr>
+    <def-attr n="state">
+       <attr-item tags="int"/>
+       <attr-item tags="stat"/>
+    </def-attr>
+    <def-attr n="temps">
+       <attr-item tags="pp"/>
+       <attr-item tags="pii"/>
+       <attr-item tags="pis"/>
+       <attr-item tags="pri"/>
+       <attr-item tags="past"/>
+       <attr-item tags="pres"/>
+       <attr-item tags="inf"/>
+     </def-attr>
+  </section-def-attrs>
+
+  <section-def-vars>
+    <def-var n="numero"/>
+    <def-var n="caseFirstWord"/>
+    <def-var n="nombre"/>
+  </section-def-vars>
+
+  <section-rules>
+    <rule comment="REGLA: NOM (per a collocar la cua en les multiparaules amb g">
+      <pattern>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="NP"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="a_posesv"/>
+              <clip pos="1" side="tl" part="a_case"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: VERB">
+      <pattern>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+            <out>
+              <chunk name="verb">
+                <tags>
+                  <tag><lit-tag v="V"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="a_verb"/>
+                  <clip pos="1" side="tl" part="modo"/>
+                  <clip pos="1" side="tl" part="temps"/>
+                  <clip pos="1" side="tl" part="pers"/>
+                  <clip pos="1" side="tl" part="nbr"/>
+                  <clip pos="1" side="tl" part="state"/>
+              </lu>
+              </chunk>
+            </out>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA: reset variables-->
+      <pattern>
+        <pattern-item n="sent"/>
+      </pattern>
+      <action>
+       <let>
+         <var n="nombre"/>
+         <lit-tag v="sg"/>
+       </let>
+        <out>
+          <chunk name="punt">
+            <tags>
+              <tag><lit-tag v="sent"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+
+     </action>
+   </rule>
+
+  </section-rules>
+
+</transfer>

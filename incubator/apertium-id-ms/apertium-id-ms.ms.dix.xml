@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<dictionary> 
+  <alphabet>ABCDEFGHILMNOPRSTUWYJKVXZabcdefghilmnoprstuwyjkvxz</alphabet>
+
+  <!-- Symbol definitions -->
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-id-ms.symbols.xml"/>
+
+  <!-- Paradigm definitions -->
+  <pardefs>
+    <!-- Pronouns -->
+
+    <!-- Prepositions -->
+    <pardef n="ke__pr">
+      <e>
+        <p>
+          <l/>
+          <r><s n="pr"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <!-- Conjunctions -->
+
+    <!-- Adjectives -->
+    <pardef n="lanjut__adj">
+      <e>
+        <p>
+          <l/>
+          <r><s n="adj"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <!-- Nouns -->
+    <pardef n="butang__n">
+      <e>
+        <p>
+          <l/>
+          <r><s n="n"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef> 
+    <!-- Verbs -->
+    <pardef n="tekan__vblex">
+      <e>
+        <p>
+          <l/>
+          <r><s n="vblex"/><s n="pres"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <!-- Adverbs -->
+    <pardef n="sila__adv">
+      <e>
+        <p>
+          <l/>
+          <r><s n="adv"/></r>
+        </p>
+      </e>
+    </pardef>
+
+  </pardefs>
+
+  <!-- Main dictionary section -->
+  <section id="main" type="standard">
+    <e lm="butang"><i>butang</i><par n="butang__n"/></e>
+    <e lm="stage"><i>stage</i><par n="butang__n"/></e>
+    <e lm="kamus"><i>kamus</i><par n="butang__n"/></e>
+
+    <e lm="ke"><i>ke</i><par n="ke__pr"/></e>
+    <e lm="guna"><i>guna</i><par n="ke__pr"/></e>
+
+    <e lm="lanjut"><i>lanjut</i><par n="lanjut__adj"/></e>
+    <e lm="ke depan"><i>ke<b/>depan</i><par n="lanjut__adj"/></e>
+    <e lm="sila"><i>sila</i><par n="sila__adv"/></e>
+
+    <e lm="tekan"><i>tekan</i><par n="tekan__vblex"/></e>
+    <e lm="masuk"><i>masuk</i><par n="tekan__vblex"/></e>
+  </section>
+
+</dictionary>

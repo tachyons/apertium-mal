@@ -1,0 +1,29 @@
+; Tests for the correct translation of the verb "to have" relying 
+; on personal pronoun before.
+
+1   : af : Ek het ’n bier
+1   : en : I have a beer
+
+2   : af : Hy het ’n bier
+2   : en : He has a beer
+
+; Tests for correct use of the past tense of "to be"
+
+3   : af : Hy was in die huis
+3   : en : He was in the house
+
+; Tests for V2 verb movement
+
+4   : af : Sy moet in die bed bly
+4   : en : She must stay in the bed
+
+5   : af : Hy het ernstig en kritiek geword
+5   : en : He became serious and critical
+
+; Tests for attributive / predicative in adjectives
+
+6   : af : Die amptelike boodskap
+6   : en : The official message
+
+7   : af : Die boodskap is amptelik
+7   : en : The message is official

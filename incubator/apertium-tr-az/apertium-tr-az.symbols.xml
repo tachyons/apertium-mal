@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
+
+  <sdefs>
+    <sdef n="n"       c="Noun"/>
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="pl"      c="Plural"/>
+
+    <sdef n="abs"     c="Absolutive"/>
+    <sdef n="dac"     c="Direct-accusative"/>
+    <sdef n="dat"     c="Dative"/>
+    <sdef n="loc"     c="Locative"/>
+    <sdef n="abl"     c="Ablative"/>
+    <sdef n="gen"     c="Genitive"/>
+    <sdef n="com"     c="Comitative"/>
+
+    <sdef n="pp1s"    c="First person singular possessive"/>
+    <sdef n="pp2s"    c="Second person singular possessive"/>
+    <sdef n="pp3s"    c="Third person singular possessive"/>
+    <sdef n="pp1p"    c="First person plural possessive"/>
+    <sdef n="pp2p"    c="Second person plural possessive"/>
+    <sdef n="pp3p"    c="Third person plural possessive"/>
+
+    <sdef n="pr"      c="Preposition"/>
+
+    <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+    <sdef n="cnjsub"  c="Subordinating conjunction"/>
+    <sdef n="cnjadv"  c="Adverbial conjunction"/>
+
+    <sdef n="vblex"   c="Lexical verb"/>	
+    <sdef n="inf"     c="Infinitive"/>
+    <sdef n="pri"     c="Present indicative"/>
+    <sdef n="past"    c="Past tense"/>
+    <sdef n="pres"    c="Present tense"/>
+
+    <sdef n="int"     c="Interrogative"/>
+    <sdef n="stat"    c="Stative"/>
+    <sdef n="aff"     c="Affirmative"/>
+    <sdef n="neg"     c="Negative"/>
+
+    <sdef n="p1"      c="First person"/>
+    <sdef n="p2"      c="Second person"/>
+    <sdef n="p3"      c="Third person"/>
+ 
+    <sdef n="adj"     c="Adjective"/>
+    <sdef n="comp"    c="Comparative"/>
+    <sdef n="sup"     c="Superlative"/>
+    <sdef n="attr"    c="Attributive"/>
+    <sdef n="pred"    c="Predicative"/>
+
+    <sdef n="sent"    c="End of sentence"/>
+    <sdef n="cm"      c="Comma"/>
+    <sdef n="lpar"    c="Left parenthesis"/>
+    <sdef n="rpar"    c="Right parenthesis"/>
+    <sdef n="lquest"  c="Left question-mark"/>
+    <sdef n="guio"    c="Hyphen"/> 
+    <sdef n="apos"    c="Apostrophe"/>
+
+    <sdef n="web"/>
+    <sdef n="subs"/>
+    <sdef n="pprs"/>    
+    <sdef n="enc"/>
+    <sdef n="unc"     c="Uncountable"/>
+    <sdef n="sep"/>
+    <sdef n="pron"/>
+
+    <sdef n="num"     c="Number"/>
+  </sdefs>

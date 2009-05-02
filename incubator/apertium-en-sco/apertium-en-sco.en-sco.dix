@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+  <alphabet/>
+  <!-- symbols -->
+  <sdefs>
+    <sdef n="acr"/>
+    <sdef n="predet"/>
+    <sdef n="detnt"/>
+    <sdef n="loc"/>
+    <sdef n="ant"/>
+    <sdef n="al"/>
+    <sdef n="cog"/>
+    <sdef n="atn"/>
+    <sdef n="enc"/>
+    <sdef n="pro"/>
+    <sdef n="tn"/>
+    <sdef n="n"/>
+    <sdef n="np"/>
+    <sdef n="adj"/>
+    <sdef n="f"/>
+    <sdef n="m"/>
+    <sdef n="mf"/>
+    <sdef n="sg"/>
+    <sdef n="pl"/>
+    <sdef n="adv"/>
+    <sdef n="preadv"/>
+    <sdef n="pr"/>
+    <sdef n="prn"/>
+    <sdef n="rel"/>
+    <sdef n="nn"/>
+    <sdef n="an"/>
+    <sdef n="aa"/>
+    <sdef n="ind"/>
+    <sdef n="itg"/>
+    <sdef n="det"/>
+    <sdef n="dem"/>
+    <sdef n="def"/>
+    <sdef n="cnjcoo"/>
+    <sdef n="cnjsub"/>
+    <sdef n="cnjadv"/>
+    <sdef n="nt"/>
+    <sdef n="vbser"/>
+    <sdef n="vbhaver"/>
+    <sdef n="vblex"/>
+    <sdef n="vbmod"/>
+    <sdef n="inf"/>
+    <sdef n="ger"/>
+    <sdef n="pp"/>
+    <sdef n="pri"/>
+    <sdef n="p1"/>
+    <sdef n="p2"/>
+    <sdef n="p3"/>
+    <sdef n="pii"/>
+    <sdef n="ifi"/>
+    <sdef n="fti"/>
+    <sdef n="cni"/>
+    <sdef n="prs"/>
+    <sdef n="pis"/>
+    <sdef n="fts"/>
+    <sdef n="imp"/>
+    <sdef n="pos"/>
+    <sdef n="sp"/>
+    <sdef n="ref"/>
+    <sdef n="sup"/>
+    <sdef n="ord"/>
+    <sdef n="qnt"/>
+    <sdef n="num"/>
+    <sdef n="pron"/>
+    <sdef n="ij"/>
+    <sdef n="sent"/>
+    <sdef n="cm"/>
+    <sdef n="lpar"/>
+    <sdef n="rpar"/>
+    <sdef n="lquest"/>
+    <sdef n="web"/>
+    <sdef n="apos"/>
+    <sdef n="percent"/>
+    <sdef n="guio"/>
+    <sdef n="past"/>
+    <sdef n="sep"/>
+    <sdef n="sint"/>
+    <sdef n="email"/>
+    <sdef n="obj"/>
+    <sdef n="subj"/>
+    <sdef n="subs"/>
+    <sdef n="pprs"/>
+    <sdef n="url"/>
+    <sdef n="gen"/>
+    <sdef n="vbdo"/>
+    <sdef n="comp"/>
+    <sdef n="pres"/>
+    <sdef n="vaux"/>
+    <sdef n="sym"/>
+    <sdef n="ND"/>
+    <sdef n="GD"/>
+    <sdef n="mon"/>
+  </sdefs>
+  
+  <pardefs/>
+  <section id="main" type="standard">
+    <e><p><l>calf<s n="n"/></l><r>cauf<s n="n"/></r></p></e>
+    <e><p><l>foot<s n="n"/></l><r>fit<s n="n"/></r></p></e>
+    <e><p><l>eye<s n="n"/></l><r>ee<s n="n"/></r></p></e>
+    <e><p><l>mouse<s n="n"/></l><r>moose<s n="n"/></r></p></e>
+    <e><p><l>louse<s n="n"/></l><r>loose<s n="n"/></r></p></e>
+    <e><p><l>goose<s n="n"/></l><r>guiss<s n="n"/></r></p></e>
+    <e><p><l>shoe<s n="n"/></l><r>shae<s n="n"/></r></p></e>
+    <e><p><l>woman<s n="n"/></l><r>wumman<s n="n"/></r></p></e>
+    <e><p><l>tooth<s n="n"/></l><r>tuith<s n="n"/></r></p></e>
+    <e><p><l>man<s n="n"/></l><r>man<s n="n"/></r></p></e>
+    <e><p><l>language<s n="n"/></l><r>leid<s n="n"/></r></p></e>
+    <e><p><l>hobby<s n="n"/></l><r>habby<s n="n"/></r></p></e>
+    <e><p><l>cow<s n="n"/></l><r>cou<s n="n"/></r></p></e>
+    <e><p><l>article<s n="n"/></l><r>airticle<s n="n"/></r></p></e>
+    <e><p><l>category<s n="n"/></l><r>category<s n="n"/></r></p></e>
+    <e><p><l>football<s n="n"/></l><r>fitbaw<s n="n"/></r></p></e>
+    <e><p><l>visitor<s n="n"/></l><r>veesitor<s n="n"/></r></p></e>
+    <e><p><l>economy<s n="n"/></l><r>economy<s n="n"/></r></p></e>
+    <e><p><l>user<s n="n"/></l><r>uiser<s n="n"/></r></p></e>
+    <e><p><l>experiment<s n="n"/></l><r>experiment<s n="n"/></r></p></e>
+    <e><p><l>animal<s n="n"/></l><r>ainimal<s n="n"/></r></p></e>
+    <e><p><l>culture<s n="n"/></l><r>cultur<s n="n"/></r></p></e>
+    <e><p><l>stone<s n="n"/></l><r>stane<s n="n"/></r></p></e>
+    <e><p><l>word<s n="n"/></l><r>wird<s n="n"/></r></p></e>
+    <e><p><l>copyright<s n="n"/></l><r>copyricht<s n="n"/></r></p></e>
+    <e><p><l>home<s n="n"/></l><r>hame<s n="n"/></r></p></e>
+    <e><p><l>child<s n="n"/></l><r>bairn<s n="n"/></r></p></e>
+    <e><p><l>school<b/>child<s n="n"/></l><r>schuil-bairn<s n="n"/></r></p></e>
+    <e><p><l>encyclopaedia<s n="n"/></l><r>encyclopædia<s n="n"/></r></p></e>
+    <e r="LR"><p><l>encyclopedia<s n="n"/></l><r>encyclopædia<s n="n"/></r></p></e>
+    <e><p><l>Wikipedia<s n="n"/></l><r>Wikipædia<s n="n"/></r></p></e>
+    <e><p><l>edition<s n="n"/></l><r>edeetion<s n="n"/></r></p></e>
+    <e><p><l>lesson<s n="n"/></l><r>lesson<s n="n"/></r></p></e>
+    <e><p><l>game<s n="n"/></l><r>gemme<s n="n"/></r></p></e>
+    <e><p><l>outcome<s n="n"/></l><r>ootcome<s n="n"/></r></p></e>
+    <e><p><l>challenge<s n="n"/></l><r>chailenge<s n="n"/></r></p></e>
+    <e><p><l>thought<s n="n"/></l><r>thocht<s n="n"/></r></p></e>
+    <e><p><l>skill<s n="n"/></l><r>skeel<s n="n"/></r></p></e>
+    <e><p><l>sport<s n="n"/></l><r>sport<s n="n"/></r></p></e>
+    <e><p><l>member<s n="n"/></l><r>memmer<s n="n"/></r></p></e>
+    <e r="RL"><p><l>member<s n="n"/></l><r>member<s n="n"/></r></p></e>
+    <e><p><l>bank<s n="n"/></l><r>baunk<s n="n"/></r></p></e>
+    <e><p><l>education<s n="n"/></l><r>eddication<s n="n"/></r></p></e>
+    <e><p><l>system<s n="n"/></l><r>seestem<s n="n"/></r></p></e>
+    <e><p><l>movement<s n="n"/></l><r>muivement<s n="n"/></r></p></e>
+    <e><p><l>country<s n="n"/></l><r>kintra<s n="n"/></r></p></e>
+    <e><p><l>implementation<s n="n"/></l><r>implementation<s n="n"/></r></p></e>
+    <e><p><l>act<s n="n"/></l><r>act<s n="n"/></r></p></e>
+    <e><p><l>city<s n="n"/></l><r>ceity<s n="n"/></r></p></e>
+    <e r="RL"><p><l>city<s n="n"/></l><r>ceety<s n="n"/></r></p></e>
+    <e><p><l>fly<s n="n"/></l><r>flei<s n="n"/></r></p></e>
+    <e><p><l>kingdom<s n="n"/></l><r>kinrick<s n="n"/></r></p></e>
+    <e><p><l>right<s n="n"/></l><r>richt<s n="n"/></r></p></e>
+    <e><p><l>university<s n="n"/></l><r>varsitie<s n="n"/></r></p></e>
+    <e><p><l>literature<s n="n"/></l><r>leeteratur<s n="n"/></r></p></e>
+    <e><p><l>chapter<s n="n"/></l><r>chaipter<s n="n"/></r></p></e>
+    <e><p><l>town<s n="n"/></l><r>toun<s n="n"/></r></p></e>
+    <e><p><l>hand<s n="n"/></l><r>haun<s n="n"/></r></p></e>
+    <e><p><l>ticket<s n="n"/></l><r>ticket<s n="n"/></r></p></e>
+    <e r="RL"><p><l>child<s n="n"/></l><r>wean<s n="n"/></r></p></e>
+    
+    <e><p><l>where<s n="adv"/><s n="itg"/></l><r>whaur<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>never<s n="adv"/></l><r>niver<s n="adv"/></r></p></e>
+    <e><p><l>maybe<s n="adv"/></l><r>mebbe<s n="adv"/></r></p></e>
+    <e><p><l>tonight<s n="adv"/></l><r>the<b/>nicht<s n="adv"/></r></p></e>
+    <e><p><l>today<s n="adv"/></l><r>the<b/>day<s n="adv"/></r></p></e>
+    <e><p><l>not<s n="adv"/></l><r>na<s n="adv"/></r></p></e>
+    <e><p><l>at<b/>the<b/>moment<s n="adv"/></l><r>the<b/>nou<s n="adv"/></r></p></e>
+    <e><p><l>tomorrow<s n="adv"/></l><r>the<b/>morn<s n="adv"/></r></p></e>
+    <e><p><l>more<s n="adv"/></l><r>mair<s n="adv"/></r></p></e>
+    <e><p><l>most<s n="adv"/></l><r>maist<s n="adv"/></r></p></e>
+    <e><p><l>throughout<s n="adv"/></l><r>ootthrou<s n="adv"/></r></p></e>
+    <e><p><l>onwards<s n="adv"/></l><r>onwarts<s n="adv"/></r></p></e>
+    <e><p><l>also<s n="adv"/></l><r>an<b/>aw<s n="adv"/></r></p></e>
+    <e><p><l>since<s n="adv"/></l><r>syne<s n="adv"/></r></p></e>
+    
+    <e><p><l>enough<s n="det"/><s n="qnt"/></l><r>eneuch<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>more<s n="det"/><s n="qnt"/></l><r>mair<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>most<s n="det"/><s n="qnt"/></l><r>maist<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>what<s n="det"/><s n="itg"/></l><r>whit<s n="det"/><s n="itg"/></r></p></e>
+    <e><p><l>the<s n="det"/><s n="def"/></l><r>the<s n="det"/><s n="def"/></r></p></e>
+    <e><p><l>a<s n="det"/><s n="ind"/></l><r>a<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>another<s n="det"/><s n="ind"/></l><r>anither<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>other<s n="det"/><s n="ind"/></l><r>ither<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>her<s n="det"/><s n="pos"/></l><r>her<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>his<s n="det"/><s n="pos"/></l><r>his<s n="det"/><s n="pos"/></r></p></e>
+    <e r="RL"><p><l>my<s n="det"/><s n="pos"/></l><r>my<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>my<s n="det"/><s n="pos"/></l><r>ma<s n="det"/><s n="pos"/></r></p></e>
+    
+    <e><p><l>very<s n="preadv"/></l><r>verra<s n="preadv"/></r></p></e>
+    <e><p><l>more<s n="preadv"/></l><r>mair<s n="preadv"/></r></p></e>
+    <e><p><l>most<s n="preadv"/></l><r>maist<s n="preadv"/></r></p></e>
+
+    <e><p><l>and<s n="cnjcoo"/></l><r>an<s n="cnjcoo"/></r></p></e>
+    <e><p><l>or<s n="cnjcoo"/></l><r>or<s n="cnjcoo"/></r></p></e>
+    
+    <e><p><l>after<s n="cnjadv"/></l><r>efter<s n="cnjadv"/></r></p></e>
+    <e><p><l>as<b/>well<b/>as<s n="cnjadv"/></l><r>as<b/>weel<b/>as<s n="cnjadv"/></r></p></e>
+
+    <e><p><l>to<s n="pr"/></l><r>tae<s n="pr"/></r></p></e>
+    <e><p><l>of<s n="pr"/></l><r>o<s n="pr"/></r></p></e>
+    <e><p><l>from<s n="pr"/></l><r>frae<s n="pr"/></r></p></e>
+    <e><p><l>out<s n="pr"/></l><r>oot<s n="pr"/></r></p></e>
+    <e><p><l>at<s n="pr"/></l><r>at<s n="pr"/></r></p></e>
+    <e><p><l>in<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+    <e><p><l>with<s n="pr"/></l><r>wi<s n="pr"/></r></p></e>
+    <e><p><l>in<b/>order<b/>to<s n="pr"/></l><r>for<b/>tae<s n="pr"/></r></p></e>
+    <e><p><l>more<b/>than<s n="pr"/></l><r>mair<b/>nor<s n="pr"/></r></p></e>
+    <e><p><l>throughout<s n="pr"/></l><r>ootthrou<s n="pr"/></r></p></e>
+    <e><p><l>for<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
+    <e><p><l>since<s n="pr"/></l><r>syne<s n="pr"/></r></p></e>
+
+    <e><p><l>bright<s n="adj"/><s n="sint"/></l><r>bricht<s n="adj"/></r></p></e>
+    <e><p><l>poor<s n="adj"/><s n="sint"/></l><r>puir<s n="adj"/></r></p></e>
+    <e><p><l>great<s n="adj"/><s n="sint"/></l><r>greet<s n="adj"/></r></p></e>
+
+    <e><p><l>scientific<s n="adj"/></l><r>scienteefic<s n="adj"/></r></p></e>
+    <e><p><l>natural<s n="adj"/></l><r>naitural<s n="adj"/></r></p></e>
+    <e><p><l>official<s n="adj"/></l><r>offeecial<s n="adj"/></r></p></e>
+    <e><p><l>physical<s n="adj"/></l><r>pheesical<s n="adj"/></r></p></e>
+    <e><p><l>important<s n="adj"/></l><r>important<s n="adj"/></r></p></e>
+    <e><p><l>classical<s n="adj"/></l><r>clessical<s n="adj"/></r></p></e>
+    <e><p><l>capital<s n="adj"/></l><r>caipital<s n="adj"/></r></p></e>
+    <e><p><l>national<s n="adj"/></l><r>naitional<s n="adj"/></r></p></e>
+    <e><p><l>scottish<s n="adj"/></l><r>scots<s n="adj"/></r></p></e>
+    <e><p><l>irish<s n="adj"/></l><r>erse<s n="adj"/></r></p></e>
+    
+    <e><p><l>nice<s n="adj"/><s n="sint"/></l><r>braw<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>good<s n="adj"/><s n="sint"/></l><r>guid<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>bad<s n="adj"/><s n="sint"/></l><r>bad<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>straight<s n="adj"/><s n="sint"/></l><r>straucht<s n="adj"/><s n="sint"/></r></p></e>
+
+    <e><p><l>bring<s n="vblex"/></l><r>bring<s n="vblex"/></r></p></e>
+    <e><p><l>bury<s n="vblex"/></l><r>bury<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>bury<s n="vblex"/></l><r>bery<s n="vblex"/></r></p></e>
+    <e><p><l>go<s n="vblex"/></l><r>gang<s n="vblex"/></r></p></e>
+    <e><p><l>bow<s n="vblex"/></l><r>boo<s n="vblex"/></r></p></e>
+    <e><p><l>blather<s n="vblex"/></l><r>blether<s n="vblex"/></r></p></e>
+    <e><p><l>know<s n="vblex"/></l><r>ken<s n="vblex"/></r></p></e>
+    <e><p><l>join<s n="vblex"/></l><r>jyne<s n="vblex"/></r></p></e>
+    <e><p><l>look<s n="vblex"/></l><r>leuk<s n="vblex"/></r></p></e>
+    <e><p><l>call<s n="vblex"/></l><r>caa<s n="vblex"/></r></p></e>
+    <e><p><l>die<s n="vblex"/></l><r>dei<s n="vblex"/></r></p></e>
+    <e><p><l>forget<s n="vblex"/></l><r>forgit<s n="vblex"/></r></p></e>
+    <e><p><l>get<s n="vblex"/></l><r>git<s n="vblex"/></r></p></e>
+    <e><p><l>freeze<s n="vblex"/></l><r>freeze<s n="vblex"/></r></p></e>
+    <e><p><l>give<s n="vblex"/></l><r>gie<s n="vblex"/></r></p></e>
+    <e><p><l>help<s n="vblex"/></l><r>gie<g><b/>a<b/>haun</g><s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>consist<s n="vblex"/></l><r>conseest<s n="vblex"/></r></p></e>
+
+    <e><p><l>have<s n="vbhaver"/></l><r>hae<s n="vbhaver"/></r></p></e>
+    <e><p><l>be<s n="vbser"/></l><r>be<s n="vbset"/></r></p></e>
+    <e><p><l>do<s n="vbdo"/></l><r>dae<s n="vbdo"/></r></p></e>
+    <e><p><l>do<s n="vblex"/></l><r>dae<s n="vblex"/></r></p></e>
+    <e><p><l>can<s n="vaux"/></l><r>can<s n="vaux"/></r></p></e>
+    <e><p><l>shall<s n="vaux"/></l><r>sall<s n="vaux"/></r></p></e>
+    <e><p><l>would<s n="vaux"/></l><r>wad<s n="vaux"/></r></p></e>
+    <e><p><l>will<s n="vaux"/></l><r>will<s n="vaux"/></r></p></e>
+    <e><p><l>may<s n="vaux"/></l><r>mey<s n="vaux"/></r></p></e>
+    <e><p><l>must<s n="vaux"/></l><r>maun<s n="vaux"/></r></p></e>
+    <e><p><l>could<s n="vaux"/></l><r>coud<s n="vaux"/></r></p></e>
+    <e><p><l>might<s n="vaux"/></l><r>micht<s n="vaux"/></r></p></e>
+    <e><p><l>should<s n="vaux"/></l><r>shoud<s n="vaux"/></r></p></e>
+    <e><p><l>have<g><b/>to</g><s n="vbmod"/></l><r>buid<s n="vaux"/></r></p></e>
+    
+    <e><p><l>Barcelona<s n="np"/></l><r>Barcelona<s n="np"/></r></p></e>
+    <e><p><l>Greece<s n="np"/></l><r>Greece<s n="np"/></r></p></e>
+    <e><p><l>Spain<s n="np"/></l><r>Spain<s n="np"/></r></p></e>
+    <e><p><l>Scotland<s n="np"/></l><r>Scotland<s n="np"/></r></p></e>
+    <e><p><l>Sparta<s n="np"/></l><r>Sparta<s n="np"/></r></p></e>
+    <e><p><l>England<s n="np"/></l><r>Ingland<s n="np"/></r></p></e>
+    <e><p><l>United<b/>Kingdom<s n="np"/></l><r>Unitit<b/>Kinrick<s n="np"/></r></p></e>
+    <e><p><l>London<s n="np"/></l><r>Lunnon<s n="np"/></r></p></e>
+    <e><p><l>Northern<b/>Ireland<s n="np"/></l><r>Northren<b/>Ireland<s n="np"/></r></p></e>
+    <e><p><l>Ireland<s n="np"/></l><r>Ireland<s n="np"/></r></p></e>
+    <e r="RL"><p><l>Northern<b/>Ireland<s n="np"/></l><r>Northren<b/>Irland<s n="np"/></r></p></e>
+    <e r="RL"><p><l>Ireland<s n="np"/></l><r>Irland<s n="np"/></r></p></e>
+    <e><p><l>North<b/>Sea<s n="np"/></l><r>German<b/>Ocean<s n="np"/></r></p></e>
+    <e><p><l>Catalonia<s n="np"/></l><r>Catalonie<s n="np"/></r></p></e>
+    <e><p><l>France<s n="np"/></l><r>Fraunce<s n="np"/></r></p></e>
+    <e><p><l>English<b/>Channel<s n="np"/></l><r>Inglis<b/>Chainnel<s n="np"/></r></p></e>
+    <e><p><l>Irish<b/>Sea<s n="np"/></l><r>Erse<b/>Sea<s n="np"/></r></p></e>
+    <e><p><l>Westminster<s n="np"/></l><r>Wastmeenster<s n="np"/></r></p></e>
+    <e><p><l>Russia<s n="np"/></l><r>Roushie<s n="np"/></r></p></e>
+  </section>
+</dictionary>

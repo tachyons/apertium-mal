@@ -1,0 +1,1922 @@
+<dictionary>
+  <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZÇabcdefghijklmnopqrstuvwxyzç</alphabet>
+  <sdefs>
+    <sdef n="n"      c="Noun"/>
+    <sdef n="np"     c="Proper noun"/>
+    <sdef n="adj"    c="Adjective"/>
+    <sdef n="det"    c="Determiner"/>
+    <sdef n="adv"    c="Adverb"/>
+    <sdef n="pr"     c="Preposition"/>
+    <sdef n="prn"    c="Pronoun"/>
+    <sdef n="cnjcoo" c="Co-ordinating conjunction"/>
+    <sdef n="cnjsub" c="Sub-ordinating conjunction"/>
+    <sdef n="vblex"  c="Verb"/>
+
+    <sdef n="ant"    c="Anthroponym"/>
+
+    <sdef n="subj"   c="Subject"/>
+    <sdef n="obj"    c="Object"/>
+
+    <sdef n="comp"   c="Comparative"/>
+
+    <sdef n="p1"     c="First person"/>
+    <sdef n="p2"     c="Second person"/>
+    <sdef n="p3"     c="Third person"/>
+
+    <sdef n="mf"     c="Masculine + feminine"/>
+    <sdef n="m"      c="Masculine"/>
+    <sdef n="f"      c="Feminine"/>
+
+    <sdef n="sp"     c="Singular + plural"/>
+    <sdef n="sg"     c="Singular"/>
+    <sdef n="pl"     c="Plural"/>
+
+    <sdef n="ind"    c="Indefinite"/>
+    <sdef n="pos"    c="Possessive"/>
+    <sdef n="dem"    c="Determiner"/>
+  </sdefs>
+  <pardefs>
+    <!-- Mutations -->
+
+    <pardef n="initial-o">
+      <e r="LR">
+        <p>
+          <l>o</l>
+          <r>o</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>h-o</l>
+          <r>o</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ho</l>
+          <r>o</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>o</l>
+          <r>o</r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="initial-f">
+      <e r="LR">
+        <p>
+          <l>f</l>
+          <r>f</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>v</l>
+          <r>f</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>f</l>
+          <r>f</r>
+        </p>
+      </e>
+    </pardef>
+    
+    <pardef n="initial-c">
+      <e r="LR">
+        <p>
+          <l>c</l>
+          <r>c</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ch</l>
+          <r>c</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>g</l>
+          <r>c</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>c</l>
+          <r>c</r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="initial-th">
+      <e r="LR">
+        <p>
+          <l>th</l>
+          <r>th</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>h</l>
+          <r>th</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>dh</l>
+          <r>th</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>th</l>
+          <r>th</r>
+        </p>
+      </e>
+    </pardef>
+  
+     <pardef n="initial-u">
+      <e r="LR">
+        <p>
+          <l>u</l>
+          <r>u</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>hu</l>
+          <r>u</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>u</l>
+          <r>u</r>
+        </p>
+      </e>
+    </pardef>
+  
+    <pardef n="initial-s">
+      <e r="LR">
+        <p>
+          <l>s</l>
+          <r>s</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>h</l>
+          <r>s</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>t</l>
+          <r>s</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>s</l>
+          <r>s</r>
+        </p>
+      </e>
+    </pardef>
+
+
+    <pardef n="initial-d">
+      <e r="LR">
+        <p>
+          <l>d</l>
+          <r>d</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>gh</l>
+          <r>d</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>w</l>
+          <r>d</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>n</l>
+          <r>d</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>d</l>
+          <r>d</r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="initial-k">
+      <e r="LR">
+        <p>
+          <l>k</l>
+          <r>k</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ch</l>
+          <r>k</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>g</l>
+          <r>k</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>k</l>
+          <r>k</r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="initial-g">
+      <e r="LR">
+        <p>
+          <l>g</l>
+          <r>g</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>gh</l>
+          <r>g</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ng</l>
+          <r>g</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>g</l>
+          <r>g</r>
+        </p>
+      </e>
+    </pardef>
+ 
+    <pardef n="initial-b">
+      <e r="LR">
+        <p>
+          <l>b</l>
+          <r>b</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>v</l>
+          <r>b</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>w</l>
+          <r>b</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>m</l>
+          <r>b</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>b</l>
+          <r>b</r>
+        </p>
+      </e>
+    </pardef>
+
+
+
+
+ 
+    <pardef n="initial-B">
+      <e r="LR">
+        <p>
+          <l>B</l>
+          <r>B</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>V</l>
+          <r>B</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>W</l>
+          <r>B</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>M</l>
+          <r>B</r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>B</l>
+          <r>B</r>
+        </p>
+      </e>
+    </pardef>
+
+    <!-- Pronouns -->
+
+    <pardef n="prsubj__prn">
+      <e>
+        <p>
+          <l>mee</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oo</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eh</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ee</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>shin</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>shiu</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ad</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <!-- Proper nouns -->
+
+    <pardef n="Breeshey__np">
+      <e>
+        <p>
+          <l/>
+          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <!-- Nouns -->
+
+    <pardef n="/ben__n">
+      <e>
+        <par n="initial-b"/>
+        <p>
+          <l>en</l>
+          <r>en<s n="n"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <par n="initial-b"/>
+        <p>
+          <l>ranne</l>
+          <r>en<s n="n"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="ree__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>aghyn</l>
+          <r><s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="oie__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ghyn</l>
+          <r><s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="spyrryd__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>yn</l>
+          <r><s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="ushag__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>yn</l>
+          <r><s n="n"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="goa/yr__n">
+      <e>
+        <p>
+          <l>yr</l>
+          <r>yr<s n="n"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r>yr<s n="n"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="cabb/yl__n">
+      <e>
+        <p>
+          <l>yl</l>
+          <r>yl<s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>il</l>
+          <r>yl<s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="dorry/s__n">
+      <e>
+        <p>
+          <l>s</l>
+          <r>s<s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>n</l>
+          <r>s<s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+    <pardef n="d/ooinney__n">
+      <e>
+        <p>
+          <l>ooinney</l>
+          <r>ooinney<s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>einey</l>
+          <r>ooinney<s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="sl/ieau__n">
+      <e>
+        <p>
+          <l>ieau</l>
+          <r>ieau<s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>eityn</l>
+          <r>ieau<s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ieyn</l>
+          <r>ieau<s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="k/eyrrey__n">
+      <e>
+        <p>
+          <l>eyrrey</l>
+          <r>eyrrey<s n="n"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irree</l>
+          <r>eyrrey<s n="n"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="baat/ey__n">
+      <e>
+        <p>
+          <l>ey</l>
+          <r>ey<s n="n"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>yn</l>
+          <r>ey<s n="n"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="usht/ey__n">
+      <e>
+        <p>
+          <l>ey</l>
+          <r>ey<s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>aghyn</l>
+          <r>ey<s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="f/er__n">
+      <e>
+        <p>
+          <l>er</l>
+          <r>er<s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r>er<s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="k/ayt__n">
+      <e>
+        <p>
+          <l>ayt</l>
+          <r>ayt<s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iyt</l>
+          <r>ayt<s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+    <!-- Adjectives -->
+
+    <pardef n="/mie__adj">
+      <e>
+        <p>
+          <l>mie</l>
+          <r>mie<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>share</l>
+          <r>mie<s n="adj"/><s n="comp"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/olk__adj">
+      <e>
+        <p>
+          <l>olk</l>
+          <r>olk<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>smessey</l>
+          <r>olk<s n="adj"/><s n="comp"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/beg__adj">
+      <e>
+        <p>
+          <l>beg</l>
+          <r>beg<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sloo</l>
+          <r>beg<s n="adj"/><s n="comp"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/mooar__adj">
+      <e>
+        <p>
+          <l>mooar</l>
+          <r>mooar<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>smoo</l>
+          <r>mooar<s n="adj"/><s n="comp"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/ymmodee__adj">
+      <e>
+        <p>
+          <l>ymmodee</l>
+          <r>ymmodee<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>slee</l>
+          <r>ymmodee<s n="adj"/><s n="comp"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="/mennick__adj">
+      <e>
+        <p>
+          <l>mennick</l>
+          <r>mennick<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>smenkey</l>
+          <r>mennick<s n="adj"/><s n="comp"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/faggys__adj">
+      <e>
+        <p>
+          <l>faggys</l>
+          <r>faggys<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sniessey</l>
+          <r>faggys<s n="adj"/><s n="comp"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/leah__adj">
+      <e>
+        <p>
+          <l>leah</l>
+          <r>leah<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sleaie</l>
+          <r>leah<s n="adj"/><s n="comp"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/foddey__adj">
+      <e>
+        <p>
+          <l>foddey</l>
+          <r>foddey<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sodjey</l>
+          <r>foddey<s n="adj"/><s n="comp"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/lhean__adj">
+      <e>
+        <p>
+          <l>lhean</l>
+          <r>lhean<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>shlea</l>
+          <r>lhean<s n="adj"/><s n="comp"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/aeg__adj">
+      <e>
+        <p>
+          <l>aeg</l>
+          <r>aeg<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>saa</l>
+          <r>aeg<s n="adj"/><s n="comp"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/shenn__adj">
+      <e>
+        <p>
+          <l>shenn</l>
+          <r>shenn<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>shinney</l>
+          <r>shenn<s n="adj"/><s n="comp"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/lajer__adj">
+      <e>
+        <p>
+          <l>lajer</l>
+          <r>lajer<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>stroshey</l>
+          <r>lajer<s n="adj"/><s n="comp"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/trome__adj">
+      <e>
+        <p>
+          <l>trome</l>
+          <r>trome<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>strimmey</l>
+          <r>trome<s n="adj"/><s n="comp"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/ard__adj">
+      <e>
+        <p>
+          <l>ard</l>
+          <r>ard<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>syrjey</l>
+          <r>ard<s n="adj"/><s n="comp"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/aashagh__adj">
+      <e>
+        <p>
+          <l>aashagh</l>
+          <r>aashagh<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>sassey</l>
+          <r>aashagh<s n="adj"/><s n="comp"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/chiu__adj">
+      <e>
+        <p>
+          <l>chiu</l>
+          <r>chiu<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s'chee</l>
+          <r>chiu<s n="adj"/><s n="comp"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/çheh__adj">
+      <e>
+        <p>
+          <l>çheh</l>
+          <r>çheh<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>schoe</l>
+          <r>çheh<s n="adj"/><s n="comp"/></r>
+        </p>
+      </e>
+    </pardef>
+    
+    <pardef n="doo__adj">
+      <e>
+        <p>
+          <l/>
+          <r><s n="adj"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="ass__adv">
+      <e>
+        <p>
+          <l/>
+          <r><s n="adv"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <!-- Prepositions -->
+
+    <pardef n="cur__pr">
+      <e>
+        <p>
+          <l/>
+          <r><s n="pr"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="ayn/s__pr">
+      <e>
+        <p>
+          <l>s</l>
+          <r>s<s n="pr"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ym</l>
+          <r>s<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>yd</l>
+          <r>s<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r>s<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>jee</l>
+          <r>s<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>dooin</l>
+          <r>s<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>diu</l>
+          <r>s<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>daue</l>
+          <r>s<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="ass__pr">
+      <e>
+        <p>
+          <l/>
+          <r><s n="pr"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ym</l>
+          <r><s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>yd</l>
+          <r><s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>jeh</l>
+          <r><s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>jee</l>
+          <r><s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>dooin</l>
+          <r><s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>diu</l>
+          <r><s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>daue</l>
+          <r><s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+    <pardef n="/da__pr">
+      <e>
+        <p>
+          <l>da</l>
+          <r>da<s n="pr"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>dou</l>
+          <r>da<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>dhyt</l>
+          <r>da<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>da</l>
+          <r>da<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>jee</l>
+          <r>da<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>dooin</l>
+          <r>da<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>diu</l>
+          <r>da<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>daue</l>
+          <r>da<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/er__pr">
+      <e>
+        <p>
+          <l>er</l>
+          <r>er<s n="pr"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>orrym</l>
+          <r>er<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ort</l>
+          <r>er<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>er</l>
+          <r>er<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>urree</l>
+          <r>er<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>orrin</l>
+          <r>er<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>erriu</l>
+          <r>er<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>orroo</l>
+          <r>er<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+    <pardef n="/ec__pr">
+      <e>
+        <p>
+          <l>ec</l>
+          <r>ec<s n="pr"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>aym</l>
+          <r>ec<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ayd</l>
+          <r>ec<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>echey</l>
+          <r>ec<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eck</l>
+          <r>ec<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ain</l>
+          <r>ec<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eu</l>
+          <r>ec<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oc</l>
+          <r>ec<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="f/o__pr">
+      <e>
+        <p>
+          <l>o</l>
+          <r>o<s n="pr"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oym</l>
+          <r>o<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oyd</l>
+          <r>o<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>o</l>
+          <r>o<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oee</l>
+          <r>o<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oin</l>
+          <r>o<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eue</l>
+          <r>o<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oue</l>
+          <r>o<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="h/ug__pr">
+      <e>
+        <p>
+          <l>ug</l>
+          <r>ug<s n="pr"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ym</l>
+          <r>ug<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ood</l>
+          <r>ug<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>uggey</l>
+          <r>ug<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>uic</l>
+          <r>ug<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ooin</l>
+          <r>ug<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iu</l>
+          <r>ug<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>uc</l>
+          <r>ug<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="j/eh__pr">
+      <e>
+        <p>
+          <l>eh</l>
+          <r>eh<s n="pr"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eem</l>
+          <r>eh<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eed</l>
+          <r>eh<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eh</l>
+          <r>eh<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ee</l>
+          <r>eh<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>in</l>
+          <r>eh<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iu</l>
+          <r>eh<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eu</l>
+          <r>eh<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="l/esh__pr">
+      <e>
+        <p>
+          <l>esh</l>
+          <r>esh<s n="pr"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hiam</l>
+          <r>esh<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hiat</l>
+          <r>esh<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>esh</l>
+          <r>esh<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hee</l>
+          <r>esh<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hinn</l>
+          <r>esh<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hiu</l>
+          <r>esh<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hieu</l>
+          <r>esh<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="li/orish__pr">
+      <e>
+        <p>
+          <l>orish</l>
+          <r>orish<s n="pr"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>orym</l>
+          <r>orish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ort</l>
+          <r>orish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>orish</l>
+          <r>orish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oree</l>
+          <r>orish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>orin</l>
+          <r>orish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eriu</l>
+          <r>orish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oroo</l>
+          <r>orish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="m/arish__pr">
+      <e>
+        <p>
+          <l>arish</l>
+          <r>arish<s n="pr"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>arym</l>
+          <r>arish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ayrt</l>
+          <r>arish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>arish</l>
+          <r>arish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>aree</l>
+          <r>arish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>arin</l>
+          <r>arish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eriu</l>
+          <r>arish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>aroo</l>
+          <r>arish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="r/ish__pr">
+      <e>
+        <p>
+          <l>ish</l>
+          <r>ish<s n="pr"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hym</l>
+          <r>ish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hyt</l>
+          <r>ish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ish</l>
+          <r>ish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>'ee</l>
+          <r>ish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ooin</l>
+          <r>ish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iu</l>
+          <r>ish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oo</l>
+          <r>ish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="r/oish__pr">
+      <e>
+        <p>
+          <l>oish</l>
+          <r>oish<s n="pr"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oym</l>
+          <r>oish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oyd</l>
+          <r>oish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oish</l>
+          <r>oish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>hymbee</l>
+          <r>oish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oee</l>
+          <r>oish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oin</l>
+          <r>oish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>hymbiu</l>
+          <r>oish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eue</l>
+          <r>oish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>hymboo</l>
+          <r>oish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oue</l>
+          <r>oish<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+    <pardef n="v/eih__pr">
+      <e>
+        <p>
+          <l>eih</l>
+          <r>eih<s n="pr"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oym</l>
+          <r>eih<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oyd</l>
+          <r>eih<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eih</l>
+          <r>eih<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oee</l>
+          <r>eih<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oin</l>
+          <r>eih<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eue</l>
+          <r>eih<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oue</l>
+          <r>eih<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <!-- Conjunctions -->
+
+    <pardef n="as__cnjcoo">
+      <e>
+        <p>
+          <l/>
+          <r><s n="cnjcoo"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="ga__cnjsub">
+      <e>
+        <p>
+          <l/>
+          <r><s n="cnjsub"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+    <!-- Determiners -->
+    
+    <pardef n="shoh__det">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="e__det">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="nyn__det">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/yn__det">
+      <e r="LR">
+        <p>
+          <l>yn</l>
+          <r>yn<s n="det"/><s n="ind"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>y</l>
+          <r>yn<s n="det"/><s n="ind"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>yn</l>
+          <r>yn<s n="det"/><s n="ind"/><s n="sg"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>ny</l>
+          <r>yn<s n="det"/><s n="ind"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+  </pardefs>
+  <section id="main" type="standard">
+    <!-- Pronouns -->
+    <e lm="personal"><i/><par n="prsubj__prn"/></e>
+
+    <!-- Prepositions -->
+    <e lm="ec"><i/><par n="/ec__pr"/></e>
+    <e lm="ass"><i>ass</i><par n="ass__pr"/></e>
+    <e lm="ayns"><i>ayn</i><par n="ayn/s__pr"/></e>
+    <e lm="da"><i/><par n="/da__pr"/></e>
+    <e lm="er"><i/><par n="/er__pr"/></e>
+    <e lm="fo"><i>f</i><par n="f/o__pr"/></e>
+    <e lm="hug"><i>h</i><par n="h/ug__pr"/></e>
+    <e lm="jeh"><i>j</i><par n="j/eh__pr"/></e>
+    <e lm="lesh"><i>l</i><par n="l/esh__pr"/></e>
+    <e lm="liorish"><i>li</i><par n="li/orish__pr"/></e>
+    <e lm="marish"><i>m</i><par n="m/arish__pr"/></e>
+    <e lm="rish"><i>r</i><par n="r/ish__pr"/></e>
+    <e lm="roish"><i>r</i><par n="r/oish__pr"/></e>
+    <e lm="veih"><i>v</i><par n="v/eih__pr"/></e>
+
+    <e lm="cur"><i>cur</i><par n="cur__pr"/></e>
+
+    <!-- Determiners -->
+    <e lm="yn"><i/><par n="/yn__det"/></e>
+
+    <e lm="shoh"><i>shoh</i><par n="shoh__det"/></e>
+    <e lm="shen"><i>shen</i><par n="shoh__det"/></e>
+    <e lm="shid"><i>shid</i><par n="shoh__det"/></e>
+
+    <e lm="my"><i>my</i><par n="e__det"/></e>
+    <e lm="dty"><i>dty</i><par n="e__det"/></e>
+    <e lm="e"><i>e</i><par n="e__det"/></e>
+
+    <e lm="nyn"><i>nyn</i><par n="nyn__det"/></e>
+
+    <!-- Conjunctions -->
+    <e lm="as"><i>as</i><par n="as__cnjcoo"/></e>
+    <e lm="agh"><i>agh</i><par n="as__cnjcoo"/></e>
+    <e lm="ny"><i>ny</i><par n="as__cnjcoo"/></e>
+
+    <e lm="ga"><i>ga</i><par n="ga__cnjsub"/></e>
+    <e lm="my"><i>my</i><par n="ga__cnjsub"/></e>
+    <e lm="tra"><i>tra</i><par n="ga__cnjsub"/></e>
+    <e lm="derrey"><i>derrey</i><par n="ga__cnjsub"/></e>
+    <e lm="dy"><i>dy</i><par n="ga__cnjsub"/></e>
+    <e lm="nagh"><i>nagh</i><par n="ga__cnjsub"/></e>
+
+    <!-- Nouns -->
+    <e lm="ben"><i/><par n="/ben__n"/></e>
+    <e lm="kayt"><par n="initial-k"/><i/><par n="k/ayt__n"/></e>
+    <e lm="keyrrey"><par n="initial-k"/><i/><par n="k/eyrrey__n"/></e>
+    <e lm="goayr"><par n="initial-g"/><i>oa</i><par n="goa/yr__n"/></e>
+    <e lm="ushag"><par n="initial-u"/><i>shag</i><par n="ushag__n"/></e>
+    <e lm="uinnag"><par n="initial-u"/><i>innag</i><par n="ushag__n"/></e>
+    <e lm="lioar"><i>lioar</i><par n="ushag__n"/></e>
+    <e lm="fer"><par n="initial-f"/><i/><par n="f/er__n"/></e>
+    <e lm="dooinney"><par n="initial-d"/><i/><par n="d/ooinney__n"/></e>
+    <e lm="dorrys"><par n="initial-d"/><i>orry</i><par n="dorry/s__n"/></e>
+    <e lm="cabbyl"><par n="initial-c"/><i>abb</i><par n="cabb/yl__n"/></e>
+    <e lm="ushtey"><par n="initial-u"/><i>sht</i><par n="usht/ey__n"/></e>
+    <e lm="slieau"><par n="initial-s"/><i>l</i><par n="sl/ieau__n"/></e>
+    <e lm="baatey"><par n="initial-b"/><i>aat</i><par n="baat/ey__n"/></e>
+    <e lm="oie"><par n="initial-o"/><i>ie</i><par n="oie__n"/></e>
+
+    <e lm="abane"><i>abane</i><par n="ushag__n"/></e>
+    <e lm="agglish"><i>agglish</i><par n="ushag__n"/></e>
+    <e lm="aker"><i>aker</i><par n="ushag__n"/></e>
+    <e lm="arg"><i>arg</i><par n="ushag__n"/></e>
+    <e lm="armee"><i>armee</i><par n="ushag__n"/></e>
+    <e lm="arn"><i>arn</i><par n="ushag__n"/></e>
+    <e lm="arroogh"><i>arroogh</i><par n="ushag__n"/></e>
+    <e lm="ashoon"><i>ashoon</i><par n="ushag__n"/></e>
+    <e lm="askaid"><i>askaid</i><par n="ushag__n"/></e>
+    <e lm="assag"><i>assag</i><par n="ushag__n"/></e>
+    <e lm="ass-laynt"><i>ass-laynt</i><par n="ushag__n"/></e>
+    <e lm="assyl"><i>assyl</i><par n="ushag__n"/></e>
+    <e lm="awin"><i>awin</i><par n="ushag__n"/></e>
+    <e lm="awnse"><i>awnse</i><par n="ushag__n"/></e>
+    <e lm="awree"><i>awree</i><par n="ushag__n"/></e>
+
+
+    <e lm="ree"><i>ree</i><par n="ree__n"/></e>
+
+    <e lm="spyrryd"><par n="initial-s"/><i>pyrryd</i><par n="spyrryd__n"/></e>
+    <e lm="ferrish"><par n="initial-f"/><i>errish</i><par n="spyrryd__n"/></e>
+    <e lm="saggyrt"><par n="initial-s"/><i>aggyrt</i><par n="spyrryd__n"/></e>
+
+    <e lm="aall"><i>aall</i><par n="spyrryd__n"/></e>
+    <e lm="aanirit"><i>aanirit</i><par n="spyrryd__n"/></e>
+    <e lm="aase"><i>aase</i><par n="spyrryd__n"/></e>
+    <e lm="agglaghin"><i>agglaghin</i><par n="spyrryd__n"/></e>
+    <e lm="aggle"><i>aggle</i><par n="spyrryd__n"/></e>
+    <e lm="aght"><i>aght</i><par n="spyrryd__n"/></e>
+    <e lm="aile"><i>aile</i><par n="spyrryd__n"/></e>
+    <e lm="ainle"><i>ainle</i><par n="spyrryd__n"/></e>
+    <e lm="altar"><i>altar</i><par n="spyrryd__n"/></e>
+    <e lm="anchaslys"><i>anchaslys</i><par n="spyrryd__n"/></e>
+    <e lm="anfirrinnys"><i>anfirrinnys</i><par n="spyrryd__n"/></e>
+    <e lm="angaaish"><i>angaaish</i><par n="spyrryd__n"/></e>
+    <e lm="annoonid"><i>annoonid</i><par n="spyrryd__n"/></e>
+    <e lm="ansoor"><i>ansoor</i><par n="spyrryd__n"/></e>
+    <e lm="argid"><i>argid</i><par n="spyrryd__n"/></e>
+    <e lm="arraneyder"><i>arraneyder</i><par n="spyrryd__n"/></e>
+    <e lm="arrane"><i>arrane</i><par n="spyrryd__n"/></e>
+    <e lm="arroo"><i>arroo</i><par n="spyrryd__n"/></e>
+    <e lm="aspick"><i>aspick</i><par n="spyrryd__n"/></e>
+    <e lm="assee"><i>assee</i><par n="spyrryd__n"/></e>
+    <e lm="att"><i>att</i><par n="spyrryd__n"/></e>
+    <e lm="awnssal"><i>awnssal</i><par n="spyrryd__n"/></e>
+    <e lm="ayrn"><i>ayrn</i><par n="spyrryd__n"/></e>
+
+    <e lm="thie"><par n="initial-th"/><i>ie</i><par n="spyrryd__n"/></e>
+    <e lm="thie-ollee"><par n="initial-th"/><i>ie</i><par n="spyrryd__n"/><p><l>-ollee</l><r><g>-ollee</g></r></p></e>
+
+    <!-- Proper nouns -->
+
+    <e lm="Breeshey"><par n="initial-B"/><i>reeshey</i><par n="Breeshey__np"/></e>
+
+    <!-- Adjectives -->
+    <e lm="doo"><par n="initial-d"/><i>oo</i><par n="doo__adj"/></e> 
+    <e lm="deinagh"><par n="initial-d"/><i>einagh</i><par n="doo__adj"/></e> 
+    <e lm="skee"><par n="initial-s"/><i>kee</i><par n="doo__adj"/></e> 
+    
+    <e lm="mie"><i/><par n="/mie__adj"/></e>
+    <e lm="olk"><i/><par n="/olk__adj"/></e>
+    <e lm="beg"><i/><par n="/beg__adj"/></e>
+    <e lm="mooar"><i/><par n="/mooar__adj"/></e>
+    <e lm="ymmodee"><i/><par n="/ymmodee__adj"/></e>
+    <e lm="mennick"><i/><par n="/mennick__adj"/></e>
+    <e lm="faggys"><i/><par n="/faggys__adj"/></e>
+    <e lm="leah"><i/><par n="/leah__adj"/></e>
+    <e lm="foddey"><i/><par n="/foddey__adj"/></e>
+    <e lm="lhean"><i/><par n="/lhean__adj"/></e>
+    <e lm="aeg"><i/><par n="/aeg__adj"/></e>
+    <e lm="shenn"><i/><par n="/shenn__adj"/></e>
+    <e lm="lajer"><i/><par n="/lajer__adj"/></e>
+    <e lm="trome"><i/><par n="/trome__adj"/></e>
+    <e lm="ard"><i/><par n="/ard__adj"/></e>
+    <e lm="aashagh"><i/><par n="/aashagh__adj"/></e>
+    <e lm="chiu"><i/><par n="/chiu__adj"/></e>
+    <e lm="çheh"><i/><par n="/çheh__adj"/></e>
+
+
+    <!-- Adverbs -->
+    <e lm="ass"><i>ass</i><par n="ass__adv"/></e>
+    <e lm="çhelleeragh"><i>çhelleeragh</i><par n="ass__adv"/></e>
+    <e lm="doaltattym"><i>doaltattym</i><par n="ass__adv"/></e>
+    <e lm="kiart dy liooar"><i>kiart<b/>dy<b/>liooar</i><par n="ass__adv"/></e>
+    <e lm="mie dy liooar"><i>mie<b/>dy<b/>liooar</i><par n="ass__adv"/></e>
+    <e lm="myr shoh"><i>myr<b/>shoh</i><par n="ass__adv"/></e>
+    <e lm="myr shen"><i>myr<b/>shen</i><par n="ass__adv"/></e>
+
+    <e lm="dy-mie"><i>dy-mie</i><par n="ass__adv"/></e>
+ 
+  </section>
+
+  <section id="apostrophe" type="preblank">
+    <e r="LR">
+      <p>
+        <l>'n</l>
+        <r>yn<s n="det"/><s n="ind"/><s n="sg"/></r>
+      </p>
+    </e>
+  </section>
+</dictionary>

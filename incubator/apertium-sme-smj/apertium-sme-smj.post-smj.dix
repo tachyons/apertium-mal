@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+  <alphabet/>
+  <pardefs>
+   <pardef n="vocals">
+     <e>
+       <i>a</i>
+     </e>
+     <e>
+       <i>e</i>
+     </e>
+     <e>
+       <i>i</i>
+     </e>
+     <e>
+       <i>o</i>
+     </e>
+     <e>
+       <i>u</i>
+     </e>
+   </pardef>
+  </pardefs>
+
+  <section id="main" type="standard">
+    <!-- When 'la' is preceeded by a vowel, change to 'l' -->
+    <e>
+      <p>
+        <l><a/>la<b/></l>
+        <r>l<b/></r>
+      </p>
+      <par n="vocals"/>
+    </e>
+  </section>
+</dictionary>

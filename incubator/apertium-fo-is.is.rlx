@@ -1,0 +1,376 @@
+
+# ===================== #
+# Icelandic disambiguator #
+# ===================== #
+#
+# Hacked version of Faroese disambiguator:
+# Author: Trond Trosterud, University of Tromsø
+# The original may be found here:
+#   http://giellatekno.uit.no/doc/infra/anonymous-cvs.html
+#
+# For instructions on using CG with Apertium, read:
+#
+#   http://xixona.dlsi.ua.es/wiki/index.php/Apertium_and_Constraint_Grammar
+
+# ///////////////////////////////////////////////////////
+# This section shall be copied to fao-dep.rle if changed
+
+# ========== #
+# Delimiters #
+# ========== #
+
+
+DELIMITERS = "<.>" "<!>" "<?>" "<¶>";
+
+# ============= #
+# Tags and sets #
+# ============= #
+
+
+# ========
+   SETS
+# ========
+
+LIST BOS = (>>>) (<s>) (sent); 
+LIST EOS = (<<<) (</s>) (sent); # vislcg and CG-2 together.
+
+LIST N = n ;
+LIST V = vblex vbser;
+LIST A = adj (adj sta) (adj vei) (adj vei pst) (adj sta pst);
+LIST Prop = Prop ;
+LIST Adv = adv ;
+LIST Num = num ;
+LIST CC = cnjcoo ;
+LIST CS = cnjsub ;
+LIST Interj = ij ;
+LIST Abbr = Abbr ;
+LIST ACR = acr ;
+LIST Pr = pr ;
+LIST Pron = prn ;
+LIST Pers = "prpers"ri "ég"ri "þú"ri "hann"ri "hon"ri "það"ri "við"ri "þið"ri "þeir"ri "þær"ri "þau"ri;
+LIST Dem = dem ;
+LIST Det = det ;
+LIST Refl = ref ;
+LIST Recipr = Recipr ;
+LIST Poss = pos ;
+LIST Interr = itg ;
+LIST Nom = nom ;
+LIST Acc = acc ;
+LIST Gen = gen ;
+LIST Dat = dat ;
+LIST Msc = m ;
+LIST Fem = f ;
+LIST Neu = nt ;
+LIST Sg = sg ;
+LIST Pl = pl ;
+LIST Def = def ;
+LIST Indef = ind ;
+LIST Cmp = comp ;
+LIST Superl = sup ;
+LIST Prs = prs ;
+LIST Prt = pri ;
+LIST 1Sg = (p1 sg);
+LIST 2Sg = (p2 sg);
+LIST 3Sg = (p3 sg);
+LIST Inf = inf;
+LIST PrfPrc = pp;
+LIST PrsPrc = ger;
+LIST Imp = imp ;
+LIST CLB = CLB ;
+LIST PUNCT = PUNCT ;
+LIST LEFT = LEFT ;
+LIST RIGHT = RIGHT ;
+
+
+LIST TAG = N V A Adv CC CS Interj Pr Pron Pers Det Refl Recipr Poss Nom Acc Gen
+Dat Msc Fem Neu Sg Pl Def Indef Cmp Sup Prs Prt 1Sg 2Sg 3Sg Inf PrfPrc
+PrsPrc Sup Imp CLB PUNCT LEFT RIGHT ;
+
+
+LIST NAGD = Nom Acc Gen Dat ;
+LIST GENDER = Msc Fem Neu ;
+LIST NUMBER = Sg Pl ;
+
+# Sets
+# ====
+
+# Noun sets
+
+
+SET NounMscFem = (N Msc) OR (N Fem) ;
+SET NounMscNeu = (N Msc) OR (N Neu) ;
+SET NounFemNeu = (N Fem) OR (N Neu) ;
+
+# Nominal sets
+
+LIST NOMINALHEAD = N Num Pron ;
+
+LIST PRENAGR = Det Dem A ;
+
+
+# Verb sets
+
+LIST AUX = "vera" "verða" ;
+
+LIST VFIN = Prs Prt Imp ;
+LIST Ind = Prs Prt ;
+
+LIST VINDNONTHIRD = Ind | NONTHIRDV;
+
+LIST VINFIN = Inf Sup PrfPrs PrsPrc ;
+
+# Noun-Verb sets
+
+LIST THIRD = Sg 3Sg Pl 3Pl ;
+
+# Number sets
+
+SET NUMBERS = Num - ("eitt") - ("1") ;
+#
+# Preposition sets
+
+LIST GENPREP = "án" "auk" "austan" "innan" "í staö" "meðal" "megin" "milli" "millum" "neðan" "norðan" "ofan" "sakir" "sunnan" "sökum" "til" "utan" "vegna" "vestan";
+
+LIST ACCPREP = "fyrir ofan" "gegnum" "kringum" "um" "umfram" "umhverfis" ;
+
+LIST DATPREP = "að" "af" "andspænis" "ásamt" "frá" "gagn" "gagnvart" "gegnt" "handa" "hjá" "meðfram" "mót" "móti" "nálægt" "undan" "úr";
+
+LIST ACCDATPREP = "á" "eftir" "fyrir" "í" "með" "undir" "við" "yfir" ;
+
+SET SOMEACCPREP = ACCPREP | ACCDATPREP ;
+
+SET SOMEDATPREP = DATPREP | ACCDATPREP ;
+
+SET SOMEGENPREP = GENPREP ;
+
+# Boundary sets
+
+SET S-BOUNDARY = CS | Interr ;
+
+# Complementary set
+
+# Case sets
+
+SET NOTDAT = Nom | Gen | Acc ;
+SET NOTACC = Nom | Gen | Dat ;
+SET NOTACCDAT = Nom | Gen ;
+SET OBL = Acc | Dat | Gen ;
+
+#SET NO
+
+SET PRE-N =  A | Det | Dem | (N Gen) | Num ; # Det???
+
+SET WORD = N | V | A | Pr | Pron | Adv | CC | CS | Interj | Num | ("\?") ;
+SET MARK =  ("\,") | ("\:") | ("\;") ;
+SET WORDMARK = WORD | MARK ;
+
+SET NPNH = WORDMARK - PRE-N ;
+SET NPNHA = WORDMARK - PRE-N - Adv ;
+SET NOT-ADV = WORDMARK - Adv ;
+SET NOT-A = WORDMARK - A ;
+
+
+# The section to be copied to fao-dep.rle stops here
+# \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+SECTION
+
+# POS disambiguation
+# ==================
+
+# Pron Pers or Dem
+
+# Det
+
+REMOVE (num) IF (0 ("ein" det))(*1 N BARRIER NPNHA);
+	## eina mynd
+
+# Specific lexemes
+# ================
+
+SELECT Pr IF (0 ("á"))(1 Dat OR Acc);
+SELECT Pr IF (0 ("til"))(*1 (n gen) BARRIER NPNHA);
+SELECT CS IF (0 ("at"))(1C Inf);
+
+
+REMOVE Dem IF (0 Pers)(NOT 1 NPNHA OR N);
+
+# Adverb
+
+SELECT Adv IF (-1 DATPREP)(*1 Dat BARRIER NPNHA);
+
+
+# NP internal constraints
+# =======================
+
+# Determiner disambiguation
+
+REMOVE:NotNeuToMscFemDemNagd Neu IF (0 (Pron Dem) + $$NAGD)(*1 NounMscFem + $$NAGD BARRIER NPNHA LINK NOT 0 Neu);
+REMOVE:NotMscToFemNeuDemNagd Msc IF (0 (Pron Dem) + $$NAGD)(*1 NounFemNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Msc);
+REMOVE:NotFemToMscNeuDemNagd Fem IF (0 (Pron Dem) + $$NAGD)(*1 NounMscNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Fem);
+
+
+REMOVE:NotNeuToMscFemDetNagd Neu IF (0 Det + $$NAGD)(*1 NounMscFem + $$NAGD BARRIER NPNHA LINK NOT 0 Neu);
+REMOVE:NotMscToFemNeuDetNagd Msc IF (0 Det + $$NAGD)(*1 NounFemNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Msc);
+REMOVE:NotFemToMscNeuDetNagd Fem IF (0 Det + $$NAGD)(*1 NounMscNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Fem);
+
+
+
+# Case disambiguation
+
+SELECT:NagdDemToN $$NAGD IF (0 (prn dem))(*1C $$NAGD BARRIER NPNHA);
+
+REMOVE:NotNagdDemToN $$NAGD IF (0 (prn dem))(*1 N    BARRIER NPNHA LINK NOT 0 $$NAGD);						  
+
+SELECT:NagdDetToN $$NAGD IF (0 Det)(*1C $$NAGD BARRIER NPNHA);
+
+
+REMOVE:NotNagdDetToN $$NAGD IF (0 Det)(*1 N    BARRIER NPNHA LINK NOT 0 $$NAGD);						  
+
+
+# Adjective disambiguation
+# ------------------------
+
+REMOVE:NotFemAdjToMscNeuN Fem IF (0 (A) + $$NAGD) (*1 NounMscNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Fem);
+REMOVE:NotMscAdjToFemNeuN Msc IF (0 (A) + $$NAGD) (*1 NounFemNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Msc);
+REMOVE:NotNeuAdjToMscFemN Neu IF (0 (A) + $$NAGD) (*1 NounMscFem + $$NAGD BARRIER NPNHA LINK NOT 0 Neu);
+
+
+
+# Case disambiguation
+
+SELECT:NagdAdjToNagd $$NAGD IF (0 A)(*1C $$NAGD BARRIER NPNHA)(NOT 0 V);
+
+REMOVE:NotNagdAdjToAdjNotNagd $$NAGD IF (0 A)(*1 N BARRIER NPNHA LINK NOT 0 $$NAGD);
+
+
+
+# Numeral disambiguation
+
+SELECT:NumAdjToN $$NUMBER IF (0 A)(1 N + $$NUMBER);
+	## í ta døkku moldina.
+
+SELECT:NumDetToN $$NUMBER IF (0 Det)(*1 N + $$NUMBER BARRIER NOT-A);
+
+# Gender disamb of numerals
+
+SELECT:GenderNumToN $$GENDER IF (0 Num)(*1C (N $$GENDER) BARRIER A);
+
+	## eit sindur
+
+# Case disamb of numerals
+
+SELECT:GenderNumToA $$NAGD IF (0 Num)(*1C (N $$NAGD) BARRIER A);
+
+
+# Perhaps also rules that remove Neu if Msc or Fem, etc.
+
+
+# Noun disambiguation
+# -------------------
+
+SELECT:GenderNounToAdj $$GENDER IF (-1C (A) + $$GENDER)(0 N);
+
+SELECT:NagdNounToAdj $$NAGD IF (-1C (A) + $$NAGD)(0 N);
+
+SELECT:NumberNounToAdj $$NUMBER IF (-1C (A) + $$NUMBER)(0 N);
+
+# Poss disambiguation
+
+REMOVE:GenderPossToPrecNoun $$GENDER IF (-1 N LINK NOT 0 $$GENDER)(0 Poss);
+
+REMOVE:GenderPossToNoun $$GENDER IF (0 Poss)(*1 N BARRIER NPNHA LINK NOT 0 $$GENDER);
+
+# Number disambiguation
+REMOVE Pl IF (*-1 (num sg) OR (dem sg) BARRIER NOT-A)(0 (n sg));
+# Here, we need vislcg3 and variable notation!
+
+
+# NP head disambiguation
+# ======================
+
+# Inversion
+
+REMOVE:NotInverseNonSubj Acc IF (-2 CS)(-1 (vblex pl))(0 (pl nom)) ;
+	## Tað var, sum váru tey sett út úr luftini.
+
+
+# PP disambiguation
+# =================
+
+# P or not?
+
+# at
+REMOVE Pr IF (0 ("at"))(NOT *1 Acc OR Gen OR Dat BARRIER V);
+SELECT CS IF (0 ("at"))(*1 Nom BARRIER NPNHA LINK *1 V BARRIER OBL);
+
+# til
+SELECT Pr IF (0 ("til"))(*1 N OR NPNH OR ("at") BARRIER NPNHA);
+
+# Case within PP phrases
+
+SELECT:PPAcc Acc IF (*-1 ACCPREP BARRIER NOTACC);
+SELECT:PPDat Dat IF (*-1 DATPREP BARRIER NOTDAT);
+SELECT:PPGen Gen IF (*-1 GENPREP BARRIER NOTACCDAT);
+
+REMOVE:NotPPNotDat NOTDAT IF (*-1 DATPREP BARRIER NOTDAT);
+#REMOVE Acc IF (*-1 DATPREP BARRIER NOTDAT);
+#REMOVE Gen IF (*-1 DATPREP BARRIER NOTDAT);
+
+REMOVE:NotPPGen Gen IF (*-1 ACCDATPREP BARRIER NOTACCDAT);
+REMOVE:NotPPNom Nom IF (*-1 ACCDATPREP BARRIER NOTACCDAT);
+
+# P chains or not
+
+SELECT Adv IF (0 Pr)(1C Pr);
+	## Hann fór niðan um Danmark.
+
+# Pronoun disambiguation
+
+REMOVE:NotDemBeforeVerb Dem IF (0 Pers)(1C V);
+	## Tey vóru so hugnalig.
+
+REMOVE:NotDemBeforeNonDef Dem IF (0 Pers)(NEGATE *1 Def BARRIER NPNH);
+	##
+
+
+# VP disambiguation
+# =================
+
+# V or A
+
+REMOVE A IF (0 ("vera"))(1 (n sg));
+	## Enskt mál er móðurmál.
+
+# Infinitive
+
+SELECT Inf IF (-1 ("at"));
+
+# Imperative
+
+REMOVE Imp IF (-1 Adv OR Nom)(0 Prs OR Prt);
+
+REMOVE Imp IF (0 N)(1 CC)(*2 N BARRIER NPNHA);
+	## Stýrið og stjórnin hjá...
+
+REMOVE (imp pl) IF (0 (n nt))(1 VFIN);
+	## Húsið er stórt.
+
+# Present singular
+
+SELECT (vblex pri p3 sg) IF (-1 (np nom) OR (n sg nom) LINK NOT *-1 CC BARRIER NPNHA)(1 (prn ref acc)) ;
+REMOVE (vblex pri p2 sg) IF (*-1 (n sg nom) BARRIER NOT-ADV);
+SELECT (vblex pri p3 sg) IF (-1 (np nom) OR (n sg nom) LINK NOT *-1 CC BARRIER NPNHA OR S-BOUNDARY) ;
+
+# Present plural
+
+SELECT (vblex pl) IF (-1 (n pl nom) OR (prn pl) OR (1 (n pl nom) OR (prn pl)) ;
+
+# Pronoun disambiguation
+# =======================
+
+REMOVE ("hannur") IF (0 ("hann" nom))(1 (V 3Sg));
+       ## Han var her.
+

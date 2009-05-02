@@ -1,0 +1,172 @@
+<dictionary>
+  <alphabet>cptkqhtsjxlmnñrwyiauïäüy’aeiou</alphabet>
+  <sdefs>
+    <sdef n="n"    c="Noun"/>
+
+    <sdef n="sg"   c="Singular"/>
+    <sdef n="pl"   c="Plural"/>
+
+    <sdef n="nom"  c="Nominativo"/>
+    <sdef n="acc"  c="Accusativo"/>
+    <sdef n="abl"  c="Ablativo"/>
+    <sdef n="gen"  c="Genitivo"/>
+    <sdef n="ben"  c="Benefactivo"/>
+    <sdef n="caus" c="Causal"/>
+    <sdef n="comp" c="Comparativo"/>
+    <sdef n="ins"  c="Instrumental"/>
+    <sdef n="int"  c="Interactivo"/>
+    <sdef n="lim"  c="Limitativo"/>
+    <sdef n="loc"  c="Locativo"/>
+    <sdef n="ill"  c="Ilativo"/>
+
+    <sdef n="prn"  c="Pronombre"/>
+    <sdef n="pos"  c="Posesivo"/>
+
+    <sdef n="p1"   c="First person"/>
+    <sdef n="p2"   c="Second person"/>
+    <sdef n="p3"   c="Third person"/>
+
+  </sdefs>
+
+  <pardefs>
+    <pardef n="S__casos">
+      <e>
+        <p>
+          <l>taki</l>
+          <r><j/>caso<s n="ben"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>na</l>
+          <r><j/>caso<s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>na</l>
+          <r><j/>caso<s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ru</l>
+          <r><j/>caso<s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ta</l>
+          <r><j/>caso<s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>mpi</l>
+          <r><j/>caso<s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>kama</l>
+          <r><j/>caso<s n="lim"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>jama</l>
+          <r><j/>caso<s n="comp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>layku</l>
+          <r><j/>caso<s n="caus"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>pura</l>
+          <r><j/>caso<s n="int"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>tha</l>
+          <r><j/>caso<s n="ill"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l/>
+          <r><j/>caso<s n="nom"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="S__prn_enc">
+      <e>
+        <p>
+          <l>ja</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p1"/><s n="sg"/></r>
+        </p>
+	<par n="S__casos"/>
+      </e>
+      <e>
+        <p>
+          <l>ma</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p2"/><s n="sg"/></r>
+        </p>
+	<par n="S__casos"/>
+      </e>
+      <e>
+        <p>
+          <l>pa</l>
+          <r><j/>enc<s n="prn"/><s n="pos"/><s n="p3"/><s n="sg"/></r>
+        </p>
+	<par n="S__casos"/>
+      </e>
+
+      <e>
+        <p>
+          <l/>
+          <r/>
+        </p>
+	<par n="S__casos"/>
+      </e>
+    </pardef>
+ 
+    <pardef n="uta__n">
+      <e>
+        <p>
+          <l/>
+          <r><s n="n"/><s n="sg"/></r>
+        </p>
+        <par n="S__prn_enc"/>
+      </e>
+      <e>
+        <p>
+          <l>naka</l>
+          <r><s n="n"/><s n="pl"/></r>
+        </p>
+        <par n="S__prn_enc"/>
+      </e>
+    </pardef>
+  </pardefs>
+
+  <section id="main" type="standard">
+    <e lm="uta"><i>uta</i><par n="uta__n"/></e>
+    <e lm="anu"><i>anu</i><par n="uta__n"/></e>
+    <e lm="ikiña"><i>ikiña</i><par n="uta__n"/></e>
+    <e lm="tunqu"><i>tunqu</i><par n="uta__n"/></e>
+    <e lm="warawara"><i>warawara</i><par n="uta__n"/></e>
+    <e lm="nayra"><i>nayra</i><par n="uta__n"/></e>
+    <e lm="punku"><i>punku</i><par n="uta__n"/></e>
+    <e lm="thaki"><i>thaki</i><par n="uta__n"/></e>
+    <e lm="uma"><i>uma</i><par n="uta__n"/></e>
+    <e lm="aka"><i>aka</i><par n="uta__n"/></e>
+    <e lm="mara"><i>mara</i><par n="uta__n"/></e>
+
+  </section>
+</dictionary>

@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="apos"/>
+    <sdef n="cm"/>
+    <sdef n="guio"/>
+    <sdef n="lpar"/>
+    <sdef n="num"/>
+    <sdef n="rpar"/>
+    <sdef n="sent"/>
+    <sdef n="lquest"/>
+
+    <sdef n="prn"/>     <!-- pronoun -->
+    <sdef n="subj"/>    <!-- subject -->
+    <sdef n="obj"/>     <!-- object -->
+    <sdef n="dobj"/>    <!-- direct object -->
+    <sdef n="iobj"/>    <!-- indirect object -->
+
+    <sdef n="det"/>     <!-- determiner -->
+    <sdef n="ind"/>     <!-- indefinite -->
+    <sdef n="def"/>     <!-- definite -->
+
+    <sdef n="n"/>       <!-- noun -->
+
+    <sdef n="f"/>       <!-- feminine -->
+    <sdef n="m"/>       <!-- masculine -->
+    <sdef n="mf"/>      <!-- masculine/feminine -->
+    <sdef n="nt"/>      <!-- neuter -->
+
+    <sdef n="sg"/>      <!-- singular -->
+    <sdef n="pl"/>      <!-- plural -->
+    <sdef n="sp"/>	<!-- singular/plural -->
+    <sdef n="unc"/>	<!-- uncountable -->
+
+    <sdef n="adj"/>	<!-- adjective -->
+    <sdef n="adv"/>	<!-- adverb -->
+    <sdef n="sup"/>	<!-- superlative -->
+    <sdef n="comp"/>	<!-- comparative -->
+
+    <sdef n="pr"/>	<!-- preposition -->
+
+    <sdef n="cnjcoo"/>	<!-- co-ordinating conjunction -->
+    <sdef n="cnjsub"/>	<!-- sub-ordinating conjunction -->
+
+    <sdef n="nom"/>	<!-- nominative -->
+    <sdef n="acc"/>	<!-- accusative -->
+    <sdef n="dat"/>	<!-- dative -->
+    <sdef n="gen"/>	<!-- genitive -->
+
+    <sdef n="vbser"/>   <!-- the verb 'to be' -->
+    <sdef n="vbhaver"/> <!-- the verb 'to have' -->
+    <sdef n="vblex"/>	<!-- lexical verb -->
+    <sdef n="vbmod"/>	<!-- modal verb -->
+
+    <sdef n="p1"/>      <!-- first person -->
+    <sdef n="p2"/>      <!-- second person -->
+    <sdef n="p3"/>      <!-- third person -->
+
+    <sdef n="pri"/>     <!-- present indicative -->
+    <sdef n="np"/>	<!-- proper noun -->
+  </sdefs>
+
+  <section id="main" type="standard">
+
+    <!-- Prepositions -->
+    <e><p><l>about<s n="pr"/></l><r>von<s n="pr"/></r></p></e>
+    <e><p><l>above<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
+    <e><p><l>across<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
+    <e><p><l>after<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
+    <e><p><l>along<s n="pr"/></l><r>entlang<s n="pr"/></r></p></e>
+    <e><p><l>against<s n="pr"/></l><r>wider<s n="pr"/></r></p></e>
+    <e><p><l>against<s n="pr"/></l><r>gegen<s n="pr"/></r></p></e>
+    <e><p><l>among<s n="pr"/></l><r>unter<s n="pr"/></r></p></e>
+    <e><p><l>around<s n="pr"/></l><r>um<s n="pr"/></r></p></e>
+    <e><p><l>as a result of<s n="pr"/></l><r>infolge<s n="pr"/></r></p></e>
+    <e><p><l>at<s n="pr"/></l><r>auf<s n="pr"/></r></p></e>
+    <e><p><l>at<s n="pr"/></l><r>an<s n="pr"/></r></p></e>
+    <e><p><l>at<s n="pr"/></l><r>bei<s n="pr"/></r></p></e>
+    <e><p><l>at about<s n="pr"/></l><r>um<s n="pr"/></r></p></e>
+    <e><p><l>before<s n="pr"/></l><r>vor<s n="pr"/></r></p></e>
+    <e><p><l>behind<s n="pr"/></l><r>hinter<s n="pr"/></r></p></e>
+    <e><p><l>beside<s n="pr"/></l><r>neben<s n="pr"/></r></p></e>
+    <e><p><l>between<s n="pr"/></l><r>zwischen<s n="pr"/></r></p></e>
+    <e><p><l>by<s n="pr"/></l><r>bei<s n="pr"/></r></p></e>
+    <e><p><l>contrary to<s n="pr"/></l><r>wider<s n="pr"/></r></p></e>
+    <e><p><l>despite<s n="pr"/></l><r>trotz<s n="pr"/></r></p></e>
+    <e><p><l>during<s n="pr"/></l><r>während<s n="pr"/></r></p></e>
+    <e><p><l>except<s n="pr"/></l><r>außer<s n="pr"/></r></p></e>
+    <e><p><l>excluding<s n="pr"/></l><r>außer<s n="pr"/></r></p></e>
+    <e><p><l>for<s n="pr"/></l><r>für<s n="pr"/></r></p></e>
+    <e><p><l>for<s n="pr"/></l><r>seit<s n="pr"/></r></p></e>
+    <e><p><l>for<s n="pr"/></l><r>zu<s n="pr"/></r></p></e>
+    <e><p><l>from<s n="pr"/></l><r>aus<s n="pr"/></r></p></e>
+    <e><p><l>from<s n="pr"/></l><r>von<s n="pr"/></r></p></e>
+    <e><p><l>in<s n="pr"/></l><r>auf<s n="pr"/></r></p></e>
+    <e><p><l>in<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+    <e><p><l>in front of<s n="pr"/></l><r>vor<s n="pr"/></r></p></e>
+    <e><p><l>in spite of<s n="pr"/></l><r>trotz<s n="pr"/></r></p></e>
+    <e><p><l>instead of<s n="pr"/></l><r>statt<s n="pr"/></r></p></e>
+    <e><p><l>into<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+    <e><p><l>near<s n="pr"/></l><r>bei<s n="pr"/></r></p></e>
+    <e><p><l>next to<s n="pr"/></l><r>neben<s n="pr"/></r></p></e>
+    <e><p><l>on<s n="pr"/></l><r>an<s n="pr"/></r></p></e>
+    <e><p><l>on<s n="pr"/></l><r>auf<s n="pr"/></r></p></e>
+    <e><p><l>on account of<s n="pr"/></l><r>wegen<s n="pr"/></r></p></e>
+    <e><p><l>on both sides of<s n="pr"/></l><r>beiderseits<s n="pr"/></r></p></e>
+    <e><p><l>on the other side of<s n="pr"/></l><r>jenseits<s n="pr"/></r></p></e>
+    <e><p><l>on this side of<s n="pr"/></l><r>diesseits<s n="pr"/></r></p></e>
+    <e><p><l>opposite<s n="pr"/></l><r>gegenüber<s n="pr"/></r></p></e>
+    <e><p><l>out of<s n="pr"/></l><r>aus<s n="pr"/></r></p></e>
+    <e><p><l>outside<s n="pr"/></l><r>außerhalb<s n="pr"/></r></p></e>
+    <e><p><l>over<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
+    <e><p><l>since<s n="pr"/></l><r>seit<s n="pr"/></r></p></e>
+    <e><p><l>through<s n="pr"/></l><r>durch<s n="pr"/></r></p></e>
+    <e><p><l>to<s n="pr"/></l><r>an<s n="pr"/></r></p></e>
+    <e><p><l>to<s n="pr"/></l><r>auf<s n="pr"/></r></p></e>
+    <e><p><l>to<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
+    <e><p><l>to<s n="pr"/></l><r>zu<s n="pr"/></r></p></e>
+    <e><p><l>toward<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
+    <e><p><l>towards<s n="pr"/></l><r>gegenüber<s n="pr"/></r></p></e>
+    <e><p><l>under<s n="pr"/></l><r>unter<s n="pr"/></r></p></e>
+    <e><p><l>with<s n="pr"/></l><r>mit<s n="pr"/></r></p></e>
+    <e><p><l>within<s n="pr"/></l><r>innerhalb<s n="pr"/></r></p></e>
+    <e><p><l>without<s n="pr"/></l><r>ohne<s n="pr"/></r></p></e>
+    <e><p><l>with regard to<s n="pr"/></l><r>hinsichtlich<s n="pr"/></r></p></e>
+
+    <!-- Nouns -->
+    <e><p><l>adventure<s n="n"/></l><r>Abenteuer<s n="n"/></r></p></e>
+    <e><p><l>animal<s n="n"/></l><r>Tier<s n="n"/></r></p></e>
+    <e><p><l>answer<s n="n"/></l><r>Antwort<s n="n"/></r></p></e>
+    <e><p><l>apparatus<s n="n"/></l><r>Apparat<s n="n"/></r></p></e>
+    <e><p><l>arm<s n="n"/></l><r>Arm<s n="n"/></r></p></e>
+    <e><p><l>asshole<s n="n"/></l><r>Arschloch<s n="n"/></r></p></e>
+    <e><p><l>aunt<s n="n"/></l><r>Tante<s n="n"/></r></p></e>
+    <e><p><l>autumn<s n="n"/></l><r>Herbst<s n="n"/></r></p></e>
+    <e><p><l>bassin<s n="n"/></l><r>Becken<s n="n"/></r></p></e>
+    <e><p><l>bed<s n="n"/></l><r>Bett<s n="n"/></r></p></e>
+    <e><p><l>beer<s n="n"/></l><r>Bier<s n="n"/></r></p></e>
+    <e><p><l>bicycle<s n="n"/></l><r>Fahrrad<s n="n"/></r></p></e>
+    <e><p><l>book<s n="n"/></l><r>Buch<s n="n"/></r></p></e>
+    <e><p><l>boy<s n="n"/></l><r>Junge<s n="n"/></r></p></e>
+    <e><p><l>bread<s n="n"/></l><r>Brot<s n="n"/></r></p></e>
+    <e><p><l>bucket<s n="n"/></l><r>Eimer<s n="n"/></r></p></e>
+    <e><p><l>business<s n="n"/></l><r>Geschäft<s n="n"/></r></p></e>
+    <e><p><l>cake<s n="n"/></l><r>Kuchen<s n="n"/></r></p></e>
+    <e><p><l>car<s n="n"/></l><r>Wagen<s n="n"/></r></p></e>
+    <e><p><l>card<s n="n"/></l><r>Karte<s n="n"/></r></p></e>
+    <e><p><l>cat<s n="n"/></l><r>Katze<s n="n"/></r></p></e>
+    <e><p><l>cathedral<s n="n"/></l><r>Dom<s n="n"/></r></p></e>
+    <e><p><l>cattle<s n="n"/></l><r>Rind<s n="n"/></r></p></e>
+    <e><p><l>cellar<s n="n"/></l><r>Keller<s n="n"/></r></p></e>
+    <e><p><l>cereal<s n="n"/></l><r>Getreide<s n="n"/></r></p></e>
+    <e><p><l>chain<s n="n"/></l><r>Kette<s n="n"/></r></p></e>
+    <e><p><l>cherry<s n="n"/></l><r>Kirsche<s n="n"/></r></p></e>
+    <e><p><l>child<s n="n"/></l><r>Kind<s n="n"/></r></p></e>
+    <e><p><l>church<s n="n"/></l><r>Kirche<s n="n"/></r></p></e>
+    <e><p><l>computer<s n="n"/></l><r>Computer<s n="n"/></r></p></e>
+    <e><p><l>concert<s n="n"/></l><r>Konzert<s n="n"/></r></p></e>
+    <e><p><l>cousin<s n="n"/></l><r>Vetter<s n="n"/></r></p></e>
+    <e><p><l>cup<s n="n"/></l><r>Tasse<s n="n"/></r></p></e>
+    <e><p><l>day<s n="n"/></l><r>Tag<s n="n"/></r></p></e>
+    <e><p><l>degree<s n="n"/></l><r>Grad<s n="n"/></r></p></e>
+    <e><p><l>doctor<s n="n"/></l><r>Doktor<s n="n"/></r></p></e>
+    <e><p><l>dog<s n="n"/></l><r>Hund<s n="n"/></r></p></e>
+    <e><p><l>doll<s n="n"/></l><r>Puppe<s n="n"/></r></p></e>
+    <e><p><l>dome<s n="n"/></l><r>Dom<s n="n"/></r></p></e>
+    <e><p><l>donkey<s n="n"/></l><r>Esel<s n="n"/></r></p></e>
+    <e><p><l>door<s n="n"/></l><r>Tür<s n="n"/></r></p></e>
+    <e><p><l>dough<s n="n"/></l><r>Teig<s n="n"/></r></p></e>
+    <e><p><l>dress<s n="n"/></l><r>Kleid<s n="n"/></r></p></e>
+    <e><p><l>eel<s n="n"/></l><r>Aal<s n="n"/></r></p></e>
+    <e><p><l>egg<s n="n"/></l><r>Ei<s n="n"/></r></p></e>
+    <e><p><l>example<s n="n"/></l><r>Beispiel<s n="n"/></r></p></e>
+    <e><p><l>face<s n="n"/></l><r>Gesicht<s n="n"/></r></p></e>
+    <e><p><l>factory<s n="n"/></l><r>Fabrik<s n="n"/></r></p></e>
+    <e><p><l>family<s n="n"/></l><r>Familie<s n="n"/></r></p></e>
+    <e><p><l>farmer<s n="n"/></l><r>Bauer<s n="n"/></r></p></e>
+    <e><p><l>festival<s n="n"/></l><r>Fest<s n="n"/></r></p></e>
+    <e><p><l>field<s n="n"/></l><r>Feld<s n="n"/></r></p></e>
+    <e><p><l>finger<s n="n"/></l><r>Finger<s n="n"/></r></p></e>
+    <e><p><l>fish<s n="n"/></l><r>Fisch<s n="n"/></r></p></e>
+    <e><p><l>flower<s n="n"/></l><r>Blume<s n="n"/></r></p></e>
+    <e><p><l>fool<s n="n"/></l><r>Naar<s n="n"/></r></p></e>
+    <e><p><l>friend<s n="n"/></l><r>Freund<s n="n"/></r></p></e>
+    <e><p><l>game<s n="n"/></l><r>Spiel<s n="n"/></r></p></e>
+    <e><p><l>ghost<s n="n"/></l><r>Geist<s n="n"/></r></p></e>
+    <e><p><l>gift<s n="n"/></l><r>Geschenk<s n="n"/></r></p></e>
+    <e><p><l>girl<s n="n"/></l><r>Mädchen<s n="n"/></r></p></e>
+    <e><p><l>group<s n="n"/></l><r>Gruppe<s n="n"/></r></p></e>
+    <e><p><l>hero<s n="n"/></l><r>Held<s n="n"/></r></p></e>
+    <e><p><l>hoof<s n="n"/></l><r>Huf<s n="n"/></r></p></e>
+    <e><p><l>horse<s n="n"/></l><r>Pferd<s n="n"/></r></p></e>
+    <e><p><l>hour<s n="n"/></l><r>Stunde<s n="n"/></r></p></e>
+    <e><p><l>house<s n="n"/></l><r>Haus<s n="n"/></r></p></e>
+    <e><p><l>idiot<s n="n"/></l><r>Schwachkopf<s n="n"/></r></p></e>
+    <e><p><l>island<s n="n"/></l><r>Insel<s n="n"/></r></p></e>
+    <e><p><l>king<s n="n"/></l><r>König<s n="n"/></r></p></e>
+    <e><p><l>knife<s n="n"/></l><r>Messer<s n="n"/></r></p></e>
+    <e><p><l>lake<s n="n"/></l><r>See<s n="n"/></r></p></e>
+    <e><p><l>leek<s n="n"/></l><r>Lauch<s n="n"/></r></p></e>
+    <e><p><l>leg<s n="n"/></l><r>Bein<s n="n"/></r></p></e>
+    <e><p><l>letter<s n="n"/></l><r>Brief<s n="n"/></r></p></e>
+    <e><p><l>minute<s n="n"/></l><r>Minute<s n="n"/></r></p></e>
+    <e><p><l>mistake<s n="n"/></l><r>Fehler<s n="n"/></r></p></e>
+    <e><p><l>mister<s n="n"/></l><r>Herr<s n="n"/></r></p></e>
+    <e><p><l>money<s n="n"/></l><r>Geld<s n="n"/></r></p></e>
+    <e><p><l>month<s n="n"/></l><r>Monat<s n="n"/></r></p></e>
+    <e><p><l>moon<s n="n"/></l><r>Mond<s n="n"/></r></p></e>
+    <e><p><l>motorway<s n="n"/></l><r>Autobahn<s n="n"/></r></p></e>
+    <e><p><l>mountain<s n="n"/></l><r>Berg<s n="n"/></r></p></e>
+    <e><p><l>movie<s n="n"/></l><r>Film<s n="n"/></r></p></e>
+    <e><p><l>name<s n="n"/></l><r>Name<s n="n"/></r></p></e>
+    <e><p><l>nation<s n="n"/></l><r>National<s n="n"/></r></p></e>
+    <e><p><l>neighbor<s n="n"/></l><r>Nachbar<s n="n"/></r></p></e>
+    <e><p><l>newspaper<s n="n"/></l><r>Zeitung<s n="n"/></r></p></e>
+    <e><p><l>notebook<s n="n"/></l><r>Heft<s n="n"/></r></p></e>
+    <e><p><l>ocean<s n="n"/></l><r>Meer<s n="n"/></r></p></e>
+    <e><p><l>omnibus<s n="n"/></l><r>Omnibus<s n="n"/></r></p></e>
+    <e><p><l>ox<s n="n"/></l><r>Ochse<s n="n"/></r></p></e>
+    <e><p><l>paper<s n="n"/></l><r>Papier<s n="n"/></r></p></e>
+    <e><p><l>part<s n="n"/></l><r>Teil<s n="n"/></r></p></e>
+    <e><p><l>path<s n="n"/></l><r>Pfad<s n="n"/></r></p></e>
+    <e><p><l>peace<s n="n"/></l><r>Ruhe<s n="n"/></r></p></e>
+    <e><p><l>pencil<s n="n"/></l><r>Bleistift<s n="n"/></r></p></e>
+    <e><p><l>person<s n="n"/></l><r>Mensch<s n="n"/></r></p></e>
+    <e><p><l>pheasant<s n="n"/></l><r>Fasan<s n="n"/></r></p></e>
+    <e><p><l>piano<s n="n"/></l><r>Klavier<s n="n"/></r></p></e>
+    <e><p><l>picture<s n="n"/></l><r>Bild<s n="n"/></r></p></e>
+    <e><p><l>piece<s n="n"/></l><r>Stück<s n="n"/></r></p></e>
+    <e><p><l>pig<s n="n"/></l><r>Schwein<s n="n"/></r></p></e>
+    <e><p><l>pillow<s n="n"/></l><r>Kissen<s n="n"/></r></p></e>
+    <e><p><l>plate<s n="n"/></l><r>Teller<s n="n"/></r></p></e>
+    <e><p><l>poem<s n="n"/></l><r>Gedicht<s n="n"/></r></p></e>
+    <e><p><l>poet<s n="n"/></l><r>Dichter<s n="n"/></r></p></e>
+    <e><p><l>point<s n="n"/></l><r>Punkt<s n="n"/></r></p></e>
+    <e><p><l>police<s n="n"/></l><r>Polizei<s n="n"/></r></p></e>
+    <e><p><l>policeman<s n="n"/></l><r>Polizist<s n="n"/></r></p></e>
+    <e><p><l>price<s n="n"/></l><r>Preis<s n="n"/></r></p></e>
+    <e><p><l>prize<s n="n"/></l><r>Preis<s n="n"/></r></p></e>
+    <e><p><l>problem<s n="n"/></l><r>Problem<s n="n"/></r></p></e>
+    <e><p><l>product<s n="n"/></l><r>Produkt<s n="n"/></r></p></e>
+    <e><p><l>pulse<s n="n"/></l><r>Puls<s n="n"/></r></p></e>
+    <e><p><l>question<s n="n"/></l><r>Frage<s n="n"/></r></p></e>
+    <e><p><l>ring<s n="n"/></l><r>Ring<s n="n"/></r></p></e>
+    <e><p><l>roast<s n="n"/></l><r>Braten<s n="n"/></r></p></e>
+    <e><p><l>room<s n="n"/></l><r>Zimmer<s n="n"/></r></p></e>
+    <e><p><l>sail<s n="n"/></l><r>Segel<s n="n"/></r></p></e>
+    <e><p><l>salad<s n="n"/></l><r>Salat<s n="n"/></r></p></e>
+    <e><p><l>salmon<s n="n"/></l><r>Lachs<s n="n"/></r></p></e>
+    <e><p><l>salmon<s n="n"/></l><r>Salm<s n="n"/></r></p></e>
+    <e><p><l>scarf<s n="n"/></l><r>Schal<s n="n"/></r></p></e>
+    <e><p><l>school<s n="n"/></l><r>Schule<s n="n"/></r></p></e>
+    <e><p><l>sea<s n="n"/></l><r>Meer<s n="n"/></r></p></e>
+    <e><p><l>sentence<s n="n"/></l><r>Satz<s n="n"/></r></p></e>
+    <e><p><l>shepherd<s n="n"/></l><r>Hirt<s n="n"/></r></p></e>
+    <e><p><l>ship<s n="n"/></l><r>Schiff<s n="n"/></r></p></e>
+    <e><p><l>shoe<s n="n"/></l><r>Schuh<s n="n"/></r></p></e>
+    <e><p><l>sign<s n="n"/></l><r>Schild<s n="n"/></r></p></e>
+    <e><p><l>sister<s n="n"/></l><r>Schwester<s n="n"/></r></p></e>
+    <e><p><l>song<s n="n"/></l><r>Lied<s n="n"/></r></p></e>
+    <e><p><l>spoon<s n="n"/></l><r>Löffel<s n="n"/></r></p></e>
+    <e><p><l>stamp<s n="n"/></l><r>Marke<s n="n"/></r></p></e>
+    <e><p><l>starling<s n="n"/></l><r>Star<s n="n"/></r></p></e>
+    <e><p><l>state<s n="n"/></l><r>Staat<s n="n"/></r></p></e>
+    <e><p><l>stone<s n="n"/></l><r>Stein<s n="n"/></r></p></e>
+    <e><p><l>street<s n="n"/></l><r>Straße<s n="n"/></r></p></e>
+    <e><p><l>student<s n="n"/></l><r>Schüler<s n="n"/></r></p></e>
+    <e><p><l>student<s n="n"/></l><r>Student<s n="n"/></r></p></e>
+    <e><p><l>stuff<s n="n"/></l><r>Stoff<s n="n"/></r></p></e>
+    <e><p><l>stuff<s n="n"/></l><r>Zeug<s n="n"/></r></p></e>
+    <e><p><l>suitcase<s n="n"/></l><r>Koffer<s n="n"/></r></p></e>
+    <e><p><l>table<s n="n"/></l><r>Tisch<s n="n"/></r></p></e>
+    <e><p><l>teacher<s n="n"/></l><r>Lehrer<s n="n"/></r></p></e>
+    <e><p><l>telephone<s n="n"/></l><r>Telefon<s n="n"/></r></p></e>
+    <e><p><l>television<s n="n"/></l><r>Fernseher<s n="n"/></r></p></e>
+    <e><p><l>theater<s n="n"/></l><r>Theater<s n="n"/></r></p></e>
+    <e><p><l>thief<s n="n"/></l><r>Dieb<s n="n"/></r></p></e>
+    <e><p><l>thing<s n="n"/></l><r>Ding<s n="n"/></r></p></e>
+    <e><p><l>throne<s n="n"/></l><r>Thron<s n="n"/></r></p></e>
+    <e><p><l>ticket<s n="n"/></l><r>Karte<s n="n"/></r></p></e>
+    <e><p><l>time<s n="n"/></l><r>Zeit<s n="n"/></r></p></e>
+    <e><p><l>university<s n="n"/></l><r>Universität<s n="n"/></r></p></e>
+    <e><p><l>villian<s n="n"/></l><r>Bösewicht<s n="n"/></r></p></e>
+    <e><p><l>visit<s n="n"/></l><r>Besuch<s n="n"/></r></p></e>
+    <e><p><l>waiter<s n="n"/></l><r>Kellner<s n="n"/></r></p></e>
+    <e><p><l>war<s n="n"/></l><r>Krieg<s n="n"/></r></p></e>
+    <e><p><l>water<s n="n"/></l><r>Wasser<s n="n"/></r></p></e>
+    <e><p><l>way<s n="n"/></l><r>Weg<s n="n"/></r></p></e>
+    <e><p><l>week<s n="n"/></l><r>Woche<s n="n"/></r></p></e>
+    <e><p><l>wick<s n="n"/></l><r>Docht<s n="n"/></r></p></e>
+    <e><p><l>wind<s n="n"/></l><r>Wind<s n="n"/></r></p></e>
+    <e><p><l>window<s n="n"/></l><r>Fenster<s n="n"/></r></p></e>
+    <e><p><l>woman<s n="n"/></l><r>Dame<s n="n"/></r></p></e>
+    <e><p><l>woman<s n="n"/></l><r>Frau<s n="n"/></r></p></e>
+    <e><p><l>woman<s n="n"/></l><r>Frau<s n="n"/></r></p></e>
+    <e><p><l>word<s n="n"/></l><r>Wort<s n="n"/></r></p></e>
+    <e><p><l>year<s n="n"/></l><r>Jahr<s n="n"/></r></p></e>
+
+    <!-- Proper Nouns -->
+    <e><p><l>Europe<s n="np"/></l><r>Europa<s n="np"/></r></p></e>
+
+    <!-- Countries -->
+    <e><p><l>Andorra<s n="np"/></l><r>Andorra<s n="np"/></r></p></e>
+    <e><p><l>Australia<s n="np"/></l><r>Australien<s n="np"/></r></p></e>
+    <e><p><l>Austria<s n="np"/></l><r>Österreich<s n="np"/></r></p></e>
+    <e><p><l>Belgium<s n="np"/></l><r>Belgien<s n="np"/></r></p></e>
+    <e><p><l>Brazil<s n="np"/></l><r>Brasilien<s n="np"/></r></p></e>
+    <e><p><l>Bulgaria<s n="np"/></l><r>Bulgarien<s n="np"/></r></p></e>
+    <e><p><l>Canada<s n="np"/></l><r>Kanada<s n="np"/></r></p></e>
+    <e><p><l>China<s n="np"/></l><r>China<s n="np"/></r></p></e>
+    <e><p><l>Columbia<s n="np"/></l><r>Kolumbien<s n="np"/></r></p></e>
+    <e><p><l>Croatia<s n="np"/></l><r>Kroatien<s n="np"/></r></p></e>
+    <e><p><l>Cyprus<s n="np"/></l><r>Zypern<s n="np"/></r></p></e>
+    <e><p><l>Denmark<s n="np"/></l><r>Dänemark<s n="np"/></r></p></e>
+    <e><p><l>Germany<s n="np"/></l><r>Deutschland<s n="np"/></r></p></e>
+    <e><p><l>England<s n="np"/></l><r>England<s n="np"/></r></p></e>
+    <e><p><l>Estonia<s n="np"/></l><r>Estland<s n="np"/></r></p></e>
+    <e><p><l>Finland<s n="np"/></l><r>Finnland<s n="np"/></r></p></e>
+    <e><p><l>France<s n="np"/></l><r>Frankreich<s n="np"/></r></p></e>
+    <e><p><l>Greece<s n="np"/></l><r>Griechenland<s n="np"/></r></p></e>
+    <e><p><l>Great Britain<s n="np"/></l><r>Großbritannien<s n="np"/></r></p></e>
+    <e><p><l>Hungary<s n="np"/></l><r>Ungarn<s n="np"/></r></p></e>
+    <e><p><l>Iceland<s n="np"/></l><r>Island<s n="np"/></r></p></e>
+    <e><p><l>India<s n="np"/></l><r>Indien<s n="np"/></r></p></e>
+    <e><p><l>Iraq<s n="np"/></l><r>Irak<s n="np"/></r></p></e>
+    <e><p><l>Iran<s n="np"/></l><r>Iran<s n="np"/></r></p></e>
+    <e><p><l>Ireland<s n="np"/></l><r>Irland<s n="np"/></r></p></e>
+    <e><p><l>Israel<s n="np"/></l><r>Israel<s n="np"/></r></p></e>
+    <e><p><l>Italy<s n="np"/></l><r>Italien<s n="np"/></r></p></e>
+    <e><p><l>Japan<s n="np"/></l><r>Japan<s n="np"/></r></p></e>
+    <e><p><l>Kosovo<s n="np"/></l><r>Kosovo<s n="np"/></r></p></e>
+    <e><p><l>Latvia<s n="np"/></l><r>Lettland<s n="np"/></r></p></e>
+    <e><p><l>Lebanon<s n="np"/></l><r>Libanon<s n="np"/></r></p></e>
+    <e><p><l>Liechtenstein<s n="np"/></l><r>Liechtenstein<s n="np"/></r></p></e>
+    <e><p><l>Lithuania<s n="np"/></l><r>Litauen<s n="np"/></r></p></e>
+    <e><p><l>Luxembourg<s n="np"/></l><r>Luxemburg<s n="np"/></r></p></e>
+    <e><p><l>Macedonia<s n="np"/></l><r>Mazedonien<s n="np"/></r></p></e>
+    <e><p><l>Mexico<s n="np"/></l><r>Mexiko<s n="np"/></r></p></e>
+    <e><p><l>Moldova<s n="np"/></l><r>Moldawien<s n="np"/></r></p></e>
+    <e><p><l>Monaco<s n="np"/></l><r>Monoco<s n="np"/></r></p></e>
+    <e><p><l>Netherlands<s n="np"/></l><r>Niederlande<s n="np"/></r></p></e>
+    <e><p><l>New Zealand<s n="np"/></l><r>Neuseeland<s n="np"/></r></p></e>
+    <e><p><l>Norway<s n="np"/></l><r>Norwegen<s n="np"/></r></p></e>
+    <e><p><l>Poland<s n="np"/></l><r>Polen<s n="np"/></r></p></e>
+    <e><p><l>Romania<s n="np"/></l><r>Rumänien<s n="np"/></r></p></e>
+    <e><p><l>Russia<s n="np"/></l><r>Russland<s n="np"/></r></p></e>
+    <e><p><l>Scotland<s n="np"/></l><r>Schottland<s n="np"/></r></p></e>
+    <e><p><l>Slovenia<s n="np"/></l><r>Slowenien<s n="np"/></r></p></e>
+    <e><p><l>South Africa<s n="np"/></l><r>Südafrika<s n="np"/></r></p></e>
+    <e><p><l>South Korea<s n="np"/></l><r>Südkorea<s n="np"/></r></p></e>
+    <e><p><l>Spain<s n="np"/></l><r>Spanien<s n="np"/></r></p></e>
+    <e><p><l>Sweden<s n="np"/></l><r>Schweden<s n="np"/></r></p></e>
+    <e><p><l>Switzerland<s n="np"/></l><r>Schweiz<s n="np"/></r></p></e>
+    <e><p><l>Tunesia<s n="np"/></l><r>Tunesien<s n="np"/></r></p></e>
+    <e><p><l>Turkey<s n="np"/></l><r>Türkei<s n="np"/></r></p></e>
+    <e><p><l>Ukraine<s n="np"/></l><r>Ukraine<s n="np"/></r></p></e>
+    <e><p><l>United States<s n="np"/></l><r>Vereinigten Staaten<s n="np"/></r></p></e>
+    <e><p><l>Wales<s n="np"/></l><r>Wales<s n="np"/></r></p></e>
+    <e><p><l>Yemen<s n="np"/></l><r>Jemen<s n="np"/></r></p></e>
+
+    <!-- Adjectives -->
+     <e><p><l>absent<s n="adj"/></l><r>abwesend<s n="adj"/></r></p></e>
+     <e><p><l>attentive<s n="adj"/></l><r>aufmerksam<s n="adj"/></r></p></e>
+     <e><p><l>bad<s n="adj"/></l><r>schlecht<s n="adj"/></r></p></e>
+     <e><p><l>bad<s n="adj"/></l><r>schlimm<s n="adj"/></r></p></e>
+     <e><p><l>beautiful<s n="adj"/></l><r>schön<s n="adj"/></r></p></e>
+     <e><p><l>brave<s n="adj"/></l><r>tüchtig<s n="adj"/></r></p></e>
+     <e><p><l>broad<s n="adj"/></l><r>breit<s n="adj"/></r></p></e>
+     <e><p><l>busy<s n="adj"/></l><r>beschäftigt<s n="adj"/></r></p></e>
+     <e><p><l>calm<s n="adj"/></l><r>still<s n="adj"/></r></p></e>
+     <e><p><l>capable<s n="adj"/></l><r>fähig<s n="adj"/></r></p></e>
+     <e><p><l>cheerful<s n="adj"/></l><r>heiter<s n="adj"/></r></p></e>
+     <e><p><l>clear<s n="adj"/></l><r>klar<s n="adj"/></r></p></e>
+     <e><p><l>clever<s n="adj"/></l><r>klug<s n="adj"/></r></p></e>
+     <e><p><l>cold<s n="adj"/></l><r>kalt<s n="adj"/></r></p></e>
+     <e><p><l>cool<s n="adj"/></l><r>kühl<s n="adj"/></r></p></e>
+     <e><p><l>curious<s n="adj"/></l><r>neugierig<s n="adj"/></r></p></e>
+     <e><p><l>delicious<s n="adj"/></l><r>köstlich<s n="adj"/></r></p></e>
+     <e><p><l>difficult<s n="adj"/></l><r>schwierig<s n="adj"/></r></p></e>
+     <e><p><l>diligent<s n="adj"/></l><r>fleißig<s n="adj"/></r></p></e>
+     <e><p><l>distant<s n="adj"/></l><r>entfernt<s n="adj"/></r></p></e>
+     <e><p><l>easy<s n="adj"/></l><r>leicht<s n="adj"/></r></p></e>
+     <e><p><l>evil<s n="adj"/></l><r>böse<s n="adj"/></r></p></e>
+     <e><p><l>excellent<s n="adj"/></l><r>ausgezeichnet<s n="adj"/></r></p></e>
+     <e><p><l>excellent<s n="adj"/></l><r>vorzüglich<s n="adj"/></r></p></e>
+     <e><p><l>excited<s n="adj"/></l><r>aufgeregt<s n="adj"/></r></p></e>
+     <e><p><l>expensive<s n="adj"/></l><r>teuer<s n="adj"/></r></p></e>
+     <e><p><l>famous<s n="adj"/></l><r>berühmt<s n="adj"/></r></p></e>
+     <e><p><l>far<s n="adj"/></l><r>weit<s n="adj"/></r></p></e>
+     <e><p><l>fast<s n="adj"/></l><r>schnell<s n="adj"/></r></p></e>
+     <e><p><l>free<s n="adj"/></l><r>frei<s n="adj"/></r></p></e>
+     <e><p><l>fresh<s n="adj"/></l><r>frisch<s n="adj"/></r></p></e>
+     <e><p><l>full<s n="adj"/></l><r>voll<s n="adj"/></r></p></e>
+     <e><p><l>happy<s n="adj"/></l><r>fröhlich<s n="adj"/></r></p></e>
+     <e><p><l>heavy<s n="adj"/></l><r>schwer<s n="adj"/></r></p></e>
+     <e><p><l>helpful<s n="adj"/></l><r>hilfsbereit<s n="adj"/></r></p></e>
+     <e><p><l>horrible<s n="adj"/></l><r>schrecklich<s n="adj"/></r></p></e>
+     <e><p><l>humble<s n="adj"/></l><r>niedrig<s n="adj"/></r></p></e>
+     <e><p><l>important<s n="adj"/></l><r>wichtig<s n="adj"/></r></p></e>
+     <e><p><l>intelligent<s n="adj"/></l><r>intelligent<s n="adj"/></r></p></e>
+     <e><p><l>interesting<s n="adj"/></l><r>interessant<s n="adj"/></r></p></e>
+     <e><p><l>joyful<s n="adj"/></l><r>fröhlich<s n="adj"/></r></p></e>
+     <e><p><l>known<s n="adj"/></l><r>bekannt<s n="adj"/></r></p></e>
+     <e><p><l>large<s n="adj"/></l><r>groß<s n="adj"/></r></p></e>
+     <e><p><l>late<s n="adj"/></l><r>spät<s n="adj"/></r></p></e>
+     <e><p><l>loud<s n="adj"/></l><r>laut<s n="adj"/></r></p></e>
+     <e><p><l>lucky<s n="adj"/></l><r>glücklich<s n="adj"/></r></p></e>
+     <e><p><l>mild<s n="adj"/></l><r>mild<s n="adj"/></r></p></e>
+     <e><p><l>modern<s n="adj"/></l><r>modern<s n="adj"/></r></p></e>
+     <e><p><l>new<s n="adj"/></l><r>neu<s n="adj"/></r></p></e>
+     <e><p><l>nice<s n="adj"/></l><r>nett<s n="adj"/></r></p></e>
+     <e><p><l>nutritious<s n="adj"/></l><r>nahrhaft<s n="adj"/></r></p></e>
+     <e><p><l>occupied<s n="adj"/></l><r>besetzt<s n="adj"/></r></p></e>
+     <e><p><l>old<s n="adj"/></l><r>alt<s n="adj"/></r></p></e>
+     <e><p><l>pleased<s n="adj"/></l><r>zufrieden<s n="adj"/></r></p></e>
+     <e><p><l>possible<s n="adj"/></l><r>möglich<s n="adj"/></r></p></e>
+     <e><p><l>powerful<s n="adj"/></l><r>kraftvoll<s n="adj"/></r></p></e>
+     <e><p><l>pretty<s n="adj"/></l><r>hübsch<s n="adj"/></r></p></e>
+     <e><p><l>quiet<s n="adj"/></l><r>ruhig<s n="adj"/></r></p></e>
+     <e><p><l>ready<s n="adj"/></l><r>bereit<s n="adj"/></r></p></e>
+     <e><p><l>rich<s n="adj"/></l><r>reich<s n="adj"/></r></p></e>
+     <e><p><l>right<s n="adj"/></l><r>richtig<s n="adj"/></r></p></e>
+     <e><p><l>sad<s n="adj"/></l><r>traurig<s n="adj"/></r></p></e>
+     <e><p><l>short<s n="adj"/></l><r>kurz<s n="adj"/></r></p></e>
+     <e><p><l>sincere<s n="adj"/></l><r>herzlich<s n="adj"/></r></p></e>
+     <e><p><l>small<s n="adj"/></l><r>klein<s n="adj"/></r></p></e>
+     <e><p><l>splendid<s n="adj"/></l><r>herrlich<s n="adj"/></r></p></e>
+     <e><p><l>tasty<s n="adj"/></l><r>lecker<s n="adj"/></r></p></e>
+     <e><p><l>thick<s n="adj"/></l><r>dick<s n="adj"/></r></p></e>
+     <e><p><l>thin<s n="adj"/></l><r>dünn<s n="adj"/></r></p></e>
+     <e><p><l>tired<s n="adj"/></l><r>müde<s n="adj"/></r></p></e>
+     <e><p><l>usual<s n="adj"/></l><r>gewöhnlich<s n="adj"/></r></p></e>
+     <e><p><l>warm<s n="adj"/></l><r>warm<s n="adj"/></r></p></e>
+     <e><p><l>wet<s n="adj"/></l><r>nass<s n="adj"/></r></p></e>
+     <e><p><l>wonderful<s n="adj"/></l><r>wunderbar<s n="adj"/></r></p></e>
+     <e><p><l>young<s n="adj"/></l><r>jung<s n="adj"/></r></p></e>
+
+    <!-- Adverbs -->
+    <e><p><l>about<s n="adv"/></l><r>etwa<s n="adv"/></r></p></e>
+    <e><p><l>again<s n="adv"/></l><r>wieder<s n="adv"/></r></p></e>
+    <e><p><l>ago<s n="adv"/></l><r>vor<s n="adv"/></r></p></e>
+    <e><p><l>already<s n="adv"/></l><r>schon<s n="adv"/></r></p></e>
+    <e><p><l>always<s n="adv"/></l><r>immer<s n="adv"/></r></p></e>
+    <e><p><l>at once<s n="adv"/></l><r>sofort<s n="adv"/></r></p></e>
+    <e><p><l>considerably<s n="adv"/></l><r>beträchtlich<s n="adv"/></r></p></e>
+    <e><p><l>especially<s n="adv"/></l><r>besonders<s n="adv"/></r></p></e>
+    <e><p><l>extremely<s n="adv"/></l><r>äußerst<s n="adv"/></r></p></e>
+    <e><p><l>everywhere<s n="adv"/></l><r>überall<s n="adv"/></r></p></e>
+    <e><p><l>finally<s n="adv"/></l><r>endlich<s n="adv"/></r></p></e>
+    <e><p><l>gladly<s n="adv"/></l><r>gern<s n="adv"/></r></p></e>
+    <e><p><l>here<s n="adv"/></l><r>hier<s n="adv"/></r></p></e>
+    <e><p><l>in the mornings<s n="adv"/></l><r>morgens<s n="adv"/></r></p></e>
+    <e><p><l>just<s n="adv"/></l><r>gerade<s n="adv"/></r></p></e>
+    <e><p><l>now<s n="adv"/></l><r>nun<s n="adv"/></r></p></e>
+    <e><p><l>not<s n="adv"/></l><r>nicht<s n="adv"/></r></p></e>
+    <e><p><l>only<s n="adv"/></l><r>nur<s n="adv"/></r></p></e>
+    <e><p><l>perhaps<s n="adv"/></l><r>vielleicht<s n="adv"/></r></p></e>
+    <e><p><l>quite<s n="adv"/></l><r>ziemlich<s n="adv"/></r></p></e>
+    <e><p><l>really<s n="adv"/></l><r>eigentlich<s n="adv"/></r></p></e>
+    <e><p><l>shortly<s n="adv"/></l><r>gleich<s n="adv"/></r></p></e>
+    <e><p><l>soon<s n="adv"/></l><r>bald<s n="adv"/></r></p></e>
+    <e><p><l>still<s n="adv"/></l><r>noch<s n="adv"/></r></p></e>
+    <e><p><l>today<s n="adv"/></l><r>heute<s n="adv"/></r></p></e>
+    <e><p><l>tomorrow<s n="adv"/></l><r>morgen<s n="adv"/></r></p></e>
+    <e><p><l>yet<s n="adv"/></l><r>doch<s n="adv"/></r></p></e>
+
+    <!-- Verbs -->
+     <e><p><l>answer<s n="vblex"/></l><r>antworten<s n="vblex"/></r></p></e>
+     <e><p><l>appeal to<s n="vblex"/></l><r>gefallen<s n="vblex"/></r></p></e>
+     <e><p><l>ask<s n="vblex"/></l><r>fragen<s n="vblex"/></r></p></e>
+     <e><p><l>bake<s n="vblex"/></l><r>backen<s n="vblex"/></r></p></e>
+     <e><p><l>be<s n="vbser"/></l><r>sein<s n="vbser"/></r></p></e>
+     <e><p><l>become<s n="vblex"/></l><r>werden<s n="vblex"/></r></p></e>
+     <e><p><l>begin<s n="vblex"/></l><r>beginnen<s n="vblex"/></r></p></e>
+     <e><p><l>bite<s n="vblex"/></l><r>beißen<s n="vblex"/></r></p></e>
+     <e><p><l>borrow<s n="vblex"/></l><r>borgen<s n="vblex"/></r></p></e>
+     <e><p><l>bring<s n="vblex"/></l><r>bringen<s n="vblex"/></r></p></e>
+     <e><p><l>can<s n="vbmod"/></l><r>können<s n="vbmod"/></r></p></e>
+     <e><p><l>change<s n="vblex"/></l><r>ändern<s n="vblex"/></r></p></e>
+     <e><p><l>come<s n="vblex"/></l><r>kommen<s n="vblex"/></r></p></e>
+     <e><p><l>do<s n="vblex"/></l><r>tun<s n="vblex"/></r></p></e>
+     <e><p><l>eat<s n="vblex"/></l><r>essen<s n="vblex"/></r></p></e>
+     <e><p><l>encounter<s n="vblex"/></l><r>begegnen<s n="vblex"/></r></p></e>
+     <e><p><l>explain<s n="vblex"/></l><r>erklären<s n="vblex"/></r></p></e>
+     <e><p><l>fall<s n="vblex"/></l><r>fallen<s n="vblex"/></r></p></e>
+     <e><p><l>feel<s n="vblex"/></l><r>fühlen<s n="vblex"/></r></p></e>
+     <e><p><l>find<s n="vblex"/></l><r>finden<s n="vblex"/></r></p></e>
+     <e><p><l>fly<s n="vblex"/></l><r>fliegen<s n="vblex"/></r></p></e>
+     <e><p><l>get<s n="vblex"/></l><r>bekommen<s n="vblex"/></r></p></e>
+     <e><p><l>go<s n="vblex"/></l><r>gehen<s n="vblex"/></r></p></e>
+     <e><p><l>hate<s n="vblex"/></l><r>hassen<s n="vblex"/></r></p></e>
+     <e><p><l>have<s n="vbhaver"/></l><r>haben<s n="vbhaver"/></r></p></e>
+     <e><p><l>help<s n="vblex"/></l><r>helfen<s n="vblex"/></r></p></e>
+     <e><p><l>hope<s n="vblex"/></l><r>hoffen<s n="vblex"/></r></p></e>
+     <e><p><l>interpret<s n="vblex"/></l><r>deuten<s n="vblex"/></r></p></e>
+     <e><p><l>invent<s n="vblex"/></l><r>erfinden<s n="vblex"/></r></p></e>
+     <e><p><l>keep<s n="vblex"/></l><r>behalten<s n="vblex"/></r></p></e>
+     <e><p><l>know<s n="vblex"/></l><r>wissen<s n="vblex"/></r></p></e>
+     <e><p><l>learn<s n="vblex"/></l><r>lernen<s n="vblex"/></r></p></e>
+     <e><p><l>liberate<s n="vblex"/></l><r>befreien<s n="vblex"/></r></p></e>
+     <e><p><l>lie<s n="vblex"/></l><r>liegen<s n="vblex"/></r></p></e>
+     <e><p><l>live<s n="vblex"/></l><r>wohnen<s n="vblex"/></r></p></e>
+     <e><p><l>love<s n="vblex"/></l><r>lieben<s n="vblex"/></r></p></e>
+     <e><p><l>make<s n="vblex"/></l><r>machen<s n="vblex"/></r></p></e>
+     <e><p><l>may<s n="vbmod"/></l><r>dürfen<s n="vbmod"/></r></p></e>
+     <e><p><l>mean<s n="vblex"/></l><r>bedeuten<s n="vblex"/></r></p></e>
+     <e><p><l>must<s n="vbmod"/></l><r>müssen<s n="vbmod"/></r></p></e>
+     <e><p><l>name<s n="vblex"/></l><r>heißen<s n="vblex"/></r></p></e>
+     <e><p><l>need<s n="vblex"/></l><r>brauchen<s n="vblex"/></r></p></e>
+     <e><p><l>offend<s n="vblex"/></l><r>beleidigen<s n="vblex"/></r></p></e>
+     <e><p><l>order<s n="vblex"/></l><r>bestellen<s n="vblex"/></r></p></e>
+     <e><p><l>pay<s n="vblex"/></l><r>bezahlen<s n="vblex"/></r></p></e>
+     <e><p><l>play<s n="vblex"/></l><r>spielen<s n="vblex"/></r></p></e>
+     <e><p><l>please<s n="vblex"/></l><r>bitten<s n="vblex"/></r></p></e>
+     <e><p><l>read<s n="vblex"/></l><r>lesen<s n="vblex"/></r></p></e>
+     <e><p><l>receive<s n="vblex"/></l><r>empfangen<s n="vblex"/></r></p></e>
+     <e><p><l>remember<s n="vblex"/></l><r>erinnern<s n="vblex"/></r></p></e>
+     <e><p><l>remove<s n="vblex"/></l><r>entfernen<s n="vblex"/></r></p></e>
+     <e><p><l>report<s n="vblex"/></l><r>berichten<s n="vblex"/></r></p></e>
+     <e><p><l>respect<s n="vblex"/></l><r>achten<s n="vblex"/></r></p></e>
+     <e><p><l>say<s n="vblex"/></l><r>sagen<s n="vblex"/></r></p></e>
+     <e><p><l>see<s n="vblex"/></l><r>sehen<s n="vblex"/></r></p></e>
+     <e><p><l>should<s n="vbmod"/></l><r>sollen<s n="vbmod"/></r></p></e>
+     <e><p><l>sleep<s n="vblex"/></l><r>schlafen<s n="vblex"/></r></p></e>
+     <e><p><l>speak<s n="vblex"/></l><r>reden<s n="vblex"/></r></p></e>
+     <e><p><l>stand<s n="vblex"/></l><r>stehen<s n="vblex"/></r></p></e>
+     <e><p><l>stay<s n="vblex"/></l><r>bleiben<s n="vblex"/></r></p></e>
+     <e><p><l>suggest<s n="vblex"/></l><r>empfehlen<s n="vblex"/></r></p></e>
+     <e><p><l>thank<s n="vblex"/></l><r>danken<s n="vblex"/></r></p></e>
+     <e><p><l>think<s n="vblex"/></l><r>denken<s n="vblex"/></r></p></e>
+     <e><p><l>travel<s n="vblex"/></l><r>fahren<s n="vblex"/></r></p></e>
+     <e><p><l>visit<s n="vblex"/></l><r>besuchen<s n="vblex"/></r></p></e>
+     <e><p><l>want<s n="vbmod"/></l><r>wollen<s n="vbmod"/></r></p></e>
+     <e><p><l>will<s n="vblex"/></l><r>werden<s n="vblex"/></r></p></e>
+     <e><p><l>work<s n="vblex"/></l><r>arbeiten<s n="vblex"/></r></p></e>
+     <e><p><l>write<s n="vblex"/></l><r>schreiben<s n="vblex"/></r></p></e>
+    
+    <!-- Numbers -->
+
+    <e><p><l>zero<s n="num"/><s n="sp"/></l><r>null<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>two<s n="num"/><s n="sp"/></l><r>zwei<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>three<s n="num"/><s n="sp"/></l><r>drei<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>four<s n="num"/><s n="sp"/></l><r>vier<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>five<s n="num"/><s n="sp"/></l><r>fünf<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>six<s n="num"/><s n="sp"/></l><r>sechs<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>seven<s n="num"/><s n="sp"/></l><r>sieben<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>eight<s n="num"/><s n="sp"/></l><r>acht<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>nine<s n="num"/><s n="sp"/></l><r>neun<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>ten<s n="num"/><s n="sp"/></l><r>zehn<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>eleven<s n="num"/><s n="sp"/></l><r>elf<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>twelve<s n="num"/><s n="sp"/></l><r>zwölf<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>thirteen<s n="num"/><s n="sp"/></l><r>dreizehn<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>fourteen<s n="num"/><s n="sp"/></l><r>vierzehn<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>fifteen<s n="num"/><s n="sp"/></l><r>fünfzehn<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>sixteen<s n="num"/><s n="sp"/></l><r>sechszehn<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>seventeen<s n="num"/><s n="sp"/></l><r>siebzehn<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>eighteen<s n="num"/><s n="sp"/></l><r>achtzehn<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>nineteen<s n="num"/><s n="sp"/></l><r>neunzehn<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>twenty<s n="num"/><s n="sp"/></l><r>zwanzig<s n="num"/><s n="sp"/></r></p></e>
+
+    <!-- Articles -->
+
+    <e><p><l>a<s n="det"/><s n="ind"/><s n="sg"/></l><r>ein<s n="det"/></r></p></e>
+    <e><p><l>the<s n="det"/></l><r>der<s n="det"/></r></p></e>
+
+    <!-- Conjunctions -->
+
+    <e><p><l>and<s n="cnjcoo"/></l><r>und<s n="cnjcoo"/></r></p></e>
+    <e><p><l>but<s n="cnjcoo"/></l><r>aber<s n="cnjcoo"/></r></p></e> <!-- Follows Any Construct -->
+    <e><p><l>or<s n="cnjcoo"/></l><r>oder<s n="cnjcoo"/></r></p></e>
+    <e><p><l>for<s n="cnjcoo"/></l><r>denn<s n="cnjcoo"/></r></p></e>
+    <e><p><l>but<s n="cnjcoo"/></l><r>sondern<s n="cnjcoo"/></r></p></e> <!-- Follows a Negative Construct -->
+
+     <e><p><l>after<s n="cnjsub"/></l><r>nachdem<s n="cnjsub"/></r></p></e>
+     <e><p><l>although<s n="cnjsub"/></l><r>obwohl<s n="cnjsub"/></r></p></e>
+     <e><p><l>as<s n="cnjsub"/></l><r>da<s n="cnjsub"/></r></p></e>
+     <e><p><l>as far as<s n="cnjsub"/></l><r>soweit<s n="cnjsub"/></r></p></e>
+     <e><p><l>as if<s n="cnjsub"/></l><r>als ob<s n="cnjsub"/></r></p></e>
+     <e><p><l>as soon as<s n="cnjsub"/></l><r>sobald<s n="cnjsub"/></r></p></e>
+     <e><p><l>as though<s n="cnjsub"/></l><r>als ob<s n="cnjsub"/></r></p></e>
+     <e><p><l>because<s n="cnjsub"/></l><r>weil<s n="cnjsub"/></r></p></e>
+     <e><p><l>before<s n="cnjsub"/></l><r>bevor<s n="cnjsub"/></r></p></e>
+     <e><p><l>if<s n="cnjsub"/></l><r>ob<s n="cnjsub"/></r></p></e>
+     <e><p><l>if<s n="cnjsub"/></l><r>wenn<s n="cnjsub"/></r></p></e>
+     <e><p><l>in which<s n="cnjsub"/></l><r>worin<s n="cnjsub"/></r></p></e>
+     <e><p><l>like<s n="cnjsub"/></l><r>wie<s n="cnjsub"/></r></p></e>
+     <e><p><l>on which<s n="cnjsub"/></l><r>worauf<s n="cnjsub"/></r></p></e>
+     <e><p><l>since<s n="cnjsub"/></l><r>da<s n="cnjsub"/></r></p></e>
+     <e><p><l>since<s n="cnjsub"/></l><r>seitdem<s n="cnjsub"/></r></p></e>
+     <e><p><l>so that<s n="cnjsub"/></l><r>damit<s n="cnjsub"/></r></p></e>
+     <e><p><l>so that<s n="cnjsub"/></l><r>sodass<s n="cnjsub"/></r></p></e>
+     <e><p><l>such that<s n="cnjsub"/></l><r>sodass<s n="cnjsub"/></r></p></e>
+     <e><p><l>to what extent<s n="cnjsub"/></l><r>inwiefern<s n="cnjsub"/></r></p></e>
+     <e><p><l>to where<s n="cnjsub"/></l><r>wohin<s n="cnjsub"/></r></p></e>
+     <e><p><l>until<s n="cnjsub"/></l><r>bis<s n="cnjsub"/></r></p></e>
+     <e><p><l>when<s n="cnjsub"/></l><r>als<s n="cnjsub"/></r></p></e>
+     <e><p><l>when<s n="cnjsub"/></l><r>wann<s n="cnjsub"/></r></p></e> <!-- Interrogative -->
+     <e><p><l>when<s n="cnjsub"/></l><r>wenn<s n="cnjsub"/></r></p></e>
+     <e><p><l>where<s n="cnjsub"/></l><r>wo<s n="cnjsub"/></r></p></e>
+     <e><p><l>whether<s n="cnjsub"/></l><r>ob<s n="cnjsub"/></r></p></e>
+     <e><p><l>while<s n="cnjsub"/></l><r>indem<s n="cnjsub"/></r></p></e>
+
+
+     <!-- Abbreviations -->
+     <e><p><l>B.C.<s n="adv"/></l><r>v.Chr.<s n="adv"/></r></p></e>
+     <e><p><l>German Democratic Republic<s n="adv"/></l><r>DDR<s n="adv"/></r></p></e>
+     <e><p><l>German as a Foreign Language<s n="adv"/></l><r>DaF<s n="adv"/></r></p></e>
+     <e><p><l>abbreviation<s n="adv"/></l><r>Abk.<s n="adv"/></r></p></e>
+     <e><p><l>accordingly<s n="adv"/></l><r>entspr.<s n="adv"/></r></p></e>
+     <e><p><l>actually<s n="adv"/></l><r>eigtl.<s n="adv"/></r></p></e>
+     <e><p><l>among others<s n="adv"/></l><r>u.a.<s n="adv"/></r></p></e>
+     <e><p><l>and<s n="adv"/></l><r>u.<s n="adv"/></r></p></e>
+     <e><p><l>and following<s n="adv"/></l><r>f.<s n="adv"/></r></p></e>
+     <e><p><l>approximately<s n="adv"/></l><r>ca.<s n="adv"/></r></p></e>
+     <e><p><l>as far as I know<s n="adv"/></l><r>m.W.<s n="adv"/></r></p></e>
+     <e><p><l>association<s n="adv"/></l><r>Ges.<s n="adv"/></r></p></e>
+     <e><p><l>born<s n="adv"/></l><r>geb.<s n="adv"/></r></p></e>
+     <e><p><l>chapter<s n="adv"/></l><r>Kap.<s n="adv"/></r></p></e>
+     <e><p><l>company<s n="adv"/></l><r>Ges.<s n="adv"/></r></p></e>
+     <e><p><l>currently<s n="adv"/></l><r>z.Z.<s n="adv"/></r></p></e>
+     <e><p><l>died<s n="adv"/></l><r>gest.<s n="adv"/></r></p></e>
+     <e><p><l>edited by<s n="adv"/></l><r>Hrsg.<s n="adv"/></r></p></e>
+     <e><p><l>especially<s n="adv"/></l><r>bes.<s n="adv"/></r></p></e>
+     <e><p><l>established<s n="adv"/></l><r>gegr.<s n="adv"/></r></p></e>
+     <e><p><l>etc.<s n="adv"/></l><r>usw.<s n="adv"/></r></p></e>
+     <e><p><l>excluding<s n="adv"/></l><r>exkl.<s n="adv"/></r></p></e>
+     <e><p><l>family<s n="adv"/></l><r>Fam.<s n="adv"/></r></p></e>
+     <e><p><l>for example<s n="adv"/></l><r>z.B.<s n="adv"/></r></p></e>
+     <e><p><l>for the time being<s n="adv"/></l><r>z.Z.<s n="adv"/></r></p></e>
+     <e><p><l>i.e.<s n="adv"/></l><r>d.h.<s n="adv"/></r></p></e>
+     <e><p><l>in my opinion<s n="adv"/></l><r>m.E.<s n="adv"/></r></p></e>
+     <e><p><l>in particular<s n="adv"/></l><r>i.b.<s n="adv"/></r></p></e>
+     <e><p><l>in the year<s n="adv"/></l><r>i.J.<s n="adv"/></r></p></e>
+     <e><p><l>number<s n="adv"/></l><r>Nr.<s n="adv"/></r></p></e>
+     <e><p><l>or<s n="adv"/></l><r>od.<s n="adv"/></r></p></e>
+     <e><p><l>page<s n="adv"/></l><r>S.<s n="adv"/></r></p></e>
+     <e><p><l>partly<s n="adv"/></l><r>z.T.<s n="adv"/></r></p></e>
+     <e><p><l>respectively<s n="adv"/></l><r>bzw.<s n="adv"/></r></p></e>
+     <e><p><l>see below<s n="adv"/></l><r>s.u.<s n="adv"/></r></p></e>
+     <e><p><l>sincerely<s n="adv"/></l><r>MfG<s n="adv"/></r></p></e>
+     <e><p><l>society<s n="adv"/></l><r>Ges.<s n="adv"/></r></p></e>
+     <e><p><l>with reference to<s n="adv"/></l><r>bzgl.<s n="adv"/></r></p></e>
+
+    <!-- Pronouns -->
+    <e>
+      <p>
+        <l>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></l>
+       <r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e> 
+      <p>
+        <l>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></l> 		
+	<r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l>
+	<r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l>
+	<r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></l>
+	<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></l>
+	<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></l>
+	<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></l>
+	<r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></l>
+	<r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r>
+      </p>
+    </e>
+
+
+    <!-- punctuation etc. -->
+    <e>
+      <p>    
+        <l>-<s n="guio"/></l>    
+	<r>-<s n="guio"/></r>  
+      </p>
+    </e>
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+
+    <e><re>[Â¿Â¡]</re><p><l><s n="lquest"/></l><r><s n="lquest"/></r></p></e>
+    <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
+    <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
+    <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
+
+  </section>  
+
+</dictionary>

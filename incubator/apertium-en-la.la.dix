@@ -1,0 +1,2160 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Latin morphological analyser for Apertium
+  
+  Resources for Latin are bountiful...
+  much of this lexicon was imported from AFGL's Latin lexicon
+  http://www.agfl.cs.ru.nl/lat/generating.html
+
+ # Latin grammar and lexicon constructed by
+ # Cornelis H.A. Koster for Tineke E.Koster
+ # as part of the AGFL project
+ # C.H.A. Koster, dec 2003 
+ 
+#   This grammar is free software; you can use it, redistribute it
+#   and/or modify it under the terms of the GNU Lesser General Public
+#   License as published by the Free Software Foundation; either
+#   version 2.1 of the License, or (at your option) any later version.
+#
+#   This grammar is distributed in the hope that it will be useful,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#   Lesser General Public License for more details.
+#
+#   You should have received a copy of the GNU Lesser General Public
+#   License along with this library; if not, write to the Free Software
+#   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+ 
+-->
+<dictionary>
+  <alphabet></alphabet>
+  <sdefs>
+    <sdef n="n"/>
+    <sdef n="m"/>
+    <sdef n="f"/>
+    <sdef n="nt"/>
+    <sdef n="sg"/>
+    <sdef n="pl"/>
+    <sdef n="np"/>
+    <sdef n="ant"/>
+    <sdef n="top"/>
+    
+    <sdef n="nom"/>
+    <sdef n="gen"/>
+    <sdef n="dat"/>
+    <sdef n="acc"/>
+    <sdef n="abl"/>
+    <sdef n="voc"/>
+    <sdef n="loc"/>
+
+    <sdef n="pr"/>
+    <sdef n="cnjcoo"/>
+    <sdef n="cnjsub"/>
+  </sdefs>
+  <pardefs>
+    <!-- Prepositions -->  
+    <pardef n="ab__pr">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="pr"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="et__cnjcoo">
+      <e>
+        <p>
+          <l/>
+          <r><s n="cnjcoo"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="ut__cnjsub">
+      <e>
+        <p>
+          <l/>
+          <r><s n="cnjcoo"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="quasi__adv">
+      <e>
+        <p>
+          <l/>
+          <r><s n="adv"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="que__enc">
+      <e>
+        <p>
+          <l>que</l>
+          <r><j/>que<s n="enc"/></r>
+        </p>
+      </e>
+    </pardef>
+    <!-- Declension 1 -->
+    <pardef n="aqu/a__n">
+      <e>
+        <p>
+          <l>a</l>
+          <r>a<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e r="LR" c="Poetic">
+        <p>
+          <l>ai</l>
+          <r>a<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e r="LR" c="Older form">
+        <p>
+          <l>as</l>
+          <r>a<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>am</l>
+          <r>a<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>a<s n="n"/><s n="f"/><s n="sg"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>a<s n="n"/><s n="f"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>arum</l>
+          <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>as</l>
+          <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="Corneli/a__np">
+      <e>
+        <p>
+          <l>a</l>
+          <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e r="LR" c="Poetic">
+        <p>
+          <l>ai</l>
+          <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e r="LR" c="Older form">
+        <p>
+          <l>as</l>
+          <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>am</l>
+          <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>arum</l>
+          <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>as</l>
+          <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="Arde/a__np">
+      <e>
+        <p>
+          <l>a</l>
+          <r>a<s n="np"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="np"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e r="LR" c="Poetic">
+        <p>
+          <l>ai</l>
+          <r>a<s n="np"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e r="LR" c="Older form">
+        <p>
+          <l>as</l>
+          <r>a<s n="np"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="np"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>am</l>
+          <r>a<s n="np"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>a<s n="np"/><s n="f"/><s n="sg"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>a<s n="np"/><s n="f"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="np"/><s n="f"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="bracc/ae__n">
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>arum</l>
+          <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>as</l>
+          <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="agricol/a__n">
+      <e>
+        <p>
+          <l>a</l>
+          <r>a<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e r="LR" c="Poetic">
+        <p>
+          <l>ai</l>
+          <r>a<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e r="LR" c="Older form">
+        <p>
+          <l>as</l>
+          <r>a<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>am</l>
+          <r>a<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>a<s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>a<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>arum</l>
+          <r>a<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>a<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>as</l>
+          <r>a<s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>a<s n="n"/><s n="m"/><s n="pl"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>a<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>a<s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="comet/es__n">
+      <e>
+        <p>
+          <l>es</l>
+          <r>es<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>es<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>es<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>en</l>
+          <r>es<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>am</l>
+          <r>es<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>es<s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>e</l>
+          <r>es<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>a</l>
+          <r>es<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>es<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>es<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>arum</l>
+          <r>es<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>es<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>as</l>
+          <r>es<s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>es<s n="n"/><s n="m"/><s n="pl"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ae</l>
+          <r>es<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>es<s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+    </pardef>
+    <!-- Second Declension -->
+    <pardef n="mur/us__n">
+      <e>
+        <p>
+          <l>us</l>
+          <r>us<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>i</l>
+          <r>us<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>o</l>
+          <r>us<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>um</l>
+          <r>us<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>o</l>
+          <r>us<s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>e</l>
+          <r>us<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>o</l>
+          <r>us<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>i</l>
+          <r>us<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>orum</l>
+          <r>us<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>us<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>os</l>
+          <r>us<s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>us<s n="n"/><s n="m"/><s n="pl"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>i</l>
+          <r>us<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>us<s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="Iuli/us__np">
+      <e>
+        <p>
+          <l>us</l>
+          <r>us<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>i</l>
+          <r>us<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>o</l>
+          <r>us<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>um</l>
+          <r>us<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>o</l>
+          <r>us<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>e</l>
+          <r>us<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>o</l>
+          <r>us<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>i</l>
+          <r>us<s n="np"/><s n="ant"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>orum</l>
+          <r>us<s n="np"/><s n="ant"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>us<s n="np"/><s n="ant"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>os</l>
+          <r>us<s n="np"/><s n="ant"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>us<s n="np"/><s n="ant"/><s n="m"/><s n="pl"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>i</l>
+          <r>us<s n="np"/><s n="ant"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>us<s n="np"/><s n="ant"/><s n="m"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="dom/us__n">
+      <e>
+        <p>
+          <l>us</l>
+          <r>us<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>us</l>
+          <r>us<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ui</l>
+          <r>us<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>um</l>
+          <r>us<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>o</l>
+          <r>us<s n="n"/><s n="f"/><s n="sg"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>us</l>
+          <r>us<s n="n"/><s n="f"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>o</l>
+          <r>us<s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>us</l>
+          <r>us<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>orum</l>
+          <r>us<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>uum</l>
+          <r>us<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ibus</l>
+          <r>us<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>os</l>
+          <r>us<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ibus</l>
+          <r>us<s n="n"/><s n="f"/><s n="pl"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>us</l>
+          <r>us<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ibus</l>
+          <r>us<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="puer__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>i</l>
+          <r><s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>o</l>
+          <r><s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>um</l>
+          <r><s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>o</l>
+          <r><s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>o</l>
+          <r><s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>i</l>
+          <r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>orum</l>
+          <r><s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r><s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>os</l>
+          <r><s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r><s n="n"/><s n="m"/><s n="pl"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>i</l>
+          <r><s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r><s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="ar/x__n">
+      <e>
+        <p>
+          <l>x</l>
+          <r>x<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>cis</l>
+          <r>x<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ci</l>
+          <r>x<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>cem</l>
+          <r>x<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ce</l>
+          <r>x<s n="n"/><s n="f"/><s n="sg"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>x</l>
+          <r>x<s n="n"/><s n="f"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ce</l>
+          <r>x<s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ces</l>
+          <r>x<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>cum</l>
+          <r>x<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>cibus</l>
+          <r>x<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ces</l>
+          <r>x<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>cibus</l>
+          <r>x<s n="n"/><s n="f"/><s n="pl"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ces</l>
+          <r>x<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>cibus</l>
+          <r>x<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="re/s__n">
+      <e>
+        <p>
+          <l>s</l>
+          <r>s<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>i</l>
+          <r>s<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>i</l>
+          <r>s<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>m</l>
+          <r>s<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r>s<s n="n"/><s n="f"/><s n="sg"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r>s<s n="n"/><s n="f"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r>s<s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r>s<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rum</l>
+          <r>s<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>bus</l>
+          <r>s<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r>s<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>bus</l>
+          <r>s<s n="n"/><s n="f"/><s n="pl"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r>s<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>bus</l>
+          <r>s<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="ag/er__n">
+      <e>
+        <p>
+          <l>er</l>
+          <r>er<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ri</l>
+          <r>er<s n="n"/><s n="m"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ro</l>
+          <r>er<s n="n"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rum</l>
+          <r>er<s n="n"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ro</l>
+          <r>er<s n="n"/><s n="m"/><s n="sg"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>er</l>
+          <r>er<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ro</l>
+          <r>er<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ri</l>
+          <r>er<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rorum</l>
+          <r>er<s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ris</l>
+          <r>er<s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ros</l>
+          <r>er<s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ris</l>
+          <r>er<s n="n"/><s n="m"/><s n="pl"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ri</l>
+          <r>er<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ris</l>
+          <r>er<s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="bell/um__n">
+      <e>
+        <p>
+          <l>um</l>
+          <r>um<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>i</l>
+          <r>um<s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>o</l>
+          <r>um<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>um</l>
+          <r>um<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>o</l>
+          <r>um<s n="n"/><s n="nt"/><s n="sg"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>um</l>
+          <r>um<s n="n"/><s n="nt"/><s n="sg"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>o</l>
+          <r>um<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>um<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>orum</l>
+          <r>um<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>um<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>um<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>um<s n="n"/><s n="nt"/><s n="pl"/><s n="abl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>um<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>is</l>
+          <r>um<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+    </pardef>
+  </pardefs>
+  <section id="main" type="standard">
+    <!-- Prepositions -->
+    <e lm="ab"><i>ab</i><par n="ab__pr"/></e>
+    <e lm="ad"><i>ad</i><par n="ab__pr"/></e>
+    <e lm="prae"><i>prae</i><par n="ab__pr"/></e>
+    <e lm="praeter"><i>praeter</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="a"><i>a</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="abs"><i>abs</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="adversus"><i>adversus</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="ante"><i>ante</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="apud"><i>apud</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="causa"><i>causa</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="circa"><i>circa</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="circiter"><i>circiter</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="circum"><i>circum</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="cis"><i>cis</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="citra"><i>citra</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="clam"><i>clam</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="contra"><i>contra</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="coram"><i>coram</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="cum"><i>cum</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="de"><i>de</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="e"><i>e</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="erga"><i>erga</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="ex"><i>ex</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="extra"><i>extra</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="gratia"><i>gratia</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="in"><i>in</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="infra"><i>infra</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="inter"><i>inter</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="intra"><i>intra</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="iuxta"><i>iuxta</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="ob"><i>ob</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="penes"><i>penes</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="per"><i>per</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="pone"><i>pone</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="post"><i>post</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="pro"><i>pro</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="procul"><i>procul</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="prope"><i>prope</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="propter"><i>propter</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="secundum"><i>secundum</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="sine"><i>sine</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="sub"><i>sub</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="super"><i>super</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="supra"><i>supra</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="trans"><i>trans</i><par n="ab__pr"/></e>
+    <e a="agfl-lat" lm="ultra"><i>ultra</i><par n="ab__pr"/></e>
+
+    <e lm="et"><i>et</i><par n="et__cnjcoo"/></e>
+    <e a="agfl-lat" lm="ac"><i>ac</i><par n="et__cnjcoo"/></e>
+    <e a="agfl-lat" lm="an"><i>an</i><par n="et__cnjcoo"/></e>
+    <e a="agfl-lat" lm="at"><i>at</i><par n="et__cnjcoo"/></e>
+    <e a="agfl-lat" lm="atque"><i>atque</i><par n="et__cnjcoo"/></e>
+    <e a="agfl-lat" lm="aut"><i>aut</i><par n="et__cnjcoo"/></e>
+    <e a="agfl-lat" lm="nec"><i>nec</i><par n="et__cnjcoo"/></e>
+    <e a="agfl-lat" lm="neque"><i>neque</i><par n="et__cnjcoo"/></e>
+    <e a="agfl-lat" lm="vel"><i>vel</i><par n="et__cnjcoo"/></e>
+
+    <e a="agfl-lat" lm="antequam"><i>antequam</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="cur"><i>cur</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="donec"><i>donec</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="dum"><i>dum</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="etiamsi"><i>etiamsi</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="etsi"><i>etsi</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="nisi"><i>nisi</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="nonne"><i>nonne</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="posteaquam"><i>posteaquam</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="postquam"><i>postquam</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="praeterquam"><i>praeterquam</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="priusquam"><i>priusquam</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="quamvis"><i>quamvis</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="quando"><i>quando</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="quia"><i>quia</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="quoniam"><i>quoniam</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="sed"><i>sed</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="si"><i>si</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="sicut"><i>sicut</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="sicuti"><i>sicuti</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="ubi"><i>ubi</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="unde"><i>unde</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="ut"><i>ut</i><par n="ut__cnjsub"/></e>
+    <e a="agfl-lat" lm="propterea"><i>propterea</i><par n="ut__cnjsub"/></e>
+
+    <!-- Adverbs -->
+    <e a="agfl-lat" lm="abhinc"><i>abhinc</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="adfatim"><i>adfatim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="adhuc"><i>adhuc</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="admodum"><i>admodum</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="adsidue"><i>adsidue</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="alibi"><i>alibi</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="alioqui"><i>alioqui</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="alioquin"><i>alioquin</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="aliquamdiu"><i>aliquamdiu</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="aliquando"><i>aliquando</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="aliquanto"><i>aliquanto</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="aliquotiens"><i>aliquotiens</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="aliquoties"><i>aliquoties</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="aliud"><i>aliud</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="altius"><i>altius</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="amen"><i>amen</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="amplius"><i>amplius</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="an"><i>an</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="antea"><i>antea</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="aperte"><i>aperte</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="ardentius"><i>ardentius</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="assidue"><i>assidue</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="atqui"><i>atqui</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="audaciter"><i>audaciter</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="audacter"><i>audacter</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="autem"><i>autem</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="bene"><i>bene</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="bis"><i>bis</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="breviter"><i>breviter</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="catervatim"><i>catervatim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="celeriter"><i>celeriter</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="certatim"><i>certatim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="cito"><i>cito</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="clementer"><i>clementer</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="confestim"><i>confestim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="cotidie"><i>cotidie</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="deinde"><i>deinde</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="denique"><i>denique</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="deterius"><i>deterius</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="diu"><i>diu</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="ecce"><i>ecce</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="enim"><i>enim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="ergo"><i>ergo</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="etenim"><i>etenim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="etiam"><i>etiam</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="fortasse"><i>fortasse</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="frustra"><i>frustra</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="furtim"><i>furtim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="gradatim"><i>gradatim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="haud"><i>haud</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="iam"><i>iam</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="ibi"><i>ibi</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="ibidem"><i>ibidem</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="item"><i>item</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="ideo"><i>ideo</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="igitur"><i>igitur</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="immo"><i>immo</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="inde"><i>inde</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="inferius"><i>inferius</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="interdum"><i>interdum</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="interea"><i>interea</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="interim"><i>interim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="interius"><i>interius</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="invicem"><i>invicem</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="ita"><i>ita</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="itaque"><i>itaque</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="iterum"><i>iterum</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="libentius"><i>libentius</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="longius"><i>longius</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="magis"><i>magis</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="maius"><i>maius</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="melius"><i>melius</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="mox"><i>mox</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="nam"><i>nam</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="ne"><i>ne</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="nimis"><i>nimis</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="nimium"><i>nimium</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="non"><i>non</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="nondum"><i>nondum</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="num"><i>num</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="numquam"><i>numquam</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="nunc"><i>nunc</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="nunquam"><i>nunquam</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="o"><i>o</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="olim"><i>olim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="omnino"><i>omnino</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="paene"><i>paene</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="quin"><i>quin</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="praeterea"><i>praeterea</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="partim"><i>partim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="passim"><i>passim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="paulatim"><i>paulatim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="postea"><i>postea</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="potius"><i>potius</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="praesertim"><i>praesertim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="praesto"><i>praesto</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="prius"><i>prius</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="procul"><i>procul</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="quamdiu"><i>quamdiu</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="quamquam"><i>quamquam</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="quandam"><i>quandam</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="nusquam"><i>nusquam</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="quasi"><i>quasi</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="quemadmodum"><i>quemadmodum</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="quippe"><i>quippe</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="quoque"><i>quoque</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="raptim"><i>raptim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="repente"><i>repente</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="saepe"><i>saepe</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="saepius"><i>saepius</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="scilicet"><i>scilicet</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="secretius"><i>secretius</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="semper"><i>semper</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="sensim"><i>sensim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="sic"><i>sic</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="simul"><i>simul</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="singillatim"><i>singillatim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="sobrius"><i>sobrius</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="statim"><i>statim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="statimque"><i>statimque</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="subito"><i>subito</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="superius"><i>superius</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="tam"><i>tam</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="tot"><i>tot</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="numquid"><i>numquid</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="merito"><i>merito</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="certo"><i>certo</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="postremo"><i>postremo</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="falso"><i>falso</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="sero"><i>sero</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="tamen"><i>tamen</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="tametsi"><i>tametsi</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="tamquam"><i>tamquam</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="tandem"><i>tandem</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="tardius"><i>tardius</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="tum"><i>tum</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="tunc"><i>tunc</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="uberius"><i>uberius</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="uberte"><i>uberte</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="ubertim"><i>ubertim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="ueraciter"><i>ueraciter</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="umquam"><i>umquam</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="unciatim"><i>unciatim</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="undique"><i>undique</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="universe"><i>universe</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="usque"><i>usque</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="usquequaque"><i>usquequaque</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="utcumque"><i>utcumque</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="utique"><i>utique</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="utpote"><i>utpote</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="utrimque"><i>utrimque</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="vae"><i>vae</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="bene"><i>bene</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="male"><i>male</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="magnopere"><i>magnopere</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="aliter"><i>aliter</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="valde"><i>valde</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="vehementer"><i>vehementer</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="velociter"><i>velociter</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="velut"><i>velut</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="verumptamen"><i>verumptamen</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="verumtamen"><i>verumtamen</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="videlicet"><i>videlicet</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="viriliter"><i>viriliter</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="vix"><i>vix</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="volubiliter"><i>volubiliter</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="vulgariter"><i>vulgariter</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="ymo"><i>ymo</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="dummodo"><i>dummodo</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="multimodo"><i>multimodo</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="quomodo"><i>quomodo</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="tantummodo"><i>tantummodo</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="temporaliter"><i>temporaliter</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="pariter"><i>pariter</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="sat"><i>sat</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="huc"><i>huc</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="libenter"><i>libenter</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="itane"><i>itane</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="sursum"><i>sursum</i><par n="quasi__adv"/></e>
+    <e a="agfl-lat" lm="retro"><i>retro</i><par n="quasi__adv"/></e>
+    
+    <!-- Declension 1 f a, ae -->
+    <e lm="aqua"><i>aqu</i><par n="aqu/a__n"/></e> <!-- water -->
+    <e lm="abbatia"><i>abbati</i><par n="aqu/a__n"/></e> <!-- abbey -->
+    <e lm="absentia"><i>absenti</i><par n="aqu/a__n"/></e> <!-- absence -->
+    <e lm="acta"><i>act</i><par n="aqu/a__n"/></e> <!-- holiday -->
+    <e lm="agricultura"><i>agricultur</i><par n="aqu/a__n"/></e> <!-- agriculture -->
+    <e lm="ala"><i>al</i><par n="aqu/a__n"/></e> <!-- wing -->
+    <e lm="alea"><i>ale</i><par n="aqu/a__n"/></e> <!-- die (pl. dice) -->
+    <e lm="amica"><i>amic</i><par n="aqu/a__n"/></e> <!-- friend -->
+    <e lm="amicitia"><i>amiciti</i><par n="aqu/a__n"/></e> <!-- friendship -->
+    <e lm="amita"><i>amit</i><par n="aqu/a__n"/></e> <!-- paternal aunt -->
+    <e lm="amitina"><i>amitin</i><par n="aqu/a__n"/></e> <!-- cousin -->
+    <e lm="ampulla"><i>ampull</i><par n="aqu/a__n"/></e>
+    <e lm="anima"><i>anim</i><par n="aqu/a__n"/></e> <!-- soul -->
+    <e lm="ansa"><i>ans</i><par n="aqu/a__n"/></e> <!-- handle -->
+    <e lm="antenna"><i>antenn</i><par n="aqu/a__n"/></e> <!-- nautical yard, flagpole -->
+    <e lm="aquila"><i>aquil</i><par n="aqu/a__n"/></e> <!-- eagle -->
+    <e lm="ara"><i>ar</i><par n="aqu/a__n"/></e> <!-- altar -->
+    <e lm="arca"><i>arc</i><par n="aqu/a__n"/></e> <!-- chest -->
+    <e lm="ardea"><i>arde</i><par n="aqu/a__n"/></e> <!-- heron -->
+    <e lm="area"><i>are</i><par n="aqu/a__n"/></e> <!-- open space -->
+    <e lm="arena"><i>aren</i><par n="aqu/a__n"/></e> <!-- sand, arena -->
+    <e lm="aristocratia"><i>aristocrati</i><par n="aqu/a__n"/></e> <!-- aristocracy -->
+    <e lm="arula"><i>arul</i><par n="aqu/a__n"/></e> <!-- small altar -->
+    <e lm="aspilogia"><i>aspilogi</i><par n="aqu/a__n"/></e> <!-- coat of arms -->
+    <e lm="auricula"><i>auricul</i><par n="aqu/a__n"/></e> <!-- ear-lap -->
+    <e lm="barba"><i>barb</i><par n="aqu/a__n"/></e> <!-- beard -->
+    <e lm="baca"><i>bac</i><par n="aqu/a__n"/></e> <!-- berry, pearl -->
+    <e lm="betula"><i>betul</i><par n="aqu/a__n"/></e>
+    <e lm="bruma"><i>brum</i><par n="aqu/a__n"/></e>
+    <e lm="filia"><i>fili</i><par n="aqu/a__n"/></e> <!-- daughter -->
+    <e lm="stella"><i>stell</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="Cornelia"><i>Corneli</i><par n="Corneli/a__np"/></e>
+    <e a="afgl-lat" lm="abstinentia"><i>abstinenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="abundantia"><i>abundanti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="adolescentia"><i>adolescenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="adulescentia"><i>adulescenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="aenigma"><i>aenigm</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="ambrosia"><i>ambrosi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="amentia"><i>amenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="amphora"><i>amphor</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="ancilla"><i>ancill</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="ancillula"><i>ancillul</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="angustia"><i>angusti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="annona"><i>annon</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="archa"><i>arch</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="arena"><i>aren</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="arista"><i>arist</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="aroma"><i>arom</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="auarca"><i>auarc</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="audacia"><i>audaci</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="audentia"><i>audenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="aula"><i>aul</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="aura"><i>aur</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="aurora"><i>auror</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="avaritia"><i>avariti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="balaena"><i>balaen</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="barba"><i>barb</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="benevolentia"><i>benevolenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="benivolentia"><i>benivolenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="bestia"><i>besti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="blanditia"><i>blanditi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="caltha"><i>calth</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="camera"><i>camer</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="campana"><i>campan</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="candela"><i>candel</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="capella"><i>capell</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="casa"><i>cas</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="casula"><i>casul</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="cataracta"><i>cataract</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="categoria"><i>categori</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="catena"><i>caten</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="caterva"><i>caterv</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="cathedra"><i>cathedr</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="cauda"><i>caud</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="causa"><i>caus</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="cautela"><i>cautel</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="caverna"><i>cavern</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="cella"><i>cell</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="cellula"><i>cellul</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="cena"><i>cen</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="centuria"><i>centuri</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="cithara"><i>cithar</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="colonia"><i>coloni</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="columba"><i>columb</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="concordia"><i>concordi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="concubina"><i>concubin</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="concupiscentia"><i>concupiscenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="conscientia"><i>conscienti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="continentia"><i>continenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="controversia"><i>controversi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="contumelia"><i>contumeli</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="copia"><i>copi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="creatura"><i>creatur</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="culpa"><i>culp</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="cura"><i>cur</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="curia"><i>curi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="custodia"><i>custodi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="dea"><i>de</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="delicia"><i>delici</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="diligentia"><i>diligenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="disciplina"><i>disciplin</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="discordia"><i>discordi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="doctrina"><i>doctrin</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="domina"><i>domin</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="duritia"><i>duriti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="ecclesia"><i>ecclesi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="eloquentia"><i>eloquenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="enigma"><i>enigm</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="epistula"><i>epistul</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="fabella"><i>fabell</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="fabula"><i>fabul</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="fama"><i>fam</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="familia"><i>famili</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="famula"><i>famul</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="femina"><i>femin</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="fiducia"><i>fiduci</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="flamma"><i>flamm</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="forma"><i>form</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="fortuna"><i>fortun</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="fossa"><i>foss</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="fuga"><i>fug</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="gloria"><i>glori</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="grammatica"><i>grammatic</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="gratia"><i>grati</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="hora"><i>hor</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="ignavia"><i>ignavi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="immunditia"><i>immunditi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="indigentia"><i>indigenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="infantia"><i>infanti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="iniuria"><i>iniuri</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="inmunditia"><i>inmunditi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="innocentia"><i>innocenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="inopia"><i>inopi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="inperitia"><i>inperiti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="insania"><i>insani</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="insula"><i>insul</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="intellegentia"><i>intellegenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="invidia"><i>invidi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="ira"><i>ir</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="iustitia"><i>iustiti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="lacrima"><i>lacrim</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="laetitia"><i>laetiti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="lingua"><i>lingu</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="littera"><i>litter</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="litteratura"><i>litteratur</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="luna"><i>lun</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="luxuria"><i>luxuri</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="maestitia"><i>maestiti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="malitia"><i>maliti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="materia"><i>materi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="matrona"><i>matron</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="medicina"><i>medicin</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="medulla"><i>medull</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="memoria"><i>memori</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="mensa"><i>mens</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="militia"><i>militi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="miseria"><i>miseri</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="misericordia"><i>misericordi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="mora"><i>mor</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="natura"><i>natur</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="nebula"><i>nebul</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="neglegentia"><i>neglegenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="nequitia"><i>nequiti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="notitia"><i>notiti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="omnipotentia"><i>omnipotenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="ora"><i>or</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="pagina"><i>pagin</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="patria"><i>patri</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="pecunia"><i>pecuni</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="pellicia"><i>pellici</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="peritia"><i>periti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="persona"><i>person</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="pervicacia"><i>pervicaci</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="pestilentia"><i>pestilenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="phantasia"><i>phantasi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="pigritia"><i>pigriti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="pila"><i>pil</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="plaga"><i>plag</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="poena"><i>poen</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="porta"><i>port</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="potentia"><i>potenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="prophetia"><i>propheti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="providentia"><i>providenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="provincia"><i>provinci</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="prudentia"><i>prudenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="puelia"><i>pueli</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="puella"><i>puell</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="pueritia"><i>pueriti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="pugna"><i>pugn</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="regina"><i>regin</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="rethorica"><i>rethoric</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="rhetorica"><i>rhetoric</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="ripa"><i>rip</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="rota"><i>rot</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="ruina"><i>ruin</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="saevitia"><i>saeviti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="saevitia"><i>saeviti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="sagitta"><i>sagitt</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="sapientia"><i>sapienti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="sarcina"><i>sarcin</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="scaena"><i>scaen</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="schola"><i>schol</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="scientia"><i>scienti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="secta"><i>sect</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="sententia"><i>sententi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="silva"><i>silv</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="spina"><i>spin</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="spurcitia"><i>spurciti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="statua"><i>statu</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="stilla"><i>still</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="stultitia"><i>stultiti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="suaveolentia"><i>suaveolenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="suaviloquentia"><i>suaviloquenti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="substantia"><i>substanti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="summa"><i>summ</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="superbia"><i>superbi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="syllaba"><i>syllab</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="sylva"><i>sylv</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="taberna"><i>tabern</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="tabula"><i>tabul</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="taverna"><i>tavern</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="tenebra"><i>tenebr</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="terra"><i>terr</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="terrena"><i>terren</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="tristitia"><i>tristiti</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="tunica"><i>tunic</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="turba"><i>turb</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="tutela"><i>tutel</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="umbra"><i>umbr</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="uncia"><i>unci</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="ungula"><i>ungul</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="urna"><i>urn</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="urnula"><i>urnul</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="ursa"><i>urs</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="vena"><i>ven</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="vesica"><i>vesic</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="via"><i>vi</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="victoria"><i>victori</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="viduata"><i>viduat</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="vigilia"><i>vigili</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="villa"><i>vill</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="vinea"><i>vine</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="vita"><i>vit</i><par n="aqu/a__n"/></e>
+    <e a="afgl-lat" lm="vomica"><i>vomic</i><par n="aqu/a__n"/></e>
+
+    <!-- Declension 1 f sg ae, arum -->
+    <e lm="Ardea"><i>Arde</i><par n="Arde/a__np"/></e> <!-- Ardea -->
+    <!-- Declension 1 f pl ae, arum -->
+    <e lm="braccae"><i>bracc</i><par n="bracc/ae__n"/></e>
+    <e lm="thermae"><i>therm</i><par n="bracc/ae__n"/></e>
+    <!-- Declension 1 m a, ae -->
+    <e lm="agricola"><i>agricol</i><par n="agricol/a__n"/></e> <!-- farmer -->
+    <e lm="auriga"><i>aurig</i><par n="agricol/a__n"/></e> <!-- charioteer -->
+    <e lm="incola"><i>incol</i><par n="agricol/a__n"/></e>
+    <e lm="nauta"><i>naut</i><par n="agricol/a__n"/></e> <!-- sailor -->
+    <e lm="poeta"><i>poet</i><par n="agricol/a__n"/></e> <!-- poet -->
+    <e a="agfl-lat" lm="propheta"><i>prophet</i><par n="agricol/a__n"/></e> <!-- prophet -->
+    <e lm="pirata"><i>pirat</i><par n="agricol/a__n"/></e> <!-- pirate -->
+    <e lm="scriba"><i>scrib</i><par n="agricol/a__n"/></e> <!-- scribe -->
+    <!-- Declension 2 m us, i -->
+    <e lm="murus"><i>mur</i><par n="mur/us__n"/></e> <!-- wall -->
+    <e a="agfl-lat" lm="abavus"><i>abav</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="abortivus"><i>abortiv</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="abyssus"><i>abyss</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="acervus"><i>acerv</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="aduentus"><i>aduent</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="adversarius"><i>adversari</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="aestus"><i>aest</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="alumnus"><i>alumn</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="alveus"><i>alve</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="ambitus"><i>ambit</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="amiculus"><i>amicul</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="amicus"><i>amic</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="amplexus"><i>amplex</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="angelus"><i>angel</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="angulus"><i>angul</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="animus"><i>anim</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="annus"><i>ann</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="apostolus"><i>apostol</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="apparatus"><i>apparat</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="appetitus"><i>appetit</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="aquilus"><i>aquil</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="architectus"><i>architect</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="arcus"><i>arc</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="articulus"><i>articul</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="asinus"><i>asin</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="atavus"><i>atav</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="auctus"><i>auct</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="autus"><i>aut</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="avus"><i>av</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="baculus"><i>bacul</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="baiulus"><i>baiul</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="balanus"><i>balan</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="barbarus"><i>barbar</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="calculus"><i>calcul</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="caminus"><i>camin</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="campus"><i>camp</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="canonus"><i>canon</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="canticus"><i>cantic</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="capillus"><i>capill</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="capitulus"><i>capitul</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="catechumenus"><i>catechumen</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="cattus"><i>catt</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="cellarius"><i>cellari</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="christianus"><i>christian</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="christus"><i>christ</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="cibus"><i>cib</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="colonus"><i>colon</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="daemonus"><i>daemon</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="deus"><i>de</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="diabolus"><i>diabol</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="digitus"><i>digit</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="discipulus"><i>discipul</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="dominus"><i>domin</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="episcopus"><i>episcop</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="equus"><i>equ</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="estus"><i>est</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="famulus"><i>famul</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="filius"><i>fili</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="fructus"><i>fruct</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="gladius"><i>gladi</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="haereticus"><i>haeretic</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="hortus"><i>hort</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="humerus"><i>humer</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="hymnus"><i>hymn</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="inimicus"><i>inimic</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="lacus"><i>lac</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="laqueus"><i>laque</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="legatus"><i>legat</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="legionarius"><i>legionari</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="locus"><i>loc</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="ludus"><i>lud</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="medicus"><i>medic</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="mendicus"><i>mendic</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="modus"><i>mod</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="monachus"><i>monach</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="morbus"><i>morb</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="mundus"><i>mund</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="musculus"><i>muscul</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="numerus"><i>numer</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="nuntius"><i>nunti</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="oculus"><i>ocul</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="oppidanus"><i>oppidan</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="orbus"><i>orb</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="populus"><i>popul</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="presbyterus"><i>presbyter</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="ramus"><i>ram</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="reus"><i>re</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="sagittarius"><i>sagittari</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="scholasticus"><i>scholastic</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="servulus"><i>servul</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="servus"><i>serv</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="socius"><i>soci</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="spiritus"><i>spirit</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="sponsus"><i>spons</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="stomachus"><i>stomach</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="thesaurus"><i>thesaur</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="tumbarius"><i>tumbari</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="tumultus"><i>tumult</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="tumulus"><i>tumul</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="typhus"><i>typh</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="tyrannus"><i>tyrann</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="umerus"><i>umer</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="uterus"><i>uter</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="velius"><i>veli</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="venaticus"><i>venatic</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="ventulus"><i>ventul</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="ventus"><i>vent</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="vermiculus"><i>vermicul</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="vicinus"><i>vicin</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="viduatus"><i>viduat</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="virtus"><i>virt</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="vulgus"><i>vulg</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="vulnus"><i>vuln</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="vulticulus"><i>vulticul</i><par n="mur/us__n"/></e>
+    <e a="agfl-lat" lm="vultus"><i>vult</i><par n="mur/us__n"/></e>
+    <!-- Irregular -->
+    <e lm="domus"><i>vult</i><par n="dom/us__n"/></e>
+    
+    <e lm="Iulius"><i>Iuli</i><par n="Iuli/us__np"/></e> <!-- Julius -->
+    <e lm="Brutus"><i>Brutus</i><par n="Iuli/us__np"/></e> <!-- Brutus -->
+    <e lm="puer"><i>puer</i><par n="puer__n"/></e>
+    <e lm="arx"><i>ar</i><par n="ar/x__n"/></e>
+    <e lm="res"><i>re</i><par n="re/s__n"/></e>
+    <e lm="ager"><i>ag</i><par n="ag/er__n"/></e>
+    <e lm="bellum"><i>bell</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="adiutorium"><i>adiutori</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="aedificium"><i>aedifici</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="alimentum"><i>aliment</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="ambulatorium"><i>ambulatori</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="amphitheatrum"><i>amphitheatr</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="antidotum"><i>antidot</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="arbitrium"><i>arbitri</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="argentum"><i>argent</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="argumentum"><i>argument</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="armamentum"><i>armament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="armum"><i>arm</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="articulum"><i>articul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="artificium"><i>artifici</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="auditorium"><i>auditori</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="aurum"><i>aur</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="auspicium"><i>auspici</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="auxilium"><i>auxili</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="bacillum"><i>bacill</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="baptismum"><i>baptism</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="beneficium"><i>benefici</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="blandimentum"><i>blandiment</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="bonum"><i>bon</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="brachium"><i>brachi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="caelum"><i>cael</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="calceamentum"><i>calceament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="calciamentum"><i>calciament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="canticum"><i>cantic</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="capillamentum"><i>capillament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="caseum"><i>case</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="castellum"><i>castell</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="castrum"><i>castr</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="cenaculum"><i>cenacul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="cenatorium"><i>cenatori</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="circulum"><i>circul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="claustrum"><i>claustr</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="coelum"><i>coel</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="collegium"><i>collegi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="colloquium"><i>colloqui</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="comitium"><i>comiti</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="compendium"><i>compendi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="concilium"><i>concili</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="condimentum"><i>condiment</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="consilium"><i>consili</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="consortium"><i>consorti</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="cubiculum"><i>cubicul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="cubitum"><i>cubit</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="datum"><i>dat</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="decretum"><i>decret</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="deliramentum"><i>delirament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="desiderium"><i>desideri</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="documentum"><i>document</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="donum"><i>don</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="dubium"><i>dubi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="edificium"><i>edifici</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="elementum"><i>element</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="evangelium"><i>evangeli</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="eventum"><i>event</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="exemplum"><i>exempl</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="exiguum"><i>exigu</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="exilium"><i>exili</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="exitium"><i>exiti</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="exordium"><i>exordi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="experimentum"><i>experiment</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="factum"><i>fact</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="fatum"><i>fat</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="ferrum"><i>ferr</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="figmentum"><i>figment</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="firmamentum"><i>firmament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="flagitium"><i>flagiti</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="forum"><i>for</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="frumentum"><i>frument</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="fundamentum"><i>fundament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="furtum"><i>furt</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="gaudium"><i>gaudi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="gladiatorium"><i>gladiatori</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="gremium"><i>gremi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="habitaculum"><i>habitacul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="homicidium"><i>homicidi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="horreum"><i>horre</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="hortamentum"><i>hortament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="hortulum"><i>hortul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="impedimentum"><i>impediment</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="imperium"><i>imperi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="incendium"><i>incendi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="incrementum"><i>increment</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="indicium"><i>indici</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="ingenium"><i>ingeni</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="initium"><i>initi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="institutum"><i>institut</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="instrumentum"><i>instrument</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="intervallum"><i>intervall</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="iudicium"><i>iudici</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="iugulum"><i>iugul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="iugum"><i>iug</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="iumentum"><i>iument</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="iusiurandum"><i>iusiurand</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="laxamentum"><i>laxament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="letum"><i>let</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="liberamentum"><i>liberament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="librum"><i>libr</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="lignum"><i>lign</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="liniamentum"><i>liniament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="lucrum"><i>lucr</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="luculentum"><i>luculent</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="luminarium"><i>luminari</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="machinamentum"><i>machinament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="malum"><i>mal</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="mancipium"><i>mancipi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="mandatum"><i>mandat</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="matrimonium"><i>matrimoni</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="medicamentum"><i>medicament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="membrum"><i>membr</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="meritum"><i>merit</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="ministerium"><i>ministeri</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="mirabilium"><i>mirabili</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="miraculum"><i>miracul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="modicum"><i>modic</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="momentum"><i>moment</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="monasterium"><i>monasteri</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="monstrum"><i>monstr</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="monumentum"><i>monument</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="mysterium"><i>mysteri</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="nefarium"><i>nefari</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="negotium"><i>negoti</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="nodum"><i>nod</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="oblectamentum"><i>oblectament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="odium"><i>odi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="officium"><i>offici</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="oleum"><i>ole</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="oppidum"><i>oppid</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="opprobrium"><i>opprobri</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="oraculum"><i>oracul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="oratorium"><i>oratori</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="ornamentum"><i>ornament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="ostium"><i>osti</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="otium"><i>oti</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="pabulum"><i>pabul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="palatium"><i>palati</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="patrocinium"><i>patrocini</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="paululum"><i>paulul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="peccatum"><i>peccat</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="periculum"><i>pericul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="poculum"><i>pocul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="praemium"><i>praemi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="praesepium"><i>praesepi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="praesidium"><i>praesidi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="prandium"><i>prandi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="pretium"><i>preti</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="principium"><i>principi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="prodigium"><i>prodigi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="proelium"><i>proeli</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="propheticum"><i>prophetic</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="psalterium"><i>psalteri</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="pulmentum"><i>pulment</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="quantulum"><i>quantul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="receptaculum"><i>receptacul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="refugium"><i>refugi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="regnum"><i>regn</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="reliquiarium"><i>reliquiari</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="remedium"><i>remedi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="respiramentum"><i>respirament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="rudimentum"><i>rudiment</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="sacramentum"><i>sacrament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="sacrificium"><i>sacrifici</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="sacrum"><i>sacr</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="saeculum"><i>saecul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="sanctuarium"><i>sanctuari</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="saxum"><i>sax</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="scopulum"><i>scopul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="scrupulum"><i>scrupul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="seculum"><i>secul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="sepulchrum"><i>sepulchr</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="sexum"><i>sex</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="signum"><i>sign</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="silentium"><i>silenti</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="simulacrum"><i>simulacr</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="solacium"><i>solaci</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="solidamentum"><i>solidament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="somnium"><i>somni</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="somnum"><i>somn</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="spatium"><i>spati</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="spectaculum"><i>spectacul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="speculum"><i>specul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="stipendium"><i>stipendi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="studium"><i>studi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="subsidium"><i>subsidi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="supplicium"><i>supplici</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="tabernaculum"><i>tabernacul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="tectum"><i>tect</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="tegimentum"><i>tegiment</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="telum"><i>tel</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="temerarium"><i>temerari</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="temperamentum"><i>temperament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="templum"><i>templ</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="temptamentum"><i>temptament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="tergum"><i>terg</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="testamentum"><i>testament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="testimonium"><i>testimoni</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="thalamum"><i>thalam</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="theatrum"><i>theatr</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="tormentum"><i>torment</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="transitorium"><i>transitori</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="triclinium"><i>triclini</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="utrum"><i>utr</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="vacuum"><i>vacu</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="vadum"><i>vad</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="vallum"><i>vall</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="vaticinium"><i>vaticini</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="velamentum"><i>velament</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="venenum"><i>venen</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="verbum"><i>verb</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="verum"><i>ver</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="vestigium"><i>vestigi</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="vestimentum"><i>vestiment</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="viaticum"><i>viatic</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="vinculum"><i>vincul</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="vinum"><i>vin</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="viscerum"><i>viscer</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="vitium"><i>viti</i><par n="bell/um__n"/></e>
+    <e a="agfl-lat" lm="vocabulum"><i>vocabul</i><par n="bell/um__n"/></e>
+
+  </section>
+</dictionary>

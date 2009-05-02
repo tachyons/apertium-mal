@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<!--
+   Hindi Testing  - kakashi_
+ -->
+<dictionary>
+  <alphabet>ँं:अआइईउऊऋएऐओऔािुूेैोौकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह्</alphabet>
+  <sdefs>
+    <sdef n="n" c="Noun"/>
+    <sdef n="num" c="Number"/>
+    <sdef n="pro" c="Pronoun"/>
+    <sdef n="pn" c="Propernoun"/>
+    <sdef n="vblex" c="verb"/>
+    <sdef n="v" c="verb"/>
+    <sdef n="adj" c="Adjective"/>
+    <sdef n="cnjcoo" c="Co-ordinating conjunction"/>
+    <sdef n="cc" c="Co-ordinating conjunction"/>
+    <sdef n="m" c="masculine"/>
+    <sdef n="f" c="feminine"/>
+    <sdef n="any" c="any"/>
+    <sdef n="case:d" c="direct"/>
+    <sdef n="case:o" c="oblique"/>
+    <sdef n="case:any" c="any"/>
+    <sdef n="vibhakti:0" c="0"/>
+    <sdef n="vibhakti:ले" c="ले"/>
+    <sdef n="vibhakti:लाई" c="लाई"/>
+    <sdef n="vibhakti:द्वारा" c="द्वारा"/>
+    <sdef n="num:s" c="singular"/>
+    <sdef n="num:p" c="plural"/>
+    <sdef n="num:any" c="any"/>
+    <sdef n="per:p1" c="first"/>
+    <sdef n="per:p2" c="second"/>
+    <sdef n="per:p3" c="third"/>
+    <sdef n="hon:lh" c="low_honorific"/>
+    <sdef n="hon:mh" c="mid_honorific"/>
+    <sdef n="hon:hh" c="high_honorific"/>
+    <sdef n="per:any" c="any"/>
+    <sdef n="tam:subj" c="subjunctive"/>
+    <sdef n="tam:छ" c="छ"/>
+    <sdef n="tam:छन्" c="छन्"/>
+    <sdef n="tam:न्छ" c="न्छ"/>
+    <sdef n="tam:नुहुन्छ" c="नुहुन्छ"/>
+    <sdef n="tam:न्छु" c="न्छु"/>
+    <sdef n="tam:न्छौ" c="न्छौ"/>
+    <sdef n="tam:न्छौँ" c="न्छौँ"/>
+    <sdef n="tam:इछ" c="इछ"/>
+    <sdef n="tam:नेछ" c="नेछ"/>
+    <sdef n="tam:नेछन्" c="नेछन्"/>
+    <sdef n="tam:न्छन्" c="न्छन्"/>
+    <sdef n="tam:छिन्" c="छिन्"/>
+    <sdef n="tam:न्छिन्" c="न्छिन्"/>
+    <sdef n="tam:ला" c="ला"/>
+    <sdef n="tam:लान्" c="लान्"/>
+    <sdef n="tam:लिन्" c="लिन्"/>
+    <sdef n="tam:लास्" c="लास्"/>
+    <sdef n="tam:ली" c="ली"/>
+    <sdef n="tam:यो" c="यो"/>
+    <sdef n="tam:ए" c="ए"/>
+    <sdef n="tam:ई" c="ई"/>
+    <sdef n="tam:नुभयो" c="नुभयो"/>
+    <sdef n="tam:0" c="0"/>
+    
+    
+  </sdefs>
+  
+  <section id="main" type="standard">
+
+    <e><p><l>और<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+    
+  
+
+    <e><p><l>एक<s n="num"/></l><r>one<s n="num"/></r></p></e>
+    <e><p><l>दो<s n="num"/></l><r>two<s n="num"/></r></p></e>
+    <e><p><l>तीन<s n="num"/></l><r>three<s n="num"/></r></p></e>
+    <e><p><l>चार<s n="num"/></l><r>four<s n="num"/></r></p></e>
+    <e><p><l>पाँच<s n="num"/></l><r>five<s n="num"/></r></p></e>
+    <e><p><l>छे<s n="num"/></l><r>six<s n="num"/></r></p></e>
+    <e><p><l>सात<s n="num"/></l><r>seven<s n="num"/></r></p></e>
+    <e><p><l>आठ<s n="num"/></l><r>eight<s n="num"/></r></p></e>
+    <e><p><l>नौ<s n="num"/></l><r>nine<s n="num"/></r></p></e>
+    <e><p><l>दस<s n="num"/></l><r>ten<s n="num"/></r></p></e>
+    <e><p><l>छोटी<s n="adj"/></l><r>small<s n="adj"/></r></p></e>
+    <e><p><l>बडा<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
+    <e><p><l>काला<s n="adj"/></l><r>black<s n="adj"/></r></p></e>
+
+    <e><p><l>घर<s n="n"/><s n="any"/></l><r>house<s n="n"/></r></p></e>
+    <e><p><l>कम्प्युटर<s n="n"/></l><r>computer<s n="n"/></r></p></e>
+    <e><p><l>चिडिया<s n="n"/></l><r>bird<s n="n"/></r></p></e>
+    <e><p><l>गाय<s n="n"/><s n="any"/></l><r>cow<s n="n"/></r></p></e>
+    <e><p><l>लडका<s n="n"/><s n="m"/></l><r>boy<s n="n"/></r></p></e>
+    <e><p><l>लडकी<s n="n"/><s n="f"/></l><r>girl<s n="n"/></r></p></e>
+
+    <e><p><l>हल<s n="n"/></l><r>plow<s n="n"/></r></p></e>
+    <e><p><l>शाखा<s n="n"/></l><r>branch<s n="n"/></r></p></e>
+    <e><p><l>घडी<s n="n"/></l><r>watch<s n="n"/></r></p></e>
+    <e><p><l>महिला<s n="n"/></l><r>woman<s n="n"/></r></p></e>
+    <e><p><l>टाई<s n="n"/></l><r>tie<s n="n"/></r></p></e>
+    <e><p><l>हाथी<s n="n"/></l><r>elephant<s n="n"/></r></p></e>
+    <e><p><l>बटेर<s n="n"/></l><r>quail<s n="n"/></r></p></e>
+    <e><p><l>बाल्टी<s n="n"/></l><r>bucket<s n="n"/></r></p></e>
+    <e><p><l>प्रतिलिपि<s n="n"/></l><r>copy<s n="n"/></r></p></e>
+    <e><p><l>रोटी<s n="n"/></l><r>roti<s n="n"/></r></p></e>
+    <e><p><l>बोतल<s n="n"/></l><r>bottle<s n="n"/></r></p></e>
+    <e><p><l>क़ालीन<s n="n"/></l><r>carpet<s n="n"/></r></p></e>
+    <e><p><l>किताब<s n="n"/></l><r>book<s n="n"/></r></p></e>
+    <e><p><l>चाकू<s n="n"/></l><r>knife<s n="n"/></r></p></e>
+    <e><p><l>साथी<s n="n"/></l><r>friend<s n="n"/></r></p></e>
+    <e><p><l>अनैतिक कार्य<s n="n"/></l><r>unethical work<s n="n"/></r></p></e>
+
+
+
+    <e><p><l>आधार<s n="n"/><s n="any"/></l><r>base<s n="n"/></r></p></e>
+    <e><p><l>छाती<s n="n"/><s n="any"/></l><r>chest<s n="n"/></r></p></e>
+    <e><p><l>कलम<s n="n"/><s n="any"/></l><r>pen<s n="n"/></r></p></e>
+    <e><p><l>पेन्सिल<s n="n"/><s n="any"/></l><r>pencil<s n="n"/></r></p></e>
+    <e><p><l>टोपी<s n="n"/><s n="any"/></l><r>cap<s n="n"/></r></p></e>
+    <e><p><l>कमरा<s n="n"/><s n="any"/></l><r>room<s n="n"/></r></p></e>
+    <e><p><l>चूहा<s n="n"/><s n="any"/></l><r>mouse<s n="n"/></r></p></e>
+
+	<!--proper noun-->
+
+    <e><p><l>राम<s n="pn"/></l><r>Ram<s n="pn"/></r></p></e>
+    <e><p><l>गोविन्द<s n="pn"/></l><r>Govind<s n="pn"/></r></p></e>
+    <e><p><l>अशोक<s n="pn"/></l><r>Ashok<s n="pn"/></r></p></e>
+    <e><p><l>हरि<s n="pn"/></l><r>Hari<s n="pn"/></r></p></e>
+    <e><p><l>सीता<s n="pn"/></l><r>Sita<s n="pn"/></r></p></e>
+    <e><p><l>गीता<s n="pn"/></l><r>Gita<s n="pn"/></r></p></e>
+    <e><p><l>रीता<s n="pn"/></l><r>Rita<s n="pn"/></r></p></e>
+    <e><p><l>कमल<s n="pn"/></l><r>Kamala<s n="pn"/></r></p></e>
+    <e><p><l>गोपाल<s n="pn"/></l><r>Gopal<s n="pn"/></r></p></e>
+    <e><p><l>सुभिक्षा<s n="pn"/></l><r>Subhiksha<s n="pn"/></r></p></e>
+    <e><p><l>ऋचा<s n="pn"/></l><r>Richa<s n="pn"/></r></p></e>
+    <e><p><l>शोभा<s n="pn"/></l><r>Shobha<s n="pn"/></r></p></e>
+    <e><p><l>हेमराज<s n="pn"/></l><r>Hemaraj<s n="pn"/></r></p></e>
+    <e><p><l>योगराज<s n="pn"/></l><r>Yogaraj<s n="pn"/></r></p></e>
+    <e><p><l>समीक्षा<s n="pn"/></l><r>Samiksha<s n="pn"/></r></p></e>
+
+   
+
+
+    <e><p><l>आवास<s n="n"/></l><r>residence<s n="n"/></r></p></e>
+
+    <e><p><l>अलबानियन<s n="n"/></l><r>Albanian<s n="n"/></r></p></e>
+    
+    <e><p><l>अरब<s n="n"/></l><r>Arab<s n="n"/></r></p></e>
+    
+    <e><p><l>अर्जेनटिनियन<s n="n"/></l><r>Argentinian<s n="n"/></r></p></e>
+    
+    <e><p><l>एसियन<s n="n"/></l><r>Asian<s n="n"/></r></p></e>
+     
+    <e><p><l>कातलान<s n="n"/></l><r>Catalan<s n="n"/></r></p></e>
+   
+    <e><p><l>क्याथोलिक<s n="n"/></l><r>Catholic<s n="n"/></r></p></e>
+    
+    
+    <e><p><l>क्रिस्चियन<s n="n"/></l><r>Christian<s n="n"/></r></p></e>
+     
+    <e><p><l>युरोपियन<s n="n"/></l><r>European<s n="n"/></r></p></e>
+   
+    <e><p><l>इन्डियन<s n="n"/></l><r>Indian<s n="n"/></r></p></e>
+    
+    <e><p><l>कोरियन<s n="n"/></l><r>Korean<s n="n"/></r></p></e>
+
+   
+    <e><p><l>मुसल्मान<s n="n"/></l><r>Muslim<s n="n"/></r></p></e>
+   
+    <e><p><l>लेखाकार<s n="n"/></l><r>accountant<s n="n"/></r></p></e>
+
+   
+    <e><p><l>प्रशासक<s n="n"/></l><r>administrator<s n="n"/></r></p></e>
+    <e><p><l>आदमी<s n="n"/></l><r>adult<s n="n"/></r></p></e>
+
+   
+    <e><p><l>सल्लाहकार<s n="n"/></l><r>adviser<s n="n"/></r></p></e>
+    <e><p><l>दलाल<s n="n"/></l><r>agent<s n="n"/></r></p></e>
+
+   
+    <e><p><l>राजदूत<s n="n"/></l><r>ambassador<s n="n"/></r></p></e>
+    <e><p><l>पूर्वज<s n="n"/></l><r>ancestor<s n="n"/></r></p></e>
+
+    <e><p><l>बंदर<s n="n"/></l><r>ape<s n="n"/></r></p></e>
+    <e><p><l>कलाकार<s n="n"/></l><r>artist<s n="n"/></r></p></e>
+
+    
+    <e><p><l>सहायक<s n="n"/></l><r>assistant<s n="n"/></r></p></e>
+    <e><p><l>खिलाडी<s n="n"/></l><r>athlete<s n="n"/></r></p></e>
+
+   
+    <e><p><l>प्रतिनिधि<s n="n"/></l><r>attorney<s n="n"/></r></p></e>
+    <e><p><l>वकील<s n="n"/></l><r>attorney<s n="n"/></r></p></e>
+    <e><p><l>लेखा परीक्षक<s n="n"/></l><r>auditor<s n="n"/></r></p></e>
+
+    
+    <e><p><l>जीवविज्ञानी<s n="n"/></l><r>biologist<s n="n"/></r></p></e>
+    <e><p><l>मालिक<s n="n"/></l><r>boss<s n="n"/></r></p></e>
+
+    
+    
+    <e><p><l>भाई<s n="n"/></l><r>brother<s n="n"/></r></p></e>
+    <e><p><l>उम्मीदवार<s n="n"/></l><r>candidate<s n="n"/></r></p></e>
+
+    <e><p><l>कप्तान<s n="n"/></l><r>captain<s n="n"/></r></p></e>
+
+    <e><p><l>बिल्ली<s n="n"/></l><r>cat<s n="n"/></r></p></e>
+   
+    <e><p><l>अध्यक्ष<s n="n"/></l><r>chairman<s n="n"/></r></p></e>
+    <e><p><l>क्लर्क<s n="n"/></l><r>clerk<s n="n"/></r></p></e>
+
+    <e><p><l>ग्राहक<s n="n"/></l><r>client<s n="n"/></r></p></e>
+    <e><p><l>साथी<s n="n"/></l><r>colleague<s n="n"/></r></p></e>
+
+    
+    <e><p><l>कम्युनिष्ट<s n="n"/></l><r>communist<s n="n"/></r></p></e>
+    <e><p><l>रचनाकार<s n="n"/></l><r>composer<s n="n"/></r></p></e>
+
+    <e><p><l>सहयोगी<s n="n"/></l><r>comrade<s n="n"/></r></p></e>
+    <e><p><l>चालक<s n="n"/></l><r>conductor<s n="n"/></r></p></e>
+
+    
+    <e><p><l>सलाहकार<s n="n"/></l><r>consultant<s n="n"/></r></p></e>
+    <e><p><l>उपभोक्ता<s n="n"/></l><r>consumer<s n="n"/></r></p></e>
+    
+    
+    
+     <!-- Verbs -->
+
+    <e><p><l>देखना<s n="vblex"/></l><r>see<s n="vblex"/></r></p></e>
+    <e><p><l>चूमना<s n="vblex"/></l><r>kiss<s n="vblex"/></r></p></e>
+    <e><p><l>मसलना<s n="vblex"/></l><r>crush<s n="vblex"/></r></p></e>
+    <e><p><l>अंत करना<s n="vblex"/></l><r>finish<s n="vblex"/></r></p></e>
+    <e><p><l>तंग करना<s n="vblex"/></l><r>harass<s n="vblex"/></r></p></e>
+    <e><p><l>करना<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
+    <e><p><l>बोलना<s n="vblex"/></l><r>say<s n="vblex"/></r></p></e>
+    <e><p><l>खाना<s n="vblex"/></l><r>eat<s n="vblex"/></r></p></e>
+
+
+
+	<e><p><l>विश्राम करना<s n="vblex"/></l><r>sleep<s n="vblex"/></r></p></e>
+    	<e><p><l>चलना<s n="vblex"/></l><r>walk<s n="vblex"/></r></p></e>
+	<e><p><l>उठना<s n="vblex"/></l><r>awake<s n="vblex"/></r></p></e>
+	<e><p><l>बैठना<s n="vblex"/></l><r>sit<s n="vblex"/></r></p></e>
+	<e><p><l>लिखना<s n="vblex"/></l><r>write<s n="vblex"/></r></p></e>
+	<e><p><l>पढना<s n="vblex"/></l><r>read<s n="vblex"/></r></p></e>
+	<e><p><l>बोलना<s n="vblex"/></l><r>speak<s n="vblex"/></r></p></e>
+	<e><p><l>पूछना<s n="vblex"/></l><r>ask<s n="vblex"/></r></p></e>
+	<e><p><l>निवेदन करना<s n="vblex"/></l><r>beg<s n="vblex"/></r></p></e>
+	<e><p><l>चलना<s n="vblex"/></l><r>walk<s n="vblex"/></r></p></e>
+	<e><p><l>काटना<s n="vblex"/></l><r>cut<s n="vblex"/></r></p></e>
+	<e><p><l>मारना<s n="vblex"/></l><r>kill<s n="vblex"/></r></p></e>
+	<e><p><l>काटना<s n="vblex"/></l><r>bite<s n="vblex"/></r></p></e>
+	<e><p><l>फेंकना<s n="vblex"/></l><r>throw<s n="vblex"/></r></p></e>
+	<e><p><l>सुनना<s n="vblex"/></l><r>listen<s n="vblex"/></r></p></e>
+	<e><p><l>गिनना<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>
+	<e><p><l>चढना<s n="vblex"/></l><r>climb<s n="vblex"/></r></p></e>
+	<e><p><l>खोलना<s n="vblex"/></l><r>open<s n="vblex"/></r></p></e>
+	<e><p><l>बांटना<s n="vblex"/></l><r>distribute<s n="vblex"/></r></p></e>
+	<e><p><l>च्यात<s n="vblex"/></l><r>tear<s n="vblex"/></r></p></e>
+	<e><p><l>चुराना<s n="vblex"/></l><r>steal<s n="vblex"/></r></p></e>
+	
+	<e><p><l>चीरना<s n="vblex"/></l><r>split<s n="vblex"/></r></p></e>
+	<e><p><l>दौड़ना<s n="vblex"/></l><r>run<s n="vblex"/></r></p></e>
+	<e><p><l>जीतना<s n="vblex"/></l><r>win<s n="vblex"/></r></p></e>
+	<e><p><l>खींचना<s n="vblex"/></l><r>draw<s n="vblex"/></r></p></e>
+	<e><p><l>मोड़ना<s n="vblex"/></l><r>bend<s n="vblex"/></r></p></e>
+	
+	
+
+    
+
+    
+</section>
+</dictionary>

@@ -1,0 +1,63 @@
+SOURCE   Wikipedia dárbbaša du veahki.
+REF  Wikipedia dárbaj duv viehkev.
+TRANS Wikipedia dárbaj duv viehkev.
+
+SOURCE Sámegielat Wikipedias leat dál 2,717 artihkkala.
+REF Sámegielak Wikipedian li dál 2,717 artihkkala.
+TRANS Sámegielak Wikipedian li dál 2,717 artihkkala.
+
+SOURCE Isak Saba 1875-1921 lei sápmelaš oahpaheaddji ja politihkkár.
+REF Isak Saba 1875-1921 lij sábmelasj åhpadiddje ja politihkkár.
+TRANS Isak Saba 1875-1921 lij sábmelasj åhpadiddje ja politihkkár.
+
+SOURCE   Girjái Áillohaš lea čoaggán historjjálaš govaid sámiin birra máilmmi. 
+REF  Girjjáj Áiluhasj le tjoaggám histårjålasj gåvåjt sámijs birra värálda.
+TRANS Girjjáj Ájluhasj la tjoaggám histårjålasj gåvåjt sámijs birra værálda.
+
+SOURCE Son beroštii arkeologalaš bargguin, ja son čokkii dávviriid ja dávttiid boares hávddiin. 
+REF Sån berustij arkeologalasj bargojs, ja sån tjåkkij dávverijt ja dávtijt boares hávdijs.
+TRANS Sån berustij arkeologalasj bargojs, ja sån tjåkkij dávverijt ja dávtijt boares hávdijs.
+
+SOURCE Sámit dahjege sápmelaččat ásset Ruoššas, Suomas, Ruoŧas ja Norggas.
+REF Sáme jali sábmelattja årru Ruossjan, Suoman, Svierjin ja Vuonan.
+TRANS Sáme jali sábmelattja årru Ruossjan, Suoman, Svierigin ja Vuonan.
+
+SOURCE Sámiid ássanguovlu gohčoduvvo Sápmin.
+REF Sámij årromguovllo gåhtjuduvvá Sábmen.
+TRANS Sámij årromguovllo gåhtjuduvvá Sábmen.
+
+SOURCE Odne gávdnojit maiddái ollu sámit geat eai šat sámás ja identitehtavuođđu  lea dál varas dehe sogas iige gielas gitta.
+REF Dálásj ájge gávnnuji aj ållo sáme gudi e ájn sámásta ja identitæhttavuodo l dál varán jali berajvuodan ijge gielan gitta.
+TRANS Uddni gávnnuji aj ållo sáme gudi e desti sámásta ja identitæhttavuodo la dál varán jali berajvuodan ijge gielan gitta.
+
+SOURCE Amerihká ovttastuvvan stáhtain leat 50 oassestáhta, mat leat oalle muddui iešstivrejeaddjit.
+REF Amerijka aktidum stáhtajn li 50 oassestáhta, ma li oalle mudduj iesjráddijiddje.
+TRANS Amerijka aktidum stáhtajn liehket 50 oassestáhta, ma li oalle mudduj #iesjráddijiddje.
+
+SOURCE Doppe mánát ohppet giela lunddolaččat árgabeaivvi bargguid ja stoahkama bokte. 
+REF Dåppe máná oahppi gielav luondulattjat árgabiejvve bargojn ja ståhkama baktu.
+TRANS Dåppe máná gielav oahppi #luondulasj árggabiejve bargoj ja ståhkama baktu.
+
+SOURCE Giron lea vuoncceslottiide gullevaš loddi, mii eallá duottarguovlluin. 
+REF Giron la vuonntsálåttij gulos lådde, mij ællá duottarguovlojn.
+TRANS Gierun la vuonntsálåttijda #gullujiddje lådde, mij ællá duottarguovlojn.
+
+SOURCE   Teáhtera ulbmilin lea nannet sámiid identitehta ja kultuvrra.
+REF  Teáhtera ulmmel la nanosduhttet sámij identitehtav ja kultuvrav.
+TRANS Teáhtera ulmmen la nannit sámij identitehtav ja kultuvrav.
+
+SOURCE Wikipedia lea máŋggagielat prošeakta man ulbmilin lea ráhkadit almmolaš  diehtosátnegirjji gosa gii beare sáhttá čállit artihkkaliid.
+REF Wikipedia la ålogielak prosjækta manna l ulmmel dahkat almulasj diehtobáhkogirjev gåsi aktagut máhttá tjállet artihkkalijt.
+TRANS Wikipedia la moattegielak prosjækta man ulmmen la dahkat almulasj diehtobáhkogirjev @gossat vajku guhti sáhttá tjállet artihkkalijt.
+
+SOURCE Anne ráhkada biepmu.
+REF Anne gárvet biebmov.
+TRANS Anne biebmov dahká.
+
+SOURCE Maid son diehtá?
+REF Majt sån diehtá?
+TRANS  Majt sån diehtá?
+
+SOURCE Sii leat čeahpit! 
+REF Sij li smidá!
+TRANS  Sij li tjiehpe!

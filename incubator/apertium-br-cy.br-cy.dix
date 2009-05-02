@@ -1,0 +1,1247 @@
+<dictionary>
+  <alphabet/>
+
+  <section id="main" type="standard">
+    <!-- Pronouns -->
+
+    <!-- Particles -->
+
+    <e><p><l>o<s n="vpart"/><s n="ger"/></l><r>yr<s n="vpart"/><s n="aff"/></r></p></e>
+    <e><p><l>ne<s n="vpart"/><s n="neg"/></l><r>ni<s n="vpart"/><s n="neg"/></r></p></e>
+    <e><p><l>na<s n="vpart"/><s n="neg"/></l><r>na<s n="vpart"/><s n="neg"/></r></p></e>
+
+    <!-- Determiners -->
+
+    <e><p><l>an<s n="det"/><s n="def"/></l><r>yr<s n="det"/><s n="def"/></r></p></e>
+
+    <!-- Prepositions -->
+
+    <e><p><l>a-benn<s n="pr"/></l><r>erbyn<s n="pr"/></r></p></e>
+    <e><p><l>da<s n="pr"/></l><r>i<s n="pr"/></r></p></e>
+    <e><p><l>dindan<s n="pr"/></l><r>dan<s n="pr"/></r></p></e>
+    <e><p><l>dre<s n="pr"/></l><r>drwy<s n="pr"/></r></p></e>
+    <e><p><l>dreist<s n="pr"/></l><r>dros<s n="pr"/></r></p></e>
+    <e><p><l>e<s n="pr"/></l><r>yn<s n="pr"/></r></p></e>
+    <e><p><l>etre<s n="pr"/></l><r>rhwng<s n="pr"/></r></p></e>
+    <e><p><l>gant<s n="pr"/></l><r>gan<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>gant<s n="pr"/></l><r>gyda<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>gant<s n="pr"/></l><r>â<s n="pr"/></r></p></e>
+    <e><p><l>hep<s n="pr"/></l><r>heb<s n="pr"/></r></p></e>
+    <e><p><l>kent<s n="pr"/></l><r>cyn<s n="pr"/></r></p></e>
+    <e><p><l>nemet<s n="pr"/></l><r>namyn<s n="pr"/></r></p></e>
+    <e><p><l>ouzh<s n="pr"/></l><r>wrth<s n="pr"/></r></p></e>
+    <e><p><l>war<s n="pr"/></l><r>ar<s n="pr"/></r></p></e>
+
+    <!-- Conjunctions -->
+
+    <e><p><l>ha<s n="cnjcoo"/></l><r>a<s n="cnjcoo"/></r></p></e>
+    <e><p><l>evel<s n="cnjcoo"/></l><r>fel<s n="cnjcoo"/></r></p></e>
+    <e><p><l>tra<s n="cnjcoo"/></l><r>tra<s n="cnjcoo"/></r></p></e>
+    <e><p><l>pa<s n="cnjcoo"/></l><r>pan<s n="cnjcoo"/></r></p></e>
+
+    <!-- Numerals -->
+
+    <e><p><l>unan<s n="num"/></l><r>un<s n="num"/></r></p></e>
+
+    <!-- Check genders in Welsh analyser -->
+    <e><p><l>div<s n="num"/></l><r>dau<s n="num"/></r></p></e>
+    <e><p><l>daou<s n="num"/></l><r>dwy<s n="num"/></r></p></e>
+    <e><p><l>teir<s n="num"/></l><r>tair<s n="num"/></r></p></e>
+    <e><p><l>tri<s n="num"/></l><r>tri<s n="num"/></r></p></e>
+    <e><p><l>peder<s n="num"/></l><r>pedwar<s n="num"/></r></p></e>
+    <e><p><l>pevar<s n="num"/></l><r>pedair<s n="num"/></r></p></e>
+
+    <e><p><l>pemp<s n="num"/></l><r>pump<s n="num"/></r></p></e>
+    <e><p><l>c’hwerc’h<s n="num"/></l><r>chwech<s n="num"/></r></p></e>
+    <e><p><l>seizh<s n="num"/></l><r>saith<s n="num"/></r></p></e>
+    <e><p><l>eizh<s n="num"/></l><r>wyth<s n="num"/></r></p></e>
+    <e><p><l>nav<s n="num"/></l><r>naw<s n="num"/></r></p></e>
+    <e><p><l>deg<s n="num"/></l><r>deg<s n="num"/></r></p></e>
+    <e><p><l>unneg<s n="num"/></l><r>ugain<s n="num"/></r></p></e>
+
+    <!-- Pronouns -->
+
+    <e><p><l>pe<s n="prn"/><s n="itg"/></l><r>pa<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>pehini<s n="prn"/><s n="itg"/></l><r>pa<b/>un<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>pelec'h<s n="prn"/><s n="itg"/></l><r>ble<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>pe<b/>re<s n="prn"/><s n="itg"/></l><r>pa<b/>rai<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>piv<s n="prn"/><s n="itg"/></l><r>pwy<s n="prn"/><s n="itg"/></r></p></e>
+
+    <e><p><l>piv<b/>bennak<s n="prn"/></l><r>pwy<b/>bynnag<s n="prn"/></r></p></e>
+   
+
+    <!-- Nouns -->
+
+    <e><p><l>amann<s n="n"/><s n="m"/></l><r>mennyn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>aneval<s n="n"/><s n="m"/></l><r>anifail<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>arzour<s n="n"/><s n="m"/></l><r>celfyddyd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>arz<s n="n"/><s n="m"/></l><r>celfyddyd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>askorn<s n="n"/><s n="m"/></l><r>asgwrn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>banniel<s n="n"/><s n="m"/></l><r>baner<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bloaz<s n="n"/><s n="m"/></l><r>blwyddyn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>brezel<s n="n"/><s n="m"/></l><r>rhyfel<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>chokolad<s n="n"/><s n="m"/></l><r>siocled<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dañs<s n="n"/><s n="m"/></l><r>dawns<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>dañvad<s n="n"/><s n="m"/></l><r>dafad<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>deiz<s n="n"/><s n="m"/></l><r>diwrnod<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dour<s n="n"/><s n="m"/></l><r>dŵr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>empenn<s n="n"/><s n="m"/></l><r>ymennydd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>endro<s n="n"/><s n="m"/></l><r>natur<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>enez<s n="n"/><s n="f"/></l><r>ynys<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>evn<s n="n"/><s n="m"/></l><r>aderyn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>film<s n="n"/><s n="m"/></l><r>ffilm<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>filozofiezh<s n="n"/><s n="f"/></l><r>athroniaeth<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>formaj<s n="n"/><s n="m"/></l><r>caws<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>fri<s n="n"/><s n="m"/></l><r>trwyn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>geriadur<s n="n"/><s n="m"/></l><r>geiriadur<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>glav<s n="n"/><s n="m"/></l><r>glaw<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gwin<s n="n"/><s n="m"/></l><r>gwin<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hed<s n="n"/><s n="m"/></l><r>hyd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hektar<s n="n"/><s n="m"/></l><r>hectar<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>heol<s n="n"/><s n="m"/></l><r>haul<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hirder<s n="n"/><s n="m"/></l><r>hyd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>istor<s n="n"/><s n="m"/></l><r>hanes<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kastell<s n="n"/><s n="m"/></l><r>castell<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kêrbenn<s n="n"/><s n="f"/></l><r>prifddinas<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kleñved<s n="n"/><s n="m"/></l><r>clefyd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>koroll<s n="n"/><s n="m"/></l><r>dawns<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>labous<s n="n"/><s n="m"/></l><r>aderyn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>laezh<s n="n"/><s n="m"/></l><r>llaeth<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>langaj<s n="n"/><s n="m"/></l><r>iaith<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>levr<s n="n"/><s n="m"/></l><r>llyfr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>liamm<s n="n"/><s n="m"/></l><r>cyswllt<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>liv<s n="n"/><s n="m"/></l><r>lliw<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lizherenn<s n="n"/><s n="f"/></l><r>llythyren<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>loar<s n="n"/><s n="f"/></l><r>lleuad<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>loen<s n="n"/><s n="m"/></l><r>anifail<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>melldroader<s n="n"/><s n="m"/></l><r>pêl-droed<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>menez<s n="n"/><s n="m"/></l><r>mynydd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>miz<s n="n"/><s n="m"/></l><r>mis<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>moger<s n="n"/><s n="f"/></l><r>mur<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mor<s n="n"/><s n="m"/></l><r>môr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>muzik<s n="n"/><s n="m"/></l><r>cerddoriaeth<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>naer<s n="n"/><s n="f"/></l><r>neidr<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nevezamzer<s n="n"/><s n="f"/></l><r>gwanwyn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>noz<s n="n"/><s n="f"/></l><r>nos<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>penn<s n="n"/><s n="m"/></l><r>pen<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pont<s n="n"/><s n="m"/></l><r>pont<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>postel<s n="n"/><s n="m"/></l><r>ebost<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>prederouriezh<s n="n"/><s n="f"/></l><r>athroniaeth<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>priz<s n="n"/><s n="m"/></l><r>pris<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>relijion<s n="n"/><s n="f"/></l><r>crefydd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rod<s n="n"/><s n="f"/></l><r>olwyn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sizhun<s n="n"/><s n="f"/></l><r>wythnos<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>skiant<s n="n"/><s n="f"/></l><r>gwyddoniaeth<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>skol<s n="n"/><s n="f"/></l><r>ysgol<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>skouarn<s n="n"/><s n="f"/></l><r>clust<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>stêr<s n="n"/><s n="f"/></l><r>afon<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tigr<s n="n"/><s n="m"/></l><r>teigr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tisavour<s n="n"/><s n="m"/></l><r>pensaernïaeth<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ti<s n="n"/><s n="m"/></l><r>tŷ<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>touchennaoueg<s n="n"/><s n="f"/></l><r>bysellfwrdd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>urzhiataer<s n="n"/><s n="m"/></l><r>cyfrifiadur<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>yezh<s n="n"/><s n="f"/></l><r>iaith<s n="n"/><s n="f"/></r></p></e>
+
+    <e><p><l>abadenn<s n="n"/><s n="f"/></l><r>cyfnod<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>abeg<s n="n"/><s n="m"/></l><r>rheswm<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>adverb<s n="n"/><s n="m"/></l><r>adferf<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>aktor<s n="n"/><s n="m"/></l><r>actor<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>aktorez<s n="n"/><s n="f"/></l><r>actores<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>alamaneg<s n="n"/><s n="m"/></l><r>Almaeneg<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>alc’hwez<s n="n"/><s n="m"/></l><r>allwedd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>amann<s n="n"/><s n="m"/></l><r>ymenyn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>amzer<s n="n"/><s n="m"/></l><r>amser<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>anoued<s n="n"/><s n="m"/></l><r>oerfel<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>anv<s n="n"/><s n="m"/></l><r>enw<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>aon<s n="n"/><s n="m"/></l><r>ofn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>apotiker<s n="n"/><s n="m"/></l><r>fferyllydd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>araog<s n="n"/><s n="m"/></l><r>blaen<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>araogenn<s n="n"/><s n="f"/></l><r>arddodiad<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>archer<s n="n"/><s n="m"/></l><r>heddwas<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>arc’hant<s n="n"/><s n="m"/></l><r>arian<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>armel<s n="n"/><s n="f"/></l><r>cwpwrdd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>arnodenn<s n="n"/><s n="f"/></l><r>arholiad<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>asied<s n="n"/><s n="m"/></l><r>plât<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>aval<s n="n"/><s n="m"/></l><r>afal<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>avel<s n="n"/><s n="m"/></l><r>gwynt<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>babig<s n="n"/><s n="m"/></l><r>baban<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bag<s n="n"/><s n="f"/></l><r>cwch<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>banne<s n="n"/><s n="m"/></l><r>cwpanaid<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bara<s n="n"/><s n="m"/></l><r>bara<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>barner<s n="n"/><s n="m"/></l><r>barnwr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>barzhoniezh<s n="n"/><s n="f"/></l><r>barddoniaeth<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>beaj<s n="n"/><s n="f"/></l><r>taith<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bec’h<s n="n"/><s n="m"/></l><r>baich<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>beg<s n="n"/><s n="m"/></l><r>pig<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>beleg<s n="n"/><s n="m"/></l><r>offeiriad<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bern<s n="n"/><s n="m"/></l><r>pentwr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>beure<s n="n"/><s n="m"/></l><r>bore<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bez<s n="n"/><s n="m"/></l><r>bedd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bier<s n="n"/><s n="m"/></l><r>cwrw<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bilhed<s n="n"/><s n="m"/></l><r>tocyn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>biz<s n="n"/><s n="m"/></l><r>bys<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>biz-meud<s n="n"/><s n="m"/></l><r>bawd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bloavezh<s n="n"/><s n="m"/></l><r>blwyddyn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bloaz<s n="n"/><s n="m"/></l><r>blwyddyn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>boest<s n="n"/><s n="f"/></l><r>blwch<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>boked<s n="n"/><s n="m"/></l><r>blodyn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>botez<s n="n"/><s n="f"/></l><r>esgid<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>boued<s n="n"/><s n="m"/></l><r>bwyd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bouloñjer<s n="n"/><s n="m"/></l><r>pobydd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>boulbluenn<s n="n"/><s n="f"/></l><r>pìn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bourk<s n="n"/><s n="m"/></l><r>pentref<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>boutailh<s n="n"/><s n="f"/></l><r>potel<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>brezhoneg<s n="n"/><s n="m"/></l><r>Llydaweg<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bro<s n="n"/><s n="f"/></l><r>gwlad<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>broad<s n="n"/><s n="f"/></l><r>cenedl<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>broust<s n="n"/><s n="m"/></l><r>brws<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>brozh<s n="n"/><s n="f"/></l><r>sgyrt<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bruched<s n="n"/><s n="mf"/></l><r>brest<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>brumenn<s n="n"/><s n="f"/></l><r>niwl<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bugel<s n="n"/><s n="m"/></l><r>plentyn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>buhez<s n="n"/><s n="f"/></l><r>bywyd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>buoc’h<s n="n"/><s n="f"/></l><r>buwch<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>burev<s n="n"/><s n="m"/></l><r>swyddfa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>butun<s n="n"/><s n="m"/></l><r>baco<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>chañs<s n="n"/><s n="f"/></l><r>lwc<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>chapel<s n="n"/><s n="f"/></l><r>capel<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>chekenn<s n="n"/><s n="f"/></l><r>siec<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>chokolad<s n="n"/><s n="m"/></l><r>siocled<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>chomlec’h<s n="n"/><s n="m"/></l><r>cyfeiriad<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>chouchenn<s n="n"/><s n="m"/></l><r>medd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>chug<s n="n"/><s n="m"/></l><r>sudd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>c’hoari<s n="n"/><s n="m"/></l><r>gêm<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>c’hoariell<s n="n"/><s n="f"/></l><r>tegan<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>c’hoariva<s n="n"/><s n="m"/></l><r>theatr<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>c’hwezh<s n="n"/><s n="f"/></l><r>aroglau<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>c'hwezh-vat<s n="n"/><s n="f"/></l><r>peraroglau<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dañser<s n="n"/><s n="m"/></l><r>dawnsiwr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dañserez<s n="n"/><s n="f"/></l><r>dawnswraig<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>dant<s n="n"/><s n="m"/></l><r>dant<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dantour<s n="n"/><s n="m"/></l><r>deintydd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dave<s n="n"/><s n="m"/></l><r>cyfeiriad<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>deiz<s n="n"/><s n="m"/></l><r>dydd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>deiz-ha-bloaz<s n="n"/><s n="m"/></l><r>pen<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>diazez<s n="n"/><s n="m"/></l><r>sylfaen<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dienn<s n="n"/><s n="m"/></l><r>hufen<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>diforc’h<s n="n"/><s n="m"/></l><r>gwahaniaeth<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>digarez<s n="n"/><s n="m"/></l><r>esgus<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>digenvez<s n="n"/><s n="m"/></l><r>unigrwydd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dimezell<s n="n"/><s n="f"/></l><r>boneddiges<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>disglavier<s n="n"/><s n="m"/></l><r>ymbarél<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>diskar-amzer<s n="n"/><s n="m"/></l><r>hydref<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ditour<s n="n"/><s n="m"/></l><r>manylyn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>diviz<s n="n"/><s n="m"/></l><r>sgwrs<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>doare-skrivañ<s n="n"/><s n="m"/></l><r>orgraff<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>dorn<s n="n"/><s n="m"/></l><r>llaw<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>douaromiezh<s n="n"/><s n="f"/></l><r>daearyddiaeth<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>dour<s n="n"/><s n="m"/></l><r>dŵr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dourgi<s n="n"/><s n="m"/></l><r>dwrgi<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>droug<s n="n"/><s n="m"/></l><r>dicter<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>embregerezh-korf<s n="n"/><s n="m"/></l><r>ymarfer<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>emsav<s n="n"/><s n="m"/></l><r>mudiad<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>emvod<s n="n"/><s n="m"/></l><r>cyfarfod<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>enez<s n="n"/><s n="f"/></l><r>ynys<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>enklasker<s n="n"/><s n="m"/></l><r>ymchwilydd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>eost<s n="n"/><s n="m"/></l><r>cynhaeaf<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>erc’h<s n="n"/><s n="m"/></l><r>eira<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>eur<s n="n"/><s n="f"/></l><r>awr<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>euro<s n="n"/><s n="m"/></l><r>ewro<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>eurvezh<s n="n"/><s n="f"/></l><r>awr<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>euskareg<s n="n"/><s n="m"/></l><r>Basgeg<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>evn<s n="n"/><s n="m"/></l><r>aderyn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ezhomm<s n="n"/><s n="m"/></l><r>angen<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>fazi<s n="n"/><s n="m"/></l><r>camgymeriad<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>film<s n="n"/><s n="m"/></l><r>ffilm<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>flaer<s n="n"/><s n="m"/></l><r>drewdod<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>foar<s n="n"/><s n="f"/></l><r>ffair<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>fourmaj<s n="n"/><s n="m"/></l><r>caws<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>fourmaj-kig<s n="n"/><s n="m"/></l><r>pate<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>frazenn<s n="n"/><s n="f"/></l><r>brawddeg<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>fri<s n="n"/><s n="m"/></l><r>trwyn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>galleg<s n="n"/><s n="m"/></l><r>Ffrangeg<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gaou<s n="n"/><s n="m"/></l><r>celwydd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gar<s n="n"/><s n="f"/></l><r>coes<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gavr<s n="n"/><s n="f"/></l><r>gafr<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ger<s n="n"/><s n="m"/></l><r>gair<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ger-mell<s n="n"/><s n="m"/></l><r>bannod<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gerig<g><b/>a-raok</g><s n="n"/><s n="m"/></l><r>rhagair<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>geriadur<s n="n"/><s n="m"/></l><r>geiriadur<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>geriaoueg<s n="n"/><s n="f"/></l><r>geirfa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>glav<s n="n"/><s n="m"/></l><r>glaw<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>glin<s n="n"/><s n="m"/></l><r>glin<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>goañv<s n="n"/><s n="m"/></l><r>gaeaf<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>godell<s n="n"/><s n="f"/></l><r>poced<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>golo<s n="n"/><s n="m"/></l><r>clawr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gouel<s n="n"/><s n="m"/></l><r>gŵyl<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gouzoug<s n="n"/><s n="m"/></l><r>gwddw<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gwaskenn<s n="n"/><s n="f"/></l><r>tyndra<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gwaz<s n="n"/><s n="m"/></l><r>gŵr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gwener<s n="n"/><s n="m"/></l><r>Gwener<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gwin<s n="n"/><s n="m"/></l><r>gwin<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gwinegr<s n="n"/><s n="m"/></l><r>finegr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gwir<s n="n"/><s n="m"/></l><r>hawl<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gwirionez<s n="n"/><s n="f"/></l><r>gwirionedd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hanter<s n="n"/><s n="m"/></l><r>hanner<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hanternoz<s n="n"/><s n="m"/></l><r>hanner<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hañv<s n="n"/><s n="m"/></l><r>haf<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hent<s n="n"/><s n="m"/></l><r>ffordd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>heol<s n="n"/><s n="m"/></l><r>haul<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hiraezh<s n="n"/><s n="f"/></l><r>hiraeth<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>holen<s n="n"/><s n="m"/></l><r>halen<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>horolaj<s n="n"/><s n="m"/></l><r>cloc<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ilin<s n="n"/><s n="m"/></l><r>penelin<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>iliz<s n="n"/><s n="f"/></l><r>eglwys<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>islavarenn<s n="n"/><s n="f"/></l><r>isgymal<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>istor<s n="n"/><s n="m"/></l><r>hanes<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>italianeg<s n="n"/><s n="m"/></l><r>Eidaleg<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>iwerzhoneg<s n="n"/><s n="m"/></l><r>Gwyddeleg<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>jambon<s n="n"/><s n="m"/></l><r>ham<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kached<s n="n"/><s n="m"/></l><r>tabled<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kador<s n="n"/><s n="f"/></l><r>cadair<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kafe<s n="n"/><s n="m"/></l><r>coffi<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kafedi<s n="n"/><s n="m"/></l><r>caffe<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kaier<s n="n"/><s n="m"/></l><r>llyfr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kalon<s n="n"/><s n="f"/></l><r>calon<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kamaladez<s n="n"/><s n="f"/></l><r>ffrind<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>siambr<s n="n"/><s n="f"/></l><r>ysgrifennu<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kanaouenn<s n="n"/><s n="f"/></l><r>cân<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kaner<s n="n"/><s n="m"/></l><r>cantor<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kanerez<s n="n"/><s n="f"/></l><r>cantores<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kant<s n="n"/><s n="m"/></l><r>cant<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kaotigell<s n="n"/><s n="f"/></l><r>marmalêd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kard<s n="n"/><s n="m"/></l><r>chwarter<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>karned<s n="n"/><s n="m"/></l><r>llyfr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>karr<s n="n"/><s n="m"/></l><r>car<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>karrdi<s n="n"/><s n="m"/></l><r>garej<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kartenn<s n="n"/><s n="f"/></l><r>map<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kasedig<s n="n"/><s n="m"/></l><r>casét<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kazeg<s n="n"/><s n="f"/></l><r>caseg<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kazel<s n="n"/><s n="f"/></l><r>cesail<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kazh<s n="n"/><s n="m"/></l><r>cath<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kazhez<s n="n"/><s n="f"/></l><r>cath<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kein<s n="n"/><s n="m"/></l><r>cefn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kelaouenn<s n="n"/><s n="f"/></l><r>newyddiadur<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kelc’hgelaouenn<s n="n"/><s n="f"/></l><r>cylchgrawn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kelennerez<s n="n"/><s n="f"/></l><r>athrawes<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>keloù<s n="n"/><s n="m"/></l><r>newydd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kembraeg<s n="n"/><s n="m"/></l><r>Cymraeg<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kemmadur<s n="n"/><s n="m"/></l><r>treiglad<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>keneil<s n="n"/><s n="m"/></l><r>cyfaill<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kendalc’h<s n="n"/><s n="m"/></l><r>cyngres<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kentañ-ministr<s n="n"/><s n="m"/></l><r>prif<b/>weinidog<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kêr<s n="n"/><s n="f"/></l><r>tref<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kêriadenn<s n="n"/><s n="f"/></l><r>pentref<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ki<s n="n"/><s n="m"/></l><r>ci<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kiboutz<s n="n"/><s n="m"/></l><r>cibwts<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kig<s n="n"/><s n="m"/></l><r>cig<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kiger<s n="n"/><s n="m"/></l><r>cigydd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kilometr<s n="n"/><s n="m"/></l><r>cilometr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>klas<s n="n"/><s n="m"/></l><r>dosbarth<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kloched<s n="n"/><s n="m"/></l><r>cromfach<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kloc’h<s n="n"/><s n="m"/></l><r>cloch<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>klun<s n="n"/><s n="f"/></l><r>clun<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>koad<s n="n"/><s n="m"/></l><r>coed<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>koan<s n="n"/><s n="f"/></l><r>swper<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>koaven<s n="n"/><s n="m"/></l><r>hufen<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>koaven-skorn<s n="n"/><s n="m"/></l><r>hufen<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kognag<s n="n"/><s n="m"/></l><r>coniac<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>konifl<s n="n"/><s n="m"/></l><r>cwningen<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kont<s n="n"/><s n="f"/></l><r>cyfrif<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kontadenn<s n="n"/><s n="f"/></l><r>stori<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kontaouer<s n="n"/><s n="m"/></l><r>cyfrifydd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kontell<s n="n"/><s n="f"/></l><r>cyllell<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kornôg<s n="n"/><s n="m"/></l><r>gorllewin<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kreisteiz<s n="n"/><s n="m"/></l><r>hanner<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kreiz<s n="n"/><s n="m"/></l><r>canol<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>krib<s n="n"/><s n="f"/></l><r>crib<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kroashent<s n="n"/><s n="m"/></l><r>croesffordd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kudenn<s n="n"/><s n="f"/></l><r>problem<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kuzh-heol<s n="n"/><s n="m"/></l><r>gorllewin<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>labouradeg<s n="n"/><s n="f"/></l><r>ffatri<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>labous<s n="n"/><s n="m"/></l><r>aderyn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>laezh<s n="n"/><s n="m"/></l><r>llaeth<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lagad<s n="n"/><s n="m"/></l><r>llygad<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lambig<s n="n"/><s n="m"/></l><r>gwirod<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lavarenn<s n="n"/><s n="f"/></l><r>cymal<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lein<s n="n"/><s n="f"/></l><r>brecwast<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lenn<s n="n"/><s n="f"/></l><r>llyn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>lennegezh<s n="n"/><s n="f"/></l><r>llenyddiaeth<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lestr<s n="n"/><s n="m"/></l><r>llestr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>leue<s n="n"/><s n="m"/></l><r>llo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>leve<s n="n"/><s n="m"/></l><r>incwm<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>levr<s n="n"/><s n="m"/></l><r>llyfr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>liamm<s n="n"/><s n="m"/></l><r>rhwymyn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>limonadez<s n="n"/><s n="f"/></l><r>lemonêd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>liorzh<s n="n"/><s n="f"/></l><r>gardd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>lise<s n="n"/><s n="m"/></l><r>ysgol<g><b/>uwchradd</g><s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>litr<s n="n"/><s n="m"/></l><r>litr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>litrad<s n="n"/><s n="m"/></l><r>litr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>liv<s n="n"/><s n="m"/></l><r>lliw<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lizher<s n="n"/><s n="m"/></l><r>llythyr<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>lod<s n="n"/><s n="m"/></l><r>rhan<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>loen<s n="n"/><s n="m"/></l><r>anifail<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>loto<s n="n"/><s n="m"/></l><r>bingo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lunedour<s n="n"/><s n="m"/></l><r>optegydd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>lur<s n="n"/><s n="m"/></l><r>ffranc<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lutig<s n="n"/><s n="m"/></l><r>golau<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mab<s n="n"/><s n="m"/></l><r>mab<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mamm<s n="n"/><s n="f"/></l><r>mam<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mantell-c’hlav<s n="n"/><s n="f"/></l><r>côt<g><b/>law</g><s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>maouez<s n="n"/><s n="f"/></l><r>menyw<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>marc’h<s n="n"/><s n="m"/></l><r>march<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>marc’had<s n="n"/><s n="m"/></l><r>marchnad<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>marc’h-houarn<s n="n"/><s n="m"/></l><r>beic<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>marc’h-tan<s n="n"/><s n="m"/></l><r>beic<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>martolod<s n="n"/><s n="m"/></l><r>morwr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>medisin<s n="n"/><s n="m"/></l><r>doctor<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mekanik<s n="n"/><s n="m"/></l><r>peiriant<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mell<s n="n"/><s n="f"/></l><r>pêl<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mell-droad<s n="n"/><s n="f"/></l><r>pêl-droed<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>meneger<s n="n"/><s n="m"/></l><r>mynegai<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>merc’her<s n="n"/><s n="m"/></l><r>Mercher<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>merenn<s n="n"/><s n="f"/></l><r>cinio<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>mezeg<s n="n"/><s n="m"/></l><r>meddyg<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>micherourez<s n="n"/><s n="f"/></l><r>gwraig<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mignonez<s n="n"/><s n="f"/></l><r>ffrind<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mil<s n="n"/><s n="m"/></l><r>mil<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>milin<s n="n"/><s n="f"/></l><r>melin<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>milion<s n="n"/><s n="m"/></l><r>miliwn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>miltir<s n="n"/><s n="m"/></l><r>milltir<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ministr<s n="n"/><s n="m"/></l><r>gweinidog<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mintin<s n="n"/><s n="m"/></l><r>bore<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mirdi<s n="n"/><s n="m"/></l><r>amgueddfa<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mizvezh<s n="n"/><s n="m"/></l><r>mis<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>moger<s n="n"/><s n="f"/></l><r>wal<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>moien<s n="n"/><s n="m"/></l><r>modd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>moneiz<s n="n"/><s n="m"/></l><r>arian<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>montr<s n="n"/><s n="m"/></l><r>wats<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mor<s n="n"/><s n="m"/></l><r>môr<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>morzhed<s n="n"/><s n="f"/></l><r>morddwyd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mouchouer<s n="n"/><s n="m"/></l><r>hances<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>naon<s n="n"/><s n="m"/></l><r>eisiau<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>nerzh<s n="n"/><s n="m"/></l><r>nerth<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>niver<s n="n"/><s n="m"/></l><r>rhif<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>niver-daou<s n="n"/><s n="m"/></l><r>rhif<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>niverenn<s n="n"/><s n="f"/></l><r>rhif<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>notenn<s n="n"/><s n="f"/></l><r>nodyn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>noz<s n="n"/><s n="f"/></l><r>nos<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nozvezh<s n="n"/><s n="f"/></l><r>noson<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>oad<s n="n"/><s n="m"/></l><r>oed<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>odivi<s n="n"/><s n="m"/></l><r>brandi<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>oferenn<s n="n"/><s n="f"/></l><r>offeren<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ostaleri<s n="n"/><s n="f"/></l><r>tafarn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>o<s n="n"/><s n="m"/></l><r>gwesty<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pab<s n="n"/><s n="m"/></l><r>pab<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>pajenn<s n="n"/><s n="f"/></l><r>tudalen<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pakad<s n="n"/><s n="m"/></l><r>pecyn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>palez<s n="n"/><s n="m"/></l><r>palas<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>paotr<s n="n"/><s n="m"/></l><r>bachgen<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>paper<s n="n"/><s n="m"/></l><r>papur<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>park<s n="n"/><s n="m"/></l><r>cae<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pasianted<s n="n"/><s n="f"/></l><r>amynedd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>paz<s n="n"/><s n="m"/></l><r>peswch<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pellgomz<s n="n"/><s n="f"/></l><r>ffôn<s n="n"/><s n=""/></r></p></e>
+    <e><p><l>pellgomzer<s n="n"/><s n="m"/></l><r>ffôn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pemzektez<s n="n"/><s n="m"/></l><r>pythefnos<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>penn<s n="n"/><s n="m"/></l><r>pen<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pennad<s n="n"/><s n="m"/></l><r>darn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>peoc’h<s n="n"/><s n="m"/></l><r>heddwch<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pesk<s n="n"/><s n="m"/></l><r>pysgodyn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>piano<s n="n"/><s n="m"/></l><r>piano<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pil<s n="n"/><s n="m"/></l><r>batri<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pint<s n="n"/><s n="m"/></l><r>peint<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pintad<s n="n"/><s n="m"/></l><r>peint<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>piramidenn<s n="n"/><s n="f"/></l><r>pyramid<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pladenn<s n="n"/><s n="f"/></l><r>record<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>plas<s n="n"/><s n="m"/></l><r>lle<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>plijadur<s n="n"/><s n="f"/></l><r>hwyl<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pobl<s n="n"/><s n="f"/></l><r>pobl<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pod<s n="n"/><s n="m"/></l><r>potyn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>polis<s n="n"/><s n="m"/></l><r>heddwas<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>polis<s n="n"/><s n="m"/></l><r>heddlu<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>politikerezh<s n="n"/><s n="m"/></l><r>gwleidyddiaeth<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>poltred<s n="n"/><s n="m"/></l><r>portread<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pont<s n="n"/><s n="m"/></l><r>pont<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>porzh<s n="n"/><s n="m"/></l><r>porthladd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>post<s n="n"/><s n="m"/></l><r>post<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>postel<s n="n"/><s n="m"/></l><r>e-bost<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>poull<s n="n"/><s n="m"/></l><r>pwll<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>poz<s n="n"/><s n="m"/></l><r>pennill<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pred<s n="n"/><s n="m"/></l><r>pryd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>prenestr<s n="n"/><s n="m"/></l><r>ffenestr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pres<s n="n"/><s n="m"/></l><r>cwpwrdd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>prez<s n="n"/><s n="m"/></l><r>brys<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>prezegenn<s n="n"/><s n="f"/></l><r>sgwrs<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>priñs<s n="n"/><s n="m"/></l><r>tywysog<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>priñsez<s n="n"/><s n="f"/></l><r>tywysoges<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>priz<s n="n"/><s n="m"/></l><r>pris<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>prof<s n="n"/><s n="m"/></l><r>anrheg<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>raganv<s n="n"/><s n="m"/></l><r>rhagenw<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rakger<s n="n"/><s n="m"/></l><r>rhagddodiad<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>reor<s n="n"/><s n="m"/></l><r>tin<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ret<s n="n"/><s n="m"/></l><r>rhaid<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>reter<s n="n"/><s n="m"/></l><r>dwyrain<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rev<s n="n"/><s n="m"/></l><r>rhew<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>riv<s n="n"/><s n="m"/></l><r>oerfel<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rom<s n="n"/><s n="m"/></l><r>rwm<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>romant<s n="n"/><s n="m"/></l><r>nofel<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rouanez<s n="n"/><s n="f"/></l><r>brenhines<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rugbi<s n="n"/><s n="m"/></l><r>rygbi<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sadorn<s n="n"/><s n="m"/></l><r>Sadwrn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sae<s n="n"/><s n="f"/></l><r>ffrog<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sal<s n="n"/><s n="f"/></l><r>ystafell<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sant<s n="n"/><s n="m"/></l><r>sant<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>saozneg<s n="n"/><s n="m"/></l><r>Saesneg<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>savadur<s n="n"/><s n="m"/></l><r>adeilad<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sav-heol<s n="n"/><s n="m"/></l><r>dwyrain<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sec’hed<s n="n"/><s n="m"/></l><r>syched<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>seurt<s n="n"/><s n="m"/></l><r>math<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sifern<s n="n"/><s n="m"/></l><r>annwyd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sigaretenn<s n="n"/><s n="f"/></l><r>sigarét<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sistr<s n="n"/><s n="m"/></l><r>seidir<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sizhun<s n="n"/><s n="f"/></l><r>wythnos<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sizhunvezh<s n="n"/><s n="f"/></l><r>wythnos<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>skabell<s n="n"/><s n="f"/></l><r>stôl<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>skeud<s n="n"/><s n="m"/></l><r>cysgod<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>skin<s n="n"/><s n="m"/></l><r>pelydr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>skingomz<s n="n"/><s n="f"/></l><r>radio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>skinwel<s n="n"/><s n="m"/></l><r>teledu<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>skoaz<s n="n"/><s n="f"/></l><r>ysgwydd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>skol<s n="n"/><s n="f"/></l><r>ysgol<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>skol-veur<s n="n"/><s n="f"/></l><r>prifysgol<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>skolaer<s n="n"/><s n="m"/></l><r>athro<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>skouer<s n="n"/><s n="f"/></l><r>enghraifft<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>skrivagner<s n="n"/><s n="m"/></l><r>awdur<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>skrivagnerez<s n="n"/><s n="f"/></l><r>awdures<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>son<s n="n"/><s n="f"/></l><r>cân<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sonadeg<s n="n"/><s n="f"/></l><r>cyngerdd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>soner<s n="n"/><s n="m"/></l><r>cerddor<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sonerezh<s n="n"/><s n="m"/></l><r>cerddoriaeth<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>soubenn<s n="n"/><s n="f"/></l><r>cawl<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>soudard<s n="n"/><s n="m"/></l><r>milwr<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>spagnoleg<s n="n"/><s n="m"/></l><r>Sbaeneg<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>spi<s n="n"/><s n="m"/></l><r>gobaith<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>stad<s n="n"/><s n="f"/></l><r>gwladwriaeth<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>stagell<s n="n"/><s n="f"/></l><r>cysylltair<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>stal<s n="n"/><s n="f"/></l><r>siop<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>stammenn<s n="n"/><s n="f"/></l><r>jwmper<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>ster<s n="n"/><s n="m"/></l><r>ystyr<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>stêr<s n="n"/><s n="f"/></l><r>afon<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>straed<s n="n"/><s n="f"/></l><r>stryd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>strollad<s n="n"/><s n="m"/></l><r>grŵp<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>studier<s n="n"/><s n="m"/></l><r>myfyriwr<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>stumm<s n="n"/><s n="m"/></l><r>ffurf<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sukr<s n="n"/><s n="m"/></l><r>siwgr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sul<s n="n"/><s n="m"/></l><r>Sul<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tachenn<s n="n"/><s n="f"/></l><r>maes<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>takenn<s n="n"/><s n="f"/></l><r>diferyn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>taksi<s n="n"/><s n="m"/></l><r>tacsi<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>talvoudegezh<s n="n"/><s n="f"/></l><r>ystyr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tan<s n="n"/><s n="m"/></l><r>tân<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>taol<s n="n"/><s n="f"/></l><r>bwrdd<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>taol<s n="n"/><s n="m"/></l><r>ergyd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tas<s n="n"/><s n="m"/></l><r>cwpan<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tavarn<s n="n"/><s n="f"/></l><r>tafarn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>te<s n="n"/><s n="m"/></l><r>te<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>teil<s n="n"/><s n="m"/></l><r>tail<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>telenn<s n="n"/><s n="f"/></l><r>telyn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>teltenn<s n="n"/><s n="f"/></l><r>pabell<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>templ<s n="n"/><s n="m"/></l><r>teml<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>teod<s n="n"/><s n="m"/></l><r>tafod<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>testeni<s n="n"/><s n="m"/></l><r>tystiolaeth<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ti<s n="n"/><s n="m"/></l><r>tŷ<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>timbr<s n="n"/><s n="m"/></l><r>stamp<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tog<s n="n"/><s n="m"/></l><r>het<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tok<s n="n"/><s n="m"/></l><r>het<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>torgenn<s n="n"/><s n="f"/></l><r>bryn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>torzh<s n="n"/><s n="f"/></l><r>torth<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tour<s n="n"/><s n="m"/></l><r>tŵr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tourist<s n="n"/><s n="m"/></l><r>twrist<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>traezh<s n="n"/><s n="m"/></l><r>traeth<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>traezhenn<s n="n"/><s n="f"/></l><r>traeth<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tren<s n="n"/><s n="m"/></l><r>trên<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tristidigezh<s n="n"/><s n="f"/></l><r>tristwch<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>troad<s n="n"/><s n="m"/></l><r>troed<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>troienn<s n="n"/><s n="m"/></l><r>ymadrodd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>trugarez<s n="n"/><s n="f"/></l><r>diolch<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tud<s n="n"/><s n="f"/></l><r>pobl<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ui<s n="n"/><s n="m"/></l><r>wy<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>urzh<s n="n"/><s n="m"/></l><r>trefn<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>urzhiataer<s n="n"/><s n="m"/></l><r>cyfrifiadur<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>velo<s n="n"/><s n="f"/></l><r>beic<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>verb<s n="n"/><s n="m"/></l><r>berf<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>whisky<s n="n"/><s n="m"/></l><r>chwisgi<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>yaou<s n="n"/><s n="m"/></l><r>Iau<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>yaourt<s n="n"/><s n="m"/></l><r>iogwrt<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>yar<s n="n"/><s n="f"/></l><r>iâr<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>yec’hed<s n="n"/><s n="m"/></l><r>iechyd<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>yenerez<s n="n"/><s n="f"/></l><r>oergell<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>yezh<s n="n"/><s n="f"/></l><r>iaith<s n="n"/><s n="f"/></r></p></e>
+
+    <e><p><l>amzer-amdremenet<s n="n"/><s n="m"/></l><r>amser<g><b/>amherffaith</g><s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>amzer-amdremenet<g><b/>boaz</g><s n="n"/><s n="m"/></l><r>amser<g><b/>amherffaitharferiadol</g><s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>amzer-dazont<s n="n"/><s n="m"/></l><r>amser<g><b/>dyfodol</g><s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>amzer-dremenet<s n="n"/><s n="m"/></l><r>amser<g><b/>gorffennol</g><s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>amzer-vremañ<s n="n"/><s n="m"/></l><r>amser<g><b/>presennol</g><s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>amzer<g><b/>vremañ<b/>boaz</g><s n="n"/><s n="m"/></l><r>amser<g><b/>presennol</g><s n="n"/><s n="m"/></r></p></e>
+
+    <e><p><l>digwener<s n="n"/><s n="m"/></l><r>dydd<g><b/>Gwener</g><s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dilun<s n="n"/><s n="m"/></l><r>dydd<g><b/>Llun</g><s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dimerc’her<s n="n"/><s n="m"/></l><r>dydd<g><b/>Mercher</g><s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dimeurzh<s n="n"/><s n="m"/></l><r>dydd<g><b/>Mawrth</g><s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>diriaou<s n="n"/><s n="m"/></l><r>dydd<g><b/>Iau</g><s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>disadorn<s n="n"/><s n="m"/></l><r>dydd<g><b/>Sadwrn</g><s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>disul<s n="n"/><s n="m"/></l><r>dydd<g><b/>Sul</g><s n="n"/><s n="m"/></r></p></e>
+
+    <e><p><l>hanter-kant<s n="n"/><s n="m"/></l><r>hanner<g><b/>cant</g><s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kartenn-bost<s n="n"/><s n="m"/></l><r>cerdyn<g><b/>post</g><s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>skolaerez<s n="n"/><s n="f"/></l><r>athrawes<g><b/>gynradd</g><s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>skolaj<s n="n"/><s n="m"/></l><r>"ysgol<g><b/>uwchradd iau"</g><s n="n"/><s n="f"/></r></p></e>
+
+
+    <!-- Adjectives -->
+
+    <e><p><l>aes<s n="adj"/></l><r>hawdd<s n="adj"/></r></p></e>
+    <e><p><l>all<s n="adj"/></l><r>arall<s n="adj"/></r></p></e>
+    <e><p><l>arouezius<s n="adj"/></l><r>arwyddocaol<s n="adj"/></r></p></e>
+    <e><p><l>atomek<s n="adj"/></l><r>atomaidd<s n="adj"/></r></p></e>
+    <e><p><l>avelek<s n="adj"/></l><r>gwyntog<s n="adj"/></r></p></e>
+    <e><p><l>azas<s n="adj"/></l><r>addas<s n="adj"/></r></p></e>
+    <e><p><l>azv<s n="adj"/></l><r>aeddfed<s n="adj"/></r></p></e>
+    <e><p><l>balc’h<s n="adj"/></l><r>balch<s n="adj"/></r></p></e>
+    <e><p><l>barvek<s n="adj"/></l><r>barfog<s n="adj"/></r></p></e>
+    <e><p><l>bas<s n="adj"/></l><r>bas<s n="adj"/></r></p></e>
+    <e><p><l>bec’hius<s n="adj"/></l><r>beichus<s n="adj"/></r></p></e>
+    <e><p><l>bedel<s n="adj"/></l><r>bydol<s n="adj"/></r></p></e>
+    <e><p><l>benniget<s n="adj"/></l><r>bendigedig<s n="adj"/></r></p></e>
+    <e><p><l>berr<s n="adj"/></l><r>byr<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>berr<s n="adj"/></l><r>ber<s n="adj"/></r></p></e>
+    <e><p><l>berrboell<s n="adj"/></l><r>byrbwyll<s n="adj"/></r></p></e>
+    <e><p><l>berv<s n="adj"/></l><r>berw<s n="adj"/></r></p></e>
+    <e><p><l>bervet<s n="adj"/></l><r>berwedig<s n="adj"/></r></p></e>
+    <e><p><l>bev<s n="adj"/></l><r>byw<s n="adj"/></r></p></e>
+    <e><p><l>bihan<s n="adj"/></l><r>bach<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>bihan<s n="adj"/></l><r>bechan<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>bihan<s n="adj"/></l><r>bychan<s n="adj"/></r></p></e>
+    <e><p><l>blevek<s n="adj"/></l><r>blewog<s n="adj"/></r></p></e>
+    <e><p><l>bouzar<s n="adj"/></l><r>byddar<s n="adj"/></r></p></e>
+    <e><p><l>braouac’hus<s n="adj"/></l><r>brawychus<s n="adj"/></r></p></e>
+    <e><p><l>bras<s n="adj"/></l><r>mawr<s n="adj"/></r></p></e>
+    <e><p><l>brav<s n="adj"/></l><r>braf<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>brav<s n="adj"/></l><r>hardd<s n="adj"/></r></p></e>
+    <e><p><l>brizh<s n="adj"/></l><r>brith<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>brizh<s n="adj"/></l><r>braith<s n="adj"/></r></p></e>
+    <e><p><l>brogar<s n="adj"/></l><r>gwlatgar<s n="adj"/></r></p></e>
+    <e><p><l>buhezeg<s n="adj"/></l><r>bywiog<s n="adj"/></r></p></e>
+    <e><p><l>c’hoantek<s n="adj"/></l><r>chwannog<s n="adj"/></r></p></e>
+    <e><p><l>c’hwek<s n="adj"/></l><r>chweg<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>c’hwek<s n="adj"/></l><r>melys<s n="adj"/></r></p></e>
+    <e><p><l>c’hwerv<s n="adj"/></l><r>chwerw<s n="adj"/></r></p></e>
+    <e><p><l>dall<s n="adj"/></l><r>dall<s n="adj"/></r></p></e>
+
+    <e><p><l>dehoù<s n="adj"/></l><r>de<s n="adj"/></r></p></e> <!-- check number? -->
+    <e r="LR"><p><l>dehoù<s n="adj"/></l><r>deau<s n="adj"/></r></p></e>
+
+    <e><p><l>diaes<s n="adj"/></l><r>anodd<s n="adj"/></r></p></e>
+    <e><p><l>dibersonel<s n="adj"/></l><r>amhersonol<s n="adj"/></r></p></e>
+    <e><p><l>dibosupl<s n="adj"/></l><r>amhosibl<s n="adj"/></r></p></e>
+    <e><p><l>digevatal<s n="adj"/></l><r>anghyfartal<s n="adj"/></r></p></e>
+    <e><p><l>digor<s n="adj"/></l><r>agored<s n="adj"/></r></p></e>
+    <e><p><l>diliv<s n="adj"/></l><r>di-liw<s n="adj"/></r></p></e>
+    <e><p><l>dindan-douar<s n="adj"/></l><r>tanddaearol<s n="adj"/></r></p></e>
+    <e><p><l>dindan-vor<s n="adj"/></l><r>tanfor<s n="adj"/></r></p></e>
+    <e><p><l>dinerzh<s n="adj"/></l><r>di-nerth<s n="adj"/></r></p></e>
+    <e><p><l>divyezhek<s n="adj"/></l><r>dwyieithog<s n="adj"/></r></p></e>
+    <e><p><l>diwelus<s n="adj"/></l><r>anweledig<s n="adj"/></r></p></e>
+    <e><p><l>diwezhat<s n="adj"/></l><r>diweddar<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>diwezhat<s n="adj"/></l><r>hwyr<s n="adj"/></r></p></e>
+    <e><p><l>diwezhañ<s n="adj"/></l><r>diwethaf<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>diwezhañ<s n="adj"/></l><r>olaf<s n="adj"/></r></p></e>
+    <e><p><l>don<s n="adj"/></l><r>dwfn<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>don<s n="adj"/></l><r>dofn<s n="adj"/></r></p></e>
+    <e><p><l>doñv<s n="adj"/></l><r>dof<s n="adj"/></r></p></e>
+    <e><p><l>dreinek<s n="adj"/></l><r>dreiniog<s n="adj"/></r></p></e>
+    <e><p><l>drouk<s n="adj"/></l><r>drwg<s n="adj"/></r></p></e>
+    <e><p><l>du<s n="adj"/></l><r>du<s n="adj"/></r></p></e>
+    <e><p><l>ec’hon<s n="adj"/></l><r>eang<s n="adj"/></r></p></e>
+    <e><p><l>eil<s n="adj"/></l><r>ail<s n="adj"/></r></p></e>
+    <e><p><l>emzivad<s n="adj"/></l><r>amddifad<s n="adj"/></r></p></e>
+    <e><p><l>estren<s n="adj"/></l><r>estron<s n="adj"/></r></p></e>
+    <e><p><l>faos<s n="adj"/></l><r>ffals<s n="adj"/></r></p></e>
+    <e><p><l>foll<s n="adj"/></l><r>ffôl<s n="adj"/></r></p></e>
+    <e><p><l>gaou<s n="adj"/></l><r>gau<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>gaou<s n="adj"/></l><r>ffug<s n="adj"/></r></p></e>
+    <e><p><l>genidik<s n="adj"/></l><r>genedigol<s n="adj"/></r></p></e>
+    <e><p><l>glan<s n="adj"/></l><r>glân<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>glan<s n="adj"/></l><r>pur<s n="adj"/></r></p></e>
+    <e><p><l>glas<s n="adj"/></l><r>glas<s n="adj"/></r></p></e>
+    <e><p><l>glavek<s n="adj"/></l><r>glawog<s n="adj"/></r></p></e>
+    <e><p><l>gleb<s n="adj"/></l><r>gwlyb<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>gleb<s n="adj"/></l><r>gwleb<s n="adj"/></r></p></e>
+    <e><p><l>gourel<s n="adj"/></l><r>gwrywaidd<s n="adj"/></r></p></e>
+    <e><p><l>gwan<s n="adj"/></l><r>gwan<s n="adj"/></r></p></e>
+    <e><p><l>gwashañ<s n="adj"/></l><r>gwaethaf<s n="adj"/></r></p></e>
+    <e><p><l>gwashoc’h<s n="adj"/></l><r>gwaeth<s n="adj"/></r></p></e>
+    <e><p><l>gwazh<s n="adj"/></l><r>gwaeth<s n="adj"/></r></p></e>
+    <e><p><l>gwell(oc’h)<s n="adj"/></l><r>gwell<s n="adj"/></r></p></e>
+    <e><p><l>gwellañ<s n="adj"/></l><r>gorau<s n="adj"/></r></p></e>
+    <e><p><l>gwenvidik<s n="adj"/></l><r>gwynfydedig<s n="adj"/></r></p></e>
+    <e><p><l>gwenn<s n="adj"/></l><r>gwyn<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>gwenn<s n="adj"/></l><r>gwen<s n="adj"/></r></p></e>
+    <e><p><l>gweñv<s n="adj"/></l><r>gwyw<s n="adj"/></r></p></e>
+    <e><p><l>gwer<s n="adj"/></l><r>gwyrdd<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>gwer<s n="adj"/></l><r>gwerdd<s n="adj"/></r></p></e>
+    <e><p><l>gwir<s n="adj"/></l><r>gwir<s n="adj"/></r></p></e>
+    <e><p><l>gwregel<s n="adj"/></l><r>benywaidd<s n="adj"/></r></p></e>
+    <e><p><l>hegarat<s n="adj"/></l><r>hygar<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>hegarat<s n="adj"/></l><r>hynaws<s n="adj"/></r></p></e>
+    <e><p><l>hegredik<s n="adj"/></l><r>hygoelus<s n="adj"/></r></p></e>
+    <e><p><l>henañ<s n="adj"/></l><r>hynaf<s n="adj"/></r></p></e>
+    <e><p><l>heñvel<s n="adj"/></l><r>hafal<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>heñvel<s n="adj"/></l><r>tebyg<s n="adj"/></r></p></e>
+    <e><p><l>heoliek<s n="adj"/></l><r>heulog<s n="adj"/></r></p></e>
+    <e><p><l>hir<s n="adj"/></l><r>hir<s n="adj"/></r></p></e>
+    <e><p><l>hiraezhus<s n="adj"/></l><r>hiraethus<s n="adj"/></r></p></e>
+    <e><p><l>hollc’halloudek<s n="adj"/></l><r>hollalluog<s n="adj"/></r></p></e>
+    <e><p><l>hollvedel<s n="adj"/></l><r>hollfydol<s n="adj"/></r></p></e>
+    <e><p><l>hud<s n="adj"/></l><r>hud<s n="adj"/></r></p></e>
+    <e><p><l>izel<s n="adj"/></l><r>isel<s n="adj"/></r></p></e>
+    <e><p><l>izil<s n="adj"/></l><r>eiddil<s n="adj"/></r></p></e>
+    <e><p><l>kalet<s n="adj"/></l><r>caled<s n="adj"/></r></p></e>
+    <e><p><l>kalonek<s n="adj"/></l><r>dewr<s n="adj"/></r></p></e>
+    <e><p><l>kamm<s n="adj"/></l><r>cam<s n="adj"/></r></p></e>
+    <e><p><l>kazaus<s n="adj"/></l><r>cas<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>kazaus<s n="adj"/></l><r>atgas<s n="adj"/></r></p></e>
+    <e><p><l>keit<s n="adj"/></l><r>cyhyd<s n="adj"/></r></p></e>
+    <e><p><l>keltiek<s n="adj"/></l><r>Celtaidd<s n="adj"/></r></p></e>
+    <e><p><l>kembraek<s n="adj"/></l><r>Cymraeg<s n="adj"/></r></p></e>
+    <e><p><l>kembreat<s n="adj"/></l><r>Cymreig<s n="adj"/></r></p></e>
+    <e><p><l>kement<s n="adj"/></l><r>cymaint<s n="adj"/></r></p></e>
+    <e><p><l>kempenn<s n="adj"/></l><r>cymen<s n="adj"/></r></p></e>
+    <e><p><l>kemplezh<s n="adj"/></l><r>cymhleth<s n="adj"/></r></p></e>
+    <e><p><l>kempouez<s n="adj"/></l><r>cytbwys<s n="adj"/></r></p></e>
+    <e><p><l>kevatal<s n="adj"/></l><r>cyfartal<s n="adj"/></r></p></e>
+    <e><p><l>klañv<s n="adj"/></l><r>claf<s n="adj"/></r></p></e>
+    <e><p><l>klouar<s n="adj"/></l><r>claear<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>klouar<s n="adj"/></l><r>mwynaidd<s n="adj"/></r></p></e>
+    <e><p><l>kornek<s n="adj"/></l><r>corniog<s n="adj"/></r></p></e>
+    <e><p><l>koumoulek<s n="adj"/></l><r>cymylog<s n="adj"/></r></p></e>
+    <e><p><l>kousket<s n="adj"/></l><r>cwsg<s n="adj"/></r></p></e>
+    <e><p><l>koustus<s n="adj"/></l><r>costus<s n="adj"/></r></p></e>
+    <e><p><l>krenidik<s n="adj"/></l><r>crynedig<s n="adj"/></r></p></e>
+    <e><p><l>kreñv<s n="adj"/></l><r>cryf<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>kreñv<s n="adj"/></l><r>cref<s n="adj"/></r></p></e>
+    <e><p><l>kromm<s n="adj"/></l><r>crwm<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>kromm<s n="adj"/></l><r>crom<s n="adj"/></r></p></e>
+    <e><p><l>kuñv<s n="adj"/></l><r>cu<s n="adj"/></r></p></e>
+    <e><p><l>kuzh<s n="adj"/></l><r>cudd<s n="adj"/></r></p></e>
+    <e><p><l>laezhek<s n="adj"/></l><r>llaethog<s n="adj"/></r></p></e>
+    <e><p><l>laouen<s n="adj"/></l><r>llawen<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>laouen<s n="adj"/></l><r>hapus<s n="adj"/></r></p></e>
+    <e><p><l>lec’hel<s n="adj"/></l><r>lleol<s n="adj"/></r></p></e>
+    <e><p><l>ledan<s n="adj"/></l><r>llydan<s n="adj"/></r></p></e>
+    <e><p><l>lemm<s n="adj"/></l><r>llym<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>lemm<s n="adj"/></l><r>miniog<s n="adj"/></r></p></e>
+    <e><p><l>leun<s n="adj"/></l><r>llawn<s n="adj"/></r></p></e>
+    <e><p><l>levn<s n="adj"/></l><r>llyfn<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>levn<s n="adj"/></l><r>llefn<s n="adj"/></r></p></e>
+    <e><p><l>loued<s n="adj"/></l><r>llwyd<s n="adj"/></r></p></e>
+    <e><p><l>marv<s n="adj"/></l><r>marw<s n="adj"/></r></p></e>
+    <e><p><l>marvel<s n="adj"/></l><r>marwol<s n="adj"/></r></p></e>
+    <e><p><l>mat<s n="adj"/></l><r>mad<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>mat<s n="adj"/></l><r>da<s n="adj"/></r></p></e>
+    <e><p><l>melen<s n="adj"/></l><r>melyn<s n="adj"/></r></p></e>
+    <e><p><l>melen<s n="adj"/></l><r>melen<s n="adj"/></r></p></e>
+    <e><p><l>meur<s n="adj"/></l><r>mawr<b/>iawn<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>meur<s n="adj"/></l><r>uchel<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>meur<s n="adj"/></l><r>aruchel<s n="adj"/></r></p></e>
+    <e><p><l>mezv<s n="adj"/></l><r>meddw<s n="adj"/></r></p></e>
+    <e><p><l>moal<s n="adj"/></l><r>moel<s n="adj"/></r></p></e>
+    <e><p><l>moan<s n="adj"/></l><r>main<s n="adj"/></r></p></e>
+    <e><p><l>modern<s n="adj"/></l><r>modern<s n="adj"/></r></p></e>
+    <e><p><l>muiañ<s n="adj"/></l><r>mwyaf<s n="adj"/></r></p></e>
+    <e><p><l>muioc’h<s n="adj"/></l><r>mwy<s n="adj"/></r></p></e>
+    <e><p><l>mut<s n="adj"/></l><r>mud<s n="adj"/></r></p></e>
+    <e><p><l>naonek<s n="adj"/></l><r>newynog<s n="adj"/></r></p></e>
+    <e><p><l>naturel<s n="adj"/></l><r>naturiol<s n="adj"/></r></p></e>
+    <e><p><l>nervus<s n="adj"/></l><r>nerfus<s n="adj"/></r></p></e>
+    <e><p><l>nerzhus<s n="adj"/></l><r>nerthol<s n="adj"/></r></p></e>
+    <e><p><l>nes<s n="adj"/></l><r>nes<s n="adj"/></r></p></e>
+    <e><p><l>nesañ<s n="adj"/></l><r>nesaf<s n="adj"/></r></p></e>
+    <e><p><l>nesoc’h<s n="adj"/></l><r>nes<s n="adj"/></r></p></e>
+    <e><p><l>nevez<s n="adj"/></l><r>newydd<s n="adj"/></r></p></e>
+    <e><p><l>niverus<s n="adj"/></l><r>niferus<s n="adj"/></r></p></e>
+    <e><p><l>noazh<s n="adj"/></l><r>noeth<s n="adj"/></r></p></e>
+    <e><p><l>onest<s n="adj"/></l><r>gonest<s n="adj"/></r></p></e>
+    <e><p><l>ouesk<s n="adj"/></l><r>gwisgi<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>ouesk<s n="adj"/></l><r>heini<s n="adj"/></r></p></e>
+    <e><p><l>pell<s n="adj"/></l><r>pell<s n="adj"/></r></p></e>
+    <e><p><l>penngamm<s n="adj"/></l><r>pengam<s n="adj"/></r></p></e>
+    <e><p><l>pep<s n="adj"/></l><r>pob<s n="adj"/></r></p></e>
+    <e><p><l>personel<s n="adj"/></l><r>personol<s n="adj"/></r></p></e>
+    <e><p><l>plaen<s n="adj"/></l><r>plaen<s n="adj"/></r></p></e>
+    <e><p><l>poanius<s n="adj"/></l><r>poenus<s n="adj"/></r></p></e>
+    <e><p><l>posubl<s n="adj"/></l><r>posibl<s n="adj"/></r></p></e>
+    <e><p><l>pouezus<s n="adj"/></l><r>pwysig<s n="adj"/></r></p></e>
+    <e><p><l>preñvedek<s n="adj"/></l><r>pryfedog<s n="adj"/></r></p></e>
+    <e><p><l>pur<s n="adj"/></l><r>pur<s n="adj"/></r></p></e>
+    <e><p><l>reoliek<s n="adj"/></l><r>rheolaidd<s n="adj"/></r></p></e>
+    <e><p><l>ret<s n="adj"/></l><r>angenrheidiol<s n="adj"/></r></p></e>
+    <e><p><l>roz<s n="adj"/></l><r>rhosliw<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>roz<s n="adj"/></l><r>pinc<s n="adj"/></r></p></e>
+    <e><p><l>ruz<s n="adj"/></l><r>rhudd<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>ruz<s n="adj"/></l><r>coch<s n="adj"/></r></p></e>
+    <e><p><l>santel<s n="adj"/></l><r>santaidd<s n="adj"/></r></p></e>
+    <e><p><l>sec’h<s n="adj"/></l><r>sych<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>sec’h<s n="adj"/></l><r>sech<s n="adj"/></r></p></e>
+    <e><p><l>serzh<s n="adj"/></l><r>serth<s n="adj"/></r></p></e>
+    <e><p><l>skañv<s n="adj"/></l><r>ysgafn<s n="adj"/></r></p></e>
+    <e><p><l>skañvbenn<s n="adj"/></l><r>penysgafn<s n="adj"/></r></p></e>
+    <e><p><l>skouarnek<s n="adj"/></l><r>clustiog<s n="adj"/></r></p></e>
+    <e><p><l>sur<s n="adj"/></l><r>siŵr<s n="adj"/></r></p></e>
+    <e><p><l>taer<s n="adj"/></l><r>taer<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>taer<s n="adj"/></l><r>brwd<s n="adj"/></r></p></e>
+    <e><p><l>tanav<s n="adj"/></l><r>tenau<s n="adj"/></r></p></e>
+    <e><p><l>tavedek<s n="adj"/></l><r>tawedog<s n="adj"/></r></p></e>
+    <e><p><l>teñval<s n="adj"/></l><r>tywyll<s n="adj"/></r></p></e>
+    <e><p><l>tev<s n="adj"/></l><r>tew<s n="adj"/></r></p></e>
+    <e><p><l>tomm<s n="adj"/></l><r>twym<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>tomm<s n="adj"/></l><r>cynnes<s n="adj"/></r></p></e>
+    <e><p><l>torret<s n="adj"/></l><r>toredig<s n="adj"/></r></p></e>
+    <e><p><l>tramor<s n="adj"/></l><r>tramor<s n="adj"/></r></p></e>
+    <e><p><l>trec’h<s n="adj"/></l><r>trech<s n="adj"/></r></p></e>
+    <e><p><l>trist<s n="adj"/></l><r>trist<s n="adj"/></r></p></e>
+    <e><p><l>truezus<s n="adj"/></l><r>truenus<s n="adj"/></r></p></e>
+    <e><p><l>uhel<s n="adj"/></l><r>uchel<s n="adj"/></r></p></e>
+    <e><p><l>unliv<s n="adj"/></l><r>unlliw<s n="adj"/></r></p></e>
+    <e><p><l>unsilabek<s n="adj"/></l><r>unsillafog<s n="adj"/></r></p></e>
+    <e><p><l>unton<s n="adj"/></l><r>undonog<s n="adj"/></r></p></e>
+    <e><p><l>unyezhek<s n="adj"/></l><r>unieithog<s n="adj"/></r></p></e>
+    <e><p><l>yac’h<s n="adj"/></l><r>iach<s n="adj"/></r></p></e>
+    <e><p><l>yac’hus<s n="adj"/></l><r>iachus<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>yac’hus<s n="adj"/></l><r>iachusol<s n="adj"/></r></p></e>
+    <e><p><l>yaouank<s n="adj"/></l><r>ieuanc<s n="adj"/></r></p></e>
+    <e><p><l>yezhel<s n="adj"/></l><r>ieithyddol<s n="adj"/></r></p></e>
+
+
+    <!-- Verbs -->
+
+    <e><p><l>bezañ<s n="vbser"/></l><r>bod<s n="vbser"/></r></p></e>
+
+    <e><p><l>gwaskañ<s n="vblex"/></l><r>gwasgu<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>gwaskañ<s n="vblex"/></l><r>clicio<s n="vblex"/></r></p></e>
+
+    <e><p><l>kas<s n="vblex"/></l><r>anfon<s n="vblex"/></r></p></e>
+    <e><p><l>aozañ<s n="vblex"/></l><r>trefnu<s n="vblex"/></r></p></e>
+
+    <e><p><l>alañ<s n="vblex"/></l><r>alu<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>alañ<s n="vblex"/></l><r>bwrw<g><b/>llo</g><s n="vblex"/></r></p></e>
+    <e><p><l>analañ<s n="vblex"/></l><r>anadlu<s n="vblex"/></r></p></e>
+    <e><p><l>ankouaat<s n="vblex"/></l><r>anghofio<s n="vblex"/></r></p></e>
+    <e><p><l>annezañ<s n="vblex"/></l><r>anheddu<s n="vblex"/></r></p></e>
+    <e><p><l>anzav<s n="vblex"/></l><r>addef<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>anzav<s n="vblex"/></l><r>cyfaddef<s n="vblex"/></r></p></e>
+    <e><p><l>arat<s n="vblex"/></l><r>aredig<s n="vblex"/></r></p></e>
+    <e><p><l>arbennikaat<s n="vblex"/></l><r>arbenigo<s n="vblex"/></r></p></e>
+    <e><p><l>astenn<s n="vblex"/></l><r>estyn<s n="vblex"/></r></p></e>
+    <e><p><l>azeuliñ<s n="vblex"/></l><r>addoli<s n="vblex"/></r></p></e>
+    <e><p><l>azezañ<s n="vblex"/></l><r>eistedd<s n="vblex"/></r></p></e>
+    <e><p><l>azviñ<s n="vblex"/></l><r>aeddfedu<s n="vblex"/></r></p></e>
+    <e><p><l>bac’hañ<s n="vblex"/></l><r>bachu<s n="vblex"/></r></p></e>
+    <e><p><l>badeziñ<s n="vblex"/></l><r>bedyddio<s n="vblex"/></r></p></e>
+    <e><p><l>barn<s n="vblex"/></l><r>barnu<s n="vblex"/></r></p></e>
+    <e><p><l>bec’hiañ<s n="vblex"/></l><r>beichio<s n="vblex"/></r></p></e>
+    <e><p><l>berañ<s n="vblex"/></l><r>diferu<s n="vblex"/></r></p></e>
+    <e><p><l>berraat<s n="vblex"/></l><r>byrhau<s n="vblex"/></r></p></e>
+    <e><p><l>berviñ<s n="vblex"/></l><r>berwi<s n="vblex"/></r></p></e>
+    <e><p><l>beuziñ<s n="vblex"/></l><r>boddi<s n="vblex"/></r></p></e>
+    <e><p><l>bevañ<s n="vblex"/></l><r>byw<s n="vblex"/></r></p></e>
+    <e><p><l>boueta<s n="vblex"/></l><r>bwydo<s n="vblex"/></r></p></e>
+    <e><p><l>breinañ<s n="vblex"/></l><r>braenu<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>breinañ<s n="vblex"/></l><r>pydru<s n="vblex"/></r></p></e>
+    <e><p><l>broc’hañ<s n="vblex"/></l><r>brochi<s n="vblex"/></r></p></e>
+    <e><p><l>bruzunañ<s n="vblex"/></l><r>brwsioni<s n="vblex"/></r></p></e>
+    <e><p><l>c’hoantaat<s n="vblex"/></l><r>chwennych<s n="vblex"/></r></p></e>
+    <e><p><l>c’hoari<s n="vblex"/></l><r>chwarae<s n="vblex"/></r></p></e>
+    <e><p><l>c’hoarzhin<s n="vblex"/></l><r>chwerthin<s n="vblex"/></r></p></e>
+    <e><p><l>c’hwennat<s n="vblex"/></l><r>chwynnu<s n="vblex"/></r></p></e>
+    <e><p><l>c’hwezañ<s n="vblex"/></l><r>chwyddo<s n="vblex"/></r></p></e>
+    <e><p><l>c’hwezhañ<s n="vblex"/></l><r>chwythu<s n="vblex"/></r></p></e>
+    <e><p><l>c’hweziñ<s n="vblex"/></l><r>chwysu<s n="vblex"/></r></p></e>
+    <e><p><l>c’hwibanat<s n="vblex"/></l><r>chwibanu<s n="vblex"/></r></p></e>
+    <e><p><l>daelañ<s n="vblex"/></l><r>dadlau<s n="vblex"/></r></p></e>
+    <e><p><l>delc’her<s n="vblex"/></l><r>dal<s n="vblex"/></r></p></e>
+    <e><p><l>deskiñ<s n="vblex"/></l><r>dysgu<s n="vblex"/></r></p></e>
+    <e><p><l>deverañ<s n="vblex"/></l><r>diferu<s n="vblex"/></r></p></e>
+    <e><p><l>dielfennañ<s n="vblex"/></l><r>dadansoddi<s n="vblex"/></r></p></e>
+    <e><p><l>difenn<s n="vblex"/></l><r>amddiffyn<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>difenn<s n="vblex"/></l><r>gwahardd<s n="vblex"/></r></p></e>
+    <e><p><l>dihunañ<s n="vblex"/></l><r>dihuno<s n="vblex"/></r></p></e>
+    <e><p><l>diskenn<s n="vblex"/></l><r>disgyn<s n="vblex"/></r></p></e>
+    <e><p><l>diverrañ<s n="vblex"/></l><r>byrhau<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>diverrañ<s n="vblex"/></l><r>difyrru<s n="vblex"/></r></p></e>
+    <e><p><l>diwiskañ<s n="vblex"/></l><r>diosg<s n="vblex"/></r></p></e>
+    <e><p><l>diwriziennañ<s n="vblex"/></l><r>diwreiddio<s n="vblex"/></r></p></e>
+    <e><p><l>dornañ<s n="vblex"/></l><r>dyrnu<s n="vblex"/></r></p></e>
+    <e><p><l>dont<s n="vblex"/></l><r>dod<s n="vblex"/></r></p></e>
+    <e><p><l>doñvaat<s n="vblex"/></l><r>dofi<s n="vblex"/></r></p></e>
+    <e><p><l>dougen<s n="vblex"/></l><r>dwyn<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>dougen<s n="vblex"/></l><r>cario<s n="vblex"/></r></p></e>
+    <e><p><l>eginañ<s n="vblex"/></l><r>egino<s n="vblex"/></r></p></e>
+    <e><p><l>en em walc’hiñ<s n="vblex"/></l><r>ymolchi<s n="vblex"/></r></p></e>
+    <e><p><l>en em wiskañ<s n="vblex"/></l><r>ymwisgo<s n="vblex"/></r></p></e>
+    <e><p><l>evañ<s n="vblex"/></l><r>yfed<s n="vblex"/></r></p></e>
+    <e><p><l>filmañ<s n="vblex"/></l><r>ffilmio<s n="vblex"/></r></p></e>
+    <e><p><l>flammañ<s n="vblex"/></l><r>fflamio<s n="vblex"/></r></p></e>
+    <e><p><l>fustañ<s n="vblex"/></l><r>ffustio <s n="vblex"/></r></p></e>
+    <e><p><l>frammañ<s n="vblex"/></l><r>fframio<s n="vblex"/></r></p></e>
+    <e><p><l>gallout<s n="vblex"/></l><r>gallu<s n="vblex"/></r></p></e>
+    <e><p><l>gelver<s n="vblex"/></l><r>galw<s n="vblex"/></r></p></e>
+    <e><p><l>genel<s n="vblex"/></l><r>geni<s n="vblex"/></r></p></e>
+    <e><p><l>glebiañ<s n="vblex"/></l><r>gwlychu<s n="vblex"/></r></p></e>
+    <e><p><l>glec’hiañ<s n="vblex"/></l><r>rhoi<g><b/>yng<b/>ngwlych</g><s n="vblex"/></r></p></e>
+    <e><p><l>gludañ<s n="vblex"/></l><r>gludio<s n="vblex"/></r></p></e>
+    <e><p><l>goriñ<s n="vblex"/></l><r>gori<s n="vblex"/></r></p></e>
+    <e><p><l>goro<s n="vblex"/></l><r>godro<s n="vblex"/></r></p></e>
+    <e><p><l>gouelañ<s n="vblex"/></l><r>wylo<s n="vblex"/></r></p></e>
+    <e><p><l>gourc’hemenn<s n="vblex"/></l><r>gorchymyn<s n="vblex"/></r></p></e>
+    <e><p><l>gouzañv<s n="vblex"/></l><r>goddef<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>gouzañv<s n="vblex"/></l><r>dioddef<s n="vblex"/></r></p></e>
+    <e><p><l>gozeta<s n="vblex"/></l><r>gwaddota<s n="vblex"/></r></p></e>
+    <e><p><l>grilhañ<s n="vblex"/></l><r>grilio<s n="vblex"/></r></p></e>
+    <e><p><l>gwarantiñ<s n="vblex"/></l><r>gwarantu<s n="vblex"/></r></p></e>
+    <e><p><l>gwalc’hiñ<s n="vblex"/></l><r>golchi<s n="vblex"/></r></p></e>
+    <e><p><l>gwac’hañ<s n="vblex"/></l><r>gwawchio<s n="vblex"/></r></p></e>
+    <e><p><l>gwellaat<s n="vblex"/></l><r>gwella<s n="vblex"/></r></p></e>
+    <e><p><l>gwerzhañ<s n="vblex"/></l><r>gwerthu<s n="vblex"/></r></p></e>
+    <e><p><l>gwiadiñ<s n="vblex"/></l><r>gwehyddu<s n="vblex"/></r></p></e>
+    <e><p><l>gwiriañ<s n="vblex"/></l><r>gwirio<s n="vblex"/></r></p></e>
+    <e><p><l>gwiskañ<s n="vblex"/></l><r>gwisgo<s n="vblex"/></r></p></e>
+    <e><p><l>gwriat<s n="vblex"/></l><r>gwnïo<s n="vblex"/></r></p></e>
+    <e><p><l>gwriziennañ<s n="vblex"/></l><r>gwreiddio<s n="vblex"/></r></p></e>
+    <e><p><l>hadañ<s n="vblex"/></l><r>hau<s n="vblex"/></r></p></e>
+    <e><p><l>hualañ<s n="vblex"/></l><r>hualu<s n="vblex"/></r></p></e>
+    <e><p><l>hudañ<s n="vblex"/></l><r>hudo<s n="vblex"/></r></p></e>
+    <e><p><l>hunañ<s n="vblex"/></l><r>huno<s n="vblex"/></r></p></e>
+    <e><p><l>imboudañ<s n="vblex"/></l><r>impio<s n="vblex"/></r></p></e>
+    <e><p><l>isañ<s n="vblex"/></l><r>hysio<s n="vblex"/></r></p></e>
+    <e><p><l>izelaat<s n="vblex"/></l><r>iselhau<s n="vblex"/></r></p></e>
+    <e><p><l>kac’hat<s n="vblex"/></l><r>cachu<s n="vblex"/></r></p></e>
+    <e><p><l>kadarnaat<s n="vblex"/></l><r>cadarnhau<s n="vblex"/></r></p></e>
+    <e><p><l>kalediñ<s n="vblex"/></l><r>caledu<s n="vblex"/></r></p></e>
+    <e><p><l>kalonekaat<s n="vblex"/></l><r>calonogi<s n="vblex"/></r></p></e>
+    <e><p><l>kanañ<s n="vblex"/></l><r>canu<s n="vblex"/></r></p></e>
+    <e><p><l>kannañ<s n="vblex"/></l><r>cannu<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>kannañ<s n="vblex"/></l><r>golchi<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>kannañ<s n="vblex"/></l><r>curo<s n="vblex"/></r></p></e>
+    <e><p><l>kaoulediñ<s n="vblex"/></l><r>ceulo<s n="vblex"/></r></p></e>
+    <e><p><l>kaout<s n="vblex"/></l><r>cael<s n="vblex"/></r></p></e>
+    <e><p><l>karout<s n="vblex"/></l><r>caru<s n="vblex"/></r></p></e>
+    <e><p><l>karzhañ<s n="vblex"/></l><r>carthu<s n="vblex"/></r></p></e>
+    <e><p><l>kasaat<s n="vblex"/></l><r>casáu<s n="vblex"/></r></p></e>
+    <e><p><l>keginañ<s n="vblex"/></l><r>coginio<s n="vblex"/></r></p></e>
+    <e><p><l>kelc’hiañ<s n="vblex"/></l><r>cylchu<s n="vblex"/></r></p></e>
+    <e><p><l>kemer<s n="vblex"/></l><r>cymryd<s n="vblex"/></r></p></e>
+    <e><p><l>kemmeskañ<s n="vblex"/></l><r>cymysgu<s n="vblex"/></r></p></e>
+    <e><p><l>kempenn<s n="vblex"/></l><r>cymhennu<s n="vblex"/></r></p></e>
+    <e><p><l>kerzhet<s n="vblex"/></l><r>cerdded<s n="vblex"/></r></p></e>
+    <e><p><l>kilañ<s n="vblex"/></l><r>cilio<s n="vblex"/></r></p></e>
+    <e><p><l>kinnig<s n="vblex"/></l><r>cynnig<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>kinnig<s n="vblex"/></l><r>cyflwyno<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>kinnig<s n="vblex"/></l><r>rhoi<s n="vblex"/></r></p></e>
+    <e><p><l>klañvaat<s n="vblex"/></l><r>clafychu<s n="vblex"/></r></p></e>
+    <e><p><l>klevet<s n="vblex"/></l><r>clywed<s n="vblex"/></r></p></e>
+    <e><p><l>kludañ<s n="vblex"/></l><r>clwydo<s n="vblex"/></r></p></e>
+    <e><p><l>koll<s n="vblex"/></l><r>colli<s n="vblex"/></r></p></e>
+    <e><p><l>kounaat<s n="vblex"/></l><r>coffáu<s n="vblex"/></r></p></e>
+    <e><p><l>kousket<s n="vblex"/></l><r>cysgu<s n="vblex"/></r></p></e>
+    <e><p><l>koustañ<s n="vblex"/></l><r>costio<s n="vblex"/></r></p></e>
+    <e><p><l>krazañ<s n="vblex"/></l><r>crasu<s n="vblex"/></r></p></e>
+    <e><p><l>krediñ<s n="vblex"/></l><r>credu<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>krediñ<s n="vblex"/></l><r>meiddio<s n="vblex"/></r></p></e>
+    <e><p><l>krenañ<s n="vblex"/></l><r>crynu<s n="vblex"/></r></p></e>
+    <e><p><l>kribañ<s n="vblex"/></l><r>cribo<s n="vblex"/></r></p></e>
+    <e><p><l>krommañ<s n="vblex"/></l><r>crymu<s n="vblex"/></r></p></e>
+    <e><p><l>krougañ<s n="vblex"/></l><r>crogi<s n="vblex"/></r></p></e>
+    <e><p><l>krouiñ<s n="vblex"/></l><r>creu<s n="vblex"/></r></p></e>
+    <e><p><l>kuzhat<s n="vblex"/></l><r>cuddio<s n="vblex"/></r></p></e>
+    <e><p><l>labezañ<s n="vblex"/></l><r>llabyddio<s n="vblex"/></r></p></e>
+    <e><p><l>lammat<s n="vblex"/></l><r>llamu<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>lammat<s n="vblex"/></l><r>neidio<s n="vblex"/></r></p></e>
+    <e><p><l>laouenaat<s n="vblex"/></l><r>llawenhau<s n="vblex"/></r></p></e>
+    <e><p><l>lapañ<s n="vblex"/></l><r>llepian<s n="vblex"/></r></p></e>
+    <e><p><l>lavaret<s n="vblex"/></l><r>llefaru<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>lavaret<s n="vblex"/></l><r>dweud<s n="vblex"/></r></p></e>
+    <e><p><l>lazhañ<s n="vblex"/></l><r>lladd<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>lazhañ<s n="vblex"/></l><r>diffodd<s n="vblex"/></r></p></e>
+    <e><p><l>ledañ<s n="vblex"/></l><r>lledu<s n="vblex"/></r></p></e>
+    <e><p><l>lenn<s n="vblex"/></l><r>darllen<s n="vblex"/></r></p></e>
+    <e><p><l>leñvañ<s n="vblex"/></l><r>llefain<s n="vblex"/></r></p></e>
+    <e><p><l>leskiñ<s n="vblex"/></l><r>llosgi<s n="vblex"/></r></p></e>
+    <e><p><l>leuniañ<s n="vblex"/></l><r>llenwi<s n="vblex"/></r></p></e>
+    <e><p><l>livañ<s n="vblex"/></l><r>lliwio<s n="vblex"/></r></p></e>
+    <e><p><l>logota<s n="vblex"/></l><r>llygota<s n="vblex"/></r></p></e>
+    <e><p><l>lonkañ<s n="vblex"/></l><r>llyncu<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>lonkañ<s n="vblex"/></l><r>diota<s n="vblex"/></r></p></e>
+    <e><p><l>louediñ<s n="vblex"/></l><r>llwydo<s n="vblex"/></r></p></e>
+    <e><p><l>magañ<s n="vblex"/></l><r>magu<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>magañ<s n="vblex"/></l><r>bwydo<s n="vblex"/></r></p></e>
+    <e><p><l>malañ<s n="vblex"/></l><r>malu<s n="vblex"/></r></p></e>
+    <e><p><l>mallozhiñ<s n="vblex"/></l><r>melltithio<s n="vblex"/></r></p></e>
+    <e><p><l>marc’hegezh<s n="vblex"/></l><r>marchogaeth<s n="vblex"/></r></p></e>
+    <e><p><l>mediñ<s n="vblex"/></l><r>medi<s n="vblex"/></r></p></e>
+    <e><p><l>mela<s n="vblex"/></l><r>mela<s n="vblex"/></r></p></e>
+    <e><p><l>melenaat<s n="vblex"/></l><r>melynu<s n="vblex"/></r></p></e>
+    <e><p><l>mennout<s n="vblex"/></l><r>mynnu<s n="vblex"/></r></p></e>
+    <e><p><l>merc’heta<s n="vblex"/></l><r>mercheta<s n="vblex"/></r></p></e>
+    <e><p><l>merkañ<s n="vblex"/></l><r>marcio<s n="vblex"/></r></p></e>
+    <e><p><l>mervel<s n="vblex"/></l><r>marw<s n="vblex"/></r></p></e>
+    <e><p><l>merzheriañ<s n="vblex"/></l><r>merthyru<s n="vblex"/></r></p></e>
+    <e><p><l>meuliñ<s n="vblex"/></l><r>moli<s n="vblex"/></r></p></e>
+    <e><p><l>mezviñ<s n="vblex"/></l><r>meddwi<s n="vblex"/></r></p></e>
+    <e><p><l>moalañ<s n="vblex"/></l><r>moeli<s n="vblex"/></r></p></e>
+    <e><p><l>modernaat<s n="vblex"/></l><r>moderneiddio<s n="vblex"/></r></p></e>
+    <e><p><l>mont<s n="vblex"/></l><r>mynd<s n="vblex"/></r></p></e>
+    <e><p><l>mougañ<s n="vblex"/></l><r>mygu<s n="vblex"/></r></p></e>
+    <e><p><l>neuñviñ<s n="vblex"/></l><r>nofio<s n="vblex"/></r></p></e>
+    <e><p><l>nevesaat<s n="vblex"/></l><r>newyddu<s n="vblex"/></r></p></e>
+    <e><p><l>nezañ<s n="vblex"/></l><r>nyddu<s n="vblex"/></r></p></e>
+    <e><p><l>noziñ<s n="vblex"/></l><r>nosi<s n="vblex"/></r></p></e>
+    <e><p><l>palat<s n="vblex"/></l><r>palu<s n="vblex"/></r></p></e>
+    <e><p><l>pasaat<s n="vblex"/></l><r>pesychu<s n="vblex"/></r></p></e>
+    <e><p><l>pec’hiñ<s n="vblex"/></l><r>pechu<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>pec’hiñ<s n="vblex"/></l><r>rhegu<s n="vblex"/></r></p></e>
+    <e><p><l>pellaat<s n="vblex"/></l><r>pellhau<s n="vblex"/></r></p></e>
+    <e><p><l>perc’hennañ<s n="vblex"/></l><r>perchnogi<s n="vblex"/></r></p></e>
+    <e><p><l>pesketa<s n="vblex"/></l><r>pysgota<s n="vblex"/></r></p></e>
+    <e><p><l>peuriñ<s n="vblex"/></l><r>pori<s n="vblex"/></r></p></e>
+    <e><p><l>pikañ<s n="vblex"/></l><r>pigo<s n="vblex"/></r></p></e>
+    <e><p><l>plantañ<s n="vblex"/></l><r>plannu<s n="vblex"/></r></p></e>
+    <e><p><l>plegañ<s n="vblex"/></l><r>plygu<s n="vblex"/></r></p></e>
+    <e><p><l>plezhañ<s n="vblex"/></l><r>plethu<s n="vblex"/></r></p></e>
+    <e><p><l>plijout<s n="vblex"/></l><r>plesio<s n="vblex"/></r></p></e>
+    <e><p><l>pobat<s n="vblex"/></l><r>pobi<s n="vblex"/></r></p></e>
+    <e><p><l>poblañ<s n="vblex"/></l><r>poblogi<s n="vblex"/></r></p></e>
+    <e><p><l>postañ<s n="vblex"/></l><r>postio<s n="vblex"/></r></p></e>
+    <e><p><l>pouezañ<s n="vblex"/></l><r>pwyso<s n="vblex"/></r></p></e>
+    <e><p><l>prenañ<s n="vblex"/></l><r>prynu<s n="vblex"/></r></p></e>
+    <e><p><l>prouiñ<s n="vblex"/></l><r>profi<s n="vblex"/></r></p></e>
+    <e><p><l>puraat<s n="vblex"/></l><r>puro<s n="vblex"/></r></p></e>
+    <e><p><l>rakwelet<s n="vblex"/></l><r>rhag-weld<s n="vblex"/></r></p></e>
+    <e><p><l>redek<s n="vblex"/></l><r>rhedeg<s n="vblex"/></r></p></e>
+    <e><p><l>regiñ<s n="vblex"/></l><r>rhwygo<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>roegañ<s n="vblex"/></l><r>rhwygo<s n="vblex"/></r></p></e>
+    <e><p><l>reiñ<s n="vblex"/></l><r>rhoi<s n="vblex"/></r></p></e>
+    <e><p><l>reviñ<s n="vblex"/></l><r>rhewi<s n="vblex"/></r></p></e>
+    <e><p><l>roeñvat<s n="vblex"/></l><r>rhwyfo<s n="vblex"/></r></p></e>
+    <e><p><l>rostañ<s n="vblex"/></l><r>rhostio<s n="vblex"/></r></p></e>
+    <e><p><l>ruilhal<s n="vblex"/></l><r>rholio<s n="vblex"/></r></p></e>
+    <e><p><l>ruziañ<s n="vblex"/></l><r>rhuddo<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>ruziañ<s n="vblex"/></l><r>cochi<s n="vblex"/></r></p></e>
+    <e><p><l>sec’hañ<s n="vblex"/></l><r>sychu<s n="vblex"/></r></p></e>
+    <e><p><l>sellet<s n="vblex"/></l><r>edrych<s n="vblex"/></r></p></e> <!-- cf. syllu -->
+    <e><p><l>seniñ<s n="vblex"/></l><r>seinio<s n="vblex"/></r></p></e>
+    <e><p><l>sevel<s n="vblex"/></l><r>codi<s n="vblex"/></r></p></e>
+    <e><p><l>sevel en e sav<s n="vblex"/></l><r>sefyll<s n="vblex"/></r></p></e>
+    <e><p><l>skañvaat<s n="vblex"/></l><r>ysgafnhau<s n="vblex"/></r></p></e>
+    <e><p><l>skarzhañ<s n="vblex"/></l><r>ysgarthu<s n="vblex"/></r></p></e>
+    <e><p><l>skrabañ<s n="vblex"/></l><r>sgrabinio<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>skrabañ<s n="vblex"/></l><r>sgrapo<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>skrabañ<s n="vblex"/></l><r>crafu<s n="vblex"/></r></p></e>
+    <e><p><l>skrivañ<s n="vblex"/></l><r>ysgrifennu<s n="vblex"/></r></p></e>
+    <e><p><l>skubañ<s n="vblex"/></l><r>ysgubo<s n="vblex"/></r></p></e>
+    <e><p><l>spazhañ<s n="vblex"/></l><r>ysbaddu<s n="vblex"/></r></p></e>
+    <e><p><l>spiañ<s n="vblex"/></l><r>sbio<s n="vblex"/></r></p></e>
+    <e><p><l>steuñviñ<s n="vblex"/></l><r>stofi<s n="vblex"/></r></p></e>
+    <e><p><l>studiañ<s n="vblex"/></l><r>astudio<s n="vblex"/></r></p></e>
+    <e><p><l>stummañ<s n="vblex"/></l><r>ystumio<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>stummañ<s n="vblex"/></l><r>moldio<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>stummañ<s n="vblex"/></l><r>hyfforddi<s n="vblex"/></r></p></e>
+    <e><p><l>tagañ<s n="vblex"/></l><r>tagu<s n="vblex"/></r></p></e>
+    <e><p><l>tanañ<s n="vblex"/></l><r>tanio<s n="vblex"/></r></p></e>
+    <e><p><l>taviñ<s n="vblex"/></l><r>tewi<s n="vblex"/></r></p></e> <!-- am y gwynt etc. -->
+    <e><p><l>temptañ<s n="vblex"/></l><r>temtio<s n="vblex"/></r></p></e>
+    <e><p><l>tennañ<s n="vblex"/></l><r>tynnu<s n="vblex"/></r></p></e>
+    <e><p><l>terriñ<s n="vblex"/></l><r>torri<s n="vblex"/></r></p></e>
+    <e><p><l>testañ<s n="vblex"/></l><r>tystio<s n="vblex"/></r></p></e>
+    <e><p><l>teuler<s n="vblex"/></l><r>taflu<s n="vblex"/></r></p></e>
+    <e><p><l>teuziñ<s n="vblex"/></l><r>toddi<s n="vblex"/></r></p></e>
+    <e><p><l>tevaat<s n="vblex"/></l><r>tewhau<s n="vblex"/></r></p></e>
+    <e><p><l>tevel<s n="vblex"/></l><r>tewi<s n="vblex"/></r></p></e>
+    <e><p><l>tommañ<s n="vblex"/></l><r>twymo<s n="vblex"/></r></p></e>
+    <e><p><l>touellañ<s n="vblex"/></l><r>twyllo<s n="vblex"/></r></p></e>
+    <e><p><l>touiñ<s n="vblex"/></l><r>tyngu<s n="vblex"/></r></p></e>
+    <e><p><l>toullañ<s n="vblex"/></l><r>tyllu<s n="vblex"/></r></p></e>
+    <e><p><l>tourc’hañ<s n="vblex"/></l><r>tyrchio<s n="vblex"/></r></p></e>
+    <e><p><l>treañ<s n="vblex"/></l><r>treio<s n="vblex"/></r></p></e> <!-- ar y môr -->
+    <e><p><l>trec’hiñ<s n="vblex"/></l><r>trechu<s n="vblex"/></r></p></e>
+    <e><p><l>treiñ<s n="vblex"/></l><r>troi<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>treiñ<s n="vblex"/></l><r>cyfieithu<s n="vblex"/></r></p></e>
+    <e><p><l>tremen<s n="vblex"/></l><r>tremynu<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>tremen<s n="vblex"/></l><r>pasio<s n="vblex"/></r></p></e>
+    <e><p><l>tristaat<s n="vblex"/></l><r>tristáu<s n="vblex"/></r></p></e>
+    <e><p><l>troadañ<s n="vblex"/></l><r>troedio<s n="vblex"/></r></p></e>
+    <e><p><l>troc’hañ<s n="vblex"/></l><r>trychu<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>troc’hañ<s n="vblex"/></l><r>torri<s n="vblex"/></r></p></e>
+    <e><p><l>turiañ<s n="vblex"/></l><r>turio<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>turiañ<s n="vblex"/></l><r>twrio<s n="vblex"/></r></p></e>
+    <e><p><l>unaniñ<s n="vblex"/></l><r>uno<s n="vblex"/></r></p></e>
+    <e><p><l>yac’haat<s n="vblex"/></l><r>iacháu<s n="vblex"/></r></p></e>
+    <e><p><l>yeviñ<s n="vblex"/></l><r>ieuo<s n="vblex"/></r></p></e>
+    <e><p><l>yudal<s n="vblex"/></l><r>udo<s n="vblex"/></r></p></e>
+
+
+    <!-- Adverbs -->
+
+    <e><p><l>mañ<s n="adv"/></l><r>yma<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>amañ<s n="adv"/></l><r>yma<s n="adv"/></r></p></e>
+    <e><p><l>a-dreuz<s n="adv"/></l><r>ar<b/>draws<s n="adv"/></r></p></e>
+    <e><p><l>a-hed<s n="adv"/></l><r>ar<b/>hyd<s n="adv"/></r></p></e>
+    <e><p><l>antronoz<s n="adv"/></l><r>trannoeth<s n="adv"/></r></p></e>
+    <e><p><l>a-walc’h<s n="adv"/></l><r>ei<b/>wala<s n="adv"/></r></p></e>
+    <e><p><l>a-walc’h<s n="adv"/></l><r>digon<s n="adv"/></r></p></e>
+    <e><p><l>a-wezhioù<s n="adv"/></l><r>weithiau<s n="adv"/></r></p></e>
+    <e><p><l>a-zevri<s n="adv"/></l><r>o<b/>ddifrif<s n="adv"/></r></p></e>
+    <e><p><l>a-zioc’h<s n="adv"/></l><r>oddi<b/>uchod<s n="adv"/></r></p></e>
+    <e><p><l>bemdez<s n="adv"/></l><r>beunydd<s n="adv"/></r></p></e>
+    <e><p><l>bemnoz<s n="adv"/></l><r>beunos<s n="adv"/></r></p></e>
+    <e><p><l>betek-henn<s n="adv"/></l><r>hyd<b/>yn<b/>hyn<s n="adv"/></r></p></e>
+    <e><p><l>bremañ<s n="adv"/></l><r>’nawr<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>bremañ<s n="adv"/></l><r>ar<b/>hyn<b/>o<b/>bryd<s n="adv"/></r></p></e>
+    <e><p><l>buan<s n="adv"/></l><r>yn<b/>fuan<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>buan<s n="adv"/></l><r>yn<b/>gyflym<s n="adv"/></r></p></e>
+    <e><p><l>c’hoazh<s n="adv"/></l><r>eto<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>c’hoazh<s n="adv"/></l><r>weth<s n="adv"/></r></p></e>
+    <e><p><l>eno<s n="adv"/></l><r>yno<s n="adv"/></r></p></e>
+
+    <e><p><l>enta<s n="adv"/></l><r>ynteu<s n="adv"/></r></p></e>
+    <e><p><l>’ta<s n="adv"/></l><r>’te<s n="adv"/></r></p></e>
+
+    <e><p><l>er-maez<s n="adv"/></l><r>mas<s n="adv"/></r></p></e>
+    <e> r="LR"<p><l>er-maez<s n="adv"/></l><r>allan<s n="adv"/></r></p></e>
+    <e><p><l>fenoz<s n="adv"/></l><r>heno<s n="adv"/></r></p></e>
+    <e><p><l>goude<s n="adv"/></l><r>wedyn<s n="adv"/></r></p></e>
+    <e><p><l>hebiou<s n="adv"/></l><r>heibio<s n="adv"/></r></p></e>
+    <e><p><l>henozh<s n="adv"/></l><r>heno<s n="adv"/></r></p></e>
+    <e><p><l>hiziv<s n="adv"/></l><r>heddiw<s n="adv"/></r></p></e>
+    <e><p><l>holl<s n="adv"/></l><r>holl<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>holl<s n="adv"/></l><r>i<b/>gyd<s n="adv"/></r></p></e>
+    <e><p><l>mui<s n="adv"/></l><r>mwyach<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>mui<s n="adv"/></l><r>bellach<s n="adv"/></r></p></e>
+    <e><p><l>neizheur<s n="adv"/></l><r>neithiwr<s n="adv"/></r></p></e>
+    <e><p><l>re<s n="adv"/></l><r>rhy<s n="adv"/></r></p></e>
+    <e><p><l>siwazh<s n="adv"/></l><r>ysywaeth<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>siwazh<s n="adv"/></l><r>gwaetha’r<b/>modd<s n="adv"/></r></p></e>
+    <e><p><l>-tre<s n="adv"/></l><r>tra<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>-tre<s n="adv"/></l><r>iawn<s n="adv"/></r></p></e>
+    <e><p><l>warlene<s n="adv"/></l><r>llynedd<s n="adv"/></r></p></e>
+
+
+    <!-- Proper nouns -->
+
+    <e><p><l>Europa<s n="np"/><s n="top"/></l><r>Ewrop<s n="np"/><s n="top"/></r></p></e>
+
+    <e><p><l>Arc'hantina<s n="np"/><s n="top"/></l><r>Ariannin<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Breizh<s n="np"/><s n="top"/></l><r>Llydaw<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bro-C'hall<s n="np"/><s n="top"/></l><r>Ffrainc<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bro-Saoz<s n="np"/><s n="top"/></l><r>Lloegr<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Kanada<s n="np"/><s n="top"/></l><r>Canada<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Kembre<s n="np"/><s n="top"/></l><r>Cymru<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Iwerzhon<s n="np"/><s n="top"/></l><r>Iwerddon<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Japan<s n="np"/><s n="top"/></l><r>Siapan<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Rusia<s n="np"/><s n="top"/></l><r>Rwsia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Slovenia<s n="np"/><s n="top"/></l><r>Slofenia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Spagn<s n="np"/><s n="top"/></l><r>Sbaen<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Turkia<s n="np"/><s n="top"/></l><r>Twrci<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Viêt<b/>Nam<s n="np"/><s n="top"/></l><r>Fietnam<s n="np"/><s n="top"/></r></p></e>
+
+    <e><p><l>Abertawe<s n="np"/><s n="top"/></l><r>Abertawe<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Aberystwyth<s n="np"/><s n="top"/></l><r>Aberystwyth<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bangor<s n="np"/><s n="top"/></l><r>Bangor<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Brycheiniog<s n="np"/><s n="top"/></l><r>Brycheiniog<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Caerdydd<s n="np"/><s n="top"/></l><r>Caerdydd<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Dinedin<s n="np"/><s n="top"/></l><r>Caeredin<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Caerffili<s n="np"/><s n="top"/></l><r>Caerffili<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Caerfyrddin<s n="np"/><s n="top"/></l><r>Caerfyrddin<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Cambridge<s n="np"/><s n="top"/></l><r>Caergrawnt<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Gloucester<s n="np"/><s n="top"/></l><r>Caerloyw<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Caernarfon<s n="np"/><s n="top"/></l><r>Caernarfon<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Casnewydd<s n="np"/><s n="top"/></l><r>Casnewydd<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ceredigion<s n="np"/><s n="top"/></l><r>Ceredigion<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Kernev-Veur<s n="np"/><s n="top"/></l><r>Cernyw<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Clwyd<s n="np"/><s n="top"/></l><r>Clwyd<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Conwy<s n="np"/><s n="top"/></l><r>Conwy<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Korkig<s n="np"/><s n="top"/></l><r>Corc<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Dolgellau<s n="np"/><s n="top"/></l><r>Dolgellau<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Dyfed<s n="np"/><s n="top"/></l><r>Dyfed<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>York<s n="np"/><s n="top"/></l><r>Efrog<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Glasc'ho<s n="np"/><s n="top"/></l><r>Glasgow<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Gwent<s n="np"/><s n="top"/></l><r>Gwent<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Gwynedd<s n="np"/><s n="top"/></l><r>Gwynedd<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Liverpool<s n="np"/><s n="top"/></l><r>Lerpwl<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llanberis<s n="np"/><s n="top"/></l><r>Llanberis<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Llanfair-ym-Muallt<s n="np"/><s n="top"/></l><r>Llanfair-ym-Muallt<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Londrez<s n="np"/><s n="top"/></l><r>Llundain<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Maesyfed<s n="np"/><s n="top"/></l><r>Maesyfed<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Manchester<s n="np"/><s n="top"/></l><r>Manceinion<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Penfro<s n="np"/><s n="top"/></l><r>Penfro<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Powys<s n="np"/><s n="top"/></l><r>Powys<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Oxford<s n="np"/><s n="top"/></l><r>Rhydychen<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Torfaen<s n="np"/><s n="top"/></l><r>Torfaen<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Trefaldwyn<s n="np"/><s n="top"/></l><r>Trefaldwyn<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Menoe<s n="np"/><s n="top"/></l><r>Trefynwy<s n="np"/><s n="top"/></r></p></e>
+
+    <e><p><l>Amerika<s n="np"/><s n="top"/></l><r>America<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Aostralia<s n="np"/><s n="top"/></l><r>Awstralia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Breizh-Veur<s n="np"/><s n="top"/></l><r>Prydain<b/>Fawr<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bro-Alamagn<s n="np"/><s n="top"/></l><r>yr<b/>Almaen<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bro-C’hall<s n="np"/><s n="top"/></l><r>Ffrainc<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bro-C’hres<s n="np"/><s n="top"/></l><r>Gwlad<b/>Groeg<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bro-Euskadi<s n="np"/><s n="top"/></l><r>Gwlad<b/>y<b/>Basg<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bro-Gatalonia<s n="np"/><s n="top"/></l><r>Catalonia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bro-Gembre<s n="np"/><s n="top"/></l><r>Cymru<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bro-Italia<s n="np"/><s n="top"/></l><r>yr<b/>Eidal<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bro-Saoz<s n="np"/><s n="top"/></l><r>Lloegr<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bro-Skos<s n="np"/><s n="top"/></l><r>Yr<b/>Alban<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bro-Spagn<s n="np"/><s n="top"/></l><r>Sbaen<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Douarnenez<s n="np"/><s n="top"/></l><r>Douarnenez<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Dulenn<s n="np"/><s n="top"/></l><r>Dulyn<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ejipt<s n="np"/><s n="top"/></l><r>yr<b/>Aifft<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Enez-Vanav<s n="np"/><s n="top"/></l><r>Ynys<b/>Manaw<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Enez-Von<s n="np"/><s n="top"/></l><r>Ynys<b/>Môn<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Gwened<s n="np"/><s n="top"/></l><r>Vannes<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Gwengamp<s n="np"/><s n="top"/></l><r>Guingamp<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>India<s n="np"/><s n="top"/></l><r>India<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Israel<s n="np"/><s n="top"/></l><r>Israel<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Iwerzhon<s n="np"/><s n="top"/></l><r>Iwerddon<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Karnag<s n="np"/><s n="top"/></l><r>Carnac<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Kemper<s n="np"/><s n="top"/></l><r>Quimper<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Kerdiz<s n="np"/><s n="top"/></l><r>Caerdydd<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Kernev<s n="np"/><s n="top"/></l><r>Cournouaille<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Kernev-Veur<s n="np"/><s n="top"/></l><r>Cernyw<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Konk-Kernev<s n="np"/><s n="top"/></l><r>Concarneau<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Konk-Leon<s n="np"/><s n="top"/></l><r>le<b/>Conquet<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Landreger<s n="np"/><s n="top"/></l><r>Tréguier<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Lannuon<s n="np"/><s n="top"/></l><r>Lannion<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Leon<s n="np"/><s n="top"/></l><r>Léon<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Londrez<s n="np"/><s n="top"/></l><r>Llundain<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Montroulez<s n="np"/><s n="top"/></l><r>Morlaix<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Naoned<s n="np"/><s n="top"/></l><r>Nantes<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Pariz<s n="np"/><s n="top"/></l><r>Paris<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Pempoull<s n="np"/><s n="top"/></l><r>Paimpol<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ploare<s n="np"/><s n="top"/></l><r>Ploare<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Plougerne<s n="np"/><s n="top"/></l><r>Plouguerneau<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Roazhon<s n="np"/><s n="top"/></l><r>Rennes<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Rosko<s n="np"/><s n="top"/></l><r>Roscoff<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Sant-Brieg<s n="np"/><s n="top"/></l><r>Saint-Brieuc<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Sant-Maloù<s n="np"/><s n="top"/></l><r>Saint-Malo<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Skaer<s n="np"/><s n="top"/></l><r>Scaer<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Skosad<s n="np"/><s n="top"/></l><r>Albanwr<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Skosadez<s n="np"/><s n="top"/></l><r>Albanes<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Treger<s n="np"/><s n="top"/></l><r>Pays<b/>de<b/>Tréguier<s n="np"/><s n="top"/></r></p></e>
+
+
+  </section>
+
+</dictionary>

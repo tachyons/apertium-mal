@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+  <alphabet/>
+  <sdefs/>
+
+  <section id="main" type="standard">
+    <!-- Prepositions -->
+    <e><p><l>á<s n="pr"/></l><r>á<s n="pr"/></r></p></e>
+    <e><p><l>eftir<s n="pr"/></l><r>eftir<s n="pr"/></r></p></e>
+    <e><p><l>frá<s n="pr"/></l><r>frá<s n="pr"/></r></p></e>
+    <e><p><l>hjá<s n="pr"/></l><r>hjá<s n="pr"/></r></p></e>
+    <e><p><l>í<s n="pr"/></l><r>í<s n="pr"/></r></p></e>
+    <e><p><l>til<s n="pr"/></l><r>til<s n="pr"/></r></p></e>
+    <e><p><l>um<s n="pr"/></l><r>um<s n="pr"/></r></p></e>
+    <e><p><l>undir<s n="pr"/></l><r>undir<s n="pr"/></r></p></e>
+    <e><p><l>úr<s n="pr"/></l><r>úr<s n="pr"/></r></p></e>
+    <e><p><l>við<s n="pr"/></l><r>við<s n="pr"/></r></p></e>
+
+    <!-- Conjunctions -->
+    <e><p><l>enn<s n="cnjcoo"/></l><r>enn<s n="cnjcoo"/></r></p></e>
+    <e><p><l>og<s n="cnjcoo"/></l><r>og<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>meðan<s n="cnjsub"/></l><r>meðan<s n="cnjsub"/></r></p></e>
+    <e><p><l>síðan<s n="cnjsub"/></l><r>síðan<s n="cnjsub"/></r></p></e>
+
+    <!-- Numerals -->
+
+    <e><p><l>null</l><r>núll<s n="num"/></r></p></e>
+    <e><p><l>eitt</l><r>einn<s n="num"/></r></p></e>
+    <e><p><l>tvey</l><r>tveir<s n="num"/></r></p></e>
+    <e><p><l>trý</l><r>þrír<s n="num"/></r></p></e>
+    <e><p><l>fýra</l><r>fjórir<s n="num"/></r></p></e>
+    <e><p><l>fimm</l><r>fimm<s n="num"/></r></p></e>
+    <e><p><l>seks</l><r>sex<s n="num"/></r></p></e>
+    <e><p><l>sjey</l><r>sjö<s n="num"/></r></p></e>
+    <e><p><l>átta</l><r>átta<s n="num"/></r></p></e>
+    <e><p><l>níggju</l><r>níu<s n="num"/></r></p></e>
+    <e><p><l>tíggju</l><r>tíu<s n="num"/></r></p></e>
+    <e><p><l>ellivu</l><r>ellefu<s n="num"/></r></p></e>
+    <e><p><l>tólv</l><r>tólf<s n="num"/></r></p></e>
+    <e><p><l>trettan</l><r>þrettán<s n="num"/></r></p></e>
+    <e><p><l>fjúrtan</l><r>fjórtán<s n="num"/></r></p></e>
+    <e><p><l>fimtan</l><r>fimmtán<s n="num"/></r></p></e>
+    <e><p><l>sekstan</l><r>sextán<s n="num"/></r></p></e>
+    <e><p><l>seytjan</l><r>sautján<s n="num"/></r></p></e>
+    <e><p><l>átjan</l><r>átján<s n="num"/></r></p></e>
+    <e><p><l>nítjan</l><r>nítján<s n="num"/></r></p></e>
+    <e><p><l>tjúgu</l><r>tuttugu<s n="num"/></r></p></e>
+    <e><p><l>ein<b/>og<b/>tjúgu</l><r>tuttugu<b/>og<b/>einn<s n="num"/></r></p></e>
+    <e><p><l>tvey<b/>og<b/>tjúga</l><r>tuttugu<b/>og<b/>tveir<s n="num"/></r></p></e>
+    <e><p><l>trý<b/>og<b/>tjúga</l><r>tuttugu<b/>og<b/>þrír<s n="num"/></r></p></e>
+    <e><p><l>fýra<b/>og<b/>tjúga</l><r>tuttugu<b/>og<b/>fjórir<s n="num"/></r></p></e>
+    <e><p><l>fimm<b/>og<b/>tjúga</l><r>tuttugu<b/>og<b/>fimm<s n="num"/></r></p></e>
+    <e><p><l>seks<b/>og<b/>tjúga</l><r>tuttugu<b/>og<b/>sex<s n="num"/></r></p></e>
+    <e><p><l>sjey<b/>og<b/>tjúga</l><r>tuttugu<b/>og<b/>sjö<s n="num"/></r></p></e>
+    <e><p><l>átta<b/>og<b/>tjúga</l><r>tuttugu<b/>og<b/>átta<s n="num"/></r></p></e>
+    <e><p><l>níggju<b/>og<b/>tjúga</l><r>tuttugu<b/>og<b/>níu<s n="num"/></r></p></e>
+    <e><p><l>tretivu</l><r>þrátíu<s n="num"/></r></p></e>
+    <e><p><l>ein<b/>og<b/>tretivu</l><r>þrátíu<b/>og<b/>einn<s n="num"/></r></p></e>
+    <e><p><l>tvey<b/>og<b/>tretiva</l><r>þrátíu<b/>og<b/>tveir<s n="num"/></r></p></e>
+    <e><p><l>trý<b/>og<b/>tretiva</l><r>þrátíu<b/>og<b/>þrír<s n="num"/></r></p></e>
+    <e><p><l>fjøruti</l><r>fjörutíu<s n="num"/></r></p></e>
+    <e><p><l>hálvtrýss</l><r>fimmtú<s n="num"/></r></p></e>
+    <e><p><l>trýss</l><r>sextíu<s n="num"/></r></p></e>
+    <e><p><l>hálvfjerðs</l><r>sjötíu<s n="num"/></r></p></e>
+    <e><p><l>fýrs</l><r>áttatíu<s n="num"/></r></p></e>
+    <e><p><l>hálvfems</l><r>níutíu<s n="num"/></r></p></e>
+    <e><p><l>hundrað<s n="num"/></l><r>eitt<b/>hundrað<s n="num"/></r></p></e>
+
+
+    <!-- Adjectives -->
+    <e><p><l>fræls<s n="adj"/></l><r>frjáls<s n="adj"/></r></p></e>
+    <e><p><l>jøvn<s n="adj"/></l><r>jafn<s n="adj"/></r></p></e>
+
+    <!-- Verbs -->
+    <e><p><l>vera<s n="vblex"/></l><r>vera<s n="vblex"/></r></p></e>
+  </section>
+</dictionary>

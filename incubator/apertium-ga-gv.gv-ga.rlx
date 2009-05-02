@@ -1,0 +1,37 @@
+DELIMITERS = "<.>" "<!>" "<?>" (sent); # end-of-sentence markers
+
+LIST NomF = (n f);
+LIST NomM = (n m);
+
+LIST DetDef = (det def);
+LIST DetPos = (det pos);
+
+SET DetPosF = DetPos | (f);
+SET DetPosM = DetPos | (m);
+
+SET NomFSg = NomF | (sg);
+SET NomMSg = NomM | (sg);
+
+LIST Lenit = ("<f.*>"ri "p.*"ri) ("<v.*>"ri "b.*"ri) ("<ch.*>"ri "k.*"ri);
+LIST Nasal = ("<b.*>"ri "p.*"ri) ("<m.*>"ri "b.*"ri) ("<g.*>"ri "k.*"ri);
+
+SECTION
+
+#When the article y or yn is placed before a substantive of the Nominative 
+#Case, beginning with a mutable consonant, if the Noun be of the feminine 
+#gender, the initial consonant must be either aspirated, mortified, or 
+#changed into its soft: as ben, a woman, yn ven; keyrrey, a sheep, yn cheyrrey; 
+#feill, flesh, yn eill. 
+#But if the Noun be of the masculine gender, the initial 
+#consonant remains in its own nature; as yn dooinney, the man; yn coo, the 
+#greyhound; yn feiyr, the noise.
+
+SELECT Lenit IF (0 NomFSg) (-1 DetDef);
+REMOVE Lenit IF (0 NomMSg) (-1 DetDef);
+
+#When the article y or yn is placed before a Noun beginning with a consonant, if 
+#the Noun be of the feminine gender, the article is changed into ny in the 
+#Genitive Case singular; but if the Noun be of the masculine gender, the mutable 
+#consonant is changed into its soft or aspirated, and the article y or yn remains.
+
+

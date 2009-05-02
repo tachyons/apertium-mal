@@ -1,0 +1,31 @@
+apertium-en-de
+Apertium English-German machine translation data.
+
+
+Files:
+
+apertium-en-de.de.dix		-- German morphological dictionary
+apertium-en-de.de.tsx		--
+apertium-en-de.en-de.dix	-- Bilingual dictionary
+apertium-en-de.en.dix		-- English morphological dictionary
+apertium-en-de.trules-de-en.xml	-- Transfer rules for German-English translation
+apertium-en-de.trules-en-de.xml	-- Transfer rules for English-German translation
+
+==Tagger==
+
+You can build a tagger using a corpus from:
+
+http://corpora.informatik.uni-leipzig.de/download.html
+
+Just do 
+
+make -f de-en-unsupervised.make 
+
+and wait...
+
+==Resources==
+
+Not all of the resources are under the GPL. Resources not under the GPL are
+used as a reference and not incorporated into this software.
+
+* http://www.canoo.net/services/Controller?dispatch=inflection&input=Arbeitsgemeinschaft&features=(Cat+N)&lang=en

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<section id="main" type="standard">
+  <!-- Proper names: Men -->
+  <e><p><l>Adam<s n="np"/><s n="ant"/><s n="m"/></l><r>Adomas<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+  <e><p><l>Alexander<s n="np"/><s n="ant"/><s n="m"/></l><r>Aleksandras<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+  <e><p><l>Andrew<s n="np"/><s n="ant"/><s n="m"/></l><r>Andrius<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+  <!-- Proper names: Places -->
+  <e><p><l>Afghanistan<s n="np"/><s n="top"/></l><r>Afganistanas<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+  <e><p><l>Alaska<s n="np"/><s n="top"/></l><r>Aliaska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+  <e><p><l>Australia<s n="np"/><s n="top"/></l><r>Australija<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+  <!-- nouns -->
+  <e><p><l>Afrikaans<s n="n"/></l><r>Afrikansas<s n="n"/><s n="m"/></r></p></e>
+  <e><p><l>bison<s n="n"/></l><r>bizonas<s n="n"/><s n="m"/></r></p></e>
+</section>

@@ -1,0 +1,58 @@
+<dictionary>
+  <alphabet></alphabet>
+  <section id="main" type="inconditional">
+    <e><p><l>h</l><r>ހ</r></p></e>
+    <e><p><l>S</l><r>ށ</r></p></e>
+    <e><p><l>n</l><r>ނ</r></p></e>
+    <e><p><l>r</l><r>ރ</r></p></e>
+    <e><p><l>b</l><r>ބ</r></p></e>
+    <e><p><l>L</l><r>ޅ</r></p></e>
+    <e><p><l>k</l><r>ކ</r></p></e>
+    <e><p><l>w</l><r>އ</r></p></e>
+    <e><p><l>v</l><r>ވ</r></p></e>
+    <e><p><l>m</l><r>މ</r></p></e>
+    <e><p><l>f</l><r>ފ</r></p></e>
+    <e><p><l>d</l><r>ދ</r></p></e>
+    <e><p><l>t</l><r>ތ</r></p></e>
+    <e><p><l>l</l><r>ލ</r></p></e>
+    <e><p><l>g</l><r>ގ</r></p></e>
+    <e><p><l>N</l><r>ޏ</r></p></e>
+    <e><p><l>s</l><r>ސ</r></p></e>
+    <e><p><l>D</l><r>ޑ</r></p></e>
+    <e><p><l>z</l><r>ޒ</r></p></e>
+    <e><p><l>T</l><r>ޓ</r></p></e>
+    <e><p><l>y</l><r>ޔ</r></p></e>
+    <e><p><l>p</l><r>ޕ</r></p></e>
+    <e><p><l>j</l><r>ޖ</r></p></e>
+    <e><p><l>c</l><r>ޗ</r></p></e>
+    
+    <!-- "THAANA DOTTED LETTERS" (used in arabic words) -->
+    <e><p><l>X</l><r>ޘ</r></p></e>
+    <e><p><l>H</l><r>ޙ</r></p></e>
+    <e><p><l>K</l><r>ޚ</r></p></e>
+    <e><p><l>J</l><r>ޛ</r></p></e>
+    <e><p><l>R</l><r>ޜ</r></p></e>
+    <e><p><l>C</l><r>ޝ</r></p></e>
+    <e><p><l>M</l><r>ޞ</r></p></e>
+    <e><p><l>B</l><r>ޟ</r></p></e>
+    <e><p><l>Y</l><r>ޠ</r></p></e>
+    <e><p><l>Z</l><r>ޡ</r></p></e>
+    <e><p><l>W</l><r>ޢ</r></p></e>
+    <e><p><l>G</l><r>ޣ</r></p></e>
+    <e><p><l>Q</l><r>ޤ</r></p></e>
+    <e><p><l>V</l><r>ޥ</r></p></e>
+
+    <!-- "THAANA FILI" (combining characters) -->
+    <e><p><l>a</l><r>ަ</r></p></e>
+    <e><p><l>A</l><r>ާ</r></p></e>
+    <e><p><l>i</l><r>ި</r></p></e>
+    <e><p><l>I</l><r>ީ</r></p></e>
+    <e><p><l>u</l><r>ު</r></p></e>
+    <e><p><l>U</l><r>ޫ</r></p></e>
+    <e><p><l>e</l><r>ެ</r></p></e>
+    <e><p><l>E</l><r>ޭ</r></p></e>
+    <e><p><l>o</l><r>ޮ</r></p></e>
+    <e><p><l>O</l><r>ޯ</r></p></e>
+    <e><p><l>q</l><r>ް</r></p></e>
+  </section>
+</dictionary>

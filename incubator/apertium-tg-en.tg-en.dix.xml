@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<dictionary>
+<alphabet/>
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-tg-fa.symbols.xml"/>
+
+  <section id="main" type="standard">
+    <e><p><l>ва<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ё<s n="cnjcoo"/></l><r>or<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>кӣ<s n="rel"/></l><r>who<s n="rel"/></r></p></e>
+
+    <!-- Numbers -->
+
+    <e><p><l>як<s n="num"/></l><r>one<s n="num"/></r></p></e>
+    <e><p><l>ду<s n="num"/></l><r>two<s n="num"/></r></p></e>
+
+    <!-- Determiners -->
+    <e><p><l>ин<s n="det"/></l><r>this<s n="det"/></r></p></e>
+   
+    <!-- Prepositions -->
+    <e><p><l>аз<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
+    <e><p><l>ба<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
+    <e><p><l>бар<s n="pr"/></l><r>on<s n="pr"/></r></p></e>
+    <e><p><l>бе<s n="pr"/></l><r>without<s n="pr"/></r></p></e>
+    <e><p><l>бо<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
+    <e><p><l>дар<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+    <e><p><l>то<s n="pr"/></l><r>upto<s n="pr"/></r></p></e>
+    <e><p><l>чун<s n="pr"/></l><r>like<s n="pr"/></r></p></e>
+
+    <e><p><l>китоб<s n="n"/></l><r>book<s n="n"/></r></p></e>
+    <e><p><l>духтар<s n="n"/></l><r>daughter<s n="n"/></r></p></e>
+
+    <e><p><l>алифбо<s n="n"/></l><r>alphabet<s n="n"/></r></p></e>
+    <e><p><l>абр<s n="n"/></l><r>cloud<s n="n"/></r></p></e>
+    <e><p><l>аср<s n="n"/></l><r>century<s n="n"/></r></p></e>
+    <e><p><l>ҷав<s n="n"/></l><r>corn<s n="n"/></r></p></e>
+    <e><p><l>ҳавз<s n="n"/></l><r>reservoir<s n="n"/></r></p></e>
+    <e><p><l>автобус<s n="n"/></l><r>bus<s n="n"/></r></p></e>
+    <e><p><l>адвокат<s n="n"/></l><r>lawyer<s n="n"/></r></p></e>
+    <e><p><l>администратор<s n="n"/></l><r>administrator<s n="n"/></r></p></e>
+    <e><p><l>ҷазира<s n="n"/></l><r>island<s n="n"/></r></p></e>
+    <e><p><l>акс<s n="n"/></l><r>photo<s n="n"/></r></p></e>
+    <e><p><l>аксбардорак<s n="n"/></l><r>photo<s n="n"/></r></p></e>
+    <e><p><l>амак<s n="n"/></l><r>uncle<s n="n"/></r></p></e>
+    <e><p><l>ҳамсадо<s n="n"/></l><r>consonant<s n="n"/></r></p></e>
+    <e><p><l>ҷанг<s n="n"/></l><r>war<s n="n"/></r></p></e>
+    <e><p><l>ангишт<s n="n"/></l><r>coal<s n="n"/></r></p></e>
+    <e><p><l>арғамчин<s n="n"/></l><r>rope<s n="n"/></r></p></e>
+    <e><p><l>ҳасиб<s n="n"/></l><r>sausage<s n="n"/></r></p></e>
+    <e><p><l>асп<s n="n"/></l><r>horse<s n="n"/></r></p></e>
+    <e><p><l>атом<s n="n"/></l><r>atom<s n="n"/></r></p></e>
+    <e><p><l>афкор<s n="n"/></l><r>idea<s n="n"/></r></p></e>
+    <e><p><l>бабр<s n="n"/></l><r>leopard<s n="n"/></r></p></e>
+    <e><p><l>банк<s n="n"/></l><r>bank<s n="n"/></r></p></e>
+    <e><p><l>баҳр<s n="n"/></l><r>sea<s n="n"/></r></p></e>
+    <e><p><l>барнома<s n="n"/></l><r>programme<s n="n"/></r></p></e>
+    <e><p><l>бародар<s n="n"/></l><r>brother<s n="n"/></r></p></e>
+    <e><p><l>барф<s n="n"/></l><r>snow<s n="n"/></r></p></e>
+    <e><p><l>бастакор<s n="n"/></l><r>composer<s n="n"/></r></p></e>
+    <e><p><l>биёбон<s n="n"/></l><r>desert<s n="n"/></r></p></e>
+    <e><p><l>билет<s n="n"/></l><r>ticket<s n="n"/></r></p></e>
+    <e><p><l>бозор<s n="n"/></l><r>bazaar<s n="n"/></r></p></e>
+    <e><p><l>бом<s n="n"/></l><r>roof<s n="n"/></r></p></e>
+    <e><p><l>вагон<s n="n"/></l><r>carriage<s n="n"/></r></p></e>
+    <e><p><l>вақт<s n="n"/></l><r>time<s n="n"/></r></p></e>
+    <e><p><l>вилоят<s n="n"/></l><r>province<s n="n"/></r></p></e>
+    <e><p><l>гул<s n="n"/></l><r>flower<s n="n"/></r></p></e>
+    <e><p><l>гурӯҳ<s n="n"/></l><r>group<s n="n"/></r></p></e>
+    <e><p><l>гурба<s n="n"/></l><r>cat<s n="n"/></r></p></e>
+    <e><p><l>давлат<s n="n"/></l><r>state<s n="n"/></r></p></e>
+    <e><p><l>дар<s n="n"/></l><r>door<s n="n"/></r></p></e>
+    <e><p><l>дарахт<s n="n"/></l><r>tree<s n="n"/></r></p></e>
+    <e><p><l>дарё<s n="n"/></l><r>river<s n="n"/></r></p></e>
+    <e><p><l>деҳқон<s n="n"/></l><r>peasant<s n="n"/></r></p></e>
+    <e><p><l>донишгоҳ<s n="n"/></l><r>university<s n="n"/></r></p></e>
+    <e><p><l>донишкада<s n="n"/></l><r>institute<s n="n"/></r></p></e>
+    <e><p><l>дӯст<s n="n"/></l><r>friend<s n="n"/></r></p></e>
+    <e><p><l>духтар<s n="n"/></l><r>daughter<s n="n"/></r></p></e>
+    <e><p><l>духтур<s n="n"/></l><r>doctor<s n="n"/></r></p></e>
+    <e><p><l>журнал<s n="n"/></l><r>newspaper<s n="n"/></r></p></e>
+    <e><p><l>забон<s n="n"/></l><r>language<s n="n"/></r></p></e>
+    <e><p><l>заминдор<s n="n"/></l><r>landlord<s n="n"/></r></p></e>
+    <e><p><l>замон<s n="n"/></l><r>tense<s n="n"/></r></p></e>
+    <e><p><l>зан<s n="n"/></l><r>woman<s n="n"/></r></p></e>
+    <e><p><l>инженер<s n="n"/></l><r>engineer<s n="n"/></r></p></e>
+    <e><p><l>институт<s n="n"/></l><r>institute<s n="n"/></r></p></e>
+    <e><p><l>интернет<s n="n"/></l><r>internet<s n="n"/></r></p></e>
+    <e><p><l>интерфейс<s n="n"/></l><r>interface<s n="n"/></r></p></e>
+    <e><p><l>истифода<s n="n"/></l><r>use<s n="n"/></r></p></e>
+    <e><p><l>қишлоқ<s n="n"/></l><r>village<s n="n"/></r></p></e>
+    <e><p><l>кӯҳ<s n="n"/></l><r>mountain<s n="n"/></r></p></e>
+    <e><p><l>калима<s n="n"/></l><r>word<s n="n"/></r></p></e>
+    <e><p><l>кафе<s n="n"/></l><r>cafe<s n="n"/></r></p></e>
+    <e><p><l>китоб<s n="n"/></l><r>book<s n="n"/></r></p></e>
+    <e><p><l>китобхона<s n="n"/></l><r>library<s n="n"/></r></p></e>
+    <e><p><l>кишвар<s n="n"/></l><r>country<s n="n"/></r></p></e>
+    <e><p><l>код<s n="n"/></l><r>code<s n="n"/></r></p></e>
+    <e><p><l>компютер<s n="n"/></l><r>computer<s n="n"/></r></p></e>
+    <e><p><l>консерт<s n="n"/></l><r>concert<s n="n"/></r></p></e>
+    <e><p><l>корбар<s n="n"/></l><r>user<s n="n"/></r></p></e>
+    <e><p><l>коргар<s n="n"/></l><r>worker<s n="n"/></r></p></e>
+    <e><p><l>лифт<s n="n"/></l><r>lift<s n="n"/></r></p></e>
+    <e><p><l>мактаб<s n="n"/></l><r>school<s n="n"/></r></p></e>
+    <e><p><l>мақола<s n="n"/></l><r>article<s n="n"/></r></p></e>
+    <e><p><l>маъқад<s n="n"/></l><r>anus<s n="n"/></r></p></e>
+    <e><p><l>мех<s n="n"/></l><r>nail<s n="n"/></r></p></e>
+    <e><p><l>механик<s n="n"/></l><r>mechanic<s n="n"/></r></p></e>
+    <e><p><l>модар<s n="n"/></l><r>mother<s n="n"/></r></p></e>
+    <e><p><l>мошин<s n="n"/></l><r>car<s n="n"/></r></p></e>
+    <e><p><l>ноҳия<s n="n"/></l><r>district<s n="n"/></r></p></e>
+    <e><p><l>нон<s n="n"/></l><r>bread<s n="n"/></r></p></e>
+    <e><p><l>ойхоб<s n="n"/></l><r>bed<s n="n"/></r></p></e>
+    <e><p><l>олим<s n="n"/></l><r>scientist<s n="n"/></r></p></e>
+    <e><p><l>падар<s n="n"/></l><r>father<s n="n"/></r></p></e>
+    <e><p><l>паланг<s n="n"/></l><r>tiger<s n="n"/></r></p></e>
+    <e><p><l>писар<s n="n"/></l><r>son<s n="n"/></r></p></e>
+    <e><p><l>пойтахт<s n="n"/></l><r>capital<s n="n"/></r></p></e>
+    <e><p><l>президент<s n="n"/></l><r>president<s n="n"/></r></p></e>
+    <e><p><l>рӯз<s n="n"/></l><r>day<s n="n"/></r></p></e>
+    <e><p><l>ручка<s n="n"/></l><r>pen<s n="n"/></r></p></e>
+    <e><p><l>саг<s n="n"/></l><r>dog<s n="n"/></r></p></e>
+    <e><p><l>садонок<s n="n"/></l><r>vowel<s n="n"/></r></p></e>
+    <e><p><l>саҳифа<s n="n"/></l><r>page<s n="n"/></r></p></e>
+    <e><p><l>сарҳад<s n="n"/></l><r>border<s n="n"/></r></p></e>
+    <e><p><l>сервер<s n="n"/></l><r>server<s n="n"/></r></p></e>
+    <e><p><l>сиёсатмадор<s n="n"/></l><r>politician<s n="n"/></r></p></e>
+    <e><p><l>сол<s n="n"/></l><r>year<s n="n"/></r></p></e>
+    <e><p><l>сомона<s n="n"/></l><r>site<s n="n"/></r></p></e>
+    <e><p><l>сотсиалист<s n="n"/></l><r>socialist<s n="n"/></r></p></e>
+    <e><p><l>салтанат<s n="n"/></l><r>sultanate<s n="n"/></r></p></e>
+    <e><p><l>статсия<s n="n"/></l><r>station<s n="n"/></r></p></e>
+    <e><p><l>студент<s n="n"/></l><r>student<s n="n"/></r></p></e>
+    <e><p><l>суд<s n="n"/></l><r>court<s n="n"/></r></p></e>
+    <e><p><l>таърих<s n="n"/></l><r>history<s n="n"/></r></p></e>
+    <e><p><l>телевизион<s n="n"/></l><r>television<s n="n"/></r></p></e>
+    <e><p><l>телевизор<s n="n"/></l><r>television<s n="n"/></r></p></e>
+    <e><p><l>телефон<s n="n"/></l><r>telephone<s n="n"/></r></p></e>
+    <e><p><l>тоҷик<s n="n"/></l><r>Tajik<s n="n"/></r></p></e>
+    <e><p><l>тӯфон<s n="n"/></l><r>storm<s n="n"/></r></p></e>
+    <e><p><l>уқёнус<s n="n"/></l><r>ocean<s n="n"/></r></p></e>
+    <e><p><l>ҳунарпеша<s n="n"/></l><r>actress<s n="n"/></r></p></e>
+    <e><p><l>федератсия<s n="n"/></l><r>federation<s n="n"/></r></p></e>
+    <e><p><l>феҳрист<s n="n"/></l><r>directory<s n="n"/></r></p></e>
+    <e><p><l>филм<s n="n"/></l><r>film<s n="n"/></r></p></e>
+    <e><p><l>химик<s n="n"/></l><r>chemist<s n="n"/></r></p></e>
+    <e><p><l>хоҳар<s n="n"/></l><r>sister<s n="n"/></r></p></e>
+    <e><p><l>хона<s n="n"/></l><r>house<s n="n"/></r></p></e>
+    <e><p><l>шаҳр<s n="n"/></l><r>city<s n="n"/></r></p></e>
+    <e><p><l>шаҳрванд<s n="n"/></l><r>citizen<s n="n"/></r></p></e>
+    <e><p><l>шер<s n="n"/></l><r>lion<s n="n"/></r></p></e>
+    <e><p><l>шоир<s n="n"/></l><r>poet<s n="n"/></r></p></e>
+    <e><p><l>энсиклопедия<s n="n"/></l><r>encyclopaedia<s n="n"/></r></p></e>
+    <e><p><l>ҷамоҳир<s n="n"/></l><r>republic<s n="n"/><s n="pl"/></r></p></e>
+    <e><p><l>ҷойгир<s n="n"/></l><r>location<s n="n"/></r></p></e>
+    <e><p><l>ҷумҳури<s n="n"/></l><r>republic<s n="n"/></r></p></e>
+
+    <!-- Proper nouns -->
+
+    <!-- Continents -->
+
+    <e><p><l>Аврупо<s n="np"/><s n="loc"/></l><r>Europe<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Осиё<s n="np"/><s n="loc"/></l><r>Asia<s n="np"/><s n="loc"/></r></p></e>
+
+    <!-- Countries -->
+
+    <e><p><l>Австрия<s n="np"/><s n="loc"/></l><r>Austria<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Ҷазираҳои Димоғаи Сабз<s n="np"/><s n="loc"/></l><r>Cape Verde<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Ҷазираҳои Комор<s n="np"/><s n="loc"/></l><r>Comoros<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Ҷазираҳои Сейшел<s n="np"/><s n="loc"/></l><r>Seychelles<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Қазоқистон<s n="np"/><s n="loc"/></l><r>Kazakhstan<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Алҷазоир<s n="np"/><s n="loc"/></l><r>Algeria<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Албания<s n="np"/><s n="loc"/></l><r>Albania<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Ангола<s n="np"/><s n="loc"/></l><r>Angola<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Андорра<s n="np"/><s n="loc"/></l><r>Andorra<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Антигуаю Барбуда<s n="np"/><s n="loc"/></l><r>Antigua and Barbuda<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Арабистони Саудӣ<s n="np"/><s n="loc"/></l><r>Saudi Arabia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Арманистон<s n="np"/><s n="loc"/></l><r>Armenia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Афғонистон<s n="np"/><s n="loc"/></l><r>Afghanistan<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Африқои Ҷанубӣ<s n="np"/><s n="loc"/></l><r>South Africa<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Бангладеш<s n="np"/><s n="loc"/></l><r>Bangladesh<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Баҳрайн<s n="np"/><s n="loc"/></l><r>Bahrain<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Беларус<s n="np"/><s n="loc"/></l><r>Belarus<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Белгия<s n="np"/><s n="loc"/></l><r>Belgium<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Белиз<s n="np"/><s n="loc"/></l><r>Belize<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Бенин<s n="np"/><s n="loc"/></l><r>Benin<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Боливия<s n="np"/><s n="loc"/></l><r>Bolivia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Босния ва Ҳерсеговина<s n="np"/><s n="loc"/></l><r>Bosnia and Herzegovina<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Ботсвана<s n="np"/><s n="loc"/></l><r>Botswana<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Бразилия<s n="np"/><s n="loc"/></l><r>Brazil<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Бруней<s n="np"/><s n="loc"/></l><r>Brunei<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Булғористон<s n="np"/><s n="loc"/></l><r>Bulgaria<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Буркина Фасо<s n="np"/><s n="loc"/></l><r>Burkina Faso<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Бурунди<s n="np"/><s n="loc"/></l><r>Burundi<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Бутон<s n="np"/><s n="loc"/></l><r>Bhutan<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Вануату<s n="np"/><s n="loc"/></l><r>Vanuatu<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Венесуэла<s n="np"/><s n="loc"/></l><r>Venezuela<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Ветнам<s n="np"/><s n="loc"/></l><r>Vietnam<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Вотикон<s n="np"/><s n="loc"/></l><r>Vatican City<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Габон<s n="np"/><s n="loc"/></l><r>Gabon<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Гамбия<s n="np"/><s n="loc"/></l><r>Gambia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Гана<s n="np"/><s n="loc"/></l><r>Ghana<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Гвинея Бисау<s n="np"/><s n="loc"/></l><r>Guinea-Bissau<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Гвинеяи Истивоӣ<s n="np"/><s n="loc"/></l><r>Equatorial Guinea<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Гренландия<s n="np"/><s n="loc"/></l><r>Greenland<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Гуатемала<s n="np"/><s n="loc"/></l><r>Guatemala<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Дания<s n="np"/><s n="loc"/></l><r>Denmark<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Замбия<s n="np"/><s n="loc"/></l><r>Zambia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Ӯзбакистон<s n="np"/><s n="loc"/></l><r>Uzbekistan<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Ӯзбекистон<s n="np"/><s n="loc"/></l><r>Uzbekistan<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Зимбабве<s n="np"/><s n="loc"/></l><r>Zimbabwe<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Ҷибути<s n="np"/><s n="loc"/></l><r>Djibouti<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Иёлоти Муттаҳидаи Амрико<s n="np"/><s n="loc"/></l><r>United States of America<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Иёлоти Муттаҳида<s n="np"/><s n="loc"/></l><r>United States<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Имороти Муттаҳидаи Араб<s n="np"/><s n="loc"/></l><r>United Arab Emirates<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Индонезия<s n="np"/><s n="loc"/></l><r>Indonesia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Ҳиндустон<s n="np"/><s n="loc"/></l><r>India<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Қирғизистон<s n="np"/><s n="loc"/></l><r>Kyrgyzstan<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Ироқ<s n="np"/><s n="loc"/></l><r>Iraq<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Исландия<s n="np"/><s n="loc"/></l><r>Iceland<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Испониё<s n="np"/><s n="loc"/></l><r>Spain<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Итолиё<s n="np"/><s n="loc"/></l><r>Italy<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Камбоҷа<s n="np"/><s n="loc"/></l><r>Cambodia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Камерун<s n="np"/><s n="loc"/></l><r>Cameroon<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Канада<s n="np"/><s n="loc"/></l><r>Canada<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Кения<s n="np"/><s n="loc"/></l><r>Kenya<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Кипр<s n="np"/><s n="loc"/></l><r>Cyprus<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Коста Рика<s n="np"/><s n="loc"/></l><r>Costa Rica<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Кубо<s n="np"/><s n="loc"/></l><r>Cuba<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Кувайт<s n="np"/><s n="loc"/></l><r>Kuwait<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Кулумбия<s n="np"/><s n="loc"/></l><r>Colombia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Лаос<s n="np"/><s n="loc"/></l><r>Laos<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Латвия<s n="np"/><s n="loc"/></l><r>Latvia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Лесото<s n="np"/><s n="loc"/></l><r>Lesotho<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Либерия<s n="np"/><s n="loc"/></l><r>Liberia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Либия<s n="np"/><s n="loc"/></l><r>Libya<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Литва<s n="np"/><s n="loc"/></l><r>Lithuania<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Лубнон<s n="np"/><s n="loc"/></l><r>Lebanon<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Люксембург<s n="np"/><s n="loc"/></l><r>Luxembourg<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Маврикия<s n="np"/><s n="loc"/></l><r>Mauritius<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Мавритания<s n="np"/><s n="loc"/></l><r>Mauritania<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Мадагаскар<s n="np"/><s n="loc"/></l><r>Madagascar<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Малӣ<s n="np"/><s n="loc"/></l><r>Mali<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Малави<s n="np"/><s n="loc"/></l><r>Malawi<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Малайзия<s n="np"/><s n="loc"/></l><r>Malaysia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Малта<s n="np"/><s n="loc"/></l><r>Malta<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Маҷористон<s n="np"/><s n="loc"/></l><r>Hungary<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Марокаш<s n="np"/><s n="loc"/></l><r>Morocco<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Мексика<s n="np"/><s n="loc"/></l><r>Mexico<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Миср<s n="np"/><s n="loc"/></l><r>Egypt<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Мозамбик<s n="np"/><s n="loc"/></l><r>Mozambique<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Монако<s n="np"/><s n="loc"/></l><r>Monaco<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Монтенегро<s n="np"/><s n="loc"/></l><r>Montenegro<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Муғулистон<s n="np"/><s n="loc"/></l><r>Mongolia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Мянма<s n="np"/><s n="loc"/></l><r>Myanmar<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Намибия<s n="np"/><s n="loc"/></l><r>Namibia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Науру<s n="np"/><s n="loc"/></l><r>Nauru<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Нидерланд<s n="np"/><s n="loc"/></l><r>Netherlands<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Ниҷер<s n="np"/><s n="loc"/></l><r>Niger<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Ниҷерия<s n="np"/><s n="loc"/></l><r>Nigeria<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Никарагуа<s n="np"/><s n="loc"/></l><r>Nicaragua<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Норвегия<s n="np"/><s n="loc"/></l><r>Norway<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Озарбойҷон<s n="np"/><s n="loc"/></l><r>Azerbaijan<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Олмон<s n="np"/><s n="loc"/></l><r>Germany<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Ҳондурас<s n="np"/><s n="loc"/></l><r>Honduras<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Палау<s n="np"/><s n="loc"/></l><r>Palau<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Панама<s n="np"/><s n="loc"/></l><r>Panama<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Перу<s n="np"/><s n="loc"/></l><r>Peru<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Подшоҳии Муттаҳида<s n="np"/><s n="loc"/></l><r>United Kingdom<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Покистон<s n="np"/><s n="loc"/></l><r>Pakistan<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Полша<s n="np"/><s n="loc"/></l><r>Poland<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Португалия<s n="np"/><s n="loc"/></l><r>Portugal<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Руанда<s n="np"/><s n="loc"/></l><r>Rwanda<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Руминия<s n="np"/><s n="loc"/></l><r>Romania<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Русия<s n="np"/><s n="loc"/></l><r>Russia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Свазиленд<s n="np"/><s n="loc"/></l><r>Swaziland<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Сенегал<s n="np"/><s n="loc"/></l><r>Senegal<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Сиерра Леоне<s n="np"/><s n="loc"/></l><r>Sierra Leone<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Сингапур<s n="np"/><s n="loc"/></l><r>Singapore<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Словакия<s n="np"/><s n="loc"/></l><r>Slovakia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Словения<s n="np"/><s n="loc"/></l><r>Slovenia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Сумолӣ<s n="np"/><s n="loc"/></l><r>Somalia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Таиланд<s n="np"/><s n="loc"/></l><r>Thailand<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Танзания<s n="np"/><s n="loc"/></l><r>Tanzania<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Того<s n="np"/><s n="loc"/></l><r>Togo<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Тоҷикистон<s n="np"/><s n="loc"/></l><r>Tajikistan<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Туркманистон<s n="np"/><s n="loc"/></l><r>Turkmenistan<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Уганда<s n="np"/><s n="loc"/></l><r>Uganda<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Украина<s n="np"/><s n="loc"/></l><r>Ukraine<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Ҷумҳурии Африқои Марказӣ<s n="np"/><s n="loc"/></l><r>Central African Republic<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Уругуай<s n="np"/><s n="loc"/></l><r>Uruguay<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Фаронса<s n="np"/><s n="loc"/></l><r>France<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Финланд<s n="np"/><s n="loc"/></l><r>Finland<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Хорватия<s n="np"/><s n="loc"/></l><r>Croatia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Чад<s n="np"/><s n="loc"/></l><r>Chad<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Чехия<s n="np"/><s n="loc"/></l><r>Czech Republic<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Чили<s n="np"/><s n="loc"/></l><r>Chile<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Чин<s n="np"/><s n="loc"/></l><r>China<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Швейтсария<s n="np"/><s n="loc"/></l><r>Switzerland<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Шветсия<s n="np"/><s n="loc"/></l><r>Sweden<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Шри-Ланка<s n="np"/><s n="loc"/></l><r>Sri Lanka<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Экуадор<s n="np"/><s n="loc"/></l><r>Ecuador<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Эритрея<s n="np"/><s n="loc"/></l><r>Eritrea<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Эрон<s n="np"/><s n="loc"/></l><r>Iran<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Эстония<s n="np"/><s n="loc"/></l><r>Estonia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Этиупия<s n="np"/><s n="loc"/></l><r>Ethiopia<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Юнон<s n="np"/><s n="loc"/></l><r>Greece<s n="np"/><s n="loc"/></r></p></e>
+
+
+    <!-- Cities -->
+
+    <e><p><l>Маскав<s n="np"/><s n="loc"/></l><r>Moscow<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Брашов<s n="np"/><s n="loc"/></l><r>Brașov<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Санкт Петербург<s n="np"/><s n="loc"/></l><r>Saint Petersburg<s n="np"/><s n="loc"/></r></p></e>
+    <e><p><l>Душанбе<s n="np"/><s n="loc"/></l><r>Dushanbe<s n="np"/><s n="loc"/></r></p></e>
+
+    <!-- Adjectives -->
+    <e><p><l>арзон<s n="adj"/></l><r>cheap<s n="adj"/></r></p></e>
+    <e><p><l>баланд<s n="adj"/></l><r>tall<s n="adj"/></r></p></e>
+    <e><p><l>дур<s n="adj"/></l><r>far<s n="adj"/></r></p></e>
+    <e><p><l>зебо<s n="adj"/></l><r>beautiful<s n="adj"/></r></p></e>
+    <e><p><l>калон<s n="adj"/></l><r>major<s n="adj"/></r></p></e>
+    <e><p><l>нав<s n="adj"/></l><r>new<s n="adj"/></r></p></e>
+    <e><p><l>озод<s n="adj"/></l><r>free<s n="adj"/></r></p></e>
+    <e><p><l>хушрӯ<s n="adj"/></l><r>beautiful<s n="adj"/></r></p></e>
+    <e><p><l>шавқовар<s n="adj"/></l><r>interesting<s n="adj"/></r></p></e>
+
+    <e><p><l>русӣ<s n="adj"/></l><r>Russian<s n="adj"/></r></p></e>
+    <e><p><l>шӯравӣ<s n="adj"/></l><r>Soviet<s n="adj"/></r></p></e>
+    <e><p><l>тоҷикӣ<s n="adj"/></l><r>Tajik<s n="adj"/></r></p></e>
+    <e><p><l>руминӣ<s n="adj"/></l><r>Romanian<s n="adj"/></r></p></e>
+
+    <e><p><l>аслӣ<s n="adj"/></l><r>main<s n="adj"/></r></p></e>
+    <e><p><l>марказӣ<s n="adj"/></l><r>central<s n="adj"/></r></p></e>
+    <e><p><l>қадимӣ<s n="adj"/></l><r>ancient<s n="adj"/></r></p></e>
+
+    <!-- Adverbs -->
+
+    <e><p><l>имрӯз<s n="adv"/></l><r>today<s n="adv"/></r></p></e>
+
+    <!-- Verbs -->
+
+    <e><p><l>доштан<s n="vbhaver"/></l><r>have<s n="vbhaver"/></r></p></e>
+    <e><p><l>будан<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
+    <e><p><l>рафтан<s n="vblex"/></l><r>go<s n="vblex"/></r></p></e>
+    <e><p><l>шудан<s n="vblex"/></l><r>become<s n="vblex"/></r></p></e>
+
+
+    <!-- punctuation etc. -->
+    <e>
+      <p>    
+        <l>-<s n="guio"/></l>    
+        <r>-<s n="guio"/></r>  
+      </p>
+    </e>
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+
+    <e><re>[¿¡]</re><p><l><s n="lquest"/></l><r><s n="lquest"/></r></p></e>
+    <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
+    <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
+    <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
+
+  </section>
+</dictionary>

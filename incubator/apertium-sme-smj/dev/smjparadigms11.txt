@@ -1,0 +1,9 @@
+ij+V+Neg+Prt+Sg1	ittjiv
+ij+V+Neg+Prt+Sg2	ittji
+ij+V+Neg+Prt+Sg3	ittjij
+ij+V+Neg+Prt+Du1	ejma
+ij+V+Neg+Prt+Du2	ejda
+ij+V+Neg+Prt+Du3	ejga
+ij+V+Neg+Prt+Pl1	ejma
+ij+V+Neg+Prt+Pl2	ejda
+ij+V+Neg+Prt+Pl3	ettjin

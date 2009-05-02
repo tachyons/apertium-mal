@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+  <alphabet/>
+  <!-- Symbol definitions -->
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-af-nl.symbols.xml"/>
+
+  <section id="main" type="standard">
+    <!-- TOETS: De trein vertrekt om elf uur -->
+    <e><p><l>die<s n="det"/></l><r>de<s n="det"/></r></p></e>
+    <e><p><l>trein<s n="n"/></l><r>trein<s n="n"/></r></p></e>
+    <e><p><l>vertrek<s n="vblex"/></l><r>vertrekt<s n="vblex"/></r></p></e>
+    <e><p><l>om<s n="pr"/></l><r>om<s n="pr"/></r></p></e>
+    <e><p><l>elf<s n="num"/></l><r>elf<s n="num"/></r></p></e>
+    <e><p><l>uur<s n="n"/></l><r>elf<s n="n"/></r></p></e>
+
+    <!-- Getalle -->
+    <e><p><l>een<s n="num"/></l><r>een<s n="num"/></r></p></e>
+    <e><p><l>twee<s n="num"/></l><r>twee<s n="num"/></r></p></e>
+    <e><p><l>drie<s n="num"/></l><r>drie<s n="num"/></r></p></e>
+    <e><p><l>vier<s n="num"/></l><r>vier<s n="num"/></r></p></e>
+    <e><p><l>vyf<s n="num"/></l><r>vijf<s n="num"/></r></p></e>
+    <e><p><l>ses<s n="num"/></l><r>zes<s n="num"/></r></p></e>
+    <e><p><l>sewe<s n="num"/></l><r>zeven<s n="num"/></r></p></e>
+    <e><p><l>agt<s n="num"/></l><r>acht<s n="num"/></r></p></e>
+    <e><p><l>nege<s n="num"/></l><r>negen<s n="num"/></r></p></e>
+    <e><p><l>tien<s n="num"/></l><r>tien<s n="num"/></r></p></e>
+
+    <!-- woorde van wikipedia (iw-word.sh) -->
+    <e><p><l>reg<s n="n"/></l><r>recht<s n="n"/></r></p></e>
+    <e><p><l>atmosfeer<s n="n"/></l><r>aardatmosfeer<s n="n"/></r></p></e>
+    <e><p><l>koerant<s n="n"/></l><r>krant<s n="n"/></r></p></e>
+    <e><p><l>vrou<s n="n"/></l><r>vrouw<s n="n"/></r></p></e>
+    <e><p><l>krag<s n="n"/></l><r>kracht<s n="n"/></r></p></e>
+    <e><p><l>woordeboek<s n="n"/></l><r>woordenboek<s n="n"/></r></p></e>
+    <e><p><l>gemiese<s n="n"/></l><r>chemisch<s n="n"/></r></p></e>
+    <e><p><l>klank<s n="n"/></l><r>geluid<s n="n"/></r></p></e>
+    <e><p><l>elektrisiteit<s n="n"/></l><r>elektriciteit<s n="n"/></r></p></e>
+    <e><p><l>warmtekapasiteit<s n="n"/></l><r>warmtecapaciteit<s n="n"/></r></p></e>
+    <e><p><l>joernalis<s n="n"/></l><r>journalist<s n="n"/></r></p></e>
+    <e><p><l>komponis<s n="n"/></l><r>componist<s n="n"/></r></p></e>
+    <e><p><l>menstruasie<s n="n"/></l><r>menstruatie<s n="n"/></r></p></e>
+    <e><p><l>ingenieur<s n="n"/></l><r>techniek<s n="n"/></r></p></e>
+    <e><p><l>kloktoring<s n="n"/></l><r>belfort_<s n="n"/></r></p></e>
+    <e><p><l>vuurtoring<s n="n"/></l><r>vuurtoren<s n="n"/></r></p></e>
+    <e><p><l>resistor<s n="n"/></l><r>elektrische_weerstand_<s n="n"/></r></p></e>
+    <e><p><l>kaptein<s n="n"/></l><r>kapitein_<s n="n"/></r></p></e>
+    <e><p><l>demokrasie<s n="n"/></l><r>democratie<s n="n"/></r></p></e>
+    <e><p><l>ekonomie<s n="n"/></l><r>economie<s n="n"/></r></p></e>
+    <e><p><l>rewolwer<s n="n"/></l><r>revolver_<s n="n"/></r></p></e>
+    <e><p><l>monargie<s n="n"/></l><r>monarchie<s n="n"/></r></p></e>
+    <e><p><l>ensiklopedie<s n="n"/></l><r>encyclopedie<s n="n"/></r></p></e>
+    <e><p><l>sonnestelsel<s n="n"/></l><r>zonnestelsel<s n="n"/></r></p></e>
+    <e><p><l>rekenaar<s n="n"/></l><r>computer<s n="n"/></r></p></e>
+    <e><p><l>evolusie<s n="n"/></l><r>evolutietheorie<s n="n"/></r></p></e>
+    <e><p><l>hoofstad<s n="n"/></l><r>hoofdstad<s n="n"/></r></p></e>
+    <e><p><l>olifant<s n="n"/></l><r>olifanten<s n="n"/></r></p></e>
+    <e><p><l>sensus<s n="n"/></l><r>volkstelling<s n="n"/></r></p></e>
+    <e><p><l>ewenaar<s n="n"/></l><r>evenaar<s n="n"/></r></p></e>
+    <e><p><l>abakus<s n="n"/></l><r>abacus_<s n="n"/></r></p></e>
+    <e><p><l>akroniem<s n="n"/></l><r>acroniem<s n="n"/></r></p></e>
+    <e><p><l>argitektuur<s n="n"/></l><r>architectuur<s n="n"/></r></p></e>
+    <e><p><l>vrydag<s n="n"/></l><r>vrijdag<s n="n"/></r></p></e>
+    <e><p><l>saterdag<s n="n"/></l><r>zaterdag<s n="n"/></r></p></e>
+    <e><p><l>sondag<s n="n"/></l><r>zondag<s n="n"/></r></p></e>
+    <e><p><l>Januarie<s n="n"/></l><r>januari<s n="n"/></r></p></e>
+    <e><p><l>Februarie<s n="n"/></l><r>februari<s n="n"/></r></p></e>
+    <e><p><l>Junie<s n="n"/></l><r>juni<s n="n"/></r></p></e>
+    <e><p><l>Julie<s n="n"/></l><r>juli<s n="n"/></r></p></e>
+    <e><p><l>Desember<s n="n"/></l><r>december<s n="n"/></r></p></e>
+    <e><p><l>suidpool<s n="n"/></l><r>zuidpool<s n="n"/></r></p></e>
+    <e><p><l>aap<s n="n"/></l><r>apen<s n="n"/></r></p></e>
+    <e><p><l>aardbewing<s n="n"/></l><r>aardbeving<s n="n"/></r></p></e>
+    <e><p><l>analise<s n="n"/></l><r>calculus<s n="n"/></r></p></e>
+    <e><p><l>antibiotikum<s n="n"/></l><r>antibioticum<s n="n"/></r></p></e>
+    <e><p><l>antidepressant<s n="n"/></l><r>antidepressivum<s n="n"/></r></p></e>
+    <e><p><l>bakterie<s n="n"/></l><r>bacterie<s n="n"/></r></p></e>
+    <e><p><l>bis<s n="n"/></l><r>binair<s n="n"/></r></p></e>
+    <e><p><l>koolhidraat<s n="n"/></l><r>koolhydraat<s n="n"/></r></p></e>
+    <e><p><l>seestraat<s n="n"/></l><r>zeestraat<s n="n"/></r></p></e>
+    <e><p><l>duikboot<s n="n"/></l><r>onderzeeboot<s n="n"/></r></p></e>
+    <e><p><l>hugenoot<s n="n"/></l><r>hugenoten<s n="n"/></r></p></e>
+    <e><p><l>sielkundige<s n="n"/></l><r>psycholoog<s n="n"/></r></p></e>
+    <e><p><l>kopiereg<s n="n"/></l><r>auteursrecht<s n="n"/></r></p></e>
+    <e><p><l>fisikus<s n="n"/></l><r>natuurkunde<s n="n"/></r></p></e>
+    <e><p><l>godsdiens<s n="n"/></l><r>religie<s n="n"/></r></p></e>
+    <e><p><l>wêreldgesondheidsorganisasie<s n="n"/></l><r>wereldgezondheidsorganisatie<s n="n"/></r></p></e>
+    <e><p><l>binnebrandmotor<s n="n"/></l><r>verbrandingsmotor<s n="n"/></r></p></e>
+    <e><p><l>bevolkingsdigtheid<s n="n"/></l><r>bevolkingsdichtheid<s n="n"/></r></p></e>
+    <e><p><l>digtheid<s n="n"/></l><r>dichtheid<s n="n"/></r></p></e>
+    <e><p><l>onafhanklikheid<s n="n"/></l><r>onafhankelijkheid_<s n="n"/></r></p></e>
+    <e><p><l>werkloosheid<s n="n"/></l><r>werkloosheid<s n="n"/></r></p></e>
+    <e><p><l>bandopnemer<s n="n"/></l><r>bandrecorder<s n="n"/></r></p></e>
+    <e><p><l>inligting<s n="n"/></l><r>informatie<s n="n"/></r></p></e>
+    <e><p><l>toepassing<s n="n"/></l><r>applicatie<s n="n"/></r></p></e>
+    <e><p><l>tegnologie<s n="n"/></l><r>technologie<s n="n"/></r></p></e>
+    <e><p><l>tikmasjien<s n="n"/></l><r>schrijfmachine<s n="n"/></r></p></e>
+    <e><p><l>musiekgroep<s n="n"/></l><r>muziekgroep<s n="n"/></r></p></e>
+    <e><p><l>sonnestelsel<s n="n"/></l><r>zonnestelsel<s n="n"/></r></p></e>
+    <e><p><l>spysverteringstelsel<s n="n"/></l><r>maag-darmstelsel<s n="n"/></r></p></e>
+    <e><p><l>veringstelsel<s n="n"/></l><r>wielophanging<s n="n"/></r></p></e>
+    <e><p><l>verslaggewer<s n="n"/></l><r>journalist<s n="n"/></r></p></e>
+    <e><p><l>sakeplan<s n="n"/></l><r>ondernemingsplan<s n="n"/></r></p></e>
+    <e><p><l>rekenaarnetwerk<s n="n"/></l><r>computernetwerk<s n="n"/></r></p></e>
+    <e><p><l>natuurwetenskap<s n="n"/></l><r>natuurwetenschap<s n="n"/></r></p></e>
+    <e><p><l>geskiedenis<s n="n"/></l><r>geschiedenis<s n="n"/></r></p></e>
+    <e><p><l>eenmansaak<s n="n"/></l><r>eenmanszaak<s n="n"/></r></p></e>
+
+    <!--
+    <e><p><l>meisie<s n="n"/></l><r>meisje<s n="n"/></r></p></e>
+    <e><p><l>lughawe<s n="n"/></l><r>luchthaven<s n="n"/></r></p></e>
+    <e><p><l>sleg<s n="n"/></l><r>slecht<s n="n"/></r></p></e>
+    <e><p><l>bladsy<s n="n"/></l><r>pagina<s n="n"/></r></p></e>
+    <e><p><l>skool<s n="n"/></l><r>school<s n="n"/></r></p></e>
+    <e><p><l>eggenoot<s n="n"/></l><r>echtgenoot<s n="n"/></r></p></e>
+    <e><p><l>aksie<s n="n"/></l><r>actie<s n="n"/></r></p></e>
+    <e><p><l>voël<s n="n"/></l><r>vogel<s n="n"/></r></p></e>
+    <e><p><l>seekoei<s n="n"/></l><r>nijlpaard <s n="n"/></r></p></e>
+    <e><p><l>seksskandaal<s n="n"/></l><r>seksschandaal<s n="n"/></r></p></e>
+
+    <e><p><l>bly<s n="n"/></l><r>blijft<s n="n"/></r></p></e>
+    <e><p><l>vertrek<s n="n"/></l><r>vertrekt<s n="n"/></r></p></e>
+    <e><p><l>koop<s n="n"/></l><r>kopen<s n="n"/></r></p></e>
+    <e><p><l>kom<s n="n"/></l><r>komen<s n="n"/></r></p></e>
+    <e><p><l>gaan<s n="n"/></l><r>gaat<s n="n"/></r></p></e>
+    <e><p><l>praat<s n="n"/></l><r>spreek<s n="n"/></r></p></e>
+    <e><p><l>sê<s n="n"/></l><r>zeg<s n="n"/></r></p></e>
+    <e><p><l>gesê<s n="n"/></l><r>zeggen<s n="n"/></r></p></e>
+    <e><p><l>oop<s n="n"/></l><r>open<s n="n"/></r></p></e>
+
+    <e><p><l>ek<s n="adj"/></l><r>ik<s n="adj"/></r></p></e>
+    <e><p><l>my<s n="adj"/></l><r>mijn<s n="adj"/></r></p></e>
+
+    <e><p><l>hy<s n="det"/></l><r>hij<s n="det"/></r></p></e>
+    <e><p><l>hom<s n="n"/></l><r>hem<s n="n"/></r></p></e>
+    <e><p><l>jy<s n="det"/></l><r>je<s n="det"/></r></p></e>
+    <e><p><l>sy<s n="det"/></l><r>zijn<s n="det"/></r></p></e>
+    <e><p><l>ons<s n="det"/></l><r>wij<s n="det"/></r></p></e>
+    <e><p><l>hierdie<s n="det"/></l><r>deze<s n="det"/></r></p></e>
+
+    <e><p><l>vir<s n="n"/></l><r>voor<s n="n"/></r></p></e>
+    <e><p><l>as<s n="n"/></l><r>als<s n="n"/></r></p></e>
+    <e><p><l>nie<s n="n"/></l><r>niet<s n="n"/></r></p></e>
+    <e><p><l>na<s n="pr"/></l><r>naar<s n="pr"/></r></p></e>
+
+    <e><p><l>asseblief<s n="n"/></l><r>alstublieft<s n="n"/></r></p></e>
+    <e><p><l>waarskynlik<s n="n"/></l><r>waarschijnlijk<s n="n"/></r></p></e>
+    <e><p><l>môre<s n="adv"/></l><r>morgen<s n="adv"/></r></p></e>
+    <e><p><l>oormôre<s n="n"/></l><r>overmorgen<s n="n"/></r></p></e>
+    <e><p><l>goeienaand<s n="n"/></l><r>goedenavond<s n="n"/></r></p></e>
+    <e><p><l>tuis<s n="n"/></l><r>thuis<s n="n"/></r></p></e>
+    <e><p><l>saam<s n="n"/></l><r>samen<s n="n"/></r></p></e>
+    <e><p><l>vry<s n="n"/></l><r>vrij<s n="n"/></r></p></e>
+    -->
+  </section>
+
+</dictionary>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<section id="main" type="standard">
+  <!-- Proper names: Men -->
+  <!-- in Latvia, the general policy is to translate *all* proper names -->
+  <!--
+  <e><p><l>Adam<s n="np"/><s n="ant"/><s n="m"/></l><r>Ādams<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+  <e><p><l>Alexander<s n="np"/><s n="ant"/><s n="m"/></l><r>Aleksanders<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+  <e><p><l>Andrew<s n="np"/><s n="ant"/><s n="m"/></l><r>Andris<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+  ..but let's ignore that, shall we? -->
+  <e><p><l>what<s n="det"/><s n="itg"/><s n="sp"/></l><r>kas<s n="det"/><s n="itg"/><s n="sp"/><s n="mf"/></r></p></e>
+  <!-- Proper names: Places -->
+  <e><p><l>Afghanistan<s n="np"/><s n="top"/></l><r>Afganistāna<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+  <e><p><l>Alaska<s n="np"/><s n="top"/></l><r>Aļaska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+  <e><p><l>Australia<s n="np"/><s n="top"/></l><r>Austrālija<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+  <!-- nouns -->
+  <e><p><l>Afrikaans<s n="n"/></l><r>Afrikandu<s n="n"/><s n="m"/></r></p></e>
+  <e><p><l>bison<s n="n"/></l><r>bizons<s n="n"/><s n="m"/></r></p></e>
+</section>

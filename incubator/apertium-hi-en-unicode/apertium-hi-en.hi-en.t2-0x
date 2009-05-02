@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interchunk>
+
+  <section-def-cats>
+    <def-cat n="SN">
+      <cat-item tags="SN"/>
+      <cat-item tags="SN.*"/>
+    </def-cat>
+    <def-cat n="SV">
+      <cat-item tags="SV"/>
+      <cat-item tags="SV.*"/>
+    </def-cat>
+    <def-cat n="CC">
+      <cat-item tags="CC"/>
+      <cat-item tags="CC.*"/>
+    </def-cat>
+    <def-cat n="ADJ">
+      <cat-item tags="ADJ"/>
+      <cat-item tags="ADJ.*"/>
+    </def-cat>
+  </section-def-cats>
+
+  <section-def-attrs>
+    <def-attr n="gen">
+      <attr-item tags="f"/>
+      <attr-item tags="m"/>
+      <attr-item tags="any"/>
+      <attr-item tags="GD"/>
+    </def-attr>
+    <def-attr n="nbr">
+      <attr-item tags="s"/>
+      <attr-item tags="p"/>
+      <attr-item tags="any"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+    <def-attr n="misc">
+      <attr-item tags="adj"/>
+    </def-attr>
+  </section-def-attrs>
+
+  <section-def-vars>
+    <def-var n="nombre"/>
+    <def-var n="genere"/>
+  </section-def-vars>
+
+  <section-rules>
+
+    <rule comment="COMBINE: ADJ CC ADJ">
+      <pattern>
+        <pattern-item n="ADJ"/>
+	<pattern-item n="CC"/>
+	<pattern-item n="ADJ"/>
+      </pattern>
+      <action>
+        <out>
+         <chunk name="pseudo-sn" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <clip pos="1" part="whole"/>        	
+            <clip pos="2" part="whole"/>
+            <clip pos="3" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+  </section-rules>
+</interchunk>

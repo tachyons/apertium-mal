@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<dictionary>
+  <alphabet/>
+  <pardefs>
+    <pardef n="caracter_general">
+      <e>
+        <i>;</i>
+      </e>
+      <e>
+        <i>#</i>
+      </e>
+      <e>
+        <i>)</i>
+      </e>
+      <e>
+        <i>:</i>
+      </e>
+      <e>
+        <i>(</i>
+      </e>
+      <e>
+        <i>[</i>
+      </e>
+      <e>
+        <i>]</i>
+      </e>
+      <e>
+        <i>"</i>
+      </e>
+      <e>
+        <i>'</i>
+      </e>
+      <e>
+        <i>~</i>
+      </e>
+      <e>
+        <i>*</i>
+      </e>
+      <e>
+        <i>@</i>
+      </e>
+      <e>
+        <i>«</i>
+      </e>
+      <e>
+        <i>-</i>
+      </e>
+      <e>
+        <i>,</i>
+      </e>
+      <e>
+        <i>?</i>
+      </e>
+      <e>
+        <i>/</i>
+      </e>
+      <e>
+        <i>`</i>
+      </e>
+      <e>
+        <i>±</i>
+      </e>
+      <e>
+        <i>­</i>
+      </e>
+      <e>
+        <i>$</i>
+      </e>
+      <e>
+        <i>)</i>
+      </e>
+      <e>
+        <i>:</i>
+      </e>
+      <e>
+        <i>.</i>
+      </e>
+       <e>
+        <i><b/></i>
+      </e>
+    </pardef>
+
+   <pardef n="vocals">
+      <e>
+        <i>a</i>
+      </e>
+      <e>
+        <p>
+	  <l><a/>e</l>
+	  <r>e</r>
+	</p>
+      </e>
+      <e>
+        <i>e</i>
+      </e>
+      <e>
+        <i>i</i>
+      </e>
+      <e>
+        <i>o</i>
+      </e>
+      <e>
+        <i>u</i>
+      </e>
+      <e>
+        <i>á</i>
+      </e>
+      <e>
+        <i>é</i>
+      </e>
+      <e>
+        <i>í</i>
+      </e>
+      <e>
+        <i>ó</i>
+      </e>
+      <e>
+        <i>ú</i>
+      </e>
+      <e>
+        <i>â</i>
+      </e>
+      <e>
+        <i>ê</i>
+      </e>
+      <e>
+        <i>î</i>
+      </e>
+      <e>
+        <i>ô</i>
+      </e>
+      <e>
+        <i>h</i>
+      </e>
+      <e>
+        <i>y</i>
+      </e>
+    </pardef>
+
+    <pardef n="consonants">
+      <e>
+        <i>b</i>
+      </e>
+      <e>
+        <i>c</i>
+      </e>
+      <e>
+        <i>d</i>
+      </e>
+      <e>
+        <i>f</i>
+      </e>
+      <e>
+        <i>g</i>
+      </e>
+      <e>
+        <i>j</i>
+      </e>
+      <e>
+        <i>k</i>
+      </e>
+      <e>
+        <i>l</i>
+      </e>
+      <e>
+        <i>m</i>
+      </e>
+      <e>
+        <i>n</i>
+      </e>
+      <e>
+        <i>p</i>
+      </e>
+      <e>
+        <i>q</i>
+      </e>
+      <e>
+        <i>r</i>
+      </e>
+      <e>
+        <i>s</i>
+      </e>
+      <e>
+        <i>t</i>
+      </e>
+      <e>
+        <i>v</i>
+      </e>
+      <e>
+        <i>w</i>
+      </e>
+      <e>
+        <i>x</i>
+      </e>
+      <e>
+        <i>z</i>
+      </e>
+      <e>
+        <i>ç</i>
+      </e>
+    </pardef>
+
+    <pardef n="à">
+      <e>
+        <p>
+          <l><b/><a/>les</l>
+          <r>aux</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>le<b/></l>
+          <r>à<b/>l'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>le<b/></l>
+          <r>au<b/></r>
+        </p>
+        <par n="consonants"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>le</l>
+          <r>au</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/></l>
+          <r>à<b/></r>
+        </p>
+        <par n="consonants"/>
+      </e>
+      <e>
+        <p>
+          <l><b/></l>
+          <r>à<b/></r>
+        </p>
+        <par n="vocals"/>
+      </e>
+    </pardef>
+
+    <pardef n="de">
+      <e>
+        <p>
+          <l><b/><a/>les</l>
+          <r>es</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>le<b/></l>
+          <r>e<b/>l'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>le<b/></l>
+          <r>u<b/></r>
+        </p>
+        <par n="consonants"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>le</l>
+          <r>u</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/></l>
+          <r>'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><b/></l>
+          <r>e<b/></r>
+        </p>
+        <par n="consonants"/>
+      </e>
+    </pardef>
+    
+    <pardef n="le">
+      <e>
+        <p>
+          <l><a/>les</l>
+          <r>e<b/>les</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>le<b/></l>
+          <r>e<b/>l'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+    </pardef>
+    
+  <pardef n="je">
+      <e>
+        <p>
+          <l><a/>me<b/></l>
+          <r>e<b/>m'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>te<b/></l>
+          <r>e<b/>t'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>le<b/></l>
+          <r>e<b/>l'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>se<b/></l>
+          <r>e<b/>s'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l/>
+          <r>'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l/>
+          <r>e<b/></r>
+        </p>
+        <par n="consonants"/>
+      </e>
+    </pardef>
+  </pardefs>
+
+  <section id="main" type="standard">
+      <e>
+        <p>
+          <l><a/>à</l>
+          <r/>
+        </p>
+        <par n="à"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>de</l>
+          <r>d</r>
+        </p>
+        <par n="de"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>ne<b/></l>
+          <r>n'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>le<b/></l>
+          <r>l'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>la<b/></l>
+          <r>l'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>me<b/></l>
+          <r>m'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>me<b/></l>
+          <r>m</r>
+        </p>
+        <par n="le"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>te<b/></l>
+          <r>t'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>te<b/></l>
+          <r>t</r>
+        </p>
+        <par n="le"/>
+      </e> 
+      <e>
+        <p>
+          <l><a/>se<b/></l>
+          <r>s</r>
+        </p>
+        <par n="le"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>je<b/></l>
+          <r>j</r>
+        </p>
+        <par n="je"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>se<b/></l>
+          <r>s'</r>
+        </p>
+        <par n="vocals"/>
+      </e> 
+      <e>
+        <p>
+          <l><a/>ce<b/>est</l>
+          <r>c'est</r>
+        </p>
+      </e> 
+      <e>
+        <p>
+          <l><a/>ce<b/>était</l>
+          <r>c'était</r>
+        </p>
+      </e> 
+      <e>
+        <p>
+          <l><a/>ce<b/>étais</l>
+          <r>c'étais</r>
+        </p>
+      </e> 
+      <e>
+        <p>
+          <l><a/>que<b/></l>
+          <r>qu'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>.<b/><a/>je<b/></l>
+          <r>.<b/>J</r>
+        </p>
+        <par n="je"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>.<b/>tu<b/></l>
+          <r>.<b/>Tu<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>.<b/>il<b/></l>
+          <r>.<b/>Il<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>.<b/>ils<b/></l>
+          <r>.<b/>Ils<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>.<b/>elle<b/></l>
+          <r>.<b/>Elle<b/></r>
+        </p>
+      </e>
+       <e>
+        <p>
+          <l><a/>.<b/>elles<b/></l>
+          <r>.<b/>Elles<b/></r>
+        </p>
+      </e> 
+      <e>
+        <p>
+          <l><a/>.<b/>nous<b/></l>
+          <r>.<b/>Nous<b/></r>
+        </p>
+      </e>
+       <e>
+        <p>
+          <l><a/>.<b/>vous<b/></l>
+          <r>.<b/>Vous<b/></r>
+        </p>
+      </e>
+  </section>
+
+</dictionary>

@@ -1,0 +1,9 @@
+In order to train the Catalan part-of-speech tagger yo need to place here
+some corpora:
+* For supervised training: 
+  - A file called 'ca.tagged' should contain the hand-tagged corpus.
+  - A file called 'ca.tagged.txt' should contain the same corpus that
+    'ca.tagged' contains, but in RAW format.
+
+* For unsupervised training:
+  - A file called 'ca.crp.txt' should contain large corpus in RAW format

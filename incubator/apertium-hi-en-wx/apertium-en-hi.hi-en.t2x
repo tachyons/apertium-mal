@@ -1,0 +1,1489 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
+<interchunk>
+  <section-def-cats>
+
+    <def-cat n="SN">
+      <cat-item tags="SN.*"/>
+    </def-cat>
+
+    <def-cat n="SV">
+      <cat-item tags="SV.*"/>
+      <cat-item tags="SVneg.*"/>
+    </def-cat>
+
+    <def-cat n="SV_pers"><!--Formes personals. Exclou inf i ger (i alguns imperatius per ara) -->
+      <cat-item lemma="verbcj" tags="SV.*"/>
+      <cat-item lemma="verbcj" tags="SVneg.*"/>
+      <cat-item lemma="aux_verb" tags="SV.*"/>
+      <cat-item lemma="aux_verb" tags="SVneg.*"/>
+      <cat-item lemma="haver_pp" tags="SV.*"/>
+      <cat-item lemma="haver_pp" tags="SVneg.*"/>
+      <cat-item lemma="haver_pp_enc" tags="SV.*"/>
+      <cat-item lemma="haver_pp_enc" tags="SVneg.*"/>
+      <cat-item lemma="aux_haver_pp" tags="SV.*"/>
+      <cat-item lemma="aux_haver_pp" tags="SVneg.*"/>
+      <cat-item lemma="aux_haver_pp_enc" tags="SV.*"/>
+      <cat-item lemma="aux_haver_pp_enc" tags="SVneg.*"/>
+      <cat-item lemma="verbcj_enc" tags="SV.*"/>
+      <cat-item lemma="verbcj_enc" tags="SVneg.*"/>
+      <cat-item lemma="verbcj_ger" tags="SV.*"/>
+      <cat-item lemma="verbcj_ger_enc" tags="SV.*"/>
+      <cat-item lemma="verbcj_ger" tags="SVneg.*"/>
+      <cat-item lemma="verbcj_ger_enc" tags="SVneg.*"/>
+    <!--  <cat-item lemma="be_adj" tags="SV.*"/>-->
+    </def-cat>
+
+     <def-cat n="inf">
+      <cat-item tags="SV.vblex.inf"/>
+      <cat-item tags="SVneg.vblex.inf"/>
+      <cat-item tags="SV.vbhaver.inf"/>
+      <cat-item tags="SVneg.vbhaver.inf"/>
+      <cat-item tags="SV.vbser.inf"/>
+      <cat-item tags="SVneg.vbser.inf"/>
+      <cat-item tags="SV.vbmod.inf"/>
+      <cat-item tags="SVneg.vbmod.inf"/>
+    </def-cat>
+
+    <def-cat n="ser">
+      <cat-item tags="SV.vbser.*"/>
+      <cat-item tags="SVneg.vbser.*"/>
+    </def-cat>
+
+    <def-cat n="cnjsub">
+      <cat-item tags="cnjsub"/>
+      <cat-item tags="cnjadv"/>
+    </def-cat>
+
+      <def-cat n="de">
+      <cat-item lemma="de" tags="PREP"/>
+    </def-cat>
+
+    <def-cat n="haverhi">
+      <cat-item lemma="haverhi" tags="SV.*"/>
+      <cat-item lemma="haverhi" tags="SVneg.*"/>
+      <cat-item lemma="haverhi_pp" tags="SV.*"/>
+      <cat-item lemma="haverhi_pp" tags="SVneg.*"/>
+      <cat-item lemma="aux_haverhi" tags="SV.*"/>
+      <cat-item lemma="aux_haverhi" tags="SVneg.*"/>
+      <cat-item lemma="aux_haverhi_pp" tags="SV.*"/>
+      <cat-item lemma="aux_haverhi_pp" tags="SVneg.*"/>
+    </def-cat>
+
+    <def-cat n="SA"><!--MG: falta posar en les regles què fer per als ND (assignar nbr del verb generalment) -->
+      <cat-item tags="SA.*"/>
+    </def-cat>
+
+<def-cat n="punt">
+      <cat-item tags="sent"/>
+    </def-cat>
+
+  </section-def-cats>
+
+  <section-def-attrs>
+
+<def-attr n="pers">
+          <attr-item tags="p1"/>
+	  <attr-item tags="p2"/>
+	  <attr-item tags="p3"/>
+	  <attr-item tags="PD"/>
+</def-attr>
+
+      <def-attr n="gen">
+          <attr-item tags="m"/>
+          <attr-item tags="f"/>
+	  <attr-item tags="mf"/>
+	  <attr-item tags="GD"/>
+	  <attr-item tags="nt"/>
+      </def-attr>
+
+   <def-attr n="nbr">
+          <attr-item tags="sg"/>
+	  <attr-item tags="pl"/>
+	  <attr-item tags="sp"/>
+	  <attr-item tags="ND"/>
+      </def-attr>
+
+      <def-attr n="temps">
+          <attr-item tags="inf"/>
+	  <attr-item tags="pres"/>
+	  <attr-item tags="past"/>
+	  <attr-item tags="pri"/>
+	  <attr-item tags="ifip"/>
+	  <attr-item tags="cni"/>
+	  <attr-item tags="fti"/>
+	  <attr-item tags="pp"/>
+	  <attr-item tags="ger"/>
+	  <attr-item tags="pprs"/>
+	  <attr-item tags="subs"/>
+	  <attr-item tags="imp"/>
+	  <attr-item tags="ifi"/>
+	  <attr-item tags="pii"/>
+	  <attr-item tags="pis"/>
+	  <attr-item tags="prs"/>
+	  
+      </def-attr>
+
+
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="vbhaver"/>
+      <attr-item tags="vbmod"/>
+      <attr-item tags="vaux"/>
+    </def-attr>
+
+ 
+  </section-def-attrs>
+
+  <section-def-vars>
+    <def-var n="uno"/>
+    <def-var n="paraula"/>
+  </section-def-vars>
+
+<section-def-macros>
+
+  <def-macro n="f_bcond" npar="1"><!--Per mirar si el blanc conté o no format. Cal posar aquesta funció en les regles en què desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si conté format cal conservar-la, si no en conté cal eliminar-la perquè no apareguin dos espais seguits. -->
+     	<choose>
+     	  <when>
+     	    <test>
+     	      <not>
+     	        <equal>
+     	          <b pos="1"/>
+     	          <lit v=" "/>
+     	        </equal>
+              </not>
+     	    </test>
+            <out>
+              <b pos="1"/>
+            </out>
+          </when>     	    
+     	</choose>
+     </def-macro>
+
+</section-def-macros>
+
+  <section-rules>
+   
+
+	    
+	  
+  
+
+
+<!--Regles per a sintagmes sols que han pogut quedarse amb GD, ND o PD -->
+
+<rule comment="REGLA: SN (per assignar gènere i nombre si hi ha GD i ND que no s'han pogut determinar, com passa en alguns pronoms: both, etc.)">
+      <pattern>
+	<pattern-item n="SN"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="gen"/>
+	      <lit-tag v="m"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	</choose>
+	<out>
+	  <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+	    <clip pos="1" part="chcontent"/>
+	  </chunk>
+	</out>
+      </action>
+</rule>
+
+<rule comment="REGLA: haverhi SN">
+      <pattern>
+	<pattern-item n="haverhi"/>
+	<pattern-item n="SN"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>	      
+	      <not>
+		<or>
+		  <equal>
+		    <clip pos="2" part="nbr"/>
+		    <lit-tag v="ND"/>
+		  </equal>
+		  <equal>
+		    <clip pos="2" part="nbr"/>
+		    <lit-tag v="sp"/>
+		  </equal>
+		</or>
+	      </not>
+	    </test>
+	    <let>
+	      <clip pos="1" part="nbr"/>
+	      <clip pos="2" part="nbr"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </let>
+	  </otherwise>
+	</choose>
+	<choose><!--això no sé si fa falta però ho poso per si de cas, estudiar-ho i treure-ho si cal -->
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="2" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>	      
+	      <clip pos="2" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose><!--això no sé si fa falta però ho poso per si de cas, estudiar-ho i treure-ho si cal -->
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="2" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>	      
+	      <clip pos="2" part="nbr"/>
+	      <lit-tag v="m"/>
+	    </let>
+	  </when>
+	</choose>
+	<out>
+	  <chunk>
+            <clip pos="1" part="whole"/>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk>
+            <clip pos="2" part="whole"/>
+	  </chunk>
+	</out>
+      </action>
+</rule>
+
+
+
+<rule comment="REGLA: SN haverhi SN (per a frase com 'al seu país no hi ha dubte que', pq no entrin per 'SN SV'">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="haverhi"/>
+	<pattern-item n="SN"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="gen"/>
+	      <lit-tag v="m"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>	      
+	      <not>
+		<or>
+		  <equal>
+		    <clip pos="3" part="nbr"/>
+		    <lit-tag v="ND"/>
+		  </equal>
+		  <equal>
+		    <clip pos="3" part="nbr"/>
+		    <lit-tag v="sp"/>
+		  </equal>
+		</or>
+	      </not>
+	    </test>
+	    <let>
+	      <clip pos="2" part="nbr"/>
+	      <clip pos="3" part="nbr"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <clip pos="2" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </let>
+	  </otherwise>
+	</choose>
+		<choose><!--això no sé si fa falta però ho poso per si de cas, estudiar-ho i treure-ho si cal -->
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="3" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>	      
+	      <clip pos="3" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose><!--això no sé si fa falta però ho poso per si de cas, estudiar-ho i treure-ho si cal -->
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="3" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>	      
+	      <clip pos="3" part="nbr"/>
+	      <lit-tag v="m"/>
+	    </let>
+	  </when>
+	</choose>
+	<out>
+	  <chunk>
+            <clip pos="1" part="whole"/>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk>
+            <clip pos="2" part="whole"/>
+	  </chunk>
+	  <b pos="2"/>
+	  <chunk>
+            <clip pos="3" part="whole"/>
+	  </chunk>
+	</out>
+      </action>
+</rule>
+
+
+<rule comment="REGLA: haverhi (per quan no va seguit de SN, assignar-li nombre per defecte">
+      <pattern>
+	<pattern-item n="haverhi"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	</choose>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	</out>
+      </action>
+</rule>
+
+
+
+
+
+
+<rule comment="REGLA: SN SV">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="SV"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="gen"/>
+	      <lit-tag v="m"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	</choose>
+	<out>
+	  <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+	    <clip pos="1" part="chcontent"/>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+	    <clip pos="2" part="chcontent"/>
+	  </chunk>
+	</out>
+      </action>
+</rule>
+
+
+
+<rule comment="REGLA: SN SV inf (SN han decidit venir -> SN have decided TO come)" >
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="SV_pers"/>
+	<pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="gen"/>
+	      <lit-tag v="m"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	</choose>
+	<out>
+	  <chunk>
+            <clip pos="1" part="whole"/>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk>
+            <clip pos="2" part="whole"/>
+	  </chunk>
+	  <b pos="2"/>
+	</out>
+	<choose>
+	  <when><!--si és vbmod (o vaux: "can") no posis el "to" pq no cal ("can") o ja el té incorporat ("have to"). -->
+	    <test>
+	      <not>
+		<or>
+		  <equal>
+		    <clip pos="2" part="a_verb"/>
+		    <lit-tag v="vbmod"/>
+		  </equal>
+		  <equal>
+		    <clip pos="2" part="a_verb"/>
+		    <lit-tag v="vaux"/>
+		  </equal>
+		</or>
+	      </not>
+	    </test>
+	    <out>
+	      <chunk>
+		<get-case-from pos="3">
+		  <lit v="to"/>
+		</get-case-from>
+		<lit-tag v="pr"/>
+		<lit v="{^"/>
+		<get-case-from pos="3">
+		  <lit v="to"/>
+		</get-case-from>
+		<lit-tag v="pr"/>
+		<lit v="$}"/>
+	      </chunk>
+	      <b/>
+	    </out>
+	  </when>
+	</choose>
+	<out>
+	  <chunk>
+            <clip pos="3" part="whole"/>
+	  </chunk>
+	</out>
+      </action>
+</rule>
+
+<rule comment="REGLA: SV inf (han decidit venir -> have decided TO come) (caldria generar aquí subjecte? estudiar)" >
+      <pattern>
+	<pattern-item n="SV_pers"/>
+	<pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>
+            <clip pos="1" part="whole"/>
+	  </chunk>
+	  <b pos="1"/>
+	</out>
+	<choose>
+	  <when><!--si és vbmod (o vaux: "can") no posis el "to" pq no cal ("can") o ja el té incorporat ("have to"). -->
+	    <test>
+	      <not>
+		<or>
+		  <equal>
+		    <clip pos="1" part="a_verb"/>
+		    <lit-tag v="vbmod"/>
+		  </equal>
+		  <equal>
+		    <clip pos="1" part="a_verb"/>
+		    <lit-tag v="vaux"/>
+		  </equal>
+		</or>
+	      </not>
+	    </test>
+	    <out>
+	      <chunk>
+		<get-case-from pos="2">
+		  <lit v="to"/>
+		</get-case-from>
+		<lit-tag v="pr"/>
+		<lit v="{^"/>
+		<get-case-from pos="2">
+		  <lit v="to"/>
+		</get-case-from>
+		<lit-tag v="pr"/>
+		<lit v="$}"/>
+	      </chunk>
+	      <b/>
+	    </out>
+	  </when>
+	</choose>
+	<out>
+	  <chunk>
+            <clip pos="2" part="whole"/>
+	  </chunk>
+	</out>
+      </action>
+</rule>
+
+
+
+
+<rule comment="REGLA: SV SA inf (és/considera difícil entendre -> is/considers difficult TO understand)" >
+      <pattern>
+	<pattern-item n="SV"/>
+	<pattern-item n="SA"/>
+	<pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>
+            <clip pos="1" part="whole"/>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk>
+            <clip pos="2" part="whole"/>
+	  </chunk>
+	  <b pos="2"/>
+	  <chunk>
+	    <get-case-from pos="3">
+	      <lit v="to"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	    <lit v="{^"/>
+	    <get-case-from pos="3">
+	      <lit v="to"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>
+	  <chunk>
+	    <clip pos="3" part="whole"/>
+	  </chunk>
+	</out>
+  </action>
+</rule>
+
+
+<rule comment="REGLA: SV SA de inf (és/considera difícil d'entendre -> is/considers difficult TO understand) MG: treureho? es fa ja tot en el t1x?" >
+      <pattern>
+	<pattern-item n="SV"/>
+	<pattern-item n="SA"/>
+	<pattern-item n="de"/>
+	<pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>
+            <clip pos="1" part="whole"/>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk>
+            <clip pos="2" part="whole"/>
+	  </chunk>
+	  <b pos="2"/>
+	  <chunk>
+	    <get-case-from pos="3">
+	      <lit v="to"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	    <lit v="{^"/>
+	    <get-case-from pos="3">
+	      <lit v="to"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>
+	  <chunk>
+	    <clip pos="4" part="whole"/>
+	  </chunk>
+	</out>
+  </action>
+</rule>
+
+
+<rule comment="REGLA: SN SV SA inf (això és/considera difícil entendre -> is/considers difficult TO understand)" >
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="SV"/>
+	<pattern-item n="SA"/>
+	<pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="gen"/>
+	      <lit-tag v="m"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	</choose>
+	<out>
+	  <chunk>
+            <clip pos="1" part="whole"/>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk>
+            <clip pos="2" part="whole"/>
+	  </chunk>
+	  <b pos="2"/>
+	  <chunk>
+            <clip pos="3" part="whole"/>
+	  </chunk>
+	  <b pos="3"/>
+	  <chunk>
+	    <get-case-from pos="4">
+	      <lit v="to"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	    <lit v="{^"/>
+	    <get-case-from pos="4">
+	      <lit v="to"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>
+	  <chunk>
+	    <clip pos="4" part="whole"/>
+	  </chunk>
+	</out>
+  </action>
+</rule>
+
+
+<rule comment="REGLA: SN SV SA de inf (és/considera difícil d'entendre -> is/considers difficult TO understand)MG: treureho? es fa ja tot en el t1x?" >
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="SV"/>
+	<pattern-item n="SA"/>
+	<pattern-item n="de"/>
+	<pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="gen"/>
+	      <lit-tag v="m"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	</choose>
+	<out>
+	  <chunk>
+            <clip pos="1" part="whole"/>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk>
+            <clip pos="2" part="whole"/>
+	  </chunk>
+	  <b pos="2"/>
+	  <chunk>
+            <clip pos="3" part="whole"/>
+	  </chunk>
+	  <b pos="3"/>
+	  <chunk>
+	    <get-case-from pos="4">
+	      <lit v="to"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	    <lit v="{^"/>
+	    <get-case-from pos="4">
+	      <lit v="to"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>
+	  <chunk>
+	    <clip pos="5" part="whole"/>
+	  </chunk>
+	</out>
+  </action>
+</rule>
+
+
+<!--
+
+<rule comment="REGLA: SN ADV SV">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="ADV"/>
+	<pattern-item n="SV"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="gen"/>
+	      <lit-tag v="m"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	</choose>
+	
+	      
+	<out>
+	  <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+	    <clip pos="1" part="chcontent"/>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+	    <clip pos="2" part="chcontent"/>
+	  </chunk>
+	  <b pos="2"/>
+	  <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+	    <clip pos="3" part="chcontent"/>
+	  </chunk>
+	</out>
+      </action>
+</rule>-->
+
+<!--Regles per a afegir pronom subjecte -->
+
+<rule comment="REGLA: punt SV (. Significava -> IT meant)">
+      <pattern>
+	<pattern-item n="punt"/>
+	<pattern-item n="SV_pers"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	  <b pos="1"/>
+	</out>
+	<choose>
+	  <when>
+	    <test>
+	      <not>
+		<equal>
+		  <clip pos="2" part="temps"/>
+		  <lit-tag v="imp"/>
+		</equal>
+	      </not>
+	    </test>
+	    <out>
+	      <chunk>
+		<get-case-from pos="2">
+		  <lit v="subj"/>
+		</get-case-from>
+		<lit-tag v="prn.subj"/>
+		<clip pos="2" part="pers"/>
+		<lit-tag v="GD"/>
+		<clip pos="2" part="nbr"/>
+		<lit v="{^"/>
+		<get-case-from pos="2">
+		  <lit v="prpers"/>
+		</get-case-from>
+		<lit-tag v="prn.subj.3.4.5"/>
+		<lit v="$}"/>
+	      </chunk>
+	      <b/>	   
+	    </out>
+	    <choose>
+	      <when>
+		<test>
+		  <equal>
+		    <case-of pos="2" part="lem"/>
+		    <lit v="Aa"/>
+		  </equal>
+		</test>
+		<modify-case>
+		  <clip pos="2" part="lem"/>
+		  <lit v="aa"/>
+		</modify-case>
+	      </when>
+	    </choose>
+	  </when>
+	</choose>
+	<out>
+	  <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+	    <clip pos="2" part="chcontent"/>
+	  </chunk>
+	</out>
+      </action>
+</rule>
+
+<rule comment="REGLA: punt SV inf (. Intentava venir -> IT tried TO come)">
+      <pattern>
+	<pattern-item n="punt"/>
+	<pattern-item n="SV_pers"/>
+	<pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	  <b pos="1"/>
+	</out>
+	<choose>
+	  <when>
+	    <test>
+	      <not>
+		<equal>
+		  <clip pos="2" part="temps"/>
+		  <lit-tag v="imp"/>
+		</equal>
+	      </not>
+	    </test>
+	    <out>
+	      <chunk>
+		<get-case-from pos="2">
+		  <lit v="subj"/>
+		</get-case-from>
+		<lit-tag v="prn.subj"/>
+		<clip pos="2" part="pers"/>
+		<lit-tag v="GD"/>
+		<clip pos="2" part="nbr"/>
+		<lit v="{^"/>
+		<get-case-from pos="2">
+		  <lit v="prpers"/>
+		</get-case-from>
+		<lit-tag v="prn.subj.3.4.5"/>
+		<lit v="$}"/>
+	      </chunk>
+	      <b/>	   
+	    </out>
+	    <choose>
+	      <when>
+		<test>
+		  <equal>
+		    <case-of pos="2" part="lem"/>
+		    <lit v="Aa"/>
+		  </equal>
+		</test>
+		<modify-case>
+		  <clip pos="2" part="lem"/>
+		  <lit v="aa"/>
+		</modify-case>
+	      </when>
+	    </choose>
+	  </when>
+	</choose>
+	<out>
+	  <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+	    <clip pos="2" part="chcontent"/>
+	  </chunk>
+	  <b pos="2"/>
+	</out>
+	<choose>
+	  <when><!--si és vbmod (o vaux: "can") no posis el "to" pq no cal ("can") o ja el té incorporat ("have to"). -->
+	    <test>
+	      <not>
+		<or>
+		  <equal>
+		    <clip pos="2" part="a_verb"/>
+		    <lit-tag v="vbmod"/>
+		  </equal>
+		  <equal>
+		    <clip pos="2" part="a_verb"/>
+		    <lit-tag v="vaux"/>
+		  </equal>
+		</or>
+	      </not>
+	    </test>
+	    <out>
+	      <chunk>
+		<get-case-from pos="3">
+		  <lit v="to"/>
+		</get-case-from>
+		<lit-tag v="pr"/>
+		<lit v="{^"/>
+		<get-case-from pos="3">
+		  <lit v="to"/>
+		</get-case-from>
+		<lit-tag v="pr"/>
+		<lit v="$}"/>
+	      </chunk>
+	      <b/>
+	    </out>
+	  </when>
+	</choose>
+	<out>
+	  <chunk>
+            <clip pos="3" part="whole"/>
+	  </chunk>
+	</out>
+      </action>
+</rule>
+
+
+<rule comment="REGLA: punt SV SA inf (. Era difícil ajudar -> IT was difficult TO help)">
+      <pattern>
+	<pattern-item n="punt"/>
+	<pattern-item n="SV_pers"/>
+	<pattern-item n="SA"/>
+	<pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	  <b pos="1"/>
+	</out>
+	<choose>
+	  <when>
+	    <test>
+	      <not>
+		<equal>
+		  <clip pos="2" part="temps"/>
+		  <lit-tag v="imp"/>
+		</equal>
+	      </not>
+	    </test>
+	    <out>
+	      <chunk>
+		<get-case-from pos="2">
+		  <lit v="subj"/>
+		</get-case-from>
+		<lit-tag v="prn.subj"/>
+		<clip pos="2" part="pers"/>
+		<lit-tag v="GD"/>
+		<clip pos="2" part="nbr"/>
+		<lit v="{^"/>
+		<get-case-from pos="2">
+		  <lit v="prpers"/>
+		</get-case-from>
+		<lit-tag v="prn.subj.3.4.5"/>
+		<lit v="$}"/>
+	      </chunk>
+	      <b/>	   
+	    </out>
+	    <choose>
+	      <when>
+		<test>
+		  <equal>
+		    <case-of pos="2" part="lem"/>
+		    <lit v="Aa"/>
+		  </equal>
+		</test>
+		<modify-case>
+		  <clip pos="2" part="lem"/>
+		  <lit v="aa"/>
+		</modify-case>
+	      </when>
+	    </choose>
+	  </when>
+	</choose>
+	<out>
+	  <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+	    <clip pos="2" part="chcontent"/>
+	  </chunk>
+	  <b pos="2"/>
+	  <chunk>
+            <clip pos="3" part="whole"/>
+	  </chunk>
+	  <b pos="3"/>
+	  <chunk>
+	    <get-case-from pos="4">
+	      <lit v="to"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	    <lit v="{^"/>
+	    <get-case-from pos="4">
+	      <lit v="to"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>
+	  <chunk>
+	    <clip pos="4" part="whole"/>
+	  </chunk>
+	</out>
+      </action>
+</rule>
+
+
+
+
+<rule comment="REGLA: punt SV SA de inf (. Era difícil d'ajudar -> IT was difficult TO help)MG: treureho? es fa ja tot en el t1x?">
+      <pattern>
+	<pattern-item n="punt"/>
+	<pattern-item n="SV_pers"/>
+	<pattern-item n="SA"/>
+	<pattern-item n="de"/>
+	<pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	  <b pos="1"/>
+	</out>
+	<choose>
+	  <when>
+	    <test>
+	      <not>
+		<equal>
+		  <clip pos="2" part="temps"/>
+		  <lit-tag v="imp"/>
+		</equal>
+	      </not>
+	    </test>
+	    <out>
+	      <chunk>
+		<get-case-from pos="2">
+		  <lit v="subj"/>
+		</get-case-from>
+		<lit-tag v="prn.subj"/>
+		<clip pos="2" part="pers"/>
+		<lit-tag v="GD"/>
+		<clip pos="2" part="nbr"/>
+		<lit v="{^"/>
+		<get-case-from pos="2">
+		  <lit v="prpers"/>
+		</get-case-from>
+		<lit-tag v="prn.subj.3.4.5"/>
+		<lit v="$}"/>
+	      </chunk>
+	      <b/>	   
+	    </out>
+	    <choose>
+	      <when>
+		<test>
+		  <equal>
+		    <case-of pos="2" part="lem"/>
+		    <lit v="Aa"/>
+		  </equal>
+		</test>
+		<modify-case>
+		  <clip pos="2" part="lem"/>
+		  <lit v="aa"/>
+		</modify-case>
+	      </when>
+	    </choose>
+	  </when>
+	</choose>
+	<out>
+	  <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+	    <clip pos="2" part="chcontent"/>
+	  </chunk>
+	  <b pos="2"/>
+	  <chunk>
+            <clip pos="3" part="whole"/>
+	  </chunk>
+	  <b pos="3"/>
+	  <chunk>
+	    <get-case-from pos="4">
+	      <lit v="to"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	    <lit v="{^"/>
+	    <get-case-from pos="4">
+	      <lit v="to"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>
+	  <chunk>
+	    <clip pos="5" part="whole"/>
+	  </chunk>
+	</out>
+      </action>
+</rule>
+
+
+<rule comment="REGLA: cnjsub SV ( que vinguis -> that YOU come)">
+      <pattern>
+	<pattern-item n="cnjsub"/>
+	<pattern-item n="SV_pers"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk>
+	    <get-case-from pos="2">
+	      <lit v="subj"/>
+	    </get-case-from>
+	    <lit-tag v="prn.subj"/>
+	    <clip pos="2" part="pers"/>
+	    <lit-tag v="GD"/>
+	    <clip pos="2" part="nbr"/>
+	    <lit v="{^"/>
+	    <get-case-from pos="2">
+	      <lit v="prpers"/>
+	    </get-case-from>
+	    <lit-tag v="prn.subj.3.4.5"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>	   
+	  <chunk>
+	    <clip pos="2" part="whole"/>
+	  </chunk>
+	</out>
+      </action>
+</rule>
+
+<rule comment="REGLA: cnjsub SV inf  ( que intentis venir -> that YOU try TO come)">
+      <pattern>
+	<pattern-item n="cnjsub"/>
+	<pattern-item n="SV_pers"/>
+	<pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk>
+	    <get-case-from pos="2">
+	      <lit v="subj"/>
+	    </get-case-from>
+	    <lit-tag v="prn.subj"/>
+	    <clip pos="2" part="pers"/>
+	    <lit-tag v="GD"/>
+	    <clip pos="2" part="nbr"/>
+	    <lit v="{^"/>
+	    <get-case-from pos="2">
+	      <lit v="prpers"/>
+	    </get-case-from>
+	    <lit-tag v="prn.subj.3.4.5"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>	   
+	  <chunk>
+	    <clip pos="2" part="whole"/>
+	  </chunk>
+	  <b pos="2"/>
+	</out>
+	<choose>
+	  <when><!--si és vbmod (o vaux: "can") no posis el "to" pq no cal ("can") o ja el té incorporat ("have to"). -->
+	    <test>
+	      <not>
+		<or>
+		  <equal>
+		    <clip pos="2" part="a_verb"/>
+		    <lit-tag v="vbmod"/>
+		  </equal>
+		  <equal>
+		    <clip pos="2" part="a_verb"/>
+		    <lit-tag v="vaux"/>
+		  </equal>
+		</or>
+	      </not>
+	    </test>
+	    <out>
+	      <chunk>
+		<get-case-from pos="3">
+		  <lit v="to"/>
+		</get-case-from>
+		<lit-tag v="pr"/>
+		<lit v="{^"/>
+		<get-case-from pos="3">
+		  <lit v="to"/>
+		</get-case-from>
+		<lit-tag v="pr"/>
+		<lit v="$}"/>
+	      </chunk>
+	      <b/>
+	    </out>
+	  </when>
+	</choose>
+	<out>
+	  <chunk>
+            <clip pos="3" part="whole"/>
+	  </chunk>
+	</out>
+      </action>
+</rule>
+
+
+<rule comment="REGLA: cnjsub SV SA inf ( que és difícil venir -> that IT is difficult TO come)">
+      <pattern>
+	<pattern-item n="cnjsub"/>
+	<pattern-item n="SV_pers"/>
+	<pattern-item n="SA"/>
+	<pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk>
+	    <get-case-from pos="2">
+	      <lit v="subj"/>
+	    </get-case-from>
+	    <lit-tag v="prn.subj"/>
+	    <clip pos="2" part="pers"/>
+	    <lit-tag v="GD"/>
+	    <clip pos="2" part="nbr"/>
+	    <lit v="{^"/>
+	    <get-case-from pos="2">
+	      <lit v="prpers"/>
+	    </get-case-from>
+	    <lit-tag v="prn.subj.3.4.5"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>	   
+	  <chunk>
+	    <clip pos="2" part="whole"/>
+	  </chunk>
+	  <b pos="2"/>
+	  <chunk>
+	    <clip pos="3" part="whole"/>
+	  </chunk>
+	  <b pos="3"/>
+	  <chunk>
+	    <get-case-from pos="4">
+	      <lit v="to"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	    <lit v="{^"/>
+	    <get-case-from pos="4">
+	      <lit v="to"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>
+	  <chunk>
+            <clip pos="4" part="whole"/>
+	  </chunk>
+	</out>
+      </action>
+</rule>
+
+<rule comment="REGLA: cnjsub SV SA de inf ( que és difícil d'entendre -> that IT is difficult TO understand)MG: treureho? es fa ja tot en el t1x?">
+      <pattern>
+	<pattern-item n="cnjsub"/>
+	<pattern-item n="SV_pers"/>
+	<pattern-item n="SA"/>
+	<pattern-item n="de"/>
+	<pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<out>
+	  <chunk>
+	    <clip pos="1" part="whole"/>
+	  </chunk>
+	  <b pos="1"/>
+	  <chunk>
+	    <get-case-from pos="2">
+	      <lit v="subj"/>
+	    </get-case-from>
+	    <lit-tag v="prn.subj"/>
+	    <clip pos="2" part="pers"/>
+	    <lit-tag v="GD"/>
+	    <clip pos="2" part="nbr"/>
+	    <lit v="{^"/>
+	    <get-case-from pos="2">
+	      <lit v="prpers"/>
+	    </get-case-from>
+	    <lit-tag v="prn.subj.3.4.5"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>	   
+	  <chunk>
+	    <clip pos="2" part="whole"/>
+	  </chunk>
+	  <b pos="2"/>
+	  <chunk>
+	    <clip pos="3" part="whole"/>
+	  </chunk>
+	  <b pos="3"/>
+	  <chunk>
+	    <get-case-from pos="4">
+	      <lit v="to"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	    <lit v="{^"/>
+	    <get-case-from pos="4">
+	      <lit v="to"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	    <lit v="$}"/>
+	  </chunk>
+	  <b/>
+	  <chunk>
+            <clip pos="5" part="whole"/>
+	  </chunk>
+	</out>
+      </action>
+</rule>
+
+
+  </section-rules>
+</interchunk>

@@ -1,0 +1,66 @@
+<-----------------------------------------------------------
+ --	Created By:	Troy Spier
+ --	Description:	Contains a list of the objectives
+ --			being completed or objectives that
+ --			will be completed. Percentages are
+ --			also given for the amount of terms
+ --			or information completed already.
+ --	Last Updated:   Mon Okt 29 17:34:01 EDT 2007
+ ----------------------------------------------------------->
+
+==General==
+
+* English nouns are capitalised, this needs to be fixed.
+* Tagger needs to be properly generated, currently there is
+  only "de-en.prob".
+* Punctuation needs to be modified to suit the German language.
+  Examples of changes to be made (if not done already) are
+  listed below:
+	- Decimal places are shown by a comma (1.0 == 1,0)
+	- Large numbers are separated by spaces or a period
+		(20,000 == 20.000 OR 20 000)
+	- Subordinate clauses are marked off from the rest of
+		the sentence by the use of a comma (Als er nach
+		Hause kam, war sie schon weg.)
+	- German has a different quote system than English
+* Numbers -- German numbers are joined, will need to use <j/> 
+  unlike English with '-'.
+* Is 'mit' a preposition or an adverb. At the moment it is
+  categorised (as in English) -- as a preposition. This 
+  should be investigated -- perhaps we should have two entries?
+* Include support for verbs with separable prefixes:
+	- anhaben -> to have on/to be wearing
+		* Ich habe ... an. -> I have ... on.
+	- anfangen -> to start/to begin
+		* Es faengt um drei Uhr an. -> It begins at three o'clock.
+
+==Test sentences==
+
+Feel free to add test sentences. They can be tested with 'make test'.
+
+===Basic===
+
+We should be able to translate these perfectly.
+
+#* Ich habe ein Bier.
+#* Ich hatte ein Bier.
+#* Ich habe die Hunde.
+#* Ich hatte vier Kinder.
+#* Du hattest vier Biere, und zwei Kinder.
+#* Ich sah sie im Herbst.
+#* Er hat ein Tier.
+#* Ich bin ausgezeichnet.
+#* Ihr habt Biere
+#* Ich hatte einen guten Schiss
+#* Spiele mit mir.
+
+===Intermediate Complex===
+Der Hund ist heute nicht hier, sondern morgen auch nicht.
+
+===Complex===
+
+These sentences are more complex, if we can translate them and get anything like the meaning, we're doing
+very well.
+
+#* UN-Mission nach Darfur 3000 Blauhelme und Kampfhubschrauber sollen in der Krisenregion stationiert werden.
+#* Brennpunkt in Europa das Kosovo kommt nicht zur Ruhe. Albaner und Serben stehen sich feindselig gegenüber. 

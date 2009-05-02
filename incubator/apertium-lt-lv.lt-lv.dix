@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<section id="main" type="standard">
+  <!-- Proper names: Men -->
+  <!-- in Latvia, the general policy is to translate *all* proper names -->
+  <e><p><l>Adomas<s n="np"/><s n="ant"/><s n="m"/></l><r>Ādams<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+  <e><p><l>Aleksandras<s n="np"/><s n="ant"/><s n="m"/></l><r>Aleksanders<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+  <e><p><l>Andrius<s n="np"/><s n="ant"/><s n="m"/></l><r>Andris<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+  <!-- Proper names: Places -->
+  <e><p><l>Afganistanas<s n="np"/><s n="top"/><s n="m"/></l><r>Afganistāna<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+  <e><p><l>Aliaska<s n="np"/><s n="top"/><s n="f"/></l><r>Aļaska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+  <e><p><l>Australija<s n="np"/><s n="top"/><s n="f"/></l><r>Austrālija<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+  <!-- nouns -->
+  <e><p><l>Afrikansas<s n="n"/><s n="m"/></l><r>Afrikandu<s n="n"/><s n="m"/></r></p></e>
+  <e><p><l>bizonas<s n="n"/><s n="m"/></l><r>bizons<s n="n"/><s n="m"/></r></p></e>
+</section>

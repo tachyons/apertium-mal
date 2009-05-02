@@ -1,0 +1,9 @@
+IMPORTANT NOTE: This version of apertium-en-ca does *not* use the
+apertium-lextor program to perform lexical selection. For those words
+that can be translated in more than one way the default one is always
+selected.
+
+To train the co-occurrences models to be used for the lexical
+selection two corpora need to be provided:
+  - 'ca.txt' should contain a *huge* Catalan corpus in RAW format
+  - 'en.txt' should contain a *huge* English corpus in RAW format

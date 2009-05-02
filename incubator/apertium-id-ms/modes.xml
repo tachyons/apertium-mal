@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<modes>
+  <mode name="id-ms">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="id-ms.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="id-ms.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-id-ms.id-ms.t1x"/>
+        <file name="id-ms.t1x.bin"/>
+        <file name="id-ms.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-id-ms.id-ms.t2x"/>
+        <file name="id-ms.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-id-ms.id-ms.t3x"/>
+        <file name="id-ms.t3x.bin"/>
+      </program>
+      <program name="lt-proc -g">
+        <file name="id-ms.autogen.bin"/>
+      </program>
+<!--      <program name="lt-proc -p">
+        <file name="id-ms.autopgen.bin"/>
+      </program> -->
+    </pipeline>
+  </mode>
+
+  <mode name="ms-id">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="ms-id.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ms-id.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-id-ms.ms-id.t1x"/>
+        <file name="ms-id.t1x.bin"/>
+        <file name="ms-id.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-id-ms.ms-id.t2x"/>
+        <file name="ms-id.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-id-ms.ms-id.t3x"/>
+        <file name="ms-id.t3x.bin"/>
+      </program>
+      <program name="lt-proc -g">
+        <file name="ms-id.autogen.bin"/>
+      </program>
+<!--      <program name="lt-proc -p">
+        <file name="ms-id.autopgen.bin"/>
+      </program> -->
+    </pipeline>
+  </mode>
+
+</modes>

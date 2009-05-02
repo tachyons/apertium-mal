@@ -1,0 +1,1455 @@
+12 gifted  <e><p><l>gifted<s n="adj"/></l><r>geniaal<s n="adj"/></r></p></e> <!-- gifted,expensive__adj -->
+12 faecal  <e><p><l>faecal<s n="adj"/></l><r>fekaal<s n="adj"/></r></p></e> <!-- faecal,expensive__adj -->
+12 elbow  <e><p><l>elbow<s n="n"/></l><r>elmboog<s n="n"/></r></p></e> <!-- elbow,house__n -->
+12 dialysis  <e><p><l>dialysis<s n="n"/></l><r>dialise<s n="n"/></r></p></e> <!-- -->
+12 delta  <e><p><l>delta<s n="n"/></l><r>delta<s n="n"/></r></p></e> <!-- delta,house__n -->
+12 congenital  <e><p><l>congenital<s n="adj"/></l><r>kongenitaal<s n="adj"/></r></p></e> <!-- congenital,expensive__adj -->
+12 barren  <e><p><l>barren<s n="adj"/></l><r>onvrugbaar<s n="adj"/></r></p></e> <!-- barren,long/__adj -->
+12 alpha  <e><p><l>alpha<s n="n"/></l><r>alfa<s n="n"/></r></p></e> <!-- alpha,house__n -->
+11 nutritious  <e><p><l>nutritious<s n="adj"/></l><r>voedsaam<s n="adj"/></r></p></e> <!-- nutritious,expensive__adj -->
+11 intermittent  <e><p><l>intermittent<s n="adj"/></l><r>intermitterend<s n="adj"/></r></p></e> <!-- intermittent,expensive__adj -->
+11 infect  <e><p><l>infect<s n="vblex"/></l><r>infekteer<s n="vblex"/></r></p></e> <!-- infect"> ,accept__vblex -->
+11 fertilisation  <e><p><l>fertilisation<s n="n"/></l><r>fertilisasie<s n="n"/></r></p></e> <!-- fertilisation,house__n -->
+11 fertilisation  <e><p><l>fertilisation<s n="n"/></l><r>bevrugting<s n="n"/></r></p></e>
+11 diameter  <e><p><l>diameter<s n="n"/></l><r>middellyn<s n="n"/></r></p></e> <!-- diameter,house__n -->
+11 diameter  <e><p><l>diameter<s n="n"/></l><r>diameter<s n="n"/></r></p></e>
+11 decibel  <e><p><l>decibel<s n="n"/></l><r>desibel<s n="n"/></r></p></e> <!-- decibel,house__n -->
+11 cellulose  <e><p><l>cellulose<s n="n"/></l><r>sellulose<s n="n"/></r></p></e> <!-- cellulose,house__n__unc -->
+10 unipolar  <e><p><l>unipolar<s n="adj"/></l><r>unipolêr<s n="adj"/></r></p></e> <!-- unipolar,expensive__adj -->
+10 soluble  <e><p><l>soluble<s n="adj"/></l><r>oplosbaar<s n="adj"/></r></p></e> <!-- soluble,expensive__adj -->
+10 propulsion  <e><p><l>propulsion<s n="n"/></l><r>voortstuwing<s n="n"/></r></p></e> <!-- propulsion,house__n -->
+10 propulsion  <e><p><l>propulsion<s n="n"/></l><r>propulsie<s n="n"/></r></p></e>
+10 proliferate  <e><p><l>proliferate<s n="n"/></l><r>prolifereer<s n="n"/></r></p></e> <!-- -->
+10 physics  <e><p><l>physics<s n="n"/></l><r>fisika<s n="n"/></r></p></e> <!-- physics,politics__n__unc -->
+10 malignant  <e><p><l>malignant<s n="n"/></l><r>maligne<s n="n"/></r></p></e>
+10 malignant  <e><p><l>malignant<s n="adj"/></l><r>kwaadaardig<s n="adj"/></r></p></e> <!-- malignant,expensive__adj -->
+10 glucose  <e><p><l>glucose<s n="n"/></l><r>glukose<s n="n"/></r></p></e> <!-- glucose,house__n -->
+10 gall  <e><p><l>gall<s n="n"/></l><r>gal<s n="n"/></r></p></e> <!-- gall,house__n -->
+10 conductor  <e><p><l>conductor<s n="n"/></l><r>geleier<s n="n"/></r></p></e> <!-- conductor,house__n -->
+10 cobalt  <e><p><l>cobalt<s n="n"/></l><r>kobalt<s n="n"/></r></p></e> <!-- cobalt,house__n__unc -->
+10 cellular  <e><p><l>cellular<s n="adj"/></l><r>sellulêr<s n="adj"/></r></p></e> <!-- cellular,expensive__adj -->
+10 aberrant  <e><p><l>aberrant<s n="adj"/></l><r>aberrant<s n="adj"/></r></p></e> <!-- aberrant,expensive__adj -->
+9 zoonosis  <e><p><l>zoonosis<s n="n"/></l><r>soönose<s n="n"/></r></p></e> <!-- -->
+9 thrombosis  <e><p><l>thrombosis<s n="n"/></l><r>trombose<s n="n"/></r></p></e> <!-- -->
+9 skull  <e><p><l>skull<s n="n"/></l><r>skedel<s n="n"/></r></p></e>
+9 skull  <e><p><l>skull<s n="n"/></l><r>kopbeen<s n="n"/></r></p></e> <!-- skull,house__n -->
+9 pneumonia  <e><p><l>pneumonia<s n="n"/></l><r>pneumonie<s n="n"/></r></p></e>
+9 pneumonia  <e><p><l>pneumonia<s n="n"/></l><r>longontsteking<s n="n"/></r></p></e> <!-- pneumonia,house__n -->
+9 pathological  <e><p><l>pathological<s n="adj"/></l><r>patologies<s n="adj"/></r></p></e> <!-- pathological,expensive__adj -->
+9 neutralisation  <e><p><l>neutralisation<s n="n"/></l><r>neutralisasie<s n="n"/></r></p></e> <!-- neutralisation,house__n -->
+9 erection  <e><p><l>erection<s n="n"/></l><r>ereksie<s n="n"/></r></p></e> <!-- erection,house__n -->
+9 dysfunction  <e><p><l>dysfunction<s n="n"/></l><r>disfunksie<s n="n"/></r></p></e> <!-- dysfunction,house__n -->
+9 disinfectant  <e><p><l>disinfectant<s n="n"/></l><r>antiseptikum<s n="n"/></r></p></e> <!-- disinfectant,house__n -->
+9 centrifugal  <e><p><l>centrifugal<s n="n"/></l><r>sentrifugaal<s n="n"/></r></p></e>
+9 centrifugal  <e><p><l>centrifugal<s n="adj"/></l><r>sentrifugaal<s n="adj"/></r></p></e> <!-- centrifugal,expensive__adj -->
+9 bipolar  <e><p><l>bipolar<s n="n"/></l><r>bipolêr<s n="n"/></r></p></e>
+9 bipolar  <e><p><l>bipolar<s n="adj"/></l><r>bipolaar<s n="adj"/></r></p></e> <!-- bipolar,expensive__adj -->
+9 articulation  <e><p><l>articulation<s n="n"/></l><r>artikulasie<s n="n"/></r></p></e> <!-- articulation,house__n -->
+8 tritium  <e><p><l>tritium<s n="n"/></l><r>tritium<s n="n"/></r></p></e> <!-- tritium,house__n -->
+8 symbiosis  <e><p><l>symbiosis<s n="n"/></l><r>simbiose<s n="n"/></r></p></e> <!-- -->
+8 microscopic  <e><p><l>microscopic<s n="adj"/></l><r>mikroskopies<s n="adj"/></r></p></e> <!-- microscopic,expensive__adj -->
+8 inhalation  <e><p><l>inhalation<s n="n"/></l><r>inaseming<s n="n"/></r></p></e> <!-- inhalation,house__n -->
+8 hiatus  <e><p><l>hiatus<s n="n"/></l><r>hiatus<s n="n"/></r></p></e> <!-- hiatus,access__n -->
+8 fibrosis  <e><p><l>fibrosis<s n="n"/></l><r>fibrose<s n="n"/></r></p></e> <!-- -->
+8 disintegrate  <e><p><l>disintegrate<s n="vblex"/></l><r>verbrokkel<s n="vblex"/></r></p></e>
+8 disintegrate  <e><p><l>disintegrate<s n="vblex"/></l><r>opsplits<s n="vblex"/></r></p></e>
+8 disintegrate  <e><p><l>disintegrate<s n="vblex"/></l><r>disintegreer<s n="vblex"/></r></p></e> <!-- -->
+8 amide  <e><p><l>amide<s n="n"/></l><r>amied<s n="n"/></r></p></e> <!-- amide,house__n -->
+7 testicular  <e><p><l>testicular<s n="adj"/></l><r>testikulêr<s n="adj"/></r></p></e> <!-- testicular,expensive__adj -->
+7 stimulant  <e><p><l>stimulant<s n="n"/></l><r>stimuleermiddel<s n="n"/></r></p></e> <!-- stimulant,house__n -->
+7 stimulant  <e><p><l>stimulant<s n="n"/></l><r>stimulant<s n="n"/></r></p></e>
+7 sterility  <e><p><l>sterility<s n="n"/></l><r>steriliteit<s n="n"/></r></p></e>
+7 sterility  <e><p><l>sterility<s n="n"/></l><r>onvrugbaarheid<s n="n"/></r></p></e> <!-- -->
+7 stereotype  <e><p><l>stereotype<s n="n"/></l><r>stereotipe<s n="n"/></r></p></e> <!-- stereotype,house__n -->
+7 radiotherapy  <e><p><l>radiotherapy<s n="n"/></l><r>radioterapie<s n="n"/></r></p></e> <!-- -->
+7 radiotherapy  <e><p><l>radiotherapy<s n="n"/></l><r>bestraling<s n="n"/></r></p></e>
+7 probe  <e><p><l>probe<s n="n"/></l><r>peiler<s n="n"/></r></p></e> <!-- probe,house__n -->
+7 porous  <e><p><l>porous<s n="adj"/></l><r>poreus<s n="adj"/></r></p></e> <!-- porous,expensive__adj -->
+7 perimeter  <e><p><l>perimeter<s n="n"/></l><r>perimeter<s n="n"/></r></p></e> <!-- perimeter,house__n -->
+7 perimeter  <e><p><l>perimeter<s n="n"/></l><r>omtrek<s n="n"/></r></p></e>
+7 navel  <e><p><l>navel<s n="n"/></l><r>nawel<s n="n"/></r></p></e>
+7 navel  <e><p><l>navel<s n="n"/></l><r>naeltjie<s n="n"/></r></p></e> <!-- navel,house__n -->
+7 ionisation  <e><p><l>ionisation<s n="n"/></l><r>ionisasie<s n="n"/></r></p></e> <!-- ionisation,house__n -->
+7 inorganic  <e><p><l>inorganic<s n="adj"/></l><r>anorganies<s n="adj"/></r></p></e> <!-- inorganic,expensive__adj -->
+7 disc  <e><p><l>disc<s n="n"/></l><r>skyf<s n="n"/></r></p></e> <!-- disc,house__n -->
+7 cholesterol  <e><p><l>cholesterol<s n="n"/></l><r>cholesterol<s n="n"/></r></p></e> <!-- cholesterol,house__n -->
+7  
+6 ultraviolet  <e><p><l>ultraviolet<s n="n"/></l><r>ultraviolet<s n="n"/></r></p></e> <!-- ultraviolet,house__n -->
+6 toxicology  <e><p><l>toxicology<s n="n"/></l><r>toksikologie<s n="n"/></r></p></e> <!-- -->
+6 synergetic  <e><p><l>synergetic<s n="adj"/></l><r>sinergeties<s n="adj"/></r></p></e> <!-- synergetic,expensive__adj -->
+6 subliminal  <e><p><l>subliminal<s n="adj"/></l><r>subliminaal<s n="adj"/></r></p></e> <!-- subliminal,expensive__adj -->
+6 pubic  <e><p><l>pubic<s n="adj"/></l><r>pubies<s n="adj"/></r></p></e> <!-- pubic,expensive__adj -->
+6 posture  <e><p><l>posture<s n="n"/></l><r>postuur<s n="n"/></r></p></e> <!-- posture,house__n -->
+6 permeability  <e><p><l>permeability<s n="n"/></l><r>deurlatendheid<s n="n"/></r></p></e> <!-- -->
+6 pedal  <e><p><l>pedal<s n="n"/></l><r>pedaal<s n="n"/></r></p></e> <!-- pedal,house__n -->
+6 microscope  <e><p><l>microscope<s n="n"/></l><r>mikroskoop<s n="n"/></r></p></e> <!-- microscope,house__n -->
+6 intravenous  <e><p><l>intravenous<s n="n"/></l><r>binneaars<s n="n"/></r></p></e>
+6 intravenous  <e><p><l>intravenous<s n="adj"/></l><r>intraveneus<s n="adj"/></r></p></e> <!-- intravenous,expensive__adj -->
+6 intestinal  <e><p><l>intestinal<s n="n"/></l><r>ingewands-<s n="n"/></r></p></e>
+6 intestinal  <e><p><l>intestinal<s n="adj"/></l><r>intestinaal<s n="adj"/></r></p></e> <!-- intestinal,expensive__adj -->
+6 inhibition  <e><p><l>inhibition<s n="n"/></l><r>inhibisie<s n="n"/></r></p></e> <!-- inhibition,house__n -->
+6 infrared  <e><p><l>infrared<s n="adj"/></l><r>infrarooi<s n="adj"/></r></p></e> <!-- infrared,expensive__adj -->
+6 immunisation  <e><p><l>immunisation<s n="n"/></l><r>immunisering<s n="n"/></r></p></e> <!-- immunisation,house__n -->
+6 humidity  <e><p><l>humidity<s n="n"/></l><r>vogtigheid<s n="n"/></r></p></e>
+6 humidity  <e><p><l>humidity<s n="n"/></l><r>lugvogtigheid<s n="n"/></r></p></e> <!-- -->
+6 humidity  <e><p><l>humidity<s n="n"/></l><r>humiditeit<s n="n"/></r></p></e>
+6 fulcrum  <e><p><l>fulcrum<s n="n"/></l><r>steunpunt<s n="n"/></r></p></e> <!-- fulcrum,house__n -->
+6 foetus  <e><p><l>foetus<s n="n"/></l><r>fetus<s n="n"/></r></p></e> <!-- fetus,access__n -->
+6 flex  <e><p><l>flex<s n="vblex"/></l><r>flekseer<s n="vblex"/></r></p></e> <!-- flex,approach__vblex -->
+6 epilepsy  <e><p><l>epilepsy<s n="n"/></l><r>vallende siekte<s n="n"/></r></p></e> <!-- -->
+6 epilepsy  <e><p><l>epilepsy<s n="n"/></l><r>epilepsie<s n="n"/></r></p></e>
+6 dissociation  <e><p><l>dissociation<s n="n"/></l><r>dissosiasie<s n="n"/></r></p></e> <!-- dissociation,house__n -->
+6 chloride  <e><p><l>chloride<s n="n"/></l><r>chloried<s n="n"/></r></p></e> <!-- chloride,house__n__unc -->
+6 castration  <e><p><l>castration<s n="n"/></l><r>kastrasie<s n="n"/></r></p></e> <!-- castration,house__n -->
+6 anaerobic  <e><p><l>anaerobic<s n="adj"/></l><r>anaërobies<s n="adj"/></r></p></e> <!-- anaerobic,expensive__adj -->
+5 tumour  <e><p><l>tumour<s n="n"/></l><r>tumor<s n="n"/></r></p></e> <!-- tumor,house__n -->
+5 three-dimensional  <e><p><l>three-dimensional<s n="adj"/></l><r>driedimensioneel<s n="adj"/></r></p></e> <!-- three-dimensional,expensive__adj -->
+5 stasis  <e><p><l>stasis<s n="n"/></l><r>stase<s n="n"/></r></p></e> <!-- -->
+5 psyche  <e><p><l>psyche<s n="n"/></l><r>psige<s n="n"/></r></p></e> <!-- psyche,house__n -->
+5 phobia  <e><p><l>phobia<s n="n"/></l><r>fobie<s n="n"/></r></p></e> <!-- phobia,house__n -->
+5 obliteration  <e><p><l>obliteration<s n="n"/></l><r>obliterasie<s n="n"/></r></p></e> <!-- obliteration,house__n -->
+5 metamorphosis  <e><p><l>metamorphosis<s n="n"/></l><r>metamorfose<s n="n"/></r></p></e>
+5 metamorphosis  <e><p><l>metamorphosis<s n="n"/></l><r>gedaantewisseling<s n="n"/></r></p></e> <!-- -->
+5 lubricant  <e><p><l>lubricant<s n="n"/></l><r>smeermiddel<s n="n"/></r></p></e> <!-- lubricant,house__n -->
+5 locus  <e><p><l>locus<s n="n"/></l><r>lokus<s n="n"/></r></p></e> <!-- locus,access__n -->
+5 lens  <e><p><l>lens<s n="n"/></l><r>lens<s n="n"/></r></p></e> <!-- lens,politics__n -->
+5 lateral  <e><p><l>lateral<s n="adj"/></l><r>lateraal<s n="adj"/></r></p></e> <!-- lateral,expensive__adj -->
+5 gum  <e><p><l>gum<s n="vblex"/></l><r>tandvleis<s n="vblex"/></r></p></e> <!-- gum,program__vblex -->
+5 elevation  <e><p><l>elevation<s n="n"/></l><r>elevasie<s n="n"/></r></p></e> <!-- elevation,house__n -->
+5 cirrhosis  <e><p><l>cirrhosis<s n="n"/></l><r>sirrose<s n="n"/></r></p></e> <!-- -->
+5 cardiac  <e><p><l>cardiac<s n="n"/></l><r>hart-<s n="n"/></r></p></e>
+5 cardiac  <e><p><l>cardiac<s n="adj"/></l><r>kardiaal<s n="adj"/></r></p></e> <!-- cardiac,expensive__adj -->
+5 calcium  <e><p><l>calcium<s n="n"/></l><r>kalsium<s n="n"/></r></p></e> <!-- calcium,house__n__unc -->
+5 biochemical  <e><p><l>biochemical<s n="adj"/></l><r>biochemies<s n="adj"/></r></p></e> <!-- biochemical,expensive__adj -->
+5 automatism  <e><p><l>automatism<s n="n"/></l><r>outomatisme<s n="n"/></r></p></e> <!-- automatism,house__n -->
+5 amorphous  <e><p><l>amorphous<s n="n"/></l><r>amorfies<s n="n"/></r></p></e>
+5 amorphous  <e><p><l>amorphous<s n="adj"/></l><r>vormloos<s n="adj"/></r></p></e> <!-- amorphous,expensive__adj -->
+4 thrill  <e><p><l>thrill<s n="vblex"/></l><r>trilling<s n="vblex"/></r></p></e> <!-- thrill"> ,accept__vblex -->
+4 symbiotic  <e><p><l>symbiotic<s n="adj"/></l><r>simbioties<s n="adj"/></r></p></e> <!-- symbiotic,expensive__adj -->
+4 sulphurous  <e><p><l>sulphurous<s n="n"/></l><r>swaelig-<s n="n"/></r></p></e>
+4 sulphurous  <e><p><l>sulphurous<s n="n"/></l><r>swaelagtig<s n="n"/></r></p></e>
+4 sulphurous  <e><p><l>sulphurous<s n="adj"/></l><r>swaelhoudend<s n="adj"/></r></p></e> <!-- sulphurous,expensive__adj -->
+4 stratification  <e><p><l>stratification<s n="n"/></l><r>stratifikasie<s n="n"/></r></p></e> <!-- stratification,house__n -->
+4 stratification  <e><p><l>stratification<s n="n"/></l><r>laagvorming<s n="n"/></r></p></e>
+4 prism  <e><p><l>prism<s n="n"/></l><r>prisma<s n="n"/></r></p></e> <!-- prism,house__n -->
+4 pharmacology  <e><p><l>pharmacology<s n="n"/></l><r>farmakologie<s n="n"/></r></p></e> <!-- -->
+4 pathology  <e><p><l>pathology<s n="n"/></l><r>patologie<s n="n"/></r></p></e> <!-- -->
+4 malleable  <e><p><l>malleable<s n="adj"/></l><r>pletbaar<s n="adj"/></r></p></e> <!-- malleable,expensive__adj -->
+4 knuckle  <e><p><l>knuckle<s n="n"/></l><r>kneukel<s n="n"/></r></p></e> <!-- knuckle,house__n -->
+4 irradiate  <e><p><l>irradiate<s n="n"/></l><r>bestraal<s n="n"/></r></p></e> <!-- -->
+4 inoculation  <e><p><l>inoculation<s n="n"/></l><r>inokulering<s n="n"/></r></p></e> <!-- inoculation,house__n -->
+4 inoculation  <e><p><l>inoculation<s n="n"/></l><r>inokulasie<s n="n"/></r></p></e>
+4 inoculation  <e><p><l>inoculation<s n="n"/></l><r>inenting<s n="n"/></r></p></e>
+4 inflammation  <e><p><l>inflammation<s n="n"/></l><r>ontsteking<s n="n"/></r></p></e>
+4 inflammation  <e><p><l>inflammation<s n="n"/></l><r>inflammasie<s n="n"/></r></p></e> <!-- inflammation,house__n -->
+4 genial  <e><p><l>genial<s n="adj"/></l><r>geniaal<s n="adj"/></r></p></e> <!-- genial,expensive__adj -->
+4 fracture  <e><p><l>fracture<s n="n"/></l><r>fraktuur<s n="n"/></r></p></e> <!-- fracture,house__n -->
+4 fracture  <e><p><l>fracture<s n="n"/></l><r>breuk<s n="n"/></r></p></e>
+4 excrement  <e><p><l>excrement<s n="n"/></l><r>ontlasting<s n="n"/></r></p></e> <!-- excrement,house__n -->
+4 excrement  <e><p><l>excrement<s n="n"/></l><r>ekskrement<s n="n"/></r></p></e>
+4 eczema  <e><p><l>eczema<s n="n"/></l><r>ekseem<s n="n"/></r></p></e> <!-- eczema,house__n -->
+4 dope  <e><p><l>dope<s n="n"/></l><r>dwelmmiddel<s n="n"/></r></p></e> <!-- -->
+4 digestion  <e><p><l>digestion<s n="n"/></l><r>vertering<s n="n"/></r></p></e>
+4 digestion  <e><p><l>digestion<s n="n"/></l><r>spysvertering<s n="n"/></r></p></e> <!-- digestion,house__n__unc -->
+4 digestion  <e><p><l>digestion<s n="n"/></l><r>digestie<s n="n"/></r></p></e>
+4 detoxification  <e><p><l>detoxification<s n="n"/></l><r>detoksikasie<s n="n"/></r></p></e> <!-- detoxification,house__n -->
+4 coronary  <e><p><l>coronary<s n="n"/></l><r>kononêr<s n="n"/></r></p></e>
+4 coronary  <e><p><l>coronary<s n="adj"/></l><r>koronêr<s n="adj"/></r></p></e> <!-- coronary,expensive__adj -->
+4 colourless  <e><p><l>colourless<s n="adj"/></l><r>kleurloos<s n="adj"/></r></p></e> <!-- colourless,expensive__adj -->
+4 bronchial  <e><p><l>bronchial<s n="adj"/></l><r>brongiaal<s n="adj"/></r></p></e> <!-- bronchial,expensive__adj -->
+4 bladder  <e><p><l>bladder<s n="n"/></l><r>urienblaas<s n="n"/></r></p></e> <!-- bladder,house__n -->
+4 bladder  <e><p><l>bladder<s n="n"/></l><r>blaas<s n="n"/></r></p></e>
+4 aseptic  <e><p><l>aseptic<s n="adj"/></l><r>asepties<s n="adj"/></r></p></e> <!-- aseptic,expensive__adj -->
+4 artery  <e><p><l>artery<s n="n"/></l><r>slagaar<s n="n"/></r></p></e> <!-- -->
+4 artery  <e><p><l>artery<s n="n"/></l><r>arterie<s n="n"/></r></p></e>
+4 allergen  <e><p><l>allergen<s n="n"/></l><r>allergeen<s n="n"/></r></p></e> <!-- allergen,house__n -->
+3 wrist  <e><p><l>wrist<s n="n"/></l><r>polsgewrig<s n="n"/></r></p></e> <!-- wrist,house__n -->
+3 urine  <e><p><l>urine<s n="n"/></l><r>urine<s n="n"/></r></p></e> <!-- urine,house__n -->
+3 urine  <e><p><l>urine<s n="n"/></l><r>urien<s n="n"/></r></p></e>
+3 tetanus  <e><p><l>tetanus<s n="n"/></l><r>tetanus<s n="n"/></r></p></e> <!-- tetanus,politics__n -->
+3 sensitisation  <e><p><l>sensitisation<s n="n"/></l><r>sensitisasie<s n="n"/></r></p></e> <!-- sensitisation,house__n -->
+3 retarded  <e><p><l>retarded<s n="adj"/></l><r>vertraag<s n="adj"/></r></p></e> <!-- retarded,expensive__adj -->
+3 quotient  <e><p><l>quotient<s n="n"/></l><r>kwosiënt<s n="n"/></r></p></e> <!-- quotient,house__n -->
+3 pulmonary  <e><p><l>pulmonary<s n="n"/></l><r>pulmonêr<s n="n"/></r></p></e>
+3 pulmonary  <e><p><l>pulmonary<s n="adj"/></l><r>pulmonaal<s n="adj"/></r></p></e> <!-- pulmonary,expensive__adj -->
+3 pneumatic  <e><p><l>pneumatic<s n="adj"/></l><r>pneumaties<s n="adj"/></r></p></e> <!-- pneumatic,expensive__adj -->
+3 pleural  <e><p><l>pleural<s n="adj"/></l><r>pleuraal<s n="adj"/></r></p></e> <!-- pleural,expensive__adj -->
+3 osteoporosis  <e><p><l>osteoporosis<s n="n"/></l><r>osteoporose<s n="n"/></r></p></e> <!-- -->
+3 oestrogen  <e><p><l>oestrogen<s n="n"/></l><r>oestrogeen<s n="n"/></r></p></e> <!-- oestrogen,house__n -->
+3 neurology  <e><p><l>neurology<s n="n"/></l><r>neurologie<s n="n"/></r></p></e> <!-- -->
+3 myopia  <e><p><l>myopia<s n="n"/></l><r>miopie<s n="n"/></r></p></e> <!-- myopia,house__n -->
+3 murmur  <e><p><l>murmur<s n="n"/></l><r>geruis<s n="n"/></r></p></e> <!-- murmur,house__n -->
+3 milligram  <e><p><l>milligram<s n="n"/></l><r>milligram<s n="n"/></r></p></e> <!-- milligram,house__n -->
+3 lymph  <e><p><l>lymph<s n="n"/></l><r>limf<s n="n"/></r></p></e> <!-- lymph,house__n -->
+3 lymphatic  <e><p><l>lymphatic<s n="adj"/></l><r>limfaties<s n="adj"/></r></p></e> <!-- lymphatic,expensive__adj -->
+3 jelly  <e><p><l>jelly<s n="n"/></l><r>jellie<s n="n"/></r></p></e> <!-- -->
+3 infusion  <e><p><l>infusion<s n="n"/></l><r>ingieting<s n="n"/></r></p></e> <!-- infusion,house__n -->
+3 infusion  <e><p><l>infusion<s n="n"/></l><r>infusie<s n="n"/></r></p></e>
+3 indigestion  <e><p><l>indigestion<s n="n"/></l><r>indigestie<s n="n"/></r></p></e> <!-- indigestion,house__n -->
+3 impermeable  <e><p><l>impermeable<s n="n"/></l><r>ondeurlatend<s n="n"/></r></p></e>
+3 impermeable  <e><p><l>impermeable<s n="adj"/></l><r>ondeurdringbaar<s n="adj"/></r></p></e> <!-- impermeable,expensive__adj -->
+3 immersion  <e><p><l>immersion<s n="n"/></l><r>immersie<s n="n"/></r></p></e> <!-- immersion,house__n -->
+3 hermaphrodite  <e><p><l>hermaphrodite<s n="n"/></l><r>hermafrodiet<s n="n"/></r></p></e> <!-- hermaphrodite,house__n -->
+3 gradient  <e><p><l>gradient<s n="n"/></l><r>gradiënt<s n="n"/></r></p></e> <!-- gradient,house__n -->
+3 gland  <e><p><l>gland<s n="n"/></l><r>klier<s n="n"/></r></p></e> <!-- gland,house__n -->
+3 gamete  <e><p><l>gamete<s n="n"/></l><r>geslagsel<s n="n"/></r></p></e> <!-- gamete,house__n -->
+3 gamete  <e><p><l>gamete<s n="n"/></l><r>gameet<s n="n"/></r></p></e>
+3 formaldehyde  <e><p><l>formaldehyde<s n="n"/></l><r>formaldehied<s n="n"/></r></p></e> <!-- formaldehyde,house__n -->
+3 fibrous  <e><p><l>fibrous<s n="n"/></l><r>fibreus<s n="n"/></r></p></e>
+3 fibrous  <e><p><l>fibrous<s n="adj"/></l><r>veselagtig<s n="adj"/></r></p></e> <!-- fibrous,expensive__adj -->
+3 facial  <e><p><l>facial<s n="n"/></l><r>fasiaal<s n="n"/></r></p></e>
+3 facial  <e><p><l>facial<s n="adj"/></l><r>fasieel<s n="adj"/></r></p></e> <!-- facial,expensive__adj -->
+3 ergonomics  <e><p><l>ergonomics<s n="n"/></l><r>ergonomie<s n="n"/></r></p></e> <!-- ergonomics,politics__n -->
+3 enzymatic  <e><p><l>enzymatic<s n="adj"/></l><r>ensimaties<s n="adj"/></r></p></e> <!-- enzymatic,expensive__adj -->
+3 drip  <e><p><l>drip<s n="vblex"/></l><r>drup<s n="vblex"/></r></p></e> <!-- drip,step__vblex -->
+3 dissection  <e><p><l>dissection<s n="n"/></l><r>disseksie<s n="n"/></r></p></e> <!-- dissection,house__n -->
+3 cone  <e><p><l>cone<s n="n"/></l><r>keëltjie<s n="n"/></r></p></e> <!-- cone,house__n -->
+3 chemist  <e><p><l>chemist<s n="n"/></l><r>apteker<s n="n"/></r></p></e> <!-- chemist,house__n -->
+3 cerebral  <e><p><l>cerebral<s n="adj"/></l><r>serebraal<s n="adj"/></r></p></e> <!-- cerebral,expensive__adj -->
+3 beta  <e><p><l>beta<s n="n"/></l><r>beta<s n="n"/></r></p></e> <!-- beta,house__n -->
+3 arterial  <e><p><l>arterial<s n="adj"/></l><r>arterieel<s n="adj"/></r></p></e> <!-- arterial,expensive__adj -->
+3 aqua  <e><p><l>aqua<s n="adj"/></l><r>aqua<s n="adj"/></r></p></e> <!-- aqua,expensive__adj -->
+3 apex  <e><p><l>apex<s n="n"/></l><r>apeks<s n="n"/></r></p></e> <!-- -->
+3 anorexia  <e><p><l>anorexia<s n="n"/></l><r>anoreksie<s n="n"/></r></p></e> <!-- anorexia,house__n__unc -->
+2 vaginal  <e><p><l>vaginal<s n="adj"/></l><r>vaginaal<s n="adj"/></r></p></e> <!-- vaginal,expensive__adj -->
+2 uterine  <e><p><l>uterine<s n="adj"/></l><r>uterien<s n="adj"/></r></p></e> <!-- uterine,expensive__adj -->
+2 tremor  <e><p><l>tremor<s n="n"/></l><r>tremor<s n="n"/></r></p></e> <!-- tremor,house__n -->
+2 traction  <e><p><l>traction<s n="n"/></l><r>traksie<s n="n"/></r></p></e> <!-- traction,house__n__unc -->
+2 sulphate  <e><p><l>sulphate<s n="n"/></l><r>sulfaat<s n="n"/></r></p></e> <!-- sulphate,house__n -->
+2 shaft  <e><p><l>shaft<s n="n"/></l><r>skag<s n="n"/></r></p></e> <!-- shaft,house__n -->
+2 septic  <e><p><l>septic<s n="adj"/></l><r>septies<s n="adj"/></r></p></e> <!-- septic,expensive__adj -->
+2 replication  <e><p><l>replication<s n="n"/></l><r>replikasie<s n="n"/></r></p></e> <!-- replication,house__n -->
+2 rectum  <e><p><l>rectum<s n="n"/></l><r>rektum<s n="n"/></r></p></e>
+2 rectum  <e><p><l>rectum<s n="n"/></l><r>endelderm<s n="n"/></r></p></e> <!-- rectum,house__n -->
+2 receptor  <e><p><l>receptor<s n="n"/></l><r>reseptor<s n="n"/></r></p></e> <!-- receptor,house__n -->
+2 radiologist  <e><p><l>radiologist<s n="n"/></l><r>radioloog<s n="n"/></r></p></e> <!-- radiologist,house__n -->
+2 pharmacologist  <e><p><l>pharmacologist<s n="n"/></l><r>farmakoloog<s n="n"/></r></p></e> <!-- pharmacologist,house__n -->
+2 penicillin  <e><p><l>penicillin<s n="n"/></l><r>penisillien<s n="n"/></r></p></e> <!-- penicillin,house__n -->
+2 oxidation  <e><p><l>oxidation<s n="n"/></l><r>oksidasie<s n="n"/></r></p></e>
+2 oxidation  <e><p><l>oxidation<s n="n"/></l><r>inskrywing<s n="n"/></r></p></e> <!-- oxidation,house__n__unc -->
+2 olfactory  <e><p><l>olfactory<s n="adj"/></l><r>olfaktories<s n="adj"/></r></p></e> <!-- olfactory,expensive__adj -->
+2 nitrite  <e><p><l>nitrite<s n="n"/></l><r>nitriet<s n="n"/></r></p></e> <!-- nitrite,house__n -->
+2 neural  <e><p><l>neural<s n="adj"/></l><r>neuraal<s n="adj"/></r></p></e> <!-- neural,expensive__adj -->
+2 nasal  <e><p><l>nasal<s n="adj"/></l><r>nasaal<s n="adj"/></r></p></e> <!-- nasal,expensive__adj -->
+2 muscular  <e><p><l>muscular<s n="adj"/></l><r>muskulêr<s n="adj"/></r></p></e> <!-- muscular,expensive__adj -->
+2 microscopy  <e><p><l>microscopy<s n="n"/></l><r>mikroskopie<s n="n"/></r></p></e> <!-- -->
+2 microbe  <e><p><l>microbe<s n="n"/></l><r>mikroob<s n="n"/></r></p></e> <!-- microbe,house__n -->
+2 microbe  <e><p><l>microbe<s n="n"/></l><r>mikrobe<s n="n"/></r></p></e>
+2 methanol  <e><p><l>methanol<s n="n"/></l><r>metanol<s n="n"/></r></p></e>
+2 methanol  <e><p><l>methanol<s n="n"/></l><r>houtalkohol<s n="n"/></r></p></e> <!-- methanol,house__n -->
+2 menopause  <e><p><l>menopause<s n="n"/></l><r>menopouse<s n="n"/></r></p></e> <!-- menopause,house__n -->
+2 marble  <e><p><l>marble<s n="n"/></l><r>marmer<s n="n"/></r></p></e> <!-- marble,house__n -->
+2 lumbar  <e><p><l>lumbar<s n="adj"/></l><r>lumbaal<s n="adj"/></r></p></e> <!-- lumbar,expensive__adj -->
+2 iodine  <e><p><l>iodine<s n="n"/></l><r>jodium<s n="n"/></r></p></e> <!-- iodine,house__n -->
+2 inoculate  <e><p><l>inoculate<s n="vblex"/></l><r>inokuleer<s n="vblex"/></r></p></e> <!-- -->
+2 inoculate  <e><p><l>inoculate<s n="n"/></l><r>ent<s n="n"/></r></p></e>
+2 inhibitory  <e><p><l>inhibitory<s n="adj"/></l><r>inhiberend<s n="adj"/></r></p></e> <!-- inhibitory,expensive__adj -->
+2 immobilisation  <e><p><l>immobilisation<s n="n"/></l><r>immobilisering<s n="n"/></r></p></e> <!-- immobilisation,house__n -->
+2 hydrolysis  <e><p><l>hydrolysis<s n="n"/></l><r>hidrolise<s n="n"/></r></p></e> <!-- -->
+2 hydride  <e><p><l>hydride<s n="n"/></l><r>hidried<s n="n"/></r></p></e> <!-- hydride,house__n -->
+2 gastric  <e><p><l>gastric<s n="adj"/></l><r>gastries<s n="adj"/></r></p></e> <!-- gastric,expensive__adj -->
+2 fungus  <e><p><l>fungus<s n="n"/></l><r>swam<s n="n"/></r></p></e>
+2 fungus  <e><p><l>fungus<s n="n"/></l><r>fungus<s n="n"/></r></p></e> <!-- fungus,access__n -->
+2 forearm  <e><p><l>forearm<s n="n"/></l><r>voorarm<s n="n"/></r></p></e> <!-- forearm,house__n -->
+2 fluorescent  <e><p><l>fluorescent<s n="adj"/></l><r>fluoresserend<s n="adj"/></r></p></e> <!-- fluorescent,expensive__adj -->
+2 evaporation  <e><p><l>evaporation<s n="n"/></l><r>verdamping<s n="n"/></r></p></e> <!-- evaporation,house__n__unc -->
+2 ester  <e><p><l>ester<s n="n"/></l><r>ester<s n="n"/></r></p></e> <!-- ester,house__n -->
+2 enzyme  <e><p><l>enzyme<s n="n"/></l><r>ensiem<s n="n"/></r></p></e> <!-- enzyme,house__n -->
+2 dorsal  <e><p><l>dorsal<s n="adj"/></l><r>dorsaal<s n="adj"/></r></p></e> <!-- dorsal,expensive__adj -->
+2 disinfect  <e><p><l>disinfect<s n="vblex"/></l><r>disinfekteer<s n="vblex"/></r></p></e> <!-- disinfect"> ,accept__vblex -->
+2 disinfect  <e><p><l>disinfect<s n="n"/></l><r>ontsmet<s n="n"/></r></p></e>
+2 dehydration  <e><p><l>dehydration<s n="n"/></l><r>ontwatering<s n="n"/></r></p></e> <!-- dehydration,house__n -->
+2 dehydration  <e><p><l>dehydration<s n="n"/></l><r>dehidrasie<s n="n"/></r></p></e>
+2 decomposition  <e><p><l>decomposition<s n="n"/></l><r>dekomposisie<s n="n"/></r></p></e> <!-- decomposition,house__n -->
+2 cusp  <e><p><l>cusp<s n="n"/></l><r>kusp<s n="n"/></r></p></e> <!-- cusp,house__n -->
+2 crystalline  <e><p><l>crystalline<s n="adj"/></l><r>kristallyn<s n="adj"/></r></p></e> <!-- crystalline,expensive__adj -->
+2 constriction  <e><p><l>constriction<s n="n"/></l><r>konstriksie<s n="n"/></r></p></e> <!-- constriction,house__n -->
+2 chemotherapy  <e><p><l>chemotherapy<s n="n"/></l><r>chemoterapie<s n="n"/></r></p></e> <!-- -->
+2 capillary  <e><p><l>capillary<s n="n"/></l><r>kapillêr<s n="n"/></r></p></e>
+2 capillary  <e><p><l>capillary<s n="n"/></l><r>haarvat<s n="n"/></r></p></e>
+2 capillary  <e><p><l>capillary<s n="n"/></l><r>bloedhaarvat<s n="n"/></r></p></e> <!-- -->
+2 bacillus  <e><p><l>bacillus<s n="n"/></l><r>basil<s n="n"/></r></p></e>
+2 bacillus  <e><p><l>bacillus<s n="n"/></l><r>bacillus<s n="n"/></r></p></e> <!-- bacillus,access__n -->
+2 aqueduct  <e><p><l>aqueduct<s n="n"/></l><r>akwaduk<s n="n"/></r></p></e> <!-- aqueduct,house__n -->
+2 anatomical  <e><p><l>anatomical<s n="adj"/></l><r>anatomies<s n="adj"/></r></p></e> <!-- anatomical,expensive__adj -->
+2 amino acid  <e><p><l>amino acid<s n="n"/></l><r>aminosuur<s n="n"/></r></p></e> <!-- -->
+2 alkaline  <e><p><l>alkaline<s n="adj"/></l><r>alkalies<s n="adj"/></r></p></e> <!-- alkaline,expensive__adj -->
+2 affective  <e><p><l>affective<s n="adj"/></l><r>affektief<s n="adj"/></r></p></e> <!-- affective,expensive__adj -->
+2 abdominal  <e><p><l>abdominal<s n="adj"/></l><r>abdominaal<s n="adj"/></r></p></e> <!-- abdominal,expensive__adj -->
+1 vomit  <e><p><l>vomit<s n="n"/></l><r>vomeer<s n="n"/></r></p></e> <!-- vomit,house__n -->
+1 volt  <e><p><l>volt<s n="n"/></l><r>volt<s n="n"/></r></p></e> <!-- volt,house__n -->
+1 viscous  <e><p><l>viscous<s n="adj"/></l><r>viskeus<s n="adj"/></r></p></e> <!-- viscous,expensive__adj -->
+1 viscosity  <e><p><l>viscosity<s n="n"/></l><r>vloeitraagheid<s n="n"/></r></p></e> <!-- -->
+1 viscosity  <e><p><l>viscosity<s n="n"/></l><r>viskositeit<s n="n"/></r></p></e>
+1 unconsciousness  <e><p><l>unconsciousness<s n="n"/></l><r>bewusteloosheid<s n="n"/></r></p></e> <!-- unconsciousness,east__n__unc -->
+1 tonic  <e><p><l>tonic<s n="adj"/></l><r>tonies<s n="adj"/></r></p></e> <!-- tonic,expensive__adj -->
+1 tomography  <e><p><l>tomography<s n="n"/></l><r>tomografie<s n="n"/></r></p></e> <!-- -->
+1 taxonomy  <e><p><l>taxonomy<s n="n"/></l><r>taksonomie<s n="n"/></r></p></e> <!-- -->
+1 syringe  <e><p><l>syringe<s n="n"/></l><r>spuit<s n="n"/></r></p></e> <!-- syringe,house__n -->
+1 stethoscope  <e><p><l>stethoscope<s n="n"/></l><r>stetoskoop<s n="n"/></r></p></e> <!-- stethoscope,house__n -->
+1 stethoscope  <e><p><l>stethoscope<s n="n"/></l><r>gehoorpyp<s n="n"/></r></p></e>
+1 sinew  <e><p><l>sinew<s n="n"/></l><r>sening<s n="n"/></r></p></e> <!-- sinew,house__n -->
+1 sinew  <e><p><l>sinew<s n="n"/></l><r>pees<s n="n"/></r></p></e>
+1 serum  <e><p><l>serum<s n="n"/></l><r>serum<s n="n"/></r></p></e> <!-- serum,house__n -->
+1 sediment  <e><p><l>sediment<s n="n"/></l><r>sediment<s n="n"/></r></p></e> <!-- sediment,house__n -->
+1 sacral  <e><p><l>sacral<s n="adj"/></l><r>sakraal<s n="adj"/></r></p></e> <!-- sacral,expensive__adj -->
+1 saccharose  <e><p><l>saccharose<s n="n"/></l><r>sakkarose<s n="n"/></r></p></e> <!-- saccharose,house__n -->
+1 rheumatism  <e><p><l>rheumatism<s n="n"/></l><r>rumatiek<s n="n"/></r></p></e> <!-- rheumatism,house__n -->
+1 retrovirus  <e><p><l>retrovirus<s n="n"/></l><r>retrovirus<s n="n"/></r></p></e> <!-- -->
+1 retort  <e><p><l>retort<s n="vblex"/></l><r>retort<s n="vblex"/></r></p></e> <!-- retort"> ,accept__vblex -->
+1 renal  <e><p><l>renal<s n="adj"/></l><r>renaal<s n="adj"/></r></p></e> <!-- renal,expensive__adj -->
+1 refractory  <e><p><l>refractory<s n="n"/></l><r>refraktêr<s n="n"/></r></p></e>
+1 refractory  <e><p><l>refractory<s n="adj"/></l><r>refraktories<s n="adj"/></r></p></e> <!-- refractory,expensive__adj -->
+1 ramification  <e><p><l>ramification<s n="n"/></l><r>ramifikasie<s n="n"/></r></p></e> <!-- ramification,house__n -->
+1 puncture  <e><p><l>puncture<s n="n"/></l><r>punksie<s n="n"/></r></p></e> <!-- -->
+1 psychosomatic  <e><p><l>psychosomatic<s n="adj"/></l><r>psigosomaties<s n="adj"/></r></p></e> <!-- psychosomatic,expensive__adj -->
+1 psychic  <e><p><l>psychic<s n="adj"/></l><r>psigies<s n="adj"/></r></p></e> <!-- psychic,expensive__adj -->
+1 polarity  <e><p><l>polarity<s n="n"/></l><r>polariteit<s n="n"/></r></p></e> <!-- -->
+1 pleura  <e><p><l>pleura<s n="n"/></l><r>pleura<s n="n"/></r></p></e>
+1 pleura  <e><p><l>pleura<s n="n"/></l><r>longvlies<s n="n"/></r></p></e> <!-- pleura,house__n -->
+1 placebo  <e><p><l>placebo<s n="n"/></l><r>plasebo<s n="n"/></r></p></e> <!-- placebo,archipelago__n -->
+1 pigment  <e><p><l>pigment<s n="n"/></l><r>pigment<s n="n"/></r></p></e> <!-- pigment,house__n -->
+1 physiotherapy  <e><p><l>physiotherapy<s n="n"/></l><r>fisioterapie<s n="n"/></r></p></e> <!-- -->
+1 pharmacopoeia  <e><p><l>pharmacopoeia<s n="n"/></l><r>farmakopeia<s n="n"/></r></p></e> <!-- pharmacopoeia,house__n -->
+1 pharmacopoeia  <e><p><l>pharmacopoeia<s n="n"/></l><r>farmakopee<s n="n"/></r></p></e>
+1 permeable  <e><p><l>permeable<s n="adj"/></l><r>deurlatend<s n="adj"/></r></p></e> <!-- permeable,expensive__adj -->
+1 periodicity  <e><p><l>periodicity<s n="n"/></l><r>periodisiteit<s n="n"/></r></p></e> <!-- -->
+1 pathologist  <e><p><l>pathologist<s n="n"/></l><r>patoloog<s n="n"/></r></p></e> <!-- pathologist,house__n -->
+1 palate  <e><p><l>palate<s n="n"/></l><r>verhemelte<s n="n"/></r></p></e> <!-- palate,house__n -->
+1 ovary  <e><p><l>ovary<s n="n"/></l><r>eierstok<s n="n"/></r></p></e> <!-- -->
+1 ossification  <e><p><l>ossification<s n="n"/></l><r>verbening<s n="n"/></r></p></e>
+1 ossification  <e><p><l>ossification<s n="n"/></l><r>ossifikasie<s n="n"/></r></p></e> <!-- ossification,house__n -->
+1 ocular  <e><p><l>ocular<s n="adj"/></l><r>okulêr<s n="adj"/></r></p></e> <!-- ocular,expensive__adj -->
+1 obstetrics  <e><p><l>obstetrics<s n="n"/></l><r>verloskunde<s n="n"/></r></p></e> <!-- obstetrics,politics__n -->
+1 obstetrics  <e><p><l>obstetrics<s n="n"/></l><r>obstetrie<s n="n"/></r></p></e>
+1 mutant  <e><p><l>mutant<s n="n"/></l><r>mutant<s n="n"/></r></p></e> <!-- mutant,house__n -->
+1 mucus  <e><p><l>mucus<s n="n"/></l><r>mukus<s n="n"/></r></p></e> <!-- mucus,access__n -->
+1 morphological  <e><p><l>morphological<s n="adj"/></l><r>morfologies<s n="adj"/></r></p></e> <!-- morphological,expensive__adj -->
+1 monomer  <e><p><l>monomer<s n="n"/></l><r>monomeer<s n="n"/></r></p></e> <!-- monomer,house__n -->
+1 migraine  <e><p><l>migraine<s n="n"/></l><r>skeelhoofpyn<s n="n"/></r></p></e> <!-- migraine,house__n -->
+1 migraine  <e><p><l>migraine<s n="n"/></l><r>migraine<s n="n"/></r></p></e>
+1 meniscus  <e><p><l>meniscus<s n="n"/></l><r>meniskus<s n="n"/></r></p></e> <!-- meniscus,access__n -->
+1 membrane  <e><p><l>membrane<s n="n"/></l><r>vlies<s n="n"/></r></p></e>
+1 membrane  <e><p><l>membrane<s n="n"/></l><r>membraan<s n="n"/></r></p></e> <!-- membrane,house__n -->
+1 medial  <e><p><l>medial<s n="adj"/></l><r>mediaal<s n="adj"/></r></p></e> <!-- medial,expensive__adj -->
+1 masturbation  <e><p><l>masturbation<s n="n"/></l><r>masturbasie<s n="n"/></r></p></e> <!-- masturbation,house__n -->
+1 mastectomy  <e><p><l>mastectomy<s n="n"/></l><r>mastektomie<s n="n"/></r></p></e> <!-- -->
+1 masseter  <e><p><l>masseter<s n="n"/></l><r>masseter<s n="n"/></r></p></e> <!-- masseter,house__n -->
+1 macroscopic  <e><p><l>macroscopic<s n="adj"/></l><r>makroskopies<s n="adj"/></r></p></e> <!-- macroscopic,expensive__adj -->
+1 logarithmic  <e><p><l>logarithmic<s n="adj"/></l><r>logaritmies<s n="adj"/></r></p></e> <!-- logarithmic,expensive__adj -->
+1 larva  <e><p><l>larva<s n="n"/></l><r>larwe<s n="n"/></r></p></e> <!-- larva,larva__n -->
+1 lactation  <e><p><l>lactation<s n="n"/></l><r>laktasie<s n="n"/></r></p></e> <!-- lactation,house__n -->
+1 jaundice  <e><p><l>jaundice<s n="n"/></l><r>geelsug<s n="n"/></r></p></e> <!-- jaundice,house__n -->
+1 iris  <e><p><l>iris<s n="n"/></l><r>iris<s n="n"/></r></p></e>
+1 iris  <e><p><l>iris<s n="n"/></l><r>inskrywing<s n="n"/></r></p></e> <!-- -->
+1 ion  <e><p><l>ion<s n="n"/></l><r>ioon<s n="n"/></r></p></e> <!-- ion,house__n -->
+1 insemination  <e><p><l>insemination<s n="n"/></l><r>inseminasie<s n="n"/></r></p></e> <!-- insemination,house__n -->
+1 infarct  <e><p><l>infarct<s n="n"/></l><r>infarkt<s n="n"/></r></p></e> <!-- infarct,house__n -->
+1 ileum  <e><p><l>ileum<s n="n"/></l><r>kronkelderm<s n="n"/></r></p></e> <!-- ileum,house__n -->
+1 hypoxia  <e><p><l>hypoxia<s n="n"/></l><r>hipoksie<s n="n"/></r></p></e> <!-- hypoxia,house__n -->
+1 humid  <e><p><l>humid<s n="adj"/></l><r>vogtig<s n="adj"/></r></p></e> <!-- humid,expensive__adj -->
+1 genitalia  <e><p><l>genitalia<s n="n"/></l><r>genitalia<s n="n"/></r></p></e> <!-- genitalia,house__n -->
+1 gelatinous  <e><p><l>gelatinous<s n="n"/></l><r>jellieagtig<s n="n"/></r></p></e>
+1 gelatinous  <e><p><l>gelatinous<s n="adj"/></l><r>gelatienagtig<s n="adj"/></r></p></e> <!-- gelatinous,expensive__adj -->
+1 ganglion  <e><p><l>ganglion<s n="n"/></l><r>senuweeknoop<s n="n"/></r></p></e> <!-- ganglion,house__n -->
+1 flocculation  <e><p><l>flocculation<s n="n"/></l><r>flokkulering<s n="n"/></r></p></e> <!-- flocculation,house__n -->
+1 fibrillation  <e><p><l>fibrillation<s n="n"/></l><r>fibrillasie<s n="n"/></r></p></e> <!-- fibrillation,house__n -->
+1 entropy  <e><p><l>entropy<s n="n"/></l><r>entropie<s n="n"/></r></p></e> <!-- -->
+1 emphysema  <e><p><l>emphysema<s n="n"/></l><r>emfiseem<s n="n"/></r></p></e> <!-- emphysema,house__n -->
+1 embryology  <e><p><l>embryology<s n="n"/></l><r>embriologie<s n="n"/></r></p></e> <!-- -->
+1 electrolysis  <e><p><l>electrolysis<s n="n"/></l><r>elektrolise<s n="n"/></r></p></e> <!-- -->
+1 dyslexia  <e><p><l>dyslexia<s n="n"/></l><r>disleksie<s n="n"/></r></p></e> <!-- dyslexia,house__n -->
+1 dissect  <e><p><l>dissect<s n="vblex"/></l><r>dissekteer<s n="vblex"/></r></p></e> <!-- dissect,accept__vblex -->
+1 diploid  <e><p><l>diploid<s n="adj"/></l><r>diploïed<s n="adj"/></r></p></e> <!-- diploid,expensive__adj -->
+1 diphtheria  <e><p><l>diphtheria<s n="n"/></l><r>witseerkeel<s n="n"/></r></p></e> <!-- diphtheria,house__n -->
+1 diphtheria  <e><p><l>diphtheria<s n="n"/></l><r>difterie<s n="n"/></r></p></e>
+1 denitrification  <e><p><l>denitrification<s n="n"/></l><r>denitrifikasie<s n="n"/></r></p></e> <!-- denitrification,house__n -->
+1 decompression  <e><p><l>decompression<s n="n"/></l><r>dekompressie<s n="n"/></r></p></e> <!-- decompression,house__n -->
+1 cyst  <e><p><l>cyst<s n="n"/></l><r>sist<s n="n"/></r></p></e> <!-- cyst,house__n -->
+1 corrosion  <e><p><l>corrosion<s n="n"/></l><r>korrosie<s n="n"/></r></p></e> <!-- corrosion,house__n -->
+1 convulsion  <e><p><l>convulsion<s n="n"/></l><r>stuiptrekking<s n="n"/></r></p></e> <!-- convulsion,house__n -->
+1 convulsion  <e><p><l>convulsion<s n="n"/></l><r>konvulsie<s n="n"/></r></p></e>
+1 condensation  <e><p><l>condensation<s n="n"/></l><r>kondensasie<s n="n"/></r></p></e> <!-- condensation,house__n -->
+1 coitus  <e><p><l>coitus<s n="n"/></l><r>koïtus<s n="n"/></r></p></e> <!-- coitus,access__n -->
+1 coagulation  <e><p><l>coagulation<s n="n"/></l><r>stolling<s n="n"/></r></p></e>
+1 coagulation  <e><p><l>coagulation<s n="n"/></l><r>koagulasie<s n="n"/></r></p></e> <!-- coagulation,house__n -->
+1 chromosome  <e><p><l>chromosome<s n="n"/></l><r>chromosoom<s n="n"/></r></p></e> <!-- chromosome,house__n -->
+1 cavity  <e><p><l>cavity<s n="n"/></l><r>oogholte<s n="n"/></r></p></e> <!-- -->
+1 cavity  <e><p><l>cavity<s n="n"/></l><r>holte<s n="n"/></r></p></e>
+1 cathode  <e><p><l>cathode<s n="n"/></l><r>katode<s n="n"/></r></p></e> <!-- cathode,house__n -->
+1 catalysis  <e><p><l>catalysis<s n="n"/></l><r>katalise<s n="n"/></r></p></e> <!-- -->
+1 castrate  <e><p><l>castrate<s n="n"/></l><r>kastreer<s n="n"/></r></p></e> <!-- -->
+1 cartilage  <e><p><l>cartilage<s n="n"/></l><r>kraakbeen<s n="n"/></r></p></e> <!-- cartilage,house__n -->
+1 carotid  <e><p><l>carotid<s n="n"/></l><r>nekslagaar<s n="n"/></r></p></e> <!-- carotid,house__n -->
+1 carotid  <e><p><l>carotid<s n="n"/></l><r>karotis-<s n="n"/></r></p></e>
+1 carotid  <e><p><l>carotid<s n="n"/></l><r>karotis<s n="n"/></r></p></e>
+1 carcinoma  <e><p><l>carcinoma<s n="n"/></l><r>karsinoom<s n="n"/></r></p></e> <!-- carcinoma,house__n -->
+1 calorie  <e><p><l>calorie<s n="n"/></l><r>kalorie<s n="n"/></r></p></e> <!-- calorie,house__n -->
+1 bisection  <e><p><l>bisection<s n="n"/></l><r>biseksie<s n="n"/></r></p></e> <!-- bisection,house__n -->
+1 biochemist  <e><p><l>biochemist<s n="n"/></l><r>biochemikus<s n="n"/></r></p></e> <!-- biochemist,house__n -->
+1 autopsy  <e><p><l>autopsy<s n="n"/></l><r>outopsie<s n="n"/></r></p></e>
+1 autopsy  <e><p><l>autopsy<s n="n"/></l><r>lykskouing<s n="n"/></r></p></e> <!-- -->
+1 atrophy  <e><p><l>atrophy<s n="n"/></l><r>atrofie<s n="n"/></r></p></e> <!-- -->
+1 asphyxia  <e><p><l>asphyxia<s n="n"/></l><r>asfiksie<s n="n"/></r></p></e> <!-- asphyxia,house__n -->
+1 asexual  <e><p><l>asexual<s n="n"/></l><r>aseksueel<s n="n"/></r></p></e>
+1 asexual  <e><p><l>asexual<s n="adj"/></l><r>ongeslagtelik<s n="adj"/></r></p></e> <!-- asexual,expensive__adj -->
+1 anticoagulant  <e><p><l>anticoagulant<s n="n"/></l><r>antistolmiddel<s n="n"/></r></p></e> <!-- anticoagulant,house__n -->
+1 anticoagulant  <e><p><l>anticoagulant<s n="n"/></l><r>antikoagulant<s n="n"/></r></p></e>
+1 antibody  <e><p><l>antibody<s n="n"/></l><r>teenliggaam<s n="n"/></r></p></e> <!-- -->
+1 antibody  <e><p><l>antibody<s n="n"/></l><r>antiliggaam<s n="n"/></r></p></e>
+1 ankylosis  <e><p><l>ankylosis<s n="n"/></l><r>ankilose<s n="n"/></r></p></e> <!-- -->
+1 ankle  <e><p><l>ankle<s n="n"/></l><r>enkel<s n="n"/></r></p></e> <!-- ankle,house__n -->
+1 albumin  <e><p><l>albumin<s n="n"/></l><r>eiwit<s n="n"/></r></p></e>
+1 albumin  <e><p><l>albumin<s n="n"/></l><r>eierwit<s n="n"/></r></p></e>
+1 albumin  <e><p><l>albumin<s n="n"/></l><r>albumien<s n="n"/></r></p></e> <!-- albumin,house__n -->
+0 zymogen  <e><p><l>zymogen<s n="n"/></l><r>simogeen<s n="n"/></r></p></e> <!-- zymogen,house__n -->
+0 zygote  <e><p><l>zygote<s n="n"/></l><r>sigoot<s n="n"/></r></p></e> <!-- zygote,house__n -->
+0 zygoma  <e><p><l>zygoma<s n="n"/></l><r>sigoom<s n="n"/></r></p></e>
+0 zygoma  <e><p><l>zygoma<s n="n"/></l><r>sigomatiese been<s n="n"/></r></p></e> <!-- zygoma,schema__n -->
+0 zygoma  <e><p><l>zygoma<s n="n"/></l><r>sigoma<s n="n"/></r></p></e>
+0 zygoma  <e><p><l>zygoma<s n="n"/></l><r>jukbeen<s n="n"/></r></p></e>
+0 xiphoid  <e><p><l>xiphoid<s n="n"/></l><r>xifoïed<s n="n"/></r></p></e> <!-- xiphoid,house__n -->
+0 vulva  <e><p><l>vulva<s n="n"/></l><r>vulva<s n="n"/></r></p></e>
+0 vulva  <e><p><l>vulva<s n="n"/></l><r>skaamlippe<s n="n"/></r></p></e> <!-- vulva,larva__n -->
+0 volumetric  <e><p><l>volumetric<s n="adj"/></l><r>volumetries<s n="adj"/></r></p></e> <!-- volumetric,expensive__adj -->
+0 vivisection  <e><p><l>vivisection<s n="n"/></l><r>viviseksie<s n="n"/></r></p></e> <!-- vivisection,house__n -->
+0 viviparous  <e><p><l>viviparous<s n="n"/></l><r>vivipaar<s n="n"/></r></p></e>
+0 viviparous  <e><p><l>viviparous<s n="adj"/></l><r>lewendbarend<s n="adj"/></r></p></e> <!-- viviparous,expensive__adj -->
+0 vitelline  <e><p><l>vitelline<s n="n"/></l><r>vitellien<s n="n"/></r></p></e>
+0 vitelline  <e><p><l>vitelline<s n="adj"/></l><r>vitellien<s n="adj"/></r></p></e> <!-- vitelline,expensive__adj -->
+0 virology  <e><p><l>virology<s n="n"/></l><r>virologie<s n="n"/></r></p></e> <!-- -->
+0 vestibular  <e><p><l>vestibular<s n="adj"/></l><r>vestibulêr<s n="adj"/></r></p></e> <!-- vestibular,expensive__adj -->
+0 vesical  <e><p><l>vesical<s n="adj"/></l><r>vesikaal<s n="adj"/></r></p></e> <!-- vesical,expensive__adj -->
+0 vertebra  <e><p><l>vertebra<s n="n"/></l><r>werwel<s n="n"/></r></p></e>
+0 vertebra  <e><p><l>vertebra<s n="n"/></l><r>vertebra<s n="n"/></r></p></e> <!-- vertebra,larva__n -->
+0 venule  <e><p><l>venule<s n="n"/></l><r>venule<s n="n"/></r></p></e>
+0 venule  <e><p><l>venule<s n="n"/></l><r>aartjie<s n="n"/></r></p></e> <!-- venule,house__n -->
+0 ventricle  <e><p><l>ventricle<s n="n"/></l><r>ventrikel<s n="n"/></r></p></e> <!-- ventricle,house__n -->
+0 ventricle  <e><p><l>ventricle<s n="n"/></l><r>pompkamer<s n="n"/></r></p></e>
+0 venous  <e><p><l>venous<s n="adj"/></l><r>veneus<s n="adj"/></r></p></e> <!-- venous,expensive__adj -->
+0 vasodilation  <e><p><l>vasodilation<s n="n"/></l><r>vasodilatasie<s n="n"/></r></p></e> <!-- vasodilation,house__n -->
+0 valency  <e><p><l>valency<s n="n"/></l><r>valensie<s n="n"/></r></p></e> <!-- -->
+0 vagina  <e><p><l>vagina<s n="n"/></l><r>vagina<s n="n"/></r></p></e> <!-- vagina,larva__n -->
+0 vacuole  <e><p><l>vacuole<s n="n"/></l><r>vakuool<s n="n"/></r></p></e> <!-- vacuole,house__n -->
+0 uvula  <e><p><l>uvula<s n="n"/></l><r>uvula<s n="n"/></r></p></e>
+0 uvula  <e><p><l>uvula<s n="n"/></l><r>kleintongetjie<s n="n"/></r></p></e> <!-- uvula,larva__n -->
+0 urobilinogen  <e><p><l>urobilinogen<s n="n"/></l><r>urobilinogeen<s n="n"/></r></p></e> <!-- urobilinogen,house__n -->
+0 urethral  <e><p><l>urethral<s n="adj"/></l><r>uretraal<s n="adj"/></r></p></e> <!-- urethral,expensive__adj -->
+0 urethra  <e><p><l>urethra<s n="n"/></l><r>uretra<s n="n"/></r></p></e> <!-- urethra,larva__n -->
+0 ureter  <e><p><l>ureter<s n="n"/></l><r>urienleier<s n="n"/></r></p></e> <!-- ureter,house__n -->
+0 ureter  <e><p><l>ureter<s n="n"/></l><r>ureter<s n="n"/></r></p></e>
+0 unicellular  <e><p><l>unicellular<s n="adj"/></l><r>eensellig<s n="adj"/></r></p></e> <!-- unicellular,expensive__adj -->
+0 ultrasonic  <e><p><l>ultrasonic<s n="adj"/></l><r>ultrasonies<s n="adj"/></r></p></e> <!-- ultrasonic,expensive__adj -->
+0 tympanic  <e><p><l>tympanic<s n="adj"/></l><r>timpanies<s n="adj"/></r></p></e> <!-- tympanic,expensive__adj -->
+0 tubular  <e><p><l>tubular<s n="n"/></l><r>tubulêr<s n="n"/></r></p></e>
+0 tubular  <e><p><l>tubular<s n="adj"/></l><r>buisvormig<s n="adj"/></r></p></e> <!-- tubular,expensive__adj -->
+0 tubercle  <e><p><l>tubercle<s n="n"/></l><r>tuberkel<s n="n"/></r></p></e> <!-- tubercle,house__n -->
+0 tuba  <e><p><l>tuba<s n="n"/></l><r>tuba<s n="n"/></r></p></e> <!-- tuba,house__n -->
+0 trophoblast  <e><p><l>trophoblast<s n="n"/></l><r>trofoblas<s n="n"/></r></p></e> <!-- trophoblast,house__n -->
+0 trochoid  <e><p><l>trochoid<s n="n"/></l><r>trogoïed<s n="n"/></r></p></e>
+0 trochoid  <e><p><l>trochoid<s n="n"/></l><r>trochoïed<s n="n"/></r></p></e>
+0 trochoid  <e><p><l>trochoid<s n="n"/></l><r>spilvormig<s n="n"/></r></p></e> <!-- trochoid,house__n -->
+0 trochanter  <e><p><l>trochanter<s n="n"/></l><r>troganter<s n="n"/></r></p></e> <!-- trochanter,house__n -->
+0 triglyceride  <e><p><l>triglyceride<s n="n"/></l><r>trigliseried<s n="n"/></r></p></e> <!-- triglyceride,house__n -->
+0 trichonosis  <e><p><l>trichonosis<s n="n"/></l><r>trigonose<s n="n"/></r></p></e> <!-- -->
+0 trapezoid  <e><p><l>trapezoid<s n="n"/></l><r>trapesoïed<s n="n"/></r></p></e> <!-- trapezoid,house__n -->
+0 translocation  <e><p><l>translocation<s n="n"/></l><r>translokasie<s n="n"/></r></p></e> <!-- translocation,house__n -->
+0 translocation  <e><p><l>translocation<s n="n"/></l><r>oorplasing<s n="n"/></r></p></e>
+0 tragus  <e><p><l>tragus<s n="n"/></l><r>tragus<s n="n"/></r></p></e> <!-- tragus,access__n -->
+0 trabecula  <e><p><l>trabecula<s n="n"/></l><r>trabekula<s n="n"/></r></p></e> <!-- trabecula,larva__n -->
+0 toxicologist  <e><p><l>toxicologist<s n="n"/></l><r>toksikoloog<s n="n"/></r></p></e> <!-- toxicologist,house__n -->
+0 tourniquet  <e><p><l>tourniquet<s n="n"/></l><r>toerniket<s n="n"/></r></p></e>
+0 tourniquet  <e><p><l>tourniquet<s n="n"/></l><r>klemverband<s n="n"/></r></p></e> <!-- tourniquet,house__n -->
+0 tonsil  <e><p><l>tonsil<s n="n"/></l><r>tonsil<s n="n"/></r></p></e> <!-- tonsil,house__n -->
+0 tonsil  <e><p><l>tonsil<s n="n"/></l><r>mangel<s n="n"/></r></p></e>
+0 tocology  <e><p><l>tocology<s n="n"/></l><r>tokologie<s n="n"/></r></p></e> <!-- -->
+0 tibial  <e><p><l>tibial<s n="adj"/></l><r>tibiaal<s n="adj"/></r></p></e> <!-- tibial,expensive__adj -->
+0 tibia  <e><p><l>tibia<s n="n"/></l><r>tibia<s n="n"/></r></p></e> <!-- tibia,larva__n -->
+0 thyroxine  <e><p><l>thyroxine<s n="n"/></l><r>tiroksien<s n="n"/></r></p></e> <!-- thyroxine,house__n -->
+0 thymus  <e><p><l>thymus<s n="n"/></l><r>timus<s n="n"/></r></p></e>
+0 thymus  <e><p><l>thymus<s n="n"/></l><r>sweserik<s n="n"/></r></p></e> <!-- thymus,access__n -->
+0 thrombus  <e><p><l>thrombus<s n="n"/></l><r>trombus<s n="n"/></r></p></e> <!-- thrombus,access__n -->
+0 thrombocytosis  <e><p><l>thrombocytosis<s n="n"/></l><r>trombositose<s n="n"/></r></p></e> <!-- -->
+0 thrombocyte  <e><p><l>thrombocyte<s n="n"/></l><r>trombosiet<s n="n"/></r></p></e> <!-- thrombocyte,house__n -->
+0 thrombin  <e><p><l>thrombin<s n="n"/></l><r>trombien<s n="n"/></r></p></e> <!-- thrombin,house__n -->
+0 thermostat  <e><p><l>thermostat<s n="n"/></l><r>termostaat<s n="n"/></r></p></e> <!-- thermostat,house__n -->
+0 thermostable  <e><p><l>thermostable<s n="adj"/></l><r>termostabiel<s n="adj"/></r></p></e> <!-- thermostable,expensive__adj -->
+0 thermograph  <e><p><l>thermograph<s n="n"/></l><r>termograaf<s n="n"/></r></p></e> <!-- thermography,house__n -->
+0 thalamus  <e><p><l>thalamus<s n="n"/></l><r>talamus<s n="n"/></r></p></e> <!-- thalamus,access__n -->
+0 tetravalent  <e><p><l>tetravalent<s n="adj"/></l><r>tetravalent<s n="adj"/></r></p></e> <!-- tetravalent,expensive__adj -->
+0 tetrad  <e><p><l>tetrad<s n="n"/></l><r>viertal<s n="n"/></r></p></e> <!-- tetrad,house__n -->
+0 tetrad  <e><p><l>tetrad<s n="n"/></l><r>tetrade<s n="n"/></r></p></e>
+0 tellurium  <e><p><l>tellurium<s n="n"/></l><r>tellurium<s n="n"/></r></p></e> <!-- tellurium,house__n -->
+0 tarsus  <e><p><l>tarsus<s n="n"/></l><r>voetwortel<s n="n"/></r></p></e> <!-- tarsus,access__n -->
+0 tarsus  <e><p><l>tarsus<s n="n"/></l><r>tarsus<s n="n"/></r></p></e>
+0 systole  <e><p><l>systole<s n="n"/></l><r>sistool<s n="n"/></r></p></e>
+0 systole  <e><p><l>systole<s n="n"/></l><r>sistolie<s n="n"/></r></p></e>
+0 systole  <e><p><l>systole<s n="n"/></l><r>hartkontraksie<s n="n"/></r></p></e> <!-- systole,house__n -->
+0 syndesmosis  <e><p><l>syndesmosis<s n="n"/></l><r>sindesmose<s n="n"/></r></p></e> <!-- -->
+0 syncytium  <e><p><l>syncytium<s n="n"/></l><r>sinsitium<s n="n"/></r></p></e> <!-- syncytium,house__n -->
+0 synarthrosis  <e><p><l>synarthrosis<s n="n"/></l><r>sinartrose<s n="n"/></r></p></e> <!-- -->
+0 symphysis  <e><p><l>symphysis<s n="n"/></l><r>simfise<s n="n"/></r></p></e> <!-- -->
+0 suture  <e><p><l>suture<s n="n"/></l><r>steek<s n="n"/></r></p></e> <!-- suture,house__n -->
+0 suture  <e><p><l>suture<s n="n"/></l><r>naat<s n="n"/></r></p></e>
+0 suture  <e><p><l>suture<s n="n"/></l><r>hegdraad<s n="n"/></r></p></e>
+0 suprarenal  <e><p><l>suprarenal<s n="adj"/></l><r>suprarenaal<s n="adj"/></r></p></e> <!-- suprarenal,expensive__adj -->
+0 sulphide  <e><p><l>sulphide<s n="n"/></l><r>sulfied<s n="n"/></r></p></e> <!-- sulphide,house__n -->
+0 sublimation  <e><p><l>sublimation<s n="n"/></l><r>sublimering<s n="n"/></r></p></e> <!-- sublimation,house__n -->
+0 subcostal  <e><p><l>subcostal<s n="adj"/></l><r>subkostaal<s n="adj"/></r></p></e> <!-- subcostal,expensive__adj -->
+0 stroma  <e><p><l>stroma<s n="n"/></l><r>stroma<s n="n"/></r></p></e> <!-- stroma,schema__n -->
+0 stroboscope  <e><p><l>stroboscope<s n="n"/></l><r>stroboskoop<s n="n"/></r></p></e> <!-- stroboscope,house__n -->
+0 streptococcus  <e><p><l>streptococcus<s n="n"/></l><r>stafilokokkus<s n="n"/></r></p></e> <!-- streptococcus,access__n -->
+0 strabismus  <e><p><l>strabismus<s n="n"/></l><r>strabismus<s n="n"/></r></p></e> <!-- strabismus,access__n -->
+0 stomatopathy  <e><p><l>stomatopathy<s n="n"/></l><r>stomatopatie<s n="n"/></r></p></e> <!-- -->
+0 stoma  <e><p><l>stoma<s n="n"/></l><r>stoma<s n="n"/></r></p></e> <!-- stoma,schema__n -->
+0 steroid  <e><p><l>steroid<s n="n"/></l><r>steroïed<s n="n"/></r></p></e> <!-- steroid,house__n -->
+0 sternum  <e><p><l>sternum<s n="n"/></l><r>sternum<s n="n"/></r></p></e>
+0 sternum  <e><p><l>sternum<s n="n"/></l><r>borsbeen<s n="n"/></r></p></e> <!-- sternum,house__n -->
+0 stereoscope  <e><p><l>stereoscope<s n="n"/></l><r>stereoskoop<s n="n"/></r></p></e> <!-- stereoscope,house__n -->
+0 stenosis  <e><p><l>stenosis<s n="n"/></l><r>stenose<s n="n"/></r></p></e> <!-- -->
+0 sprain  <e><p><l>sprain<s n="n"/></l><r>verstuiting<s n="n"/></r></p></e> <!-- sprain,house__n -->
+0 spore  <e><p><l>spore<s n="n"/></l><r>spoor<s n="n"/></r></p></e> <!-- spore,house__n -->
+0 splint  <e><p><l>splint<s n="vblex"/></l><r>spalk<s n="vblex"/></r></p></e>
+0 splint  <e><p><l>splint<s n="n"/></l><r>spalk<s n="n"/></r></p></e> <!-- split,house__n -->
+0 splenic  <e><p><l>splenic<s n="adj"/></l><r>splenies<s n="adj"/></r></p></e> <!-- splenic,expensive__adj -->
+0 spindle  <e><p><l>spindle<s n="n"/></l><r>spoel<s n="n"/></r></p></e> <!-- spindle,house__n -->
+0 sphincter  <e><p><l>sphincter<s n="n"/></l><r>sfinkter<s n="n"/></r></p></e> <!-- sphincter,house__n -->
+0 spherometer  <e><p><l>spherometer<s n="n"/></l><r>sferometer<s n="n"/></r></p></e> <!-- spherometer,house__n -->
+0 spheroid  <e><p><l>spheroid<s n="n"/></l><r>sferoïed<s n="n"/></r></p></e> <!-- spheroid,house__n -->
+0 spheroid  <e><p><l>spheroid<s n="n"/></l><r>sferoïde<s n="n"/></r></p></e>
+0 spheroidal  <e><p><l>spheroidal<s n="adj"/></l><r>sferoïdaal<s n="adj"/></r></p></e> <!-- spheroidal,expensive__adj -->
+0 spherical  <e><p><l>spherical<s n="n"/></l><r>sferies<s n="n"/></r></p></e>
+0 spherical  <e><p><l>spherical<s n="adj"/></l><r>bolvormig<s n="adj"/></r></p></e> <!-- spherical,expensive__adj -->
+0 sphenoid  <e><p><l>sphenoid<s n="n"/></l><r>sfenoïed<s n="n"/></r></p></e> <!-- sphenoid,house__n -->
+0 spermatogonium  <e><p><l>spermatogonium<s n="n"/></l><r>spermatogonium<s n="n"/></r></p></e> <!-- spermatogonium,house__n -->
+0 spermatogenesis  <e><p><l>spermatogenesis<s n="n"/></l><r>spermatogenese<s n="n"/></r></p></e> <!-- -->
+0 spermatocyte  <e><p><l>spermatocyte<s n="n"/></l><r>spermatosiet<s n="n"/></r></p></e> <!-- spermatocyte,house__n -->
+0 spermatid  <e><p><l>spermatid<s n="n"/></l><r>spermatied<s n="n"/></r></p></e> <!-- spermatid,house__n -->
+0 spectrophotometer  <e><p><l>spectrophotometer<s n="n"/></l><r>spektrofotometer<s n="n"/></r></p></e> <!-- spectrophotometer,house__n -->
+0 spectrometer  <e><p><l>spectrometer<s n="n"/></l><r>spektrometer<s n="n"/></r></p></e> <!-- spectrometer,house__n -->
+0 spectrograph  <e><p><l>spectrograph<s n="n"/></l><r>spektrograaf<s n="n"/></r></p></e> <!-- spectrograph,bab/y__n -->
+0 sonometer  <e><p><l>sonometer<s n="n"/></l><r>sonometer<s n="n"/></r></p></e> <!-- sonometer,house__n -->
+0 soma  <e><p><l>soma<s n="n"/></l><r>soma<s n="n"/></r></p></e>
+0 soma  <e><p><l>soma<s n="n"/></l><r>inskrywing<s n="n"/></r></p></e> <!-- soma,house__n -->
+0 solute  <e><p><l>solute<s n="n"/></l><r>opgeloste stof<s n="n"/></r></p></e> <!-- solute,house__n -->
+0 solubility  <e><p><l>solubility<s n="n"/></l><r>oplosbaarheid<s n="n"/></r></p></e> <!-- -->
+0 sinusoid  <e><p><l>sinusoid<s n="n"/></l><r>sinusoïed<s n="n"/></r></p></e> <!-- sinusoid,house__n -->
+0 sinus  <e><p><l>sinus<s n="n"/></l><r>sinus<s n="n"/></r></p></e> <!-- sinus,access__n -->
+0 simplex  <e><p><l>simplex<s n="n"/></l><r>simpleks<s n="n"/></r></p></e> <!-- -->
+0 sigmoid  <e><p><l>sigmoid<s n="n"/></l><r>sigmoïed<s n="n"/></r></p></e> <!-- sigmoid,house__n -->
+0 serotonin  <e><p><l>serotonin<s n="n"/></l><r>serotonien<s n="n"/></r></p></e> <!-- serotonin,house__n -->
+0 serosa  <e><p><l>serosa<s n="n"/></l><r>serosa<s n="n"/></r></p></e> <!-- serosa,house__n -->
+0 serology  <e><p><l>serology<s n="n"/></l><r>serologie<s n="n"/></r></p></e> <!-- -->
+0 septum  <e><p><l>septum<s n="n"/></l><r>tussenwand<s n="n"/></r></p></e> <!-- septum,house__n -->
+0 septum  <e><p><l>septum<s n="n"/></l><r>tussenskot<s n="n"/></r></p></e>
+0 septum  <e><p><l>septum<s n="n"/></l><r>septum<s n="n"/></r></p></e>
+0 sepsis  <e><p><l>sepsis<s n="n"/></l><r>sepsis<s n="n"/></r></p></e> <!-- -->
+0 secrete  <e><p><l>secrete<s n="vblex"/></l><r>sekreteer<s n="vblex"/></r></p></e> <!-- -->
+0 secrete  <e><p><l>secrete<s n="vblex"/></l><r>afskei<s n="vblex"/></r></p></e>
+0 scoliosis  <e><p><l>scoliosis<s n="n"/></l><r>skoliose<s n="n"/></r></p></e> <!-- -->
+0 scapula  <e><p><l>scapula<s n="n"/></l><r>skapula<s n="n"/></r></p></e>
+0 scapula  <e><p><l>scapula<s n="n"/></l><r>bladbeen<s n="n"/></r></p></e> <!-- scapula,house__n -->
+0 scalene  <e><p><l>scalene<s n="adj"/></l><r>ongelyksydig<s n="adj"/></r></p></e> <!-- scalene,expensive__adj -->
+0 scab  <e><p><l>scab<s n="n"/></l><r>roof<s n="n"/></r></p></e> <!-- scab,house__n -->
+0 sarcosome  <e><p><l>sarcosome<s n="n"/></l><r>sarkosoom<s n="n"/></r></p></e> <!-- sarcosome,house__n -->
+0 sarcoplasm  <e><p><l>sarcoplasm<s n="n"/></l><r>spierplasma<s n="n"/></r></p></e> <!-- sarcoplasm,house__n -->
+0 sarcoplasm  <e><p><l>sarcoplasm<s n="n"/></l><r>sarkoplasma<s n="n"/></r></p></e>
+0 sarcomere  <e><p><l>sarcomere<s n="n"/></l><r>sarkomeer<s n="n"/></r></p></e> <!-- sarcomere,house__n -->
+0 sarcolemma  <e><p><l>sarcolemma<s n="n"/></l><r>sarkolemma<s n="n"/></r></p></e> <!-- sarcolemma,house__n -->
+0 saprophyte  <e><p><l>saprophyte<s n="n"/></l><r>saprofiet<s n="n"/></r></p></e> <!-- saprophyte,house__n -->
+0 saliva  <e><p><l>saliva<s n="n"/></l><r>spoeg<s n="n"/></r></p></e>
+0 saliva  <e><p><l>saliva<s n="n"/></l><r>speeksel<s n="n"/></r></p></e> <!-- saliva,house__n -->
+0 saliva  <e><p><l>saliva<s n="n"/></l><r>saliva<s n="n"/></r></p></e>
+0 sacrum  <e><p><l>sacrum<s n="n"/></l><r>sakrum<s n="n"/></r></p></e>
+0 sacrum  <e><p><l>sacrum<s n="n"/></l><r>kruisbeen<s n="n"/></r></p></e>
+0 sacrum  <e><p><l>sacrum<s n="n"/></l><r>heiligbeen<s n="n"/></r></p></e> <!-- sacrum,house__n -->
+0 saccharide  <e><p><l>saccharide<s n="n"/></l><r>sakkaried<s n="n"/></r></p></e> <!-- saccharide,house__n -->
+0 rubella  <e><p><l>rubella<s n="n"/></l><r>rubella<s n="n"/></r></p></e> <!-- rubella,house__n -->
+0 ribosome  <e><p><l>ribosome<s n="n"/></l><r>ribosoom<s n="n"/></r></p></e> <!-- ribosome,house__n -->
+0 rhomboid  <e><p><l>rhomboid<s n="n"/></l><r>romboïed<s n="n"/></r></p></e> <!-- rhomboid,house__n -->
+0 rhomboid  <e><p><l>rhomboid<s n="n"/></l><r>rombies<s n="n"/></r></p></e>
+0 rheostat  <e><p><l>rheostat<s n="n"/></l><r>reostaat<s n="n"/></r></p></e> <!-- rheostat,house__n -->
+0 retinopathy  <e><p><l>retinopathy<s n="n"/></l><r>retinopatie<s n="n"/></r></p></e> <!-- -->
+0 retina  <e><p><l>retina<s n="n"/></l><r>retina<s n="n"/></r></p></e>
+0 retina  <e><p><l>retina<s n="n"/></l><r>netvlies<s n="n"/></r></p></e> <!-- retina,larva__n -->
+0 reticulocyte  <e><p><l>reticulocyte<s n="n"/></l><r>retikulosiet<s n="n"/></r></p></e> <!-- reticulocyte,house__n -->
+0 reticular  <e><p><l>reticular<s n="adj"/></l><r>retikulêr<s n="adj"/></r></p></e> <!-- reticular,expensive__adj -->
+0 refraction  <e><p><l>refraction<s n="n"/></l><r>refraksie<s n="n"/></r></p></e>
+0 refraction  <e><p><l>refraction<s n="n"/></l><r>ligbreking<s n="n"/></r></p></e> <!-- refraction,house__n -->
+0 refraction  <e><p><l>refraction<s n="n"/></l><r>breking<s n="n"/></r></p></e>
+0 reducible  <e><p><l>reducible<s n="adj"/></l><r>reduseerbaar<s n="adj"/></r></p></e> <!-- reducible,expensive__adj -->
+0 rectal  <e><p><l>rectal<s n="adj"/></l><r>rektaal<s n="adj"/></r></p></e> <!-- rectal,expensive__adj -->
+0 reagent  <e><p><l>reagent<s n="n"/></l><r>reagens<s n="n"/></r></p></e> <!-- reagent,house__n -->
+0 radiology  <e><p><l>radiology<s n="n"/></l><r>radiologie<s n="n"/></r></p></e> <!-- -->
+0 radioisotope  <e><p><l>radioisotope<s n="n"/></l><r>radio-isotoop<s n="n"/></r></p></e> <!-- radioisotope,house__n -->
+0 radicle  <e><p><l>radicle<s n="n"/></l><r>radikel<s n="n"/></r></p></e> <!-- radicle,house__n -->
+0 rachis  <e><p><l>rachis<s n="n"/></l><r>ragis<s n="n"/></r></p></e> <!-- -->
+0 quadriceps  <e><p><l>quadriceps<s n="n"/></l><r>quadriceps<s n="n"/></r></p></e> <!-- quadriceps,politics__n -->
+0 pyriform  <e><p><l>pyriform<s n="adj"/></l><r>piriform<s n="adj"/></r></p></e> <!-- piriform,expensive__adj -->
+0 pyrexia  <e><p><l>pyrexia<s n="n"/></l><r>pireksie<s n="n"/></r></p></e> <!-- pyrexia,house__n -->
+0 pyretotherapy  <e><p><l>pyretotherapy<s n="n"/></l><r>piretoterapie<s n="n"/></r></p></e> <!-- -->
+0 pyramidal  <e><p><l>pyramidal<s n="adj"/></l><r>piramidaal<s n="adj"/></r></p></e> <!-- pyramidal,expensive__adj -->
+0 pylorus  <e><p><l>pylorus<s n="n"/></l><r>pilorus<s n="n"/></r></p></e> <!-- pylorus,access__n -->
+0 purpura  <e><p><l>purpura<s n="n"/></l><r>purpura<s n="n"/></r></p></e> <!-- purpura,house__n -->
+0 pupillary  <e><p><l>pupillary<s n="adj"/></l><r>pupillêr<s n="adj"/></r></p></e> <!-- pupillary,expensive__adj -->
+0 puking  <e><p><l>puking<s n="n"/></l><r>braking<s n="n"/></r></p></e> <!-- braking,house__n -->
+0 pubis  <e><p><l>pubis<s n="n"/></l><r>pubis<s n="n"/></r></p></e> <!-- -->
+0 ptyalin  <e><p><l>ptyalin<s n="n"/></l><r>speekselamilase<s n="n"/></r></p></e> <!-- ptyalin,house__n -->
+0 ptyalin  <e><p><l>ptyalin<s n="n"/></l><r>ptialien<s n="n"/></r></p></e>
+0 pseudopodium  <e><p><l>pseudopodium<s n="n"/></l><r>skynvoet<s n="n"/></r></p></e>
+0 pseudopodium  <e><p><l>pseudopodium<s n="n"/></l><r>pseudopodium<s n="n"/></r></p></e> <!-- pseudopodium,house__n -->
+0 proximal  <e><p><l>proximal<s n="adj"/></l><r>inskrywing<s n="adj"/></r></p></e> <!-- proximal,expensive__adj -->
+0 protoplasmic  <e><p><l>protoplasmic<s n="adj"/></l><r>protoplasmies<s n="adj"/></r></p></e> <!-- protoplasmic,expensive__adj -->
+0 protoplasm  <e><p><l>protoplasm<s n="n"/></l><r>protoplasma<s n="n"/></r></p></e> <!-- protoplasm,house__n -->
+0 prothrombin  <e><p><l>prothrombin<s n="n"/></l><r>protrombien<s n="n"/></r></p></e> <!-- prothrombin,house__n -->
+0 proteolysis  <e><p><l>proteolysis<s n="n"/></l><r>proteolise<s n="n"/></r></p></e> <!-- -->
+0 proteinuria  <e><p><l>proteinuria<s n="n"/></l><r>proteïnurie<s n="n"/></r></p></e> <!-- proteinuria,house__n -->
+0 prosencephalon  <e><p><l>prosencephalon<s n="n"/></l><r>prosensefalon<s n="n"/></r></p></e> <!-- prosencephalon,house__n -->
+0 prosencephalon  <e><p><l>prosencephalon<s n="n"/></l><r>prosenkefalon<s n="n"/></r></p></e>
+0 prophase  <e><p><l>prophase<s n="n"/></l><r>profase<s n="n"/></r></p></e> <!-- prophase,house__n -->
+0 premolar  <e><p><l>premolar<s n="n"/></l><r>voormaaltand<s n="n"/></r></p></e> <!-- premolar,house__n -->
+0 premolar  <e><p><l>premolar<s n="n"/></l><r>voorkiestand<s n="n"/></r></p></e>
+0 posterior  <e><p><l>posterior<s n="n"/></l><r>posterior<s n="n"/></r></p></e>
+0 posterior  <e><p><l>posterior<s n="adj"/></l><r>posterieur<s n="adj"/></r></p></e> <!-- posterior,expensive__adj -->
+0 positron  <e><p><l>positron<s n="n"/></l><r>positron<s n="n"/></r></p></e> <!-- positron,house__n -->
+0 polyvalent  <e><p><l>polyvalent<s n="adj"/></l><r>polivalent<s n="adj"/></r></p></e> <!-- polyvalent,expensive__adj -->
+0 polysome  <e><p><l>polysome<s n="n"/></l><r>polisoom<s n="n"/></r></p></e> <!-- polysome,house__n -->
+0 polysaccharide  <e><p><l>polysaccharide<s n="n"/></l><r>polisakkaried<s n="n"/></r></p></e> <!-- polysaccharide,house__n -->
+0 polypeptide  <e><p><l>polypeptide<s n="n"/></l><r>polipeptied<s n="n"/></r></p></e> <!-- polypeptide,house__n -->
+0 polymorphic  <e><p><l>polymorphic<s n="adj"/></l><r>polimorfies<s n="adj"/></r></p></e> <!-- polymorphic,expensive__adj -->
+0 polymer  <e><p><l>polymer<s n="n"/></l><r>polimeer<s n="n"/></r></p></e> <!-- polymer,house__n -->
+0 poikilothermic  <e><p><l>poikilothermic<s n="adj"/></l><r>poikilotermies<s n="adj"/></r></p></e> <!-- poikilothermic,expensive__adj -->
+0 plexus  <e><p><l>plexus<s n="n"/></l><r>pleksus<s n="n"/></r></p></e> <!-- -->
+0 pleocytosis  <e><p><l>pleocytosis<s n="n"/></l><r>pleositose<s n="n"/></r></p></e> <!-- -->
+0 platinum  <e><p><l>platinum<s n="n"/></l><r>platina<s n="n"/></r></p></e> <!-- platinum,house__n__unc -->
+0 plasticity  <e><p><l>plasticity<s n="n"/></l><r>plastisiteit<s n="n"/></r></p></e> <!-- -->
+0 plasma lemma  <e><p><l>plasma lemma<s n="n"/></l><r>plasmalemma<s n="n"/></r></p></e> <!-- plasmalemma,schema__n -->
+0 pituitary  <e><p><l>pituitary<s n="n"/></l><r>pituïtêr<s n="n"/></r></p></e> <!-- -->
+0 pipette  <e><p><l>pipette<s n="n"/></l><r>pipetteer<s n="n"/></r></p></e> <!-- pipette,house__n -->
+0 pipette  <e><p><l>pipette<s n="n"/></l><r>pipet<s n="n"/></r></p></e>
+0 pinocytosis  <e><p><l>pinocytosis<s n="n"/></l><r>pinositose<s n="n"/></r></p></e> <!-- -->
+0 physiologist  <e><p><l>physiologist<s n="n"/></l><r>fisioloog<s n="n"/></r></p></e> <!-- physiologist,house__n -->
+0 photon  <e><p><l>photon<s n="n"/></l><r>foton<s n="n"/></r></p></e> <!-- photon,house__n -->
+0 photometer  <e><p><l>photometer<s n="n"/></l><r>ligmeter<s n="n"/></r></p></e>
+0 photometer  <e><p><l>photometer<s n="n"/></l><r>fotometer<s n="n"/></r></p></e> <!-- photometer,house__n -->
+0 phosphorylation  <e><p><l>phosphorylation<s n="n"/></l><r>fosforilering<s n="n"/></r></p></e> <!-- phosphorylation,house__n -->
+0 phosphorylation  <e><p><l>phosphorylation<s n="n"/></l><r>fosforilasie<s n="n"/></r></p></e>
+0 phosphorescence  <e><p><l>phosphorescence<s n="n"/></l><r>fosforessensie<s n="n"/></r></p></e> <!-- phosphorescence,house__n -->
+0 phospholipid  <e><p><l>phospholipid<s n="n"/></l><r>fosfolipied<s n="n"/></r></p></e> <!-- phospholipid,house__n -->
+0 phonic  <e><p><l>phonic<s n="adj"/></l><r>fonies<s n="adj"/></r></p></e> <!-- phonic,expensive__adj -->
+0 phoniatrics  <e><p><l>phoniatrics<s n="n"/></l><r>foniatrie<s n="n"/></r></p></e> <!-- phoniatrics,politics__n -->
+0 phonetics  <e><p><l>phonetics<s n="n"/></l><r>klankleer<s n="n"/></r></p></e> <!-- phonetics,politics__n -->
+0 phonetics  <e><p><l>phonetics<s n="n"/></l><r>fonetiek<s n="n"/></r></p></e>
+0 phenotype  <e><p><l>phenotype<s n="n"/></l><r>fenotipe<s n="n"/></r></p></e> <!-- phenotype,house__n -->
+0 pharyngospasm  <e><p><l>pharyngospasm<s n="n"/></l><r>faringospasma<s n="n"/></r></p></e> <!-- pharyngospasm,house__n -->
+0 phagocyte  <e><p><l>phagocyte<s n="n"/></l><r>fagosiet<s n="n"/></r></p></e> <!-- phagocyte,house__n -->
+0 phagocyte  <e><p><l>phagocyte<s n="n"/></l><r>eetsel<s n="n"/></r></p></e>
+0 peroxide  <e><p><l>peroxide<s n="n"/></l><r>peroksied<s n="n"/></r></p></e> <!-- peroxide,house__n -->
+0 peritoneum  <e><p><l>peritoneum<s n="n"/></l><r>peritoneum<s n="n"/></r></p></e> <!-- peritoneum,house__n -->
+0 peritoneum  <e><p><l>peritoneum<s n="n"/></l><r>buikvlies<s n="n"/></r></p></e>
+0 perithelium  <e><p><l>perithelium<s n="n"/></l><r>peritelium<s n="n"/></r></p></e>
+0 perithelium  <e><p><l>perithelium<s n="n"/></l><r>bloedvatskede<s n="n"/></r></p></e> <!-- perithelium,house__n -->
+0 peristole  <e><p><l>peristole<s n="n"/></l><r>peristool<s n="n"/></r></p></e> <!-- peristole,house__n -->
+0 periosteum  <e><p><l>periosteum<s n="n"/></l><r<s n="n"/></r></p></e>
+0 periosteum  <e><p><l>periosteum<s n="n"/></l><r>beenvlies<s n="n"/></r></p></e> <!-- periosteum,house__n -->
+0 perineurium  <e><p><l>perineurium<s n="n"/></l><r>perineurium<s n="n"/></r></p></e> <!-- perineurium,house__n -->
+0 perineum  <e><p><l>perineum<s n="n"/></l><r>perineum<s n="n"/></r></p></e> <!-- perineum,house__n -->
+0 perimysium  <e><p><l>perimysium<s n="n"/></l><r>perimisium<s n="n"/></r></p></e> <!-- perimysium,house__n -->
+0 perilymph  <e><p><l>perilymph<s n="n"/></l><r>perilimf<s n="n"/></r></p></e> <!-- perilymph,house__n -->
+0 pericranium  <e><p><l>pericranium<s n="n"/></l><r>perikranium<s n="n"/></r></p></e> <!-- pericranium,house__n -->
+0 perichondrium  <e><p><l>perichondrium<s n="n"/></l><r>perichondrium<s n="n"/></r></p></e> <!-- perichondrium,house__n -->
+0 pericardium  <e><p><l>pericardium<s n="n"/></l><r>perikardium<s n="n"/></r></p></e> <!-- pericardium,house__n -->
+0 pericardium  <e><p><l>pericardium<s n="n"/></l><r>hartsak<s n="n"/></r></p></e>
+0 pepsin  <e><p><l>pepsin<s n="n"/></l><r>pepsien<s n="n"/></r></p></e> <!-- pepsin,house__n -->
+0 pentose  <e><p><l>pentose<s n="n"/></l><r>pentose<s n="n"/></r></p></e> <!-- pentose,house__n -->
+0 pelvic  <e><p><l>pelvic<s n="adj"/></l><r>pelvies<s n="adj"/></r></p></e> <!-- pelvic,expensive__adj -->
+0 pellagra  <e><p><l>pellagra<s n="n"/></l><r>pellagra<s n="n"/></r></p></e> <!-- pellagra,house__n -->
+0 peduncle  <e><p><l>peduncle<s n="n"/></l><r<s n="n"/></r></p></e>
+0 peduncle  <e><p><l>peduncle<s n="n"/></l><r>pedunkel<s n="n"/></r></p></e> <!-- peduncle,house__n -->
+0 pectoral  <e><p><l>pectoral<s n="adj"/></l><r>pektoraal<s n="adj"/></r></p></e> <!-- pectoral,expensive__adj -->
+0 pectin  <e><p><l>pectin<s n="n"/></l><r>pektien<s n="n"/></r></p></e> <!-- pectin,house__n -->
+0 pascal  <e><p><l>pascal<s n="n"/></l><r>pascal<s n="n"/></r></p></e> <!-- pascal,house__n -->
+0 parietal  <e><p><l>parietal<s n="adj"/></l><r>pariëtaal<s n="adj"/></r></p></e> <!-- parietal,expensive__adj -->
+0 parenchymatous  <e><p><l>parenchymatous<s n="adj"/></l><r>parenchiemagtig<s n="adj"/></r></p></e> <!-- parenchymatous,expensive__adj -->
+0 parenchyma  <e><p><l>parenchyma<s n="n"/></l><r>parenchiem<s n="n"/></r></p></e> <!-- parenchyma,house__n -->
+0 parathyroid  <e><p><l>parathyroid<s n="n"/></l><r>paratiroïed<s n="n"/></r></p></e>
+0 parathyroid  <e><p><l>parathyroid<s n="n"/></l><r>byskildklier<s n="n"/></r></p></e> <!-- parathyroid,house__n -->
+0 parasitism  <e><p><l>parasitism<s n="n"/></l><r>parasitisme<s n="n"/></r></p></e> <!-- parasitism,house__n -->
+0 papillary  <e><p><l>papillary<s n="adj"/></l><r>papillêr<s n="adj"/></r></p></e> <!-- papillary,expensive__adj -->
+0 papilla  <e><p><l>papilla<s n="n"/></l><r>papil<s n="n"/></r></p></e> <!-- papilla,house__n -->
+0 pancreatic  <e><p><l>pancreatic<s n="adj"/></l><r>pankreaties<s n="adj"/></r></p></e> <!-- pancreatic,expensive__adj -->
+0 palpation  <e><p><l>palpation<s n="n"/></l><r>palpasie<s n="n"/></r></p></e> <!-- palpation,house__n -->
+0 palladium  <e><p><l>palladium<s n="n"/></l><r>palladium<s n="n"/></r></p></e> <!-- palladium,house__n -->
+0 palatine  <e><p><l>palatine<s n="adj"/></l><r>palatien<s n="adj"/></r></p></e> <!-- palatine,expensive__adj -->
+0 oxytocin  <e><p><l>oxytocin<s n="n"/></l><r>oksitosien<s n="n"/></r></p></e> <!-- oxytocin,house__n -->
+0 oxidation-reduction  <e><p><l>oxidation-reduction<s n="n"/></l><r>oksidasie-reduksie<s n="n"/></r></p></e> <!-- oxidation-reduction,house__n -->
+0 ovulation  <e><p><l>ovulation<s n="n"/></l><r>ovulasie<s n="n"/></r></p></e> <!-- ovulation,house__n -->
+0 ovoviviparous  <e><p><l>ovoviviparous<s n="n"/></l><r>ovovivipaar<s n="n"/></r></p></e>
+0 ovoviviparous  <e><p><l>ovoviviparous<s n="adj"/></l><r>eierlewendbarend<s n="adj"/></r></p></e> <!-- ovoviviparous,expensive__adj -->
+0 ovoid  <e><p><l>ovoid<s n="adj"/></l><r>eiervormig<s n="adj"/></r></p></e> <!-- ovoid,expensive__adj -->
+0 ovogonium  <e><p><l>ovogonium<s n="n"/></l><r>ovogonium<s n="n"/></r></p></e> <!-- ovogonium,house__n -->
+0 ovogenesis  <e><p><l>ovogenesis<s n="n"/></l><r>ovogenese<s n="n"/></r></p></e> <!-- -->
+0 oviparous  <e><p><l>oviparous<s n="n"/></l><r>ovipaar<s n="n"/></r></p></e>
+0 oviparous  <e><p><l>oviparous<s n="adj"/></l><r>eierlêend<s n="adj"/></r></p></e> <!-- oviparous,expensive__adj -->
+0 oviduct  <e><p><l>oviduct<s n="n"/></l><r>ovidukt<s n="n"/></r></p></e>
+0 oviduct  <e><p><l>oviduct<s n="n"/></l><r>eierleier<s n="n"/></r></p></e> <!-- oviduct,house__n -->
+0 osteosis  <e><p><l>osteosis<s n="n"/></l><r>osteose<s n="n"/></r></p></e> <!-- -->
+0 osteomalacia  <e><p><l>osteomalacia<s n="n"/></l><r>osteomalasie<s n="n"/></r></p></e> <!-- osteomalacia,house__n -->
+0 osteolysis  <e><p><l>osteolysis<s n="n"/></l><r>osteolise<s n="n"/></r></p></e> <!-- -->
+0 osteocyte  <e><p><l>osteocyte<s n="n"/></l><r>osteosiet<s n="n"/></r></p></e> <!-- osteocyte,house__n -->
+0 osteoclast  <e><p><l>osteoclast<s n="n"/></l><r>osteoklast<s n="n"/></r></p></e> <!-- osteoclast,house__n -->
+0 osteoblast  <e><p><l>osteoblast<s n="n"/></l><r>osteoblast<s n="n"/></r></p></e> <!-- osteoblast,house__n -->
+0 osseous  <e><p><l>osseous<s n="adj"/></l><r>beenagtig<s n="adj"/></r></p></e> <!-- osseous,expensive__adj -->
+0 osmolarity  <e><p><l>osmolarity<s n="n"/></l><r>osmolariteit<s n="n"/></r></p></e> <!-- -->
+0 osmium  <e><p><l>osmium<s n="n"/></l><r>osmium<s n="n"/></r></p></e> <!-- osmium,house__n -->
+0 oscillograph  <e><p><l>oscillograph<s n="n"/></l><r>ossillograaf<s n="n"/></r></p></e> <!-- oscillograph,house__n -->
+0 organogenesis  <e><p><l>organogenesis<s n="n"/></l><r>organogenese<s n="n"/></r></p></e> <!-- -->
+0 organelle  <e><p><l>organelle<s n="n"/></l><r>organel<s n="n"/></r></p></e> <!-- organelle,house__n -->
+0 optometry  <e><p><l>optometry<s n="n"/></l><r>optometrie<s n="n"/></r></p></e> <!-- -->
+0 ophthalmic  <e><p><l>ophthalmic<s n="adj"/></l><r>oftalmies<s n="adj"/></r></p></e> <!-- ophthalmic,expensive__adj -->
+0 oogonium  <e><p><l>oogonium<s n="n"/></l><r>oögonium<s n="n"/></r></p></e> <!-- oogonium,house__n -->
+0 oogenesis  <e><p><l>oogenesis<s n="n"/></l><r>oögenese<s n="n"/></r></p></e> <!-- -->
+0 oogamy  <e><p><l>oogamy<s n="n"/></l><r>oögamie<s n="n"/></r></p></e> <!-- -->
+0 oocyte  <e><p><l>oocyte<s n="n"/></l><r>oösiet<s n="n"/></r></p></e> <!-- oocyte,house__n -->
+0 ontogeny  <e><p><l>ontogeny<s n="n"/></l><r>ontogenie<s n="n"/></r></p></e> <!-- -->
+0 ontogenesis  <e><p><l>ontogenesis<s n="n"/></l><r>ontogenese<s n="n"/></r></p></e> <!-- -->
+0 oncogenesis  <e><p><l>oncogenesis<s n="n"/></l><r>onkogenese<s n="n"/></r></p></e> <!-- -->
+0 oliguria  <e><p><l>oliguria<s n="n"/></l><r>oligurie<s n="n"/></r></p></e> <!-- oliguria,house__n -->
+0 oligodendroglia  <e><p><l>oligodendroglia<s n="n"/></l><r>oligodendroglia<s n="n"/></r></p></e> <!-- oligodendroglia,house__n -->
+0 oligodendrocyte  <e><p><l>oligodendrocyte<s n="n"/></l><r>oligodendrosiet<s n="n"/></r></p></e> <!-- oligodendrocyte,house__n -->
+0 olfaction  <e><p><l>olfaction<s n="n"/></l><r>olfaksie<s n="n"/></r></p></e> <!-- olfaction,house__n -->
+0 odontology  <e><p><l>odontology<s n="n"/></l><r>tandheelkunde<s n="n"/></r></p></e> <!-- -->
+0 odontology  <e><p><l>odontology<s n="n"/></l><r>odontologie<s n="n"/></r></p></e>
+0 odontoblast  <e><p><l>odontoblast<s n="n"/></l><r>odontoblast<s n="n"/></r></p></e> <!-- odontoblast,house__n -->
+0 occlusion  <e><p><l>occlusion<s n="n"/></l><r>okklusie<s n="n"/></r></p></e> <!-- occlusion,house__n -->
+0 occiput  <e><p><l>occiput<s n="n"/></l><r>oksiput<s n="n"/></r></p></e> <!-- occiput,house__n -->
+0 occipital  <e><p><l>occipital<s n="adj"/></l><r>oksipitaal<s n="adj"/></r></p></e> <!-- occipital,expensive__adj -->
+0 nymphomania  <e><p><l>nymphomania<s n="n"/></l><r>nimfomanie<s n="n"/></r></p></e> <!-- nymphomania,house__n -->
+0 nyctalopia  <e><p><l>nyctalopia<s n="n"/></l><r>niktalopie<s n="n"/></r></p></e> <!-- nyctalopia,house__n -->
+0 nucleotide  <e><p><l>nucleotide<s n="n"/></l><r>nukleosied<s n="n"/></r></p></e> <!-- nucleotide,house__n -->
+0 nucleoside  <e><p><l>nucleoside<s n="n"/></l><r>nukleotied<s n="n"/></r></p></e> <!-- nucleoside,house__n -->
+0 nucleoside  <e><p><l>nucleoside<s n="n"/></l><r>nukleosied<s n="n"/></r></p></e>
+0 nucleon  <e><p><l>nucleon<s n="n"/></l><r>nukleon<s n="n"/></r></p></e> <!-- nucleon,house__n -->
+0 nucleolus  <e><p><l>nucleolus<s n="n"/></l><r>nukleolus<s n="n"/></r></p></e>
+0 nucleolus  <e><p><l>nucleolus<s n="n"/></l><r>kernliggaampie<s n="n"/></r></p></e> <!-- nucleolus,access__n -->
+0 notochord  <e><p><l>notochord<s n="n"/></l><r>vrugrugmurg<s n="n"/></r></p></e> <!-- notochord,house__n -->
+0 notochord  <e><p><l>notochord<s n="n"/></l><r>notokoord<s n="n"/></r></p></e>
+0 nostril  <e><p><l>nostril<s n="n"/></l><r>neusgat<s n="n"/></r></p></e> <!-- nostril,house__n -->
+0 normocyte  <e><p><l>normocyte<s n="n"/></l><r>normosiet<s n="n"/></r></p></e> <!-- normocyte,house__n -->
+0 normoblast  <e><p><l>normoblast<s n="n"/></l><r>normoblast<s n="n"/></r></p></e> <!-- normoblast,house__n -->
+0 nomogram  <e><p><l>nomogram<s n="n"/></l><r>nomogram<s n="n"/></r></p></e> <!-- nomogram,house__n -->
+0 nodule  <e><p><l>nodule<s n="n"/></l><r>nodule<s n="n"/></r></p></e> <!-- nodule,house__n -->
+0 nitrification  <e><p><l>nitrification<s n="n"/></l><r>nitrifikasie<s n="n"/></r></p></e> <!-- nitrification,house__n -->
+0 nitride  <e><p><l>nitride<s n="n"/></l><r>nitried<s n="n"/></r></p></e> <!-- nitride,house__n -->
+0 neutropenia  <e><p><l>neutropenia<s n="n"/></l><r>neutropenie<s n="n"/></r></p></e> <!-- neutropenia,house__n -->
+0 neurotransmitter  <e><p><l>neurotransmitter<s n="n"/></l><r>senuwee-oordragstof<s n="n"/></r></p></e> <!-- neurotransmitter,house__n -->
+0 neuromuscular  <e><p><l>neuromuscular<s n="adj"/></l><r>neuromuskulêr<s n="adj"/></r></p></e> <!-- neuromuscular,expensive__adj -->
+0 neurohypophysis  <e><p><l>neurohypophysis<s n="n"/></l><r>neurohipofise<s n="n"/></r></p></e> <!-- -->
+0 neuroglia  <e><p><l>neuroglia<s n="n"/></l><r>neuroglia<s n="n"/></r></p></e> <!-- neuroglia,house__n -->
+0 neurofibril  <e><p><l>neurofibril<s n="n"/></l><r>neurofibril<s n="n"/></r></p></e> <!-- neurofibril,house__n -->
+0 neuroblast  <e><p><l>neuroblast<s n="n"/></l><r>onvolwasse senusel<s n="n"/></r></p></e> <!-- neuroblast,house__n -->
+0 neuroblast  <e><p><l>neuroblast<s n="n"/></l><r>neuroblast<s n="n"/></r></p></e>
+0 neurilemma  <e><p><l>neurilemma<s n="n"/></l><r>neurilemma<s n="n"/></r></p></e> <!-- neurilemma,schema__n -->
+0 nephron  <e><p><l>nephron<s n="n"/></l><r>nefron<s n="n"/></r></p></e> <!-- nephron,house__n -->
+0 neonatal  <e><p><l>neonatal<s n="adj"/></l><r>neonataal<s n="adj"/></r></p></e> <!-- neonatal,expensive__adj -->
+0 nematode  <e><p><l>nematode<s n="n"/></l><r>nematood<s n="n"/></r></p></e> <!-- nematode,house__n -->
+0 necrosis  <e><p><l>necrosis<s n="n"/></l><r>nekrose<s n="n"/></r></p></e> <!-- -->
+0 natality  <e><p><l>natality<s n="n"/></l><r>nataliteit<s n="n"/></r></p></e>
+0 natality  <e><p><l>natality<s n="n"/></l><r>geboortesyfer<s n="n"/></r></p></e> <!-- -->
+0 natality  <e><p><l>natality<s n="n"/></l><r>aanwasvermoë<s n="n"/></r></p></e>
+0 natal  <e><p><l>natal<s n="n"/></l><r>nataal<s n="n"/></r></p></e>
+0 natal  <e><p><l>natal<s n="adj"/></l><r>geboorte-<s n="adj"/></r></p></e> <!-- natal,expensive__adj -->
+0 narcosis  <e><p><l>narcosis<s n="n"/></l><r>narkose<s n="n"/></r></p></e> <!-- -->
+0 myoglobin  <e><p><l>myoglobin<s n="n"/></l><r>mioglobien<s n="n"/></r></p></e> <!-- myoglobin,house__n -->
+0 myofibril  <e><p><l>myofibril<s n="n"/></l><r>spierfibril<s n="n"/></r></p></e> <!-- myofibril,house__n -->
+0 myofibril  <e><p><l>myofibril<s n="n"/></l><r>miofibril<s n="n"/></r></p></e>
+0 myocardium  <e><p><l>myocardium<s n="n"/></l><r>miokardium<s n="n"/></r></p></e> <!-- myocardium,house__n -->
+0 myoblast  <e><p><l>myoblast<s n="n"/></l><r>mioblast<s n="n"/></r></p></e> <!-- myoblast,house__n -->
+0 myelocyte  <e><p><l>myelocyte<s n="n"/></l><r>miëlosiet<s n="n"/></r></p></e> <!-- myelocyte,house__n -->
+0 myeloblast  <e><p><l>myeloblast<s n="n"/></l><r>miëloblast<s n="n"/></r></p></e> <!-- myeloblast,house__n -->
+0 myelin  <e><p><l>myelin<s n="n"/></l><r>miëlien<s n="n"/></r></p></e> <!-- myelin,house__n -->
+0 myelencephalon  <e><p><l>myelencephalon<s n="n"/></l><r>oblongata<s n="n"/></r></p></e> <!-- myelencephalon,house__n -->
+0 mutualism  <e><p><l>mutualism<s n="n"/></l><r>mutualisme<s n="n"/></r></p></e> <!-- mutualism,house__n -->
+0 musculature  <e><p><l>musculature<s n="n"/></l><r>spierstelsel<s n="n"/></r></p></e> <!-- musculature,house__n -->
+0 musculature  <e><p><l>musculature<s n="n"/></l><r>muskulatuur<s n="n"/></r></p></e>
+0 mucosa  <e><p><l>mucosa<s n="n"/></l><r>mukosa<s n="n"/></r></p></e> <!-- mucosa,house__n -->
+0 mucoprotein  <e><p><l>mucoprotein<s n="n"/></l><r>mukoproteïen<s n="n"/></r></p></e> <!-- mucoprotein,house__n -->
+0 mucin  <e><p><l>mucin<s n="n"/></l><r>musien<s n="n"/></r></p></e> <!-- mucin,house__n -->
+0 morula  <e><p><l>morula<s n="n"/></l><r>morula<s n="n"/></r></p></e> <!-- morula,larva__n -->
+0 morphogenesis  <e><p><l>morphogenesis<s n="n"/></l><r>morfogenese<s n="n"/></r></p></e> <!-- -->
+0 morphine  <e><p><l>morphine<s n="n"/></l><r>morfien<s n="n"/></r></p></e> <!-- morphine,house__n -->
+0 monosaccharide  <e><p><l>monosaccharide<s n="n"/></l><r<s n="n"/></r></p></e> <!-- monosaccharide,house__n -->
+0 monocyte  <e><p><l>monocyte<s n="n"/></l><r>monosiet<s n="n"/></r></p></e> <!-- monocyte,house__n -->
+0 monochromatic  <e><p><l>monochromatic<s n="adj"/></l><r>monochromaties<s n="adj"/></r></p></e> <!-- monochromatic,expensive__adj -->
+0 monoblast  <e><p><l>monoblast<s n="n"/></l><r>monoblast<s n="n"/></r></p></e> <!-- monoblast,house__n -->
+0 molarity  <e><p><l>molarity<s n="n"/></l><r>molariteit<s n="n"/></r></p></e> <!-- -->
+0 molar  <e><p><l>molar<s n="n"/></l><r>molêr<s n="n"/></r></p></e>
+0 molar  <e><p><l>molar<s n="n"/></l><r>molaar<s n="n"/></r></p></e>
+0 molar  <e><p><l>molar<s n="adj"/></l><r>maaltand<s n="adj"/></r></p></e> <!-- molar,expensive__adj -->
+0 molality  <e><p><l>molality<s n="n"/></l><r>molaliteit<s n="n"/></r></p></e> <!-- -->
+0 modiolus  <e><p><l>modiolus<s n="n"/></l><r>modiolus<s n="n"/></r></p></e> <!-- modiolus,access__n -->
+0 mitotic  <e><p><l>mitotic<s n="adj"/></l><r>mitoties<s n="adj"/></r></p></e> <!-- mitotic,expensive__adj -->
+0 mitosis  <e><p><l>mitosis<s n="n"/></l><r>mitose<s n="n"/></r></p></e> <!-- -->
+0 mitochondrion  <e><p><l>mitochondrion<s n="n"/></l><r>mitochondrion<s n="n"/></r></p></e> <!-- mitochondrion,house__n -->
+0 millivolt  <e><p><l>millivolt<s n="n"/></l><r>millivolt<s n="n"/></r></p></e> <!-- millivolt,house__n -->
+0 millilitre  <e><p><l>millilitre<s n="n"/></l><r>milliliter<s n="n"/></r></p></e> <!-- millilitre,house__n -->
+0 milliequivalent  <e><p><l>milliequivalent<s n="n"/></l><r>milli-ekwivalent<s n="n"/></r></p></e> <!-- milliequivalent,house__n -->
+0 microtomy  <e><p><l>microtomy<s n="n"/></l><r>mikrotomie<s n="n"/></r></p></e> <!-- -->
+0 microsome  <e><p><l>microsome<s n="n"/></l><r>mikrosoom<s n="n"/></r></p></e> <!-- microsome,house__n -->
+0 micron  <e><p><l>micron<s n="n"/></l><r>mikron<s n="n"/></r></p></e> <!-- micron,house__n -->
+0 micrometer  <e><p><l>micrometer<s n="n"/></l><r>mikrometer<s n="n"/></r></p></e> <!-- micrometer,house__n -->
+0 microglia  <e><p><l>microglia<s n="n"/></l><r>mikroglia<s n="n"/></r></p></e> <!-- microglia,house__n -->
+0 microfilament  <e><p><l>microfilament<s n="n"/></l><r>mikrofilament<s n="n"/></r></p></e> <!-- microfilament,house__n -->
+0 microcyte  <e><p><l>microcyte<s n="n"/></l><r>mikrosiet<s n="n"/></r></p></e> <!-- microcyte,house__n -->
+0 metatarsus  <e><p><l>metatarsus<s n="n"/></l><r>middelvoetbeentjie<s n="n"/></r></p></e> <!-- metatarsus,access__n -->
+0 metatarsus  <e><p><l>metatarsus<s n="n"/></l><r>metatarsus<s n="n"/></r></p></e>
+0 metaphysis  <e><p><l>metaphysis<s n="n"/></l><r>metafise<s n="n"/></r></p></e> <!-- -->
+0 metaphase  <e><p><l>metaphase<s n="n"/></l><r>metafase<s n="n"/></r></p></e> <!-- metaphase,house__n -->
+0 metacarpus  <e><p><l>metacarpus<s n="n"/></l><r>middelhandbeentjie<s n="n"/></r></p></e> <!-- metacarpus,access__n -->
+0 metacarpus  <e><p><l>metacarpus<s n="n"/></l><r>metakarpus<s n="n"/></r></p></e>
+0 metabolite  <e><p><l>metabolite<s n="n"/></l><r>metaboliet<s n="n"/></r></p></e> <!-- metabolite,house__n -->
+0 mesoderm  <e><p><l>mesoderm<s n="n"/></l><r>mesoderm<s n="n"/></r></p></e> <!-- mesoderm,house__n -->
+0 mesodermal  <e><p><l>mesodermal<s n="adj"/></l><r>mesodermaal<s n="adj"/></r></p></e> <!-- mesodermal,expensive__adj -->
+0 mesentery  <e><p><l>mesentery<s n="n"/></l><r>dermkeil<s n="n"/></r></p></e> <!-- -->
+0 mesenteric  <e><p><l>mesenteric<s n="adj"/></l><r>mesenteries<s n="adj"/></r></p></e> <!-- mesenteric,expensive__adj -->
+0 mesenchyme  <e><p><l>mesenchyme<s n="n"/></l><r>vrugbindweefsel<s n="n"/></r></p></e> <!-- mesenchyme,house__n -->
+0 mesenchyme  <e><p><l>mesenchyme<s n="n"/></l><r>mesengiem<s n="n"/></r></p></e>
+0 mesenchyme  <e><p><l>mesenchyme<s n="n"/></l><r>mesenchiem<s n="n"/></r></p></e>
+0 mesencephalon  <e><p><l>mesencephalon<s n="n"/></l><r>mesensefalon<s n="n"/></r></p></e> <!-- mesencephalon,house__n -->
+0 mesencephalon  <e><p><l>mesencephalon<s n="n"/></l><r>mesenkefalon<s n="n"/></r></p></e>
+0 merotomy  <e><p><l>merotomy<s n="n"/></l><r>merotomie<s n="n"/></r></p></e> <!-- -->
+0 meridian  <e><p><l>meridian<s n="n"/></l><r>meridiaan<s n="n"/></r></p></e> <!-- meridian,house__n -->
+0 menarche  <e><p><l>menarche<s n="n"/></l><r>menarg<s n="n"/></r></p></e> <!-- menarche,house__n -->
+0 membranous  <e><p><l>membranous<s n="adj"/></l><r>membraneus<s n="adj"/></r></p></e> <!-- membranous,expensive__adj -->
+0 melanocyte  <e><p><l>melanocyte<s n="n"/></l><r>melanosiet<s n="n"/></r></p></e> <!-- melanocyte,house__n -->
+0 melanin  <e><p><l>melanin<s n="n"/></l><r>melanien<s n="n"/></r></p></e> <!-- melanin,house__n -->
+0 meiotic  <e><p><l>meiotic<s n="adj"/></l><r>meioties<s n="adj"/></r></p></e> <!-- meiotic,expensive__adj -->
+0 meiosis  <e><p><l>meiosis<s n="n"/></l><r>rypingsdeling<s n="n"/></r></p></e> <!-- -->
+0 megaloblast  <e><p><l>megaloblast<s n="n"/></l><r>megaloblast<s n="n"/></r></p></e> <!-- megaloblast,house__n -->
+0 megakaryocyte  <e><p><l>megakaryocyte<s n="n"/></l><r>megakariosiet<s n="n"/></r></p></e> <!-- megakaryocyte,house__n -->
+0 mediastinum  <e><p><l>mediastinum<s n="n"/></l><r>mediastinum<s n="n"/></r></p></e> <!-- mediastinum,house__n -->
+0 meatus  <e><p><l>meatus<s n="n"/></l><r>meatus<s n="n"/></r></p></e>
+0 maxillary  <e><p><l>maxillary<s n="adj"/></l><r>maksillêr<s n="adj"/></r></p></e> <!-- maxillary,expensive__adj -->
+0 mastication  <e><p><l>mastication<s n="n"/></l><r>mastikasie<s n="n"/></r></p></e> <!-- mastication,house__n -->
+0 manometer  <e><p><l>manometer<s n="n"/></l><r>manometer<s n="n"/></r></p></e> <!-- manometer,house__n -->
+0 manganese  <e><p><l>manganese<s n="n"/></l><r>mangaan<s n="n"/></r></p></e> <!-- manganese,house__n__unc -->
+0 maltose  <e><p><l>maltose<s n="n"/></l><r>maltose<s n="n"/></r></p></e> <!-- maltose,house__n -->
+0 malleolus  <e><p><l>malleolus<s n="n"/></l><r>malleolus<s n="n"/></r></p></e> <!-- malleolus,access__n -->
+0 malformation  <e><p><l>malformation<s n="n"/></l><r>wanvorming<s n="n"/></r></p></e> <!-- malformation,house__n -->
+0 malacia  <e><p><l>malacia<s n="n"/></l><r>malasie<s n="n"/></r></p></e> <!-- malacia,house__n -->
+0 macula  <e><p><l>macula<s n="n"/></l><r>makula<s n="n"/></r></p></e> <!-- macula,house__n -->
+0 macula  <e><p><l>macula<s n="n"/></l><r>macula<s n="n"/></r></p></e>
+0 macromolecule  <e><p><l>macromolecule<s n="n"/></l><r>makromolekule<s n="n"/></r></p></e> <!-- macromolecule,house__n -->
+0 macroglia  <e><p><l>macroglia<s n="n"/></l><r>makroglia<s n="n"/></r></p></e> <!-- macroglia,house__n -->
+0 macrocyte  <e><p><l>macrocyte<s n="n"/></l><r>makrosiet<s n="n"/></r></p></e> <!-- macrocyte,house__n -->
+0 lysis  <e><p><l>lysis<s n="n"/></l><r>lise<s n="n"/></r></p></e> <!-- -->
+0 lymphocytosis  <e><p><l>lymphocytosis<s n="n"/></l><r>limfositose<s n="n"/></r></p></e> <!-- -->
+0 lymphocyte  <e><p><l>lymphocyte<s n="n"/></l><r>limfosiet<s n="n"/></r></p></e> <!-- lymphocyte,house__n -->
+0 luteinisation  <e><p><l>luteinisation<s n="n"/></l><r>luteïnisasie<s n="n"/></r></p></e> <!-- luteinisation,house__n -->
+0 lutein  <e><p><l>lutein<s n="n"/></l><r>luteïen<s n="n"/></r></p></e> <!-- lutein,house__n -->
+0 lunar  <e><p><l>lunar<s n="adj"/></l><r>lunêr<s n="adj"/></r></p></e> <!-- lunar,expensive__adj -->
+0 luminous  <e><p><l>luminous<s n="adj"/></l><r>liggewend<s n="adj"/></r></p></e> <!-- luminous,expensive__adj -->
+0 lordosis  <e><p><l>lordosis<s n="n"/></l><r>lordose<s n="n"/></r></p></e> <!-- -->
+0 lordosis  <e><p><l>lordosis<s n="n"/></l><r>holrug<s n="n"/></r></p></e>
+0 longitudinal  <e><p><l>longitudinal<s n="n"/></l><r>longitudinaal<s n="n"/></r></p></e>
+0 longitudinal  <e><p><l>longitudinal<s n="adj"/></l><r>lengteverlopend<s n="adj"/></r></p></e> <!-- longitudinal,expensive__adj -->
+0 lobule  <e><p><l>lobule<s n="n"/></l><r>lobule<s n="n"/></r></p></e> <!-- lobule,house__n -->
+0 lithiasis  <e><p><l>lithiasis<s n="n"/></l><r>litiase<s n="n"/></r></p></e> <!-- -->
+0 lipoprotein  <e><p><l>lipoprotein<s n="n"/></l><r>lipoproteïen<s n="n"/></r></p></e> <!-- lipoprotein,house__n -->
+0 lipoid  <e><p><l>lipoid<s n="n"/></l><r>lipoïed<s n="n"/></r></p></e> <!-- lipoid,house__n -->
+0 lipid  <e><p><l>lipid<s n="n"/></l><r>lipied<s n="n"/></r></p></e> <!-- lipid,house__n -->
+0 lipase  <e><p><l>lipase<s n="n"/></l><r>lipase<s n="n"/></r></p></e> <!-- lipase,house__n -->
+0 lingual  <e><p><l>lingual<s n="adj"/></l><r>linguaal<s n="adj"/></r></p></e> <!-- lingual,expensive__adj -->
+0 ligament  <e><p><l>ligament<s n="n"/></l><r<s n="n"/></r></p></e> <!-- ligament,house__n -->
+0 libido  <e><p><l>libido<s n="n"/></l><r>libido<s n="n"/></r></p></e> <!-- libido,house__n -->
+0 leukopoiesis  <e><p><l>leukopoiesis<s n="n"/></l><r>leukopoiëse<s n="n"/></r></p></e> <!-- -->
+0 leukopenia  <e><p><l>leukopenia<s n="n"/></l><r>leukopenie<s n="n"/></r></p></e> <!-- leukopenia,house__n -->
+0 leukocytosis  <e><p><l>leukocytosis<s n="n"/></l><r>leukositose<s n="n"/></r></p></e> <!-- -->
+0 lesser omentum  <e><p><l>lesser omentum<s n="n"/></l><r>minus<s n="n"/></r></p></e> <!-- minus,access__n -->
+0 laparotomy  <e><p><l>laparotomy<s n="n"/></l><r>laparotomie<s n="n"/></r></p></e> <!-- -->
+0 laparoscopy  <e><p><l>laparoscopy<s n="n"/></l><r>laparoskopie<s n="n"/></r></p></e> <!-- -->
+0 lancet  <e><p><l>lancet<s n="n"/></l><r>lanset<s n="n"/></r></p></e> <!-- lancet,house__n -->
+0 lambda  <e><p><l>lambda<s n="n"/></l><r>lambda<s n="n"/></r></p></e> <!-- lambda,house__n -->
+0 lactose  <e><p><l>lactose<s n="n"/></l><r>melksuiker<s n="n"/></r></p></e> <!-- lactose,house__n -->
+0 lactose  <e><p><l>lactose<s n="n"/></l><r>laktose<s n="n"/></r></p></e>
+0 lactiferous  <e><p><l>lactiferous<s n="n"/></l><r>laktifereus<s n="n"/></r></p></e>
+0 lactiferous  <e><p><l>lactiferous<s n="adj"/></l><r>melkhoudend<s n="adj"/></r></p></e> <!-- lactiferous,expensive__adj -->
+0 lacrimal  <e><p><l>lacrimal<s n="n"/></l><r>traan-<s n="n"/></r></p></e>
+0 lacrimal  <e><p><l>lacrimal<s n="adj"/></l><r>lakrimaal<s n="adj"/></r></p></e> <!-- lacrimal,expensive__adj -->
+0 labium  <e><p><l>labium<s n="n"/></l><r>labium<s n="n"/></r></p></e> <!-- labium,house__n -->
+0 labial  <e><p><l>labial<s n="adj"/></l><r>labiaal<s n="adj"/></r></p></e> <!-- labial,expensive__adj -->
+0 kyphosis  <e><p><l>kyphosis<s n="n"/></l><r>kifose<s n="n"/></r></p></e>
+0 kyphosis  <e><p><l>kyphosis<s n="n"/></l><r>boggelrug<s n="n"/></r></p></e> <!-- -->
+0 kymograph  <e><p><l>kymograph<s n="n"/></l><r>kimograaf<s n="n"/></r></p></e> <!-- kymography,house__n -->
+0 kleptomania  <e><p><l>kleptomania<s n="n"/></l><r>kleptomanie<s n="n"/></r></p></e> <!-- kleptomania,house__n -->
+0 ketone  <e><p><l>ketone<s n="n"/></l><r>ketoon<s n="n"/></r></p></e> <!-- ketone,house__n -->
+0 ketone  <e><p><l>ketone<s n="n"/></l><r>keton<s n="n"/></r></p></e>
+0 keratoplasty  <e><p><l>keratoplasty<s n="n"/></l><r>keratoplastiek<s n="n"/></r></p></e> <!-- -->
+0 keratin  <e><p><l>keratin<s n="n"/></l><r>keratien<s n="n"/></r></p></e> <!-- keratin,house__n -->
+0 karyotype  <e><p><l>karyotype<s n="n"/></l><r>kariotipe<s n="n"/></r></p></e> <!-- karyotype,house__n -->
+0 karyogamy  <e><p><l>karyogamy<s n="n"/></l><r>kernvereniging<s n="n"/></r></p></e> <!-- -->
+0 karyogamy  <e><p><l>karyogamy<s n="n"/></l><r>kariogamie<s n="n"/></r></p></e>
+0 joule  <e><p><l>joule<s n="n"/></l><r>joule<s n="n"/></r></p></e> <!-- joule,house__n -->
+0 itch  <e><p><l>itch<s n="n"/></l><r>jeuk<s n="n"/></r></p></e> <!-- itch,access__n -->
+0 isothermal  <e><p><l>isothermal<s n="adj"/></l><r>isotermies<s n="adj"/></r></p></e> <!-- isothermal,expensive__adj -->
+0 isomorphic  <e><p><l>isomorphic<s n="adj"/></l><r>isomorfies<s n="adj"/></r></p></e> <!-- isomorphic,expensive__adj -->
+0 isometric  <e><p><l>isometric<s n="adj"/></l><r>isometries<s n="adj"/></r></p></e> <!-- isometric,expensive__adj -->
+0 isomer  <e><p><l>isomer<s n="n"/></l><r>isomeer<s n="n"/></r></p></e> <!-- isomery,house__n -->
+0 isogamy  <e><p><l>isogamy<s n="n"/></l><r>isogamie<s n="n"/></r></p></e> <!-- -->
+0 ischium  <e><p><l>ischium<s n="n"/></l><r>sitbeen<s n="n"/></r></p></e> <!-- ischium,house__n -->
+0 ischium  <e><p><l>ischium<s n="n"/></l><r>iskium<s n="n"/></r></p></e>
+0 ischium  <e><p><l>ischium<s n="n"/></l><r>ischium<s n="n"/></r></p></e>
+0 iridotomy  <e><p><l>iridotomy<s n="n"/></l><r>iridotomie<s n="n"/></r></p></e> <!-- -->
+0 ionic  <e><p><l>ionic<s n="adj"/></l><r>ionies<s n="adj"/></r></p></e> <!-- ionic,expensive__adj -->
+0 iodide  <e><p><l>iodide<s n="n"/></l><r>jodied<s n="n"/></r></p></e> <!-- iodide,house__n -->
+0 invertebrate  <e><p><l>invertebrate<s n="n"/></l><r>ongewerwelde<s n="n"/></r></p></e> <!-- invertebrate,house__n -->
+0 invertebrate  <e><p><l>invertebrate<s n="n"/></l><r>invertebraat<s n="n"/></r></p></e>
+0 invagination  <e><p><l>invagination<s n="n"/></l><r>invaginasie<s n="n"/></r></p></e> <!-- invagination,house__n -->
+0 invagination  <e><p><l>invagination<s n="n"/></l><r>instulping<s n="n"/></r></p></e>
+0 intubation  <e><p><l>intubation<s n="n"/></l><r>intubasie<s n="n"/></r></p></e> <!-- intubation,house__n -->
+0 introversion  <e><p><l>introversion<s n="n"/></l><r>introversie<s n="n"/></r></p></e> <!-- introversion,house__n -->
+0 intracellular  <e><p><l>intracellular<s n="adj"/></l><r>intrasellulêr<s n="adj"/></r></p></e> <!-- intracellular,expensive__adj -->
+0 interosseous  <e><p><l>interosseous<s n="n"/></l><r>interosseus<s n="n"/></r></p></e>
+0 interosseous  <e><p><l>interosseous<s n="adj"/></l><r>tussenbenig<s n="adj"/></r></p></e> <!-- interosseous,expensive__adj -->
+0 interferon  <e><p><l>interferon<s n="n"/></l><r>interferon<s n="n"/></r></p></e> <!-- interferon,house__n -->
+0 insulator  <e><p><l>insulator<s n="n"/></l><r>isolator<s n="n"/></r></p></e> <!-- insulator,house__n -->
+0 innominate  <e><p><l>innominate<s n="n"/></l><r>naamloos<s n="n"/></r></p></e>
+0 innominate  <e><p><l>innominate<s n="adj"/></l><r>innominaat<s n="adj"/></r></p></e> <!-- innominate,expensive__adj -->
+0 innervation  <e><p><l>innervation<s n="n"/></l><r>innervasie<s n="n"/></r></p></e> <!-- innervation,house__n -->
+0 inhaler  <e><p><l>inhaler<s n="n"/></l><r>verstuiwer<s n="n"/></r></p></e> <!-- inhaler,house__n -->
+0 infundibulum  <e><p><l>infundibulum<s n="n"/></l><r>longsakkie<s n="n"/></r></p></e>
+0 infundibulum  <e><p><l>infundibulum<s n="n"/></l><r>infundibulum<s n="n"/></r></p></e> <!-- infundibulum,house__n -->
+0 incus  <e><p><l>incus<s n="n"/></l><r>inkus<s n="n"/></r></p></e> <!-- incus,access__n -->
+0 incisor  <e><p><l>incisor<s n="n"/></l><r>snytand<s n="n"/></r></p></e> <!-- incisor,house__n -->
+0 impregnate  <e><p><l>impregnate<s n="vblex"/></l><r>impregneer<s n="vblex"/></r></p></e> <!-- -->
+0 immunology  <e><p><l>immunology<s n="n"/></l><r>immunologie<s n="n"/></r></p></e> <!-- -->
+0 immunoglobulin  <e><p><l>immunoglobulin<s n="n"/></l><r>immunoglobulien<s n="n"/></r></p></e> <!-- immunoglobulin,house__n -->
+0 ichthyosis  <e><p><l>ichthyosis<s n="n"/></l><r>igtiose<s n="n"/></r></p></e> <!-- -->
+0 hypothyroidism  <e><p><l>hypothyroidism<s n="n"/></l><r>hipotiroïdisme<s n="n"/></r></p></e> <!-- hypothyroidism,house__n -->
+0 hypothalamus  <e><p><l>hypothalamus<s n="n"/></l><r>hipotalamus<s n="n"/></r></p></e> <!-- hypothalamus,access__n -->
+0 hypotension  <e><p><l>hypotension<s n="n"/></l><r>hipotensie<s n="n"/></r></p></e> <!-- hypotension,house__n -->
+0 hypoplasia  <e><p><l>hypoplasia<s n="n"/></l><r>hipoplasie<s n="n"/></r></p></e> <!-- hypoplasia,house__n -->
+0 hypophysis  <e><p><l>hypophysis<s n="n"/></l><r>meesterklier<s n="n"/></r></p></e> <!-- -->
+0 hypophysis  <e><p><l>hypophysis<s n="n"/></l><r>hipofise<s n="n"/></r></p></e>
+0 hypogastrium  <e><p><l>hypogastrium<s n="n"/></l><r>hipogastrium<s n="n"/></r></p></e> <!-- hypogastrium,house__n -->
+0 hypnotic  <e><p><l>hypnotic<s n="adj"/></l><r>hipnoties<s n="adj"/></r></p></e> <!-- hypnotic,expensive__adj -->
+0 hypnosis  <e><p><l>hypnosis<s n="n"/></l><r>hipnose<s n="n"/></r></p></e> <!-- -->
+0 hyperthyroidism  <e><p><l>hyperthyroidism<s n="n"/></l><r>hipertiroïdisme<s n="n"/></r></p></e> <!-- hyperthyroidism,house__n -->
+0 hyperthermia  <e><p><l>hyperthermia<s n="n"/></l><r>hipertermie<s n="n"/></r></p></e> <!-- hyperthermia,house__n -->
+0 hyperplasia  <e><p><l>hyperplasia<s n="n"/></l><r>hiperplasie<s n="n"/></r></p></e> <!-- hyperplasia,house__n -->
+0 hypercapnia  <e><p><l>hypercapnia<s n="n"/></l><r>hiperkapnie<s n="n"/></r></p></e> <!-- hypercapnia,house__n -->
+0 hyoid  <e><p><l>hyoid<s n="n"/></l><r>hioïed<s n="n"/></r></p></e> <!-- hyoid,house__n -->
+0 hymen  <e><p><l>hymen<s n="n"/></l><r>himen<s n="n"/></r></p></e> <!-- hymen,house__n -->
+0 hygroscopic  <e><p><l>hygroscopic<s n="adj"/></l><r>higroskopies<s n="adj"/></r></p></e> <!-- hygroscopic,expensive__adj -->
+0 hygrometer  <e><p><l>hygrometer<s n="n"/></l><r>higrometer<s n="n"/></r></p></e> <!-- hygrometer,house__n -->
+0 hydrostatic  <e><p><l>hydrostatic<s n="adj"/></l><r>hidrostaties<s n="adj"/></r></p></e> <!-- hydrostatic,expensive__adj -->
+0 hydrometer  <e><p><l>hydrometer<s n="n"/></l><r>hidrometer<s n="n"/></r></p></e> <!-- hydrometer,house__n -->
+0 hydrolytic  <e><p><l>hydrolytic<s n="adj"/></l><r>hidrolities<s n="adj"/></r></p></e> <!-- hydrolytic,expensive__adj -->
+0 hydrogenation  <e><p><l>hydrogenation<s n="n"/></l><r>hidrogenasie<s n="n"/></r></p></e> <!-- hydrogenation,house__n -->
+0 hydrocephalus  <e><p><l>hydrocephalus<s n="n"/></l><r>hidrosefalus<s n="n"/></r></p></e> <!-- hydrocephalus,access__n -->
+0 hydrocephalus  <e><p><l>hydrocephalus<s n="n"/></l><r>hidrokefalus<s n="n"/></r></p></e>
+0 hydrate  <e><p><l>hydrate<s n="n"/></l><r>hidreer<s n="n"/></r></p></e>
+0 hydrate  <e><p><l>hydrate<s n="n"/></l><r>hidrateer<s n="n"/></r></p></e> <!-- hydrate,house__n -->
+0 hydrate  <e><p><l>hydrate<s n="n"/></l><r>hidraat<s n="n"/></r></p></e>
+0 humoral  <e><p><l>humoral<s n="adj"/></l><r>humoraal<s n="adj"/></r></p></e> <!-- humoral,expensive__adj -->
+0 humerus  <e><p><l>humerus<s n="n"/></l><r>humerus<s n="n"/></r></p></e>
+0 humerus  <e><p><l>humerus<s n="n"/></l><r>boarmbeen<s n="n"/></r></p></e> <!-- -->
+0 homozygote  <e><p><l>homozygote<s n="n"/></l><r>homosigoot<s n="n"/></r></p></e> <!-- homozygote,house__n -->
+0 homology  <e><p><l>homology<s n="n"/></l><r>homologie<s n="n"/></r></p></e> <!-- -->
+0 homologous  <e><p><l>homologous<s n="adj"/></l><r>homoloog<s n="adj"/></r></p></e> <!-- homologous,expensive__adj -->
+0 histone  <e><p><l>histone<s n="n"/></l><r>histoon<s n="n"/></r></p></e> <!-- histone,house__n -->
+0 histamine  <e><p><l>histamine<s n="n"/></l><r>histamien<s n="n"/></r></p></e> <!-- histamine,house__n -->
+0 hilum  <e><p><l>hilum<s n="n"/></l><r>hilum<s n="n"/></r></p></e> <!-- hilum,house__n -->
+0 hexose  <e><p><l>hexose<s n="n"/></l><r>heksose<s n="n"/></r></p></e> <!-- hexose,house__n -->
+0 hexagon  <e><p><l>hexagon<s n="n"/></l><r>heksagoon<s n="n"/></r></p></e> <!-- hexagon,house__n -->
+0 heterozygote  <e><p><l>heterozygote<s n="n"/></l><r>heterosigoot<s n="n"/></r></p></e> <!-- heterozygote,house__n -->
+0 heterogamy  <e><p><l>heterogamy<s n="n"/></l><r>heterogamie<s n="n"/></r></p></e> <!-- -->
+0 herpes  <e><p><l>herpes<s n="n"/></l><r>herpes<s n="n"/></r></p></e> <!-- herpes,politics__n -->
+0 hernia  <e><p><l>hernia<s n="n"/></l><r>hernia<s n="n"/></r></p></e> <!-- hernia,house__n -->
+0 hernia  <e><p><l>hernia<s n="n"/></l><r>breuk<s n="n"/></r></p></e>
+0 hepatic  <e><p><l>hepatic<s n="adj"/></l><r>hepaties<s n="adj"/></r></p></e> <!-- hepatic,expensive__adj -->
+0 heparin  <e><p><l>heparin<s n="n"/></l><r>heparien<s n="n"/></r></p></e> <!-- heparin,house__n -->
+0 hemeralopia  <e><p><l>hemeralopia<s n="n"/></l><r>hemeralopie<s n="n"/></r></p></e> <!-- hemeralopia,house__n -->
+0 helium  <e><p><l>helium<s n="n"/></l><r>helium<s n="n"/></r></p></e> <!-- helium,house__n__unc -->
+0 haploid  <e><p><l>haploid<s n="adj"/></l><r>haploïed<s n="adj"/></r></p></e> <!-- haploid,expensive__adj -->
+0 halogen  <e><p><l>halogen<s n="n"/></l><r>halogeen<s n="n"/></r></p></e> <!-- halogen,house__n -->
+0 hallucination  <e><p><l>hallucination<s n="n"/></l><r>sinsbedrog<s n="n"/></r></p></e>
+0 hallucination  <e><p><l>hallucination<s n="n"/></l><r>hallusinasie<s n="n"/></r></p></e> <!-- hallucination,house__n -->
+0 haemoblast  <e><p><l>haemoblast<s n="n"/></l><r>hemoblast<s n="n"/></r></p></e> <!-- hemoblast,house__n -->
+0 gynaecology  <e><p><l>gynaecology<s n="n"/></l><r>ginekologie<s n="n"/></r></p></e> <!-- -->
+0 guanine  <e><p><l>guanine<s n="n"/></l><r>guanien<s n="n"/></r></p></e> <!-- guanine,house__n -->
+0 groove  <e><p><l>groove<s n="n"/></l><r>keep<s n="n"/></r></p></e>
+0 groove  <e><p><l>groove<s n="n"/></l><r>groef<s n="n"/></r></p></e> <!-- -->
+0 groin  <e><p><l>groin<s n="n"/></l><r>lies<s n="n"/></r></p></e> <!-- groin,house__n -->
+0 gravitation  <e><p><l>gravitation<s n="n"/></l><r>swaartekrag<s n="n"/></r></p></e> <!-- gravitation,house__n__unc -->
+0 gravitation  <e><p><l>gravitation<s n="n"/></l><r>gravitasie<s n="n"/></r></p></e>
+0 granulopoiesis  <e><p><l>granulopoiesis<s n="n"/></l><r>granulopoiëse<s n="n"/></r></p></e> <!-- -->
+0 granulocytopenia  <e><p><l>granulocytopenia<s n="n"/></l><r>granulositopenie<s n="n"/></r></p></e> <!-- granulocytopenia,house__n -->
+0 granulocyte  <e><p><l>granulocyte<s n="n"/></l><r>granulosiet<s n="n"/></r></p></e> <!-- granulocyte,house__n -->
+0 granule  <e><p><l>granule<s n="n"/></l><r>granule<s n="n"/></r></p></e> <!-- granule,house__n -->
+0 granulation  <e><p><l>granulation<s n="n"/></l><r>granulasie<s n="n"/></r></p></e> <!-- granulation,house__n -->
+0 granulate  <e><p><l>granulate<s n="vblex"/></l><r>granuleer<s n="vblex"/></r></p></e> <!-- -->
+0 granular  <e><p><l>granular<s n="adj"/></l><r>granulêr<s n="adj"/></r></p></e> <!-- granular,expensive__adj -->
+0 gout  <e><p><l>gout<s n="n"/></l><r>jig<s n="n"/></r></p></e> <!-- gout,house__n -->
+0 gonad  <e><p><l>gonad<s n="n"/></l><r>gonade<s n="n"/></r></p></e> <!-- gonad,house__n -->
+0 gomphosis  <e><p><l>gomphosis<s n="n"/></l><r>gomfose<s n="n"/></r></p></e> <!-- -->
+0 goitre  <e><p><l>goitre<s n="n"/></l><r>kropgeswel<s n="n"/></r></p></e> <!-- goitre,house__n -->
+0 goitre  <e><p><l>goitre<s n="n"/></l><r>goiter<s n="n"/></r></p></e>
+0 glycoprotein  <e><p><l>glycoprotein<s n="n"/></l><r>glikoproteïen<s n="n"/></r></p></e> <!-- glycoprotein,house__n -->
+0 glycolipid  <e><p><l>glycolipid<s n="n"/></l><r>glukolipied<s n="n"/></r></p></e> <!-- glycolipid,house__n -->
+0 glycolipid  <e><p><l>glycolipid<s n="n"/></l><r>glikolipied<s n="n"/></r></p></e>
+0 glycogenesis  <e><p><l>glycogenesis<s n="n"/></l><r>glikogenese<s n="n"/></r></p></e> <!-- -->
+0 glycogen  <e><p><l>glycogen<s n="n"/></l><r>glukogeen<s n="n"/></r></p></e>
+0 glycogen  <e><p><l>glycogen<s n="n"/></l><r>glikogeen<s n="n"/></r></p></e>
+0 glycogen  <e><p><l>glycogen<s n="n"/></l><r>dierestysel<s n="n"/></r></p></e> <!-- glycogen,house__n -->
+0 glycine  <e><p><l>glycine<s n="n"/></l><r>glisien<s n="n"/></r></p></e> <!-- glycine,house__n -->
+0 glutamine  <e><p><l>glutamine<s n="n"/></l><r>glutamien<s n="n"/></r></p></e> <!-- glutamine,house__n -->
+0 gluconeogenesis  <e><p><l>gluconeogenesis<s n="n"/></l><r>glukoneogenese<s n="n"/></r></p></e> <!-- -->
+0 glucocorticoid  <e><p><l>glucocorticoid<s n="n"/></l><r>glukokortikoïed<s n="n"/></r></p></e> <!-- glucocorticoid,house__n -->
+0 glucagon  <e><p><l>glucagon<s n="n"/></l><r>glukagon<s n="n"/></r></p></e> <!-- glucagon,house__n -->
+0 globulin  <e><p><l>globulin<s n="n"/></l><r>globulien<s n="n"/></r></p></e> <!-- globulin,house__n -->
+0 globin  <e><p><l>globin<s n="n"/></l><r>globien<s n="n"/></r></p></e> <!-- globin,house__n -->
+0 glia  <e><p><l>glia<s n="n"/></l><r>senuweebindweefsel<s n="n"/></r></p></e> <!-- glia,house__n -->
+0 glia  <e><p><l>glia<s n="n"/></l><r>glia<s n="n"/></r></p></e>
+0 glans  <e><p><l>glans<s n="n"/></l><r>glans<s n="n"/></r></p></e> <!-- glans,politics__n -->
+0 ginglymus  <e><p><l>ginglymus<s n="n"/></l><r>ginglimus<s n="n"/></r></p></e> <!-- ginglymus,access__n -->
+0 gingival  <e><p><l>gingival<s n="adj"/></l><r>gingivaal<s n="adj"/></r></p></e> <!-- gingival,expensive__adj -->
+0 gastrulation  <e><p><l>gastrulation<s n="n"/></l><r>gastrulering<s n="n"/></r></p></e> <!-- gastrulation,house__n -->
+0 gastrulation  <e><p><l>gastrulation<s n="n"/></l><r>gastrulasie<s n="n"/></r></p></e>
+0 gastrula  <e><p><l>gastrula<s n="n"/></l><r>gastrula<s n="n"/></r></p></e> <!-- gastrula,house__n -->
+0 gametogenesis  <e><p><l>gametogenesis<s n="n"/></l><r>gametogenese<s n="n"/></r></p></e> <!-- -->
+0 gametocyte  <e><p><l>gametocyte<s n="n"/></l><r>gametosiet<s n="n"/></r></p></e> <!-- gametocyte,house__n -->
+0 galvanometer  <e><p><l>galvanometer<s n="n"/></l><r>galvanometer<s n="n"/></r></p></e> <!-- galvanometer,house__n -->
+0 fovea  <e><p><l>fovea<s n="n"/></l><r>fovea<s n="n"/></r></p></e> <!-- fovea,house__n -->
+0 follicular  <e><p><l>follicular<s n="adj"/></l><r>follikulêr<s n="adj"/></r></p></e> <!-- follicular,expensive__adj -->
+0 follicle  <e><p><l>follicle<s n="n"/></l><r>follikel<s n="n"/></r></p></e> <!-- follicle,house__n -->
+0 fluorescence  <e><p><l>fluorescence<s n="n"/></l><r>fluoressensie<s n="n"/></r></p></e> <!-- fluorescence,house__n -->
+0 flowmeter  <e><p><l>flowmeter<s n="n"/></l><r>vloeimeter<s n="n"/></r></p></e> <!-- flowmeter,house__n -->
+0 flatulence  <e><p><l>flatulence<s n="n"/></l><r>winderigheid<s n="n"/></r></p></e> <!-- flatulence,house__n__unc -->
+0 flatulence  <e><p><l>flatulence<s n="n"/></l><r>flatulensie<s n="n"/></r></p></e>
+0 flagellum  <e><p><l>flagellum<s n="n"/></l><r>sweephaar<s n="n"/></r></p></e> <!-- flagellum,house__n -->
+0 flagellum  <e><p><l>flagellum<s n="n"/></l><r>flagellum<s n="n"/></r></p></e>
+0 flaccid  <e><p><l>flaccid<s n="n"/></l><r>slap<s n="n"/></r></p></e> <!-- slap,house__n -->
+0 flaccid  <e><p><l>flaccid<s n="adj"/></l><r>slap<s n="adj"/></r></p></e> <!-- flaccid,expensive__adj -->
+0 fistula  <e><p><l>fistula<s n="n"/></l><r>fistel<s n="n"/></r></p></e> <!-- fistula,house__n -->
+0 filament  <e><p><l>filament<s n="n"/></l><r>filament<s n="n"/></r></p></e> <!-- filament,house__n -->
+0 fibular  <e><p><l>fibular<s n="adj"/></l><r>fibulêr<s n="adj"/></r></p></e> <!-- fibular,expensive__adj -->
+0 fibula  <e><p><l>fibula<s n="n"/></l><r>kuitbeen<s n="n"/></r></p></e> <!-- fibula,house__n -->
+0 fibula  <e><p><l>fibula<s n="n"/></l><r>fibula<s n="n"/></r></p></e>
+0 fibrocyte  <e><p><l>fibrocyte<s n="n"/></l><r>fibrosiet<s n="n"/></r></p></e> <!-- fibrocyte,house__n -->
+0 fibroblastic  <e><p><l>fibroblastic<s n="adj"/></l><r>fibroblasties<s n="adj"/></r></p></e> <!-- fibroblastic,expensive__adj -->
+0 fibroblast  <e><p><l>fibroblast<s n="n"/></l><r>fibroblast<s n="n"/></r></p></e> <!-- fibroblast,house__n -->
+0 fibrinolysis  <e><p><l>fibrinolysis<s n="n"/></l><r>fibrinolise<s n="n"/></r></p></e> <!-- -->
+0 fibrinolysin  <e><p><l>fibrinolysin<s n="n"/></l><r>fibrinolisien<s n="n"/></r></p></e> <!-- fibrinolysin,house__n -->
+0 fibrinogen  <e><p><l>fibrinogen<s n="n"/></l><r>fibrinogeen<s n="n"/></r></p></e> <!-- fibrinogen,house__n -->
+0 fibrin  <e><p><l>fibrin<s n="n"/></l><r>fibrien<s n="n"/></r></p></e> <!-- fibrin,house__n -->
+0 fibril  <e><p><l>fibril<s n="n"/></l><r>fibril<s n="n"/></r></p></e> <!-- fibril,house__n -->
+0 femur  <e><p><l>femur<s n="n"/></l><r>femur<s n="n"/></r></p></e>
+0 femur  <e><p><l>femur<s n="n"/></l><r>dybeen<s n="n"/></r></p></e> <!-- femur,house__n -->
+0 fascicle  <e><p><l>fascicle<s n="n"/></l><r>veselbondel<s n="n"/></r></p></e> <!-- fascicle,house__n -->
+0 fascicle  <e><p><l>fascicle<s n="n"/></l><r>fasciculus<s n="n"/></r></p></e>
+0 fascia  <e><p><l>fascia<s n="n"/></l><r>fassia<s n="n"/></r></p></e>
+0 fascia  <e><p><l>fascia<s n="n"/></l><r>bindweefselvlies<s n="n"/></r></p></e> <!-- fascia,house__n -->
+0 exudation  <e><p><l>exudation<s n="n"/></l><r>eksudasie<s n="n"/></r></p></e> <!-- exudation,house__n -->
+0 exudate  <e><p><l>exudate<s n="n"/></l><r>eksudaat<s n="n"/></r></p></e> <!-- exudate,house__n -->
+0 extremity  <e><p><l>extremity<s n="n"/></l><r>ekstremiteit<s n="n"/></r></p></e> <!-- -->
+0 exothermic  <e><p><l>exothermic<s n="adj"/></l><r>eksotermies<s n="adj"/></r></p></e> <!-- exothermic,expensive__adj -->
+0 exostosis  <e><p><l>exostosis<s n="n"/></l><r>eksostose<s n="n"/></r></p></e>
+0 exostosis  <e><p><l>exostosis<s n="n"/></l><r>beenuitgroeisel<s n="n"/></r></p></e> <!-- -->
+0 exoskeleton  <e><p><l>exoskeleton<s n="n"/></l><r>uitwendige skelet<s n="n"/></r></p></e> <!-- exoskeleton,house__n -->
+0 exoskeleton  <e><p><l>exoskeleton<s n="n"/></l><r>eksoskelet<s n="n"/></r></p></e>
+0 exophthalmos  <e><p><l>exophthalmos<s n="n"/></l><r>eksoftalmos<s n="n"/></r></p></e> <!-- exophthalmos,politics__n -->
+0 exogamy  <e><p><l>exogamy<s n="n"/></l><r>eksogamie<s n="n"/></r></p></e> <!-- -->
+0 exocytosis  <e><p><l>exocytosis<s n="n"/></l><r>eksositose<s n="n"/></r></p></e> <!-- -->
+0 exhalation  <e><p><l>exhalation<s n="n"/></l><r>uitaseming<s n="n"/></r></p></e> <!-- exhalation,house__n -->
+0 excretion  <e><p><l>excretion<s n="n"/></l><r>uitwerping<s n="n"/></r></p></e>
+0 excretion  <e><p><l>excretion<s n="n"/></l><r>uitskeiding<s n="n"/></r></p></e> <!-- excretion,house__n -->
+0 excretion  <e><p><l>excretion<s n="n"/></l><r>ekskresie<s n="n"/></r></p></e>
+0 excitation  <e><p><l>excitation<s n="n"/></l><r>eksitasie<s n="n"/></r></p></e> <!-- excitation,house__n -->
+0 eversion  <e><p><l>eversion<s n="n"/></l><r>omdopping<s n="n"/></r></p></e> <!-- eversion,house__n -->
+0 eversion  <e><p><l>eversion<s n="n"/></l><r>eversie<s n="n"/></r></p></e>
+0 ethmoidal  <e><p><l>ethmoidal<s n="adj"/></l><r>etmoïdaal<s n="adj"/></r></p></e> <!-- ethmoidal,expensive__adj -->
+0 esterification  <e><p><l>esterification<s n="n"/></l><r>esterifikasie<s n="n"/></r></p></e> <!-- esterification,house__n -->
+0 esophagus  <e><p><l>esophagus<s n="n"/></l><r>esofagus<s n="n"/></r></p></e> <!-- esophagus,access__n -->
+0 erythropoiesis  <e><p><l>erythropoiesis<s n="n"/></l><r>eritropoiëse<s n="n"/></r></p></e> <!-- -->
+0 erythrocyte  <e><p><l>erythrocyte<s n="n"/></l><r>eritrosiet<s n="n"/></r></p></e> <!-- erythrocyte,house__n -->
+0 erythroblastosis  <e><p><l>erythroblastosis<s n="n"/></l><r>eritroblastose<s n="n"/></r></p></e> <!-- -->
+0 erythroblast  <e><p><l>erythroblast<s n="n"/></l><r>eritroblast<s n="n"/></r></p></e> <!-- erythroblast,house__n -->
+0 ergograph  <e><p><l>ergograph<s n="n"/></l><r>ergograaf<s n="n"/></r></p></e> <!-- ergograph,house__n -->
+0 epithelium  <e><p><l>epithelium<s n="n"/></l><r>epiteel<s n="n"/></r></p></e>
+0 epithelium  <e><p><l>epithelium<s n="n"/></l><r>dekweefsel<s n="n"/></r></p></e> <!-- epithelium,house__n -->
+0 epiphysis  <e><p><l>epiphysis<s n="n"/></l><r>skagpunt<s n="n"/></r></p></e> <!-- -->
+0 epiphysis  <e><p><l>epiphysis<s n="n"/></l><r>epifise<s n="n"/></r></p></e>
+0 epineurium  <e><p><l>epineurium<s n="n"/></l><r>senuskede<s n="n"/></r></p></e>
+0 epineurium  <e><p><l>epineurium<s n="n"/></l><r>epineurium<s n="n"/></r></p></e> <!-- epineurium,house__n -->
+0 epinephrine  <e><p><l>epinephrine<s n="n"/></l><r>epinefrien<s n="n"/></r></p></e> <!-- epinephrine,house__n -->
+0 epileptic  <e><p><l>epileptic<s n="adj"/></l><r>epilepties<s n="adj"/></r></p></e> <!-- epileptic,expensive__adj -->
+0 epigastrium  <e><p><l>epigastrium<s n="n"/></l><r>epigastrium<s n="n"/></r></p></e> <!-- epigastrium,house__n -->
+0 epigastric  <e><p><l>epigastric<s n="adj"/></l><r>epigastries<s n="adj"/></r></p></e> <!-- epigastric,expensive__adj -->
+0 epididymis  <e><p><l>epididymis<s n="n"/></l><r>epididimus<s n="n"/></r></p></e> <!-- -->
+0 epididymis  <e><p><l>epididymis<s n="n"/></l><r>bytestis<s n="n"/></r></p></e>
+0 epicardium  <e><p><l>epicardium<s n="n"/></l><r>epikardium<s n="n"/></r></p></e> <!-- epicardium,house__n -->
+0 eosinophilia  <e><p><l>eosinophilia<s n="n"/></l><r>eosinofilie<s n="n"/></r></p></e> <!-- eosinophilia,house__n -->
+0 eosin  <e><p><l>eosin<s n="n"/></l><r>eosien<s n="n"/></r></p></e> <!-- eosin,house__n -->
+0 enterovirus  <e><p><l>enterovirus<s n="n"/></l><r>enterovirus<s n="n"/></r></p></e> <!-- -->
+0 enema  <e><p><l>enema<s n="n"/></l><r>enema<s n="n"/></r></p></e> <!-- enema,house__n -->
+0 endothermic  <e><p><l>endothermic<s n="adj"/></l><r>endotermies<s n="adj"/></r></p></e> <!-- endothermic,expensive__adj -->
+0 endothelium  <e><p><l>endothelium<s n="n"/></l><r>endoteel<s n="n"/></r></p></e> <!-- endothelium,house__n -->
+0 endoskeleton  <e><p><l>endoskeleton<s n="n"/></l><r>endoskelet<s n="n"/></r></p></e>
+0 endoskeleton  <e><p><l>endoskeleton<s n="n"/></l><r>binneskelet<s n="n"/></r></p></e> <!-- endoskeleton,house__n -->
+0 endoscope  <e><p><l>endoscope<s n="n"/></l><r>endoskoop<s n="n"/></r></p></e> <!-- endoscope,house__n -->
+0 endoplasm  <e><p><l>endoplasm<s n="n"/></l><r>endoplasma<s n="n"/></r></p></e> <!-- endoplasm,house__n -->
+0 endometrium  <e><p><l>endometrium<s n="n"/></l><r>endometrium<s n="n"/></r></p></e> <!-- endometrium,house__n -->
+0 endolymphatic  <e><p><l>endolymphatic<s n="adj"/></l><r>endolimfaties<s n="adj"/></r></p></e> <!-- endolymphatic,expensive__adj -->
+0 endoderm  <e><p><l>endoderm<s n="n"/></l><r>endoderm<s n="n"/></r></p></e> <!-- endoderm,house__n -->
+0 endocrinology  <e><p><l>endocrinology<s n="n"/></l><r>endokrinologie<s n="n"/></r></p></e> <!-- -->
+0 enamel  <e><p><l>enamel<s n="n"/></l><r>tandglasuur<s n="n"/></r></p></e> <!-- enamel,house__n -->
+0 enamel  <e><p><l>enamel<s n="n"/></l><r>emalje<s n="n"/></r></p></e>
+0 emulsion  <e><p><l>emulsion<s n="n"/></l><r>skudmengsel<s n="n"/></r></p></e> <!-- emulsion,house__n -->
+0 emulsion  <e><p><l>emulsion<s n="n"/></l><r>emulsie<s n="n"/></r></p></e>
+0 emulsify  <e><p><l>emulsify<s n="vblex"/></l><r>emulsifiseer<s n="vblex"/></r></p></e> <!-- -->
+0 emulsify  <e><p><l>emulsify<s n="n"/></l><r>emulgeer<s n="n"/></r></p></e>
+0 empyema  <e><p><l>empyema<s n="n"/></l><r>empieem<s n="n"/></r></p></e> <!-- empyema,schema__n -->
+0 eminence  <e><p><l>eminence<s n="n"/></l><r>verhewendheid<s n="n"/></r></p></e> <!-- eminence,house__n -->
+0 eminence  <e><p><l>eminence<s n="n"/></l><r>eminensie<s n="n"/></r></p></e>
+0 embryologist  <e><p><l>embryologist<s n="n"/></l><r>embrioloog<s n="n"/></r></p></e> <!-- embryologist,house__n -->
+0 embryogenesis  <e><p><l>embryogenesis<s n="n"/></l><r>embriogenese<s n="n"/></r></p></e> <!-- -->
+0 embolism  <e><p><l>embolism<s n="n"/></l><r>embolisme<s n="n"/></r></p></e> <!-- embolism,house__n -->
+0 ellipsoid  <e><p><l>ellipsoid<s n="n"/></l><r>ellipsoïed<s n="n"/></r></p></e> <!-- ellipsoid,house__n -->
+0 elephantiasis  <e><p><l>elephantiasis<s n="n"/></l><r>elefantiase<s n="n"/></r></p></e> <!-- -->
+0 electrostatic  <e><p><l>electrostatic<s n="adj"/></l><r>elektrostaties<s n="adj"/></r></p></e> <!-- electrostatic,expensive__adj -->
+0 electrophoresis  <e><p><l>electrophoresis<s n="n"/></l><r>elektroforese<s n="n"/></r></p></e> <!-- -->
+0 electrolyte  <e><p><l>electrolyte<s n="n"/></l><r>elektroliet<s n="n"/></r></p></e> <!-- electrolyte,house__n -->
+0 electrode  <e><p><l>electrode<s n="n"/></l><r>elektrode<s n="n"/></r></p></e> <!-- electrode,house__n -->
+0 electrocution  <e><p><l>electrocution<s n="n"/></l><r>elektrokusie<s n="n"/></r></p></e> <!-- electrocution,house__n -->
+0 elastin  <e><p><l>elastin<s n="n"/></l><r>elastien<s n="n"/></r></p></e> <!-- elastin,house__n -->
+0 effector  <e><p><l>effector<s n="n"/></l><r>effektor<s n="n"/></r></p></e> <!-- effector,house__n -->
+0 ectoplasm  <e><p><l>ectoplasm<s n="n"/></l><r>ektoplasma<s n="n"/></r></p></e> <!-- ectoplasm,house__n -->
+0 ectoderm  <e><p><l>ectoderm<s n="n"/></l><r>ektoderm<s n="n"/></r></p></e> <!-- ectoderm,house__n -->
+0 ectodermal  <e><p><l>ectodermal<s n="adj"/></l><r>ektodermaal<s n="adj"/></r></p></e> <!-- ectodermal,expensive__adj -->
+0 eardrum  <e><p><l>eardrum<s n="n"/></l><r>oortrommel<s n="n"/></r></p></e> <!-- eardrum,house__n -->
+0 eardrum  <e><p><l>eardrum<s n="n"/></l><r>oordrom<s n="n"/></r></p></e>
+0 dystrophic  <e><p><l>dystrophic<s n="adj"/></l><r>distrofies<s n="adj"/></r></p></e> <!-- dystrophic,expensive__adj -->
+0 dysplasia  <e><p><l>dysplasia<s n="n"/></l><r>displasie<s n="n"/></r></p></e> <!-- dysplasia,house__n -->
+0 dyspepsia  <e><p><l>dyspepsia<s n="n"/></l><r>dispepsie<s n="n"/></r></p></e> <!-- dyspepsia,house__n -->
+0 dynamometer  <e><p><l>dynamometer<s n="n"/></l><r>dinamometer<s n="n"/></r></p></e> <!-- dynamometer,house__n -->
+0 dwarfism  <e><p><l>dwarfism<s n="n"/></l><r>dwerggroei<s n="n"/></r></p></e> <!-- dwarfism,house__n -->
+0 duodenal  <e><p><l>duodenal<s n="adj"/></l><r>duodenaal<s n="adj"/></r></p></e> <!-- duodenal,expensive__adj -->
+0 dropper  <e><p><l>dropper<s n="n"/></l><r>drupper<s n="n"/></r></p></e> <!-- dropper,house__n -->
+0 dopamine  <e><p><l>dopamine<s n="n"/></l><r>dopamien<s n="n"/></r></p></e> <!-- dopamine,house__n -->
+0 diverticulum  <e><p><l>diverticulum<s n="n"/></l><r>divertikel<s n="n"/></r></p></e> <!-- diverticulum,house__n -->
+0 diuresis  <e><p><l>diuresis<s n="n"/></l><r>urienvloed<s n="n"/></r></p></e> <!-- -->
+0 diuresis  <e><p><l>diuresis<s n="n"/></l><r>diurese<s n="n"/></r></p></e>
+0 distillate  <e><p><l>distillate<s n="n"/></l><r>distillasieproduk<s n="n"/></r></p></e> <!-- distillate,house__n -->
+0 distillate  <e><p><l>distillate<s n="n"/></l><r>distillaat<s n="n"/></r></p></e>
+0 dipole  <e><p><l>dipole<s n="n"/></l><r>dipool<s n="n"/></r></p></e> <!-- dipole,house__n -->
+0 diplococcus  <e><p><l>diplococcus<s n="n"/></l><r>diplokokkus<s n="n"/></r></p></e> <!-- diplococcus,access__n -->
+0 dimorphism  <e><p><l>dimorphism<s n="n"/></l><r>dubbelvormigheid<s n="n"/></r></p></e> <!-- dimorphism,house__n -->
+0 dimorphism  <e><p><l>dimorphism<s n="n"/></l><r>dimorfisme<s n="n"/></r></p></e>
+0 dilatation  <e><p><l>dilatation<s n="n"/></l><r>dilatasie<s n="n"/></r></p></e> <!-- dilatation,house__n -->
+0 diffraction  <e><p><l>diffraction<s n="n"/></l><r>straalbreking<s n="n"/></r></p></e> <!-- diffraction,house__n -->
+0 diffraction  <e><p><l>diffraction<s n="n"/></l><r>diffraksie<s n="n"/></r></p></e>
+0 diencephalon  <e><p><l>diencephalon<s n="n"/></l><r>diënsefalon<s n="n"/></r></p></e> <!-- diencephalon,house__n -->
+0 diencephalon  <e><p><l>diencephalon<s n="n"/></l><r>diënkefalon<s n="n"/></r></p></e>
+0 dichromatism  <e><p><l>dichromatism<s n="n"/></l><r>dichromatisme<s n="n"/></r></p></e> <!-- dichromatism,house__n -->
+0 dichromat  <e><p><l>dichromat<s n="n"/></l><r>dichromaat<s n="n"/></r></p></e> <!-- dichromat,house__n -->
+0 diathermy  <e><p><l>diathermy<s n="n"/></l><r>elektriese deurwarming<s n="n"/></r></p></e> <!-- -->
+0 diathermy  <e><p><l>diathermy<s n="n"/></l><r>diatermie<s n="n"/></r></p></e>
+0 diastole  <e><p><l>diastole<s n="n"/></l><r>diastool<s n="n"/></r></p></e>
+0 diastole  <e><p><l>diastole<s n="n"/></l><r>diastolie<s n="n"/></r></p></e> <!-- diastole,house__n -->
+0 diaphysis  <e><p><l>diaphysis<s n="n"/></l><r>diafise<s n="n"/></r></p></e> <!-- -->
+0 diapedesis  <e><p><l>diapedesis<s n="n"/></l><r>diapedese<s n="n"/></r></p></e> <!-- -->
+0 dextrose  <e><p><l>dextrose<s n="n"/></l><r>druiwesuiker<s n="n"/></r></p></e> <!-- dextrose,house__n -->
+0 dextrose  <e><p><l>dextrose<s n="n"/></l><r>dekstrose<s n="n"/></r></p></e>
+0 dexter  <e><p><l>dexter<s n="adj"/></l><r>dekster<s n="adj"/></r></p></e> <!-- dexter,expensive__adj -->
+0 deuterium  <e><p><l>deuterium<s n="n"/></l><r>deuterium<s n="n"/></r></p></e> <!-- deuterium,house__n -->
+0 detoxication  <e><p><l>detoxication<s n="n"/></l><r>ontgiftiging<s n="n"/></r></p></e> <!-- detoxication,house__n -->
+0 detoxication  <e><p><l>detoxication<s n="n"/></l><r>detoksikasie<s n="n"/></r></p></e>
+0 detector  <e><p><l>detector<s n="n"/></l><r>opspoorder<s n="n"/></r></p></e> <!-- detector,house__n -->
+0 detector  <e><p><l>detector<s n="n"/></l><r>detektor<s n="n"/></r></p></e>
+0 detector  <e><p><l>detector<s n="n"/></l><r>aanwyser<s n="n"/></r></p></e>
+0 desquamation  <e><p><l>desquamation<s n="n"/></l><r>deskwamering<s n="n"/></r></p></e> <!-- desquamation,house__n -->
+0 desiccator  <e><p><l>desiccator<s n="n"/></l><r>desikkator<s n="n"/></r></p></e> <!-- desiccator,house__n -->
+0 desiccation  <e><p><l>desiccation<s n="n"/></l><r>uitdroging<s n="n"/></r></p></e> <!-- desiccation,house__n -->
+0 desiccation  <e><p><l>desiccation<s n="n"/></l><r>opdroging<s n="n"/></r></p></e>
+0 desiccation  <e><p><l>desiccation<s n="n"/></l><r>desikkasie<s n="n"/></r></p></e>
+0 dermatosis  <e><p><l>dermatosis<s n="n"/></l><r>dermatose<s n="n"/></r></p></e> <!-- -->
+0 dermatology  <e><p><l>dermatology<s n="n"/></l><r>dermatologie<s n="n"/></r></p></e> <!-- -->
+0 denture  <e><p><l>denture<s n="n"/></l><r>gebit<s n="n"/></r></p></e> <!-- denture,house__n -->
+0 dentition  <e><p><l>dentition<s n="n"/></l><r>dentisie<s n="n"/></r></p></e> <!-- dentition,house__n -->
+0 dentine  <e><p><l>dentine<s n="n"/></l><r>tandbeen<s n="n"/></r></p></e> <!-- dentine,house__n -->
+0 dentine  <e><p><l>dentine<s n="n"/></l><r>dentien<s n="n"/></r></p></e>
+0 denticle  <e><p><l>denticle<s n="n"/></l><r>dentikel<s n="n"/></r></p></e> <!-- denticle,house__n -->
+0 dendrite  <e><p><l>dendrite<s n="n"/></l><r>dendriet<s n="n"/></r></p></e> <!-- dendrite,house__n -->
+0 demineralisation  <e><p><l>demineralisation<s n="n"/></l><r>demineralisasie<s n="n"/></r></p></e> <!-- demineralisation,house__n -->
+0 deltoid  <e><p><l>deltoid<s n="n"/></l><r>deltoïed<s n="n"/></r></p></e> <!-- deltoid,house__n -->
+0 dehydrogenation  <e><p><l>dehydrogenation<s n="n"/></l><r>dehidrogenasie<s n="n"/></r></p></e> <!-- dehydrogenation,house__n -->
+0 dehydrate  <e><p><l>dehydrate<s n="n"/></l><r>ontwater<s n="n"/></r></p></e>
+0 dehydrate  <e><p><l>dehydrate<s n="n"/></l><r>dehidreer<s n="n"/></r></p></e> <!-- -->
+0 deglutition  <e><p><l>deglutition<s n="n"/></l><r>inskrywing<s n="n"/></r></p></e> <!-- deglutition,house__n -->
+0 defibrination  <e><p><l>defibrination<s n="n"/></l><r>defibrinasie<s n="n"/></r></p></e> <!-- defibrination,house__n -->
+0 defibrillation  <e><p><l>defibrillation<s n="n"/></l><r>defibrillasie<s n="n"/></r></p></e> <!-- defibrillation,house__n -->
+0 decidua  <e><p><l>decidua<s n="n"/></l><r>desidua<s n="n"/></r></p></e> <!-- decidua,larva__n -->
+0 decantation  <e><p><l>decantation<s n="n"/></l><r>dekantering<s n="n"/></r></p></e> <!-- decantation,house__n -->
+0 decantation  <e><p><l>decantation<s n="n"/></l><r>afgieting<s n="n"/></r></p></e>
+0 decalcification  <e><p><l>decalcification<s n="n"/></l><r>ontkalking<s n="n"/></r></p></e>
+0 decalcification  <e><p><l>decalcification<s n="n"/></l><r>dekalsifikasie<s n="n"/></r></p></e> <!-- decalcification,house__n -->
+0 dactyl  <e><p><l>dactyl<s n="n"/></l><r>daktiel<s n="n"/></r></p></e> <!-- dactyl,house__n -->
+0 cytosome  <e><p><l>cytosome<s n="n"/></l><r>sitosoom<s n="n"/></r></p></e> <!-- cytosome,house__n -->
+0 cytosine  <e><p><l>cytosine<s n="n"/></l><r>sitosien<s n="n"/></r></p></e> <!-- cytosine,house__n -->
+0 cytoplasm  <e><p><l>cytoplasm<s n="n"/></l><r>sitoplasma<s n="n"/></r></p></e> <!-- cytoplasm,house__n -->
+0 cytolysis  <e><p><l>cytolysis<s n="n"/></l><r>sitolise<s n="n"/></r></p></e> <!-- -->
+0 cytology  <e><p><l>cytology<s n="n"/></l><r>sitologie<s n="n"/></r></p></e> <!-- -->
+0 cytokinesis  <e><p><l>cytokinesis<s n="n"/></l><r>sitokinese<s n="n"/></r></p></e> <!-- -->
+0 cytogenesis  <e><p><l>cytogenesis<s n="n"/></l><r>sitogenese<s n="n"/></r></p></e> <!-- -->
+0 cysteine  <e><p><l>cysteine<s n="n"/></l><r>sisteïen<s n="n"/></r></p></e> <!-- cysteine,house__n -->
+0 cyclosis  <e><p><l>cyclosis<s n="n"/></l><r>siklose<s n="n"/></r></p></e> <!-- -->
+0 cyanosis  <e><p><l>cyanosis<s n="n"/></l><r>sianose<s n="n"/></r></p></e> <!-- -->
+0 cutis  <e><p><l>cutis<s n="n"/></l><r>cutis<s n="n"/></r></p></e> <!-- -->
+0 cuticle  <e><p><l>cuticle<s n="n"/></l><r>kutikel<s n="n"/></r></p></e> <!-- cuticle,house__n -->
+0 cutaneous  <e><p><l>cutaneous<s n="adj"/></l><r>kutaan<s n="adj"/></r></p></e> <!-- cutaneous,expensive__adj -->
+0 cumulus  <e><p><l>cumulus<s n="n"/></l><r>kumulus<s n="n"/></r></p></e> <!-- cumulus,access__n -->
+0 cubital  <e><p><l>cubital<s n="adj"/></l><r>kubitaal<s n="adj"/></r></p></e> <!-- cubital,expensive__adj -->
+0 crystalloid  <e><p><l>crystalloid<s n="n"/></l><r>kristaloïed<s n="n"/></r></p></e> <!-- crystalloid,house__n -->
+0 cricoid  <e><p><l>cricoid<s n="n"/></l><r>krikoïed<s n="n"/></r></p></e> <!-- cricoid,house__n -->
+0 cranial  <e><p><l>cranial<s n="adj"/></l><r>kraniaal<s n="adj"/></r></p></e> <!-- cranial,expensive__adj -->
+0 coxa  <e><p><l>coxa<s n="n"/></l><r>koksa<s n="n"/></r></p></e> <!-- coxa,house__n -->
+0 coxa  <e><p><l>coxa<s n="n"/></l><r>coxa<s n="n"/></r></p></e>
+0 coulomb  <e><p><l>coulomb<s n="n"/></l><r>coulomb<s n="n"/></r></p></e> <!-- coulomb,house__n -->
+0 cortisone  <e><p><l>cortisone<s n="n"/></l><r>kortisoon<s n="n"/></r></p></e> <!-- cortisone,house__n -->
+0 corpuscular  <e><p><l>corpuscular<s n="adj"/></l><r>korpuskulêr<s n="adj"/></r></p></e> <!-- corpuscular,expensive__adj -->
+0 corpuscle  <e><p><l>corpuscle<s n="n"/></l><r>liggaampie<s n="n"/></r></p></e> <!-- corpuscle,house__n -->
+0 cornea  <e><p><l>cornea<s n="n"/></l><r>kornea<s n="n"/></r></p></e>
+0 cornea  <e><p><l>cornea<s n="n"/></l><r>horingvlies<s n="n"/></r></p></e> <!-- cornea,house__n -->
+0 copulation  <e><p><l>copulation<s n="n"/></l><r>paring<s n="n"/></r></p></e>
+0 copulation  <e><p><l>copulation<s n="n"/></l><r>kopulasie<s n="n"/></r></p></e> <!-- copulation,house__n -->
+0 copula  <e><p><l>copula<s n="n"/></l><r>kopula<s n="n"/></r></p></e> <!-- copula,house__n -->
+0 coprostasis  <e><p><l>coprostasis<s n="n"/></l><r>koprostase<s n="n"/></r></p></e> <!-- -->
+0 convolution  <e><p><l>convolution<s n="n"/></l><r>winding<s n="n"/></r></p></e> <!-- winding,house__n -->
+0 convection  <e><p><l>convection<s n="n"/></l><r>stroming<s n="n"/></r></p></e>
+0 convection  <e><p><l>convection<s n="n"/></l><r>konveksie<s n="n"/></r></p></e> <!-- convection,house__n -->
+0 contractile  <e><p><l>contractile<s n="n"/></l><r>krimpbaar<s n="n"/></r></p></e>
+0 contractile  <e><p><l>contractile<s n="n"/></l><r>kontraktiel<s n="n"/></r></p></e>
+0 contractile  <e><p><l>contractile<s n="adj"/></l><r>saamtrekbaar<s n="adj"/></r></p></e> <!-- contractile,expensive__adj -->
+0 conjugation  <e><p><l>conjugation<s n="n"/></l><r>konjugasie<s n="n"/></r></p></e> <!-- conjugation,house__n -->
+0 conical  <e><p><l>conical<s n="n"/></l><r>konies<s n="n"/></r></p></e>
+0 conical  <e><p><l>conical<s n="adj"/></l><r>keëlvormig<s n="adj"/></r></p></e> <!-- conical,expensive__adj -->
+0 condyle  <e><p><l>condyle<s n="n"/></l><r>kondilus<s n="n"/></r></p></e>
+0 condyle  <e><p><l>condyle<s n="n"/></l><r>kondiel<s n="n"/></r></p></e>
+0 condyle  <e><p><l>condyle<s n="n"/></l><r>gewrigsknobbel<s n="n"/></r></p></e> <!-- condyle,house__n -->
+0 conductivity  <e><p><l>conductivity<s n="n"/></l><r>geleidingsvermoë<s n="n"/></r></p></e> <!-- -->
+0 concave  <e><p><l>concave<s n="n"/></l><r>holrond<s n="n"/></r></p></e>
+0 concave  <e><p><l>concave<s n="adj"/></l><r>konkaaf<s n="adj"/></r></p></e> <!-- concave,expensive__adj -->
+0 commissure  <e><p><l>commissure<s n="n"/></l><r>verbindingsbrug<s n="n"/></r></p></e> <!-- commissure,house__n -->
+0 commissure  <e><p><l>commissure<s n="n"/></l><r>kommissuur<s n="n"/></r></p></e>
+0 commensalism  <e><p><l>commensalism<s n="n"/></l><r>kommensalisme<s n="n"/></r></p></e> <!-- commensalism,house__n -->
+0 columella  <e><p><l>columella<s n="n"/></l><r>kolumella<s n="n"/></r></p></e> <!-- columella,larva__n -->
+0 colostrum  <e><p><l>colostrum<s n="n"/></l><r>kolostrum<s n="n"/></r></p></e> <!-- colostrum,house__n -->
+0 colostrum  <e><p><l>colostrum<s n="n"/></l><r>bies<s n="n"/></r></p></e>
+0 colostrum  <e><p><l>colostrum<s n="n"/></l><r>biesmelk<s n="n"/></r></p></e>
+0 colloid  <e><p><l>colloid<s n="n"/></l><r>kolloïed<s n="n"/></r></p></e> <!-- colloid,house__n -->
+0 codon  <e><p><l>codon<s n="n"/></l><r>kodon<s n="n"/></r></p></e> <!-- codon,house__n -->
+0 cochlear  <e><p><l>cochlear<s n="adj"/></l><r>kogleêr<s n="adj"/></r></p></e> <!-- cochlear,expensive__adj -->
+0 cochlea  <e><p><l>cochlea<s n="n"/></l><r>slakkehuis<s n="n"/></r></p></e> <!-- cochlea,house__n -->
+0 clot  <e><p><l>clot<s n="n"/></l><r>stol<s n="n"/></r></p></e>
+0 clot  <e><p><l>clot<s n="n"/></l><r>stolsel<s n="n"/></r></p></e> <!-- clot,house__n -->
+0 clot  <e><p><l>clot<s n="n"/></l><r>klont<s n="n"/></r></p></e>
+0 clitoris  <e><p><l>clitoris<s n="n"/></l><r>klitoris<s n="n"/></r></p></e> <!-- -->
+0 clavicle  <e><p><l>clavicle<s n="n"/></l><r>klavikel<s n="n"/></r></p></e> <!-- clavicle,house__n -->
+0 circumflex  <e><p><l>circumflex<s n="n"/></l><r>sirkumfleks<s n="n"/></r></p></e> <!-- -->
+0 circumference  <e><p><l>circumference<s n="n"/></l><r>omtrek<s n="n"/></r></p></e> <!-- circumference,house__n -->
+0 cilium  <e><p><l>cilium<s n="n"/></l><r>trilhaar<s n="n"/></r></p></e> <!-- cilium,house__n -->
+0 cilium  <e><p><l>cilium<s n="n"/></l><r>silium<s n="n"/></r></p></e>
+0 cilium  <e><p><l>cilium<s n="n"/></l><r>cilium<s n="n"/></r></p></e>
+0 ciliated  <e><p><l>ciliated<s n="adj"/></l><r>gesilieerd<s n="adj"/></r></p></e> <!-- ciliated,expensive__adj -->
+0 ciliary  <e><p><l>ciliary<s n="adj"/></l><r>siliêr<s n="adj"/></r></p></e> <!-- ciliary,expensive__adj -->
+0 chronograph  <e><p><l>chronograph<s n="n"/></l><r>chronograaf<s n="n"/></r></p></e> <!-- chronograph,house__n -->
+0 chromatography  <e><p><l>chromatography<s n="n"/></l><r>chromatografie<s n="n"/></r></p></e> <!-- -->
+0 chromatogram  <e><p><l>chromatogram<s n="n"/></l><r>chromatogram<s n="n"/></r></p></e> <!-- chromatogram,house__n -->
+0 chromatin  <e><p><l>chromatin<s n="n"/></l><r>chromatien<s n="n"/></r></p></e> <!-- chromatin,house__n -->
+0 chromatid  <e><p><l>chromatid<s n="n"/></l><r>chromatied<s n="n"/></r></p></e> <!-- chromatid,house__n -->
+0 chromatic  <e><p><l>chromatic<s n="adj"/></l><r>chromaties<s n="adj"/></r></p></e> <!-- chromatic,expensive__adj -->
+0 chorion  <e><p><l>chorion<s n="n"/></l><r>chorion<s n="n"/></r></p></e> <!-- chorion,house__n -->
+0 chondroclast  <e><p><l>chondroclast<s n="n"/></l><r>chondroklast<s n="n"/></r></p></e> <!-- chondroclast,house__n -->
+0 chondroblast  <e><p><l>chondroblast<s n="n"/></l><r>chondroblast<s n="n"/></r></p></e> <!-- chondroblast,house__n -->
+0 chondriosome  <e><p><l>chondriosome<s n="n"/></l><r>chondriosoom<s n="n"/></r></p></e> <!-- chondriosome,house__n -->
+0 chloroform  <e><p><l>chloroform<s n="n"/></l><r>chloroform<s n="n"/></r></p></e> <!-- chloroform,house__n -->
+0 chiasm  <e><p><l>chiasm<s n="n"/></l><r>chiasma<s n="n"/></r></p></e> <!-- chiasm,house__n -->
+0 chemotaxis  <e><p><l>chemotaxis<s n="n"/></l><r>chemotakse<s n="n"/></r></p></e> <!-- -->
+0 cheekbone  <e><p><l>cheekbone<s n="n"/></l><r>wangbeen<s n="n"/></r></p></e> <!-- cheekbone,house__n -->
+0 cerebellum  <e><p><l>cerebellum<s n="n"/></l><r>serebellum<s n="n"/></r></p></e>
+0 cerebellum  <e><p><l>cerebellum<s n="n"/></l><r>kleinharsings<s n="n"/></r></p></e> <!-- cerebellum,house__n -->
+0 cerebellum  <e><p><l>cerebellum<s n="n"/></l><r>kleinbrein<s n="n"/></r></p></e>
+0 cephalic  <e><p><l>cephalic<s n="adj"/></l><r>sefalies<s n="adj"/></r></p></e> <!-- cephalic,expensive__adj -->
+0 cephalic  <e><p><l>cephalic<s n="adj"/></l><r>kefalies<s n="adj"/></r></p></e>
+0 centrosome  <e><p><l>centrosome<s n="n"/></l><r>sentrosoom<s n="n"/></r></p></e> <!-- centrosome,house__n -->
+0 centriole  <e><p><l>centriole<s n="n"/></l><r>sentriool<s n="n"/></r></p></e> <!-- centriole,house__n -->
+0 centrifuge  <e><p><l>centrifuge<s n="n"/></l><r>uitswaai<s n="n"/></r></p></e>
+0 centrifuge  <e><p><l>centrifuge<s n="n"/></l><r>sentrifuge<s n="n"/></r></p></e>
+0 centrifuge  <e><p><l>centrifuge<s n="n"/></l><r>sentrifugeer<s n="n"/></r></p></e> <!-- centrifuge,house__n -->
+0 cation  <e><p><l>cation<s n="n"/></l><r>katioon<s n="n"/></r></p></e> <!-- cation,house__n -->
+0 catheter  <e><p><l>catheter<s n="n"/></l><r>kateter<s n="n"/></r></p></e> <!-- catheter,house__n -->
+0 catalepsy  <e><p><l>catalepsy<s n="n"/></l><r>katalepsie<s n="n"/></r></p></e> <!-- -->
+0 catalase  <e><p><l>catalase<s n="n"/></l><r>katalase<s n="n"/></r></p></e> <!-- catalase,house__n -->
+0 catabolism  <e><p><l>catabolism<s n="n"/></l><r>katabolisme<s n="n"/></r></p></e> <!-- catabolism,house__n -->
+0 casein  <e><p><l>casein<s n="n"/></l><r>kaseïen<s n="n"/></r></p></e> <!-- casein,house__n -->
+0 carpus  <e><p><l>carpus<s n="n"/></l><r>polsbeentjie<s n="n"/></r></p></e> <!-- carpus,access__n -->
+0 carmine  <e><p><l>carmine<s n="n"/></l><r>karmyn<s n="n"/></r></p></e> <!-- carmine,house__n -->
+0 cardiomegaly  <e><p><l>cardiomegaly<s n="n"/></l><r>kardiomegalie<s n="n"/></r></p></e> <!-- -->
+0 cardiologist  <e><p><l>cardiologist<s n="n"/></l><r>kardioloog<s n="n"/></r></p></e> <!-- cardiologist,house__n -->
+0 cardia  <e><p><l>cardia<s n="n"/></l><r>kardia<s n="n"/></r></p></e> <!-- cardia,house__n -->
+0 carbonate  <e><p><l>carbonate<s n="vblex"/></l><r>karboneer<s n="vblex"/></r></p></e>
+0 carbonate  <e><p><l>carbonate<s n="n"/></l><r>karboneer<s n="n"/></r></p></e> <!-- carbonate,house__n -->
+0 carbonate  <e><p><l>carbonate<s n="n"/></l><r>karbonaat<s n="n"/></r></p></e> <!-- carbonate,house__n -->
+0 carbonate  <e><p><l>carbonate<s n="n"/></l><r>karbonaat<s n="n"/></r></p></e>
+0 capsule  <e><p><l>capsule<s n="n"/></l><r>kapsule<s n="n"/></r></p></e> <!-- capsule,house__n -->
+0 capsule  <e><p><l>capsule<s n="n"/></l><r>kapsel<s n="n"/></r></p></e>
+0 capillarity  <e><p><l>capillarity<s n="n"/></l><r>kapillariteit<s n="n"/></r></p></e> <!-- -->
+0 cannula  <e><p><l>cannula<s n="n"/></l><r>kannule<s n="n"/></r></p></e> <!-- cannula,house__n -->
+0 candela  <e><p><l>candela<s n="n"/></l><r>kandela<s n="n"/></r></p></e> <!-- candela,house__n -->
+0 candela  <e><p><l>candela<s n="n"/></l><r>candela<s n="n"/></r></p></e>
+0 canaliculus  <e><p><l>canaliculus<s n="n"/></l><r>kanalikulus<s n="n"/></r></p></e> <!-- canaliculus,access__n -->
+0 calorimeter  <e><p><l>calorimeter<s n="n"/></l><r>kalorimeter<s n="n"/></r></p></e> <!-- calorimeter,house__n -->
+0 callus  <e><p><l>callus<s n="n"/></l><r>kallus<s n="n"/></r></p></e> <!-- callus,access__n -->
+0 callosity  <e><p><l>callosity<s n="n"/></l><r>eelt<s n="n"/></r></p></e> <!-- -->
+0 calcite  <e><p><l>calcite<s n="n"/></l><r>kalsiet<s n="n"/></r></p></e> <!-- calcite,house__n -->
+0 calcification  <e><p><l>calcification<s n="n"/></l><r>verkalking<s n="n"/></r></p></e>
+0 calcification  <e><p><l>calcification<s n="n"/></l><r>kalsifisering<s n="n"/></r></p></e> <!-- calcification,house__n -->
+0 calcification  <e><p><l>calcification<s n="n"/></l><r>kalsifikasie<s n="n"/></r></p></e>
+0 calcareous  <e><p><l>calcareous<s n="adj"/></l><r>kalkagtig<s n="adj"/></r></p></e> <!-- calcareous,expensive__adj -->
+0 calcaneum  <e><p><l>calcaneum<s n="n"/></l><r>kalkaneum<s n="n"/></r></p></e>
+0 calcaneum  <e><p><l>calcaneum<s n="n"/></l><r>hielbeen<s n="n"/></r></p></e>
+0 calcaneum  <e><p><l>calcaneum<s n="n"/></l><r>hakskeenbeen<s n="n"/></r></p></e> <!-- calcaneum,house__n -->
+0 calcaneum  <e><p><l>calcaneum<s n="n"/></l><r>hakbeen<s n="n"/></r></p></e>
+0 buret  <e><p><l>buret<s n="n"/></l><r>buret<s n="n"/></r></p></e> <!-- buret,house__n -->
+0 buccal  <e><p><l>buccal<s n="adj"/></l><r>bukkaal<s n="adj"/></r></p></e> <!-- buccal,expensive__adj -->
+0 bruise  <e><p><l>bruise<s n="n"/></l><r>kneus<s n="n"/></r></p></e> <!-- bruise,house__n -->
+0 bronchus  <e><p><l>bronchus<s n="n"/></l><r>longpyp<s n="n"/></r></p></e>
+0 bronchus  <e><p><l>bronchus<s n="n"/></l><r>brongus<s n="n"/></r></p></e>
+0 bronchus  <e><p><l>bronchus<s n="n"/></l><r>bronchus<s n="n"/></r></p></e> <!-- bronchus,access__n -->
+0 bronchiole  <e><p><l>bronchiole<s n="n"/></l><r>longpypie<s n="n"/></r></p></e> <!-- bronchiole,house__n -->
+0 bronchiole  <e><p><l>bronchiole<s n="n"/></l><r>brongiool<s n="n"/></r></p></e>
+0 bradycardia  <e><p><l>bradycardia<s n="n"/></l><r>bradikardie<s n="n"/></r></p></e> <!-- bradycardia,house__n -->
+0 bleaching  <e><p><l>bleaching<s n="n"/></l><r>bleiking<s n="n"/></r></p></e> <!-- bleaching,house__n -->
+0 blastulation  <e><p><l>blastulation<s n="n"/></l><r>blastulasie<s n="n"/></r></p></e> <!-- blastulation,house__n -->
+0 blastula  <e><p><l>blastula<s n="n"/></l><r>blastula<s n="n"/></r></p></e> <!-- blastula,house__n -->
+0 blastopore  <e><p><l>blastopore<s n="n"/></l><r>blastopoor<s n="n"/></r></p></e> <!-- blastopore,house__n -->
+0 blastomere  <e><p><l>blastomere<s n="n"/></l><r>kliewingsel<s n="n"/></r></p></e> <!-- blastomere,house__n -->
+0 blastomere  <e><p><l>blastomere<s n="n"/></l><r>blastomeer<s n="n"/></r></p></e>
+0 blastoderm  <e><p><l>blastoderm<s n="n"/></l><r>blastoderm<s n="n"/></r></p></e> <!-- blastoderm,house__n -->
+0 blastocyte  <e><p><l>blastocyte<s n="n"/></l><r>blastosiet<s n="n"/></r></p></e> <!-- blastocyte,house__n -->
+0 blastocyst  <e><p><l>blastocyst<s n="n"/></l><r>blastosist<s n="n"/></r></p></e> <!-- blastocyst,house__n -->
+0 bismuth  <e><p><l>bismuth<s n="n"/></l><r>bismut<s n="n"/></r></p></e> <!-- bismuth,house__n__unc -->
+0 biotype  <e><p><l>biotype<s n="n"/></l><r>biotipe<s n="n"/></r></p></e> <!-- biotype,house__n -->
+0 biotic  <e><p><l>biotic<s n="adj"/></l><r>bioties<s n="adj"/></r></p></e> <!-- biotic,expensive__adj -->
+0 biopsy  <e><p><l>biopsy<s n="n"/></l><r>biopsie<s n="n"/></r></p></e> <!-- -->
+0 biologist  <e><p><l>biologist<s n="n"/></l><r>bioloog<s n="n"/></r></p></e> <!-- biologist,house__n -->
+0 bilirubin  <e><p><l>bilirubin<s n="n"/></l><r>bilirubien<s n="n"/></r></p></e> <!-- bilirubin,house__n -->
+0 bicuspid  <e><p><l>bicuspid<s n="n"/></l><r>bikuspidaal<s n="n"/></r></p></e> <!-- bicuspid,house__n -->
+0 biceps  <e><p><l>biceps<s n="n"/></l><r>tweekopspier<s n="n"/></r></p></e> <!-- biceps,politics__n -->
+0 basal  <e><p><l>basal<s n="adj"/></l><r>basaal<s n="adj"/></r></p></e> <!-- basal,expensive__adj -->
+0 barium  <e><p><l>barium<s n="n"/></l><r>barium<s n="n"/></r></p></e> <!-- barium,house__n -->
+0 axon  <e><p><l>axon<s n="n"/></l><r>senuwee-uitloper<s n="n"/></r></p></e> <!-- axon,house__n -->
+0 axon  <e><p><l>axon<s n="n"/></l><r>akson<s n="n"/></r></p></e>
+0 axial  <e><p><l>axial<s n="adj"/></l><r>asstandig<s n="adj"/></r></p></e> <!-- axial,expensive__adj -->
+0 avitaminosis  <e><p><l>avitaminosis<s n="n"/></l><r>avitaminose<s n="n"/></r></p></e> <!-- -->
+0 autosome  <e><p><l>autosome<s n="n"/></l><r>outosoom<s n="n"/></r></p></e>
+0 autosome  <e><p><l>autosome<s n="n"/></l><r>liggaamschromosoom<s n="n"/></r></p></e> <!-- autosome,house__n -->
+0 autolysis  <e><p><l>autolysis<s n="n"/></l><r>selfvertering<s n="n"/></r></p></e> <!-- -->
+0 autolysis  <e><p><l>autolysis<s n="n"/></l><r>outolise<s n="n"/></r></p></e>
+0 autoimmunity  <e><p><l>autoimmunity<s n="n"/></l><r>outo-immuniteit<s n="n"/></r></p></e> <!-- -->
+0 autoimmunisation  <e><p><l>autoimmunisation<s n="n"/></l><r>outo-immunisasie<s n="n"/></r></p></e> <!-- autoimmunisation,house__n -->
+0 autogamy  <e><p><l>autogamy<s n="n"/></l><r>selfbevrugting<s n="n"/></r></p></e> <!-- -->
+0 autogamy  <e><p><l>autogamy<s n="n"/></l><r>outogamie<s n="n"/></r></p></e>
+0 autoclave  <e><p><l>autoclave<s n="n"/></l><r>outoklaaf<s n="n"/></r></p></e> <!-- autoclave,house__n -->
+0 auscultate  <e><p><l>auscultate<s n="vblex"/></l><r>ouskulteer<s n="vblex"/></r></p></e> <!-- -->
+0 auricular  <e><p><l>auricular<s n="adj"/></l><r>ourikulêr<s n="adj"/></r></p></e> <!-- auricular,expensive__adj -->
+0 audiometer  <e><p><l>audiometer<s n="n"/></l><r>oudiometer<s n="n"/></r></p></e>
+0 audiometer  <e><p><l>audiometer<s n="n"/></l><r>gehoormeter<s n="n"/></r></p></e> <!-- audiometer,house__n -->
+0 audiogram  <e><p><l>audiogram<s n="n"/></l><r>oudiogram<s n="n"/></r></p></e> <!-- audiogram,house__n -->
+0 audibility  <e><p><l>audibility<s n="n"/></l><r>hoorbaarheid<s n="n"/></r></p></e> <!-- -->
+0 atrium  <e><p><l>atrium<s n="n"/></l><r>voorhartkamer<s n="n"/></r></p></e> <!-- atrium,house__n -->
+0 atrium  <e><p><l>atrium<s n="n"/></l><r>atrium<s n="n"/></r></p></e>
+0 atresia  <e><p><l>atresia<s n="n"/></l><r>atresie<s n="n"/></r></p></e> <!-- atresia,house__n -->
+0 atonicity  <e><p><l>atonicity<s n="n"/></l><r>atonisiteit<s n="n"/></r></p></e> <!-- -->
+0 astrocyte  <e><p><l>astrocyte<s n="n"/></l><r>astrosiet<s n="n"/></r></p></e> <!-- astrocyte,house__n -->
+0 astigmatism  <e><p><l>astigmatism<s n="n"/></l><r>astigmatisme<s n="n"/></r></p></e> <!-- astigmatism,house__n -->
+0 aspirator  <e><p><l>aspirator<s n="n"/></l><r>suigapparaat<s n="n"/></r></p></e> <!-- aspirator,house__n -->
+0 aspirator  <e><p><l>aspirator<s n="n"/></l><r>aspirator<s n="n"/></r></p></e>
+0 articular  <e><p><l>articular<s n="adj"/></l><r>artikulêr<s n="adj"/></r></p></e> <!-- articular,expensive__adj -->
+0 arthrosis  <e><p><l>arthrosis<s n="n"/></l><r>artrose<s n="n"/></r></p></e> <!-- -->
+0 arteriosclerosis  <e><p><l>arteriosclerosis<s n="n"/></l><r>arteriosklerose<s n="n"/></r></p></e> <!-- -->
+0 arteriole  <e><p><l>arteriole<s n="n"/></l><r>slagaartjie<s n="n"/></r></p></e> <!-- arteriole,house__n -->
+0 arteriole  <e><p><l>arteriole<s n="n"/></l><r>arteriool<s n="n"/></r></p></e>
+0 armpit  <e><p><l>armpit<s n="n"/></l><r>oksel<s n="n"/></r></p></e>
+0 armpit  <e><p><l>armpit<s n="n"/></l><r>armholte<s n="n"/></r></p></e> <!-- armpit,house__n -->
+0 areola  <e><p><l>areola<s n="n"/></l><r>areola<s n="n"/></r></p></e> <!-- areola,house__n -->
+0 arachnoid  <e><p><l>arachnoid<s n="n"/></l><r>spinnerakvlies<s n="n"/></r></p></e> <!-- arachnoid,house__n -->
+0 arachnoid  <e><p><l>arachnoid<s n="n"/></l><r<s n="n"/></r></p></e>
+0 aqueous  <e><p><l>aqueous<s n="adj"/></l><r>waterig<s n="adj"/></r></p></e> <!-- aqueous,expensive__adj -->
+0 apophysis  <e><p><l>apophysis<s n="n"/></l><r>apofise<s n="n"/></r></p></e> <!-- -->
+0 aponeurosis  <e><p><l>aponeurosis<s n="n"/></l><r>aponeurose<s n="n"/></r></p></e> <!-- -->
+0 aplasia  <e><p><l>aplasia<s n="n"/></l><r>aplasie<s n="n"/></r></p></e> <!-- aplasia,house__n -->
+0 aorta  <e><p><l>aorta<s n="n"/></l><r>aorta<s n="n"/></r></p></e> <!-- aorta,house__n -->
+0 anus  <e><p><l>anus<s n="n"/></l><r>anus<s n="n"/></r></p></e> <!-- anus,access__n -->
+0 anuria  <e><p><l>anuria<s n="n"/></l><r>anurie<s n="n"/></r></p></e> <!-- anuria,house__n -->
+0 antrum  <e><p><l>antrum<s n="n"/></l><r>antrum<s n="n"/></r></p></e> <!-- antrum,house__n -->
+0 antihistamine  <e><p><l>antihistamine<s n="n"/></l><r>antihistamien<s n="n"/></r></p></e> <!-- antihistamine,house__n -->
+0 anticodon  <e><p><l>anticodon<s n="n"/></l><r>antikodon<s n="n"/></r></p></e> <!-- anticodon,house__n -->
+0 anthropometry  <e><p><l>anthropometry<s n="n"/></l><r>antropologie<s n="n"/></r></p></e> <!-- -->
+0 anoxia  <e><p><l>anoxia<s n="n"/></l><r>anoksie<s n="n"/></r></p></e> <!-- anoxia,house__n -->
+0 anode  <e><p><l>anode<s n="n"/></l><r>anode<s n="n"/></r></p></e> <!-- anode,house__n -->
+0 anion  <e><p><l>anion<s n="n"/></l><r>anioon<s n="n"/></r></p></e> <!-- anion,house__n -->
+0 anhydride  <e><p><l>anhydride<s n="n"/></l><r>anhidried<s n="n"/></r></p></e> <!-- anhydride,house__n -->
+0 angiotripsy  <e><p><l>angiotripsy<s n="n"/></l><r>angiotripsie<s n="n"/></r></p></e> <!-- -->
+0 angina  <e><p><l>angina<s n="n"/></l><r>angina<s n="n"/></r></p></e> <!-- angina,house__n -->
+0 anatomist  <e><p><l>anatomist<s n="n"/></l><r>anatoom<s n="n"/></r></p></e> <!-- anatomist,house__n -->
+0 anastomosis  <e><p><l>anastomosis<s n="n"/></l><r>anastomose<s n="n"/></r></p></e> <!-- -->
+0 anaphylaxis  <e><p><l>anaphylaxis<s n="n"/></l><r>anafilakse<s n="n"/></r></p></e> <!-- -->
+0 anaphase  <e><p><l>anaphase<s n="n"/></l><r>anafase<s n="n"/></r></p></e> <!-- anaphase,house__n -->
+0 analyser  <e><p><l>analyser<s n="n"/></l><r>analiseerder<s n="n"/></r></p></e> <!-- analyser,house__n -->
+0 analgesia  <e><p><l>analgesia<s n="n"/></l><r>analgesie<s n="n"/></r></p></e> <!-- analgesia,house__n -->
+0 anal  <e><p><l>anal<s n="adj"/></l><r>anaal<s n="adj"/></r></p></e> <!-- anal,expensive__adj -->
+0 anabolism  <e><p><l>anabolism<s n="n"/></l><r>anabolisme<s n="n"/></r></p></e> <!-- anabolism,house__n -->
+0 amylase  <e><p><l>amylase<s n="n"/></l><r>amilase<s n="n"/></r></p></e> <!-- amylase,house__n -->
+0 amplitude  <e><p><l>amplitude<s n="n"/></l><r>amplitude<s n="n"/></r></p></e> <!-- amplitude,house__n -->
+0 amoeba  <e><p><l>amoeba<s n="n"/></l><r>amoeba<s n="n"/></r></p></e> <!-- amoeba,larva__n -->
+0 amnion  <e><p><l>amnion<s n="n"/></l><r>amnion<s n="n"/></r></p></e> <!-- amnion,house__n -->
+0 amitosis  <e><p><l>amitosis<s n="n"/></l><r>amitose<s n="n"/></r></p></e> <!-- -->
+0 amine  <e><p><l>amine<s n="n"/></l><r>amien<s n="n"/></r></p></e> <!-- amine,house__n -->
+0 amenorrhoea  <e><p><l>amenorrhoea<s n="n"/></l><r>amenoree<s n="n"/></r></p></e> <!-- amenorrhoea,house__n -->
+0 amblyopia  <e><p><l>amblyopia<s n="n"/></l><r>ambliopie<s n="n"/></r></p></e> <!-- amblyopia,house__n -->
+0 alveolar  <e><p><l>alveolar<s n="adj"/></l><r>alveolêr<s n="adj"/></r></p></e> <!-- alveolar,expensive__adj -->
+0 allomorphism  <e><p><l>allomorphism<s n="n"/></l><r>allomorfisme<s n="n"/></r></p></e> <!-- allomorphism,house__n -->
+0 allele  <e><p><l>allele<s n="n"/></l><r>allel<s n="n"/></r></p></e>
+0 allele  <e><p><l>allele<s n="n"/></l><r>alleel<s n="n"/></r></p></e> <!-- allele,house__n -->
+0 alkalosis  <e><p><l>alkalosis<s n="n"/></l><r>alkalose<s n="n"/></r></p></e> <!-- -->
+0 alkaloid  <e><p><l>alkaloid<s n="n"/></l><r>alkaloïed<s n="n"/></r></p></e> <!-- alkaloid,house__n -->
+0 aldose  <e><p><l>aldose<s n="n"/></l><r>aldose<s n="n"/></r></p></e>
+0 aldose  <e><p><l>aldose<s n="n"/></l><r>aldehiedsuiker<s n="n"/></r></p></e> <!-- aldose,house__n -->
+0 aldehyde  <e><p><l>aldehyde<s n="n"/></l><r>aldehied<s n="n"/></r></p></e> <!-- aldehyde,house__n -->
+0 agglutination  <e><p><l>agglutination<s n="n"/></l><r>saamklonting<s n="n"/></r></p></e> <!-- agglutination,house__n -->
+0 agglutination  <e><p><l>agglutination<s n="n"/></l><r>saamklewing<s n="n"/></r></p></e>
+0 agglutination  <e><p><l>agglutination<s n="n"/></l><r>agglutinasie<s n="n"/></r></p></e>
+0 agglutinate  <e><p><l>agglutinate<s n="vblex"/></l><r>agglutineer<s n="vblex"/></r></p></e>
+0 agglutinate  <e><p><l>agglutinate<s n="n"/></l><r>saamklont<s n="n"/></r></p></e>
+0 agglutinate  <e><p><l>agglutinate<s n="n"/></l><r>saamkleef<s n="n"/></r></p></e>
+0 aerobiosis  <e><p><l>aerobiosis<s n="n"/></l><r>aërobiose<s n="n"/></r></p></e> <!-- -->
+0 aerobic  <e><p><l>aerobic<s n="adj"/></l><r>aërobies<s n="adj"/></r></p></e> <!-- aerobic,expensive__adj -->
+0 adsorption  <e><p><l>adsorption<s n="n"/></l><r>adsorpsie<s n="n"/></r></p></e> <!-- adsorption,house__n -->
+0 adenosine  <e><p><l>adenosine<s n="n"/></l><r>adenosien<s n="n"/></r></p></e> <!-- adenosine,house__n -->
+0 adenohypophysis  <e><p><l>adenohypophysis<s n="n"/></l><r>adenohipofise<s n="n"/></r></p></e> <!-- -->
+0 adenine  <e><p><l>adenine<s n="n"/></l><r>adenien<s n="n"/></r></p></e> <!-- adenine,house__n -->
+0 acyclic  <e><p><l>acyclic<s n="adj"/></l><r>asiklies<s n="adj"/></r></p></e> <!-- acyclic,expensive__adj -->
+0 actin  <e><p><l>actin<s n="n"/></l><r>aktien<s n="n"/></r></p></e> <!-- actin,house__n -->
+0 acrosome  <e><p><l>acrosome<s n="n"/></l><r>akrosoom<s n="n"/></r></p></e> <!-- acrosome,house__n -->
+0 acromion  <e><p><l>acromion<s n="n"/></l><r>akromion<s n="n"/></r></p></e> <!-- acromion,house__n -->
+0 acromegaly  <e><p><l>acromegaly<s n="n"/></l><r>akromegalie<s n="n"/></r></p></e> <!-- -->
+0 acoustic meatus  <e><p><l>acoustic meatus<s n="n"/></l><r>meatus<s n="n"/></r></p></e> <!-- -->
+0 acidosis  <e><p><l>acidosis<s n="n"/></l><r>asidose<s n="n"/></r></p></e> <!-- -->
+0 achromatic  <e><p><l>achromatic<s n="adj"/></l><r>achromaties<s n="adj"/></r></p></e> <!-- achromatic,expensive__adj -->
+0 acetylcholine  <e><p><l>acetylcholine<s n="n"/></l><r>asetielcholien<s n="n"/></r></p></e> <!-- acetylcholine,house__n -->
+0 acetone  <e><p><l>acetone<s n="n"/></l><r>asetoon<s n="n"/></r></p></e> <!-- acetone,house__n -->
+0 acetabulum  <e><p><l>acetabulum<s n="n"/></l><r>heuppotjie<s n="n"/></r></p></e> <!-- acetabulum,house__n -->
+0 acetabulum  <e><p><l>acetabulum<s n="n"/></l><r>asetabulum<s n="n"/></r></p></e>
+0 absorbance  <e><p><l>absorbance<s n="n"/></l><r>absorbansie<s n="n"/></r></p></e> <!-- absorbance,house__n -->

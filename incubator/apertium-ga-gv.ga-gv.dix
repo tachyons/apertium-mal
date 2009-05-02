@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+  <alphabet/>
+  <sdefs/>
+
+  <section id="main" type="standard">
+    <!-- Prepositions -->
+
+    <e><p><l>le<s n="pr"/></l><r>marish<s n="pr"/></r></p></e>
+    <e><p><l>i<s n="pr"/></l><r>ayn<s n="pr"/></r></p></e>
+    <e><p><l>ag<s n="pr"/></l><r>ec<s n="pr"/></r></p></e>
+
+    <!-- Conjunctions -->
+
+    <e><p><l>agus<s n="cnjcoo"/></l><r>as<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>óir<s n="cnjsub"/></l><r>er-yn-oyr<s n="cnjsub"/></r></p></e>
+
+    <!-- Nouns -->
+
+    <e><p><l>máthair<s n="n"/><s n="f"/></l><r>moir<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>athair<s n="n"/><s n="m"/></l><r>ayr<s n="n"/><s n="m"/></r></p></e>
+
+    <!-- Verbs -->
+
+    <e><p><l>ól<s n="vblex"/></l><r>iu<s n="vblex"/></r></p></e>
+    <e><p><l>ith<s n="vblex"/></l><r>ee<s n="vblex"/></r></p></e>
+    <e><p><l>gáire<s n="vblex"/></l><r>gearey<s n="vblex"/></r></p></e>
+    <e><p><l>feic<s n="vblex"/></l><r>fakin<s n="vblex"/></r></p></e>
+    <e><p><l>troid<s n="vblex"/></l><r>caggey<s n="vblex"/></r></p></e>
+    <e><p><l>seilg<s n="vblex"/></l><r>shelg<s n="vblex"/></r></p></e>
+    <e><p><l>buail<s n="vblex"/></l><r>bwoalley<s n="vblex"/></r></p></e>
+    <e><p><l>gearr<s n="vblex"/></l><r>giarrey<s n="vblex"/></r></p></e>
+    <e><p><l>scoilt<s n="vblex"/></l><r>scoltey<s n="vblex"/></r></p></e>
+    <e><p><l>tochail<s n="vblex"/></l><r>cleigh<s n="vblex"/></r></p></e>
+    <e><p><l>snámh<s n="vblex"/></l><r>snaue<s n="vblex"/></r></p></e>
+    <e><p><l>eitil<s n="vblex"/></l><r>etlagh<s n="vblex"/></r></p></e>
+    <e><p><l>siúil<s n="vblex"/></l><r>shooyl<s n="vblex"/></r></p></e>
+    <e><p><l>tar<s n="vblex"/></l><r>çheet<s n="vblex"/></r></p></e>
+    <e><p><l>luigh<s n="vblex"/></l><r>lhie<s n="vblex"/></r></p></e>
+    <e><p><l>suigh<s n="vblex"/></l><r>soie<s n="vblex"/></r></p></e>
+    <e><p><l>seas<s n="vblex"/></l><r>shassoo<s n="vblex"/></r></p></e>
+    <e><p><l>cas<s n="vblex"/></l><r>cassey<s n="vblex"/></r></p></e>
+    <e><p><l>tit<s n="vblex"/></l><r>tuittym<s n="vblex"/></r></p></e>
+    <e><p><l>tabhair<s n="vblex"/></l><r>toyrt<s n="vblex"/></r></p></e>
+    <e><p><l>coinnigh<s n="vblex"/></l><r>cummal<s n="vblex"/></r></p></e>
+    <e><p><l>fáisc<s n="vblex"/></l><r>çhionney<s n="vblex"/></r></p></e>
+    <e><p><l>cuimil<s n="vblex"/></l><r>scoorey<s n="vblex"/></r></p></e>
+    <e><p><l>nigh<s n="vblex"/></l><r>niee<s n="vblex"/></r></p></e>
+    <e><p><l>cuimil<s n="vblex"/></l><r>glenney<s n="vblex"/></r></p></e>
+    <e><p><l>tarraing<s n="vblex"/></l><r>tayrn<s n="vblex"/></r></p></e>
+    <e><p><l>brúigh<s n="vblex"/></l><r>jingey<s n="vblex"/></r></p></e>
+    <e><p><l>caith<s n="vblex"/></l><r>ceau<s n="vblex"/></r></p></e>
+    <e><p><l>ceangail<s n="vblex"/></l><r>kiangley<s n="vblex"/></r></p></e>
+    <e><p><l>fuaigh<s n="vblex"/></l><r>whaaley<s n="vblex"/></r></p></e>
+    <e><p><l>cuntais<s n="vblex"/></l><r>coontey<s n="vblex"/></r></p></e>
+    <e><p><l>abair<s n="vblex"/></l><r>gra<s n="vblex"/></r></p></e>
+    <e><p><l>imir<s n="vblex"/></l><r>cloie<s n="vblex"/></r></p></e>
+    <e><p><l>sruthaigh<s n="vblex"/></l><r>stroo<s n="vblex"/></r></p></e>
+    <e><p><l>reoigh<s n="vblex"/></l><r>rioghey<s n="vblex"/></r></p></e>
+    <e><p><l>at<s n="vblex"/></l><r>att<s n="vblex"/></r></p></e>
+
+  </section>
+</dictionary>

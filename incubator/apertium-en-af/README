@@ -1,0 +1,17 @@
+Afrikaans--English
+
+Files:
+
+apertium-en-af.af.dix.xml       -- Afrikaans morphological dictionary
+apertium-en-af.af.tsx           -- Tagger tag definition file
+apertium-en-af.en-af.dix        -- Bilingual dictionary
+apertium-en-af.en.dix.xml       -- English morphological dictionary
+apertium-en-af.symbols.xml	-- Symbol definition file for all dictionaries
+apertium-en-af.post-en.dix	-- English post-generation dictionary
+apertium-en-af.post-af.dix	-- Afrikaans post-generation dictionary
+apertium-en-af.af-en.t1x	-- First stage transfer (Afrikaans → English)
+apertium-en-af.af-en.t2x	-- Second stage transfer (Afrikaans → English)
+apertium-en-af.af-en.t3x	-- Third stage transfer (Afrikaans → English)
+apertium-en-af.en-af.t1x	-- First stage transfer (English → Afrikaans)
+apertium-en-af.en-af.t2x	-- Second stage transfer (English → Afrikaans)
+apertium-en-af.en-af.t3x	-- Third stage transfer (English → Afrikaans)

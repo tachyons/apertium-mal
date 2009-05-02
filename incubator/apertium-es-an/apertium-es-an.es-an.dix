@@ -1,0 +1,86 @@
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="acr"/>
+    <sdef n="predet"/>
+    <sdef n="detnt"/>
+    <sdef n="loc"/>
+    <sdef n="ant"/>
+    <sdef n="al"/>
+    <sdef n="atn"/>
+    <sdef n="enc"/>
+    <sdef n="pro"/>
+    <sdef n="tn"/>
+    <sdef n="n"/>
+    <sdef n="np"/>
+    <sdef n="adj"/>
+    <sdef n="f"/>
+    <sdef n="m"/>
+    <sdef n="mf"/>
+    <sdef n="sg"/>
+    <sdef n="pl"/>
+    <sdef n="adv"/>
+    <sdef n="preadv"/>
+    <sdef n="pr"/>
+    <sdef n="prn"/>
+    <sdef n="rel"/>
+    <sdef n="nn"/>
+    <sdef n="an"/>
+    <sdef n="aa"/>
+    <sdef n="ind"/>
+    <sdef n="itg"/>
+    <sdef n="det"/>
+    <sdef n="dem"/>
+    <sdef n="def"/>
+    <sdef n="cnjcoo"/>
+    <sdef n="cnjsub"/>
+    <sdef n="cnjadv"/>
+    <sdef n="nt"/>
+    <sdef n="vbser"/>
+    <sdef n="vbhaver"/>
+    <sdef n="vblex"/>
+    <sdef n="inf"/>
+    <sdef n="infps"/>
+    <sdef n="ger"/>
+    <sdef n="gerps"/>
+    <sdef n="pp"/>
+    <sdef n="pri"/>
+    <sdef n="p1"/>
+    <sdef n="p2"/>
+    <sdef n="p3"/>
+    <sdef n="pii"/>
+    <sdef n="pmp"/>
+    <sdef n="ifi"/>
+    <sdef n="fti"/>
+    <sdef n="cni"/>
+    <sdef n="prs"/>
+    <sdef n="pis"/>
+    <sdef n="fts"/>
+    <sdef n="imp"/>
+    <sdef n="pos"/>
+    <sdef n="sp"/>
+    <sdef n="ref"/>
+    <sdef n="sup"/>
+    <sdef n="num"/>
+    <sdef n="ij"/>
+    <sdef n="sent"/>
+    <sdef n="cm"/>
+    <sdef n="lpar"/>
+    <sdef n="rpar"/>
+    <sdef n="lquest"/>
+  </sdefs>
+  <pardefs/>
+  <section id="main" type="standard">
+    <e><p><l>yo<s n="prn"/><s n="tn"/></l><r>yo<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>tú<s n="prn"/><s n="tn"/></l><r>tú<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>él<s n="prn"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>nosotros<s n="prn"/><s n="tn"/></l><r>nusatros<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>vosotros<s n="prn"/><s n="tn"/></l><r>busatros<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>el<s n="det"/></l><r>o<s n="det"/></r></p></e>
+    <e><p><l>aragonés<s n="adj"/></l><r>aragonés<s n="adj"/></r></p></e>
+    <e><p><l>lengua<s n="n"/></l><r>luenga<s n="n"/></r></p></e>
+    <e><p><l>agua<s n="n"/></l><r>augua<s n="n"/></r></p></e>
+    <e><p><l>haber<s n="vbhaver"/></l><r>aber<s n="vbhaver"/></r></p></e>
+    <e><p><l>cantar<s n="vblex"/></l><r>cantar<s n="vblex"/></r></p></e>
+  </section>
+</dictionary>

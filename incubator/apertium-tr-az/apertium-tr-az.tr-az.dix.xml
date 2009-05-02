@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+  <alphabet/>
+  <!-- Symbol definitions -->
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-tr-az.symbols.xml"/>
+
+  <section id="main" type="standard">
+    <!-- Conjunctions -->
+    <e><p><l>ve<s n="cnjcoo"/></l><r>və<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ama<s n="cnjcoo"/></l><r>amma<s n="cnjcoo"/></r></p></e>
+
+    <!-- Nouns -->
+    <e><p><l>bira<s n="n"/></l><r>pivə<s n="n"/></r></p></e>
+    <e><p><l>kova<s n="n"/></l><r>vedrə<s n="n"/></r></p></e>
+
+    <!-- :: From wikipedia, automatically -->
+    <e><p><l>anayasa<s n="n"/></l><r>konstitusiya<s n="n"/></r></p></e>
+    <e><p><l>bakara<s n="n"/></l><r>bəqərə<s n="n"/></r></p></e>
+    <e><p><l>banka<s n="n"/></l><r>bank<s n="n"/></r></p></e>
+    <e><p><l>brezilya<s n="n"/></l><r>braziliya<s n="n"/></r></p></e>
+    <e><p><l>coğrafya<s n="n"/></l><r>coğrafiya<s n="n"/></r></p></e>
+    <e><p><l>dalga<s n="n"/></l><r>dalğa<s n="n"/></r></p></e>
+    <e><p><l>dünya<s n="n"/></l><r>yer<s n="n"/></r></p></e>
+    <e><p><l>elma<s n="n"/></l><r>alma<s n="n"/></r></p></e>
+    <e><p><l>enbiya<s n="n"/></l><r>ənbiya<s n="n"/></r></p></e>
+    <e><p><l>fatiha<s n="n"/></l><r>fatihə<s n="n"/></r></p></e>
+    <e><p><l>havra<s n="n"/></l><r>sinaqoq<s n="n"/></r></p></e>
+    <e><p><l>ispanya<s n="n"/></l><r>ispaniya<s n="n"/></r></p></e>
+    <e><p><l>kimya<s n="n"/></l><r>kimya<s n="n"/></r></p></e>
+    <e><p><l>kolera<s n="n"/></l><r>xolera<s n="n"/></r></p></e>
+    <e><p><l>lepra<s n="n"/></l><r>cüzəm<s n="n"/></r></p></e>
+    <e><p><l>madalya<s n="n"/></l><r>medal<s n="n"/></r></p></e>
+    <e><p><l>opera<s n="n"/></l><r>opera<s n="n"/></r></p></e>
+    <e><p><l>panama<s n="n"/></l><r>panama<s n="n"/></r></p></e>
+    <e><p><l>papa<s n="n"/></l><r>papa<s n="n"/></r></p></e>
+    <e><p><l>politika<s n="n"/></l><r>siyasət<s n="n"/></r></p></e>
+    <e><p><l>sahra<s n="n"/></l><r>səhra<s n="n"/></r></p></e>
+    <e><p><l>sigara<s n="n"/></l><r>papiros<s n="n"/></r></p></e>
+    <e><p><l>şura<s n="n"/></l><r>şura<s n="n"/></r></p></e>
+    <e><p><l>vakıa<s n="n"/></l><r>vaqiə<s n="n"/></r></p></e>
+
+
+    <!-- Verbs -->
+    <e><p><l>içmek<s n="vblex"/></l><r>içmək<s n="vblex"/></r></p></e>
+    <e><p><l>vermek<s n="vblex"/></l><r>vermək<s n="vblex"/></r></p></e>
+    <e><p><l>bilmek<s n="vblex"/></l><r>bilmək<s n="vblex"/></r></p></e>
+    <e><p><l>gelmek<s n="vblex"/></l><r>gəlmək<s n="vblex"/></r></p></e>
+    <e><p><l>beslemek<s n="vblex"/></l><r>bəsləmək<s n="vblex"/></r></p></e>
+
+    <!-- : Automatically added -->
+    <e><p><l>adamak<s n="vblex"/></l><r>nəzir etmək<s n="vblex"/></r></p></e>
+    <e><p><l>ağlamak<s n="vblex"/></l><r>ağlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>alkışlamak<s n="vblex"/></l><r>alqışlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>anmak<s n="vblex"/></l><r>anmaq<s n="vblex"/></r></p></e>
+    <e><p><l>asmak<s n="vblex"/></l><r>asmaq<s n="vblex"/></r></p></e>
+    <e><p><l>aşmak<s n="vblex"/></l><r>aşmaq<s n="vblex"/></r></p></e>
+    <e><p><l>atmak<s n="vblex"/></l><r>atmaq<s n="vblex"/></r></p></e>
+    <e><p><l>ayıplamak<s n="vblex"/></l><r>ayıblamaq<s n="vblex"/></r></p></e>
+    <e><p><l>azmak<s n="vblex"/></l><r>azmaq<s n="vblex"/></r></p></e>
+    <e><p><l>başlamak<s n="vblex"/></l><r>başlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>benimsemek<s n="vblex"/></l><r>mənimsəmək<s n="vblex"/></r></p></e>
+    <e><p><l>benzemek<s n="vblex"/></l><r>bənzəmək<s n="vblex"/></r></p></e>
+    <e><p><l>bezmek<s n="vblex"/></l><r>bezmək<s n="vblex"/></r></p></e>
+    <e><p><l>bıkmak<s n="vblex"/></l><r>təngə gəlmək<s n="vblex"/></r></p></e>
+    <e><p><l>biçmek<s n="vblex"/></l><r>biçmək<s n="vblex"/></r></p></e>
+    <e><p><l>binmek<s n="vblex"/></l><r>minmək<s n="vblex"/></r></p></e>
+    <e><p><l>boğmak<s n="vblex"/></l><r>boğmaq<s n="vblex"/></r></p></e>
+    <e><p><l>bulamak<s n="vblex"/></l><r>bulamaq<s n="vblex"/></r></p></e>
+    <e><p><l>buyurmak<s n="vblex"/></l><r>buyurmaq<s n="vblex"/></r></p></e>
+    <e><p><l>bükmek<s n="vblex"/></l><r>bükmək<s n="vblex"/></r></p></e>
+    <e><p><l>büzmek<s n="vblex"/></l><r>büzmək<s n="vblex"/></r></p></e>
+    <e><p><l>coşmak<s n="vblex"/></l><r>coşmaq<s n="vblex"/></r></p></e>
+    <e><p><l>çakmak<s n="vblex"/></l><r>çaxmaq<s n="vblex"/></r></p></e>
+    <e><p><l>çalmak<s n="vblex"/></l><r>oğurlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>çarpmak<s n="vblex"/></l><r>çarpmaq<s n="vblex"/></r></p></e>
+    <e><p><l>çatlamak<s n="vblex"/></l><r>çatlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>çekinmek<s n="vblex"/></l><r>çəkinmək<s n="vblex"/></r></p></e>
+    <e><p><l>çıkmak<s n="vblex"/></l><r>çıxmaq<s n="vblex"/></r></p></e>
+    <e><p><l>çökmek<s n="vblex"/></l><r>çökmək<s n="vblex"/></r></p></e>
+    <e><p><l>dağlamak<s n="vblex"/></l><r>dağlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>dalamak<s n="vblex"/></l><r>dalamaq<s n="vblex"/></r></p></e>
+    <e><p><l>dalmak<s n="vblex"/></l><r>cummaq<s n="vblex"/></r></p></e>
+    <e><p><l>damlamak<s n="vblex"/></l><r>damcılamaq<s n="vblex"/></r></p></e>
+    <e><p><l>değinmek<s n="vblex"/></l><r>təmas etmək<s n="vblex"/></r></p></e>
+    <e><p><l>delmek<s n="vblex"/></l><r>dəlmək<s n="vblex"/></r></p></e>
+    <e><p><l>derlemek<s n="vblex"/></l><r>toplamaq<s n="vblex"/></r></p></e>
+    <e><p><l>devirmek<s n="vblex"/></l><r>devirmək<s n="vblex"/></r></p></e>
+    <e><p><l>dikmek<s n="vblex"/></l><r>tikmək<s n="vblex"/></r></p></e>
+    <e><p><l>dinmek<s n="vblex"/></l><r>kəsilmək<s n="vblex"/></r></p></e>
+    <e><p><l>dizmek<s n="vblex"/></l><r>düzmək<s n="vblex"/></r></p></e>
+    <e><p><l>dolamak<s n="vblex"/></l><r>dolamaq<s n="vblex"/></r></p></e>
+    <e><p><l>dolmak<s n="vblex"/></l><r>dolmaq<s n="vblex"/></r></p></e>
+    <e><p><l>donmak<s n="vblex"/></l><r>donmaq<s n="vblex"/></r></p></e>
+    <e><p><l>doymak<s n="vblex"/></l><r>doymaq<s n="vblex"/></r></p></e>
+    <e><p><l>dökmek<s n="vblex"/></l><r>tökmək<s n="vblex"/></r></p></e>
+    <e><p><l>dönmek<s n="vblex"/></l><r>burulmaq<s n="vblex"/></r></p></e>
+    <e><p><l>dövmek<s n="vblex"/></l><r>döymək<s n="vblex"/></r></p></e>
+    <e><p><l>duymak<s n="vblex"/></l><r>duymaq<s n="vblex"/></r></p></e>
+    <e><p><l>düşmek<s n="vblex"/></l><r>yıxılmaq<s n="vblex"/></r></p></e>
+    <e><p><l>eklemek<s n="vblex"/></l><r>qoşmaq<s n="vblex"/></r></p></e>
+    <e><p><l>esmek<s n="vblex"/></l><r>əsmək<s n="vblex"/></r></p></e>
+    <e><p><l>eşmek<s n="vblex"/></l><r>eşmək<s n="vblex"/></r></p></e>
+    <e><p><l>geçmek<s n="vblex"/></l><r>keçmək<s n="vblex"/></r></p></e>
+    <e><p><l>germek<s n="vblex"/></l><r>gərmək<s n="vblex"/></r></p></e>
+    <e><p><l>girmek<s n="vblex"/></l><r>girmək<s n="vblex"/></r></p></e>
+    <e><p><l>gitmek<s n="vblex"/></l><r>getmək<s n="vblex"/></r></p></e>
+    <e><p><l>giymek<s n="vblex"/></l><r>geymək<s n="vblex"/></r></p></e>
+    <e><p><l>gülmek<s n="vblex"/></l><r>gülmək<s n="vblex"/></r></p></e>
+    <e><p><l>haşlamak<s n="vblex"/></l><r>xaşlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>hatırlamak<s n="vblex"/></l><r>xatırlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>havlamak<s n="vblex"/></l><r>hürmək<s n="vblex"/></r></p></e>
+    <e><p><l>hazırlamak<s n="vblex"/></l><r>hazırlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>hırpalamak<s n="vblex"/></l><r>xırpalamaq<s n="vblex"/></r></p></e>
+    <e><p><l>hoplamak<s n="vblex"/></l><r>hoppanmaq<s n="vblex"/></r></p></e>
+    <e><p><l>horlamak<s n="vblex"/></l><r>xorlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>ısmarlamak<s n="vblex"/></l><r>ismarlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>ışınlamak<s n="vblex"/></l><r>şüalamaq<s n="vblex"/></r></p></e>
+    <e><p><l>içmek<s n="vblex"/></l><r>içmək<s n="vblex"/></r></p></e>
+    <e><p><l>ihtiyarlamak<s n="vblex"/></l><r>ixtiyarlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>inlemek<s n="vblex"/></l><r>inləmək<s n="vblex"/></r></p></e>
+    <e><p><l>inmek<s n="vblex"/></l><r>enmək<s n="vblex"/></r></p></e>
+    <e><p><l>istemek<s n="vblex"/></l><r>istəmək<s n="vblex"/></r></p></e>
+    <e><p><l>işlemek<s n="vblex"/></l><r>naxışlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>izlemek<s n="vblex"/></l><r>təqib etmək<s n="vblex"/></r></p></e>
+    <e><p><l>kanmak<s n="vblex"/></l><r>aldanmaq<s n="vblex"/></r></p></e>
+    <e><p><l>kapmak<s n="vblex"/></l><r>qapmaq<s n="vblex"/></r></p></e>
+    <e><p><l>karalamak<s n="vblex"/></l><r>qaralamaq<s n="vblex"/></r></p></e>
+    <e><p><l>karışlamak<s n="vblex"/></l><r>qarışlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>karşılamak<s n="vblex"/></l><r>qarşılamaq<s n="vblex"/></r></p></e>
+    <e><p><l>katlamak<s n="vblex"/></l><r>qatlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>katmak<s n="vblex"/></l><r>qatmaq<s n="vblex"/></r></p></e>
+    <e><p><l>kesmek<s n="vblex"/></l><r>dayandırmaq<s n="vblex"/></r></p></e>
+    <e><p><l>kılmak<s n="vblex"/></l><r>qılmaq<s n="vblex"/></r></p></e>
+    <e><p><l>kırkmak<s n="vblex"/></l><r>qırxmaq<s n="vblex"/></r></p></e>
+    <e><p><l>kırpmak<s n="vblex"/></l><r>qırpmaq<s n="vblex"/></r></p></e>
+    <e><p><l>kısmak<s n="vblex"/></l><r>azaltmaq<s n="vblex"/></r></p></e>
+    <e><p><l>kıymak<s n="vblex"/></l><r>fəda etmək<s n="vblex"/></r></p></e>
+    <e><p><l>kızmak<s n="vblex"/></l><r>qızmaq<s n="vblex"/></r></p></e>
+    <e><p><l>koklamak<s n="vblex"/></l><r>qoxlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>kovalamak<s n="vblex"/></l><r>qovalamaq<s n="vblex"/></r></p></e>
+    <e><p><l>kucaklamak<s n="vblex"/></l><r>qucaqlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>kurmak<s n="vblex"/></l><r>qurmaq<s n="vblex"/></r></p></e>
+    <e><p><l>kurulamak<s n="vblex"/></l><r>qurulamaq<s n="vblex"/></r></p></e>
+    <e><p><l>küsmek<s n="vblex"/></l><r>küsmək<s n="vblex"/></r></p></e>
+    <e><p><l>melemek<s n="vblex"/></l><r>mələmək<s n="vblex"/></r></p></e>
+    <e><p><l>miyavlamak<s n="vblex"/></l><r>miyovuldamaq<s n="vblex"/></r></p></e>
+    <e><p><l>otlamak<s n="vblex"/></l><r>otlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>ovalamak<s n="vblex"/></l><r>ovxalamaq<s n="vblex"/></r></p></e>
+    <e><p><l>oylamak<s n="vblex"/></l><r>səsə qoymaq<s n="vblex"/></r></p></e>
+    <e><p><l>ödemek<s n="vblex"/></l><r>ödəmək<s n="vblex"/></r></p></e>
+    <e><p><l>ölçmek<s n="vblex"/></l><r>ölçmək<s n="vblex"/></r></p></e>
+    <e><p><l>örmek<s n="vblex"/></l><r>hörmək<s n="vblex"/></r></p></e>
+    <e><p><l>ötmek<s n="vblex"/></l><r>ötmək<s n="vblex"/></r></p></e>
+    <e><p><l>övmek<s n="vblex"/></l><r>tə'rifləmək<s n="vblex"/></r></p></e>
+    <e><p><l>özetlemek<s n="vblex"/></l><r>xülasə etmək<s n="vblex"/></r></p></e>
+    <e><p><l>özlemek<s n="vblex"/></l><r>xəsrətini çəkmək<s n="vblex"/></r></p></e>
+    <e><p><l>paralamak<s n="vblex"/></l><r>paralamaq<s n="vblex"/></r></p></e>
+    <e><p><l>parlamak<s n="vblex"/></l><r>parlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>patlamak<s n="vblex"/></l><r>partlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>pişmek<s n="vblex"/></l><r>bişmək<s n="vblex"/></r></p></e>
+    <e><p><l>pohpohlamak<s n="vblex"/></l><r>bəhbəhləmək<s n="vblex"/></r></p></e>
+    <e><p><l>rahatlamak<s n="vblex"/></l><r>rahatlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>saçmak<s n="vblex"/></l><r>saçmaq<s n="vblex"/></r></p></e>
+    <e><p><l>sağmak<s n="vblex"/></l><r>sağmaq<s n="vblex"/></r></p></e>
+    <e><p><l>salmak<s n="vblex"/></l><r>buraxmaq<s n="vblex"/></r></p></e>
+    <e><p><l>sapmak<s n="vblex"/></l><r>sapmaq<s n="vblex"/></r></p></e>
+    <e><p><l>sarkmak<s n="vblex"/></l><r>sallanmaq<s n="vblex"/></r></p></e>
+    <e><p><l>savmak<s n="vblex"/></l><r>başdan etmək<s n="vblex"/></r></p></e>
+    <e><p><l>saymak<s n="vblex"/></l><r>hörmət etmək<s n="vblex"/></r></p></e>
+    <e><p><l>seçmek<s n="vblex"/></l><r>seçmək<s n="vblex"/></r></p></e>
+    <e><p><l>sekmek<s n="vblex"/></l><r>səkmək<s n="vblex"/></r></p></e>
+    <e><p><l>serinlemek<s n="vblex"/></l><r>sərinləmək<s n="vblex"/></r></p></e>
+    <e><p><l>sevmek<s n="vblex"/></l><r>sevmək<s n="vblex"/></r></p></e>
+    <e><p><l>sezmek<s n="vblex"/></l><r>sezmək<s n="vblex"/></r></p></e>
+    <e><p><l>sıralamak<s n="vblex"/></l><r>sıralamaq<s n="vblex"/></r></p></e>
+    <e><p><l>sıvazlamak<s n="vblex"/></l><r>sığallamaq<s n="vblex"/></r></p></e>
+    <e><p><l>sızmak<s n="vblex"/></l><r>sızmaq<s n="vblex"/></r></p></e>
+    <e><p><l>sikmek<s n="vblex"/></l><r>sikmək<s n="vblex"/></r></p></e>
+    <e><p><l>silmek<s n="vblex"/></l><r>silmək<s n="vblex"/></r></p></e>
+    <e><p><l>sinmek<s n="vblex"/></l><r>sinmək<s n="vblex"/></r></p></e>
+    <e><p><l>sönmek<s n="vblex"/></l><r>sönmək<s n="vblex"/></r></p></e>
+    <e><p><l>suçlamak<s n="vblex"/></l><r>suçlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>sulamak<s n="vblex"/></l><r>sulamaq<s n="vblex"/></r></p></e>
+    <e><p><l>sürmek<s n="vblex"/></l><r>sürmək<s n="vblex"/></r></p></e>
+    <e><p><l>süslemek<s n="vblex"/></l><r>süsləmək<s n="vblex"/></r></p></e>
+    <e><p><l>süzmek<s n="vblex"/></l><r>süzmək<s n="vblex"/></r></p></e>
+    <e><p><l>şaşalamak<s n="vblex"/></l><r>mat qalmaq<s n="vblex"/></r></p></e>
+    <e><p><l>şaşmak<s n="vblex"/></l><r>çaşmaq<s n="vblex"/></r></p></e>
+    <e><p><l>şişmek<s n="vblex"/></l><r>şişmək<s n="vblex"/></r></p></e>
+    <e><p><l>tamamlamak<s n="vblex"/></l><r>tamamlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>tasarlamak<s n="vblex"/></l><r>tasarlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>taşmak<s n="vblex"/></l><r>daşmaq<s n="vblex"/></r></p></e>
+    <e><p><l>tavlamak<s n="vblex"/></l><r>tovlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>tepmek<s n="vblex"/></l><r>təpmək<s n="vblex"/></r></p></e>
+    <e><p><l>terlemek<s n="vblex"/></l><r>tərləmək<s n="vblex"/></r></p></e>
+    <e><p><l>tutmak<s n="vblex"/></l><r>tərəfdar olmaq<s n="vblex"/></r></p></e>
+    <e><p><l>tütmek<s n="vblex"/></l><r>tüstüləmək<s n="vblex"/></r></p></e>
+    <e><p><l>tüymek<s n="vblex"/></l><r>yayınmaq<s n="vblex"/></r></p></e>
+    <e><p><l>uçmak<s n="vblex"/></l><r>uçmaq<s n="vblex"/></r></p></e>
+    <e><p><l>uğurlamak<s n="vblex"/></l><r>yola salmaq<s n="vblex"/></r></p></e>
+    <e><p><l>ummak<s n="vblex"/></l><r>ummaq<s n="vblex"/></r></p></e>
+    <e><p><l>ürkmek<s n="vblex"/></l><r>ürkmək<s n="vblex"/></r></p></e>
+    <e><p><l>vermek<s n="vblex"/></l><r>vermək<s n="vblex"/></r></p></e>
+    <e><p><l>yağmak<s n="vblex"/></l><r>yağmaq<s n="vblex"/></r></p></e>
+    <e><p><l>yakmak<s n="vblex"/></l><r>yandırmaq<s n="vblex"/></r></p></e>
+    <e><p><l>yanmak<s n="vblex"/></l><r>yanmaq<s n="vblex"/></r></p></e>
+    <e><p><l>yavaşlamak<s n="vblex"/></l><r>yavaşlamaq<s n="vblex"/></r></p></e>
+    <e><p><l>yaymak<s n="vblex"/></l><r>yaymaq<s n="vblex"/></r></p></e>
+    <e><p><l>yazmak<s n="vblex"/></l><r>yazmaq<s n="vblex"/></r></p></e>
+    <e><p><l>yenmek<s n="vblex"/></l><r>yenmək<s n="vblex"/></r></p></e>
+    <e><p><l>yığmak<s n="vblex"/></l><r>yığmaq<s n="vblex"/></r></p></e>
+    <e><p><l>yıkmak<s n="vblex"/></l><r>yıxmaq<s n="vblex"/></r></p></e>
+    <e><p><l>yırtmak<s n="vblex"/></l><r>cırmaq<s n="vblex"/></r></p></e>
+    <e><p><l>yontmak<s n="vblex"/></l><r>yonmaq<s n="vblex"/></r></p></e>
+    <e><p><l>yormak<s n="vblex"/></l><r>yormaq<s n="vblex"/></r></p></e>
+    <e><p><l>yummak<s n="vblex"/></l><r>yummaq<s n="vblex"/></r></p></e>
+    <e><p><l>yüklemek<s n="vblex"/></l><r>yükləmək<s n="vblex"/></r></p></e>
+    <e><p><l>zıplamak<s n="vblex"/></l><r>zıplamaq<s n="vblex"/></r></p></e>
+    <e><p><l>zırlamak<s n="vblex"/></l><r>zırıldamaq<s n="vblex"/></r></p></e>
+    <e><p><l>zorlamak<s n="vblex"/></l><r>zorlamaq<s n="vblex"/></r></p></e>
+
+    <!-- punctuation etc. -->
+    <e>
+      <p>    
+        <l>-<s n="guio"/></l>    
+        <r>-<s n="guio"/></r>  
+      </p>
+    </e>
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+
+    <e><re>[Â¿Â¡]</re><p><l><s n="lquest"/></l><r><s n="lquest"/></r></p></e>
+    <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
+    <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
+    <e><re>[’'‘]</re><p><l><s n="apos"/></l><r><s n="apos"/></r></p></e>
+
+ </section>  
+</dictionary>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+  <mode name="en-af" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="en-af.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="en-af.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-en-af.en-af.t1x"/>
+        <file name="en-af.t1x.bin"/>
+        <file name="en-af.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-en-af.en-af.t2x"/>
+        <file name="en-af.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-en-af.en-af.t3x"/>
+        <file name="en-af.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="en-af.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="en-af.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="af-en" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="af-en.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="af-en.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-en-af.af-en.t1x"/>
+        <file name="af-en.t1x.bin"/>
+        <file name="af-en.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-en-af.af-en.t2x"/>
+        <file name="af-en.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-en-af.af-en.t3x"/>
+        <file name="af-en.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="af-en.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="af-en.autopgen.bin"/>
+      </program> 
+    </pipeline>
+  </mode>
+
+  <mode name="en-parser" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="en-af.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="en-af.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="fix-scol.rb"/>
+      <program name="cass -a -g">
+        <file name="en.fsc"/>
+      </program>
+      <program name="apertium-destxt"/>
+    </pipeline>
+  </mode>
+</modes>

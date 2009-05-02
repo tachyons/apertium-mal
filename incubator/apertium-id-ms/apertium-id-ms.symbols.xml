@@ -1,0 +1,96 @@
+  <sdefs>
+    <sdef n="n"       c="Noun"/>
+    <sdef n="m"       c="Masculine"/>
+    <sdef n="f"       c="Feminine"/>
+    <sdef n="mf"      c="Masculine-Feminine"/>
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="pl"      c="Plural"/>
+    <sdef n="prn"     c="Pronoun"/>
+    <sdef n="pr"      c="Preposition"/>
+    <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+
+    <sdef n="vbser"   c="The verb 'to be'"/>
+    <sdef n="vblex"   c="Lexical verb"/>	
+    <sdef n="vaux"    c="Auxilliary verb"/>	
+    <sdef n="vbhaver" c="The verb 'to have'"/>
+    <sdef n="vbmod"   c="Modal verb"/>
+    <sdef n="pri"     c="Present indicative"/>
+    <sdef n="past"    c="Past tense"/>
+    <sdef n="pres"    c="Present tense"/>
+    <sdef n="inf"     c="Infinitive"/>
+
+    <sdef n="aff"     c="Affirmative"/>
+    <sdef n="int"     c="Interrogative"/>
+    <sdef n="neg"     c="Negative"/>
+
+    <sdef n="p1"      c="First person"/>
+    <sdef n="p2"      c="Second person"/>
+    <sdef n="p3"      c="Third person"/>
+    <sdef n="impers"  c="Impersonal"/>
+ 
+    <sdef n="tn"      c="Tonico"/>
+    <sdef n="adj"     c="Adjective"/>
+    <sdef n="sint"    c="Synthetic adjective"/>
+    <sdef n="comp"    c="Comparative"/>
+    <sdef n="sup"     c="Superlative"/>
+
+    <sdef n="detnt"/>
+    <sdef n="predet"/>
+    <sdef n="atn"/>
+    <sdef n="qnt"/>
+    <sdef n="ord"     c="Ordinal"/>
+    <sdef n="obj"     c="Object"/>
+    <sdef n="subj"    c="Subject"/>
+    <sdef n="pro"/>
+    <sdef n="acr"/>
+    <sdef n="loc"/>
+    <sdef n="ant"/>
+    <sdef n="al"/>
+    <sdef n="np"      c="Proper noun"/>
+    <sdef n="adv"     c="Adverb"/>
+    <sdef n="preadv"  c="Pre-adverb"/>
+    <sdef n="rel"     c="Relative"/>
+    <sdef n="nn"/>
+    <sdef n="an"/>
+    <sdef n="aa"/>
+    <sdef n="ind"/>    
+    <sdef n="itg"/>
+    <sdef n="det"     c="Determiner"/>
+    <sdef n="dem"/>
+    <sdef n="def"/>
+    <sdef n="cnjsub"/>
+    <sdef n="cnjadv"/>
+    <sdef n="nt"/>
+    <sdef n="ger"     c="Gerund"/>
+    <sdef n="pp"/>
+    <sdef n="ifi"/>
+    <sdef n="pii"/>
+    <sdef n="fti"/>
+    <sdef n="cni"/>
+    <sdef n="prs"/>
+    <sdef n="pis"/>
+    <sdef n="imp"/>
+    <sdef n="pos"/>
+    <sdef n="gen"/>
+    <sdef n="nom"/>
+    <sdef n="sp"/>
+    <sdef n="ref"/>
+    <sdef n="num"/>
+    <sdef n="ij"      c="Interjection"/>
+
+    <sdef n="sent"    c="End of sentence"/>
+    <sdef n="cm"      c="Comma"/>
+    <sdef n="lpar"    c="Left parenthesis"/>
+    <sdef n="rpar"    c="Right parenthesis"/>
+    <sdef n="lquest"  c="Left question-mark"/>
+    <sdef n="web"/>
+    <sdef n="subs"/>
+    <sdef n="pprs"/>    
+    <sdef n="guio"    c="Hyphen"/> 
+    <sdef n="enc"/>
+    <sdef n="vbdo"/>
+    <sdef n="unc"/>
+    <sdef n="sep"/>
+    <sdef n="pron"/>
+    <sdef n="apos"    c="Apostrophe"/>
+  </sdefs>

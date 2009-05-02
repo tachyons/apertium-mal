@@ -1,0 +1,53 @@
+<dictionary>
+  <alphabet></alphabet>
+  <sdefs>
+    <sdef n="n"/>
+    <sdef n="m"/>
+    <sdef n="f"/>
+    <sdef n="sg"/>
+    <sdef n="pl"/>
+    <sdef n="adv"/>
+    <sdef n="neg"/>
+  </sdefs>
+  <pardefs>
+    <pardef n="לֹא__adv">
+      <e>
+        <p>
+          <l/>
+          <r><s n="adv"/><s n="neg"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="אורח__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ים</l>
+          <r><s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ת</l>
+          <r><s n="n"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ות</l>
+          <r><s n="n"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
+  </pardefs>
+  <section id="main" type="standard">
+    <e lm="אורח"><i>אורח</i><par n="אורח__n"/></e> <!-- guest -->
+    <e lm="לֹא"><i>לֹא</i><par n="לֹא__adv"/></e> <!-- not -->
+  </section>
+</dictionary>

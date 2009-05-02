@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Testing Hindi English-->
+
+<dictionary>
+
+	<alphabet>ँं:अआइईउऊऋएऐओऔािुूेैोौकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह्ी</alphabet>
+
+	<sdefs>
+<!-- Only the basic sdefs are put down -->
+
+		<sdef n="n" 	c="Noun"/>
+		<sdef n="num" 	c="Number"/>
+		<sdef n="vblex" 	c="verb"/> 
+		<sdef n="pres"/> 
+		<sdef n="pp"/>
+		<sdef n="case:any" 	c="any"/> 
+		<sdef n="past"/> 
+		<sdef n="adj" 	c="Adjective"/>
+		<sdef n="m" 	c="masculine"/> 
+		<sdef n="f" 	c="feminine"/>
+		<sdef n="sg" 	c="singular"/> 
+		<sdef n="pl" 	c="plural"/> 
+		<sdef n="sp" 	c="any"/> 
+		<sdef n="p1" 	c="first"/> 
+		<sdef n="p2" 	c="second"/> 
+		<sdef n="p3" 	c="third"/>
+		<sdef n="cnjcoo" /> 
+
+	</sdefs>
+
+	<pardefs>
+
+
+	<!-- Adjectives -->
+
+
+<!-- adjective "small" with variations छोटा, छोटी, छोटे  -->
+<pardef n="छोटी__adj">
+<e>       <p><l></l>                                   <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e> 
+</pardef>
+
+<pardef n="बडा__adj">
+<e>       <p><l></l>                                   <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e> 
+</pardef>
+
+
+	<!-- Verbs -->
+<!-- this is restricted for sees - see,v,m,s,3,0 -->
+<pardef n="देख/ना__vblex">
+<e>       <p><l>ता है</l>                                 <r>ना<s n="vblex"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+</pardef>
+
+
+	<!-- Nouns -->
+<pardef n="लडका__n">
+<e>       <p><l></l>                                   <r><s n="n"/><s n="m"/><s n="sg"/><s n="p3" /></r></p></e>
+</pardef>
+
+<pardef n="बिल्ली__n">
+<e>       <p><l></l>                                   <r><s n="n"/><s n="f"/><s n="sg"/><s n="p3" /></r></p></e>
+</pardef>
+
+<!-- CC-->
+<pardef n="और__cnjcoo">
+<e>       <p><l></l>                                   <r><s n="cnjcoo"/></r></p></e>
+</pardef>
+
+</pardefs>
+
+	<section id="main" type="inconditional">
+
+
+<!-- Nouns -->
+<e lm="लडका"><i>लडका</i><par n="लडका__n"/></e>
+<e lm="बिल्ली"><i>बिल्ली</i><par n="बिल्ली__n"/></e>
+<e lm="हाथी"><i>हाथी</i><par n="बिल्ली__n"/></e>
+
+<!-- Adjectives -->
+
+<e lm="छोटी"><i>छोटी</i><par n="छोटी__adj"/></e>
+<e lm="बडा"><i>बडा</i><par n="बडा__adj"/></e>
+
+<!-- Verb -->
+
+<e lm="देख"><i>देख</i><par n="देख/ना__vblex"/></e>
+
+<!-- CC -->
+<e lm="और"><i>और</i><par n="और__cnjcoo"/></e>
+
+	</section>
+
+</dictionary>
+

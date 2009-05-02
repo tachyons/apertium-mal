@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+   <alphabet>ԱԲԳԴԵԶԷԸԹԺԻԼԽԾԿՀՁՂՃՄՅՆՇՈՉՊՋՌՍՎՏՐՑՒՓՔՕՖաբգդեզէըթժիլխծկհձղճմյնշոչպջռսվտրցւփքօֆ</alphabet>
+   <sdefs>
+     <sdef n="n"      c="Noun"/>
+     <sdef n="adj"    c="Adjective"/>
+
+     <sdef n="nom"    c="Nominative"/>
+     <sdef n="acc"    c="Accusative"/>
+     <sdef n="dat"    c="Dative"/>
+     <sdef n="gen"    c="Genitive"/>
+     <sdef n="loc"    c="Locative"/>
+     <sdef n="abl"    c="Ablative"/>
+     <sdef n="ins"    c="Instrumental"/>
+
+     <sdef n="sp"     c="Singular / Plural"/>
+     <sdef n="sg"     c="Singular"/>
+     <sdef n="pl"     c="Plural"/>
+
+     <sdef n="mf"     c="Masculine / Feminine"/>
+     <sdef n="nt"     c="Neuter"/>
+
+     <sdef n="det"    c="Determiner"/>
+     <sdef n="def"    c="Definite"/>
+
+     <sdef n="prn"    c="Pronoun"/>
+
+     <sdef n="p1"     c="First person"/>
+     <sdef n="p2"     c="Second person"/>
+     <sdef n="p3"     c="Third person"/>
+
+     <sdef n="sint"   c="Synthetic"/>
+     <sdef n="pst"    c="Positive"/>
+     <sdef n="comp"   c="Comparative"/>
+     <sdef n="sup"    c="Superlative"/>
+
+     <sdef n="cnjcoo" c="Co-ordinating conjunction"/>
+   </sdefs>
+
+  <pardefs>
+    <pardef n="S__def_det">
+      <e>
+        <p>
+          <l>ը</l>
+          <r><j/><s n="det"/><s n="def"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ն</l>
+          <r><j/><s n="det"/><s n="def"/><s n="sp"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l/>
+          <r/>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="և__cnjcoo">
+      <e>
+        <p>
+          <l/>
+          <r><s n="cnjcoo"/></r>
+        </p>
+      </e>
+    </pardef>
+   
+
+    <!-- Incomplete, but see: http://www.armeniapedia.org/index.php?title=Armenian_Language_Lessons_Chapter_5 -->
+    <pardef n="/personal_pronouns__prn">
+      <e>
+        <p>
+          <l>ես</l>
+          <r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>դու</l>
+          <r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ինք</l>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>Ան</l>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>մենք</l>
+          <r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>մենք</l>
+          <r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>նրանք</l>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>իմ</l>
+          <r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="gen"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>քո</l>
+          <r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="gen"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>իր</l>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="gen"/><s n="sg"/></r>
+        </p>
+      </e>
+      <!-- missing ? -->
+      <e>
+        <p>
+          <l>մեր</l>
+          <r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="gen"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ձեր</l>
+          <r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="gen"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>նրանց</l>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="gen"/><s n="pl"/></r>
+        </p>
+      </e>
+
+    </pardef>
+
+    <pardef n="ուսանող__n">
+      <e>
+        <p>
+          <l/>
+          <r><s n="n"/><s n="nom"/><s n="sg"/></r>
+        </p>
+        <par n="S__def_det"/>
+      </e>
+      <e>
+        <p>
+          <l>ի</l>
+          <r><s n="n"/><s n="gen"/><s n="sg"/></r>
+        </p>
+        <par n="S__def_det"/>
+      </e>
+      <e>
+        <p>
+          <l>ի</l>
+          <r><s n="n"/><s n="dat"/><s n="sg"/></r>
+        </p>
+        <par n="S__def_det"/>
+      </e>
+      <e>
+        <p>
+          <l>ի</l>
+          <r><s n="n"/><s n="acc"/><s n="sg"/></r>
+        </p>
+        <par n="S__def_det"/>
+      </e>
+      <e>
+        <p>
+          <l>ից</l>
+          <r><s n="n"/><s n="abl"/><s n="sg"/></r>
+        </p>
+        <par n="S__def_det"/>
+      </e>
+      <e>
+        <p>
+          <l>ով</l>
+          <r><s n="n"/><s n="ins"/><s n="sg"/></r>
+        </p>
+        <par n="S__def_det"/>
+      </e>
+
+      <e>
+        <p>
+          <l>ներ</l>
+          <r><s n="n"/><s n="nom"/><s n="pl"/></r>
+        </p>
+        <par n="S__def_det"/>
+      </e>
+      <e>
+        <p>
+          <l>նորի</l>
+          <r><s n="n"/><s n="gen"/><s n="pl"/></r>
+        </p>
+        <par n="S__def_det"/>
+      </e>
+      <e>
+        <p>
+          <l>ների</l>
+          <r><s n="n"/><s n="dat"/><s n="pl"/></r>
+        </p>
+        <par n="S__def_det"/>
+      </e>
+      <e>
+        <p>
+          <l>ների</l>
+          <r><s n="n"/><s n="acc"/><s n="pl"/></r>
+        </p>
+        <par n="S__def_det"/>
+      </e>
+      <e>
+        <p>
+          <l>ներից</l>
+          <r><s n="n"/><s n="abl"/><s n="pl"/></r>
+        </p>
+        <par n="S__def_det"/>
+      </e>
+      <e>
+        <p>
+          <l>ներով</l>
+          <r><s n="n"/><s n="ins"/><s n="pl"/></r>
+        </p>
+        <par n="S__def_det"/>
+      </e>
+    </pardef>
+
+    <pardef n="կարմիր__adj">
+      <e>
+        <p>
+          <l/>
+          <r><s n="adj"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="վատ__adj">
+      <e>
+        <p>
+          <l/>
+          <r><s n="adj"/><s n="sint"/><s n="pst"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ագույն</l>
+          <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
+        </p>
+      </e>
+    </pardef>
+
+  </pardefs>
+  <section id="main" type="standard">
+    <e lm="personal pronouns"><i/><par n="/personal_pronouns__prn"/></e>
+
+    <e lm="և"><i>և</i><par n="և__cnjcoo"/></e>
+    <e lm="կամ"><i>կամ</i><par n="և__cnjcoo"/></e>
+
+    <e lm="կարմիր"><i>կարմիր</i><par n="կարմիր__adj"/></e>
+
+    <e lm="վատ"><i>վատ</i><par n="վատ__adj"/></e>
+    <e lm="լավ"><i>լավ</i><par n="վատ__adj"/></e>
+    <e lm="մեծ"><i>մեծ</i><par n="վատ__adj"/></e>
+    <e lm="ազնիվ"><i>ազնիվ</i><par n="վատ__adj"/></e>
+    <e lm="խոշոր"><i>խոշոր</i><par n="վատ__adj"/></e>
+
+    <e lm="ուսանող"><i>ուսանող</i><par n="ուսանող__n"/></e>
+    <e lm="ձեռք"><i>ձեռք</i><par n="ուսանող__n"/></e>
+    <e lm="ոտք"><i>ոտք</i><par n="ուսանող__n"/></e>
+    <e lm="բերան"><i>բերան</i><par n="ուսանող__n"/></e>
+    <e lm="սեղան"><i>սեղան</i><par n="ուսանող__n"/></e>
+    <e lm="լույս"><i>լույս</i><par n="ուսանող__n"/></e>
+    <e lm="դաս"><i>դաս</i><par n="ուսանող__n"/></e>
+    <e lm="քար"><i>քար</i><par n="ուսանող__n"/></e>
+    <e lm="փողոց"><i>փողոց</i><par n="ուսանող__n"/></e>
+    <e lm="գնացք"><i>գնացք</i><par n="ուսանող__n"/></e>
+    <e lm="մատիտ"><i>մատիտ</i><par n="ուսանող__n"/></e>
+    <e lm="բժիշկ"><i>բժիշկ</i><par n="ուսանող__n"/></e>
+    <e lm="արև"><i>արև</i><par n="ուսանող__n"/></e>
+  </section>
+</dictionary>

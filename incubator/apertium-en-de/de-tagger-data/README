@@ -1,0 +1,10 @@
+In order to train the German part-of-speech tagger you need to put some
+corpora here:
+
+* For supervised training: 
+  - A file called 'de.tagged' should contain the hand-tagged corpus.
+  - A file called 'de.tagged.txt' should contain the same corpus that
+    'de.tagged' contains, but in RAW format.
+
+* For unsupervised training:
+  - A file called 'de.crp.txt' should contain large corpus in RAW format

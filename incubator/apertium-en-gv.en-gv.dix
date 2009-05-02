@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+  <alphabet/>
+  <sdefs/>
+
+  <section id="main" type="standard">
+    <!-- Prepositions -->
+
+    <e><p><l>with<s n="pr"/></l><r>marish<s n="pr"/></r></p></e>
+    <e><p><l>in<s n="pr"/></l><r>ayn<s n="pr"/></r></p></e>
+    <e><p><l>at<s n="pr"/></l><r>ec<s n="pr"/></r></p></e>
+
+    <!-- Conjunctions -->
+
+    <e><p><l>and<s n="cnjcoo"/></l><r>as<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>because<s n="cnjsub"/></l><r>er-yn-oyr<s n="cnjsub"/></r></p></e>
+
+    <!-- Nouns -->
+
+    <e><p><l>mother<s n="n"/></l><r>moir<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>father<s n="n"/></l><r>ayr<s n="n"/><s n="m"/></r></p></e>
+
+    <!-- Verbs -->
+
+    <e><p><l>drink<s n="vblex"/></l><r>iu<s n="vblex"/></r></p></e>
+    <e><p><l>eat<s n="vblex"/></l><r>ee<s n="vblex"/></r></p></e>
+    <e><p><l>laugh<s n="vblex"/></l><r>gearey<s n="vblex"/></r></p></e>
+    <e><p><l>see<s n="vblex"/></l><r>fakin<s n="vblex"/></r></p></e>
+    <e><p><l>fight<s n="vblex"/></l><r>caggey<s n="vblex"/></r></p></e>
+    <e><p><l>hunt<s n="vblex"/></l><r>shelg<s n="vblex"/></r></p></e>
+    <e><p><l>hit<s n="vblex"/></l><r>bwoalley<s n="vblex"/></r></p></e>
+    <e><p><l>cut<s n="vblex"/></l><r>giarrey<s n="vblex"/></r></p></e>
+    <!-- Verb??? <e><p><l>scoilt<s n="vblex"/></l><r>scoltey<s n="vblex"/></r></p></e> -->
+    <e><p><l>dig<s n="vblex"/></l><r>cleigh<s n="vblex"/></r></p></e>
+    <e><p><l>swim<s n="vblex"/></l><r>snaue<s n="vblex"/></r></p></e>
+    <e><p><l>fly<s n="vblex"/></l><r>etlagh<s n="vblex"/></r></p></e>
+    <e><p><l>walk<s n="vblex"/></l><r>shooyl<s n="vblex"/></r></p></e>
+    <e><p><l>come<s n="vblex"/></l><r>çheet<s n="vblex"/></r></p></e>
+    <e><p><l>lie<s n="vblex"/></l><r>lhie<s n="vblex"/></r></p></e>
+    <e><p><l>sit<s n="vblex"/></l><r>soie<s n="vblex"/></r></p></e>
+    <e><p><l>stand<s n="vblex"/></l><r>shassoo<s n="vblex"/></r></p></e>
+    <e><p><l>turn<s n="vblex"/></l><r>cassey<s n="vblex"/></r></p></e>
+    <e><p><l>fall<s n="vblex"/></l><r>tuittym<s n="vblex"/></r></p></e>
+    <e><p><l>give<s n="vblex"/></l><r>toyrt<s n="vblex"/></r></p></e>
+    <e><p><l>hold<s n="vblex"/></l><r>cummal<s n="vblex"/></r></p></e>
+    <e><p><l>tighten<s n="vblex"/></l><r>çhionney<s n="vblex"/></r></p></e>
+    <e><p><l>rub<s n="vblex"/></l><r>scoorey<s n="vblex"/></r></p></e>
+    <e><p><l>wash<s n="vblex"/></l><r>niee<s n="vblex"/></r></p></e>
+    <e><p><l>wipe<s n="vblex"/></l><r>glenney<s n="vblex"/></r></p></e>
+    <e><p><l>drag<s n="vblex"/></l><r>tayrn<s n="vblex"/></r></p></e>
+    <e><p><l>push<s n="vblex"/></l><r>jingey<s n="vblex"/></r></p></e>
+    <e><p><l>throw<s n="vblex"/></l><r>ceau<s n="vblex"/></r></p></e>
+    <e><p><l>tangle<s n="vblex"/></l><r>kiangley<s n="vblex"/></r></p></e>
+    <e><p><l>sew<s n="vblex"/></l><r>whaaley<s n="vblex"/></r></p></e>
+    <e><p><l>count<s n="vblex"/></l><r>coontey<s n="vblex"/></r></p></e>
+    <e><p><l>say<s n="vblex"/></l><r>gra<s n="vblex"/></r></p></e>
+    <e><p><l>play<s n="vblex"/></l><r>cloie<s n="vblex"/></r></p></e>
+    <!-- <e><p><l>sruthaigh<s n="vblex"/></l><r>stroo<s n="vblex"/></r></p></e> -->
+    <e><p><l>freeze<s n="vblex"/></l><r>rioghey<s n="vblex"/></r></p></e>
+    <!-- <e><p><l>at<s n="vblex"/></l><r>att<s n="vblex"/></r></p></e> -->
+
+  </section>
+</dictionary>

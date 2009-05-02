@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<dictionary>
+  <alphabet/>
+  <!-- Symbol definitions -->
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-id-ms.symbols.xml"/>
+
+  <!-- Main dictionary section -->
+  <section id="main" type="standard">
+    <e><p><l>ke<s n="pr"/></l><r>ke<s n="pr"/></r></p></e>
+    <e><p><l>untuk<s n="pr"/></l><r>guna<s n="pr"/></r></p></e>
+
+    <e><p><l>tombol<s n="n"/></l><r>butang<s n="n"/></r></p></e>
+    <e><p><l>tahap<s n="n"/></l><r>stage<s n="n"/></r></p></e>
+    <e><p><l>kamus<s n="n"/></l><r>kamus<s n="n"/></r></p></e>
+
+    <e><p><l>aljabar<s n="n"/></l><r>algebra<s n="n"/></r></p></e>
+    <e><p><l>aloy<s n="n"/></l><r>aloi<s n="n"/></r></p></e>
+    <e><p><l>alfabet<s n="n"/></l><r>aksara<s n="n"/></r></p></e>
+    <e><p><l>aluminium<s n="n"/></l><r>aluminium<s n="n"/></r></p></e>
+    <e><p><l>amplifier<s n="n"/></l><r>amplifier<s n="n"/></r></p></e>
+    <e><p><l>malaikat<s n="n"/></l><r>malaikat<s n="n"/></r></p></e>
+    <e><p><l>sudut<s n="n"/></l><r>sudut<s n="n"/></r></p></e>
+    <e><p><l>hewan<s n="n"/></l><r>haiwan<s n="n"/></r></p></e>
+    <e><p><l>apartheid<s n="n"/></l><r>aparteid<s n="n"/></r></p></e>
+    <e><p><l>ilmu<s n="n"/></l><r>sains<s n="n"/></r></p></e>
+
+    <e><p><l>rekening<s n="n"/></l><r>akaun<s n="n"/></r></p></e>
+    <e><p><l>agen<s n="n"/></l><r>ejen<s n="n"/></r></p></e>
+    <e><p><l>alkohol<s n="n"/></l><r>arak<s n="n"/></r></p></e>
+    <e><p><l>arsip<s n="n"/></l><r>arkib<s n="n"/></r></p></e>
+    <e><p><l>Agustus<s n="n"/></l><r>Ogos<s n="n"/></r></p></e>
+    <e><p><l>wastafel<s n="n"/></l><r>besen<s n="n"/></r></p></e>
+    <e><p><l>uskup<s n="n"/></l><r>biskop<s n="n"/></r></p></e>
+    <e><p><l>bus<s n="n"/></l><r>bas<s n="n"/></r></p></e>
+    <e><p><l>kampanye<s n="n"/></l><r>kempen<s n="n"/></r></p></e>
+    <e><p><l>kanker<s n="n"/></l><r>kanser<s n="n"/></r></p></e>
+    <e><p><l>mobil<s n="n"/></l><r>kereta<s n="n"/></r></p></e>
+    <e><p><l>kartu<s n="n"/></l><r>kad<s n="n"/></r></p></e>
+    <e><p><l>kasus<s n="n"/></l><r>kes<s n="n"/></r></p></e>
+    <e><p><l>kelabang<s n="n"/></l><r>lipan<s n="n"/></r></p></e>
+    <e><p><l>jas<s n="n"/></l><r>kot<s n="n"/></r></p></e>
+    <e><p><l>kolese<s n="n"/></l><r>kolej<s n="n"/></r></p></e>
+    <e><p><l>loket<s n="n"/></l><r>kaunter<s n="n"/></r></p></e>
+    <e><p><l>pengadilan<s n="n"/></l><r>mahkamah<s n="n"/></r></p></e>
+    <e><p><l>derajat<s n="n"/></l><r>darjah<s n="n"/></r></p></e>
+    <e><p><l>departemen<s n="n"/></l><r>jabatan<s n="n"/></r></p></e>
+    <e><p><l>Desember<s n="n"/></l><r>Disember<s n="n"/></r></p></e>
+    <e><p><l>darurat<s n="n"/></l><r>kecemasan<s n="n"/></r></p></e>
+    <e><p><l>mesin<s n="n"/></l><r>enjin<s n="n"/></r></p></e>
+    <e><p><l>pabrik<s n="n"/></l><r>kilang<s n="n"/></r></p></e>
+    <e><p><l>Februari<s n="n"/></l><r>Februari<s n="n"/></r></p></e>
+    <e><p><l>federal<s n="n"/></l><r>persekutuan<s n="n"/></r></p></e>
+    <e><p><l>lantai<s n="n"/></l><r>tingkat<s n="n"/></r></p></e>
+    <e><p><l>pemerintah<s n="n"/></l><r>kerajaan<s n="n"/></r></p></e>
+    <e><p><l>rumah sakit<s n="n"/></l><r>hospital<s n="n"/></r></p></e>
+    <e><p><l>es<s n="n"/></l><r>ais<s n="n"/></r></p></e>
+    <e><p><l>imigrasi<s n="n"/></l><r>imigresen<s n="n"/></r></p></e>
+    <e><p><l>asuransi<s n="n"/></l><r>insurans<s n="n"/></r></p></e>
+    <e><p><l>internasional<s n="n"/></l><r>antarabangsa<s n="n"/></r></p></e>
+    <e><p><l>lisensi<s n="n"/></l><r>lesen<s n="n"/></r></p></e>
+    <e><p><l>Juni<s n="n"/></l><r>Jun<s n="n"/></r></p></e>
+    <e><p><l>Juli<s n="n"/></l><r>Julai<s n="n"/></r></p></e>
+    <e><p><l>pengacara<s n="n"/></l><r>peguam<s n="n"/></r></p></e>
+    <e><p><l>Maret<s n="n"/></l><r>Mac<s n="n"/></r></p></e>
+    <e><p><l>matras<s n="n"/></l><r>tilam<s n="n"/></r></p></e>
+    <e><p><l>obat<s n="n"/></l><r>ubat<s n="n"/></r></p></e>
+    <e><p><l>menit<s n="n"/></l><r>minit<s n="n"/></r></p></e>
+    <e><p><l>Senin<s n="n"/></l><r>Isnin<s n="n"/></r></p></e>
+    <e><p><l>uang<s n="n"/></l><r>wang<s n="n"/></r></p></e>
+    <e><p><l>motor<s n="n"/></l><r>motosikal<s n="n"/></r></p></e>
+    <e><p><l>musik<s n="n"/></l><r>muzik<s n="n"/></r></p></e>
+    <e><p><l>nomor<s n="n"/></l><r>nombor<s n="n"/></r></p></e>
+    <e><p><l>perawat<s n="n"/></l><r>jururawat<s n="n"/></r></p></e>
+    <e><p><l>kantor<s n="n"/></l><r>pejabat<s n="n"/></r></p></e>
+    <e><p><l>jeruk<s n="n"/></l><r>oren<s n="n"/></r></p></e>
+    <e><p><l>partai<s n="n"/></l><r>parti<s n="n"/></r></p></e>
+    <e><p><l>paspor<s n="n"/></l><r>pasport<s n="n"/></r></p></e>
+    <e><p><l>persen<s n="n"/></l><r>peratus<s n="n"/></r></p></e>
+    <e><p><l>apotek<s n="n"/></l><r>farmasi<s n="n"/></r></p></e>
+    <e><p><l>foto<s n="n"/></l><r>foto<s n="n"/></r></p></e>
+    <e><p><l>kode pos<s n="n"/></l><r>poskod<s n="n"/></r></p></e>
+
+
+
+
+    <e><p><l>lanjut<s n="adj"/></l><r>lanjut<s n="adj"/></r></p></e>
+    <e><p><l>berikutnya<s n="adj"/></l><r>ke depan<s n="adj"/></r></p></e>
+    <e><p><l>silakan<s n="adv"/></l><r>sila<s n="adv"/></r></p></e>
+
+    <e><p><l>klik<s n="vblex"/></l><r>tekan<s n="vblex"/></r></p></e>
+    <e><p><l>meneruskan<s n="vblex"/></l><r>masuk<s n="vblex"/></r></p></e>
+  </section>
+
+</dictionary>

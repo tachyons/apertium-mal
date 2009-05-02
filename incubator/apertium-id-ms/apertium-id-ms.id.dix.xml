@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<dictionary> 
+  <alphabet>ABCDEFGHILMNOPRSTUWYJKVXZabcdefghilmnoprstuwyjkvxz</alphabet>
+
+  <!-- Symbol definitions -->
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-id-ms.symbols.xml"/>
+
+  <!-- Paradigm definitions -->
+  <pardefs>
+    <!-- Pronouns -->
+
+    <!-- Prepositions -->
+    <pardef n="ke__pr">
+      <e>
+        <p>
+          <l/>
+          <r><s n="pr"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <!-- Conjunctions -->
+
+    <!-- Adjectives -->
+    <pardef n="lanjut__adj">
+      <e>
+        <p>
+          <l/>
+          <r><s n="adj"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <!-- Nouns -->
+    <pardef n="tombol__n">
+      <e>
+        <p>
+          <l/>
+          <r><s n="n"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef> 
+    <!-- Verbs -->
+    <pardef n="klik__vblex">
+      <e>
+        <p>
+          <l/>
+          <r><s n="vblex"/><s n="pres"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <!-- Adverbs -->
+    <pardef n="silakan__adv">
+      <e>
+        <p>
+          <l/>
+          <r><s n="adv"/></r>
+        </p>
+      </e>
+    </pardef>
+  </pardefs>
+
+  <!-- Main dictionary section -->
+  <section id="main" type="standard">
+    <e lm="tombol"><i>tombol</i><par n="tombol__n"/></e>
+    <e lm="tahap"><i>tahap</i><par n="tombol__n"/></e>
+    <e lm="kamus"><i>kamus</i><par n="tombol__n"/></e>
+
+    <e lm="ke"><i>ke</i><par n="ke__pr"/></e>
+    <e lm="untuk"><i>untuk</i><par n="ke__pr"/></e>
+
+    <e lm="lanjut"><i>lanjut</i><par n="lanjut__adj"/></e>
+    <e lm="berikutnya"><i>berikutnya</i><par n="lanjut__adj"/></e>
+    <e lm="silakan"><i>silakan</i><par n="silakan__adv"/></e>
+
+
+    <e lm="klik"><i>klik</i><par n="klik__vblex"/></e>
+    <e lm="meneruskan"><i>meneruskan</i><par n="klik__vblex"/></e>
+  </section>
+
+</dictionary>
+

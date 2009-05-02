@@ -1,0 +1,18 @@
+North Sámi to Lule Sámi
+apertium-sme-smj
+===============================================================================
+
+==Compiling==
+
+The usual triplet should work:
+
+$ sh ./autogen.sh 
+$ make
+
+==Running==
+
+You should be able to test the translator using:
+
+echo "Wikipedia lea máŋggagielat prošeakta man ulbmilin lea \
+ráhkadit almmolaš diehtosátnegirjji gosa gii beare sáhttá \
+čállit artihkkaliid." | apertium -d . sme-smj

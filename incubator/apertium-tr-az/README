@@ -1,0 +1,7 @@
+apertium-tr-az
+Apertium Turkish to Azerbaijani language pair.
+
+==Requirements==
+
+* lttoolbox (>= 3.0.0)
+* apertium  (>= 3.0.0)

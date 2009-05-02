@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
+
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="test"/>
+  </sdefs>
+
+  <pardefs>
+    <pardef n="caracter_general">
+      <e>
+        <i>;</i>
+      </e>
+      <e>
+        <i>#</i>
+      </e>
+      <e>
+        <i>)</i>
+      </e>
+      <e>
+        <i>:</i>
+      </e>
+      <e>
+        <i>(</i>
+      </e>
+      <e>
+        <i>[</i>
+      </e>
+      <e>
+        <i>]</i>
+      </e>
+      <e>
+        <i>"</i>
+      </e>
+      <e>
+        <i>'</i>
+      </e>
+      <e>
+        <i>*</i>
+      </e>
+      <e>
+        <i>@</i>
+      </e>
+      <e>
+        <i>«</i>
+      </e>
+      <e>
+        <i>-</i>
+      </e>
+      <e>
+        <i>,</i>
+      </e>
+      <e>
+        <i>?</i>
+      </e>
+      <e>
+        <i>/</i>
+      </e>
+      <e>
+        <i>`</i>
+      </e>
+      <e>
+        <i>±</i>
+      </e>
+      <e>
+        <i>­</i>
+      </e>
+      <e>
+        <i>$</i>
+      </e>
+      <e>
+        <i>)</i>
+      </e>
+      <e>
+        <i>:</i>
+      </e>
+      <e>
+        <i>.</i>
+      </e>
+    </pardef>
+
+  
+	 <pardef n="vocals">
+		 <e>
+			 <i>a</i>
+		 </e>
+		 <e>
+			 <i>e</i>
+		 </e>
+		 <e>
+			 <i>i</i>
+		 </e>
+		 <e>
+			 <i>o</i>
+		 </e>
+		 <e>
+			 <i>u</i>
+		 </e>
+	 </pardef>
+  </pardefs>
+	 
+  <section id="main" type="standard">
+	<e><i>a</i></e>	
+  </section>
+
+</dictionary>

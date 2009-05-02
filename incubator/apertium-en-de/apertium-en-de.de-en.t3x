@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
+<postchunk>
+  <section-def-cats>
+
+
+    <def-cat n="nom">
+      <cat-item name="nom"/>
+    </def-cat>
+     <def-cat n="det_nom">
+      <cat-item name="det_nom"/>
+    </def-cat>
+
+  </section-def-cats>
+  <section-def-attrs>
+   <def-attr n="nbr">
+          <attr-item tags="sg"/>
+          <attr-item tags="pl"/>
+          <attr-item tags="sp"/>
+          <attr-item tags="ND"/>
+      </def-attr>
+ <def-attr n="a_nom">
+      <attr-item tags="n"/>
+      <attr-item tags="np"/>
+    </def-attr>
+  </section-def-attrs>
+<section-def-vars>
+    <def-var n="paraula"/>
+  </section-def-vars>
+
+
+  <section-rules>
+<!--
+                <rule comment="CHUNK: regla que no fa res">
+                        <pattern>
+                                <pattern-item n="det_nom"/>
+                        </pattern>
+                        <action>
+                                <out>
+                                        <lu>
+                                                <clip pos="1" part="whole"/>
+                                        </lu>
+                                        <b pos="1"/>
+                                        <lu>
+                                                <clip pos="2" part="whole"/>
+                                        </lu>
+                                </out>
+                        </action>
+                </rule>
+-->
+                <rule comment="CHUNK:">
+                        <pattern>
+                                <pattern-item n="nom"/>
+                        </pattern>
+                        <action>
+                                <out>
+                                        <lu>
+                                                <clip pos="1" part="whole"/>
+                                        </lu>
+<!--                                        <lu>
+                                                <clip pos="2" part="whole"/>
+                                        </lu>
+                                        <lu>
+                                                <clip pos="3" part="whole"/>
+                                        </lu> -->
+                                </out>
+                        </action>
+                </rule>
+
+   <rule comment="CHUNK: nom">
+      <pattern>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="0" part="a_SN"/>
+                  <lit-tag v="PDET"/>
+                </equal>
+                <not>
+                  <equal>
+                    <clip pos="1" part="a_nom"/>
+                    <lit-tag v="np"/>
+                  </equal>
+                </not>
+              </and>
+            </test>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                <lit v="el"/>
+                </get-case-from>
+                <lit-tag v="det.def"/>
+                <clip pos="1" part="gen"/>
+                <clip pos="1" part="nbr"/>
+              </lu>
+              <b/>
+            </out>
+          </when>
+        </choose>
+        <out>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+</section-rules>
+</postchunk>
