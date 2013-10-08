@@ -1,0 +1,17 @@
+
+Alphabet 
+
+! Define your alphabet, each of the individual symbols, here
+
+%>:0 ; 
+
+Sets
+
+! E.g. Vowel, Consonant
+
+Boundary = %> ;
+
+Rules 
+
+"Delete morpheme boundary"
+%>:0 <=> _ ;
