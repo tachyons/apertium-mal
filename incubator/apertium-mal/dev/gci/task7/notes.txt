@@ -1,0 +1,6 @@
+v = verb,  n = noun, j = adjective
+a = adverb, d = determiner,
+m = numeral, c = conjuctive,
+t = Place Name, r = preposition,
+e = exclamation, s=suffix
+z = pronoun
