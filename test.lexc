@@ -1,0 +1,36 @@
+Multichar_Symbols
+
+%<n%>             ! Noun
+%<post%>          ! Postposition
+%<cmp%>           ! Compound
+%<pl%>            ! Plural
+
+%+
+%>
+
+LEXICON Root
+
+NominalStems ;
+
+LEXICON N-AGG 
+
+# ;
+
+LEXICON CASES 
+
+%+നിന്ന്%<post%>:നിന്ന് # ; ! "from" ! "nīnn"
+
+LEXICON NUMBER
+
+CASES ; 
+%<pl%>:ങ്ങള്‍  CASES ; ! "ṅṅaḷ‍"
+
+LEXICON N1 
+
+%<n%>: NUMBER  ;
+%<n%>%<cmp%>%+: NominalStems ; 
+
+LEXICON NominalStems
+
+മഴക്കാലം:മഴക്കാലം N1 ; ! "rainy season" ! "maḻakkālaṁ"
+മേഘം:മേഘം  N1 ; ! "cloud" ! "mēghaṁ"
