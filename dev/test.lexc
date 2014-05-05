@@ -1,36 +1,59 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 Multichar_Symbols
 
 %<n%>             ! Noun
 %<post%>          ! Postposition
+
+%<nom%>           ! Nominative
+%<acc%>           ! Accusative
+%<dat%>           ! Dative
+%<soc%>           ! Sociative
+
+%<ins%>           ! Instrumental
+%<loc%>           ! Locative
+
 %<cmp%>           ! Compound
 %<pl%>            ! Plural
 
 %+
 %>
+% 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Root
 
+Postpositions ;
 NominalStems ;
 
-LEXICON N-AGG 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-# ;
+LEXICON CASES
 
-LEXICON CASES 
 
-%+നിന്ന്%<post%>:നിന്ന് # ; ! "from" ! "nīnn"
-
-LEXICON NUMBER
-
-CASES ; 
-%<pl%>:ങ്ങള്‍  CASES ; ! "ṅṅaḷ‍"
 
 LEXICON N1 
 
-%<n%>: NUMBER  ;
+%<n%>%<sg%>%<nom%>:ം #  ; ! "ṁ"
+%<n%>%<sg%>%<loc%>:ത്തില്‍ #  ; ! "ttil"
+%<n%>%<pl%>%<nom%>:ങ്ങള്‍  #  ; ! "ṅṅaḷ‍"
+%<n%>%<pl%>%<loc%>:ങ്ങളില്‍  #  ; ! "ṅṅaḷil‍"
+
 %<n%>%<cmp%>%+: NominalStems ; 
+
+LEXICON POST
+
+%<post%>: # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Postpositions 
+
+നിന്ന്:നിന്ന്  POST ; ! "from" ! "nīnn"
 
 LEXICON NominalStems
 
-മഴക്കാലം:മഴക്കാലം N1 ; ! "rainy season" ! "maḻakkālaṁ"
-മേഘം:മേഘം  N1 ; ! "cloud" ! "mēghaṁ"
+മഴക്കാലം:മഴക്കാല N1 ; ! "rainy season" ! "maḻakkālaṁ"
+മേഘം:മേഘ  N1 ; ! "cloud" ! "mēghaṁ"
+
