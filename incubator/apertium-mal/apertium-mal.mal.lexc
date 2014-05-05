@@ -9,6 +9,7 @@ Multichar_Symbols
 
 %<nom%>          ! 
 %<dat%>          ! 
+%<loc%>          ! 
 
 %>               ! Morpheme boundary
 
@@ -22,6 +23,7 @@ LEXICON CASE
 
 %<nom%>: # ;
 %<dat%>:%>ലേക്ക്' # ;
+%<loc%>:%>ഇല്‍ # ;
 
 LEXICON N1 
 
@@ -33,3 +35,4 @@ LEXICON N1
 LEXICON Nouns 
 
 വീട്:വീട് N1 ; ! "house"
+മരം:മരം N1 ; ! "tree"
