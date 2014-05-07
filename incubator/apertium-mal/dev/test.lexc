@@ -44,8 +44,8 @@ LEXICON N-CASES-PL
 
 LEXICON N-CASES-SG
 
-%<soc%>:ത്തോട് #  ; ! "ēāṭ"
-%<ins%>:ല്‍ #   ; ! "āl‍"
+%<soc%>:ോട് #  ; ! "ēāṭ"
+%<ins%>:ാല്‍ #   ; ! "āl‍"
 
 LEXICON N1 
 
@@ -53,7 +53,7 @@ LEXICON N1
 %<n%>%<sg%>%<loc%>:ത്തില്‍ #  ; ! "ttil"
 %<n%>%<sg%>%<acc%>:ത്തെ #  ; ! "tte"
 %<n%>%<sg%>%<dat%>:ത്തിന് #  ; ! "ttin"
-%<n%>%<sg%>:ത് N-CASES-SG  ; ! ""
+%<n%>%<sg%>:ത്ത N-CASES-SG  ; ! ""
 
 !plural
 %<n%>%<pl%>%<nom%>:ങ്ങള്‍  #  ; ! "ṅṅaḷ‍"
@@ -68,7 +68,7 @@ LEXICON N2
 %<n%>%<sg%>%<loc%>:യില്‍ #  ; ! "yil‍"
 %<n%>%<sg%>%<acc%>:യെ #  ; ! "ye"
 %<n%>%<sg%>%<dat%>:യ്ക് #  ; ! "yk"
-%<n%>%<sg%>: N-CASES-SG  ; ! ""
+%<n%>%<sg%>:യ N-CASES-SG  ; ! ""
 !plural
 %<n%>%<pl%>%<nom%>:കള്‍  #  ; ! "kaḷ‍"
 %<n%>%<pl%>%<acc%>:കളെ #  ; ! "kaḷe"
@@ -82,7 +82,7 @@ LEXICON N3
 %<n%>%<sg%>%<loc%>:ില്‍ #  ; ! "il‍"
 %<n%>%<sg%>%<acc%>:ിനെ #  ; ! "ine"
 %<n%>%<sg%>%<dat%>:ിന് #  ; ! "in"
-%<n%>%<sg%>:ി N-CASES-SG  ; ! ""
+%<n%>%<sg%>:ിന N-CASES-SG  ; ! ""
 
 !plural
 %<n%>%<pl%>%<nom%>:ുകള്‍  #  ; ! "ukaḷ‍"
@@ -97,7 +97,7 @@ LEXICON N4
 %<n%>%<sg%>%<loc%>:യില്‍ #; ! "yil‍"
 %<n%>%<sg%>%<acc%>:യെ #  ; ! "ye"
 %<n%>%<sg%>%<dat%>:യ്ക് #  ; ! "yk"
-%<n%>%<sg%> N-CASES-SG  ; ! ""
+%<n%>%<sg%>: യ  N-CASES-SG  ; ! ""
 !plural
 %<n%>%<pl%>%<nom%>: #  ; ! ""
 %<n%>%<pl%>%<loc%>:മാര്‍  #  ; ! "mār‍"
