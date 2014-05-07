@@ -22,7 +22,7 @@ Multichar_Symbols
 %<sg%>            ! Singular
 %<pl%>            ! Plural
 
-!! gender of anthroponyms and cognoms
+!! Gender of anthroponyms and cognoms
 %<m%>             ! Masculine
 %<f%>             ! Feminine
 %<mf%>            ! Masculine/feminine
@@ -181,27 +181,27 @@ LEXICON NominalStems
 
 മഴക്കാലം:മഴക്കാല N1 ; ! "rainy season" ! "maḻakkālaṁ"
 മേഘം:മേഘ N1 ; ! "cloud" ! "mēghaṁ"
-പൂന്തോട്ടം:പൂന്തോട്ട N1 ; ! "garden" ! ""
-കാലാവസ്ഥ:കാലാവസ്ഥ N2 ; ! "weather" ! ""
-വീട്:വീട N3; ! "house" ! ""
-ആണ്‍കുട്ടി:ആണ്‍കുട്ടി N2; ! "boy" ! ""
-വയസ്സ്:വയസ്സ N3; ! "age" ! ""
-പെണ്‍കുട്ടി:പെണ്‍കുട്ടി N2; ! "girl" ! ""
-സഹോദരി:സഹോദരി N4; !"sister" ! ""
-പട്ടി:പട്ടി N2; !"dog" ! ""
-കുട്ടി :കുട്ടി N2; !"children" ! ""
-പൂച്ച :പൂച്ച N2 ; ! "cat" ! ""
-അമ്മ:അമ്മ N4 ; ! "mother" ! ""
-ജനല്‍ :ജനല N3 ; ! "window" ! ""
-മരം:മര N1 ; ! "tree" ! ""
-കണ്ണ്:കണ്ണ N3 ; ! "eye" ! ""
-കൈ:കൈ N2 ; ! "hand" ! ""
-കളി:കളി N2 ; ! "play" ! ""
-മേശ:മേശ N2 ; ! "table" ! ""
-കസേര :കസേര N2 ; ! "chair" ! ""
-പക്ഷി :പക്ഷി N2 ; ! "bird" ! ""
-മ്രിഗം:മ്രിഗ N1 ; ! "animal" ! ""
-തല:തല N2 ; ! "head" ! 
+പൂന്തോട്ടം:പൂന്തോട്ട N1 ; ! "garden" ! "pūntēāṭṭaṁ"
+കാലാവസ്ഥ:കാലാവസ്ഥ N2 ; ! "weather" ! "kālāvastha"
+വീട്:വീട N3; ! "house" ! "vīṭ"
+ആണ്‍കുട്ടി:ആണ്‍കുട്ടി N2; ! "boy" ! "āṇ‍kuṭṭi"
+വയസ്സ്:വയസ്സ N3; ! "age" ! "vayas's"
+പെണ്‍കുട്ടി:പെണ്‍കുട്ടി N2; ! "girl" ! "peṇ‍kuṭṭi"
+സഹോദരി:സഹോദരി N4; !"sister" ! "sahēādari"
+പട്ടി:പട്ടി N2; !"dog" ! "paṭṭi"
+കുട്ടി:കുട്ടി N2; !"children" ! "kuṭṭi"
+പൂച്ച :പൂച്ച N2 ; ! "cat" ! "pūcca"
+അമ്മ:അമ്മ N4 ; ! "mother" ! "am'ma"
+ജനല്‍ :ജനല N3 ; ! "window" ! "janal‍"
+മരം:മര N1 ; ! "tree" ! "maraṁ"
+കണ്ണ്:കണ്ണ N3 ; ! "eye" ! "kaṇṇa"
+കൈ:കൈ N2 ; ! "hand" ! "kai"
+കളി:കളി N2 ; ! "game" ! "kaḷi" 
+മേശ:മേശ N2 ; ! "table" ! "mēśa"
+കസേര :കസേര N2 ; ! "chair" ! "kasēra"
+പക്ഷി :പക്ഷി N2 ; ! "bird" ! "pakṣi"
+മ്രിഗം:മ്രിഗ N1 ; ! "animal" ! "mrigaṁ"
+തല:തല N2 ; ! "head" ! "tala"
 
 LEXICON ProperNouns 
 
