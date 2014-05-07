@@ -97,7 +97,7 @@ LEXICON N4
 %<n%>%<sg%>%<loc%>:യില്‍ #; ! "yil‍"
 %<n%>%<sg%>%<acc%>:യെ #  ; ! "ye"
 %<n%>%<sg%>%<dat%>:യ്ക് #  ; ! "yk"
-%<n%>%<sg%>: യ  N-CASES-SG  ; ! ""
+%<n%>%<sg%>:യ  N-CASES-SG  ; ! ""
 !plural
 %<n%>%<pl%>%<nom%>: #  ; ! ""
 %<n%>%<pl%>%<loc%>:മാര്‍  #  ; ! "mār‍"
