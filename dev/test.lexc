@@ -16,6 +16,11 @@ Multichar_Symbols
 %<cmp%>           ! Compound
 %<pl%>            ! Plural
 
+!! gender of anthroponyms and cognoms
+%<m%>         ! Masculine
+%<f%>         ! Feminine
+%<mf%>        ! Masculine/feminine
+
 %+
 %>
 % 
@@ -35,16 +40,19 @@ LEXICON N1
 %<n%>%<sg%>%<loc%>:ത്തില്‍ #  ; ! "ttil"
 %<n%>%<sg%>%<acc%>:ത്തെ#  ; ! "tte"
 %<n%>%<sg%>%<dat%>:ത്തിന്#  ; ! "tte"
-%<n%>%<sg%>%<soc%>:ത്തോട്#  ; ! ""
+%<n%>%<sg%>%<soc%>:ത്തോട്#  ; ! "ttēāṭ"
+%<n%>%<sg%>%<ins%>:ത്താല്‍#  ; ! "ttāl‍"
 
 
 %<n%>%<pl%>%<nom%>:ങ്ങള്‍  #  ; ! "ṅṅaḷ‍"
 %<n%>%<pl%>%<loc%>:ങ്ങളില്‍  #  ; ! "ṅṅaḷil‍"
-%<n%>%<pl%>%<loc%>:ങ്ങളെ #  ; ! "ṅṅale"
+%<n%>%<pl%>%<acc%>:ങ്ങളെ #  ; ! "ṅṅale"
 %<n%>%<pl%>%<dat%>:ങ്ങള്‍ക് #  ; ! ""
 %<n%>%<pl%>%<soc%>:ങ്ങളോട് #  ; ! ""
+%<n%>%<pl%>%<ins%>:ങ്ങളാല്‍#  ; ! ""
 
 %<n%>%<cmp%>%+: NominalStems ; 
+%<n%>%<cmp%>%+: Postpositions ; 
 
 LEXICON POST
 
@@ -60,4 +68,24 @@ LEXICON NominalStems
 
 മഴക്കാലം:മഴക്കാല N1 ; ! "rainy season" ! "maḻakkālaṁ"
 മേഘം:മേഘ  N1 ; ! "cloud" ! "mēghaṁ"
+പൂന്തോട്ടം:പൂന്തോട്ട N1 ; ! "garden" ! ""
+കാലാവസ്ഥ :കാലാവസ്ഥ N1 ; ! "weather"
+വീട് : വീട  N1; ! "house"
+ആണ്‍കുട്ടി :ആണ്‍കുട്ടി N1; ! "boy"
+വയസ്സ് : വയസ്സ N1; ! "age"
+പെണ്‍കുട്ടി :പെണ്‍കുട്ടി N1; ! "girl"
+സഹോദരി : സഹോദരി N1; !"sister"
+പട്ടി : പട്ടി N1; !"dog"
+കുട്ടി : കുട്ടി N1; !"children"
+പൂച്ച : പൂച്ച N1 ; ! "cat"
+അമ്മ  : അമ്മ  N1 ; ! "mother"
+ജനല്‍ :ജനല N1 ; ! "window"
+മരം : മര N1 ; ! "tree"
+കണ്ണ് : കണ്ണ N1 ; ! "eye"
+കൈ : കൈ N1 ; ! "hand"
+കളി : കളി N1 ; ! "play"
+മേശ : മേശ N1 ; ! "table"
+കസേര : കസേര N1 ; ! "chair"
+പക്ഷി : പക്ഷി N1 ; ! "bird"
+മ്രിഗം : മ്രിഗ N1 ; ! "animal"
 
