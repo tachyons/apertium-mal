@@ -5,6 +5,7 @@ Multichar_Symbols
 %<n%>             ! Noun
 %<np%>            ! Proper
 
+%<cnjcoo%>        ! Coordinating conjunction
 %<post%>          ! Postposition
 
 %<nom%>           ! Nominative
@@ -39,121 +40,126 @@ NominalStems ;
 ProperNouns ; 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON CLIT-N
+
+%+WORD%<cnjcoo%>:WORD # ;
+
 LEXICON N-CASES-PL
 
-%<loc%>:ള്‍ # ; ! "il‍"
-%<dat%>:ള്‍ക് # ; ! "k"
-%<soc%>:ളോട് # ; ! "ēāṭ "
-%<ins%>:ളാല്‍ # ; ! "āl‍"
+%<loc%>:ള്‍ CLIT-N ; ! "il‍"
+%<dat%>:ള്‍ക് CLIT-N ; ! "k"
+%<soc%>:ളോട് CLIT-N ; ! "ēāṭ "
+%<ins%>:ളാല്‍ CLIT-N ; ! "āl‍"
 
 LEXICON N-CASES-SG
 
-%<soc%>:ോട് # ; ! "ēāṭ"
-%<ins%>:ാല്‍ # ; ! "āl‍"
+%<soc%>:ോട് CLIT-N ; ! "ēāṭ"
+%<ins%>:ാല്‍ CLIT-N ; ! "āl‍"
 
 LEXICON N1 
 
-%<n%>%<sg%>%<nom%>:ം # ; ! "ṁ"
-%<n%>%<sg%>%<loc%>:ത്തില്‍ # ; ! "ttil"
-%<n%>%<sg%>%<acc%>:ത്തെ # ; ! "tte"
-%<n%>%<sg%>%<dat%>:ത്തിന് # ; ! "ttin"
+%<n%>%<sg%>%<nom%>:ം CLIT-N ; ! "ṁ"
+%<n%>%<sg%>%<loc%>:ത്തില്‍ CLIT-N ; ! "ttil"
+%<n%>%<sg%>%<acc%>:ത്തെ CLIT-N ; ! "tte"
+%<n%>%<sg%>%<dat%>:ത്തിന് CLIT-N ; ! "ttin"
 %<n%>%<sg%>:ത്ത N-CASES-SG ; ! ""
 
 !plural
-%<n%>%<pl%>%<nom%>:ങ്ങള്‍ # ; ! "ṅṅaḷ‍"
-%<n%>%<pl%>%<acc%>:ങ്ങളെ # ; ! "ṅṅale"
+%<n%>%<pl%>%<nom%>:ങ്ങള്‍ CLIT-N ; ! "ṅṅaḷ‍"
+%<n%>%<pl%>%<acc%>:ങ്ങളെ CLIT-N ; ! "ṅṅale"
 %<n%>%<pl%>:ങ്ങ N-CASES-PL ; ! "ṅṅaḷ‍"
 
 %<n%>%<cmp%>%+: NominalStems ; 
 
 LEXICON N2
 
-%<n%>%<sg%>%<nom%>: # ; ! ""
-%<n%>%<sg%>%<loc%>:യില്‍ # ; ! "yil‍"
-%<n%>%<sg%>%<acc%>:യെ # ; ! "ye"
-%<n%>%<sg%>%<dat%>:യ്ക് # ; ! "yk"
+%<n%>%<sg%>%<nom%>: CLIT-N ; ! ""
+%<n%>%<sg%>%<loc%>:യില്‍ CLIT-N ; ! "yil‍"
+%<n%>%<sg%>%<acc%>:യെ CLIT-N ; ! "ye"
+%<n%>%<sg%>%<dat%>:യ്ക് CLIT-N ; ! "yk"
 %<n%>%<sg%>:യ N-CASES-SG ; ! ""
 !plural
-%<n%>%<pl%>%<nom%>:കള്‍ # ; ! "kaḷ‍"
-%<n%>%<pl%>%<acc%>:കളെ # ; ! "kaḷe"
+%<n%>%<pl%>%<nom%>:കള്‍ CLIT-N ; ! "kaḷ‍"
+%<n%>%<pl%>%<acc%>:കളെ CLIT-N ; ! "kaḷe"
 %<n%>%<pl%>:ക N-CASES-PL ; ! "kaḷ‍"
 
 %<n%>%<cmp%>%+: NominalStems ; 
 
 LEXICON N3
 
-%<n%>%<sg%>%<nom%>:് # ; ! "ṁ"
-%<n%>%<sg%>%<loc%>:ില്‍ # ; ! "il‍"
-%<n%>%<sg%>%<acc%>:ിനെ # ; ! "ine"
-%<n%>%<sg%>%<dat%>:ിന് # ; ! "in"
+%<n%>%<sg%>%<nom%>:് CLIT-N ; ! "ṁ"
+%<n%>%<sg%>%<loc%>:ില്‍ CLIT-N ; ! "il‍"
+%<n%>%<sg%>%<acc%>:ിനെ CLIT-N ; ! "ine"
+%<n%>%<sg%>%<dat%>:ിന് CLIT-N ; ! "in"
 %<n%>%<sg%>:ിന N-CASES-SG ; ! ""
 
 !plural
-%<n%>%<pl%>%<nom%>:ുകള്‍ # ; ! "ukaḷ‍"
-%<n%>%<pl%>%<acc%>:ുകളെ # ; ! "ukaḷe"
+%<n%>%<pl%>%<nom%>:ുകള്‍ CLIT-N ; ! "ukaḷ‍"
+%<n%>%<pl%>%<acc%>:ുകളെ CLIT-N ; ! "ukaḷe"
 %<n%>%<pl%>:ുക N-CASES-PL ; ! "ukaḷ‍"
 
 %<n%>%<cmp%>%+: NominalStems ; 
 
 LEXICON N4
 
-%<n%>%<sg%>%<nom%>: # ; ! ""
-%<n%>%<sg%>%<loc%>:യില്‍ #; ! "yil‍"
-%<n%>%<sg%>%<acc%>:യെ # ; ! "ye"
-%<n%>%<sg%>%<dat%>:യ്ക് # ; ! "yk"
+%<n%>%<sg%>%<nom%>: CLIT-N ; ! ""
+%<n%>%<sg%>%<loc%>:യില്‍ CLIT-N; ! "yil‍"
+%<n%>%<sg%>%<acc%>:യെ CLIT-N ; ! "ye"
+%<n%>%<sg%>%<dat%>:യ്ക് CLIT-N ; ! "yk"
 %<n%>%<sg%>:യ N-CASES-SG ; ! ""
 !plural
-%<n%>%<pl%>%<nom%>: # ; ! ""
-%<n%>%<pl%>%<loc%>:മാര്‍ # ; ! "mār‍"
-%<n%>%<pl%>%<acc%>:മാരെ # ; ! "māre"
-%<n%>%<pl%>%<dat%>:മാര്‍ക് # ; ! "mār‍k"
-%<n%>%<pl%>%<soc%>:മാരോട് # ; ! "mārēāṭ"
-%<n%>%<pl%>%<ins%>:മാരാല്‍ # ; ! "mārāl‍"
+%<n%>%<pl%>%<nom%>: CLIT-N ; ! ""
+%<n%>%<pl%>%<loc%>:മാര്‍ CLIT-N ; ! "mār‍"
+%<n%>%<pl%>%<acc%>:മാരെ CLIT-N ; ! "māre"
+%<n%>%<pl%>%<dat%>:മാര്‍ക് CLIT-N ; ! "mār‍k"
+%<n%>%<pl%>%<soc%>:മാരോട് CLIT-N ; ! "mārēāṭ"
+%<n%>%<pl%>%<ins%>:മാരാല്‍ CLIT-N ; ! "mārāl‍"
 
 %<n%>%<cmp%>%+: NominalStems ; 
 
 LEXICON NP1
 
-%<np%>%<ant%>%<m%>%<sg%>%<nom%>:് # ; ! "ṁ"
-%<np%>%<ant%>%<m%>%<sg%>%<loc%>:ില്‍ # ; ! "il‍"
-%<np%>%<ant%>%<m%>%<sg%>%<acc%>:ിനെ # ; ! "ine"
-%<np%>%<ant%>%<m%>%<sg%>%<dat%>:ിന് # ; ! "in"
+%<np%>%<ant%>%<m%>%<sg%>%<nom%>:് CLIT-N ; ! "ṁ"
+%<np%>%<ant%>%<m%>%<sg%>%<loc%>:ില്‍ CLIT-N ; ! "il‍"
+%<np%>%<ant%>%<m%>%<sg%>%<acc%>:ിനെ CLIT-N ; ! "ine"
+%<np%>%<ant%>%<m%>%<sg%>%<dat%>:ിന് CLIT-N ; ! "in"
 %<np%>%<ant%>%<m%>%<sg%>:ിന N-CASES-SG ; ! ""
 
 !plural
-%<np%>%<ant%>%<m%>%<pl%>%<nom%>:ുകള്‍ # ; ! "ukaḷ‍"
-%<np%>%<ant%>%<m%>%<pl%>%<acc%>:ുകളെ # ; ! "ukaḷe"
+%<np%>%<ant%>%<m%>%<pl%>%<nom%>:ുകള്‍ CLIT-N ; ! "ukaḷ‍"
+%<np%>%<ant%>%<m%>%<pl%>%<acc%>:ുകളെ CLIT-N ; ! "ukaḷe"
 %<np%>%<ant%>%<m%>%<pl%>:ുക N-CASES-PL ; ! "ukaḷ‍"
 
 
 LEXICON NP2
 
-%<np%>%<ant%>%<f%>%<sg%>%<nom%>: # ; ! ""
-%<np%>%<ant%>%<f%>%<sg%>%<loc%>:യില്‍ #; ! "yil‍"
-%<np%>%<ant%>%<f%>%<sg%>%<acc%>:യെ # ; ! "ye"
-%<np%>%<ant%>%<f%>%<sg%>%<dat%>:യ്ക് # ; ! "yk"
+%<np%>%<ant%>%<f%>%<sg%>%<nom%>: CLIT-N ; ! ""
+%<np%>%<ant%>%<f%>%<sg%>%<loc%>:യില്‍ CLIT-N; ! "yil‍"
+%<np%>%<ant%>%<f%>%<sg%>%<acc%>:യെ CLIT-N ; ! "ye"
+%<np%>%<ant%>%<f%>%<sg%>%<dat%>:യ്ക് CLIT-N ; ! "yk"
 %<np%>%<ant%>%<f%>%<sg%>:യ N-CASES-SG ; ! ""
 !plural
-%<np%>%<ant%>%<f%>%<pl%>%<nom%>:മാര്‍ # ; ! ""
-%<np%>%<ant%>%<f%>%<pl%>%<loc%>:മാരില്‍ # ; ! "mār‍"
-%<np%>%<ant%>%<f%>%<pl%>%<acc%>:മാരെ # ; ! "māre"
-%<np%>%<ant%>%<f%>%<pl%>%<dat%>:മാര്‍ക് # ; ! "mār‍k"
-%<np%>%<ant%>%<f%>%<pl%>%<soc%>:മാരോട് # ; ! "mārēāṭ"
-%<np%>%<ant%>%<f%>%<pl%>%<ins%>:മാരാല്‍ # ; ! "mārāl‍"
+%<np%>%<ant%>%<f%>%<pl%>%<nom%>:മാര്‍ CLIT-N ; ! ""
+%<np%>%<ant%>%<f%>%<pl%>%<loc%>:മാരില്‍ CLIT-N ; ! "mār‍"
+%<np%>%<ant%>%<f%>%<pl%>%<acc%>:മാരെ CLIT-N ; ! "māre"
+%<np%>%<ant%>%<f%>%<pl%>%<dat%>:മാര്‍ക് CLIT-N ; ! "mār‍k"
+%<np%>%<ant%>%<f%>%<pl%>%<soc%>:മാരോട് CLIT-N ; ! "mārēāṭ"
+%<np%>%<ant%>%<f%>%<pl%>%<ins%>:മാരാല്‍ CLIT-N ; ! "mārāl‍"
+
 LEXICON NP3
 
-%<np%>%<ant%>%<m%>%<sg%>%<nom%>: ു # ; ! ""
-%<np%>%<ant%>%<m%>%<sg%>%<loc%>:വില്‍ #; ! "yil‍"
-%<np%>%<ant%>%<m%>%<sg%>%<acc%>:വിനെ # ; ! "ye"
-%<np%>%<ant%>%<m%>%<sg%>%<dat%>:വിന് # ; ! "yk"
+%<np%>%<ant%>%<m%>%<sg%>%<nom%>:ു CLIT-N ; ! ""
+%<np%>%<ant%>%<m%>%<sg%>%<loc%>:വില്‍ CLIT-N; ! "yil‍"
+%<np%>%<ant%>%<m%>%<sg%>%<acc%>:വിനെ CLIT-N ; ! "ye"
+%<np%>%<ant%>%<m%>%<sg%>%<dat%>:വിന് CLIT-N ; ! "yk"
 %<np%>%<ant%>%<f%>%<sg%>:വിന N-CASES-SG ; ! ""
 !plural
-%<np%>%<ant%>%<m%>%<pl%>%<nom%>:മാര്‍  # ; ! ""
-%<np%>%<ant%>%<m%>%<pl%>%<loc%>:മാരില്‍ # ; ! "mār‍"
-%<np%>%<ant%>%<m%>%<pl%>%<acc%>:മാരെ # ; ! "māre"
-%<np%>%<ant%>%<m%>%<pl%>%<dat%>:മാര്‍ക് # ; ! "mār‍k"
-%<np%>%<ant%>%<m%>%<pl%>%<soc%>:മാരോട് # ; ! "mārēāṭ"
-%<np%>%<ant%>%<m%>%<pl%>%<ins%>:മാരാല്‍ # ; ! "mārāl‍"
+%<np%>%<ant%>%<m%>%<pl%>%<nom%>:മാര്‍  CLIT-N ; ! ""
+%<np%>%<ant%>%<m%>%<pl%>%<loc%>:മാരില്‍ CLIT-N ; ! "mār‍"
+%<np%>%<ant%>%<m%>%<pl%>%<acc%>:മാരെ CLIT-N ; ! "māre"
+%<np%>%<ant%>%<m%>%<pl%>%<dat%>:മാര്‍ക് CLIT-N ; ! "mār‍k"
+%<np%>%<ant%>%<m%>%<pl%>%<soc%>:മാരോട് CLIT-N ; ! "mārēāṭ"
+%<np%>%<ant%>%<m%>%<pl%>%<ins%>:മാരാല്‍ CLIT-N ; ! "mārāl‍"
 
 LEXICON POST
 
