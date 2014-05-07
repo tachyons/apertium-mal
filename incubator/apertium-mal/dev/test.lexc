@@ -37,74 +37,74 @@ NominalStems ;
 
 LEXICON N-CASES-PL
 
-%<loc%>:ള്‍  #  ; ! "il‍"
-%<dat%>:ള്‍ക് #  ; ! "k"
-%<soc%>:ളോട് #  ; ! "ēāṭ "
-%<ins%>:ളാല്‍#  ; ! "āl‍"
+%<loc%>:ള്‍ # ; ! "il‍"
+%<dat%>:ള്‍ക് # ; ! "k"
+%<soc%>:ളോട് # ; ! "ēāṭ "
+%<ins%>:ളാല്‍ # ; ! "āl‍"
 
 LEXICON N-CASES-SG
 
-%<soc%>:ോട് #  ; ! "ēāṭ"
-%<ins%>:ാല്‍ #   ; ! "āl‍"
+%<soc%>:ോട് # ; ! "ēāṭ"
+%<ins%>:ാല്‍ # ; ! "āl‍"
 
 LEXICON N1 
 
-%<n%>%<sg%>%<nom%>:ം #  ; ! "ṁ"
-%<n%>%<sg%>%<loc%>:ത്തില്‍ #  ; ! "ttil"
-%<n%>%<sg%>%<acc%>:ത്തെ #  ; ! "tte"
-%<n%>%<sg%>%<dat%>:ത്തിന് #  ; ! "ttin"
-%<n%>%<sg%>:ത്ത N-CASES-SG  ; ! ""
+%<n%>%<sg%>%<nom%>:ം # ; ! "ṁ"
+%<n%>%<sg%>%<loc%>:ത്തില്‍ # ; ! "ttil"
+%<n%>%<sg%>%<acc%>:ത്തെ # ; ! "tte"
+%<n%>%<sg%>%<dat%>:ത്തിന് # ; ! "ttin"
+%<n%>%<sg%>:ത്ത N-CASES-SG ; ! ""
 
 !plural
-%<n%>%<pl%>%<nom%>:ങ്ങള്‍  #  ; ! "ṅṅaḷ‍"
-%<n%>%<pl%>%<acc%>:ങ്ങളെ #  ; ! "ṅṅale"
+%<n%>%<pl%>%<nom%>:ങ്ങള്‍ # ; ! "ṅṅaḷ‍"
+%<n%>%<pl%>%<acc%>:ങ്ങളെ # ; ! "ṅṅale"
 %<n%>%<pl%>:ങ്ങ N-CASES-PL ; ! "ṅṅaḷ‍"
 
 %<n%>%<cmp%>%+: NominalStems ; 
 
 LEXICON N2
 
-%<n%>%<sg%>%<nom%>: #  ; ! ""
-%<n%>%<sg%>%<loc%>:യില്‍ #  ; ! "yil‍"
-%<n%>%<sg%>%<acc%>:യെ #  ; ! "ye"
-%<n%>%<sg%>%<dat%>:യ്ക് #  ; ! "yk"
-%<n%>%<sg%>:യ N-CASES-SG  ; ! ""
+%<n%>%<sg%>%<nom%>: # ; ! ""
+%<n%>%<sg%>%<loc%>:യില്‍ # ; ! "yil‍"
+%<n%>%<sg%>%<acc%>:യെ # ; ! "ye"
+%<n%>%<sg%>%<dat%>:യ്ക് # ; ! "yk"
+%<n%>%<sg%>:യ N-CASES-SG ; ! ""
 !plural
-%<n%>%<pl%>%<nom%>:കള്‍  #  ; ! "kaḷ‍"
-%<n%>%<pl%>%<acc%>:കളെ #  ; ! "kaḷe"
+%<n%>%<pl%>%<nom%>:കള്‍ # ; ! "kaḷ‍"
+%<n%>%<pl%>%<acc%>:കളെ # ; ! "kaḷe"
 %<n%>%<pl%>:ക N-CASES-PL ; ! "kaḷ‍"
 
 %<n%>%<cmp%>%+: NominalStems ; 
 
 LEXICON N3
 
-%<n%>%<sg%>%<nom%>:് #  ; ! "ṁ"
-%<n%>%<sg%>%<loc%>:ില്‍ #  ; ! "il‍"
-%<n%>%<sg%>%<acc%>:ിനെ #  ; ! "ine"
-%<n%>%<sg%>%<dat%>:ിന് #  ; ! "in"
-%<n%>%<sg%>:ിന N-CASES-SG  ; ! ""
+%<n%>%<sg%>%<nom%>:് # ; ! "ṁ"
+%<n%>%<sg%>%<loc%>:ില്‍ # ; ! "il‍"
+%<n%>%<sg%>%<acc%>:ിനെ # ; ! "ine"
+%<n%>%<sg%>%<dat%>:ിന് # ; ! "in"
+%<n%>%<sg%>:ിന N-CASES-SG ; ! ""
 
 !plural
-%<n%>%<pl%>%<nom%>:ുകള്‍  #  ; ! "ukaḷ‍"
-%<n%>%<pl%>%<acc%>:ുകളെ #  ; ! "ukaḷe"
+%<n%>%<pl%>%<nom%>:ുകള്‍ # ; ! "ukaḷ‍"
+%<n%>%<pl%>%<acc%>:ുകളെ # ; ! "ukaḷe"
 %<n%>%<pl%>:ുക N-CASES-PL ; ! "ukaḷ‍"
 
 %<n%>%<cmp%>%+: NominalStems ; 
 
 LEXICON N4
 
-%<n%>%<sg%>%<nom%>: #  ; ! ""
+%<n%>%<sg%>%<nom%>: # ; ! ""
 %<n%>%<sg%>%<loc%>:യില്‍ #; ! "yil‍"
-%<n%>%<sg%>%<acc%>:യെ #  ; ! "ye"
-%<n%>%<sg%>%<dat%>:യ്ക് #  ; ! "yk"
-%<n%>%<sg%>:യ  N-CASES-SG  ; ! ""
+%<n%>%<sg%>%<acc%>:യെ # ; ! "ye"
+%<n%>%<sg%>%<dat%>:യ്ക് # ; ! "yk"
+%<n%>%<sg%>:യ N-CASES-SG ; ! ""
 !plural
-%<n%>%<pl%>%<nom%>: #  ; ! ""
-%<n%>%<pl%>%<loc%>:മാര്‍  #  ; ! "mār‍"
-%<n%>%<pl%>%<acc%>:മാരെ #  ; ! "māre"
-%<n%>%<pl%>%<dat%>:മാര്‍ക് #  ; ! "mār‍k"
-%<n%>%<pl%>%<soc%>:മാരോട് #  ; ! "mārēāṭ"
-%<n%>%<pl%>%<ins%>:മാരാല്‍ #  ; ! "mārāl‍"
+%<n%>%<pl%>%<nom%>: # ; ! ""
+%<n%>%<pl%>%<loc%>:മാര്‍ # ; ! "mār‍"
+%<n%>%<pl%>%<acc%>:മാരെ # ; ! "māre"
+%<n%>%<pl%>%<dat%>:മാര്‍ക് # ; ! "mār‍k"
+%<n%>%<pl%>%<soc%>:മാരോട് # ; ! "mārēāṭ"
+%<n%>%<pl%>%<ins%>:മാരാല്‍ # ; ! "mārāl‍"
 
 %<n%>%<cmp%>%+: NominalStems ; 
 
@@ -116,15 +116,15 @@ LEXICON POST
 
 LEXICON Postpositions 
 
-നിന്ന്:നിന്ന്  POST ; ! "from" ! "nīnn"
+നിന്ന്:നിന്ന് POST ; ! "from" ! "nīnn"
 
 LEXICON NominalStems
 
 മഴക്കാലം:മഴക്കാല N1 ; ! "rainy season" ! "maḻakkālaṁ"
-മേഘം:മേഘ  N1 ; ! "cloud" ! "mēghaṁ"
+മേഘം:മേഘ N1 ; ! "cloud" ! "mēghaṁ"
 പൂന്തോട്ടം:പൂന്തോട്ട N1 ; ! "garden" ! ""
 കാലാവസ്ഥ:കാലാവസ്ഥ N2 ; ! "weather" ! ""
-വീട്:വീട  N3; ! "house" ! ""
+വീട്:വീട N3; ! "house" ! ""
 ആണ്‍കുട്ടി:ആണ്‍കുട്ടി N2; ! "boy" ! ""
 വയസ്സ്:വയസ്സ N3; ! "age" ! ""
 പെണ്‍കുട്ടി:പെണ്‍കുട്ടി N2; ! "girl" ! ""
@@ -132,7 +132,7 @@ LEXICON NominalStems
 പട്ടി:പട്ടി N2; !"dog" ! ""
 കുട്ടി :കുട്ടി N2; !"children" ! ""
 പൂച്ച :പൂച്ച N2 ; ! "cat" ! ""
-അമ്മ:അമ്മ  N4 ; ! "mother" ! ""
+അമ്മ:അമ്മ N4 ; ! "mother" ! ""
 ജനല്‍ :ജനല N3 ; ! "window" ! ""
 മരം:മര N1 ; ! "tree" ! ""
 കണ്ണ്:കണ്ണ N3 ; ! "eye" ! ""
