@@ -52,7 +52,7 @@ LEXICON N1
 !plural
 %<n%>%<pl%>%<nom%>:ങ്ങള്‍  #  ; ! "ṅṅaḷ‍"
 %<n%>%<pl%>%<acc%>:ങ്ങളെ #  ; ! "ṅṅale"
-%<n%>%<pl%>:ങ്ങള്‍  N-CASES-PL ; ! "ṅṅaḷ‍"
+%<n%>%<pl%>:ങ്ങ N-CASES-PL ; ! "ṅṅaḷ‍"
 
 %<n%>%<cmp%>%+: NominalStems ; 
 
@@ -67,7 +67,7 @@ LEXICON N2
 !plural
 %<n%>%<pl%>%<nom%>:കള്‍  #  ; ! "kaḷ‍"
 %<n%>%<pl%>%<acc%>:കളെ #  ; ! "kaḷe"
-%<n%>%<pl%>:കള്‍  N-CASES-PL ; ! "kaḷ‍"
+%<n%>%<pl%>:ക N-CASES-PL ; ! "kaḷ‍"
 
 %<n%>%<cmp%>%+: NominalStems ; 
 
@@ -82,7 +82,7 @@ LEXICON N3
 !plural
 %<n%>%<pl%>%<nom%>:ുകള്‍  #  ; ! "ukaḷ‍"
 %<n%>%<pl%>%<acc%>:ുകളെ #  ; ! "ukaḷe"
-%<n%>%<pl%>:ുകള്‍  N-CASES-PL ; ! "ukaḷ‍"
+%<n%>%<pl%>:ുക N-CASES-PL ; ! "ukaḷ‍"
 
 %<n%>%<cmp%>%+: NominalStems ; 
 
@@ -138,4 +138,4 @@ LEXICON NominalStems
 കസേര : കസേര N2 ; ! "chair" ! ""
 പക്ഷി : പക്ഷി N2 ; ! "bird" ! ""
 മ്രിഗം : മ്രിഗ N1 ; ! "animal" ! ""
-
+തല : തല N2 ; ! "head" ! 
