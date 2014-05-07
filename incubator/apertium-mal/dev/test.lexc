@@ -36,10 +36,10 @@ NominalStems ;
 
 LEXICON N-CASES-PL
 
-%<loc%>:ല്‍  #  ; ! "ukaḷil‍"
-%<dat%>:ള്‍ക് #  ; ! "ukaḷ‍k"
-%<soc%>:ളോട് #  ; ! "ukaḷēāṭ "
-%<ins%>:ളാല്‍#  ; ! "ukaḷāl‍"
+%<loc%>:ല്‍  #  ; ! "il‍"
+%<dat%>:ള്‍ക് #  ; ! "k"
+%<soc%>:ളോട് #  ; ! "ēāṭ "
+%<ins%>:ളാല്‍#  ; ! "āl‍"
 
 LEXICON N1 
 
