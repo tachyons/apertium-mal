@@ -142,18 +142,18 @@ LEXICON NP2
 %<np%>%<ant%>%<f%>%<pl%>%<ins%>:മാരാല്‍ # ; ! "mārāl‍"
 LEXICON NP3
 
-%<np%>%<ant%>%<f%>%<sg%>%<nom%>: ു # ; ! ""
-%<np%>%<ant%>%<f%>%<sg%>%<loc%>:വില്‍ #; ! "yil‍"
-%<np%>%<ant%>%<f%>%<sg%>%<acc%>:വിനെ # ; ! "ye"
-%<np%>%<ant%>%<f%>%<sg%>%<dat%>:വിന് # ; ! "yk"
+%<np%>%<ant%>%<m%>%<sg%>%<nom%>: ു # ; ! ""
+%<np%>%<ant%>%<m%>%<sg%>%<loc%>:വില്‍ #; ! "yil‍"
+%<np%>%<ant%>%<m%>%<sg%>%<acc%>:വിനെ # ; ! "ye"
+%<np%>%<ant%>%<m%>%<sg%>%<dat%>:വിന് # ; ! "yk"
 %<np%>%<ant%>%<f%>%<sg%>:വിന N-CASES-SG ; ! ""
 !plural
-%<np%>%<ant%>%<f%>%<pl%>%<nom%>:മാര്‍  # ; ! ""
-%<np%>%<ant%>%<f%>%<pl%>%<loc%>:മാരില്‍ # ; ! "mār‍"
-%<np%>%<ant%>%<f%>%<pl%>%<acc%>:മാരെ # ; ! "māre"
-%<np%>%<ant%>%<f%>%<pl%>%<dat%>:മാര്‍ക് # ; ! "mār‍k"
-%<np%>%<ant%>%<f%>%<pl%>%<soc%>:മാരോട് # ; ! "mārēāṭ"
-%<np%>%<ant%>%<f%>%<pl%>%<ins%>:മാരാല്‍ # ; ! "mārāl‍"
+%<np%>%<ant%>%<m%>%<pl%>%<nom%>:മാര്‍  # ; ! ""
+%<np%>%<ant%>%<m%>%<pl%>%<loc%>:മാരില്‍ # ; ! "mār‍"
+%<np%>%<ant%>%<m%>%<pl%>%<acc%>:മാരെ # ; ! "māre"
+%<np%>%<ant%>%<m%>%<pl%>%<dat%>:മാര്‍ക് # ; ! "mār‍k"
+%<np%>%<ant%>%<m%>%<pl%>%<soc%>:മാരോട് # ; ! "mārēāṭ"
+%<np%>%<ant%>%<m%>%<pl%>%<ins%>:മാരാല്‍ # ; ! "mārāl‍"
 
 LEXICON POST
 
