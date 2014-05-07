@@ -3,6 +3,8 @@
 Multichar_Symbols
 
 %<n%>             ! Noun
+%<np%>            ! Proper
+
 %<post%>          ! Postposition
 
 %<nom%>           ! Nominative
@@ -12,6 +14,8 @@ Multichar_Symbols
 
 %<ins%>           ! Instrumental
 %<loc%>           ! Locative
+
+%<ant%>           ! Anthroponym
 
 %<cmp%>           ! Compound
 %<sg%>            ! Singular
@@ -110,32 +114,32 @@ LEXICON N4
 
 LEXICON NP1
 
-%<n%>%<sg%>%<nom%>:് # ; ! "ṁ"
-%<n%>%<sg%>%<loc%>:ില്‍ # ; ! "il‍"
-%<n%>%<sg%>%<acc%>:ിനെ # ; ! "ine"
-%<n%>%<sg%>%<dat%>:ിന് # ; ! "in"
-%<n%>%<sg%>:ിന N-CASES-SG ; ! ""
+%<np%>%<ant%>%<m%>%<sg%>%<nom%>:് # ; ! "ṁ"
+%<np%>%<ant%>%<m%>%<sg%>%<loc%>:ില്‍ # ; ! "il‍"
+%<np%>%<ant%>%<m%>%<sg%>%<acc%>:ിനെ # ; ! "ine"
+%<np%>%<ant%>%<m%>%<sg%>%<dat%>:ിന് # ; ! "in"
+%<np%>%<ant%>%<m%>%<sg%>:ിന N-CASES-SG ; ! ""
 
 !plural
-%<n%>%<pl%>%<nom%>:ുകള്‍ # ; ! "ukaḷ‍"
-%<n%>%<pl%>%<acc%>:ുകളെ # ; ! "ukaḷe"
-%<n%>%<pl%>:ുക N-CASES-PL ; ! "ukaḷ‍"
+%<np%>%<ant%>%<m%>%<pl%>%<nom%>:ുകള്‍ # ; ! "ukaḷ‍"
+%<np%>%<ant%>%<m%>%<pl%>%<acc%>:ുകളെ # ; ! "ukaḷe"
+%<np%>%<ant%>%<m%>%<pl%>:ുക N-CASES-PL ; ! "ukaḷ‍"
 
 
 LEXICON NP2
 
-%<n%>%<sg%>%<nom%>: # ; ! ""
-%<n%>%<sg%>%<loc%>:യില്‍ #; ! "yil‍"
-%<n%>%<sg%>%<acc%>:യെ # ; ! "ye"
-%<n%>%<sg%>%<dat%>:യ്ക് # ; ! "yk"
-%<n%>%<sg%>:യ N-CASES-SG ; ! ""
+%<np%>%<ant%>%<f%>%<sg%>%<nom%>: # ; ! ""
+%<np%>%<ant%>%<f%>%<sg%>%<loc%>:യില്‍ #; ! "yil‍"
+%<np%>%<ant%>%<f%>%<sg%>%<acc%>:യെ # ; ! "ye"
+%<np%>%<ant%>%<f%>%<sg%>%<dat%>:യ്ക് # ; ! "yk"
+%<np%>%<ant%>%<f%>%<sg%>:യ N-CASES-SG ; ! ""
 !plural
-%<n%>%<pl%>%<nom%>: # ; ! ""
-%<n%>%<pl%>%<loc%>:മാര്‍ # ; ! "mār‍"
-%<n%>%<pl%>%<acc%>:മാരെ # ; ! "māre"
-%<n%>%<pl%>%<dat%>:മാര്‍ക് # ; ! "mār‍k"
-%<n%>%<pl%>%<soc%>:മാരോട് # ; ! "mārēāṭ"
-%<n%>%<pl%>%<ins%>:മാരാല്‍ # ; ! "mārāl‍"
+%<np%>%<ant%>%<f%>%<pl%>%<nom%>: # ; ! ""
+%<np%>%<ant%>%<f%>%<pl%>%<loc%>:മാര്‍ # ; ! "mār‍"
+%<np%>%<ant%>%<f%>%<pl%>%<acc%>:മാരെ # ; ! "māre"
+%<np%>%<ant%>%<f%>%<pl%>%<dat%>:മാര്‍ക് # ; ! "mār‍k"
+%<np%>%<ant%>%<f%>%<pl%>%<soc%>:മാരോട് # ; ! "mārēāṭ"
+%<np%>%<ant%>%<f%>%<pl%>%<ins%>:മാരാല്‍ # ; ! "mārāl‍"
 
 
 LEXICON POST
@@ -173,5 +177,8 @@ LEXICON NominalStems
 പക്ഷി :പക്ഷി N2 ; ! "bird" ! ""
 മ്രിഗം:മ്രിഗ N1 ; ! "animal" ! ""
 തല:തല N2 ; ! "head" ! 
-ജെയിംസ് : ജെയിംസ NP1 ; ! "james" 
-മേരി : മേരി NP2 ; ! "Mery"  
+
+LEXICON ProperNouns 
+
+ജെയിംസ് : ജെയിംസ NP1 ; ! "James" 
+മേരി : മേരി NP2 ; ! "Mary"  
