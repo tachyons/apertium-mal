@@ -42,7 +42,7 @@ ProperNouns ;
 
 LEXICON CLIT-N
 
-%+WORD%<cnjcoo%>:WORD # ;
+%+ും%<cnjcoo%>:ും # ;
 
 LEXICON N-CASES-PL
 
