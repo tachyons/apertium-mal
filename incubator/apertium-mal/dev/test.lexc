@@ -108,6 +108,36 @@ LEXICON N4
 
 %<n%>%<cmp%>%+: NominalStems ; 
 
+LEXICON NP1
+
+%<n%>%<sg%>%<nom%>:് # ; ! "ṁ"
+%<n%>%<sg%>%<loc%>:ില്‍ # ; ! "il‍"
+%<n%>%<sg%>%<acc%>:ിനെ # ; ! "ine"
+%<n%>%<sg%>%<dat%>:ിന് # ; ! "in"
+%<n%>%<sg%>:ിന N-CASES-SG ; ! ""
+
+!plural
+%<n%>%<pl%>%<nom%>:ുകള്‍ # ; ! "ukaḷ‍"
+%<n%>%<pl%>%<acc%>:ുകളെ # ; ! "ukaḷe"
+%<n%>%<pl%>:ുക N-CASES-PL ; ! "ukaḷ‍"
+
+
+LEXICON NP2
+
+%<n%>%<sg%>%<nom%>: # ; ! ""
+%<n%>%<sg%>%<loc%>:യില്‍ #; ! "yil‍"
+%<n%>%<sg%>%<acc%>:യെ # ; ! "ye"
+%<n%>%<sg%>%<dat%>:യ്ക് # ; ! "yk"
+%<n%>%<sg%>:യ N-CASES-SG ; ! ""
+!plural
+%<n%>%<pl%>%<nom%>: # ; ! ""
+%<n%>%<pl%>%<loc%>:മാര്‍ # ; ! "mār‍"
+%<n%>%<pl%>%<acc%>:മാരെ # ; ! "māre"
+%<n%>%<pl%>%<dat%>:മാര്‍ക് # ; ! "mār‍k"
+%<n%>%<pl%>%<soc%>:മാരോട് # ; ! "mārēāṭ"
+%<n%>%<pl%>%<ins%>:മാരാല്‍ # ; ! "mārāl‍"
+
+
 LEXICON POST
 
 %<post%>: # ;
@@ -143,3 +173,5 @@ LEXICON NominalStems
 പക്ഷി :പക്ഷി N2 ; ! "bird" ! ""
 മ്രിഗം:മ്രിഗ N1 ; ! "animal" ! ""
 തല:തല N2 ; ! "head" ! 
+ജെയിംസ് : ജെയിംസ NP1 ; ! "james" 
+മേരി : മേരി NP2 ; ! "Mery"  
