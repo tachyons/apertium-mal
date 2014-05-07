@@ -27,9 +27,9 @@ Multichar_Symbols
 %<f%>             ! Feminine
 %<mf%>            ! Masculine/feminine
   
-%+
-%>
-% 
+%+                ! Clitic/compound boundary
+%>                ! Morpheme boundary
+%                 ! Space symbol
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
