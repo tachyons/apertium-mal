@@ -170,8 +170,8 @@ LEXICON NP3
 %<np%>%<ant%>%<m%>%<sg%>%<dat%>:വിന് CLIT-N ; ! "yk"
 %<np%>%<ant%>%<m%>%<sg%>:വിന N-CASES-SG ; ! ""
 !plural
-%<np%>%<ant%>%<m%>%<pl%>%<nom%>:മാര്‍  CLIT-N ; ! ""
-%<np%>%<ant%>%<m%>%<pl%>%<loc%>:മാരില്‍ CLIT-N ; ! "mār‍"
+%<np%>%<ant%>%<m%>%<pl%>%<nom%>:മാര്‍  CLIT-N ; ! "mār‍"
+%<np%>%<ant%>%<m%>%<pl%>%<loc%>:മാരില്‍ CLIT-N ; ! "māril‍"
 %<np%>%<ant%>%<m%>%<pl%>%<acc%>:മാരെ CLIT-N ; ! "māre"
 %<np%>%<ant%>%<m%>%<pl%>%<dat%>:മാര്‍ക് CLIT-N ; ! "mār‍k"
 %<np%>%<ant%>%<m%>%<pl%>%<soc%>:മാരോട് CLIT-N ; ! "mārēāṭ"
