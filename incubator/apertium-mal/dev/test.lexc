@@ -226,3 +226,5 @@ LEXICON Punctuation
 %,%<cm%>:%, # ;
 %.%<sent%>:%. # ;
 %!%<sent%>:%! # ;
+%?%<sent%>:%? # ;
+
