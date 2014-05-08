@@ -3,7 +3,9 @@ Alphabet
 
 ! Define your alphabet, each of the individual symbols, here
 
-%>:0 ; 
+%{y%}:0
+
+ %>:0 ; 
 
 Sets
 

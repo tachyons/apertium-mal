@@ -30,6 +30,8 @@ Multichar_Symbols
 %<quot%>          ! Quote marker
 %<sent%>          ! Sentence boundary
 %<cm%>            ! Comma
+
+%{y%}             ! Epenthetic consonant -y-, -v- or -r-
   
 %+                ! Clitic/compound boundary
 %>                ! Morpheme boundary
@@ -48,11 +50,7 @@ Punctuation ;
 
 LEXICON CLIT-N
 
-! These should probably all be the same form, with a phonological
-! rule to insert (or remove the 'v'/'y') -FMT
-%+ും%<cnjcoo%>:ും # ; ! "and, also" ! ""
-%+യും%<cnjcoo%>:യും # ; ! "and, also" ! ""
-%+വും%<cnjcoo%>:വും # ; ! "and, also" ! ""
+%+ും%<cnjcoo%>:%{y%}ു # ; ! "and, also" ! ""
 
 %+മോ%<cnjcoo%>:മോ # ; ! "or" ! ""
 %+വോ%<cnjcoo%>:വോ # ; ! "or" ! ""
