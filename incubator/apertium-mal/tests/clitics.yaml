@@ -1,0 +1,11 @@
+Config: 
+  hfst: 
+    App:  hfst-lookup
+    Gen:  ../../mal.autogen.hfst
+    Morph:  ../../mal.automorf.hfst
+
+Tests: 
+
+  "[twol] clitics": 
+     രാജു<np><ant><m><sg><nom>+വും<cnjcoo> : രാജുവും
+     രാധ<np><ant><f><sg><nom>+യും<cnjcoo> : രാധയും
