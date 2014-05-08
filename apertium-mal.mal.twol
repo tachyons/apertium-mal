@@ -3,9 +3,9 @@ Alphabet
 
 ! Define your alphabet, each of the individual symbols, here
 
- യ  വ  
+ യ  വ  ധ
 
-ു
+ു ം
 
 %{y%}:0
 
@@ -17,15 +17,19 @@ Sets
 
 Boundary = %> ;
 
-Vow = ു ; 
+RVowU = ു ; 
+
+RVowA = ധ ; 
 
 Rules 
 
 "Delete morpheme boundary"
 %>:0 <=> _ ;
 
-"Epenthesis in clitics"
-%{y%}:യ <=> :Vow %>: _ ; 
+"Epenthesis in clitics ({y} → y)"
+%{y%}:യ <=> :RVowA %>: _ ; 
 
-!"Epenthesis in clitics"
-!%{y%}:വ <=> : %>: _ ; 
+"Epenthesis in clitics ({y} → v)"
+%{y%}:വ <=> :RVowU %>: _ ; 
+
+
