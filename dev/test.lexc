@@ -168,7 +168,7 @@ LEXICON NP3
 %<np%>%<ant%>%<m%>%<sg%>%<loc%>:വില്‍ CLIT-N; ! "yil‍"
 %<np%>%<ant%>%<m%>%<sg%>%<acc%>:വിനെ CLIT-N ; ! "ye"
 %<np%>%<ant%>%<m%>%<sg%>%<dat%>:വിന് CLIT-N ; ! "yk"
-%<np%>%<ant%>%<f%>%<sg%>:വിന N-CASES-SG ; ! ""
+%<np%>%<ant%>%<m%>%<sg%>:വിന N-CASES-SG ; ! ""
 !plural
 %<np%>%<ant%>%<m%>%<pl%>%<nom%>:മാര്‍  CLIT-N ; ! ""
 %<np%>%<ant%>%<m%>%<pl%>%<loc%>:മാരില്‍ CLIT-N ; ! "mār‍"
