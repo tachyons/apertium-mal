@@ -26,6 +26,8 @@ Multichar_Symbols
 %<m%>             ! Masculine
 %<f%>             ! Feminine
 %<mf%>            ! Masculine/feminine
+
+%<quot%>          ! Quote marker
   
 %+                ! Clitic/compound boundary
 %>                ! Morpheme boundary
@@ -38,6 +40,7 @@ LEXICON Root
 Postpositions ;
 NominalStems ;
 ProperNouns ; 
+Punctuation ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -45,9 +48,14 @@ LEXICON CLIT-N
 
 ! These should probably all be the same form, with a phonological
 ! rule to insert (or remove the 'v'/'y') -FMT
-%+ും%<cnjcoo%>:ും # ;
-%+യും%<cnjcoo%>:യും # ;
-%+വും%<cnjcoo%>:വും # ;
+%+ും%<cnjcoo%>:ും # ; ! "and, also" ! ""
+%+യും%<cnjcoo%>:യും # ; ! "and, also" ! ""
+%+വും%<cnjcoo%>:വും # ; ! "and, also" ! ""
+
+%+മോ%<cnjcoo%>:മോ # ; ! "or" ! ""
+%+വോ%<cnjcoo%>:വോ # ; ! "or" ! ""
+%+യോ%<cnjcoo%>:യോ # ; ! "or" ! ""
+
 # ;
 
 LEXICON N-CASES-PL
@@ -209,3 +217,7 @@ LEXICON ProperNouns
 മേരി:മേരി NP2 ; ! "Mary" ! "mēri"
 രാജു :രാജ NP3 ; ! "Raju " ! "rāju"
 രാധ :രാധ NP2;  ! "Radha" ! "rādha" 
+
+LEXICON Punctuation
+
+%"%<quot%>:%" # ; 
