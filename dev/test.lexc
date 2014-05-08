@@ -28,6 +28,8 @@ Multichar_Symbols
 %<mf%>            ! Masculine/feminine
 
 %<quot%>          ! Quote marker
+%<sent%>          ! Sentence boundary
+%<cm%>            ! Comma
   
 %+                ! Clitic/compound boundary
 %>                ! Morpheme boundary
@@ -221,3 +223,6 @@ LEXICON ProperNouns
 LEXICON Punctuation
 
 %"%<quot%>:%" # ; 
+%,%<cm%>:%, # ;
+%.%<sent%>:%. # ;
+%!%<sent%>:%! # ;
