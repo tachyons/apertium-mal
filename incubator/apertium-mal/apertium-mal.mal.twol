@@ -5,7 +5,7 @@ Alphabet
 
  യ  വ  ധ
 
-ു ം
+ ു ം
 
 %{y%}:0
 
@@ -13,12 +13,10 @@ Alphabet
 
 Sets
 
-! E.g. Vowel, Consonant
-
-Boundary = %> ;
-
+! The vowel on the right is -u
 RVowU = ു ; 
 
+! The vowel on the right is -a
 RVowA = ധ ; 
 
 Rules 
