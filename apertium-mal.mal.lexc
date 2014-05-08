@@ -2,40 +2,40 @@
 
 Multichar_Symbols
 
-%<n%>             ! Noun
-%<np%>            ! Proper
+%<n%>             ! Noun                        !
+%<np%>            ! Proper noun                 ! 
 
-%<cnjcoo%>        ! Coordinating conjunction
-%<post%>          ! Postposition
+%<cnjcoo%>        ! Coordinating conjunction    ! 
+%<post%>          ! Postposition                ! 
 
-%<nom%>           ! Nominative
-%<acc%>           ! Accusative
-%<dat%>           ! Dative
-%<soc%>           ! Sociative
+%<nom%>           ! Nominative                  !
+%<acc%>           ! Accusative                  !
+%<dat%>           ! Dative                      !
+%<soc%>           ! Sociative                   !
 
-%<ins%>           ! Instrumental
-%<loc%>           ! Locative
+%<ins%>           ! Instrumental                !
+%<loc%>           ! Locative                    !
 
-%<ant%>           ! Anthroponym
+%<ant%>           ! Anthroponym                 !
 
-%<cmp%>           ! Compound
-%<sg%>            ! Singular
-%<pl%>            ! Plural
+%<cmp%>           ! Compound                    !
+%<sg%>            ! Singular                    !
+%<pl%>            ! Plural                      !
 
-!! Gender of anthroponyms and cognoms
-%<m%>             ! Masculine
-%<f%>             ! Feminine
-%<mf%>            ! Masculine/feminine
+%<m%>             ! Masculine                   ! 
+%<f%>             ! Feminine                    !
+%<mf%>            ! Masculine/feminine          !
 
-%<quot%>          ! Quote marker
-%<sent%>          ! Sentence boundary
-%<cm%>            ! Comma
+%<quot%>          ! Quote marker                ! 
+%<sent%>          ! Sentence boundary           !
+%<cm%>            ! Comma                       !
 
-%{y%}             ! Epenthetic consonant -y-, -v- or -r-
-  
-%+                ! Clitic/compound boundary
-%>                ! Morpheme boundary
-%                 ! Space symbol
+%{y%}             ! Epenthetic consonant        !
+                  !   -y-, -v- or -r-           !
+   
+%+                ! Clitic/compound boundary    !
+%>                ! Morpheme boundary           !
+%                 ! Space symbol                !
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
