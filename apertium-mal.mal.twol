@@ -3,7 +3,7 @@ Alphabet
 
 ! Define your alphabet, each of the individual symbols, here
 
- യ  വ  ധ മ 
+ യ  വ  ധ മ ര
 
  ു ം
 
@@ -17,7 +17,7 @@ Sets
 RVowU = ു ; 
 
 ! The vowel on the right is -a
-RVowA = ധ മ; 
+RVowA = ധ മ ; 
 
 Rules 
 

@@ -122,7 +122,7 @@ LEXICON N4
 %<n%>%<sg%>%<dat%>:യ്ക് CLIT-N ; ! "yk"
 %<n%>%<sg%>:യ N-CASES-SG ; ! ""
 !plural
-%<n%>%<pl%>%<nom%>:മാര്‍ CLIT-N ; ! "mār‍"
+%<n%>%<pl%>%<nom%>:മാര CLIT-N ; ! "mār‍"
 %<n%>%<pl%>%<loc%>:മാരില്‍ CLIT-N ; ! "māril‍"
 %<n%>%<pl%>%<acc%>:മാരെ CLIT-N ; ! "māre"
 %<n%>%<pl%>%<dat%>:മാര്‍ക് CLIT-N ; ! "mār‍k"
@@ -168,7 +168,7 @@ LEXICON NP3
 %<np%>%<ant%>%<m%>%<sg%>%<dat%>:വിന് CLIT-N ; ! "yk"
 %<np%>%<ant%>%<m%>%<sg%>:വിന N-CASES-SG ; ! ""
 !plural
-%<np%>%<ant%>%<m%>%<pl%>%<nom%>:മാര്‍  CLIT-N ; ! "mār‍"
+%<np%>%<ant%>%<m%>%<pl%>%<nom%>:മാര CLIT-N ; ! "mār‍"
 %<np%>%<ant%>%<m%>%<pl%>%<loc%>:മാരില്‍ CLIT-N ; ! "māril‍"
 %<np%>%<ant%>%<m%>%<pl%>%<acc%>:മാരെ CLIT-N ; ! "māre"
 %<np%>%<ant%>%<m%>%<pl%>%<dat%>:മാര്‍ക് CLIT-N ; ! "mār‍k"
