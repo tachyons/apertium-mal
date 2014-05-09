@@ -41,6 +41,7 @@ Multichar_Symbols
    
 %+                ! Clitic/compound boundary    !
 %>                ! Morpheme boundary           !
+%»                ! Clitic boundary
 %                 ! Space symbol                !
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -58,19 +59,19 @@ Punctuation ;
 
 LEXICON CLIT-COP 
 
-%+ആണ്%<vbser%>:%>%{y%}ാണ് # ; 
+%+ആണ്%<vbser%>:%»%{y%}ാണ് # ; 
 
 # ; 
 
 LEXICON CLIT-N
 
-%+യും%<cnjcoo%>:%>%{y%}ും CLIT-COP ; ! "and, also" ! ""
+%+യും%<cnjcoo%>:%»%{y%}ും CLIT-COP ; ! "and, also" ! ""
 
 CLIT-COP ; 
 
-!%+മോ%<cnjcoo%>:%>മോ # ; ! "or" ! ""
-!%+വോ%<cnjcoo%>:%>വോ # ; ! "or" ! ""
-!%+യോ%<cnjcoo%>:%>യോ # ; ! "or" ! ""
+!%+മോ%<cnjcoo%>:%»മോ # ; ! "or" ! ""
+!%+വോ%<cnjcoo%>:%»വോ # ; ! "or" ! ""
+!%+യോ%<cnjcoo%>:%»യോ # ; ! "or" ! ""
 
 LEXICON N-CASES-PL
 

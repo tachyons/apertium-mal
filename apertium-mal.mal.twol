@@ -9,7 +9,7 @@ Alphabet
 
 %{y%}:0
 
- %>:0 ; 
+ %>:0 %»:0 ; 
 
 Sets
 
@@ -38,8 +38,8 @@ Rules
 "Remove anusuvara when followed by a morpheme boundary"
 ം:0 <=> _ %>: ;
 
-"Remove ZWNJ when followed by a morpheme boundary"
-‍:0 <=> _ %>: ;
+"Remove ZWNJ when followed by a clitic boundary"
+‍:0 <=> _ %»: ;
 
 "Remove virama when followed by a morpheme boundary"
 ്:0 <=> _ (‍:) %>: ;
