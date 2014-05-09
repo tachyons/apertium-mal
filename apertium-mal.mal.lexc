@@ -7,7 +7,7 @@ Multichar_Symbols
 %<prn%>           ! Pronoun                     !
 %<cnjcoo%>        ! Coordinating conjunction    ! 
 %<post%>          ! Postposition                ! 
-
+%<vbser%>         ! Copula 
 %<nom%>           ! Nominative                  !
 %<acc%>           ! Accusative                  !
 %<dat%>           ! Dative                      !
@@ -51,13 +51,18 @@ Postpositions ;
 Pronouns ;
 NominalStems ;
 ProperNouns ; 
+Verbs ; 
 Punctuation ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON CLIT-COP 
+
+%+ആണ്%<vbser%>:%>%{y%}ആണ് # ; 
+
 LEXICON CLIT-N
 
-%+യും%<cnjcoo%>:%>%{y%}ും # ; ! "and, also" ! ""
+%+യും%<cnjcoo%>:%>%{y%}ും CLIT-COP ; ! "and, also" ! ""
 
 !%+മോ%<cnjcoo%>:%>മോ # ; ! "or" ! ""
 !%+വോ%<cnjcoo%>:%>വോ # ; ! "or" ! ""
@@ -238,6 +243,10 @@ LEXICON ProperNouns
 മേരി:മേരി NP2 ; ! "Mary" ! "mēri"
 രാജു :രാജ NP3 ; ! "Raju " ! "rāju"
 രാധ :രാധ NP2;  ! "Radha" ! "rādha" 
+
+LEXICON Verbs
+
+ആണ്%<vbser%>:ആണ് # ; ! "is" ! "āṇ"
 
 LEXICON Punctuation
 
