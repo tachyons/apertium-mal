@@ -6,3 +6,6 @@ all:
 	hfst-fst2txt mal.hfst > mal.autogen.att
 	lt-comp lr mal.automorf.att mal.automorf.bin
 	lt-comp lr mal.automorf.att mal.autogen.bin
+
+clean:
+	rm *.bin *.att *.hfst
