@@ -66,6 +66,8 @@ LEXICON CLIT-N
 
 %+യും%<cnjcoo%>:%>%{y%}ും CLIT-COP ; ! "and, also" ! ""
 
+CLIT-COP ; 
+
 !%+മോ%<cnjcoo%>:%>മോ # ; ! "or" ! ""
 !%+വോ%<cnjcoo%>:%>വോ # ; ! "or" ! ""
 !%+യോ%<cnjcoo%>:%>യോ # ; ! "or" ! ""
