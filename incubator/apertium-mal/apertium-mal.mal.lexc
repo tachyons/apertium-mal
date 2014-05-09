@@ -60,6 +60,8 @@ LEXICON CLIT-COP
 
 %+ആണ്%<vbser%>:%>%{y%}ആണ് # ; 
 
+# ; 
+
 LEXICON CLIT-N
 
 %+യും%<cnjcoo%>:%>%{y%}ും CLIT-COP ; ! "and, also" ! ""
@@ -67,8 +69,6 @@ LEXICON CLIT-N
 !%+മോ%<cnjcoo%>:%>മോ # ; ! "or" ! ""
 !%+വോ%<cnjcoo%>:%>വോ # ; ! "or" ! ""
 !%+യോ%<cnjcoo%>:%>യോ # ; ! "or" ! ""
-
-# ;
 
 LEXICON N-CASES-PL
 
