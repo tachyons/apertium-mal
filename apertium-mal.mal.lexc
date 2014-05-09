@@ -7,6 +7,7 @@ Multichar_Symbols
 %<prn%>           ! Pronoun                     !
 %<cnjcoo%>        ! Coordinating conjunction    ! 
 %<post%>          ! Postposition                ! 
+%<spost%>         ! Separable postposition      ! 
 %<vbser%>         ! Copula 
 %<nom%>           ! Nominative                  !
 %<acc%>           ! Accusative                  !
@@ -63,11 +64,16 @@ LEXICON CLIT-COP
 
 # ; 
 
-LEXICON CLIT-N
+LEXICON CLIT-CC 
 
 %+യും%<cnjcoo%>:%»%{y%}ും CLIT-COP ; ! "and, also" ! ""
 
-CLIT-COP ; 
+CLIT-COP ;
+
+LEXICON CLIT-N
+
+%+ൂടെ%<post%>:%»ൂടെ  CLIT-CC ; ! "through" ! "ūṭe"
+CLIT-CC ;
 
 !%+മോ%<cnjcoo%>:%»മോ # ; ! "or" ! ""
 !%+വോ%<cnjcoo%>:%»വോ # ; ! "or" ! ""
@@ -199,15 +205,15 @@ LEXICON PRON-PERS-AVAL
 %<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<nom%>: CLIT-N ; 
 %<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<dat%>:%>ക് CLIT-N ; ! "k"
 
-LEXICON POST
+LEXICON SPOST
 
-%<post%>: # ;
+%<spost%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Postpositions 
 
-നിന്ന്:നിന്ന് POST ; ! "from" ! "nīnn"
+നിന്ന്:നിന്ന് SPOST ; ! "from" ! "nīnn"
 
 LEXICON Pronouns
 
