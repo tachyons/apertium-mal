@@ -67,28 +67,28 @@ LEXICON CLIT-N
 
 LEXICON N-CASES-PL
 
-%<loc%>:ള്‍ CLIT-N ; ! "il‍"
-%<dat%>:ള്‍ക് CLIT-N ; ! "k"
-%<soc%>:ളോട് CLIT-N ; ! "ēāṭ "
-%<ins%>:ളാല്‍ CLIT-N ; ! "āl‍"
+%<loc%>:%>ള്‍ CLIT-N ; ! "il‍"
+%<dat%>:%>ള്‍ക് CLIT-N ; ! "k"
+%<soc%>:%>ളോട് CLIT-N ; ! "ēāṭ "
+%<ins%>:%>ളാല്‍ CLIT-N ; ! "āl‍"
 
 LEXICON N-CASES-SG
 
-%<soc%>:ോട് CLIT-N ; ! "ēāṭ"
-%<ins%>:ാല്‍ CLIT-N ; ! "āl‍"
+%<soc%>:%>ോട് CLIT-N ; ! "ēāṭ"
+%<ins%>:%>ാല്‍ CLIT-N ; ! "āl‍"
 
 LEXICON N1 
 
 %<n%>%<sg%>%<nom%>:ം CLIT-N ; ! "ṁ"
-%<n%>%<sg%>%<loc%>:ത്തില്‍ CLIT-N ; ! "ttil"
-%<n%>%<sg%>%<acc%>:ത്തെ CLIT-N ; ! "tte"
-%<n%>%<sg%>%<dat%>:ത്തിന് CLIT-N ; ! "ttin"
-%<n%>%<sg%>:ത്ത N-CASES-SG ; ! ""
+%<n%>%<sg%>%<loc%>:%>ത്തില്‍ CLIT-N ; ! "ttil"
+%<n%>%<sg%>%<acc%>:%>ത്തെ CLIT-N ; ! "tte"
+%<n%>%<sg%>%<dat%>:%>ത്തിന് CLIT-N ; ! "ttin"
+%<n%>%<sg%>:%>ത്ത N-CASES-SG ; ! ""
 
 !plural
-%<n%>%<pl%>%<nom%>:ങ്ങള്‍ CLIT-N ; ! "ṅṅaḷ‍"
-%<n%>%<pl%>%<acc%>:ങ്ങളെ CLIT-N ; ! "ṅṅale"
-%<n%>%<pl%>:ങ്ങ N-CASES-PL ; ! "ṅṅaḷ‍"
+%<n%>%<pl%>%<nom%>:%>ങ്ങള്‍ CLIT-N ; ! "ṅṅaḷ‍"
+%<n%>%<pl%>%<acc%>:%>ങ്ങളെ CLIT-N ; ! "ṅṅale"
+%<n%>%<pl%>:%>ങ്ങ N-CASES-PL ; ! "ṅṅaḷ‍"
 
 %<n%>%<cmp%>%+: NominalStems ; 
 
