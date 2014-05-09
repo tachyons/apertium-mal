@@ -58,7 +58,7 @@ Punctuation ;
 
 LEXICON CLIT-COP 
 
-%+ആണ്%<vbser%>:%>%{y%}ആണ് # ; 
+%+ആണ്%<vbser%>:%>%{y%}ാണ് # ; 
 
 # ; 
 
@@ -182,7 +182,7 @@ LEXICON NP3
 %<np%>%<ant%>%<m%>%<sg%>%<dat%>:വിന് CLIT-N ; ! "yk"
 %<np%>%<ant%>%<m%>%<sg%>:വിന N-CASES-SG ; ! ""
 !plural
-%<np%>%<ant%>%<m%>%<pl%>%<nom%>:മാര CLIT-N ; ! "mār‍"
+%<np%>%<ant%>%<m%>%<pl%>%<nom%>:മാര്‍ CLIT-N ; ! "mār‍"
 %<np%>%<ant%>%<m%>%<pl%>%<loc%>:മാരില്‍ CLIT-N ; ! "māril‍"
 %<np%>%<ant%>%<m%>%<pl%>%<acc%>:മാരെ CLIT-N ; ! "māre"
 %<np%>%<ant%>%<m%>%<pl%>%<dat%>:മാര്‍ക് CLIT-N ; ! "mār‍k"
@@ -210,7 +210,7 @@ LEXICON Postpositions
 
 LEXICON Pronouns
 
-അവൻ:അവൻ PRON-PERS-AVAN ; ! "he" ! "avan"
+അവന്‍:അവന്‍ PRON-PERS-AVAN ; ! "he" ! "avan"
 അവള്‍:അവള്‍ PRON-PERS-AVAL ; ! "she" ! "avaḷ‍"
 
 LEXICON NominalStems
