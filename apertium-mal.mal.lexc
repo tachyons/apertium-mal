@@ -186,6 +186,11 @@ LEXICON PRON-PERS-AVAN
 
 %<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<nom%>: CLIT-N ; 
 
+LEXICON PRON-PERS-AVAL
+
+%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<nom%>: CLIT-N ; 
+
+
 LEXICON POST
 
 %<post%>: # ;
@@ -199,6 +204,7 @@ LEXICON Postpositions
 LEXICON Pronouns
 
 അവൻ:അവൻ PRON-PERS-AVAN ; ! "he" ! "avan"
+അവള്‍:അവള്‍ PRON-PERS-AVAL ; ! "she" ! "avaḷ‍"
 
 LEXICON NominalStems
 
