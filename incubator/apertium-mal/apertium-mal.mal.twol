@@ -34,7 +34,7 @@ Rules
 %{y%}:വ <=> :RVowU %>: _ ; 
 
 "Epenthesis in clitics ({y} → v)"
-%{y%}:1 <=> :RLetV %>: _ ; 
+%{y%}:bkspace <=> :RLetV %>: _ ; 
 
 
 
