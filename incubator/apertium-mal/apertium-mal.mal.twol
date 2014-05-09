@@ -3,7 +3,7 @@ Alphabet
 
 ! Define your alphabet, each of the individual symbols, here
 
- യ  വ  ധ മ ര ഷ യ ള
+ യ  വ  ധ മ ര ഷ യ ള ഹ 
 
 ാ ി ീ ു ൂ ൃ ൄ െ േ ൈ ൊ ോ ൌ ് ൎ ം ഃ
 
@@ -17,8 +17,10 @@ Sets
 RVowU = ു ; 
 
 ! The vowel on the right is -a
-RVowA = ധ മ ര ട ള ി െ; 
-
+RVowA = ധ മ ര ച ട ള  ി െ;
+ 
+! The vowel on the right is -m
+RVowM = ം; 
 Rules 
 
 "Delete morpheme boundary"
@@ -29,6 +31,11 @@ Rules
 
 "Epenthesis in clitics ({y} → v)"
 %{y%}:വ <=> :RVowU %>: _ ; 
+
+"Remove anusuvara when followed by a morpheme boundary"
+ം:0 <=> _ %>: ;
+"Epenthesis in clitics ({y} → v)"
+%{y%}:മ <=> :RVowM %>: _ ; 
 
 "Remove ZWNJ when followed by a morpheme boundary"
 ‍:0 <=> _ %>: ;
