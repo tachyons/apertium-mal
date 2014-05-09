@@ -30,6 +30,11 @@ Rules
 "Epenthesis in clitics ({y} → v)"
 %{y%}:വ <=> :RVowU %>: _ ; 
 
+"Remove ZWNJ when followed by a morpheme boundary"
+‍:0 <=> _ %>: ;
+
 "Remove virama when followed by a morpheme boundary"
 ്:0 <=> _ %>: ;
+"Remove virama when followed by a morpheme boundary"
+്:0 <=> _ (‍:) %>: ;
 
