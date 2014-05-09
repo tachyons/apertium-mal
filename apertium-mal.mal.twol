@@ -19,8 +19,7 @@ RVowU = ു ;
 ! The vowel on the right is -a
 RVowA = ധ മ ര ട ള ി െ; 
 
-!Ending with ് Virama
-RLetV = ് ;
+Virama = ് ; 
 
 Rules 
 
@@ -33,8 +32,6 @@ Rules
 "Epenthesis in clitics ({y} → v)"
 %{y%}:വ <=> :RVowU %>: _ ; 
 
-"Epenthesis in clitics ({y} → v)"
-%{y%}:bkspace <=> :RLetV %>: _ ; 
-
-
+"Remove virama when followed by a morpheme boundary"
+Virama:0 <=> _ %>: ;
 
