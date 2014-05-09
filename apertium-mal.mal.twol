@@ -9,7 +9,7 @@ Alphabet
 
 %{y%}:0
 
- %>:0 %»:0 ; 
+ %>:0 ; 
 
 Sets
 
@@ -24,21 +24,24 @@ RVowM = ം;
 
 Rules 
 
+"Delete morpheme boundary"
+%>:0 <=> _ ;
+
 "Epenthesis in clitics ({y} → y)"
-%{y%}:യ <=> :RVowA [ %>: | %»: ] _ ; 
+%{y%}:യ <=> :RVowA %>: _ ; 
 
 "Epenthesis in clitics ({y} → v)"
-%{y%}:വ <=> :RVowU [ %>: | %»: ] _ ; 
-
-"Epenthesis in clitics ({y} → m)"
-%{y%}:മ <=> RVowM: [ %>: | %»: ] _ ; 
+%{y%}:വ <=> :RVowU %>: _ ; 
 
 "Remove anusuvara when followed by a morpheme boundary"
-ം:0 <=> _ [ %>: | %»: ] ;
+ം:0 <=> _ %>: ;
 
-"Remove ZWNJ when followed by a clitic boundary"
-‍:0 <=> _ %»: ;
+"Epenthesis in clitics ({y} → v)"
+%{y%}:മ <=> :RVowM %>: _ ; 
+
+"Remove ZWNJ when followed by a morpheme boundary"
+‍:0 <=> _ %>: ;
 
 "Remove virama when followed by a morpheme boundary"
-്:0 <=> _ (‍:) [ %>: | %»: ] ;
+്:0 <=> _ (‍:) %>: ;
 
