@@ -189,7 +189,7 @@ LEXICON PRON-PERS-AVAN
 LEXICON PRON-PERS-AVAL
 
 %<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<nom%>: CLIT-N ; 
-
+%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<dat%>:%>ക് CLIT-N ; ! "k"
 
 LEXICON POST
 
