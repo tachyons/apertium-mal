@@ -19,8 +19,6 @@ RVowU = ു ;
 ! The vowel on the right is -a
 RVowA = ധ മ ര ട ള ി െ; 
 
-Virama = ് ; 
-
 Rules 
 
 "Delete morpheme boundary"
@@ -33,5 +31,5 @@ Rules
 %{y%}:വ <=> :RVowU %>: _ ; 
 
 "Remove virama when followed by a morpheme boundary"
-Virama:0 <=> _ %>: ;
+്:0 <=> _ %>: ;
 
