@@ -4,7 +4,7 @@ Multichar_Symbols
 
 %<n%>             ! Noun                        !
 %<np%>            ! Proper noun                 ! 
-
+%<prn%>           ! Pronoun                     !
 %<cnjcoo%>        ! Coordinating conjunction    ! 
 %<post%>          ! Postposition                ! 
 
@@ -17,6 +17,12 @@ Multichar_Symbols
 %<loc%>           ! Locative                    !
 
 %<ant%>           ! Anthroponym                 !
+
+%<pers%>          !
+
+%<p1%>            ! 
+%<p2%>            ! 
+%<p3%>            !
 
 %<cmp%>           ! Compound                    !
 %<sg%>            ! Singular                    !
@@ -42,6 +48,7 @@ Multichar_Symbols
 LEXICON Root
 
 Postpositions ;
+Pronouns ;
 NominalStems ;
 ProperNouns ; 
 Punctuation ; 
@@ -175,6 +182,10 @@ LEXICON NP3
 %<np%>%<ant%>%<m%>%<pl%>%<soc%>:മാരോട് CLIT-N ; ! "mārēāṭ"
 %<np%>%<ant%>%<m%>%<pl%>%<ins%>:മാരാല്‍ CLIT-N ; ! "mārāl‍"
 
+LEXICON PRON-PERS-AVAN
+
+%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<nom%>: CLIT-N ; 
+
 LEXICON POST
 
 %<post%>: # ;
@@ -184,6 +195,10 @@ LEXICON POST
 LEXICON Postpositions 
 
 നിന്ന്:നിന്ന് POST ; ! "from" ! "nīnn"
+
+LEXICON Pronouns
+
+അവൻ:അവൻ PRON-PERS-AVAN ; ! "he" ! "avan"
 
 LEXICON NominalStems
 
