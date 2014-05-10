@@ -39,6 +39,7 @@ Multichar_Symbols
 
 %{y%}             ! Epenthetic consonant        !
                   !   -y-, -v- or -r-           !
+%{z%}             ! Epenthetic consonant        !
    
 %+                ! Clitic/compound boundary    !
 %>                ! Morpheme boundary           !
@@ -64,6 +65,11 @@ LEXICON CLIT-COP
 
 # ; 
 
+LEXICON CLIT-CO !or
+
+%+യോ%<cnjcoo%>:%»%{z%}ോ #; ! "or" ! ""
+# ; 
+
 LEXICON CLIT-CC 
 
 %+യും%<cnjcoo%>:%»%{y%}ും CLIT-COP ; ! "and, also" ! ""
@@ -73,6 +79,7 @@ CLIT-COP ;
 LEXICON CLIT-N
 
 CLIT-CC ;
+CLIT-CO ;
 
 !%+മോ%<cnjcoo%>:%»മോ # ; ! "or" ! ""
 !%+വോ%<cnjcoo%>:%»വോ # ; ! "or" ! ""
@@ -81,7 +88,9 @@ CLIT-CC ;
 LEXICON CLIT-N-LOC
 
 %+ൂടെ%<post%>:%»ൂടെ  CLIT-CC ; ! "through" ! "ūṭe"
+%+ൂടെ%<post%>:%»ൂടെ  CLIT-CO ; ! "through" ! "ūṭe"
 CLIT-CC ; 
+CLIT-CO ;
 
 LEXICON N-CASES-PL
 
@@ -188,17 +197,17 @@ LEXICON NP2
 LEXICON NP3
 
 %<np%>%<ant%>%<m%>%<sg%>%<nom%>:ു CLIT-N ; ! ""
-%<np%>%<ant%>%<m%>%<sg%>%<loc%>:വില്‍ CLIT-N-LOC; ! "yil‍"
-%<np%>%<ant%>%<m%>%<sg%>%<acc%>:വിനെ CLIT-N ; ! "ye"
-%<np%>%<ant%>%<m%>%<sg%>%<dat%>:വിന് CLIT-N ; ! "yk"
-%<np%>%<ant%>%<m%>%<sg%>:വിന N-CASES-SG ; ! ""
+%<np%>%<ant%>%<m%>%<sg%>%<loc%>:ുവില്‍ CLIT-N-LOC; ! "yil‍"
+%<np%>%<ant%>%<m%>%<sg%>%<acc%>:ുവിനെ CLIT-N ; ! "ye"
+%<np%>%<ant%>%<m%>%<sg%>%<dat%>:ുവിന് CLIT-N ; ! "yk"
+%<np%>%<ant%>%<m%>%<sg%>:ുവിന N-CASES-SG ; ! ""
 !plural
-%<np%>%<ant%>%<m%>%<pl%>%<nom%>:മാര്‍ CLIT-N ; ! "mār‍"
-%<np%>%<ant%>%<m%>%<pl%>%<loc%>:മാരില്‍ CLIT-N-LOC ; ! "māril‍"
-%<np%>%<ant%>%<m%>%<pl%>%<acc%>:മാരെ CLIT-N ; ! "māre"
-%<np%>%<ant%>%<m%>%<pl%>%<dat%>:മാര്‍ക് CLIT-N ; ! "mār‍k"
-%<np%>%<ant%>%<m%>%<pl%>%<soc%>:മാരോട് CLIT-N ; ! "mārēāṭ"
-%<np%>%<ant%>%<m%>%<pl%>%<ins%>:മാരാല്‍ CLIT-N ; ! "mārāl‍"
+%<np%>%<ant%>%<m%>%<pl%>%<nom%>:ുമാര്‍ CLIT-N ; ! "mār‍"
+%<np%>%<ant%>%<m%>%<pl%>%<loc%>:ുമാരില്‍ CLIT-N-LOC ; ! "māril‍"
+%<np%>%<ant%>%<m%>%<pl%>%<acc%>:ുമാരെ CLIT-N ; ! "māre"
+%<np%>%<ant%>%<m%>%<pl%>%<dat%>:ുമാര്‍ക് CLIT-N ; ! "mār‍k"
+%<np%>%<ant%>%<m%>%<pl%>%<soc%>:ുമാരോട് CLIT-N ; ! "mārēāṭ"
+%<np%>%<ant%>%<m%>%<pl%>%<ins%>:ുമാരാല്‍ CLIT-N ; ! "mārāl‍"
 
 LEXICON PRON-PERS-AVAN
 
@@ -249,6 +258,9 @@ LEXICON NominalStems
 പക്ഷി :പക്ഷി N2 ; ! "bird" ! "pakṣi"
 മ്രിഗം:മ്രിഗ N1 ; ! "animal" ! "mrigaṁ"
 തല:തല N2 ; ! "head" ! "tala"
+വെള്ളം:വെള്ള N1 ; ! "water" ! "veḷḷaṁ"
+ജനം:ജന N1 ; ! "people"
+ഉത്തരം:ഉത്തര N1 ; ! "answer"
 
 LEXICON ProperNouns 
 
