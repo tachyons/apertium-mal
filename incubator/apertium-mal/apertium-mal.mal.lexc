@@ -109,12 +109,14 @@ LEXICON N1
 %<n%>%<sg%>%<nom%>:ം CLIT-N ; ! "ṁ"
 %<n%>%<sg%>%<loc%>:%>ത്തില്‍ CLIT-N-LOC ; ! "ttil"
 %<n%>%<sg%>%<acc%>:%>ത്തെ CLIT-N ; ! "tte"
+%<n%>%<sg%>%<gen%>:%>ത്തിന്റെ CLIT-N ; ! "ttinṟe"
 %<n%>%<sg%>%<dat%>:%>ത്തിന് CLIT-N ; ! "ttin"
 %<n%>%<sg%>:%>ത്ത N-CASES-SG ; ! ""
 
 !plural
 %<n%>%<pl%>%<nom%>:%>ങ്ങള്‍ CLIT-N ; ! "ṅṅaḷ‍"
 %<n%>%<pl%>%<acc%>:%>ങ്ങളെ CLIT-N ; ! "ṅṅale"
+%<n%>%<pl%>%<gen%>:%>ങ്ങളുടെ CLIT-N ; ! "ṅṅaḷuṭe"
 %<n%>%<pl%>:%>ങ്ങ N-CASES-PL ; ! "ṅṅaḷ‍"
 
 %<n%>%<cmp%>%+:%» NominalStems ; 
@@ -124,11 +126,13 @@ LEXICON N2
 %<n%>%<sg%>%<nom%>: CLIT-N ; ! ""
 %<n%>%<sg%>%<loc%>:യില്‍ CLIT-N-LOC ; ! "yil‍"
 %<n%>%<sg%>%<acc%>:യെ CLIT-N ; ! "ye"
-%<n%>%<sg%>%<dat%>:യ്ക് CLIT-N ; ! "yk"
+%<n%>%<sg%>%<gen%>:യുടെ CLIT-N ; ! "yuṭe"
+%<n%>%<sg%>%<dat%>:യ്ക്ക് CLIT-N ; ! "yk"
 %<n%>%<sg%>:യ N-CASES-SG ; ! ""
 !plural
 %<n%>%<pl%>%<nom%>:കള്‍ CLIT-N ; ! "kaḷ‍"
 %<n%>%<pl%>%<acc%>:കളെ CLIT-N ; ! "kaḷe"
+%<n%>%<pl%>%<gen%>:കളുടെ CLIT-N ; ! "kaḷuṭe"
 %<n%>%<pl%>:ക N-CASES-PL ; ! "kaḷ‍"
 
 %<n%>%<cmp%>%+:%» NominalStems ; 
@@ -138,12 +142,14 @@ LEXICON N3
 %<n%>%<sg%>%<nom%>:് CLIT-N ; ! "ṁ"
 %<n%>%<sg%>%<loc%>:ില്‍ CLIT-N-LOC ; ! "il‍"
 %<n%>%<sg%>%<acc%>:ിനെ CLIT-N ; ! "ine"
+%<n%>%<sg%>%<gen%>:ിന്റെ CLIT-N ; ! "̔inṟe"
 %<n%>%<sg%>%<dat%>:ിന് CLIT-N ; ! "in"
 %<n%>%<sg%>:ിന N-CASES-SG ; ! ""
 
 !plural
 %<n%>%<pl%>%<nom%>:ുകള്‍ CLIT-N ; ! "ukaḷ‍"
 %<n%>%<pl%>%<acc%>:ുകളെ CLIT-N ; ! "ukaḷe"
+%<n%>%<pl%>%<gen%>:ുകളുടെ CLIT-N ; ! "ukaḷuṭe"
 %<n%>%<pl%>:ുക N-CASES-PL ; ! "ukaḷ‍"
 
 %<n%>%<cmp%>%+:%» NominalStems ; 
@@ -152,13 +158,15 @@ LEXICON N4
 
 %<n%>%<sg%>%<nom%>: CLIT-N ; ! ""
 %<n%>%<sg%>%<loc%>:യില്‍ CLIT-N-LOC; ! "yil‍"
-%<n%>%<sg%>%<acc%>:യെ CLIT-N ; ! "ye"
+%<n%>%<sg%>%<acc%>:യുടെ CLIT-N ; ! "yuṭe"
+%<n%>%<sg%>%<gen%>:യെ CLIT-N ; ! "ye"
 %<n%>%<sg%>%<dat%>:യ്ക് CLIT-N ; ! "yk"
 %<n%>%<sg%>:യ N-CASES-SG ; ! ""
 !plural
 %<n%>%<pl%>%<nom%>:മാര്‍  CLIT-N ; ! "mār‍"
 %<n%>%<pl%>%<loc%>:മാരില്‍ CLIT-N-LOC ; ! "māril‍"
 %<n%>%<pl%>%<acc%>:മാരെ CLIT-N ; ! "māre"
+%<n%>%<pl%>%<gen%>:മാരുടെ CLIT-N ; ! "māre"
 %<n%>%<pl%>%<dat%>:മാര്‍ക് CLIT-N ; ! "mār‍k"
 %<n%>%<pl%>%<soc%>:മാരോട് CLIT-N ; ! "mārēāṭ"
 %<n%>%<pl%>%<ins%>:മാരാല്‍ CLIT-N ; ! "mārāl‍"
@@ -169,6 +177,7 @@ LEXICON NP1
 
 %<np%>%<ant%>%<m%>%<sg%>%<nom%>:് CLIT-N ; ! "ṁ"
 %<np%>%<ant%>%<m%>%<sg%>%<loc%>:ില്‍ CLIT-N-LOC ; ! "il‍"
+%<np%>%<ant%>%<m%>%<sg%>%<gen%>:ിന്റെ CLIT-N ; ! "̔inṟe"
 %<np%>%<ant%>%<m%>%<sg%>%<acc%>:ിനെ CLIT-N ; ! "ine"
 %<np%>%<ant%>%<m%>%<sg%>%<dat%>:ിന് CLIT-N ; ! "in"
 %<np%>%<ant%>%<m%>%<sg%>:ിന N-CASES-SG ; ! ""
@@ -176,6 +185,7 @@ LEXICON NP1
 !plural
 %<np%>%<ant%>%<m%>%<pl%>%<nom%>:ുകള്‍ CLIT-N ; ! "ukaḷ‍"
 %<np%>%<ant%>%<m%>%<pl%>%<acc%>:ുകളെ CLIT-N ; ! "ukaḷe"
+%<np%>%<ant%>%<m%>%<pl%>%<gen%>:ുകളുടെ CLIT-N ; ! "ukaḷuṭe"
 %<np%>%<ant%>%<m%>%<pl%>:ുക N-CASES-PL ; ! "ukaḷ‍"
 
 
@@ -184,12 +194,14 @@ LEXICON NP2
 %<np%>%<ant%>%<f%>%<sg%>%<nom%>: CLIT-N ; ! ""
 %<np%>%<ant%>%<f%>%<sg%>%<loc%>:യില്‍ CLIT-N-LOC; ! "yil‍"
 %<np%>%<ant%>%<f%>%<sg%>%<acc%>:യെ CLIT-N ; ! "ye"
+%<np%>%<ant%>%<f%>%<sg%>%<gen%>:യുടെ CLIT-N ; ! "yuṭe"
 %<np%>%<ant%>%<f%>%<sg%>%<dat%>:യ്ക് CLIT-N ; ! "yk"
 %<np%>%<ant%>%<f%>%<sg%>:യ N-CASES-SG ; ! ""
 !plural
 %<np%>%<ant%>%<f%>%<pl%>%<nom%>:മാര്‍ CLIT-N ; ! ""
 %<np%>%<ant%>%<f%>%<pl%>%<loc%>:മാരില്‍ CLIT-N-LOC ; ! "mār‍"
 %<np%>%<ant%>%<f%>%<pl%>%<acc%>:മാരെ CLIT-N ; ! "māre"
+%<np%>%<ant%>%<f%>%<pl%>%<gen%>:മാരുടെ CLIT-N ; ! "māruṭe"
 %<np%>%<ant%>%<f%>%<pl%>%<dat%>:മാര്‍ക് CLIT-N ; ! "mār‍k"
 %<np%>%<ant%>%<f%>%<pl%>%<soc%>:മാരോട് CLIT-N ; ! "mārēāṭ"
 %<np%>%<ant%>%<f%>%<pl%>%<ins%>:മാരാല്‍ CLIT-N ; ! "mārāl‍"
@@ -199,19 +211,22 @@ LEXICON NP3
 %<np%>%<ant%>%<m%>%<sg%>%<nom%>:ു CLIT-N ; ! ""
 %<np%>%<ant%>%<m%>%<sg%>%<loc%>:ുവില്‍ CLIT-N-LOC; ! "yil‍"
 %<np%>%<ant%>%<m%>%<sg%>%<acc%>:ുവിനെ CLIT-N ; ! "ye"
+%<np%>%<ant%>%<m%>%<sg%>%<gen%>:ുവിന്റെ CLIT-N ; ! "uvinṟe"
 %<np%>%<ant%>%<m%>%<sg%>%<dat%>:ുവിന് CLIT-N ; ! "yk"
 %<np%>%<ant%>%<m%>%<sg%>:ുവിന N-CASES-SG ; ! ""
 !plural
 %<np%>%<ant%>%<m%>%<pl%>%<nom%>:ുമാര്‍ CLIT-N ; ! "mār‍"
 %<np%>%<ant%>%<m%>%<pl%>%<loc%>:ുമാരില്‍ CLIT-N-LOC ; ! "māril‍"
 %<np%>%<ant%>%<m%>%<pl%>%<acc%>:ുമാരെ CLIT-N ; ! "māre"
+%<np%>%<ant%>%<m%>%<pl%>%<acc%>:ുമാരുടെ CLIT-N ; ! "umāruṭe"
 %<np%>%<ant%>%<m%>%<pl%>%<dat%>:ുമാര്‍ക് CLIT-N ; ! "mār‍k"
 %<np%>%<ant%>%<m%>%<pl%>%<soc%>:ുമാരോട് CLIT-N ; ! "mārēāṭ"
 %<np%>%<ant%>%<m%>%<pl%>%<ins%>:ുമാരാല്‍ CLIT-N ; ! "mārāl‍"
 
 LEXICON PRON-PERS-AVAN
 
-%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<nom%>: CLIT-N ; 
+%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<nom%>:ന്‍ CLIT-N ; 
+%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<gen%>:ന്റെ CLIT-N ; 
 
 LEXICON PRON-PERS-AVAL
 
@@ -230,7 +245,7 @@ LEXICON Postpositions
 
 LEXICON Pronouns
 
-അവന്‍:അവന്‍ PRON-PERS-AVAN ; ! "he" ! "avan"
+അവന്‍:അവ PRON-PERS-AVAN ; ! "he" ! "avan"
 അവള്‍:അവള്‍ PRON-PERS-AVAL ; ! "she" ! "avaḷ‍"
 
 LEXICON NominalStems
@@ -261,6 +276,8 @@ LEXICON NominalStems
 വെള്ളം:വെള്ള N1 ; ! "water" ! "veḷḷaṁ"
 ജനം:ജന N1 ; ! "people"
 ഉത്തരം:ഉത്തര N1 ; ! "answer"
+നേരം:നേര N1 ; ! "time"
+മറുപടി :മറുപടി N2 ; ! "replay"
 
 LEXICON ProperNouns 
 
