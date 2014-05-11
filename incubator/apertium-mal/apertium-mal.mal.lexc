@@ -231,8 +231,8 @@ LEXICON PRON-PERS-AVAN
 
 LEXICON PRON-PERS-AVAR
 
-%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<nom%>:ര്‍ CLIT-N ; 
-%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<gen%>:രുടെ CLIT-N ; 
+%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<nom%>:ര്‍ CLIT-N ; 
+%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<gen%>:രുടെ CLIT-N ; 
 
 LEXICON PRON-PERS-AVAL
 
@@ -253,7 +253,7 @@ LEXICON Pronouns
 
 അവന്‍:അവ PRON-PERS-AVAN ; ! "he" ! "avan"
 അവള്‍:അവ PRON-PERS-AVAL ; ! "she" ! "avaḷ‍"
-അവര്‍ :അവര്‍ PRON-PERS-AVAR ; ! "they" ! "avan"
+അവര്‍ :അവ PRON-PERS-AVAR ; ! "they" ! "avan"
 
 
 LEXICON NominalStems
