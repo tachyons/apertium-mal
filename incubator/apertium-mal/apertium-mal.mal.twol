@@ -3,7 +3,7 @@ Alphabet
 
 ! Define your alphabet, each of the individual symbols, here
 
-അ ആ ഇ ഈ ഉ ഊ ഋ ഌ എ ഏ ഐ ഒ ഓ ഔ ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട ഠ ഡ ഢ ണ ത ഥദ ധ ന ഩ പ ഫ ബ ഭ മ യ ര റ ല ള ഴ വ  ശ ഷ സ ഹ  
+അ ആ ഇ ഈ ഉ ഊ ഋ ഌ എ ഏ ഐ ഒ ഓ ഔ ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട ഠ ഡ ഢ ണ ത ഥ ദ ധ ന ഩ പ ഫ ബ ഭ മ യ ര റ ല ള ഴ വ  ശ ഷ സ ഹ  
 ‍
  ാ ി ീ  ു ൂ ൃ ൄ െ േ ൈ ൊ ോ ൌ ് ൎ ം ഃ
 
@@ -24,7 +24,7 @@ RVowU = ു ;
 RVowA = ധ മ ര ച ട ള  ി െ ;
  
 ! The vowel on the right is -m
-RVowM = ം; 
+RVowM =  ം ; 
 
 Rules 
 
@@ -54,5 +54,5 @@ Rules
 %{z%}:വ <=> :RVowU  [ %>: | %»: ]  _ ; 
 
 "Epenthesis in clitics ({z} → m)"
-%{z%}:മ <=> :RVowM  [ %>: | %»: ]  _ ; 
+%{z%}:മ <=> RVowM  [ %>: | %»: ]  _ ; 
 

@@ -254,6 +254,7 @@ LEXICON PRON-PERS-AVAL
 
 %<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<nom%>:ള്‍ CLIT-N ; 
 %<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<dat%>:%>ള്‍ക് CLIT-N ; ! "k"
+%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<gen%>:%>ളുടെ CLIT-N ; ! "k"
 
 LEXICON NUM 
 
