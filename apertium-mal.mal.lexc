@@ -10,6 +10,10 @@ Multichar_Symbols
 %<post%>          ! Postposition                ! 
 %<spost%>         ! Separable postposition      ! 
 %<vbser%>         ! Copula                      !
+
+%<subst%>         ! Substantive                 !
+%<attr%>          ! Attributive                 !
+
 %<nom%>           ! Nominative                  !
 %<acc%>           ! Accusative                  !
 %<dat%>           ! Dative                      !
@@ -19,6 +23,7 @@ Multichar_Symbols
 %<loc%>           ! Locative                    !
 
 %<ant%>           ! Anthroponym                 !
+
 
 %<pers%>          !
 
@@ -258,7 +263,8 @@ LEXICON PRON-PERS-AVAL
 
 LEXICON NUM 
 
-%<num%>: N2-COMMON ; 
+%<num%>: # ; 
+%<num%>%<subst%>: N2-COMMON ; 
 
 LEXICON SPOST
 
@@ -278,16 +284,16 @@ LEXICON Pronouns
 
 LEXICON Numerals
 
-ഒന്ന് :ഒന്ന NUM ; ! "one" ! ""
-രണ്ട് :രണ്ട NUM ; ! "two" ! ""
-മൂന്ന് :മൂന്ന NUM ; ! "three" ! ""
-നാല് :നാല NUM ; ! "four" ! ""
-അഞ്ച് :അഞ്ച NUM ; ! "five" ! ""
-ആറ് :ആറ NUM ; ! "six" ! ""
-ഏഴ് :ഏഴ NUM ; ! "seven" ! ""
-എട്ട് :എട്ട NUM ; ! "eight" ! ""
-ഒന്‍പത് :ഒന്‍പത NUM ; ! "nine" ! ""
-പത്ത് :പത്ത NUM ; ! "ten" ! ""
+ഒന്ന്:ഒന്ന NUM ; ! "one" ! ""
+രണ്ട്:രണ്ട NUM ; ! "two" ! ""
+മൂന്ന്:മൂന്ന NUM ; ! "three" ! ""
+നാല്:നാല NUM ; ! "four" ! ""
+അഞ്ച്:അഞ്ച NUM ; ! "five" ! ""
+ആറ്:ആറ NUM ; ! "six" ! ""
+ഏഴ്:ഏഴ NUM ; ! "seven" ! ""
+എട്ട്:എട്ട NUM ; ! "eight" ! ""
+ഒന്‍പത്:ഒന്‍പത NUM ; ! "nine" ! ""
+പത്ത്:പത്ത NUM ; ! "ten" ! ""
 
 LEXICON NominalStems
 
