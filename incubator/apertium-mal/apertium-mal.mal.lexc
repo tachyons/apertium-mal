@@ -66,9 +66,15 @@ LEXICON CLIT-COP
 
 # ; 
 
-LEXICON CLIT-CO !or
+LEXICON CLIT-CO ! "or"
 
 %+യോ%<cnjcoo%>:%»%{z%}ോ #; ! "or" ! ""
+# ; 
+
+
+LEXICON CLIT-YODAPPAM ! "with"
+
+%+യോടപ്പം%<cnjcoo%>:%»%{z%}ോടപ്പം CLIT-COP; ! "or" ! ""
 # ; 
 
 LEXICON CLIT-CC 
@@ -81,6 +87,7 @@ LEXICON CLIT-N
 
 CLIT-CC ;
 CLIT-CO ;
+CLIT-YODAPPAM ;
 
 !%+മോ%<cnjcoo%>:%»മോ # ; ! "or" ! ""
 !%+വോ%<cnjcoo%>:%»വോ # ; ! "or" ! ""
@@ -90,6 +97,13 @@ LEXICON CLIT-N-LOC
 
 %+ൂടെ%<post%>:%»ൂടെ  CLIT-CC ; ! "through" ! "ūṭe"
 %+ൂടെ%<post%>:%»ൂടെ  CLIT-CO ; ! "through" ! "ūṭe"
+CLIT-CC ; 
+CLIT-CO ;
+
+LEXICON CLIT-N-LOC-LEK !aonther clitic for locative case ! "to"
+
+%+ിലേക്ക്%<post%>:»%ിലേക്ക്  CLIT-CC ; ! "through" ! "ūṭe"
+%+ിലേക്ക്%<post%>:»%ിലേക്ക്  CLIT-CO ; ! "through" ! "ūṭe"
 CLIT-CC ; 
 CLIT-CO ;
 
@@ -287,6 +301,16 @@ LEXICON NominalStems
 നേരം:നേര N1 ; ! "time"
 മറുപടി :മറുപടി N2 ; ! "replay"
 ശബ്ദം :ശബ്ദ N1 ; ! "sound"
+ഒന്ന് :ഒന്ന N2 ; ! "Number one"
+രണ്ട് :രണ്ട N2 ; ! "Number two"
+മൂന്ന് :മൂന്ന N2 ; ! "Number three"
+നാല് :നാല N2 ; ! "Number four"
+അഞ്ച് :അഞ്ച N2 ; ! "Number five"
+ആറ് :ആറ N2 ; ! "Number six"
+ഏഴ് :ഏഴ N2 ; ! "Number seven"
+എട്ട് :എട്ട N2 ; ! "Number eight"
+ഒന്‍പത് :ഒന്‍പത N2 ; ! "Number nine"
+പത്ത് :പത്ത N2 ; ! "Number ten"
 
 LEXICON ProperNouns 
 
