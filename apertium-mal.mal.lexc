@@ -258,6 +258,7 @@ LEXICON PRON-PERS-AVAR
 
 %<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<nom%>:ര്‍ CLIT-N-NOM ; 
 %<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<gen%>:രുടെ CLIT-N ; 
+%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<dat%>:ര്‍ക്ക് CLIT-N ; 
 
 LEXICON PRON-PERS-AVAL
 
