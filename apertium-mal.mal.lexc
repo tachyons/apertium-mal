@@ -21,6 +21,7 @@ Multichar_Symbols
 
 %<pres%>        ! Present tense               ! വര്‍ത്ത്മാന കാലം 
 %<past%>        ! Past tense                  ! ഭൂത കാലം 
+%<fut%>         ! Future tense                ! 
 
 %<nom%>         ! Nominative                  !
 %<acc%>         ! Accusative                  !
