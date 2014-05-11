@@ -280,6 +280,11 @@ LEXICON PRON-PERS-AVAL
 %<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<dat%>:%>ള്‍ക് CLIT-N ; ! "k"
 %<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<gen%>:%>ളുടെ CLIT-N ; ! "k"
 
+LEXICON NUM-ONNU
+
+%<num%>:രു # ; 
+%<num%>%<subst%>:ന്ന്  N2-COMMON ; 
+
 LEXICON NUM 
 
 %<num%>:് # ; 
@@ -319,7 +324,7 @@ LEXICON Pronouns
 
 LEXICON Numerals
 
-ഒന്ന്:ഒന്ന NUM ; ! "one" ! ""
+ഒരു:ഒ NUM-ONNU ; ! "one" ! ""
 രണ്ട്:രണ്ട NUM ; ! "two" ! ""
 മൂന്ന്:മൂന്ന NUM ; ! "three" ! ""
 നാല് :നാല NUM ; ! "four" ! ""
