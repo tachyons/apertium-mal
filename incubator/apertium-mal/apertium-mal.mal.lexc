@@ -93,9 +93,7 @@ CLIT-CC ;
 LEXICON CLIT-N-LOC
 
 %+ൂടെ%<post%>:%»ൂടെ  CLIT-CC ; ! "through" ! "ūṭe"
-%+ൂടെ%<post%>:%»ൂടെ  CLIT-CO ; ! "through" ! "ūṭe"
-%+ിലേക്ക്%<post%>:»%ിലേക്ക്  CLIT-CC ; ! "to" ! "ūlēkk"
-%+ിലേക്ക്%<post%>:»%ിലേക്ക്  CLIT-CO ; ! "to" ! "ūlēkk"
+%+േക്ക്%<post%>:%»േക്ക് CLIT-CC ; ! "to" ! "ēkk"
 
 CLIT-CC ; 
 
@@ -151,11 +149,11 @@ LEXICON N2
 LEXICON N3
 
 %<n%>%<sg%>%<nom%>:് CLIT-N-NOM ; ! "ṁ"
-%<n%>%<sg%>%<loc%>:ില്‍ CLIT-N-LOC ; ! "il‍"
-%<n%>%<sg%>%<acc%>:ിനെ CLIT-N ; ! "ine"
-%<n%>%<sg%>%<gen%>:ിന്റെ CLIT-N ; ! "̔inṟe"
-%<n%>%<sg%>%<dat%>:ിന് CLIT-N ; ! "in"
-%<n%>%<sg%>:ിന N-CASES-SG ; ! ""
+%<n%>%<sg%>%<loc%>:%>ില്‍ CLIT-N-LOC ; ! "il‍"
+%<n%>%<sg%>%<acc%>:%>ിനെ CLIT-N ; ! "ine"
+%<n%>%<sg%>%<gen%>:%>ിന്റെ CLIT-N ; ! "̔inṟe"
+%<n%>%<sg%>%<dat%>:%>ിന് CLIT-N ; ! "in"
+%<n%>%<sg%>:%>ിന N-CASES-SG ; ! ""
 
 !plural
 %<n%>%<pl%>%<nom%>:ുകള്‍ CLIT-N-NOM ; ! "ukaḷ‍"
