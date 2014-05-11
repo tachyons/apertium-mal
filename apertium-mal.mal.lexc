@@ -3,6 +3,7 @@
 Multichar_Symbols
 
 %<n%>             ! Noun                        !
+%<v%>             ! Verb                        !
 %<np%>            ! Proper noun                 ! 
 %<prn%>           ! Pronoun                     !
 %<num%>           ! Numeral                     !
@@ -13,6 +14,11 @@ Multichar_Symbols
 
 %<subst%>         ! Substantive                 !
 %<attr%>          ! Attributive                 !
+
+%<iv%>            ! Intransitive                ! 
+%<tv%>            ! Transitive                  ! 
+
+%<pres%>          ! Present tense               !
 
 %<nom%>           ! Nominative                  !
 %<acc%>           ! Accusative                  !
@@ -271,6 +277,10 @@ LEXICON NUM
 %<num%>:് # ; 
 %<num%>%<subst%>:്  N2-COMMON ; 
 
+LEXICON V-IV-KALI
+
+%<v%>%<iv%>%<pres%>:%>ക്കുന്നു # ; ! "kkunnu"
+
 LEXICON SPOST
 
 %<spost%>: # ;
@@ -343,6 +353,8 @@ LEXICON ProperNouns
 LEXICON Verbs
 
 ആണ്%<vbser%>:ആണ് # ; ! "is" ! "āṇ"
+
+കളിക്കുക:കളി V-IV-KALI ; ! "play" ! "kaḷikkān"
 
 LEXICON Punctuation
 
