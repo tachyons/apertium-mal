@@ -264,7 +264,7 @@ LEXICON PRON-PERS-AVAL
 LEXICON NUM 
 
 %<num%>:് # ; 
-%<num%>%<subst%>: N2-COMMON ; 
+%<num%>%<subst%>:്  N2-COMMON ; 
 
 LEXICON SPOST
 
@@ -287,7 +287,7 @@ LEXICON Numerals
 ഒന്ന്:ഒന്ന NUM ; ! "one" ! ""
 രണ്ട്:രണ്ട NUM ; ! "two" ! ""
 മൂന്ന്:മൂന്ന NUM ; ! "three" ! ""
-നാല്:നാല NUM ; ! "four" ! ""
+നാല് :നാല NUM ; ! "four" ! ""
 അഞ്ച്:അഞ്ച NUM ; ! "five" ! ""
 ആറ്:ആറ NUM ; ! "six" ! ""
 ഏഴ്:ഏഴ NUM ; ! "seven" ! ""
