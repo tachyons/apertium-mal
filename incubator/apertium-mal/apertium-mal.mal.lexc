@@ -6,6 +6,7 @@ Multichar_Symbols
 %<v%>           ! Verb                        !
 %<np%>          ! Proper noun                 ! 
 %<prn%>         ! Pronoun                     !
+%<adj%>         ! Adjective                   ! 
 %<num%>         ! Numeral                     !
 %<cnjcoo%>      ! Coordinating conjunction    ! 
 %<post%>        ! Postposition                ! 
@@ -68,6 +69,7 @@ Pronouns ;
 Numerals ;
 NominalStems ;
 ProperNouns ; 
+Adjectives ;
 Verbs ; 
 Punctuation ; 
 
@@ -256,6 +258,10 @@ LEXICON NP3
 %<np%>%<ant%>%<m%>%<pl%>%<soc%>:ുമാരോട് CLIT-N ; ! "mārēāṭ"
 %<np%>%<ant%>%<m%>%<pl%>%<ins%>:ുമാരാല്‍ CLIT-N ; ! "mārāl‍"
 
+LEXICON PRON-PERS-NNAAN 
+
+%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<nom%>: CLIT-N-NOM ; 
+
 LEXICON PRON-PERS-AVAN
 
 %<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<nom%>:ന്‍ CLIT-N-NOM ; 
@@ -289,6 +295,10 @@ LEXICON V-IV-KALI
 
 %<v%>%<iv%>: V-COMMON-KALI ; ! ""
 
+LEXICON A1 
+
+%<adj%>: # ;
+
 LEXICON SPOST
 
 %<spost%>: # ;
@@ -301,6 +311,7 @@ LEXICON Postpositions
 
 LEXICON Pronouns
 
+ഞാന്:ഞാന് PRON-PERS-NNAAN ; ! "I" ! "ñān"
 അവന്‍:അവ PRON-PERS-AVAN ; ! "he" ! "avan"
 അവള്‍:അവ PRON-PERS-AVAL ; ! "she" ! "avaḷ‍"
 അവര്‍ :അവ PRON-PERS-AVAR ; ! "they" ! "avar"
@@ -357,6 +368,10 @@ LEXICON ProperNouns
 മേരി:മേരി NP2 ; ! "Mary" ! "mēri"
 രാജു :രാജ NP3 ; ! "Raju " ! "rāju"
 രാധ :രാധ NP2;  ! "Radha" ! "rādha" 
+
+LEXICON Adjectives 
+
+ചെറിയ:ചെറിയ A1 ; ! "small" ! "ceṟiya"
 
 LEXICON Verbs
 
