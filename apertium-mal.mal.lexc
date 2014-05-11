@@ -184,6 +184,23 @@ LEXICON N4
 
 %<n%>%<cmp%>%+:%» NominalStems ; 
 
+LEXICON N5
+
+%<n%>%<sg%>%<nom%>:് CLIT-N-NOM ; ! "ṁ"
+%<n%>%<sg%>%<loc%>:്ടില്‍ CLIT-N-LOC ; ! "il‍"
+%<n%>%<sg%>%<acc%>:ിനെ CLIT-N ; ! "ine"
+%<n%>%<sg%>%<gen%>:ിന്റെ CLIT-N ; ! "̔inṟe"
+%<n%>%<sg%>%<dat%>:ിന് CLIT-N ; ! "in"
+%<n%>%<sg%>:ിന N-CASES-SG ; ! ""
+
+!plural
+%<n%>%<pl%>%<nom%>:ുകള്‍ CLIT-N-NOM ; ! "ukaḷ‍"
+%<n%>%<pl%>%<acc%>:ുകളെ CLIT-N ; ! "ukaḷe"
+%<n%>%<pl%>%<gen%>:ുകളുടെ CLIT-N ; ! "ukaḷuṭe"
+%<n%>%<pl%>:ുക N-CASES-PL ; ! "ukaḷ‍"
+
+%<n%>%<cmp%>%+:%» NominalStems ; 
+
 LEXICON NP1
 
 %<np%>%<ant%>%<m%>%<sg%>%<nom%>:് CLIT-N-NOM ; ! "ṁ"
@@ -290,7 +307,7 @@ LEXICON NominalStems
 മേഘം:മേഘ N1 ; ! "cloud" ! "mēghaṁ"
 പൂന്തോട്ടം:പൂന്തോട്ട N1 ; ! "garden" ! "pūntēāṭṭaṁ"
 കാലാവസ്ഥ:കാലാവസ്ഥ N2 ; ! "weather" ! "kālāvastha"
-വീട്:വീട N3; ! "house" ! "vīṭ"
+വീട്:വീട N5; ! "house" ! "vīṭ"
 ആണ്‍കുട്ടി:ആണ്‍കുട്ടി N2; ! "boy" ! "āṇ‍kuṭṭi"
 വയസ്സ്:വയസ്സ N3; ! "age" ! "vayas's"
 പെണ്‍കുട്ടി:പെണ്‍കുട്ടി N2 ; ! "girl" ! "peṇ‍kuṭṭi"
