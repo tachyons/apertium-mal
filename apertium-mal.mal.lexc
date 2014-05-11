@@ -263,7 +263,7 @@ LEXICON PRON-PERS-AVAL
 
 LEXICON NUM 
 
-%<num%>: # ; 
+%<num%>:് # ; 
 %<num%>%<subst%>: N2-COMMON ; 
 
 LEXICON SPOST
@@ -326,6 +326,7 @@ LEXICON NominalStems
 നേരം:നേര N1 ; ! "time"
 മറുപടി :മറുപടി N2 ; ! "replay"
 ശബ്ദം :ശബ്ദ N1 ; ! "sound"
+പട്ടണം :പട്ടണ N1 ; ! "city"
 
 LEXICON ProperNouns 
 

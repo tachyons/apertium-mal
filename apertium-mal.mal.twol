@@ -54,5 +54,5 @@ Rules
 %{z%}:വ <=> :RVowU  [ %>: | %»: ]  _ ; 
 
 "Epenthesis in clitics ({z} → m)"
-%{z%}:മ <=> RVowM  [ %>: | %»: ]  _ ; 
+%{z%}:മ <=> :RVowM  [ %>: | %»: ]  _ ; 
 
