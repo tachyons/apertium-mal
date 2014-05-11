@@ -2,61 +2,62 @@
 
 Multichar_Symbols
 
-%<n%>             ! Noun                        !
-%<v%>             ! Verb                        !
-%<np%>            ! Proper noun                 ! 
-%<prn%>           ! Pronoun                     !
-%<num%>           ! Numeral                     !
-%<cnjcoo%>        ! Coordinating conjunction    ! 
-%<post%>          ! Postposition                ! 
-%<spost%>         ! Separable postposition      ! 
-%<vbser%>         ! Copula                      !
+%<n%>           ! Noun                        ! നാമം
+%<v%>           ! Verb                        !
+%<np%>          ! Proper noun                 ! 
+%<prn%>         ! Pronoun                     !
+%<num%>         ! Numeral                     !
+%<cnjcoo%>      ! Coordinating conjunction    ! 
+%<post%>        ! Postposition                ! 
+%<spost%>       ! Separable postposition      ! 
+%<vbser%>       ! Copula                      !
 
-%<subst%>         ! Substantive                 !
-%<attr%>          ! Attributive                 !
+%<subst%>       ! Substantive                 !
+%<attr%>        ! Attributive                 !
 
-%<iv%>            ! Intransitive                ! 
-%<tv%>            ! Transitive                  ! 
+%<iv%>          ! Intransitive                ! 
+%<tv%>          ! Transitive                  ! 
 
-%<pres%>          ! Present tense               !
+%<pres%>        ! Present tense               ! വര്‍ത്ത്മാന കാലം 
+%<past%>        ! Past tense                  ! ഭൂത കാലം 
 
-%<nom%>           ! Nominative                  !
-%<acc%>           ! Accusative                  !
-%<dat%>           ! Dative                      !
-%<soc%>           ! Sociative                   !
-%<gen%>           ! Genitive                    !
-%<ins%>           ! Instrumental                !
-%<loc%>           ! Locative                    !
+%<nom%>         ! Nominative                  !
+%<acc%>         ! Accusative                  !
+%<dat%>         ! Dative                      !
+%<soc%>         ! Sociative                   !
+%<gen%>         ! Genitive                    !
+%<ins%>         ! Instrumental                !
+%<loc%>         ! Locative                    !
 
-%<ant%>           ! Anthroponym                 !
+%<ant%>         ! Anthroponym                 !
 
 
-%<pers%>          !
+%<pers%>        ! Personal
 
-%<p1%>            ! 
-%<p2%>            ! 
-%<p3%>            !
+%<p1%>          ! First person
+%<p2%>          ! Second person
+%<p3%>          ! Third person
 
-%<cmp%>           ! Compound                    !
-%<sg%>            ! Singular                    !
-%<pl%>            ! Plural                      !
+%<cmp%>         ! Compound                    !
+%<sg%>          ! Singular                    !
+%<pl%>          ! Plural                      !
 
-%<m%>             ! Masculine                   ! 
-%<f%>             ! Feminine                    !
-%<mf%>            ! Masculine/feminine          !
+%<m%>           ! Masculine                   ! പുല്ലിംഗം
+%<f%>           ! Feminine                    ! സ്ത്രീലിമ്ഗം
+%<mf%>          ! Masculine/feminine          !
 
-%<quot%>          ! Quote marker                ! 
-%<sent%>          ! Sentence boundary           !
-%<cm%>            ! Comma                       !
+%<quot%>        ! Quote marker                ! 
+%<sent%>        ! Sentence boundary           !
+%<cm%>          ! Comma                       !
 
-%{y%}             ! Epenthetic consonant        !
-                  !   -y-, -v- or -r-           !
-%{z%}             ! Epenthetic consonant        !
+%{y%}           ! Epenthetic consonant        !
+                !   -y-, -v- or -r-           !
+%{z%}           ! Epenthetic consonant        !
    
-%+                ! Clitic/compound boundary    !
-%>                ! Morpheme boundary           !
-%»                ! Clitic boundary
-%                 ! Space symbol                !
+%+              ! Clitic/compound boundary    !
+%>              ! Morpheme boundary           !
+%»              ! Clitic boundary
+%               ! Space symbol                !
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -277,9 +278,14 @@ LEXICON NUM
 %<num%>:് # ; 
 %<num%>%<subst%>:്  N2-COMMON ; 
 
+LEXICON V-COMMON-KALI 
+
+%<pres%>:%>ക്കുന്നു # ; ! "kkunnu"
+%<past%>:%>ച്ചു # ; ! "ccu"
+
 LEXICON V-IV-KALI
 
-%<v%>%<iv%>%<pres%>:%>ക്കുന്നു # ; ! "kkunnu"
+%<v%>%<iv%>: V-COMMON-KALI ; ! ""
 
 LEXICON SPOST
 
