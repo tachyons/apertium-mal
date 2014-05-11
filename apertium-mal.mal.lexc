@@ -61,7 +61,8 @@ Punctuation ;
 
 LEXICON CLIT-COP 
 
-%+ആണ്%<vbser%>:%»%{y%}ാണ് # ; 
+%+ആണ്%<vbser%>:%»%{y%}ാണ് # ;
+%+ആയിരുന്നു%<vbser%>:%»%{y%}ായിരുന്നു # ;  
 
 # ; 
 
@@ -228,10 +229,15 @@ LEXICON PRON-PERS-AVAN
 %<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<nom%>:ന്‍ CLIT-N ; 
 %<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<gen%>:ന്റെ CLIT-N ; 
 
+LEXICON PRON-PERS-AVAR
+
+%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<nom%>:ര്‍ CLIT-N ; 
+%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<gen%>:രുടെ CLIT-N ; 
+
 LEXICON PRON-PERS-AVAL
 
-%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<nom%>: CLIT-N ; 
-%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<dat%>:%>ക് CLIT-N ; ! "k"
+%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<nom%>:ള്‍ CLIT-N ; 
+%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<dat%>:%>ള്‍ക് CLIT-N ; ! "k"
 
 LEXICON SPOST
 
@@ -246,7 +252,9 @@ LEXICON Postpositions
 LEXICON Pronouns
 
 അവന്‍:അവ PRON-PERS-AVAN ; ! "he" ! "avan"
-അവള്‍:അവള്‍ PRON-PERS-AVAL ; ! "she" ! "avaḷ‍"
+അവള്‍:അവ PRON-PERS-AVAL ; ! "she" ! "avaḷ‍"
+അവര്‍ :അവര്‍ PRON-PERS-AVAR ; ! "they" ! "avan"
+
 
 LEXICON NominalStems
 
@@ -278,6 +286,7 @@ LEXICON NominalStems
 ഉത്തരം:ഉത്തര N1 ; ! "answer"
 നേരം:നേര N1 ; ! "time"
 മറുപടി :മറുപടി N2 ; ! "replay"
+ശബ്ദം :ശബ്ദ N1 ; ! "sound"
 
 LEXICON ProperNouns 
 
