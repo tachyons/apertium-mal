@@ -295,7 +295,7 @@ LEXICON V-COMMON-KALI
 %<pres%>:%>ക്കുന്നു # ; ! "kkunnu"
 %<past%>:%>ച്ചു # ; ! "ccu"
 %<fut%>:%>ക്കും # ; ! "kkuṁ"
-%<oblig%>:%>ക്കണം # ; ! "kkaṇaṁ"
+!%<oblig%>:%>ക്കണം # ; ! "kkaṇaṁ"
 
 LEXICON V-IV-KALI
 
