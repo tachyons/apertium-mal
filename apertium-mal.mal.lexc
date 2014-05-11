@@ -5,15 +5,16 @@ Multichar_Symbols
 %<n%>             ! Noun                        !
 %<np%>            ! Proper noun                 ! 
 %<prn%>           ! Pronoun                     !
+%<num%>           ! Numeral                     !
 %<cnjcoo%>        ! Coordinating conjunction    ! 
 %<post%>          ! Postposition                ! 
 %<spost%>         ! Separable postposition      ! 
-%<vbser%>         ! Copula 
+%<vbser%>         ! Copula                      !
 %<nom%>           ! Nominative                  !
 %<acc%>           ! Accusative                  !
 %<dat%>           ! Dative                      !
 %<soc%>           ! Sociative                   !
-
+%<gen%>           ! Genitive                    !
 %<ins%>           ! Instrumental                !
 %<loc%>           ! Locative                    !
 
@@ -52,6 +53,7 @@ LEXICON Root
 
 Postpositions ;
 Pronouns ;
+Numerals ;
 NominalStems ;
 ProperNouns ; 
 Verbs ; 
@@ -61,8 +63,8 @@ Punctuation ;
 
 LEXICON CLIT-COP 
 
-%+ആണ്%<vbser%>:%»%{y%}ാണ് # ;
-%+ആയിരുന്നു%<vbser%>:%»%{y%}ായിരുന്നു # ;  
+%+ആണ്%<vbser%>:%»%{y%}ാണ് # ; ! "FIXME"
+%+ആയിരുന്നു%<vbser%>:%»%{y%}ായിരുന്നു # ;  ! "FIXME"
 
 # ; 
 
@@ -72,9 +74,9 @@ LEXICON CLIT-CO ! "or"
 # ; 
 
 
-LEXICON CLIT-YODAPPAM ! "with"
+LEXICON CLIT-YODAPPAM ! "with" ! FIXME
 
-%+യോടപ്പം%<cnjcoo%>:%»%{z%}ോടപ്പം CLIT-COP; ! "or" ! ""
+%+യോടപ്പം%<cnjcoo%>:%»%{z%}ോടപ്പം CLIT-COP; ! "or" ! "ēāṭappaṁ" FIXME
 # ; 
 
 LEXICON CLIT-CC 
@@ -97,15 +99,9 @@ LEXICON CLIT-N-LOC
 
 %+ൂടെ%<post%>:%»ൂടെ  CLIT-CC ; ! "through" ! "ūṭe"
 %+ൂടെ%<post%>:%»ൂടെ  CLIT-CO ; ! "through" ! "ūṭe"
-%+ിലേക്ക്%<post%>:»%ിലേക്ക്  CLIT-CC ; ! "through" ! "ūṭe"
-%+ിലേക്ക്%<post%>:»%ിലേക്ക്  CLIT-CO ; ! "through" ! "ūṭe"
-CLIT-CC ; 
-CLIT-CO ;
+%+ിലേക്ക്%<post%>:»%ിലേക്ക്  CLIT-CC ; ! "FIXME" ! "ūlēkk"
+%+ിലേക്ക്%<post%>:»%ിലേക്ക്  CLIT-CO ; ! "FIXME" ! "ūlēkk"
 
-LEXICON CLIT-N-LOC-LEK !aonther clitic for locative case ! "to"
-
-%+ിലേക്ക്%<post%>:»%ിലേക്ക്  CLIT-CC ; ! "through" ! "ūṭe"
-%+ിലേക്ക്%<post%>:»%ിലേക്ക്  CLIT-CO ; ! "through" ! "ūṭe"
 CLIT-CC ; 
 CLIT-CO ;
 
@@ -138,19 +134,23 @@ LEXICON N1
 
 %<n%>%<cmp%>%+:%» NominalStems ; 
 
+LEXICON N2-COMMON
+
+%<sg%>%<nom%>: CLIT-N ; ! ""
+%<sg%>%<loc%>:യില്‍ CLIT-N-LOC ; ! "yil‍"
+%<sg%>%<acc%>:യെ CLIT-N ; ! "ye"
+%<sg%>%<gen%>:യുടെ CLIT-N ; ! "yuṭe"
+%<sg%>%<dat%>:യ്ക്ക് CLIT-N ; ! "yk"
+%<sg%>:യ N-CASES-SG ; ! ""
+!plural
+%<pl%>%<nom%>:കള്‍ CLIT-N ; ! "kaḷ‍"
+%<pl%>%<acc%>:കളെ CLIT-N ; ! "kaḷe"
+%<pl%>%<gen%>:കളുടെ CLIT-N ; ! "kaḷuṭe"
+%<pl%>:ക N-CASES-PL ; ! "kaḷ‍"
+
 LEXICON N2
 
-%<n%>%<sg%>%<nom%>: CLIT-N ; ! ""
-%<n%>%<sg%>%<loc%>:യില്‍ CLIT-N-LOC ; ! "yil‍"
-%<n%>%<sg%>%<acc%>:യെ CLIT-N ; ! "ye"
-%<n%>%<sg%>%<gen%>:യുടെ CLIT-N ; ! "yuṭe"
-%<n%>%<sg%>%<dat%>:യ്ക്ക് CLIT-N ; ! "yk"
-%<n%>%<sg%>:യ N-CASES-SG ; ! ""
-!plural
-%<n%>%<pl%>%<nom%>:കള്‍ CLIT-N ; ! "kaḷ‍"
-%<n%>%<pl%>%<acc%>:കളെ CLIT-N ; ! "kaḷe"
-%<n%>%<pl%>%<gen%>:കളുടെ CLIT-N ; ! "kaḷuṭe"
-%<n%>%<pl%>:ക N-CASES-PL ; ! "kaḷ‍"
+%<n%>: N2-COMMON ;
 
 %<n%>%<cmp%>%+:%» NominalStems ; 
 
@@ -255,6 +255,10 @@ LEXICON PRON-PERS-AVAL
 %<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<nom%>:ള്‍ CLIT-N ; 
 %<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<dat%>:%>ള്‍ക് CLIT-N ; ! "k"
 
+LEXICON NUM 
+
+%<num%>: N2-COMMON ; 
+
 LEXICON SPOST
 
 %<spost%>: # ;
@@ -269,8 +273,20 @@ LEXICON Pronouns
 
 അവന്‍:അവ PRON-PERS-AVAN ; ! "he" ! "avan"
 അവള്‍:അവ PRON-PERS-AVAL ; ! "she" ! "avaḷ‍"
-അവര്‍ :അവ PRON-PERS-AVAR ; ! "they" ! "avan"
+അവര്‍ :അവ PRON-PERS-AVAR ; ! "they" ! "avar"
 
+LEXICON Numerals
+
+ഒന്ന് :ഒന്ന NUM ; ! "one" ! ""
+രണ്ട് :രണ്ട NUM ; ! "two" ! ""
+മൂന്ന് :മൂന്ന NUM ; ! "three" ! ""
+നാല് :നാല NUM ; ! "four" ! ""
+അഞ്ച് :അഞ്ച NUM ; ! "five" ! ""
+ആറ് :ആറ NUM ; ! "six" ! ""
+ഏഴ് :ഏഴ NUM ; ! "seven" ! ""
+എട്ട് :എട്ട NUM ; ! "eight" ! ""
+ഒന്‍പത് :ഒന്‍പത NUM ; ! "nine" ! ""
+പത്ത് :പത്ത NUM ; ! "ten" ! ""
 
 LEXICON NominalStems
 
@@ -303,16 +319,6 @@ LEXICON NominalStems
 നേരം:നേര N1 ; ! "time"
 മറുപടി :മറുപടി N2 ; ! "replay"
 ശബ്ദം :ശബ്ദ N1 ; ! "sound"
-ഒന്ന് :ഒന്ന N2 ; ! "Number one"
-രണ്ട് :രണ്ട N2 ; ! "Number two"
-മൂന്ന് :മൂന്ന N2 ; ! "Number three"
-നാല് :നാല N2 ; ! "Number four"
-അഞ്ച് :അഞ്ച N2 ; ! "Number five"
-ആറ് :ആറ N2 ; ! "Number six"
-ഏഴ് :ഏഴ N2 ; ! "Number seven"
-എട്ട് :എട്ട N2 ; ! "Number eight"
-ഒന്‍പത് :ഒന്‍പത N2 ; ! "Number nine"
-പത്ത് :പത്ത N2 ; ! "Number ten"
 
 LEXICON ProperNouns 
 
