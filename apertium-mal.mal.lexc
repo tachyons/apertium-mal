@@ -97,6 +97,8 @@ LEXICON CLIT-N-LOC
 
 %+ൂടെ%<post%>:%»ൂടെ  CLIT-CC ; ! "through" ! "ūṭe"
 %+ൂടെ%<post%>:%»ൂടെ  CLIT-CO ; ! "through" ! "ūṭe"
+%+ിലേക്ക്%<post%>:»%ിലേക്ക്  CLIT-CC ; ! "through" ! "ūṭe"
+%+ിലേക്ക്%<post%>:»%ിലേക്ക്  CLIT-CO ; ! "through" ! "ūṭe"
 CLIT-CC ; 
 CLIT-CO ;
 
