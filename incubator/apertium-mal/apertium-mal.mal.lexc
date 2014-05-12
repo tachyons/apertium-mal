@@ -11,7 +11,7 @@ Multichar_Symbols
 %<cnjcoo%>      ! Coordinating conjunction    ! 
 %<post%>        ! Postposition                ! 
 %<spost%>       ! Separable postposition      ! 
-%<vbser%>       ! Copula                      !
+%<vbcop%>       ! Copula                      !
 
 %<subst%>       ! Substantive                 !
 %<attr%>        ! Attributive                 !
@@ -78,8 +78,8 @@ Punctuation ;
 
 LEXICON CLIT-COP 
 
-%+ആണ്%<vbser%>:%»%{y%}ാണ് # ; ! "FIXME"
-%+ആയിരുന്നു%<vbser%>:%»%{y%}ായിരുന്നു # ;  ! "FIXME"
+%+ആക്%<vbcop%>%<pres%>:%»%{y%}ാണ് # ; ! "FIXME"
+%+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്നു # ;  ! "FIXME"
 
 # ; 
 
@@ -311,6 +311,14 @@ LEXICON V-TV-KANUKA
 
 %<v%>%<tv%>: V-COMMON-KANU ; ! ""
 
+LEXICON VBCOP-AAK
+
+%<vbcop%>%<pres%>:ണ് # ; ! "ṇ"
+
+LEXICON VBCOP-UNTU 
+
+%<vbcop%>%<pres%>:ണ്ട് # ; ! "ṇṭ"
+
 LEXICON A1 
 
 %<adj%>: # ;
@@ -393,7 +401,8 @@ LEXICON Adjectives
 
 LEXICON Verbs
 
-ആണ്%<vbser%>:ആണ് # ; ! "is" ! "āṇ"
+ആക്:ആ VBCOP-AAK ; ! "be" ! "āk"
+ഉണ്ട്:ഉ VBCOP-UNTU ; ! "have" ! "uṇṭ"
 
 കളിക്കുക:കളി V-IV-KALI ; ! "play" ! "kaḷikkuka"
 ഉപയോഗിക്കുക:ഉപയോഗി V-IV-KALI ; ! "use" ! "upayēāgikkuka"
