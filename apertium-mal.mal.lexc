@@ -335,6 +335,10 @@ LEXICON V-TV-KANUKA
 
 %<v%>%<tv%>: V-COMMON-KANU ; ! ""
 
+LEXICON V-TD-XX  ! FIXME: Placeholder lexicon
+
+%<v%>%<%TD%>%<inf_k%>:%>കുക  # ; 
+
 LEXICON VBCOP-AAK
 
 %<vbcop%>%<pres%>:ണ് CLIT-ITG ; ! "ṇ"
@@ -433,26 +437,28 @@ LEXICON Verbs
 ചോദിക്കുക:ചോദി V-IV-KALI ; ! "ask" ! "cēādikkuka"
 ശൃമിക്കു:ശൃമി V-IV-KALI ; ! "try" ! "śr̥mikku"
 സംസാരിക്കുക:സംസാരി V-IV-KALI ; ! "talk" ! "sansārikkuka"
-ഉറങ്ങുക:ഉറങ്ങ  ; ! "sleep" ! "uṟaṅṅuka"
-നോക്കുക:നോക്ക  ; ! "look" ! "nēākkuka"
 കാണുക:ക  V-TV-KANUKA ; !"see" ! "kāṇuka"
-ഒളിക്കുക:ഒളി ; ! "hide" ! "oḷikkuka"
-ഇരിക്കുക:ഇരി ; ! "sit" ! "irikkuka"
-എണ്ണുക: എണ്ണ ; ! "count" ! "eṇṇuka"
-ചെയ്യുക:ചെയ്യ ; !  "do" !"ceyyuka"
-പരതുക:പരത ; !  "search" ! "paratuka"
-ലഭിക്കുക: ലഭിക്ക ; ! "get" ! "labhikkuka"
-ചിരിക്കുക: ചിരി ; ! "laugh" ! "cirikkuka"
-പറയുക: പറ ; ! "tell" ! "paṟayuka"
-നടക്കുക:നട ; ! "walk" ! "naṭakkuka"
-കണ്ടുപിടിക്കുക:കണ്ടുപിടി ; ! "find" ! "kaṇṭupiṭikkuka"
-കണ്ടെത്തുക:കണ്ടെ ; ! "find" ! "kaṇṭettuka"
-കഴിയുക: കഴി ; ! "can" ! "kaḻiyuka"
-കേള്‍ക്കുക:കേ; ! "hear" ! "kēḷ‍kkuka"
-വരുക: വ ;!"come " ! "varuka"
-നടക്കുക: നട ;! "walk" ! "naṭakkuka"
-കുടിക്കുക: കുടി ; ! "drink" ! "kuṭikkuka"
-പോകുക: പോ ; ! "go" ! "pēākuka"
+
+നോക്കുക:നോക്ക  V-TD-XX ; ! "look" ! "nēākkuka"
+ഒളിക്കുക:ഒളി V-TD-XX ; ! "hide" ! "oḷikkuka"
+ഇരിക്കുക:ഇരി V-TD-XX ; ! "sit" ! "irikkuka"
+ലഭിക്കുക:ലഭിക്ക V-TD-XX ; ! "get" ! "labhikkuka"
+ചിരിക്കുക:ചിരി V-TD-XX ; ! "laugh" ! "cirikkuka"
+നടക്കുക:നട V-TD-XX ; ! "walk" ! "naṭakkuka"
+കണ്ടുപിടിക്കുക:കണ്ടുപിടി V-TD-XX ; ! "find" ! "kaṇṭupiṭikkuka"
+കേള്‍ക്കുക:കേ V-TD-XX ; ! "hear" ! "kēḷ‍kkuka"
+നടക്കുക:നട V-TD-XX ;! "walk" ! "naṭakkuka"
+കുടിക്കുക:കുടി V-TD-XX ; ! "drink" ! "kuṭikkuka"
+
+ഉറങ്ങുക:ഉറങ്ങ  V-TD-XX ; ! "sleep" ! "uṟaṅṅuka"
+എണ്ണുക:എണ്ണ V-TD-XX ; ! "count" ! "eṇṇuka"
+പരതുക:പരത V-TD-XX ; !  "search" ! "paratuka"
+കണ്ടെത്തുക:കണ്ടെ V-TD-XX ; ! "find" ! "kaṇṭettuka"
+ചെയ്യുക:ചെയ്യ V-TD-XX ; !  "do" !"ceyyuka"
+പറയുക:പറ V-TD-XX ; ! "tell" ! "paṟayuka"
+കഴിയുക:കഴി V-TD-XX ; ! "can" ! "kaḻiyuka"
+വരുക:വ V-TD-XX ;!"come " ! "varuka"
+പോകുക:പോ V-TD-XX ; ! "go" ! "pēākuka"
 
 
 LEXICON Punctuation
