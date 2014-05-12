@@ -297,21 +297,25 @@ LEXICON V-COMMON-KALI
 %<fut%>:%>ക്കും # ; ! "kkuṁ"
 !%<oblig%>:%>ക്കണം # ; ! "kkaṇaṁ"
 
+LEXICON V-COMMON-KANU
+
+%<inf%>:ാണുക # ; ! "̔āṇuka"
+%<pres%>:ാണുന്നു # ; ! "̔āṇunnu "
+%<past%>:ണ്ടു # ; ! "ṇṭu"
+
 LEXICON V-IV-KALI
 
 %<v%>%<iv%>: V-COMMON-KALI ; ! ""
 
-LEXICON V-V-KANUKA
+LEXICON V-TV-KANUKA
 
-%<v%>%<iv%>%<pres%>:ാണുന്നു # ; ! "̔āṇunnu "
-%<v%>%<iv%>%<past%>:ണ്ടു # ; ! "ṇṭu"
-%<v%>%<iv%>%<inf%>:ാണുക # ; ! "̔āṇuka"
-
-
+%<v%>%<tv%>: V-COMMON-KANU ; ! ""
 
 LEXICON A1 
 
 %<adj%>: # ;
+! TODO: Nominal inflection with -tu 
+!%<adj%>%<subst%>: # ;
 
 LEXICON SPOST
 
@@ -398,9 +402,9 @@ LEXICON Verbs
 സംസാരിക്കുക:സംസാരി V-IV-KALI ; ! "talk" ! "sansārikkuka"
 ഉറങ്ങുക:ഉറങ്ങ  ; ! "sleep" ! "uṟaṅṅuka"
 നോക്കുക:നോക്ക  ; ! "look" ! "nēākkuka"
-കാണുക :ക  V-V-KANUKA ; !"see" ! "kāṇuka"
-ഒളിക്കുക :ഒളി ; ! ! "hide" ! "oḷikkuka"
-ഇരിക്കുക :ഇരി ;! ! "sit" ! "irikkuka"
+കാണുക :ക  V-TV-KANUKA ; !"see" ! "kāṇuka"
+ഒളിക്കുക :ഒളി ; ! "hide" ! "oḷikkuka"
+ഇരിക്കുക :ഇരി ; ! "sit" ! "irikkuka"
 എണ്ണുക : എണ്ണ ; ! "count" ! "eṇṇuka"
 ചെയ്യുക :ചെയ്യ ; !  "do" !""
 പരതുക :പരത ; !  "search" ! ""
