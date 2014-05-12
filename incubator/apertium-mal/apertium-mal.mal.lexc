@@ -12,6 +12,7 @@ Multichar_Symbols
 %<post%>        ! Postposition                ! 
 %<spost%>       ! Separable postposition      ! 
 %<vbcop%>       ! Copula                      !
+%<qst%>         ! Question word               |
 
 %<subst%>       ! Substantive                 !
 %<attr%>        ! Attributive                 !
@@ -23,6 +24,11 @@ Multichar_Symbols
 %<past%>        ! Past tense                  ! ഭൂത കാലം 
 %<fut%>         ! Future tense                ! 
 
+%<inf_k%>       ! Infinitive                  !
+%<inf_n%>       ! Purposive infinitive        !
+%<oblig%>       ! Obligative                  ! 
+%<simul%>       ! Simultaneous                !
+
 %<nom%>         ! Nominative                  !
 %<acc%>         ! Accusative                  !
 %<dat%>         ! Dative                      !
@@ -33,8 +39,9 @@ Multichar_Symbols
 
 %<ant%>         ! Anthroponym                 !
 
-
-%<pers%>        ! Personal
+ 
+%<pers%>        ! Personal                    !
+%<itg%>         ! Interrogative               ! 
 
 %<p1%>          ! First person
 %<p2%>          ! Second person
@@ -76,9 +83,15 @@ Punctuation ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON CLIT-ITG 
+
+%+ോ%<qst%>:%»%{y%}ോ # ; 
+
+# ;
+
 LEXICON CLIT-COP 
 
-%+ആക്%<vbcop%>%<pres%>:%»%{y%}ാണ് # ; ! "FIXME"
+%+ആക്%<vbcop%>%<pres%>:%»%{y%}ാണ് CLIT-ITG ; ! "FIXME"
 %+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്നു # ;  ! "FIXME"
 
 # ; 
@@ -292,16 +305,27 @@ LEXICON NUM
 
 LEXICON V-COMMON-KALI 
 
+%<inf_k%>:%>ണുക CLIT-COP ; ! "̔āṇuka" ! FIXME
+%<inf_n%>:%>ക്കണ # ; ! "kkaṇ" ! FIXME
+
 %<pres%>:%>ക്കുന്നു # ; ! "kkunnu"
 %<past%>:%>ച്ചു # ; ! "ccu"
 %<fut%>:%>ക്കും # ; ! "kkuṁ"
-!%<oblig%>:%>ക്കണം # ; ! "kkaṇaṁ"
+
+!%<simul%>:%>
+!%<oblig%>:%>
 
 LEXICON V-COMMON-KANU
 
-%<inf%>:ാണുക # ; ! "̔āṇuka"
-%<pres%>:ാണുന്നു # ; ! "̔āṇunnu "
-%<past%>:ണ്ടു # ; ! "ṇṭu"
+%<inf_k%>:%>ാണുക CLIT-COP ; ! "̔āṇuka" ! FIXME
+%<inf_n%>:%>ക്കണ # ; ! "kkaṇ" ! FIXME
+ 
+%<pres%>:%>ാണുന്നു # ; ! "̔āṇunnu "
+%<past%>:%>ണ്ടു # ; ! "ṇṭu"
+!%<fut%>:%>
+
+!%<simul%>:%>
+!%<oblig%>:%>
 
 LEXICON V-IV-KALI
 
@@ -313,11 +337,11 @@ LEXICON V-TV-KANUKA
 
 LEXICON VBCOP-AAK
 
-%<vbcop%>%<pres%>:ണ് # ; ! "ṇ"
+%<vbcop%>%<pres%>:ണ് CLIT-ITG ; ! "ṇ"
 
 LEXICON VBCOP-UNTU 
 
-%<vbcop%>%<pres%>:ണ്ട് # ; ! "ṇṭ"
+%<vbcop%>%<pres%>:ണ്ട് CLIT-ITG ; ! "ṇṭ"
 
 LEXICON A1 
 
