@@ -305,8 +305,8 @@ LEXICON NUM
 
 LEXICON V-COMMON-KALI 
 
-%<inf_k%>:%>ണുക CLIT-COP ; ! "̔āṇuka" ! FIXME
-%<inf_n%>:%>ക്കണ # ; ! "kkaṇ" ! FIXME
+%<inf_k%>:%>ക്കുക CLIT-COP ; ! "̔kkuka" ! FIXME
+%<inf_n%>:%>ക്കാന്‍ # ; ! "kkaṇ" ! FIXME ?
 
 %<pres%>:%>ക്കുന്നു # ; ! "kkunnu"
 %<past%>:%>ച്ചു # ; ! "ccu"
@@ -318,7 +318,7 @@ LEXICON V-COMMON-KALI
 LEXICON V-COMMON-KANU
 
 %<inf_k%>:%>ാണുക CLIT-COP ; ! "̔āṇuka" ! FIXME
-%<inf_n%>:%>ക്കണ # ; ! "kkaṇ" ! FIXME
+%<inf_n%>:%>ാണാന്‍  # ; ! "̔āṇān‍" ! FIXME
  
 %<pres%>:%>ാണുന്നു # ; ! "̔āṇunnu "
 %<past%>:%>ണ്ടു # ; ! "ṇṭu"
@@ -365,7 +365,7 @@ LEXICON Postpositions
 
 LEXICON Pronouns
 
-ഞാന്:ഞാന് PRON-PERS-NNAAN ; ! "I" ! "ñān"
+ഞാന്‍:ഞാന്‍ PRON-PERS-NNAAN ; ! "I" ! "ñān"
 അവന്‍:അവ PRON-PERS-AVAN ; ! "he" ! "avan"
 അവള്‍:അവ PRON-PERS-AVAL ; ! "she" ! "avaḷ‍"
 അവര്‍:അവ PRON-PERS-AVAR ; ! "they" ! "avar"
