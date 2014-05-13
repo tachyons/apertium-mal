@@ -75,6 +75,7 @@ Multichar_Symbols
 
 LEXICON Root
 
+Conjunctions ; 
 Postpositions ;
 Pronouns ;
 Determiners ;
@@ -463,7 +464,15 @@ LEXICON SPOST-LOC
 
 %<spost%>: CLIT-N-LOC ;
 
+LEXICON CC 
+
+%<cnjcoo%>: # ; 
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Conjunctions 
+
+പക്ഷെ:പക്ഷെ CC ; ! "but" ! "pakṣe"
 
 LEXICON Postpositions 
 
