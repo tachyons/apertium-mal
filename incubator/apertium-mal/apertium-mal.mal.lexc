@@ -352,10 +352,20 @@ LEXICON V-COMMON-ARIYUKA
  
 %<pres%>:%>ിയുന്നു # ; ! "̔āṇunnu "
 %<past%>:%>ഞ്ഞു # ; ! "ṇṭu"
+LEXICON V-COMMON-ENNI
+
+%<inf_k%>:%>ുക CLIT-COP ; ! "̔uka" ! FIXME
+%<inf_n%>:%>ാന്‍# ; ! "̔̔ān‍" ! 
+ 
+%<pres%>:%>ുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ി # ; ! "i"
+
+LEXICON V-TV-ENNI
+%<v%>%<tv%>: V-COMMON-ENNI ; ! ""
 
 LEXICON V-TV-ARIYUKA
 
-%<v%>%<iv%>: V-COMMON-ARIYUKA ; ! ""
+%<v%>%<tv%>: V-COMMON-ARIYUKA ; ! ""
 
 LEXICON V-IV-KALI
 
