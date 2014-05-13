@@ -451,7 +451,11 @@ LEXICON A1
 
 LEXICON SPOST
 
-%<spost%>: # ;
+%<spost%>: CLIT-CC ;
+
+LEXICON SPOST-LOC
+
+%<spost%>: CLIT-N-LOC ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -459,6 +463,8 @@ LEXICON Postpositions
 
 നിന്ന്:നിന്ന് SPOST ; ! "from" ! "nīnn"
 കൊണ്ട്:കൊണ്ട് SPOST ; ! "with" ! "keāṇṭ"
+താഴെ:താഴെ SPOST ; ! "under" ! "tāḻe"
+മുന്നില്‍:മുന്നില്‍ SPOST-LOC ; ! "in front" ! "munnil"
 
 LEXICON Pronouns
 
