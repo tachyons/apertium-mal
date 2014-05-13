@@ -390,6 +390,16 @@ LEXICON V-COMMON-KANDETHUKA
 %<pres%>:%>ുന്നു # ; ! "̔̔unnu"
 %<past%>:%>ി # ; ! "̔i "
 
+LEXICON V-COMMON-NADAKKUKA
+%<inf_k%>:%>ക്കുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ക്കാന്‍  #; ! "̔ān‍ " ! 
+ 
+%<pres%>:%>ക്കുന്നു # ; ! "̔̔unnu"
+%<past%>:%ന്നു # ; ! "̔i "
+
+LEXICON V-IV-NADAKKUKA
+%<v%>%<iv%>: V-COMMON-NADAKKUKA ; ! "" 
+
 LEXICON V-TV-KANDETHUKA
 %<v%>%<tv%>: V-COMMON-KANDETHUKA ; ! "" 
 
