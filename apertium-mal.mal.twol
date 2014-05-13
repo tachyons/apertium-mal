@@ -21,7 +21,9 @@ Sets
 RVowU = ു ; 
 
 ! The vowel on the right is -a
-RVowA = ധ മ ര ച ട ള  ി െ ക ;
+RVowA = ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട ഠ ഡ 
+                   ഢ ണ ത ഥ ദ ധ ന ഩ പ ഫ ബ ഭ മ യ ര 
+                    റ ല ള ഴ വ ശ ഷ സ ഹ   ി െ  ;
  
 ! The vowel on the right is -m
 RVowM =  ം ; 
