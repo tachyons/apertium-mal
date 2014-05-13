@@ -323,7 +323,7 @@ LEXICON NUM
 
 LEXICON V-COMMON-KALI 
 
-%<inf_k%>:%>ക്കുക CLIT-COP ; ! "̔kkuka" ! FIXME
+%<inf_k%>:%>ക്കുക CLIT-CC ; ! "̔kkuka" ! FIXME
 %<inf_n%>:%>ക്കാന്‍ # ; ! "kkaṇ" ! FIXME ?
 
 %<pres%>:%>ക്കുന്നു # ; ! "kkunnu"
@@ -335,7 +335,7 @@ LEXICON V-COMMON-KALI
 
 LEXICON V-COMMON-KANU
 
-%<inf_k%>:%>ാണുക CLIT-COP ; ! "̔āṇuka" ! FIXME
+%<inf_k%>:%>ാണുക CLIT-CC ; ! "̔āṇuka" ! FIXME
 %<inf_n%>:%>ാണാന്‍  # ; ! "̔āṇān‍" ! FIXME
  
 %<pres%>:%>ാണുന്നു # ; ! "̔āṇunnu "
@@ -347,22 +347,22 @@ LEXICON V-COMMON-KANU
 
 LEXICON V-COMMON-ARIYUKA
 
-%<inf_k%>:%>ിയുക CLIT-COP ; ! "̔āṇuka" ! FIXME
+%<inf_k%>:%>ിയുക CLIT-CC ; ! "̔āṇuka" ! FIXME
 %<inf_n%>:%>ിയാന്‍ # ; ! "̔āṇān‍" ! FIXME
  
 %<pres%>:%>ിയുന്നു # ; ! "̔āṇunnu "
 %<past%>:%>ഞ്ഞു # ; ! "ṇṭu"
 LEXICON V-COMMON-ENNI
 
-%<inf_k%>:%>ുക CLIT-COP ; ! "̔uka" ! FIXME
-%<inf_n%>:%>ാന്‍# ; ! "̔̔ān‍" ! 
+%<inf_k%>:%>ുക CLIT-CC ; ! "̔uka" ! FIXME
+%<inf_n%>:%>ാൻ # ; ! "̔̔ān‍" ! 
  
 %<pres%>:%>ുന്നു # ; ! "̔̔unnu"
 %<past%>:%>ി # ; ! "i"
 
 LEXICON V-COMMON-LABHIKKUKA
 
-%<inf_k%>:%>ിക്കുക  CLIT-COP ; ! "̔uka" ! FIXME
+%<inf_k%>:%>ിക്കുക  CLIT-CC ; ! "̔uka" ! FIXME
 %<inf_n%>:%>ിക്കാന്‍ #; ! "̔̔ān‍" ! 
  
 %<pres%>:%>ുന്നു # ; ! "̔̔unnu"
@@ -370,14 +370,14 @@ LEXICON V-COMMON-LABHIKKUKA
 
 LEXICON V-COMMON-NOKKUKA
 
-%<inf_k%>:%>ുക  CLIT-COP ; ! "̔uka" ! FIXME
+%<inf_k%>:%>ുക  CLIT-CC ; ! "̔uka" ! FIXME
 %<inf_n%>:%>ക്കാന്‍ #; ! "kkān‍" ! 
  
 %<pres%>:%>ന്നു # ; ! "̔̔unnu"
 %<past%>:%>ി # ; ! "i"
 
 LEXICON V-COMMON-KELKKUKA
-%<inf_k%>:%>ള്‍കുുക  CLIT-COP ; ! "̔ḷ‍kuuka" ! FIXME
+%<inf_k%>:%>ള്‍കുുക  CLIT-CC ; ! "̔ḷ‍kuuka" ! FIXME
 %<inf_n%>:%>ള്‍ക്കാന്‍ #; ! "ḷ‍kkān‍" ! 
  
 %<pres%>:%>ള്‍കുന്നു # ; ! "̔̔ḷ‍kunnu"
@@ -511,12 +511,12 @@ LEXICON ProperNouns
 LEXICON Adjectives 
 
 ചെറിയ:ചെറിയ A1 ; ! "small" ! "ceṟiya"
-പുതിയ :പുതിയ A1 ; ! "new" ! "putiya"
+പുതിയ:പുതിയ A1 ; ! "new" ! "putiya"
 പഴയ:പഴയ A1 ; ! "old ! "paḻaya"
-നീണ്ട ;നീണ്ട A1 ; ! "long" ! "nīṇṭa"
-വലിയ;വലിയ A1 ; ! "big" ! "valiya"
+നീണ്ട:നീണ്ട A1 ; ! "long" ! "nīṇṭa"
+വലിയ:വലിയ A1 ; ! "big" ! "valiya"
 നല്ല:നല്ല A1 ; ! "good" ! "nalla"
-ചീത്ത;ചീത്ത A1 ; ! "bad" ! "cītta"
+ചീത്ത:ചീത്ത A1 ; ! "bad" ! "cītta"
 നേരിയ :നേരിയ A1 ; ! "thin" ! "nēriya"
 ഇളയ:ഇളയ A1 ; ! "young" ! "iḷaya"
 മൂത്ത:മൂത്ത A1 ; ! "old" ! "mūtta"
