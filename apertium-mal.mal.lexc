@@ -288,7 +288,7 @@ LEXICON PRON-PERS-NNAAN
 LEXICON PRON-PERS-NII
 
 %<prn%>%<pers%>%<p2%>%<mf%>%<sg%>%<nom%>:ീ CLIT-N-NOM ; ! "i"
-%<prn%>%<pers%>%<p2%>%<mf%>%<sg%>%<acc%>:ിന്നെ CLIT-N-NOM ; ! "inne"
+%<prn%>%<pers%>%<p2%>%<mf%>%<sg%>%<acc%>:ിന്നെ CLIT-N-ACC ; ! "inne"
 
 LEXICON PRON-PERS-AVAN
 
