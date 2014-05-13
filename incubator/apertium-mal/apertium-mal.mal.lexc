@@ -383,6 +383,15 @@ LEXICON V-COMMON-KELKKUKA
 %<pres%>:%>ള്‍കുന്നു # ; ! "̔̔ḷ‍kunnu"
 %<past%>:%>ട്ടു # ; ! "ṭṭu"
 
+LEXICON V-COMMON-KANDETHUKA
+%<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ാന്‍  #; ! "̔ān‍ " ! 
+ 
+%<pres%>:%>ുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ി # ; ! "̔i "
+
+LEXICON V-TV-KANDETHUKA
+%<v%>%<tv%>: V-COMMON-KANDETHUKA ; ! "" 
 
 LEXICON V-TV-KELKKUKA
 %<v%>%<tv%>: V-COMMON-KELKKUKA ; ! "" 
@@ -548,7 +557,7 @@ LEXICON Verbs
 ഉറങ്ങുക:ഉറങ്ങ  V-IV-URANGI ; ! "sleep" ! "uṟaṅṅuka"
 എണ്ണുക:എണ്ണ V-TV-ENNI ; ! "count" ! "eṇṇuka"
 പരതുക:പരത V-TV-ENNI ; !  "search" ! "paratuka"
-കണ്ടെത്തുക:കണ്ടെ V-TV-XX ; ! "find" ! "kaṇṭettuka"
+കണ്ടെത്തുക:കണ്ടെത്ത  V-TV-KANDETHUKA ; ! "find" ! "kaṇṭettuka"
 ചെയ്യുക:ചെയ്യ V-TV-XX ; !  "do" !"ceyyuka"
 പറയുക:പറ V-TV-ARIYUKA ; ! "tell" ! "paṟayuka"
 കഴിയുക:കഴി V-TV-ARIYUKA ; ! "can" ! "kaḻiyuka"
