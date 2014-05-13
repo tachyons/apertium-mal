@@ -345,6 +345,18 @@ LEXICON V-COMMON-KANU
 !%<simul%>:%>
 !%<oblig%>:%>
 
+LEXICON V-COMMON-ARIYUKA
+
+%<inf_k%>:%>ിയുക CLIT-COP ; ! "̔āṇuka" ! FIXME
+%<inf_n%>:%>ിയാന്‍ # ; ! "̔āṇān‍" ! FIXME
+ 
+%<pres%>:%>ിയുന്നു # ; ! "̔āṇunnu "
+%<past%>:%>ഞ്ഞു # ; ! "ṇṭu"
+
+LEXICON V-TV-ARIYUKA
+
+%<v%>%<iv%>: V-COMMON-ARIYUKA ; ! ""
+
 LEXICON V-IV-KALI
 
 %<v%>%<iv%>: V-COMMON-KALI ; ! ""
@@ -479,27 +491,26 @@ LEXICON Verbs
 സംസാരിക്കുക:സംസാരി V-IV-KALI ; ! "talk" ! "sansārikkuka"
 കാണുക:ക  V-TV-KANUKA ; !"see" ! "kāṇuka"
 
-അറിയുക:അറിയ V-TV-XX ; ! "know" ! "aṟiyuka"
-നോക്കുക:നോക്ക  V-TD-XX ; ! "look" ! "nēākkuka"
-ഒളിക്കുക:ഒളി V-TD-XX ; ! "hide" ! "oḷikkuka"
-ഇരിക്കുക:ഇരി V-TD-XX ; ! "sit" ! "irikkuka"
-ലഭിക്കുക:ലഭിക്ക V-TD-XX ; ! "get" ! "labhikkuka"
-ചിരിക്കുക:ചിരി V-TD-XX ; ! "laugh" ! "cirikkuka"
-നടക്കുക:നട V-TD-XX ; ! "walk" ! "naṭakkuka"
-കണ്ടുപിടിക്കുക:കണ്ടുപിടി V-TD-XX ; ! "find" ! "kaṇṭupiṭikkuka"
-കേള്‍ക്കുക:കേ V-TD-XX ; ! "hear" ! "kēḷ‍kkuka"
-നടക്കുക:നട V-TD-XX ;! "walk" ! "naṭakkuka"
-കുടിക്കുക:കുടി V-TD-XX ; ! "drink" ! "kuṭikkuka"
+അറിയുക:അറി V-TV-ARIYUKA ; ! "know" ! "aṟiyuka"
+നോക്കുക:നോക്ക  V-TV-NOKKUKA ; ! "look" ! "nēākkuka"
+ഒളിക്കുക:ഒളി V-IV-KALI ; ! "hide" ! "oḷikkuka"
+ഇരിക്കുക:ഇരി V-IV-IRUNNU ; ! "sit" ! "irikkuka"
+ലഭിക്കുക:ലഭിക്ക V-TV-LABHIKKUKA ; ! "get" ! "labhikkuka"
+ചിരിക്കുക:ചിരി V-IV-KALI ; ! "laugh" ! "cirikkuka"
+നടക്കുക:നട V-IV-NADAKKUKA ; ! "walk" ! "naṭakkuka"
+കണ്ടുപിടിക്കുക:കണ്ടുപിടി V-TV-LABHIKKUKA ; ! "find" ! "kaṇṭupiṭikkuka"
+കേള്‍ക്കുക:കേ V-TV-KELKKUKA ; ! "hear" ! "kēḷ‍kkuka"
+കുടിക്കുക:കുടി V-TV-LABHIKKUKA ; ! "drink" ! "kuṭikkuka"
 
-ഉറങ്ങുക:ഉറങ്ങ  V-TD-XX ; ! "sleep" ! "uṟaṅṅuka"
-എണ്ണുക:എണ്ണ V-TD-XX ; ! "count" ! "eṇṇuka"
-പരതുക:പരത V-TD-XX ; !  "search" ! "paratuka"
-കണ്ടെത്തുക:കണ്ടെ V-TD-XX ; ! "find" ! "kaṇṭettuka"
-ചെയ്യുക:ചെയ്യ V-TD-XX ; !  "do" !"ceyyuka"
-പറയുക:പറ V-TD-XX ; ! "tell" ! "paṟayuka"
-കഴിയുക:കഴി V-TD-XX ; ! "can" ! "kaḻiyuka"
-വരുക:വ V-TD-XX ;!"come " ! "varuka"
-പോകുക:പോ V-TD-XX ; ! "go" ! "pēākuka"
+ഉറങ്ങുക:ഉറങ്ങ  V-IV-URANGI ; ! "sleep" ! "uṟaṅṅuka"
+എണ്ണുക:എണ്ണ V-TV-ENNI ; ! "count" ! "eṇṇuka"
+പരതുക:പരത V-TV-ENNI ; !  "search" ! "paratuka"
+കണ്ടെത്തുക:കണ്ടെ V-TV-XX ; ! "find" ! "kaṇṭettuka"
+ചെയ്യുക:ചെയ്യ V-TV-XX ; !  "do" !"ceyyuka"
+പറയുക:പറ V-TV-ARIYUKA ; ! "tell" ! "paṟayuka"
+കഴിയുക:കഴി V-TV-ARIYUKA ; ! "can" ! "kaḻiyuka"
+വരുക:വ V-IV-VARUKA ;!"come " ! "varuka"
+പോകുക:പോ V-IV-POKUKA ; ! "go" ! "pēākuka"
 
 
 LEXICON Punctuation
