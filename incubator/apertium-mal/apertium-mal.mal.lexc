@@ -285,6 +285,10 @@ LEXICON PRON-PERS-NNAAN
 
 %<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<nom%>: CLIT-N-NOM ; 
 
+LEXICON PRON-PERS-NII
+
+%<prn%>%<pers%>%<p2%>%<mf%>%<sg%>%<nom%>: CLIT-N-NOM ; 
+
 LEXICON PRON-PERS-AVAN
 
 %<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<nom%>:ന്‍ CLIT-N-NOM ; 
@@ -384,6 +388,7 @@ LEXICON Postpositions
 LEXICON Pronouns
 
 ഞാന്‍:ഞാന്‍ PRON-PERS-NNAAN ; ! "I" ! "ñān"
+നീ:നീ PRON-PERS-NII ; ! "you" ! "nī"
 അവന്‍:അവ PRON-PERS-AVAN ; ! "he" ! "avan"
 അവള്‍:അവ PRON-PERS-AVAL ; ! "she" ! "avaḷ‍"
 അവര്‍:അവ PRON-PERS-AVAR ; ! "they" ! "avar"
