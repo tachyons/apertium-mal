@@ -42,6 +42,7 @@ Multichar_Symbols
  
 %<pers%>        ! Personal                    !
 %<itg%>         ! Interrogative               ! 
+%<dem%>         ! Demonstrative               !
 
 %<p1%>          ! First person
 %<p2%>          ! Second person
@@ -293,6 +294,10 @@ LEXICON PRON-PERS-AVAL
 %<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<dat%>:%>ള്‍ക് CLIT-N ; ! "k"
 %<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<gen%>:%>ളുടെ CLIT-N ; ! "k"
 
+LEXICON PRON-DEM-AT
+
+%<prn%>%<dem%>%<sg%>%<nom%>: CLIT-N-NOM ; 
+
 LEXICON NUM-ONNU
 
 %<num%>:രു # ; 
@@ -369,6 +374,8 @@ LEXICON Pronouns
 അവന്‍:അവ PRON-PERS-AVAN ; ! "he" ! "avan"
 അവള്‍:അവ PRON-PERS-AVAL ; ! "she" ! "avaḷ‍"
 അവര്‍:അവ PRON-PERS-AVAR ; ! "they" ! "avar"
+
+അത്:അത് PRON-DEM-AT ; ! "that" ! "at"
 
 LEXICON Numerals
 
