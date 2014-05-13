@@ -6,6 +6,7 @@ Multichar_Symbols
 %<v%>           ! Verb                        !
 %<np%>          ! Proper noun                 ! 
 %<prn%>         ! Pronoun                     !
+%<det%>         ! Determiner                  ! 
 %<adj%>         ! Adjective                   ! 
 %<num%>         ! Numeral                     !
 %<cnjcoo%>      ! Coordinating conjunction    ! 
@@ -75,6 +76,7 @@ LEXICON Root
 
 Postpositions ;
 Pronouns ;
+Determiners ;
 Numerals ;
 NominalStems ;
 ProperNouns ; 
@@ -352,6 +354,10 @@ LEXICON VBCOP-UNTU
 
 %<vbcop%>%<pres%>:ണ്ട് CLIT-ITG ; ! "ṇṭ"
 
+LEXICON DET-DEM
+
+%<det%>%<dem%>: # ;
+
 LEXICON A1 
 
 %<adj%>: # ;
@@ -376,6 +382,10 @@ LEXICON Pronouns
 അവര്‍:അവ PRON-PERS-AVAR ; ! "they" ! "avar"
 
 അത്:അത് PRON-DEM-AT ; ! "that" ! "at"
+
+LEXICON Determiners
+
+അത്:അത് DET-DEM ; ! "that" ! "at"
 
 LEXICON Numerals
 
@@ -433,15 +443,15 @@ LEXICON ProperNouns
 LEXICON Adjectives 
 
 ചെറിയ:ചെറിയ A1 ; ! "small" ! "ceṟiya"
-പുതിയ :പുതിയ AX ; ! "new" ! "putiya"
-പഴയ:പഴയ AX ; ! "old ! "paḻaya"
-നീണ്ട ;നീണ്ട AX ; ! "long" ! "nīṇṭa"
-വലിയ;വലിയ AX ; ! "big" ! "valiya"
-നല്ല:നല്ല AX ; ! "good" ! "nalla"
-ചീത്ത;ചീത്ത AX ; ! "bad" ! "cītta"
-നേരിയ :നേരിയ AX ; ! "thin" ! "nēriya"
-ഇളയ:ഇളയ AX ; ! "young" ! "iḷaya"
-മൂത്ത:മൂത്ത AX ; ! "old" ! "mūtta"
+പുതിയ :പുതിയ A1 ; ! "new" ! "putiya"
+പഴയ:പഴയ A1 ; ! "old ! "paḻaya"
+നീണ്ട ;നീണ്ട A1 ; ! "long" ! "nīṇṭa"
+വലിയ;വലിയ A1 ; ! "big" ! "valiya"
+നല്ല:നല്ല A1 ; ! "good" ! "nalla"
+ചീത്ത;ചീത്ത A1 ; ! "bad" ! "cītta"
+നേരിയ :നേരിയ A1 ; ! "thin" ! "nēriya"
+ഇളയ:ഇളയ A1 ; ! "young" ! "iḷaya"
+മൂത്ത:മൂത്ത A1 ; ! "old" ! "mūtta"
 
 
 LEXICON Verbs
