@@ -360,6 +360,39 @@ LEXICON V-COMMON-ENNI
 %<pres%>:%>ുന്നു # ; ! "̔̔unnu"
 %<past%>:%>ി # ; ! "i"
 
+LEXICON V-COMMON-LABHIKKUKA
+
+%<inf_k%>:%>ിക്കുക  CLIT-COP ; ! "̔uka" ! FIXME
+%<inf_n%>:%>ിക്കാന്‍ #; ! "̔̔ān‍" ! 
+ 
+%<pres%>:%>ുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ി # ; ! "i"
+
+LEXICON V-COMMON-NOKKUKA
+
+%<inf_k%>:%>ുക  CLIT-COP ; ! "̔uka" ! FIXME
+%<inf_n%>:%>ക്കാന്‍ #; ! "kkān‍" ! 
+ 
+%<pres%>:%>ന്നു # ; ! "̔̔unnu"
+%<past%>:%>ി # ; ! "i"
+
+LEXICON V-COMMON-KELKKUKA
+%<inf_k%>:%>ള്‍കുുക  CLIT-COP ; ! "̔ḷ‍kuuka" ! FIXME
+%<inf_n%>:%>ള്‍ക്കാന്‍ #; ! "ḷ‍kkān‍" ! 
+ 
+%<pres%>:%>ള്‍കുന്നു # ; ! "̔̔ḷ‍kunnu"
+%<past%>:%>ട്ടു # ; ! "ṭṭu"
+
+
+LEXICON V-TV-KELKKUKA
+%<v%>%<tv%>: V-COMMON-KELKKUKA ; ! "" 
+ 
+LEXICON V-TV-NOKKUKA 
+%<v%>%<tv%>: V-COMMON-NOKKUKA ; ! ""
+
+LEXICON V-TV-LABHIKKUKA 
+%<v%>%<tv%>: V-COMMON-LABHIKKUKA ; ! ""
+
 LEXICON V-TV-ENNI
 %<v%>%<tv%>: V-COMMON-ENNI ; ! ""
 
@@ -505,12 +538,12 @@ LEXICON Verbs
 നോക്കുക:നോക്ക  V-TV-NOKKUKA ; ! "look" ! "nēākkuka"
 ഒളിക്കുക:ഒളി V-IV-KALI ; ! "hide" ! "oḷikkuka"
 ഇരിക്കുക:ഇരി V-IV-IRUNNU ; ! "sit" ! "irikkuka"
-ലഭിക്കുക:ലഭിക്ക V-TV-LABHIKKUKA ; ! "get" ! "labhikkuka"
+ലഭിക്കുക:ലഭ V-TV-LABHIKKUKA ; ! "get" ! "labhikkuka"
 ചിരിക്കുക:ചിരി V-IV-KALI ; ! "laugh" ! "cirikkuka"
 നടക്കുക:നട V-IV-NADAKKUKA ; ! "walk" ! "naṭakkuka"
-കണ്ടുപിടിക്കുക:കണ്ടുപിടി V-TV-LABHIKKUKA ; ! "find" ! "kaṇṭupiṭikkuka"
+കണ്ടുപിടിക്കുക:കണ്ടുപിട V-TV-LABHIKKUKA ; ! "find" ! "kaṇṭupiṭikkuka"
 കേള്‍ക്കുക:കേ V-TV-KELKKUKA ; ! "hear" ! "kēḷ‍kkuka"
-കുടിക്കുക:കുടി V-TV-LABHIKKUKA ; ! "drink" ! "kuṭikkuka"
+കുടിക്കുക:കുട V-TV-LABHIKKUKA ; ! "drink" ! "kuṭikkuka"
 
 ഉറങ്ങുക:ഉറങ്ങ  V-IV-URANGI ; ! "sleep" ! "uṟaṅṅuka"
 എണ്ണുക:എണ്ണ V-TV-ENNI ; ! "count" ! "eṇṇuka"
