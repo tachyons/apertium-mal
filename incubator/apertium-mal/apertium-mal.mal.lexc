@@ -8,6 +8,7 @@ Multichar_Symbols
 %<prn%>         ! Pronoun                     !
 %<det%>         ! Determiner                  ! 
 %<adj%>         ! Adjective                   ! 
+%<adv%>         ! Adverb                      !
 %<num%>         ! Numeral                     !
 %<cnjcoo%>      ! Coordinating conjunction    ! 
 %<post%>        ! Postposition                ! 
@@ -81,6 +82,7 @@ Numerals ;
 NominalStems ;
 ProperNouns ; 
 Adjectives ;
+Adverbs ; 
 Verbs ; 
 Punctuation ; 
 
@@ -449,6 +451,10 @@ LEXICON A1
 ! TODO: Nominal inflection with -tu 
 !%<adj%>%<subst%>: # ;
 
+LEXICON ADV-VIINTUM
+
+%<adv%>: # ; ! FIXME: check for clitics
+
 LEXICON SPOST
 
 %<spost%>: CLIT-CC ;
@@ -547,6 +553,9 @@ LEXICON Adjectives
 ഇളയ:ഇളയ A1 ; ! "young" ! "iḷaya"
 മൂത്ത:മൂത്ത A1 ; ! "old" ! "mūtta"
 
+LEXICON Adverbs
+
+വീണ്ടും:വീണ്ടും ADV-VIINTUM ; ! "again" ! "vīṇṭuṁ"
 
 LEXICON Verbs
 
