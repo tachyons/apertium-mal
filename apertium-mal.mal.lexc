@@ -409,6 +409,16 @@ LEXICON V-COMMON-NADAKKUKA
 %<pres%>:%>ക്കുന്നു # ; ! "̔̔unnu"
 %<past%>:%ന്നു # ; ! "̔i "
 
+LEXICON V-COMMON-POKUKA
+%<inf_k%>:%>കുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>കാന്‍  #; ! "̔ān‍ " ! 
+ 
+%<pres%>:%>കുന്നു # ; ! "̔̔unnu"
+%<past%>:%യി # ; ! "̔i "
+
+LEXICON V-IV-POKUKA 
+%<v%>%<iv%>: V-COMMON-POKUKA ; ! "" 
+
 LEXICON V-IV-NADAKKUKA
 %<v%>%<iv%>: V-COMMON-NADAKKUKA ; ! "" 
 
@@ -577,6 +587,9 @@ LEXICON Adjectives
 LEXICON Adverbs
 
 വീണ്ടും:വീണ്ടും ADV-VIINTUM ; ! "again" ! "vīṇṭuṁ"
+മെല്ലെ:മെല്ലെ ADV-MELLE ; ! "slow" ! "melle"
+പെട്ടെന്ന്:പെട്ടെന്ന്  ADV-XX ; ! "sudden" ! "peṭṭenn"
+വീണ്ടും:വീണ്ടും ADV-xx ; ! "again" ! "vīṇṭuṁ"
 
 LEXICON Verbs
 
