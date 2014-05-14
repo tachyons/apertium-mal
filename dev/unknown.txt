@@ -74,20 +74,20 @@ don't know; ? ; അറിയില്ല;  ? ; aṟiyilla; 	 ^അറിയില
 can hear; ? ; കേള്‍ക്കാം;  ? ; kēḷ‍kkāṁ; 	 ^കേള്/*കേള്$‍^ക്കാം/*ക്കാം$	 ^kēḷ/*kēḷ$‍^kkāṁ/*kkāṁ$
 sleeping; ? ; ഉറങ്ങിക്കൊണ്ടിരിക്കുന്നു;  ? ; uṟaṅṅikkeāṇṭirikkunnu; 	 ^ഉറങ്ങിക്കൊണ്ടിരിക്കുന്നു/*ഉറങ്ങിക്കൊണ്ടിരിക്കുന്നു$	 ^uṟaṅṅikkeāṇṭirikkunnu/*uṟaṅṅikkeāṇṭirikkunnu$
 
-XtransX; ? ; സന്തോഷം;  ? ; santēāṣaṁ; 	 ^സന്തോഷം/*സന്തോഷം$	 ^santēāṣaṁ/*santēāṣaṁ$
-XtransX; ? ; സംസാരിച്ചാല്‍;  ? ; sansāriccāl‍; 	 ^സംസാരിച്ചാല്/*സംസാരിച്ചാല്$‍	 ^sansāriccāl/*sansāriccāl$‍
+happy; ? ; സന്തോഷം;  ? ; santēāṣaṁ; 	 ^സന്തോഷം/*സന്തോഷം$	 ^santēāṣaṁ/*santēāṣaṁ$
+talk<conditional>; ? ; സംസാരിച്ചാല്‍;  ? ; sansāriccāl‍; 	 ^സംസാരിച്ചാല്/*സംസാരിച്ചാല്$‍	 ^sansāriccāl/*sansāriccāl$‍
 XtransX; ? ; ള്ളതെന്നു;  ? ; ḷḷatennu; 	 ^ള്ളതെന്നു/*ള്ളതെന്നു$	 ^ḷḷatennu/*ḷḷatennu$
-XtransX; ? ; ലഭിക്കാറില്ല;  ? ; labhikkāṟilla; 	 ^ലഭിക്കാറില്ല/*ലഭിക്കാറില്ല$	 ^labhikkāṟilla/*labhikkāṟilla$
+do not get; ? ; ലഭിക്കാറില്ല;  ? ; labhikkāṟilla; 	 ^ലഭിക്കാറില്ല/*ലഭിക്കാറില്ല$	 ^labhikkāṟilla/*labhikkāṟilla$
 XtransX; ? ; വരുന്നത്;  ? ; varunnat; 	 ^വരുന്നത്/*വരുന്നത്$	 ^varunnat/*varunnat$
-XtransX; ? ; നടന്നപ്പോള്‍;  ? ; naṭannappēāḷ‍; 	 ^നടന്നപ്പോള്/*നടന്നപ്പോള്$‍	 ^naṭannappēāḷ/*naṭannappēāḷ$‍
-XtransX; ? ; പറയാന്‍;  ? ; paṟayān‍; 	 ^പറയാന്/*പറയാന്$‍	 ^paṟayān/*paṟayān$‍
-XtransX; ? ; പിന്നെ;  ? ; pinne; 	 ^പിന്നെ/*പിന്നെ$	 ^pinne/*pinne$
+when walked; ? ; നടന്നപ്പോള്‍;  ? ; naṭannappēāḷ‍; 	 ^നടന്നപ്പോള്/*നടന്നപ്പോള്$‍	 ^naṭannappēāḷ/*naṭannappēāḷ$‍
+to say; ? ; പറയാന്‍;  ? ; paṟayān‍; 	 ^പറയാന്/*പറയാന്$‍	 ^paṟayān/*paṟayān$‍
+then; ? ; പിന്നെ;  ? ; pinne; 	 ^പിന്നെ/*പിന്നെ$	 ^pinne/*pinne$
 XtransX; ? ; പേര്‍ക്കും;  ? ; pēr‍kkuṁ; 	 ^പേര്/*പേര്$‍^ക്കും/*ക്കും$	 ^pēr/*pēr$‍^kkuṁ/*kkuṁ$
-XtransX; ? ; പോയതെന്നു;  ? ; pēāyatennu; 	 ^പോയതെന്നു/*പോയതെന്നു$	 ^pēāyatennu/*pēāyatennu$
+; ? ; പോയതെന്നു;  ? ; pēāyatennu; 	 ^പോയതെന്നു/*പോയതെന്നു$	 ^pēāyatennu/*pēāyatennu$
 XtransX; ? ; കൊണ്ടാണെന്നു;  ? ; keāṇṭāṇennu; 	 ^കൊണ്ടാണെന്നു/*കൊണ്ടാണെന്നു$	 ^keāṇṭāṇennu/*keāṇṭāṇennu$
 XtransX; ? ; കൊണ്ടു;  ? ; keāṇṭu; 	 ^കൊണ്ടു/*കൊണ്ടു$	 ^keāṇṭu/*keāṇṭu$
-XtransX; ? ; ചെയ്യുന്നത്;  ? ; ceyyunnat; 	 ^ചെയ്യുന്നത്/*ചെയ്യുന്നത്$	 ^ceyyunnat/*ceyyunnat$
-XtransX; ? ; അകത്താണ്;  ? ; akattāṇ; 	 ^അകത്താണ്/*അകത്താണ്$	 ^akattāṇ/*akattāṇ$
-XtransX; ? ; അങ്ങനെ;  ? ; aṅṅane; 	 ^അങ്ങനെ/*അങ്ങനെ$	 ^aṅṅane/*aṅṅane$
+do; ? ; ചെയ്യുന്നത്;  ? ; ceyyunnat; 	 ^ചെയ്യുന്നത്/*ചെയ്യുന്നത്$	 ^ceyyunnat/*ceyyunnat$
+is inside; ? ; അകത്താണ്;  ? ; akattāṇ; 	 ^അകത്താണ്/*അകത്താണ്$	 ^akattāṇ/*akattāṇ$
+like that; ? ; അങ്ങനെ;  ? ; aṅṅane; 	 ^അങ്ങനെ/*അങ്ങനെ$	 ^aṅṅane/*aṅṅane$
 XtransX; ? ; എന്നു;  ? ; ennu; 	 ^എന്നു/*എന്നു$	 ^ennu/*ennu$
-XtransX; ? ; തീര്‍ന്നപ്പോള്‍;  ? ; tīr‍nnappēāḷ‍; 	 ^തീര്/*തീര്$‍^ന്നപ്പോള്/*ന്നപ്പോള്$‍	 ^tīr/*tīr$‍^nnappēāḷ/*nnappēāḷ$‍
+when finished; ? ; തീര്‍ന്നപ്പോള്‍;  ? ; tīr‍nnappēāḷ‍; 	 ^തീര്/*തീര്$‍^ന്നപ്പോള്/*ന്നപ്പോള്$‍	 ^tīr/*tīr$‍^nnappēāḷ/*nnappēāḷ$‍
