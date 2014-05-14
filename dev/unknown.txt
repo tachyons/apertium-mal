@@ -1,10 +1,6 @@
 	; behind; ? ; പിറകില്‍;  ? ; piṟakil‍; 	 ^പിറകില്/*പിറകില്$‍	 ^piṟakil/*piṟakil$‍
-	; outside; ? ; പുറത്ത്;  ? ; puṟatt; 	 ^പുറത്ത്/*പുറത്ത്$	 ^puṟatt/*puṟatt$
 	; XtransX; ? ; പുറത്തേക്;  ? ; puṟattēk; 	 ^പുറത്തേക്/*പുറത്തേക്$	 ^puṟattēk/*puṟattēk$
-	; near; ? ; അടുത്ത്;  ? ; aṭutt; 	 ^അടുത്ത്/*അടുത്ത്$	 ^aṭutt/*aṭutt$
 	; towards; ? ; അടുത്തേക്;  ? ; aṭuttēk; 	 ^അടുത്തേക്/*അടുത്തേക്$	 ^aṭuttēk/*aṭuttēk$
-	; towards; ? ; അടുത്തേക്ക്;  ? ; aṭuttēkk; 	 ^അടുത്തേക്ക്/*അടുത്തേക്ക്$	 ^aṭuttēkk/*aṭuttēkk$
-	; is inside; ? ; അകത്താണ്;  ? ; akattāṇ; 	 ^അകത്താണ്/*അകത്താണ്$	 ^akattāṇ/*akattāṇ$
 	; around; ? ; ചുറ്റും;  ? ; cuṟṟuṁ; 	 ^ചുറ്റും/*ചുറ്റും$	 ^cuṟṟuṁ/*cuṟṟuṁ$
 	; there; ? ; അവിടെ;  ? ; aviṭe; 	 ^അവിടെ/*അവിടെ$	 ^aviṭe/*aviṭe$
 
