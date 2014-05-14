@@ -413,14 +413,15 @@ LEXICON V-COMMON-NADAKKUKA
 %<inf_n%>:%>ക്കാന്‍  #; ! "̔ān‍ " ! 
  
 %<pres%>:%>ക്കുന്നു # ; ! "̔̔unnu"
-%<past%>:%ന്നു # ; ! "̔i "
+%<past%>:%>ന്നു # ; ! "̔i "
 
 LEXICON V-COMMON-POKUKA
 %<inf_k%>:%>കുക  CLIT-CC ; ! "uka" ! FIXME
 %<inf_n%>:%>കാന്‍  #; ! "̔ān‍ " ! 
  
 %<pres%>:%>കുന്നു # ; ! "̔̔unnu"
-%<past%>:%യി # ; ! "̔i "
+%<past%>:%>യി # ; ! "̔i "
+
 
 LEXICON V-IV-POKUKA 
 %<v%>%<iv%>: V-COMMON-POKUKA ; ! "" 
@@ -509,6 +510,7 @@ LEXICON Postpositions
 അടുത്ത്:അടുത്ത് SPOST-LOC ; ! "near" ! "aṭutt"
 അകത്ത്:അകത്ത് SPOST-LOC ; ! "inside" ! ""
 പുറത്ത്:പുറത്ത് SPOST-LOC ; ! "outside" ! ""
+പിറകില്:പിറകില് SPOST-LOC ; ! "behind" ! ""
 
 LEXICON Pronouns
 
