@@ -297,6 +297,7 @@ LEXICON PRON-PERS-AVAN
 
 %<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<nom%>:ന്‍ CLIT-N-NOM ; 
 %<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<gen%>:ന്റെ CLIT-N ; 
+%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<acc%>:നെ CLIT-N-ACC ; 
 
 LEXICON PRON-PERS-AVAR
 
