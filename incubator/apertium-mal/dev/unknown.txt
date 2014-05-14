@@ -4,8 +4,9 @@
 	; near; ? ; അടുത്ത്;  ? ; aṭutt; 	 ^അടുത്ത്/*അടുത്ത്$	 ^aṭutt/*aṭutt$
 	; towards; ? ; അടുത്തേക്;  ? ; aṭuttēk; 	 ^അടുത്തേക്/*അടുത്തേക്$	 ^aṭuttēk/*aṭuttēk$
 	; towards; ? ; അടുത്തേക്ക്;  ? ; aṭuttēkk; 	 ^അടുത്തേക്ക്/*അടുത്തേക്ക്$	 ^aṭuttēkk/*aṭuttēkk$
-	; there; ? ; അവിടെ;  ? ; aviṭe; 	 ^അവിടെ/*അവിടെ$	 ^aviṭe/*aviṭe$
+	; is inside; ? ; അകത്താണ്;  ? ; akattāṇ; 	 ^അകത്താണ്/*അകത്താണ്$	 ^akattāṇ/*akattāṇ$
 	; around; ? ; ചുറ്റും;  ? ; cuṟṟuṁ; 	 ^ചുറ്റും/*ചുറ്റും$	 ^cuṟṟuṁ/*cuṟṟuṁ$
+	; there; ? ; അവിടെ;  ? ; aviṭe; 	 ^അവിടെ/*അവിടെ$	 ^aviṭe/*aviṭe$
 
 	; together; ? ; ഒരുമിച്ച്;  ? ; orumicc; 	 ^ഒരുമിച്ച്/*ഒരുമിച്ച്$	 ^orumicc/*orumicc$
 
@@ -80,7 +81,6 @@
 	; when walked; ? ; നടന്നപ്പോള്‍;  ? ; naṭannappēāḷ‍; 	 ^നടന്നപ്പോള്/*നടന്നപ്പോള്$‍	 ^naṭannappēāḷ/*naṭannappēāḷ$‍
 	; to say; ? ; പറയാന്‍;  ? ; paṟayān‍; 	 ^പറയാന്/*പറയാന്$‍	 ^paṟayān/*paṟayān$‍
 	; do; ? ; ചെയ്യുന്നത്;  ? ; ceyyunnat; 	 ^ചെയ്യുന്നത്/*ചെയ്യുന്നത്$	 ^ceyyunnat/*ceyyunnat$
-	; is inside; ? ; അകത്താണ്;  ? ; akattāṇ; 	 ^അകത്താണ്/*അകത്താണ്$	 ^akattāṇ/*akattāṇ$
 	; thought; ? ; കരുതി;  ? ; karuti; 	 ^കരുതി/*കരുതി$	 ^karuti/*karuti$
 	; when finished; ? ; തീര്‍ന്നപ്പോള്‍;  ? ; tīr‍nnappēāḷ‍; 	 ^തീര്/*തീര്$‍^ന്നപ്പോള്/*ന്നപ്പോള്$‍	 ^tīr/*tīr$‍^nnappēāḷ/*nnappēāḷ$‍
 
