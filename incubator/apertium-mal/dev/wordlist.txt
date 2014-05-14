@@ -1,175 +1,175 @@
-? ; ;  ? ; ; 	 	 
-? ; അകത്താണ്;  ? ; akattāṇ; 	 ^അകത്താണ്/*അകത്താണ്$	 ^akattāṇ/*akattāṇ$
-? ; അങ്ങനെ;  ? ; aṅṅane; 	 ^അങ്ങനെ/*അങ്ങനെ$	 ^aṅṅane/*aṅṅane$
-? ; അഞ്ചാണ്;  ? ; añcāṇ; 	 ^അഞ്ചാണ്/അഞ്ച്<num><subst><sg><nom>+ആക്<vbcop><pres>$	 ^añcāṇ/añc<num><subst><sg><nom>+āk<vbcop><pres>$
-? ; അടുത്ത്;  ? ; aṭutt; 	 ^അടുത്ത്/*അടുത്ത്$	 ^aṭutt/*aṭutt$
-? ; അടുത്തേക്;  ? ; aṭuttēk; 	 ^അടുത്തേക്/*അടുത്തേക്$	 ^aṭuttēk/*aṭuttēk$
-? ; അടുത്തേക്ക്;  ? ; aṭuttēkk; 	 ^അടുത്തേക്ക്/*അടുത്തേക്ക്$	 ^aṭuttēkk/*aṭuttēkk$
-? ; അത്;  ? ; at; 	 ^അത്/അത്<det><dem>/അത്<prn><dem><sg><nom>$	 ^at/at<det><dem>/at<prn><dem><sg><nom>$
-? ; അതുകൊണ്ട്;  ? ; atukeāṇṭ; 	 ^അതുകൊണ്ട്/*അതുകൊണ്ട്$	 ^atukeāṇṭ/*atukeāṇṭ$
-? ; അമ്മ;  ? ; am'ma; 	 ^അമ്മ/അമ്മ<n><sg><nom>$	 ^am'ma/am'ma<n><sg><nom>$
-? ; അമ്മയെ;  ? ; am'maye; 	 ^അമ്മയെ/അമ്മ<n><sg><gen>$	 ^am'maye/am'ma<n><sg><gen>$
-? ; അമ്മയോട്;  ? ; am'mayēāṭ; 	 ^അമ്മയോട്/അമ്മ<n><sg><soc>$	 ^am'mayēāṭ/am'ma<n><sg><soc>$
-? ; അല്ല;  ? ; alla; 	 ^അല്ല/*അല്ല$	 ^alla/*alla$
-? ; അവന്‍;  ? ; avan‍; 	 ^അവന്‍/അവന്‍<prn><pers><p3><m><sg><nom>$	 ^avan‍/avan‍<prn><pers><p3><m><sg><nom>$
-? ; അവനെ;  ? ; avane; 	 ^അവനെ/*അവനെ$	 ^avane/*avane$
-? ; അവന്റെ;  ? ; avanṟe; 	 ^അവന്റെ/അവന്‍<prn><pers><p3><m><sg><gen>$	 ^avanṟe/avan‍<prn><pers><p3><m><sg><gen>$
-? ; അവര്‍;  ? ; avar‍; 	 ^അവര്‍/അവര്‍<prn><pers><p3><mf><pl><nom>$	 ^avar‍/avar‍<prn><pers><p3><mf><pl><nom>$
-? ; അവരുടെ;  ? ; avaruṭe; 	 ^അവരുടെ/അവര്‍<prn><pers><p3><mf><pl><gen>$	 ^avaruṭe/avar‍<prn><pers><p3><mf><pl><gen>$
-? ; അവര്‍ക്ക്;  ? ; avar‍kk; 	 ^അവര്‍ക്ക്/അവര്‍<prn><pers><p3><mf><pl><dat>$	 ^avar‍kk/avar‍<prn><pers><p3><mf><pl><dat>$
-? ; അവള്‍;  ? ; avaḷ‍; 	 ^അവള്‍/അവള്‍<prn><pers><p3><f><sg><nom>$	 ^avaḷ‍/avaḷ‍<prn><pers><p3><f><sg><nom>$
-? ; അവളുടെ;  ? ; avaḷuṭe; 	 ^അവളുടെ/അവള്‍<prn><pers><p3><f><sg><gen>$	 ^avaḷuṭe/avaḷ‍<prn><pers><p3><f><sg><gen>$
-? ; അവള്‍ക്;  ? ; avaḷ‍k; 	 ^അവള്‍ക്/അവള്‍<prn><pers><p3><f><sg><dat>$	 ^avaḷ‍k/avaḷ‍<prn><pers><p3><f><sg><dat>$
-? ; അവിടെ;  ? ; aviṭe; 	 ^അവിടെ/*അവിടെ$	 ^aviṭe/*aviṭe$
-? ; അറിയാമായിരുന്നിട്ടും;  ? ; aṟiyāmāyirunniṭṭuṁ; 	 ^അറിയാമായിരുന്നിട്ടും/*അറിയാമായിരുന്നിട്ടും$	 ^aṟiyāmāyirunniṭṭuṁ/*aṟiyāmāyirunniṭṭuṁ$
-? ; അറിയില്ല;  ? ; aṟiyilla; 	 ^അറിയില്ല/*അറിയില്ല$	 ^aṟiyilla/*aṟiyilla$
-? ; ആണ്;  ? ; āṇ; 	 ^ആണ്/ആക്<vbcop><pres>$	 ^āṇ/āk<vbcop><pres>$
-? ; ആണ്‍കുട്ടിയാണ്;  ? ; āṇ‍kuṭṭiyāṇ; 	 ^ആണ്‍കുട്ടിയാണ്/ആണ്‍കുട്ടി<n><sg><nom>+ആക്<vbcop><pres>$	 ^āṇ‍kuṭṭiyāṇ/āṇ‍kuṭṭi<n><sg><nom>+āk<vbcop><pres>$
-? ; ആറാണ്;  ? ; āṟāṇ; 	 ^ആറാണ്/ആറ്<num><subst><sg><nom>+ആക്<vbcop><pres>$	 ^āṟāṇ/āṟ<num><subst><sg><nom>+āk<vbcop><pres>$
-? ; ഇത്;  ? ; it; 	 ^ഇത്/*ഇത്$	 ^it/*it$
-? ; ഇന്ന്;  ? ; inn; 	 ^ഇന്ന്/*ഇന്ന്$	 ^inn/*inn$
-? ; ഇന്നലെ;  ? ; innale; 	 ^ഇന്നലെ/*ഇന്നലെ$	 ^innale/*innale$
-? ; ഇപ്പോള്‍;  ? ; ippēāḷ‍; 	 ^ഇപ്പോള്/*ഇപ്പോള്$‍	 ^ippēāḷ/*ippēāḷ$‍
-? ; ഇപ്പോഴും;  ? ; ippēāḻuṁ; 	 ^ഇപ്പോഴും/*ഇപ്പോഴും$	 ^ippēāḻuṁ/*ippēāḻuṁ$
-? ; ഇരിക്കുകയാണ്;  ? ; irikkukayāṇ; 	 ^ഇരിക്കുകയാണ്/*ഇരിക്കുകയാണ്$	 ^irikkukayāṇ/*irikkukayāṇ$
-? ; ഇല്ല;  ? ; illa; 	 ^ഇല്ല/*ഇല്ല$	 ^illa/*illa$
-? ; ഇഷ്ടപ്പെടുന്നു;  ? ; iṣṭappeṭunnu; 	 ^ഇഷ്ടപ്പെടുന്നു/*ഇഷ്ടപ്പെടുന്നു$	 ^iṣṭappeṭunnu/*iṣṭappeṭunnu$
-? ; ഇഷ്ടമാണ്;  ? ; iṣṭamāṇ; 	 ^ഇഷ്ടമാണ്/*ഇഷ്ടമാണ്$	 ^iṣṭamāṇ/*iṣṭamāṇ$
-? ; ഉണ്ട്;  ? ; uṇṭ; 	 ^ഉണ്ട്/ഉണ്ട്<vbcop><pres>$	 ^uṇṭ/uṇṭ<vbcop><pres>$
-? ; ഉത്തരം;  ? ; uttaraṁ; 	 ^ഉത്തരം/ഉത്തരം<n><sg><nom>$	 ^uttaraṁ/uttaraṁ<n><sg><nom>$
-? ; ഉറങ്ങിക്കൊണ്ടിരിക്കുന്നു;  ? ; uṟaṅṅikkeāṇṭirikkunnu; 	 ^ഉറങ്ങിക്കൊണ്ടിരിക്കുന്നു/*ഉറങ്ങിക്കൊണ്ടിരിക്കുന്നു$	 ^uṟaṅṅikkeāṇṭirikkunnu/*uṟaṅṅikkeāṇṭirikkunnu$
-? ; ഊഷ്മളമാണ്;  ? ; ūṣmaḷamāṇ; 	 ഊ^ഷ്മളമാണ്/*ഷ്മളമാണ്$	 ū^ṣmaḷamāṇ/*ṣmaḷamāṇ$
-? ; എണ്ണി;  ? ; eṇṇi; 	 ^എണ്ണി/എണ്ണുക<v><tv><past>$	 ^eṇṇi/eṇṇuka<v><tv><past>$
-? ; എനിക്ക്;  ? ; enikk; 	 ^എനിക്ക്/*എനിക്ക്$	 ^enikk/*enikk$
-? ; എന്ത്;  ? ; ent; 	 ^എന്ത്/*എന്ത്$	 ^ent/*ent$
-? ; എന്താണ്;  ? ; entāṇ; 	 ^എന്താണ്/*എന്താണ്$	 ^entāṇ/*entāṇ$
-? ; എന്തിനാണ്;  ? ; entināṇ; 	 ^എന്തിനാണ്/*എന്തിനാണ്$	 ^entināṇ/*entināṇ$
-? ; എന്തെങ്കിലും;  ? ; enteṅkiluṁ; 	 ^എന്തെങ്കിലും/*എന്തെങ്കിലും$	 ^enteṅkiluṁ/*enteṅkiluṁ$
-? ; എന്നു;  ? ; ennu; 	 ^എന്നു/*എന്നു$	 ^ennu/*ennu$
-? ; എപ്പോഴും;  ? ; eppēāḻuṁ; 	 ^എപ്പോഴും/*എപ്പോഴും$	 ^eppēāḻuṁ/*eppēāḻuṁ$
-? ; എല്ലായിടത്തും;  ? ; ellāyiṭattuṁ; 	 ^എല്ലായിടത്തും/*എല്ലായിടത്തും$	 ^ellāyiṭattuṁ/*ellāyiṭattuṁ$
-? ; എവിടെ;  ? ; eviṭe; 	 ^എവിടെ/*എവിടെ$	 ^eviṭe/*eviṭe$
-? ; എവിടെയാണ്;  ? ; eviṭeyāṇ; 	 ^എവിടെയാണ്/*എവിടെയാണ്$	 ^eviṭeyāṇ/*eviṭeyāṇ$
-? ; എവിടെയാണുള്ളതെന്നു;  ? ; eviṭeyāṇuḷḷatennu; 	 ^എവിടെയാണുള്ളതെന്നു/*എവിടെയാണുള്ളതെന്നു$	 ^eviṭeyāṇuḷḷatennu/*eviṭeyāṇuḷḷatennu$
-? ; ഒന്നും;  ? ; onnuṁ; 	 ^ഒന്നും/ഒരു<num><subst><sg><nom>+യും<cnjcoo>$	 ^onnuṁ/oru<num><subst><sg><nom>+yuṁ<cnjcoo>$
-? ; ഒരു;  ? ; oru; 	 ^ഒരു/ഒരു<num>$	 ^oru/oru<num>$
-? ; ഒരുമിച്ച്;  ? ; orumicc; 	 ^ഒരുമിച്ച്/*ഒരുമിച്ച്$	 ^orumicc/*orumicc$
-? ; ഒളിക്കുകയാണ്;  ? ; oḷikkukayāṇ; 	 ^ഒളിക്കുകയാണ്/ഒളിക്കുക<v><iv><inf_k>+ആക്<vbcop><pres>$	 ^oḷikkukayāṇ/oḷikkuka<v><iv><inf_k>+āk<vbcop><pres>$
-? ; കണ്ടിരുന്നൊ;  ? ; kaṇṭirunneā; 	 ^കണ്ടിരുന്നൊ/*കണ്ടിരുന്നൊ$	 ^kaṇṭirunneā/*kaṇṭirunneā$
-? ; കണ്ടു;  ? ; kaṇṭu; 	 ^കണ്ടു/കാണുക<v><tv><past>$	 ^kaṇṭu/kāṇuka<v><tv><past>$
-? ; കണ്ടുപിടിക്കാന്‍;  ? ; kaṇṭupiṭikkān‍; 	 ^കണ്ടുപിടിക്കാന്‍/കണ്ടുപിടിക്കുക<v><tv><inf_n>$	 ^kaṇṭupiṭikkān‍/kaṇṭupiṭikkuka<v><tv><inf_n>$
-? ; കണ്ടുപിടിച്ചു;  ? ; kaṇṭupiṭiccu; 	 ^കണ്ടുപിടിച്ചു/കണ്ടുപിടിക്കുക<v><tv><past>$	 ^kaṇṭupiṭiccu/kaṇṭupiṭikkuka<v><tv><past>$
-? ; കണ്ടെത്താന്‍;  ? ; kaṇṭettān‍; 	 ^കണ്ടെത്താന്‍/കണ്ടെത്തുക<v><tv><inf_n>$	 ^kaṇṭettān‍/kaṇṭettuka<v><tv><inf_n>$
-? ; കണ്ണിന്റെ;  ? ; kaṇṇinṟe; 	 ^കണ്ണിന്റെ/കണ്ണ്<n><sg><gen>$	 ^kaṇṇinṟe/kaṇṇ<n><sg><gen>$
-? ; കരുതി;  ? ; karuti; 	 ^കരുതി/*കരുതി$	 ^karuti/*karuti$
-? ; കസേരയുടെ;  ? ; kasērayuṭe; 	 ^കസേരയുടെ/കസേര<n><sg><gen>$	 ^kasērayuṭe/kasēra<n><sg><gen>$
-? ; കളിക്കാന്‍;  ? ; kaḷikkān‍; 	 ^കളിക്കാന്‍/കളിക്കുക<v><iv><inf_n>$	 ^kaḷikkān‍/kaḷikkuka<v><iv><inf_n>$
-? ; കളിക്കുന്നത്;  ? ; kaḷikkunnat; 	 ^കളിക്കുന്നത്/*കളിക്കുന്നത്$	 ^kaḷikkunnat/*kaḷikkunnat$
-? ; കളിക്കുന്നു;  ? ; kaḷikkunnu; 	 ^കളിക്കുന്നു/കളിക്കുക<v><iv><pres>$	 ^kaḷikkunnu/kaḷikkuka<v><iv><pres>$
-? ; കളിയാണ്;  ? ; kaḷiyāṇ; 	 ^കളിയാണ്/കളി<n><sg><nom>+ആക്<vbcop><pres>$	 ^kaḷiyāṇ/kaḷi<n><sg><nom>+āk<vbcop><pres>$
-? ; കഴിഞ്ഞില്ല;  ? ; kaḻiññilla; 	 ^കഴിഞ്ഞില്ല/*കഴിഞ്ഞില്ല$	 ^kaḻiññilla/*kaḻiññilla$
-? ; കഴിയില്ല;  ? ; kaḻiyilla; 	 ^കഴിയില്ല/*കഴിയില്ല$	 ^kaḻiyilla/*kaḻiyilla$
-? ; കഴിയുന്നില്ല;  ? ; kaḻiyunnilla; 	 ^കഴിയുന്നില്ല/*കഴിയുന്നില്ല$	 ^kaḻiyunnilla/*kaḻiyunnilla$
-? ; കാണാന്‍;  ? ; kāṇān‍; 	 ^കാണാന്‍/കാണുക<v><tv><inf_n>$	 ^kāṇān‍/kāṇuka<v><tv><inf_n>$
-? ; കാണുകയും;  ? ; kāṇukayuṁ; 	 ^കാണുകയും/കാണുക<v><tv><inf_k>+യും<cnjcoo>$	 ^kāṇukayuṁ/kāṇuka<v><tv><inf_k>+yuṁ<cnjcoo>$
-? ; കാലാവസ്ഥ;  ? ; kālāvastha; 	 ^കാലാവസ്ഥ/കാലാവസ്ഥ<n><sg><nom>$	 ^kālāvastha/kālāvastha<n><sg><nom>$
-? ; കിട്ടിയില്ല;  ? ; kiṭṭiyilla; 	 ^കിട്ടിയില്ല/*കിട്ടിയില്ല$	 ^kiṭṭiyilla/*kiṭṭiyilla$
-? ; കുടിക്കുവനുമുള്ള;  ? ; kuṭikkuvanumuḷḷa; 	 ^കുടിക്കുവനുമുള്ള/*കുടിക്കുവനുമുള്ള$	 ^kuṭikkuvanumuḷḷa/*kuṭikkuvanumuḷḷa$
-? ; കുട്ടികളുടെ;  ? ; kuṭṭikaḷuṭe; 	 ^കുട്ടികളുടെ/കുട്ടി<n><pl><gen>$	 ^kuṭṭikaḷuṭe/kuṭṭi<n><pl><gen>$
-? ; കൂടി;  ? ; kūṭi; 	 ^കൂടി/*കൂടി$	 ^kūṭi/*kūṭi$
-? ; കൂടെ;  ? ; kūṭe; 	 ^കൂടെ/*കൂടെ$	 ^kūṭe/*kūṭe$
-? ; കേട്ടു;  ? ; kēṭṭu; 	 ^കേട്ടു/കേള്‍ക്കുക<v><tv><past>$	 ^kēṭṭu/kēḷ‍kkuka<v><tv><past>$
-? ; കേള്‍ക്കാം;  ? ; kēḷ‍kkāṁ; 	 ^കേള്/*കേള്$‍^ക്കാം/*ക്കാം$	 ^kēḷ/*kēḷ$‍^kkāṁ/*kkāṁ$
-? ; കൈ;  ? ; kai; 	 ^കൈ/കൈ<n><sg><nom>$	 ^kai/kai<n><sg><nom>$
-? ; കൊണ്ടാണെന്നു;  ? ; keāṇṭāṇennu; 	 ^കൊണ്ടാണെന്നു/*കൊണ്ടാണെന്നു$	 ^keāṇṭāṇennu/*keāṇṭāṇennu$
-? ; കൊണ്ടു;  ? ; keāṇṭu; 	 ^കൊണ്ടു/*കൊണ്ടു$	 ^keāṇṭu/*keāṇṭu$
-? ; ചിരിച്ചു;  ? ; ciriccu; 	 ^ചിരിച്ചു/ചിരിക്കുക<v><iv><past>$	 ^ciriccu/cirikkuka<v><iv><past>$
-? ; ചുറ്റും;  ? ; cuṟṟuṁ; 	 ^ചുറ്റും/*ചുറ്റും$	 ^cuṟṟuṁ/*cuṟṟuṁ$
-? ; ചെയ്തു;  ? ; ceytu; 	 ^ചെയ്തു/*ചെയ്തു$	 ^ceytu/*ceytu$
-? ; ചെയ്യുന്നത്;  ? ; ceyyunnat; 	 ^ചെയ്യുന്നത്/*ചെയ്യുന്നത്$	 ^ceyyunnat/*ceyyunnat$
-? ; ചെറിയ;  ? ; ceṟiya; 	 ^ചെറിയ/ചെറിയ<adj>$	 ^ceṟiya/ceṟiya<adj>$
-? ; ചോദിച്ചു;  ? ; cēādiccu; 	 ^ചോദിച്ചു/ചോദിക്കുക<v><iv><past>$	 ^cēādiccu/cēādikkuka<v><iv><past>$
-? ; ചോദ്യത്തിന്;  ? ; cēādyattin; 	 ^ചോദ്യത്തിന്/*ചോദ്യത്തിന്$	 ^cēādyattin/*cēādyattin$
-? ; ജനങ്ങള്‍ക്;  ? ; janaṅṅaḷ‍k; 	 ^ജനങ്ങള്‍ക്/ജനം<n><pl><dat>$	 ^janaṅṅaḷ‍k/janaṁ<n><pl><dat>$
-? ; ജനലിന്;  ? ; janalin; 	 ^ജനലിന്/ജനല്‍<n><sg><dat>$	 ^janalin/janal‍<n><sg><dat>$
-? ; ജനലിലൂടെ;  ? ; janalilūṭe; 	 ^ജനലിലൂടെ/ജനല്‍<n><sg><loc>+ൂടെ<post>$	 ^janalilūṭe/janal‍<n><sg><loc>+̔ūṭe<post>$
-? ; തണുപ്പായിരുന്നു;  ? ; taṇuppāyirunnu; 	 ^തണുപ്പായിരുന്നു/*തണുപ്പായിരുന്നു$	 ^taṇuppāyirunnu/*taṇuppāyirunnu$
-? ; തന്നെ;  ? ; tanne; 	 ^തന്നെ/*തന്നെ$	 ^tanne/*tanne$
-? ; തല;  ? ; tala; 	 ^തല/തല<n><sg><nom>$	 ^tala/tala<n><sg><nom>$
-? ; താഴെയും;  ? ; tāḻeyuṁ; 	 ^താഴെയും/താഴെ<spost>+യും<cnjcoo>$	 ^tāḻeyuṁ/tāḻe<spost>+yuṁ<cnjcoo>$
-? ; തിന്നുവാനും;  ? ; tinnuvānuṁ; 	 ^തിന്നുവാനും/*തിന്നുവാനും$	 ^tinnuvānuṁ/*tinnuvānuṁ$
-? ; തീര്‍ച്ചയായും;  ? ; tīr‍ccayāyuṁ; 	 ^തീര്/*തീര്$‍^ച്ചയായും/*ച്ചയായും$	 ^tīr/*tīr$‍^ccayāyuṁ/*ccayāyuṁ$
-? ; തീര്‍ന്നപ്പോള്‍;  ? ; tīr‍nnappēāḷ‍; 	 ^തീര്/*തീര്$‍^ന്നപ്പോള്/*ന്നപ്പോള്$‍	 ^tīr/*tīr$‍^nnappēāḷ/*nnappēāḷ$‍
-? ; നടന്നപ്പോള്‍;  ? ; naṭannappēāḷ‍; 	 ^നടന്നപ്പോള്/*നടന്നപ്പോള്$‍	 ^naṭannappēāḷ/*naṭannappēāḷ$‍
-? ; നടന്നു;  ? ; naṭannu; 	 ^നടന്നു/നടക്കുക<v><iv><past>$	 ^naṭannu/naṭakkuka<v><iv><past>$
-? ; നല്ലതാണ്;  ? ; nallatāṇ; 	 ^നല്ലതാണ്/*നല്ലതാണ്$	 ^nallatāṇ/*nallatāṇ$
-? ; നിന്നാണ്;  ? ; ninnāṇ; 	 ^നിന്നാണ്/നിന്ന്<spost>+ആക്<vbcop><pres>$	 ^ninnāṇ/ninn<spost>+āk<vbcop><pres>$
-? ; നിന്നും;  ? ; ninnuṁ; 	 ^നിന്നും/നിന്ന്<spost>+യും<cnjcoo>$	 ^ninnuṁ/ninn<spost>+yuṁ<cnjcoo>$
-? ; നിന്നെ;  ? ; ninne; 	 ^നിന്നെ/നീ<prn><pers><p2><mf><sg><acc>$	 ^ninne/nī<prn><pers><p2><mf><sg><acc>$
-? ; നീ;  ? ; nī; 	 ^നീ/നീ<prn><pers><p2><mf><sg><nom>$	 ^nī/nī<prn><pers><p2><mf><sg><nom>$
-? ; നേരമാണ്;  ? ; nēramāṇ; 	 ^നേരമാണ്/നേരം<n><sg><nom>+ആക്<vbcop><pres>$	 ^nēramāṇ/nēraṁ<n><sg><nom>+āk<vbcop><pres>$
-? ; നോക്കി;  ? ; nēākki; 	 ^നോക്കി/നോക്കുക<v><tv><past>$	 ^nēākki/nēākkuka<v><tv><past>$
-? ; നോക്കുകയും;  ? ; nēākkukayuṁ; 	 ^നോക്കുകയും/നോക്കുക<v><tv><inf_k>+യും<cnjcoo>$	 ^nēākkukayuṁ/nēākkuka<v><tv><inf_k>+yuṁ<cnjcoo>$
-? ; പക്ഷിയോ;  ? ; pakṣiyēā; 	 ^പക്ഷിയോ/പക്ഷി<n><sg><nom>+യോ<cnjcoo>$	 ^pakṣiyēā/pakṣi<n><sg><nom>+yēā<cnjcoo>$
-? ; പക്ഷെ;  ? ; pakṣe; 	 ^പക്ഷെ/പക്ഷെ<cnjcoo>$	 ^pakṣe/pakṣe<cnjcoo>$
-? ; പട്ടി;  ? ; paṭṭi; 	 ^പട്ടി/പട്ടി<n><sg><nom>$	 ^paṭṭi/paṭṭi<n><sg><nom>$
-? ; പട്ടികളോട്;  ? ; paṭṭikaḷēāṭ; 	 ^പട്ടികളോട്/പട്ടി<n><pl><soc>$	 ^paṭṭikaḷēāṭ/paṭṭi<n><pl><soc>$
-? ; പട്ടിയും;  ? ; paṭṭiyuṁ; 	 ^പട്ടിയും/പട്ടി<n><sg><nom>+യും<cnjcoo>$	 ^paṭṭiyuṁ/paṭṭi<n><sg><nom>+yuṁ<cnjcoo>$
-? ; പട്ടിയോട്;  ? ; paṭṭiyēāṭ; 	 ^പട്ടിയോട്/പട്ടി<n><sg><soc>$	 ^paṭṭiyēāṭ/paṭṭi<n><sg><soc>$
-? ; പട്ടിയ്ക്ക്;  ? ; paṭṭiykk; 	 ^പട്ടിയ്ക്ക്/പട്ടി<n><sg><dat>$	 ^paṭṭiykk/paṭṭi<n><sg><dat>$
-? ; പഴയ;  ? ; paḻaya; 	 ^പഴയ/പഴയ<adj>$	 ^paḻaya/paḻaya<adj>$
-? ; പറഞ്ഞു;  ? ; paṟaññu; 	 ^പറഞ്ഞു/പറയുക<v><tv><past>$	 ^paṟaññu/paṟayuka<v><tv><past>$
-? ; പറയാന്‍;  ? ; paṟayān‍; 	 ^പറയാന്/*പറയാന്$‍	 ^paṟayān/*paṟayān$‍
-? ; പറയൂ;  ? ; paṟayū; 	 ^പറയൂ/*പറയൂ$	 ^paṟayū/*paṟayū$
-? ; പിന്നെ;  ? ; pinne; 	 ^പിന്നെ/*പിന്നെ$	 ^pinne/*pinne$
-? ; പിറകില്‍;  ? ; piṟakil‍; 	 ^പിറകില്/*പിറകില്$‍	 ^piṟakil/*piṟakil$‍
-? ; പുറത്ത്;  ? ; puṟatt; 	 ^പുറത്ത്/*പുറത്ത്$	 ^puṟatt/*puṟatt$
-? ; പുറത്തേക്;  ? ; puṟattēk; 	 ^പുറത്തേക്/*പുറത്തേക്$	 ^puṟattēk/*puṟattēk$
-? ; പൂച്ച;  ? ; pūcca; 	 ^പൂച്ച/പൂച്ച<n><sg><nom>$	 ^pūcca/pūcca<n><sg><nom>$
-? ; പൂച്ചയോടപ്പം;  ? ; pūccayēāṭappaṁ; 	 ^പൂച്ചയോടപ്പം/പൂച്ച<n><sg><nom>+യോടപ്പം<post>$	 ^pūccayēāṭappaṁ/pūcca<n><sg><nom>+yēāṭappaṁ<post>$
-? ; പൂന്തോട്ടത്തില്‍;  ? ; pūntēāṭṭattil‍; 	 ^പൂന്തോട്ടത്തില്‍/പൂന്തോട്ടം<n><sg><loc>$	 ^pūntēāṭṭattil‍/pūntēāṭṭaṁ<n><sg><loc>$
-? ; പൂന്തോട്ടത്തിലാണ്;  ? ; pūntēāṭṭattilāṇ; 	 ^പൂന്തോട്ടത്തിലാണ്/പൂന്തോട്ടം<n><sg><loc>+ആക്<vbcop><pres>$	 ^pūntēāṭṭattilāṇ/pūntēāṭṭaṁ<n><sg><loc>+āk<vbcop><pres>$
-? ; പൂന്തോട്ടത്തിലൂടെ;  ? ; pūntēāṭṭattilūṭe; 	 ^പൂന്തോട്ടത്തിലൂടെ/പൂന്തോട്ടം<n><sg><loc>+ൂടെ<post>$	 ^pūntēāṭṭattilūṭe/pūntēāṭṭaṁ<n><sg><loc>+̔ūṭe<post>$
-? ; പെട്ടെന്ന്;  ? ; peṭṭenn; 	 ^പെട്ടെന്ന്/*പെട്ടെന്ന്$	 ^peṭṭenn/*peṭṭenn$
-? ; പെണ്‍കുട്ടി;  ? ; peṇ‍kuṭṭi; 	 ^പെണ്‍കുട്ടി/പെണ്‍കുട്ടി<n><sg><nom>$	 ^peṇ‍kuṭṭi/peṇ‍kuṭṭi<n><sg><nom>$
-? ; പേര്‍ക്കും;  ? ; pēr‍kkuṁ; 	 ^പേര്/*പേര്$‍^ക്കും/*ക്കും$	 ^pēr/*pēr$‍^kkuṁ/*kkuṁ$
-? ; പോകുകയും;  ? ; pēākukayuṁ; 	 ^പോകുകയും/*പോകുകയും$	 ^pēākukayuṁ/*pēākukayuṁ$
-? ; പോയതെന്നു;  ? ; pēāyatennu; 	 ^പോയതെന്നു/*പോയതെന്നു$	 ^pēāyatennu/*pēāyatennu$
-? ; പോയി;  ? ; pēāyi; 	 ^പോയി/*പോയി$	 ^pēāyi/*pēāyi$
-? ; മരത്തിന്റെ;  ? ; marattinṟe; 	 ^മരത്തിന്റെ/മരം<n><sg><gen>$	 ^marattinṟe/maraṁ<n><sg><gen>$
-? ; മറുപടി;  ? ; maṟupaṭi; 	 ^മറുപടി/മറുപടി<n><sg><nom>$	 ^maṟupaṭi/maṟupaṭi<n><sg><nom>$
-? ; മുന്നില്‍;  ? ; munnil‍; 	 ^മുന്നില്‍/മുന്നില്‍<spost>$	 ^munnil‍/munnil‍<spost>$
-? ; മുമ്പില്‍;  ? ; mumpil‍; 	 ^മുമ്പില്‍/മുമ്പില്‍<spost>$	 ^mumpil‍/mumpil‍<spost>$
-? ; മെല്ലെ;  ? ; melle; 	 ^മെല്ലെ/*മെല്ലെ$	 ^melle/*melle$
-? ; മേശയുടെ;  ? ; mēśayuṭe; 	 ^മേശയുടെ/മേശ<n><sg><gen>$	 ^mēśayuṭe/mēśa<n><sg><gen>$
-? ; മ്രിഗമോ;  ? ; mrigamēā; 	 ^മ്രിഗമോ/മ്രിഗം<n><sg><nom>+യോ<cnjcoo>$	 ^mrigamēā/mrigaṁ<n><sg><nom>+yēā<cnjcoo>$
-? ; രണ്ട്;  ? ; raṇṭ; 	 ^രണ്ട്/രണ്ട്<num>/രണ്ട്<num><subst><sg><nom>$	 ^raṇṭ/raṇṭ<num>/raṇṭ<num><subst><sg><nom>$
-? ; രാജു;  ? ; rāju; 	 ^രാജു/രാജു<np><ant><m><sg><nom>$	 ^rāju/rāju<np><ant><m><sg><nom>$
-? ; രാജുവിന്;  ? ; rājuvin; 	 ^രാജുവിന്/രാജു<np><ant><m><sg><dat>$	 ^rājuvin/rāju<np><ant><m><sg><dat>$
-? ; രാജുവിനെ;  ? ; rājuvine; 	 ^രാജുവിനെ/രാജു<np><ant><m><sg><acc>$	 ^rājuvine/rāju<np><ant><m><sg><acc>$
-? ; രാജുവും;  ? ; rājuvuṁ; 	 ^രാജുവും/രാജു<np><ant><m><sg><nom>+യും<cnjcoo>$	 ^rājuvuṁ/rāju<np><ant><m><sg><nom>+yuṁ<cnjcoo>$
-? ; രാധ;  ? ; rādha; 	 ^രാധ/രാധ<np><ant><f><sg><nom>$	 ^rādha/rādha<np><ant><f><sg><nom>$
-? ; രാധയില്‍;  ? ; rādhayil‍; 	 ^രാധയില്‍/രാധ<np><ant><f><sg><loc>$	 ^rādhayil‍/rādha<np><ant><f><sg><loc>$
-? ; രാധയും;  ? ; rādhayuṁ; 	 ^രാധയും/രാധ<np><ant><f><sg><nom>+യും<cnjcoo>$	 ^rādhayuṁ/rādha<np><ant><f><sg><nom>+yuṁ<cnjcoo>$
-? ; രാധയ്ക്;  ? ; rādhayk; 	 ^രാധയ്ക്/രാധ<np><ant><f><sg><dat>$	 ^rādhayk/rādha<np><ant><f><sg><dat>$
-? ; രാധയ്കും;  ? ; rādhaykuṁ; 	 ^രാധയ്കും/രാധ<np><ant><f><sg><dat>+യും<cnjcoo>$	 ^rādhaykuṁ/rādha<np><ant><f><sg><dat>+yuṁ<cnjcoo>$
-? ; രാധേ;  ? ; rādhē; 	 ^രാധേ/*രാധേ$	 ^rādhē/*rādhē$
-? ; ലഭിക്കാറില്ല;  ? ; labhikkāṟilla; 	 ^ലഭിക്കാറില്ല/*ലഭിക്കാറില്ല$	 ^labhikkāṟilla/*labhikkāṟilla$
-? ; വയസ്സ്;  ? ; vayas's; 	 ^വയസ്സ്/വയസ്സ്<n><sg><nom>$	 ^vayas's/vayas's<n><sg><nom>$
-? ; വരുന്നത്;  ? ; varunnat; 	 ^വരുന്നത്/*വരുന്നത്$	 ^varunnat/*varunnat$
-? ; വലിയ;  ? ; valiya; 	 ^വലിയ/വലിയ<adj>$	 ^valiya/valiya<adj>$
-? ; വളരെ;  ? ; vaḷare; 	 ^വളരെ/*വളരെ$	 ^vaḷare/*vaḷare$
-? ; വീടിന്റെ;  ? ; vīṭinṟe; 	 ^വീടിന്റെ/വീട്<n><sg><gen>$	 ^vīṭinṟe/vīṭ<n><sg><gen>$
-? ; വീട്ടിലാണ്;  ? ; vīṭṭilāṇ; 	 ^വീട്ടിലാണ്/വീട്<n><sg><loc>+ആക്<vbcop><pres>$	 ^vīṭṭilāṇ/vīṭ<n><sg><loc>+āk<vbcop><pres>$
-? ; വീട്ടിലേക്ക്;  ? ; vīṭṭilēkk; 	 ^വീട്ടിലേക്ക്/വീട്<n><sg><loc>+േക്ക്<post>$	 ^vīṭṭilēkk/vīṭ<n><sg><loc>+̔ēkk<post>$
-? ; വീണ്ടും;  ? ; vīṇṭuṁ; 	 ^വീണ്ടും/വീണ്ടും<adv>$	 ^vīṇṭuṁ/vīṇṭuṁ<adv>$
-? ; വെള്ളം;  ? ; veḷḷaṁ; 	 ^വെള്ളം/വെള്ളം<n><sg><nom>$	 ^veḷḷaṁ/veḷḷaṁ<n><sg><nom>$
-? ; വ്യക്തമായി;  ? ; vyaktamāyi; 	 ^വ്യക്തമായി/*വ്യക്തമായി$	 ^vyaktamāyi/*vyaktamāyi$
-? ; ശ്രദ്ധയോടെ;  ? ; śrad'dhayēāṭe; 	 ^ശ്രദ്ധയോടെ/*ശ്രദ്ധയോടെ$	 ^śrad'dhayēāṭe/*śrad'dhayēāṭe$
-? ; ശബ്ദം;  ? ; śabdaṁ; 	 ^ശബ്ദം/ശബ്ദം<n><sg><nom>$	 ^śabdaṁ/śabdaṁ<n><sg><nom>$
-? ; സന്തോഷം;  ? ; santēāṣaṁ; 	 ^സന്തോഷം/*സന്തോഷം$	 ^santēāṣaṁ/*santēāṣaṁ$
-? ; സന്തോഷമാകുകയും;  ? ; santēāṣamākukayuṁ; 	 ^സന്തോഷമാകുകയും/*സന്തോഷമാകുകയും$	 ^santēāṣamākukayuṁ/*santēāṣamākukayuṁ$
-? ; സംസാരിക്കാന്‍;  ? ; sansārikkān‍; 	 ^സംസാരിക്കാന്‍/സംസാരിക്കുക<v><iv><inf_n>$	 ^sansārikkān‍/sansārikkuka<v><iv><inf_n>$
-? ; സംസാരിച്ചാല്‍;  ? ; sansāriccāl‍; 	 ^സംസാരിച്ചാല്/*സംസാരിച്ചാല്$‍	 ^sansāriccāl/*sansāriccāl$‍
-? ; സഹോദരിയാണ്;  ? ; sahēādariyāṇ; 	 ^സഹോദരിയാണ്/സഹോദരി<n><sg><nom>+ആക്<vbcop><pres>$	 ^sahēādariyāṇ/sahēādari<n><sg><nom>+āk<vbcop><pres>$
-? ; ള്ളതെന്നു;  ? ; ḷḷatennu; 	 ^ള്ളതെന്നു/*ള്ളതെന്നു$	 ^ḷḷatennu/*ḷḷatennu$
+XtransX; ? ; ;  ? ; ; 	 	 
+XtransX; ? ; അകത്താണ്;  ? ; akattāṇ; 	 ^അകത്താണ്/*അകത്താണ്$	 ^akattāṇ/*akattāṇ$
+XtransX; ? ; അങ്ങനെ;  ? ; aṅṅane; 	 ^അങ്ങനെ/*അങ്ങനെ$	 ^aṅṅane/*aṅṅane$
+XtransX; ? ; അഞ്ചാണ്;  ? ; añcāṇ; 	 ^അഞ്ചാണ്/അഞ്ച്<num><subst><sg><nom>+ആക്<vbcop><pres>$	 ^añcāṇ/añc<num><subst><sg><nom>+āk<vbcop><pres>$
+XtransX; ? ; അടുത്ത്;  ? ; aṭutt; 	 ^അടുത്ത്/*അടുത്ത്$	 ^aṭutt/*aṭutt$
+XtransX; ? ; അടുത്തേക്;  ? ; aṭuttēk; 	 ^അടുത്തേക്/*അടുത്തേക്$	 ^aṭuttēk/*aṭuttēk$
+XtransX; ? ; അടുത്തേക്ക്;  ? ; aṭuttēkk; 	 ^അടുത്തേക്ക്/*അടുത്തേക്ക്$	 ^aṭuttēkk/*aṭuttēkk$
+XtransX; ? ; അത്;  ? ; at; 	 ^അത്/അത്<det><dem>/അത്<prn><dem><sg><nom>$	 ^at/at<det><dem>/at<prn><dem><sg><nom>$
+XtransX; ? ; അതുകൊണ്ട്;  ? ; atukeāṇṭ; 	 ^അതുകൊണ്ട്/*അതുകൊണ്ട്$	 ^atukeāṇṭ/*atukeāṇṭ$
+XtransX; ? ; അമ്മ;  ? ; am'ma; 	 ^അമ്മ/അമ്മ<n><sg><nom>$	 ^am'ma/am'ma<n><sg><nom>$
+XtransX; ? ; അമ്മയെ;  ? ; am'maye; 	 ^അമ്മയെ/അമ്മ<n><sg><gen>$	 ^am'maye/am'ma<n><sg><gen>$
+XtransX; ? ; അമ്മയോട്;  ? ; am'mayēāṭ; 	 ^അമ്മയോട്/അമ്മ<n><sg><soc>$	 ^am'mayēāṭ/am'ma<n><sg><soc>$
+XtransX; ? ; അല്ല;  ? ; alla; 	 ^അല്ല/*അല്ല$	 ^alla/*alla$
+XtransX; ? ; അവന്‍;  ? ; avan‍; 	 ^അവന്‍/അവന്‍<prn><pers><p3><m><sg><nom>$	 ^avan‍/avan‍<prn><pers><p3><m><sg><nom>$
+XtransX; ? ; അവനെ;  ? ; avane; 	 ^അവനെ/*അവനെ$	 ^avane/*avane$
+XtransX; ? ; അവന്റെ;  ? ; avanṟe; 	 ^അവന്റെ/അവന്‍<prn><pers><p3><m><sg><gen>$	 ^avanṟe/avan‍<prn><pers><p3><m><sg><gen>$
+XtransX; ? ; അവര്‍;  ? ; avar‍; 	 ^അവര്‍/അവര്‍<prn><pers><p3><mf><pl><nom>$	 ^avar‍/avar‍<prn><pers><p3><mf><pl><nom>$
+XtransX; ? ; അവരുടെ;  ? ; avaruṭe; 	 ^അവരുടെ/അവര്‍<prn><pers><p3><mf><pl><gen>$	 ^avaruṭe/avar‍<prn><pers><p3><mf><pl><gen>$
+XtransX; ? ; അവര്‍ക്ക്;  ? ; avar‍kk; 	 ^അവര്‍ക്ക്/അവര്‍<prn><pers><p3><mf><pl><dat>$	 ^avar‍kk/avar‍<prn><pers><p3><mf><pl><dat>$
+XtransX; ? ; അവള്‍;  ? ; avaḷ‍; 	 ^അവള്‍/അവള്‍<prn><pers><p3><f><sg><nom>$	 ^avaḷ‍/avaḷ‍<prn><pers><p3><f><sg><nom>$
+XtransX; ? ; അവളുടെ;  ? ; avaḷuṭe; 	 ^അവളുടെ/അവള്‍<prn><pers><p3><f><sg><gen>$	 ^avaḷuṭe/avaḷ‍<prn><pers><p3><f><sg><gen>$
+XtransX; ? ; അവള്‍ക്;  ? ; avaḷ‍k; 	 ^അവള്‍ക്/അവള്‍<prn><pers><p3><f><sg><dat>$	 ^avaḷ‍k/avaḷ‍<prn><pers><p3><f><sg><dat>$
+XtransX; ? ; അവിടെ;  ? ; aviṭe; 	 ^അവിടെ/*അവിടെ$	 ^aviṭe/*aviṭe$
+XtransX; ? ; അറിയാമായിരുന്നിട്ടും;  ? ; aṟiyāmāyirunniṭṭuṁ; 	 ^അറിയാമായിരുന്നിട്ടും/*അറിയാമായിരുന്നിട്ടും$	 ^aṟiyāmāyirunniṭṭuṁ/*aṟiyāmāyirunniṭṭuṁ$
+XtransX; ? ; അറിയില്ല;  ? ; aṟiyilla; 	 ^അറിയില്ല/*അറിയില്ല$	 ^aṟiyilla/*aṟiyilla$
+XtransX; ? ; ആണ്;  ? ; āṇ; 	 ^ആണ്/ആക്<vbcop><pres>$	 ^āṇ/āk<vbcop><pres>$
+XtransX; ? ; ആണ്‍കുട്ടിയാണ്;  ? ; āṇ‍kuṭṭiyāṇ; 	 ^ആണ്‍കുട്ടിയാണ്/ആണ്‍കുട്ടി<n><sg><nom>+ആക്<vbcop><pres>$	 ^āṇ‍kuṭṭiyāṇ/āṇ‍kuṭṭi<n><sg><nom>+āk<vbcop><pres>$
+XtransX; ? ; ആറാണ്;  ? ; āṟāṇ; 	 ^ആറാണ്/ആറ്<num><subst><sg><nom>+ആക്<vbcop><pres>$	 ^āṟāṇ/āṟ<num><subst><sg><nom>+āk<vbcop><pres>$
+XtransX; ? ; ഇത്;  ? ; it; 	 ^ഇത്/*ഇത്$	 ^it/*it$
+XtransX; ? ; ഇന്ന്;  ? ; inn; 	 ^ഇന്ന്/*ഇന്ന്$	 ^inn/*inn$
+XtransX; ? ; ഇന്നലെ;  ? ; innale; 	 ^ഇന്നലെ/*ഇന്നലെ$	 ^innale/*innale$
+XtransX; ? ; ഇപ്പോള്‍;  ? ; ippēāḷ‍; 	 ^ഇപ്പോള്/*ഇപ്പോള്$‍	 ^ippēāḷ/*ippēāḷ$‍
+XtransX; ? ; ഇപ്പോഴും;  ? ; ippēāḻuṁ; 	 ^ഇപ്പോഴും/*ഇപ്പോഴും$	 ^ippēāḻuṁ/*ippēāḻuṁ$
+XtransX; ? ; ഇരിക്കുകയാണ്;  ? ; irikkukayāṇ; 	 ^ഇരിക്കുകയാണ്/*ഇരിക്കുകയാണ്$	 ^irikkukayāṇ/*irikkukayāṇ$
+XtransX; ? ; ഇല്ല;  ? ; illa; 	 ^ഇല്ല/*ഇല്ല$	 ^illa/*illa$
+XtransX; ? ; ഇഷ്ടപ്പെടുന്നു;  ? ; iṣṭappeṭunnu; 	 ^ഇഷ്ടപ്പെടുന്നു/*ഇഷ്ടപ്പെടുന്നു$	 ^iṣṭappeṭunnu/*iṣṭappeṭunnu$
+XtransX; ? ; ഇഷ്ടമാണ്;  ? ; iṣṭamāṇ; 	 ^ഇഷ്ടമാണ്/*ഇഷ്ടമാണ്$	 ^iṣṭamāṇ/*iṣṭamāṇ$
+XtransX; ? ; ഉണ്ട്;  ? ; uṇṭ; 	 ^ഉണ്ട്/ഉണ്ട്<vbcop><pres>$	 ^uṇṭ/uṇṭ<vbcop><pres>$
+XtransX; ? ; ഉത്തരം;  ? ; uttaraṁ; 	 ^ഉത്തരം/ഉത്തരം<n><sg><nom>$	 ^uttaraṁ/uttaraṁ<n><sg><nom>$
+XtransX; ? ; ഉറങ്ങിക്കൊണ്ടിരിക്കുന്നു;  ? ; uṟaṅṅikkeāṇṭirikkunnu; 	 ^ഉറങ്ങിക്കൊണ്ടിരിക്കുന്നു/*ഉറങ്ങിക്കൊണ്ടിരിക്കുന്നു$	 ^uṟaṅṅikkeāṇṭirikkunnu/*uṟaṅṅikkeāṇṭirikkunnu$
+XtransX; ? ; ഊഷ്മളമാണ്;  ? ; ūṣmaḷamāṇ; 	 ഊ^ഷ്മളമാണ്/*ഷ്മളമാണ്$	 ū^ṣmaḷamāṇ/*ṣmaḷamāṇ$
+XtransX; ? ; എണ്ണി;  ? ; eṇṇi; 	 ^എണ്ണി/എണ്ണുക<v><tv><past>$	 ^eṇṇi/eṇṇuka<v><tv><past>$
+XtransX; ? ; എനിക്ക്;  ? ; enikk; 	 ^എനിക്ക്/*എനിക്ക്$	 ^enikk/*enikk$
+XtransX; ? ; എന്ത്;  ? ; ent; 	 ^എന്ത്/*എന്ത്$	 ^ent/*ent$
+XtransX; ? ; എന്താണ്;  ? ; entāṇ; 	 ^എന്താണ്/*എന്താണ്$	 ^entāṇ/*entāṇ$
+XtransX; ? ; എന്തിനാണ്;  ? ; entināṇ; 	 ^എന്തിനാണ്/*എന്തിനാണ്$	 ^entināṇ/*entināṇ$
+XtransX; ? ; എന്തെങ്കിലും;  ? ; enteṅkiluṁ; 	 ^എന്തെങ്കിലും/*എന്തെങ്കിലും$	 ^enteṅkiluṁ/*enteṅkiluṁ$
+XtransX; ? ; എന്നു;  ? ; ennu; 	 ^എന്നു/*എന്നു$	 ^ennu/*ennu$
+XtransX; ? ; എപ്പോഴും;  ? ; eppēāḻuṁ; 	 ^എപ്പോഴും/*എപ്പോഴും$	 ^eppēāḻuṁ/*eppēāḻuṁ$
+XtransX; ? ; എല്ലായിടത്തും;  ? ; ellāyiṭattuṁ; 	 ^എല്ലായിടത്തും/*എല്ലായിടത്തും$	 ^ellāyiṭattuṁ/*ellāyiṭattuṁ$
+XtransX; ? ; എവിടെ;  ? ; eviṭe; 	 ^എവിടെ/*എവിടെ$	 ^eviṭe/*eviṭe$
+XtransX; ? ; എവിടെയാണ്;  ? ; eviṭeyāṇ; 	 ^എവിടെയാണ്/*എവിടെയാണ്$	 ^eviṭeyāṇ/*eviṭeyāṇ$
+XtransX; ? ; എവിടെയാണുള്ളതെന്നു;  ? ; eviṭeyāṇuḷḷatennu; 	 ^എവിടെയാണുള്ളതെന്നു/*എവിടെയാണുള്ളതെന്നു$	 ^eviṭeyāṇuḷḷatennu/*eviṭeyāṇuḷḷatennu$
+XtransX; ? ; ഒന്നും;  ? ; onnuṁ; 	 ^ഒന്നും/ഒരു<num><subst><sg><nom>+യും<cnjcoo>$	 ^onnuṁ/oru<num><subst><sg><nom>+yuṁ<cnjcoo>$
+XtransX; ? ; ഒരു;  ? ; oru; 	 ^ഒരു/ഒരു<num>$	 ^oru/oru<num>$
+XtransX; ? ; ഒരുമിച്ച്;  ? ; orumicc; 	 ^ഒരുമിച്ച്/*ഒരുമിച്ച്$	 ^orumicc/*orumicc$
+XtransX; ? ; ഒളിക്കുകയാണ്;  ? ; oḷikkukayāṇ; 	 ^ഒളിക്കുകയാണ്/ഒളിക്കുക<v><iv><inf_k>+ആക്<vbcop><pres>$	 ^oḷikkukayāṇ/oḷikkuka<v><iv><inf_k>+āk<vbcop><pres>$
+XtransX; ? ; കണ്ടിരുന്നൊ;  ? ; kaṇṭirunneā; 	 ^കണ്ടിരുന്നൊ/*കണ്ടിരുന്നൊ$	 ^kaṇṭirunneā/*kaṇṭirunneā$
+XtransX; ? ; കണ്ടു;  ? ; kaṇṭu; 	 ^കണ്ടു/കാണുക<v><tv><past>$	 ^kaṇṭu/kāṇuka<v><tv><past>$
+XtransX; ? ; കണ്ടുപിടിക്കാന്‍;  ? ; kaṇṭupiṭikkān‍; 	 ^കണ്ടുപിടിക്കാന്‍/കണ്ടുപിടിക്കുക<v><tv><inf_n>$	 ^kaṇṭupiṭikkān‍/kaṇṭupiṭikkuka<v><tv><inf_n>$
+XtransX; ? ; കണ്ടുപിടിച്ചു;  ? ; kaṇṭupiṭiccu; 	 ^കണ്ടുപിടിച്ചു/കണ്ടുപിടിക്കുക<v><tv><past>$	 ^kaṇṭupiṭiccu/kaṇṭupiṭikkuka<v><tv><past>$
+XtransX; ? ; കണ്ടെത്താന്‍;  ? ; kaṇṭettān‍; 	 ^കണ്ടെത്താന്‍/കണ്ടെത്തുക<v><tv><inf_n>$	 ^kaṇṭettān‍/kaṇṭettuka<v><tv><inf_n>$
+XtransX; ? ; കണ്ണിന്റെ;  ? ; kaṇṇinṟe; 	 ^കണ്ണിന്റെ/കണ്ണ്<n><sg><gen>$	 ^kaṇṇinṟe/kaṇṇ<n><sg><gen>$
+XtransX; ? ; കരുതി;  ? ; karuti; 	 ^കരുതി/*കരുതി$	 ^karuti/*karuti$
+XtransX; ? ; കസേരയുടെ;  ? ; kasērayuṭe; 	 ^കസേരയുടെ/കസേര<n><sg><gen>$	 ^kasērayuṭe/kasēra<n><sg><gen>$
+XtransX; ? ; കളിക്കാന്‍;  ? ; kaḷikkān‍; 	 ^കളിക്കാന്‍/കളിക്കുക<v><iv><inf_n>$	 ^kaḷikkān‍/kaḷikkuka<v><iv><inf_n>$
+XtransX; ? ; കളിക്കുന്നത്;  ? ; kaḷikkunnat; 	 ^കളിക്കുന്നത്/*കളിക്കുന്നത്$	 ^kaḷikkunnat/*kaḷikkunnat$
+XtransX; ? ; കളിക്കുന്നു;  ? ; kaḷikkunnu; 	 ^കളിക്കുന്നു/കളിക്കുക<v><iv><pres>$	 ^kaḷikkunnu/kaḷikkuka<v><iv><pres>$
+XtransX; ? ; കളിയാണ്;  ? ; kaḷiyāṇ; 	 ^കളിയാണ്/കളി<n><sg><nom>+ആക്<vbcop><pres>$	 ^kaḷiyāṇ/kaḷi<n><sg><nom>+āk<vbcop><pres>$
+XtransX; ? ; കഴിഞ്ഞില്ല;  ? ; kaḻiññilla; 	 ^കഴിഞ്ഞില്ല/*കഴിഞ്ഞില്ല$	 ^kaḻiññilla/*kaḻiññilla$
+XtransX; ? ; കഴിയില്ല;  ? ; kaḻiyilla; 	 ^കഴിയില്ല/*കഴിയില്ല$	 ^kaḻiyilla/*kaḻiyilla$
+XtransX; ? ; കഴിയുന്നില്ല;  ? ; kaḻiyunnilla; 	 ^കഴിയുന്നില്ല/*കഴിയുന്നില്ല$	 ^kaḻiyunnilla/*kaḻiyunnilla$
+XtransX; ? ; കാണാന്‍;  ? ; kāṇān‍; 	 ^കാണാന്‍/കാണുക<v><tv><inf_n>$	 ^kāṇān‍/kāṇuka<v><tv><inf_n>$
+XtransX; ? ; കാണുകയും;  ? ; kāṇukayuṁ; 	 ^കാണുകയും/കാണുക<v><tv><inf_k>+യും<cnjcoo>$	 ^kāṇukayuṁ/kāṇuka<v><tv><inf_k>+yuṁ<cnjcoo>$
+XtransX; ? ; കാലാവസ്ഥ;  ? ; kālāvastha; 	 ^കാലാവസ്ഥ/കാലാവസ്ഥ<n><sg><nom>$	 ^kālāvastha/kālāvastha<n><sg><nom>$
+XtransX; ? ; കിട്ടിയില്ല;  ? ; kiṭṭiyilla; 	 ^കിട്ടിയില്ല/*കിട്ടിയില്ല$	 ^kiṭṭiyilla/*kiṭṭiyilla$
+XtransX; ? ; കുടിക്കുവനുമുള്ള;  ? ; kuṭikkuvanumuḷḷa; 	 ^കുടിക്കുവനുമുള്ള/*കുടിക്കുവനുമുള്ള$	 ^kuṭikkuvanumuḷḷa/*kuṭikkuvanumuḷḷa$
+XtransX; ? ; കുട്ടികളുടെ;  ? ; kuṭṭikaḷuṭe; 	 ^കുട്ടികളുടെ/കുട്ടി<n><pl><gen>$	 ^kuṭṭikaḷuṭe/kuṭṭi<n><pl><gen>$
+XtransX; ? ; കൂടി;  ? ; kūṭi; 	 ^കൂടി/*കൂടി$	 ^kūṭi/*kūṭi$
+XtransX; ? ; കൂടെ;  ? ; kūṭe; 	 ^കൂടെ/*കൂടെ$	 ^kūṭe/*kūṭe$
+XtransX; ? ; കേട്ടു;  ? ; kēṭṭu; 	 ^കേട്ടു/കേള്‍ക്കുക<v><tv><past>$	 ^kēṭṭu/kēḷ‍kkuka<v><tv><past>$
+XtransX; ? ; കേള്‍ക്കാം;  ? ; kēḷ‍kkāṁ; 	 ^കേള്/*കേള്$‍^ക്കാം/*ക്കാം$	 ^kēḷ/*kēḷ$‍^kkāṁ/*kkāṁ$
+XtransX; ? ; കൈ;  ? ; kai; 	 ^കൈ/കൈ<n><sg><nom>$	 ^kai/kai<n><sg><nom>$
+XtransX; ? ; കൊണ്ടാണെന്നു;  ? ; keāṇṭāṇennu; 	 ^കൊണ്ടാണെന്നു/*കൊണ്ടാണെന്നു$	 ^keāṇṭāṇennu/*keāṇṭāṇennu$
+XtransX; ? ; കൊണ്ടു;  ? ; keāṇṭu; 	 ^കൊണ്ടു/*കൊണ്ടു$	 ^keāṇṭu/*keāṇṭu$
+XtransX; ? ; ചിരിച്ചു;  ? ; ciriccu; 	 ^ചിരിച്ചു/ചിരിക്കുക<v><iv><past>$	 ^ciriccu/cirikkuka<v><iv><past>$
+XtransX; ? ; ചുറ്റും;  ? ; cuṟṟuṁ; 	 ^ചുറ്റും/*ചുറ്റും$	 ^cuṟṟuṁ/*cuṟṟuṁ$
+XtransX; ? ; ചെയ്തു;  ? ; ceytu; 	 ^ചെയ്തു/*ചെയ്തു$	 ^ceytu/*ceytu$
+XtransX; ? ; ചെയ്യുന്നത്;  ? ; ceyyunnat; 	 ^ചെയ്യുന്നത്/*ചെയ്യുന്നത്$	 ^ceyyunnat/*ceyyunnat$
+XtransX; ? ; ചെറിയ;  ? ; ceṟiya; 	 ^ചെറിയ/ചെറിയ<adj>$	 ^ceṟiya/ceṟiya<adj>$
+XtransX; ? ; ചോദിച്ചു;  ? ; cēādiccu; 	 ^ചോദിച്ചു/ചോദിക്കുക<v><iv><past>$	 ^cēādiccu/cēādikkuka<v><iv><past>$
+XtransX; ? ; ചോദ്യത്തിന്;  ? ; cēādyattin; 	 ^ചോദ്യത്തിന്/*ചോദ്യത്തിന്$	 ^cēādyattin/*cēādyattin$
+XtransX; ? ; ജനങ്ങള്‍ക്;  ? ; janaṅṅaḷ‍k; 	 ^ജനങ്ങള്‍ക്/ജനം<n><pl><dat>$	 ^janaṅṅaḷ‍k/janaṁ<n><pl><dat>$
+XtransX; ? ; ജനലിന്;  ? ; janalin; 	 ^ജനലിന്/ജനല്‍<n><sg><dat>$	 ^janalin/janal‍<n><sg><dat>$
+XtransX; ? ; ജനലിലൂടെ;  ? ; janalilūṭe; 	 ^ജനലിലൂടെ/ജനല്‍<n><sg><loc>+ൂടെ<post>$	 ^janalilūṭe/janal‍<n><sg><loc>+̔ūṭe<post>$
+XtransX; ? ; തണുപ്പായിരുന്നു;  ? ; taṇuppāyirunnu; 	 ^തണുപ്പായിരുന്നു/*തണുപ്പായിരുന്നു$	 ^taṇuppāyirunnu/*taṇuppāyirunnu$
+XtransX; ? ; തന്നെ;  ? ; tanne; 	 ^തന്നെ/*തന്നെ$	 ^tanne/*tanne$
+XtransX; ? ; തല;  ? ; tala; 	 ^തല/തല<n><sg><nom>$	 ^tala/tala<n><sg><nom>$
+XtransX; ? ; താഴെയും;  ? ; tāḻeyuṁ; 	 ^താഴെയും/താഴെ<spost>+യും<cnjcoo>$	 ^tāḻeyuṁ/tāḻe<spost>+yuṁ<cnjcoo>$
+XtransX; ? ; തിന്നുവാനും;  ? ; tinnuvānuṁ; 	 ^തിന്നുവാനും/*തിന്നുവാനും$	 ^tinnuvānuṁ/*tinnuvānuṁ$
+XtransX; ? ; തീര്‍ച്ചയായും;  ? ; tīr‍ccayāyuṁ; 	 ^തീര്/*തീര്$‍^ച്ചയായും/*ച്ചയായും$	 ^tīr/*tīr$‍^ccayāyuṁ/*ccayāyuṁ$
+XtransX; ? ; തീര്‍ന്നപ്പോള്‍;  ? ; tīr‍nnappēāḷ‍; 	 ^തീര്/*തീര്$‍^ന്നപ്പോള്/*ന്നപ്പോള്$‍	 ^tīr/*tīr$‍^nnappēāḷ/*nnappēāḷ$‍
+XtransX; ? ; നടന്നപ്പോള്‍;  ? ; naṭannappēāḷ‍; 	 ^നടന്നപ്പോള്/*നടന്നപ്പോള്$‍	 ^naṭannappēāḷ/*naṭannappēāḷ$‍
+XtransX; ? ; നടന്നു;  ? ; naṭannu; 	 ^നടന്നു/നടക്കുക<v><iv><past>$	 ^naṭannu/naṭakkuka<v><iv><past>$
+XtransX; ? ; നല്ലതാണ്;  ? ; nallatāṇ; 	 ^നല്ലതാണ്/*നല്ലതാണ്$	 ^nallatāṇ/*nallatāṇ$
+XtransX; ? ; നിന്നാണ്;  ? ; ninnāṇ; 	 ^നിന്നാണ്/നിന്ന്<spost>+ആക്<vbcop><pres>$	 ^ninnāṇ/ninn<spost>+āk<vbcop><pres>$
+XtransX; ? ; നിന്നും;  ? ; ninnuṁ; 	 ^നിന്നും/നിന്ന്<spost>+യും<cnjcoo>$	 ^ninnuṁ/ninn<spost>+yuṁ<cnjcoo>$
+XtransX; ? ; നിന്നെ;  ? ; ninne; 	 ^നിന്നെ/നീ<prn><pers><p2><mf><sg><acc>$	 ^ninne/nī<prn><pers><p2><mf><sg><acc>$
+XtransX; ? ; നീ;  ? ; nī; 	 ^നീ/നീ<prn><pers><p2><mf><sg><nom>$	 ^nī/nī<prn><pers><p2><mf><sg><nom>$
+XtransX; ? ; നേരമാണ്;  ? ; nēramāṇ; 	 ^നേരമാണ്/നേരം<n><sg><nom>+ആക്<vbcop><pres>$	 ^nēramāṇ/nēraṁ<n><sg><nom>+āk<vbcop><pres>$
+XtransX; ? ; നോക്കി;  ? ; nēākki; 	 ^നോക്കി/നോക്കുക<v><tv><past>$	 ^nēākki/nēākkuka<v><tv><past>$
+XtransX; ? ; നോക്കുകയും;  ? ; nēākkukayuṁ; 	 ^നോക്കുകയും/നോക്കുക<v><tv><inf_k>+യും<cnjcoo>$	 ^nēākkukayuṁ/nēākkuka<v><tv><inf_k>+yuṁ<cnjcoo>$
+XtransX; ? ; പക്ഷിയോ;  ? ; pakṣiyēā; 	 ^പക്ഷിയോ/പക്ഷി<n><sg><nom>+യോ<cnjcoo>$	 ^pakṣiyēā/pakṣi<n><sg><nom>+yēā<cnjcoo>$
+XtransX; ? ; പക്ഷെ;  ? ; pakṣe; 	 ^പക്ഷെ/പക്ഷെ<cnjcoo>$	 ^pakṣe/pakṣe<cnjcoo>$
+XtransX; ? ; പട്ടി;  ? ; paṭṭi; 	 ^പട്ടി/പട്ടി<n><sg><nom>$	 ^paṭṭi/paṭṭi<n><sg><nom>$
+XtransX; ? ; പട്ടികളോട്;  ? ; paṭṭikaḷēāṭ; 	 ^പട്ടികളോട്/പട്ടി<n><pl><soc>$	 ^paṭṭikaḷēāṭ/paṭṭi<n><pl><soc>$
+XtransX; ? ; പട്ടിയും;  ? ; paṭṭiyuṁ; 	 ^പട്ടിയും/പട്ടി<n><sg><nom>+യും<cnjcoo>$	 ^paṭṭiyuṁ/paṭṭi<n><sg><nom>+yuṁ<cnjcoo>$
+XtransX; ? ; പട്ടിയോട്;  ? ; paṭṭiyēāṭ; 	 ^പട്ടിയോട്/പട്ടി<n><sg><soc>$	 ^paṭṭiyēāṭ/paṭṭi<n><sg><soc>$
+XtransX; ? ; പട്ടിയ്ക്ക്;  ? ; paṭṭiykk; 	 ^പട്ടിയ്ക്ക്/പട്ടി<n><sg><dat>$	 ^paṭṭiykk/paṭṭi<n><sg><dat>$
+XtransX; ? ; പഴയ;  ? ; paḻaya; 	 ^പഴയ/പഴയ<adj>$	 ^paḻaya/paḻaya<adj>$
+XtransX; ? ; പറഞ്ഞു;  ? ; paṟaññu; 	 ^പറഞ്ഞു/പറയുക<v><tv><past>$	 ^paṟaññu/paṟayuka<v><tv><past>$
+XtransX; ? ; പറയാന്‍;  ? ; paṟayān‍; 	 ^പറയാന്/*പറയാന്$‍	 ^paṟayān/*paṟayān$‍
+XtransX; ? ; പറയൂ;  ? ; paṟayū; 	 ^പറയൂ/*പറയൂ$	 ^paṟayū/*paṟayū$
+XtransX; ? ; പിന്നെ;  ? ; pinne; 	 ^പിന്നെ/*പിന്നെ$	 ^pinne/*pinne$
+XtransX; ? ; പിറകില്‍;  ? ; piṟakil‍; 	 ^പിറകില്/*പിറകില്$‍	 ^piṟakil/*piṟakil$‍
+XtransX; ? ; പുറത്ത്;  ? ; puṟatt; 	 ^പുറത്ത്/*പുറത്ത്$	 ^puṟatt/*puṟatt$
+XtransX; ? ; പുറത്തേക്;  ? ; puṟattēk; 	 ^പുറത്തേക്/*പുറത്തേക്$	 ^puṟattēk/*puṟattēk$
+XtransX; ? ; പൂച്ച;  ? ; pūcca; 	 ^പൂച്ച/പൂച്ച<n><sg><nom>$	 ^pūcca/pūcca<n><sg><nom>$
+XtransX; ? ; പൂച്ചയോടപ്പം;  ? ; pūccayēāṭappaṁ; 	 ^പൂച്ചയോടപ്പം/പൂച്ച<n><sg><nom>+യോടപ്പം<post>$	 ^pūccayēāṭappaṁ/pūcca<n><sg><nom>+yēāṭappaṁ<post>$
+XtransX; ? ; പൂന്തോട്ടത്തില്‍;  ? ; pūntēāṭṭattil‍; 	 ^പൂന്തോട്ടത്തില്‍/പൂന്തോട്ടം<n><sg><loc>$	 ^pūntēāṭṭattil‍/pūntēāṭṭaṁ<n><sg><loc>$
+XtransX; ? ; പൂന്തോട്ടത്തിലാണ്;  ? ; pūntēāṭṭattilāṇ; 	 ^പൂന്തോട്ടത്തിലാണ്/പൂന്തോട്ടം<n><sg><loc>+ആക്<vbcop><pres>$	 ^pūntēāṭṭattilāṇ/pūntēāṭṭaṁ<n><sg><loc>+āk<vbcop><pres>$
+XtransX; ? ; പൂന്തോട്ടത്തിലൂടെ;  ? ; pūntēāṭṭattilūṭe; 	 ^പൂന്തോട്ടത്തിലൂടെ/പൂന്തോട്ടം<n><sg><loc>+ൂടെ<post>$	 ^pūntēāṭṭattilūṭe/pūntēāṭṭaṁ<n><sg><loc>+̔ūṭe<post>$
+XtransX; ? ; പെട്ടെന്ന്;  ? ; peṭṭenn; 	 ^പെട്ടെന്ന്/*പെട്ടെന്ന്$	 ^peṭṭenn/*peṭṭenn$
+XtransX; ? ; പെണ്‍കുട്ടി;  ? ; peṇ‍kuṭṭi; 	 ^പെണ്‍കുട്ടി/പെണ്‍കുട്ടി<n><sg><nom>$	 ^peṇ‍kuṭṭi/peṇ‍kuṭṭi<n><sg><nom>$
+XtransX; ? ; പേര്‍ക്കും;  ? ; pēr‍kkuṁ; 	 ^പേര്/*പേര്$‍^ക്കും/*ക്കും$	 ^pēr/*pēr$‍^kkuṁ/*kkuṁ$
+XtransX; ? ; പോകുകയും;  ? ; pēākukayuṁ; 	 ^പോകുകയും/*പോകുകയും$	 ^pēākukayuṁ/*pēākukayuṁ$
+XtransX; ? ; പോയതെന്നു;  ? ; pēāyatennu; 	 ^പോയതെന്നു/*പോയതെന്നു$	 ^pēāyatennu/*pēāyatennu$
+XtransX; ? ; പോയി;  ? ; pēāyi; 	 ^പോയി/*പോയി$	 ^pēāyi/*pēāyi$
+XtransX; ? ; മരത്തിന്റെ;  ? ; marattinṟe; 	 ^മരത്തിന്റെ/മരം<n><sg><gen>$	 ^marattinṟe/maraṁ<n><sg><gen>$
+XtransX; ? ; മറുപടി;  ? ; maṟupaṭi; 	 ^മറുപടി/മറുപടി<n><sg><nom>$	 ^maṟupaṭi/maṟupaṭi<n><sg><nom>$
+XtransX; ? ; മുന്നില്‍;  ? ; munnil‍; 	 ^മുന്നില്‍/മുന്നില്‍<spost>$	 ^munnil‍/munnil‍<spost>$
+XtransX; ? ; മുമ്പില്‍;  ? ; mumpil‍; 	 ^മുമ്പില്‍/മുമ്പില്‍<spost>$	 ^mumpil‍/mumpil‍<spost>$
+XtransX; ? ; മെല്ലെ;  ? ; melle; 	 ^മെല്ലെ/*മെല്ലെ$	 ^melle/*melle$
+XtransX; ? ; മേശയുടെ;  ? ; mēśayuṭe; 	 ^മേശയുടെ/മേശ<n><sg><gen>$	 ^mēśayuṭe/mēśa<n><sg><gen>$
+XtransX; ? ; മ്രിഗമോ;  ? ; mrigamēā; 	 ^മ്രിഗമോ/മ്രിഗം<n><sg><nom>+യോ<cnjcoo>$	 ^mrigamēā/mrigaṁ<n><sg><nom>+yēā<cnjcoo>$
+XtransX; ? ; രണ്ട്;  ? ; raṇṭ; 	 ^രണ്ട്/രണ്ട്<num>/രണ്ട്<num><subst><sg><nom>$	 ^raṇṭ/raṇṭ<num>/raṇṭ<num><subst><sg><nom>$
+XtransX; ? ; രാജു;  ? ; rāju; 	 ^രാജു/രാജു<np><ant><m><sg><nom>$	 ^rāju/rāju<np><ant><m><sg><nom>$
+XtransX; ? ; രാജുവിന്;  ? ; rājuvin; 	 ^രാജുവിന്/രാജു<np><ant><m><sg><dat>$	 ^rājuvin/rāju<np><ant><m><sg><dat>$
+XtransX; ? ; രാജുവിനെ;  ? ; rājuvine; 	 ^രാജുവിനെ/രാജു<np><ant><m><sg><acc>$	 ^rājuvine/rāju<np><ant><m><sg><acc>$
+XtransX; ? ; രാജുവും;  ? ; rājuvuṁ; 	 ^രാജുവും/രാജു<np><ant><m><sg><nom>+യും<cnjcoo>$	 ^rājuvuṁ/rāju<np><ant><m><sg><nom>+yuṁ<cnjcoo>$
+XtransX; ? ; രാധ;  ? ; rādha; 	 ^രാധ/രാധ<np><ant><f><sg><nom>$	 ^rādha/rādha<np><ant><f><sg><nom>$
+XtransX; ? ; രാധയില്‍;  ? ; rādhayil‍; 	 ^രാധയില്‍/രാധ<np><ant><f><sg><loc>$	 ^rādhayil‍/rādha<np><ant><f><sg><loc>$
+XtransX; ? ; രാധയും;  ? ; rādhayuṁ; 	 ^രാധയും/രാധ<np><ant><f><sg><nom>+യും<cnjcoo>$	 ^rādhayuṁ/rādha<np><ant><f><sg><nom>+yuṁ<cnjcoo>$
+XtransX; ? ; രാധയ്ക്;  ? ; rādhayk; 	 ^രാധയ്ക്/രാധ<np><ant><f><sg><dat>$	 ^rādhayk/rādha<np><ant><f><sg><dat>$
+XtransX; ? ; രാധയ്കും;  ? ; rādhaykuṁ; 	 ^രാധയ്കും/രാധ<np><ant><f><sg><dat>+യും<cnjcoo>$	 ^rādhaykuṁ/rādha<np><ant><f><sg><dat>+yuṁ<cnjcoo>$
+XtransX; ? ; രാധേ;  ? ; rādhē; 	 ^രാധേ/*രാധേ$	 ^rādhē/*rādhē$
+XtransX; ? ; ലഭിക്കാറില്ല;  ? ; labhikkāṟilla; 	 ^ലഭിക്കാറില്ല/*ലഭിക്കാറില്ല$	 ^labhikkāṟilla/*labhikkāṟilla$
+XtransX; ? ; വയസ്സ്;  ? ; vayas's; 	 ^വയസ്സ്/വയസ്സ്<n><sg><nom>$	 ^vayas's/vayas's<n><sg><nom>$
+XtransX; ? ; വരുന്നത്;  ? ; varunnat; 	 ^വരുന്നത്/*വരുന്നത്$	 ^varunnat/*varunnat$
+XtransX; ? ; വലിയ;  ? ; valiya; 	 ^വലിയ/വലിയ<adj>$	 ^valiya/valiya<adj>$
+XtransX; ? ; വളരെ;  ? ; vaḷare; 	 ^വളരെ/*വളരെ$	 ^vaḷare/*vaḷare$
+XtransX; ? ; വീടിന്റെ;  ? ; vīṭinṟe; 	 ^വീടിന്റെ/വീട്<n><sg><gen>$	 ^vīṭinṟe/vīṭ<n><sg><gen>$
+XtransX; ? ; വീട്ടിലാണ്;  ? ; vīṭṭilāṇ; 	 ^വീട്ടിലാണ്/വീട്<n><sg><loc>+ആക്<vbcop><pres>$	 ^vīṭṭilāṇ/vīṭ<n><sg><loc>+āk<vbcop><pres>$
+XtransX; ? ; വീട്ടിലേക്ക്;  ? ; vīṭṭilēkk; 	 ^വീട്ടിലേക്ക്/വീട്<n><sg><loc>+േക്ക്<post>$	 ^vīṭṭilēkk/vīṭ<n><sg><loc>+̔ēkk<post>$
+XtransX; ? ; വീണ്ടും;  ? ; vīṇṭuṁ; 	 ^വീണ്ടും/വീണ്ടും<adv>$	 ^vīṇṭuṁ/vīṇṭuṁ<adv>$
+XtransX; ? ; വെള്ളം;  ? ; veḷḷaṁ; 	 ^വെള്ളം/വെള്ളം<n><sg><nom>$	 ^veḷḷaṁ/veḷḷaṁ<n><sg><nom>$
+XtransX; ? ; വ്യക്തമായി;  ? ; vyaktamāyi; 	 ^വ്യക്തമായി/*വ്യക്തമായി$	 ^vyaktamāyi/*vyaktamāyi$
+XtransX; ? ; ശ്രദ്ധയോടെ;  ? ; śrad'dhayēāṭe; 	 ^ശ്രദ്ധയോടെ/*ശ്രദ്ധയോടെ$	 ^śrad'dhayēāṭe/*śrad'dhayēāṭe$
+XtransX; ? ; ശബ്ദം;  ? ; śabdaṁ; 	 ^ശബ്ദം/ശബ്ദം<n><sg><nom>$	 ^śabdaṁ/śabdaṁ<n><sg><nom>$
+XtransX; ? ; സന്തോഷം;  ? ; santēāṣaṁ; 	 ^സന്തോഷം/*സന്തോഷം$	 ^santēāṣaṁ/*santēāṣaṁ$
+XtransX; ? ; സന്തോഷമാകുകയും;  ? ; santēāṣamākukayuṁ; 	 ^സന്തോഷമാകുകയും/*സന്തോഷമാകുകയും$	 ^santēāṣamākukayuṁ/*santēāṣamākukayuṁ$
+XtransX; ? ; സംസാരിക്കാന്‍;  ? ; sansārikkān‍; 	 ^സംസാരിക്കാന്‍/സംസാരിക്കുക<v><iv><inf_n>$	 ^sansārikkān‍/sansārikkuka<v><iv><inf_n>$
+XtransX; ? ; സംസാരിച്ചാല്‍;  ? ; sansāriccāl‍; 	 ^സംസാരിച്ചാല്/*സംസാരിച്ചാല്$‍	 ^sansāriccāl/*sansāriccāl$‍
+XtransX; ? ; സഹോദരിയാണ്;  ? ; sahēādariyāṇ; 	 ^സഹോദരിയാണ്/സഹോദരി<n><sg><nom>+ആക്<vbcop><pres>$	 ^sahēādariyāṇ/sahēādari<n><sg><nom>+āk<vbcop><pres>$
+XtransX; ? ; ള്ളതെന്നു;  ? ; ḷḷatennu; 	 ^ള്ളതെന്നു/*ള്ളതെന്നു$	 ^ḷḷatennu/*ḷḷatennu$
