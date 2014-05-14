@@ -41,7 +41,6 @@ Multichar_Symbols
 
 %<ant%>         ! Anthroponym                 !
 
- 
 %<pers%>        ! Personal                    !
 %<itg%>         ! Interrogative               ! 
 %<dem%>         ! Demonstrative               !
@@ -286,7 +285,8 @@ LEXICON NP3
 
 LEXICON PRON-PERS-NNAAN 
 
-%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<nom%>: CLIT-N-NOM ; 
+എനിക്ക്%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<nom%>:എനിക്ക് CLIT-N-NOM ; 
+എനിക്ക്%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<dat%>:ഞാന്‍ CLIT-N ; 
 
 LEXICON PRON-PERS-NII
 
@@ -314,6 +314,14 @@ LEXICON PRON-PERS-AVAL
 LEXICON PRON-DEM-AT
 
 %<prn%>%<dem%>%<sg%>%<nom%>: CLIT-N-NOM ; 
+
+LEXICON PRON-DEM-IT 
+
+%<prn%>%<dem%>%<sg%>%<nom%>: CLIT-N-NOM ; 
+
+LEXICON PRON-ITG-ENT
+
+%<prn%>%<itg%>%<sg%>%<nom%>: CLIT-N-NOM ; 
 
 LEXICON NUM-ONNU
 
@@ -485,13 +493,16 @@ LEXICON Postpositions
 
 LEXICON Pronouns
 
-ഞാന്‍:ഞാന്‍ PRON-PERS-NNAAN ; ! "I" ! "ñān"
+PRON-PERS-NNAAN ; ! "I" ! "ñān"
 നീ:ന PRON-PERS-NII ; ! "you" ! "nī"
 അവന്‍:അവ PRON-PERS-AVAN ; ! "he" ! "avan"
 അവള്‍:അവ PRON-PERS-AVAL ; ! "she" ! "avaḷ‍"
 അവര്‍:അവ PRON-PERS-AVAR ; ! "they" ! "avar"
 
 അത്:അത് PRON-DEM-AT ; ! "that" ! "at"
+ഇത്:ഇത് PRON-DEM-IT ; ! "this" ! "it"
+
+എന്ത്:എന്ത് PRON-ITG-ENT ; ! "what" ! "ent"
 
 LEXICON Determiners
 
