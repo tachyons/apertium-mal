@@ -350,6 +350,7 @@ LEXICON V-COMMON-KALI
 %<past%>:%>ച്ചു # ; ! "ccu"
 %<fut%>:%>ക്കും # ; ! "kkuṁ"
 %<iter%>%<pres%>:%>ച്ചുകൊണ്ടിരിക്കുന്നു # ; ! "ccu"
+%<cond%>:%>ച്ചാല്‍  # ; ! "ccāl‍"
 
 !%<simul%>:%>
 !%<oblig%>:%>
@@ -432,6 +433,29 @@ LEXICON V-COMMON-URANGUKA
 %<pres%>:%>ുന്നു # ; ! "̔̔unnu"
 %<past%>:%>ി # ; ! "̔i "
 %<iter%>%<pres%>:%>ിക്കൊണ്ടിരിക്കുന്നു # ; ! "̔i "
+
+LEXICON V-COMMON-ISHTAPETUKA
+%<inf_k%>:%>െടുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>െടാന്‍  #; ! "̔ān‍ " ! 
+ 
+%<pres%>:%>െടുന്നു # ; ! "̔̔unnu"
+%<past%>:%>െട്ടു # ; ! "̔i "
+%<iter%>%<pres%>:%െട്ടുക്കൊണ്ടിരിക്കുന്നു # ; ! "̔i "
+
+LEXICON V-COMMON-CHEYYUKA
+%<inf_k%>:%>യുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>യാന്‍ #; ! "̔ān‍ " ! 
+ 
+%<pres%>:%>യുന്നു # ; ! "̔̔unnu"
+%<past%>:%>തു # ; ! "̔i "
+%<iter%>%<pres%>:%തുകൊണ്ടിരിക്കുന്നു # ; ! "̔i "
+
+LEXICON V-TV-CHEYYUKA 
+%<v%>%<tv%>: V-COMMON-CHEYYUKA ; ! "" 
+
+LEXICON V-TV-ISHTAPETUKA
+%<v%>%<tv%>: V-COMMON-ISHTAPETUKA ; ! "" 
+
 LEXICON V-IV-URANGUKA
 %<v%>%<iv%>: V-COMMON-URANGUKA ; ! "" 
 
@@ -490,7 +514,15 @@ LEXICON A1
 ! TODO: Nominal inflection with -tu 
 !%<adj%>%<subst%>: # ;
 
+LEXICON A2
+
+%<adj%>:ം CLIT-CC;
+
 LEXICON ADV-VIINTUM
+
+%<adv%>: # ; ! FIXME: check for clitics
+
+LEXICON ADV-MELLE
 
 %<adv%>: # ; ! FIXME: check for clitics
 
@@ -586,6 +618,8 @@ LEXICON NominalStems
 മറുപടി:മറുപടി N2 ; ! "replay"
 ശബ്ദം:ശബ്ദ N1 ; ! "sound"
 പട്ടണം:പട്ടണ N1 ; ! "city"
+ചോദ്യം:ചോദ്യ N1 ; ! "question"
+
 
 LEXICON ProperNouns 
 
@@ -606,6 +640,7 @@ LEXICON Adjectives
 നേരിയ :നേരിയ A1 ; ! "thin" ! "nēriya"
 ഇളയ:ഇളയ A1 ; ! "young" ! "iḷaya"
 മൂത്ത:മൂത്ത A1 ; ! "old" ! "mūtta"
+ഊഷ്മളം:ഊഷ്മള A2 ; ! "warm" 
 
 LEXICON Adverbs
 
@@ -641,12 +676,13 @@ LEXICON Verbs
 എണ്ണുക:എണ്ണ V-TV-ENNI ; ! "count" ! "eṇṇuka"
 പരതുക:പരത V-TV-ENNI ; !  "search" ! "paratuka"
 കണ്ടെത്തുക:കണ്ടെത്ത  V-TV-KANDETHUKA ; ! "find" ! "kaṇṭettuka"
-ചെയ്യുക:ചെയ്യ V-TV-XX ; !  "do" !"ceyyuka"
+ചെയ്യുക:ചെയ് V-TV-CHEYYUKA ; !  "do" !"ceyyuka"
 പറയുക:പറ V-TV-ARIYUKA ; ! "tell" ! "paṟayuka"
 കഴിയുക:കഴി V-TV-ARIYUKA ; ! "can" ! "kaḻiyuka"
 വരുക:വ V-IV-VARUKA ;!"come " ! "varuka"
 പോകുക:പോ V-IV-POKUKA ; ! "go" ! "pēākuka"
-
+ഇഷ്ടപ്പെടുക:ഇഷ്ടപ്പ  V-TV-ISHTAPETUKA ; ! "love" ! "iṣṭappeṭuka"
+കരുതുക:കരുത V-IV-URANGUKA ; ! "think" ! "
 
 
 LEXICON Punctuation
