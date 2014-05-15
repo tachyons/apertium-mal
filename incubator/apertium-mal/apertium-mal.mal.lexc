@@ -100,6 +100,7 @@ LEXICON CLIT-COP
 
 %+ആക്%<vbcop%>%<pres%>:%»%{y%}ാണ് CLIT-ITG ; ! "FIXME"
 %+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്നു # ;  ! "FIXME"
+%+ആക്%<vbcop%>%<pres%>%<neg%>:%»%{y%}അല്ല # ; ! "FIXME" 
 
 # ; 
 
@@ -498,7 +499,8 @@ LEXICON V-TD-XX  ! FIXME: Placeholder lexicon
 
 LEXICON VBCOP-AAK
 
-%<vbcop%>%<pres%>:ണ് CLIT-ITG ; ! "ṇ"
+ആക്%<vbcop%>%<pres%>:ആണ് CLIT-ITG ; ! "FIXME"
+ആക്%<vbcop%>%<pres%>%<neg%>:അല്ല CLIT-ITG ; ! "FIXME" 
 
 LEXICON VBCOP-UNTU 
 
@@ -651,7 +653,7 @@ LEXICON Adverbs
 
 LEXICON Verbs
 
-ആക്:ആ VBCOP-AAK ; ! "be" ! "āk"
+VBCOP-AAK ; ! "be" ! "āk"
 ഉണ്ട്:ഉ VBCOP-UNTU ; ! "have" ! "uṇṭ"
 
 കളിക്കുക:കളി V-IV-KALI ; ! "play" ! "kaḷikkuka"
