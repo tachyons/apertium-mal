@@ -101,6 +101,7 @@ LEXICON CLIT-COP
 %+ആക്%<vbcop%>%<pres%>:%»%{y%}ാണ് CLIT-ITG ; ! "FIXME"
 %+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്നു # ;  ! "FIXME"
 %+ആക്%<vbcop%>%<pres%>%<neg%>:%»%{y%}അല്ല # ; ! "FIXME" 
+%+ആക്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ഇല്ല # ; ! "FIXME" 
 
 # ; 
 
@@ -501,6 +502,7 @@ LEXICON VBCOP-AAK
 
 ആക്%<vbcop%>%<pres%>:ആണ് CLIT-ITG ; ! "FIXME"
 ആക്%<vbcop%>%<pres%>%<neg%>:അല്ല CLIT-ITG ; ! "FIXME" 
+ആക്%<vbcop%>%<pres%>%<neg%>:ഇല്ല CLIT-ITG ; ! "FIXME" 
 
 LEXICON VBCOP-UNTU 
 
@@ -686,6 +688,9 @@ VBCOP-AAK ; ! "be" ! "āk"
 ഇഷ്ടപ്പെടുക:ഇഷ്ടപ്പ  V-TV-ISHTAPETUKA ; ! "love" ! "iṣṭappeṭuka"
 കരുതുക:കരുത V-IV-URANGUKA ; ! "think" ! "
 
+LEXICON VBCOP
+അല്ല:അല്ല VB1 ; ! "No"
+ഇല്ല:ഇല്ല്ല VB1 ; ! "No"
 
 LEXICON Punctuation
 
