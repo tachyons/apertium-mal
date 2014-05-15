@@ -31,6 +31,8 @@ Multichar_Symbols
 %<oblig%>       ! Obligative                  ! 
 %<simul%>       ! Simultaneous                !
 
+%<iter%>        ! Iterative                   !
+
 %<nom%>         ! Nominative                  !
 %<acc%>         ! Accusative                  !
 %<dat%>         ! Dative                      !
@@ -347,6 +349,7 @@ LEXICON V-COMMON-KALI
 %<pres%>:%>ക്കുന്നു # ; ! "kkunnu"
 %<past%>:%>ച്ചു # ; ! "ccu"
 %<fut%>:%>ക്കും # ; ! "kkuṁ"
+%<iter%>%<pres%>:%>ച്ചുകൊണ്ടിരിക്കുന്നു # ; ! "ccu"
 
 !%<simul%>:%>
 !%<oblig%>:%>
@@ -377,6 +380,7 @@ LEXICON V-COMMON-ENNI
  
 %<pres%>:%>ുന്നു # ; ! "̔̔unnu"
 %<past%>:%>ി # ; ! "i"
+%<iter%>%<pres%>:%>ിക്കൊണ്ടിരിക്കുന്നു # ; ! "i"
 
 LEXICON V-COMMON-LABHIKKUKA
 
@@ -421,7 +425,15 @@ LEXICON V-COMMON-POKUKA
  
 %<pres%>:%>കുന്നു # ; ! "̔̔unnu"
 %<past%>:%>യി # ; ! "̔i "
-
+LEXICON V-COMMON-URANGUKA
+%<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ാന്‍  #; ! "̔ān‍ " ! 
+ 
+%<pres%>:%>ുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ി # ; ! "̔i "
+%<iter%>%<pres%>:%>ിക്കൊണ്ടിരിക്കുന്നു # ; ! "̔i "
+LEXICON V-IV-URANGUKA
+%<v%>%<iv%>: V-COMMON-URANGUKA ; ! "" 
 
 LEXICON V-IV-POKUKA 
 %<v%>%<iv%>: V-COMMON-POKUKA ; ! "" 
@@ -610,7 +622,7 @@ LEXICON Verbs
 കളിക്കുക:കളി V-IV-KALI ; ! "play" ! "kaḷikkuka"
 ഉപയോഗിക്കുക:ഉപയോഗി V-IV-KALI ; ! "use" ! "upayēāgikkuka"
 ചോദിക്കുക:ചോദി V-IV-KALI ; ! "ask" ! "cēādikkuka"
-ശൃമിക്കു:ശൃമി V-IV-KALI ; ! "try" ! "śr̥mikku"
+ശ്രമിക്കുക:ശ്രമി V-IV-KALI ; ! "try" ! "śr̥mikku"
 സംസാരിക്കുക:സംസാരി V-IV-KALI ; ! "talk" ! "sansārikkuka"
 കാണുക:ക  V-TV-KANUKA ; !"see" ! "kāṇuka"
 
@@ -625,7 +637,7 @@ LEXICON Verbs
 കേള്‍ക്കുക:കേ V-TV-KELKKUKA ; ! "hear" ! "kēḷ‍kkuka"
 കുടിക്കുക:കുട V-TV-LABHIKKUKA ; ! "drink" ! "kuṭikkuka"
 
-ഉറങ്ങുക:ഉറങ്ങ  V-IV-URANGI ; ! "sleep" ! "uṟaṅṅuka"
+ഉറങ്ങുക:ഉറങ്ങ  V-IV-URANGUKA ; ! "sleep" ! "uṟaṅṅuka"
 എണ്ണുക:എണ്ണ V-TV-ENNI ; ! "count" ! "eṇṇuka"
 പരതുക:പരത V-TV-ENNI ; !  "search" ! "paratuka"
 കണ്ടെത്തുക:കണ്ടെത്ത  V-TV-KANDETHUKA ; ! "find" ! "kaṇṭettuka"
