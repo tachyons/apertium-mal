@@ -623,7 +623,8 @@ LEXICON NominalStems
 ശബ്ദം:ശബ്ദ N1 ; ! "sound"
 പട്ടണം:പട്ടണ N1 ; ! "city"
 ചോദ്യം:ചോദ്യ N1 ; ! "question"
-
+ഇന്ന്:ഇന്ന N3 ; ! "today"
+ഇന്നലെ:ഇന്നലെ N2 ; ! "yesterday"
 
 LEXICON ProperNouns 
 
