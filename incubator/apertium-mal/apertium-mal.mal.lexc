@@ -22,6 +22,8 @@ Multichar_Symbols
 %<iv%>          ! Intransitive                ! 
 %<tv%>          ! Transitive                  ! 
 
+%<neg%>         ! Negative                    !
+
 %<pres%>        ! Present tense               ! വര്‍ത്ത്മാന കാലം 
 %<past%>        ! Past tense                  ! ഭൂത കാലം 
 %<fut%>         ! Future tense                ! 
@@ -32,6 +34,7 @@ Multichar_Symbols
 %<simul%>       ! Simultaneous                !
 
 %<iter%>        ! Iterative                   !
+%<cond%>        ! Conditional                 !
 
 %<nom%>         ! Nominative                  !
 %<acc%>         ! Accusative                  !
@@ -522,13 +525,9 @@ LEXICON A2
 
 %<adj%>:ം CLIT-CC;
 
-LEXICON ADV-VIINTUM
+LEXICON ADV
 
-%<adv%>: # ; ! FIXME: check for clitics
-
-LEXICON ADV-MELLE
-
-%<adv%>: # ; ! FIXME: check for clitics
+%<adv%>: CLIT-COP ; 
 
 LEXICON SPOST
 
@@ -649,10 +648,11 @@ LEXICON Adjectives
 
 LEXICON Adverbs
 
-വീണ്ടും:വീണ്ടും ADV-VIINTUM ; ! "again" ! "vīṇṭuṁ"
-മെല്ലെ:മെല്ലെ ADV-MELLE ; ! "slow" ! "melle"
-പെട്ടെന്ന്:പെട്ടെന്ന്  ADV-XX ; ! "sudden" ! "peṭṭenn"
-വീണ്ടും:വീണ്ടും ADV-xx ; ! "again" ! "vīṇṭuṁ"
+വീണ്ടും:വീണ്ടും ADV ; ! "again" ! "vīṇṭuṁ"
+മെല്ലെ:മെല്ലെ ADV ; ! "slow" ! "melle"
+പെട്ടെന്ന്:പെട്ടെന്ന്  ADV ; ! "sudden" ! "peṭṭenn"
+വീണ്ടും:വീണ്ടും ADV ; ! "again" ! "vīṇṭuṁ"
+ഇപ്പോഴും:ഇപ്പോഴും ADV ; ! "still" ! ""
 
 LEXICON Verbs
 
