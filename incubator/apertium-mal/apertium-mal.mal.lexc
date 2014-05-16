@@ -7,6 +7,7 @@ Multichar_Symbols
 %<np%>          ! Proper noun                 ! 
 %<prn%>         ! Pronoun                     !
 %<det%>         ! Determiner                  ! 
+%<preadv%>      ! Preadverbial                ! 
 %<adj%>         ! Adjective                   ! 
 %<adv%>         ! Adverb                      !
 %<num%>         ! Numeral                     !
@@ -544,6 +545,10 @@ LEXICON ADV
 
 %<adv%>: CLIT-COP ; 
 
+LEXICON PREADV
+
+%<preadv%>: # ; 
+
 LEXICON ADV-ITG
 
 %<adv%>%<itg%>: CLIT-COP ; 
@@ -670,6 +675,8 @@ LEXICON Adjectives
 LEXICON Adverbs
 
 എവിടെ:എവിടെ ADV-ITG ; ! "where" ! "eviṭe" 
+
+വളരെ:വളരെ PREADV ; ! "very"
 
 വീണ്ടും:വീണ്ടും ADV ; ! "again" ! "vīṇṭuṁ"
 മെല്ലെ:മെല്ലെ ADV ; ! "slowly" ! "melle"
