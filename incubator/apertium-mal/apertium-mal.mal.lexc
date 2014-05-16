@@ -10,7 +10,8 @@ Multichar_Symbols
 %<adj%>         ! Adjective                   ! 
 %<adv%>         ! Adverb                      !
 %<num%>         ! Numeral                     !
-%<cnjcoo%>      ! Coordinating conjunction    ! 
+%<cnjcoo%>      ! Coordinating conjunction    !
+%<cnjadv%>      ! Adverbial conjunction       ! 
 %<post%>        ! Postposition                ! 
 %<spost%>       ! Separable postposition      ! 
 %<vbcop%>       ! Copula                      !
