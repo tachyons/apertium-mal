@@ -5,8 +5,6 @@
 
 	; together; ? ; ഒരുമിച്ച്;  ? ; orumicc; 	 ^ഒരുമിച്ച്/*ഒരുമിച്ച്$	 ^orumicc/*orumicc$
 
-	; now; ? ; ഇപ്പോള്‍;  ? ; ippēāḷ‍; 	 ^ഇപ്പോള്/*ഇപ്പോള്$‍	 ^ippēāḷ/*ippēāḷ$‍
-	; always; ? ; എപ്പോഴും;  ? ; eppēāḻuṁ; 	 ^എപ്പോഴും/*എപ്പോഴും$	 ^eppēāḻuṁ/*eppēāḻuṁ$
 	; everywhere; ? ; എല്ലായിടത്തും;  ? ; ellāyiṭattuṁ; 	 ^എല്ലായിടത്തും/*എല്ലായിടത്തും$	 ^ellāyiṭattuṁ/*ellāyiṭattuṁ$
 	; is where; ? ; എവിടെയാണുള്ളതെന്നു;  ? ; eviṭeyāṇuḷḷatennu; 	 ^എവിടെയാണുള്ളതെന്നു/*എവിടെയാണുള്ളതെന്നു$	 ^eviṭeyāṇuḷḷatennu/*eviṭeyāṇuḷḷatennu$
 
