@@ -541,6 +541,10 @@ LEXICON A2
 %<adj%>:ം CLIT-CC;
 ! TODO: Nominal inflection
 
+LEXICON ADV2
+
+%<adv%>: CLIT-CC ; 
+
 LEXICON ADV
 
 %<adv%>: CLIT-COP ; 
@@ -686,7 +690,10 @@ LEXICON Adverbs
 എപ്പോഴും:എപ്പോഴും ADV ; ! "always" ! ""
 വ്യക്തമായി:വ്യക്തമായി ADV ; ! "clearly" ! ""
 
+ഒരുമിച്ച്:ഒരുമിച്ച് ADV2 ; ! "together" ! ""
+
 തന്നെ:തന്നെ ADV ; ! "definitely" ! ""
+കൂടി:കൂടി ADV ; ! "too" ! ""
 
 LEXICON Verbs
 
