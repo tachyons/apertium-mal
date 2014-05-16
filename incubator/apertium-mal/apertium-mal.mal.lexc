@@ -538,6 +538,7 @@ LEXICON A1
 LEXICON A2
 
 %<adj%>:ം CLIT-CC;
+! TODO: Nominal inflection
 
 LEXICON ADV
 
@@ -664,8 +665,8 @@ LEXICON Adjectives
 നേരിയ :നേരിയ A1 ; ! "thin" ! "nēriya"
 ഇളയ:ഇളയ A1 ; ! "young" ! "iḷaya"
 മൂത്ത:മൂത്ത A1 ; ! "old" ! "mūtta"
-ഊഷ്മളം:ഊഷ്മള A2 ; ! "warm" 
-
+ഊഷ്മളം:ഊഷ്മള A2 ; ! "warm" ! ""
+ 
 LEXICON Adverbs
 
 എവിടെ:എവിടെ ADV-ITG ; ! "where" ! "eviṭe" 
