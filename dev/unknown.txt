@@ -6,10 +6,7 @@
 	; everywhere; ? ; എല്ലായിടത്തും;  ? ; ellāyiṭattuṁ; 	 ^എല്ലായിടത്തും/*എല്ലായിടത്തും$	 ^ellāyiṭattuṁ/*ellāyiṭattuṁ$
 	; is where; ? ; എവിടെയാണുള്ളതെന്നു;  ? ; eviṭeyāṇuḷḷatennu; 	 ^എവിടെയാണുള്ളതെന്നു/*എവിടെയാണുള്ളതെന്നു$	 ^eviṭeyāṇuḷḷatennu/*eviṭeyāṇuḷḷatennu$
 
-	; so; ? ; അതുകൊണ്ട്;  ? ; atukeāṇṭ; 	 ^അതുകൊണ്ട്/*അതുകൊണ്ട്$	 ^atukeāṇṭ/*atukeāṇṭ$
 	; is definitely; ? ; തീര്‍ച്ചയായും;  ? ; tīr‍ccayāyuṁ; 	 ^തീര്/*തീര്$‍^ച്ചയായും/*ച്ചയായും$	 ^tīr/*tīr$‍^ccayāyuṁ/*ccayāyuṁ$
-	; then; ? ; പിന്നെ;  ? ; pinne; 	 ^പിന്നെ/*പിന്നെ$	 ^pinne/*pinne$
-
 	; like that; ? ; അങ്ങനെ;  ? ; aṅṅane; 	 ^അങ്ങനെ/*അങ്ങനെ$	 ^aṅṅane/*aṅṅane$
 
 	; for what; ? ; എന്തിനാണ്;  ? ; entināṇ; 	 ^എന്തിനാണ്/*എന്തിനാണ്$	 ^entināṇ/*entināṇ$
