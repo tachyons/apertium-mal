@@ -350,6 +350,8 @@ LEXICON CLIT-WHEN
 
 %+അപ്പോള്‍%<cnjadv%>:%»അപ്പോള്‍ CLIT-CC ; 
 
+CLIT-CC ; 
+
 LEXICON V-COMMON-KALI 
 
 %<inf_k%>:%>ക്കുക CLIT-CC ; ! "̔kkuka" ! FIXME
