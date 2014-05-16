@@ -1,0 +1,9 @@
+SOFT-DELIMITERS = "<,>" cm ;
+DELIMITERS = "<.>" "<:>" "<!>" "<?>" "<|>" "<$.>" "<$:>" "<$!>" "<$?>" "<$|>" ssingular ;
+
+LIST N = n ;
+
+
+SECTION
+
+SELECT (x); # does nothing
