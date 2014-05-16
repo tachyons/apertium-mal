@@ -5,80 +5,58 @@
 
 	; together; ? ; ഒരുമിച്ച്;  ? ; orumicc; 	 ^ഒരുമിച്ച്/*ഒരുമിച്ച്$	 ^orumicc/*orumicc$
 
-	; today; ? ; ഇന്ന്;  ? ; inn; 	 ^ഇന്ന്/*ഇന്ന്$	 ^inn/*inn$
-	; yesterday; ? ; ഇന്നലെ;  ? ; innale; 	 ^ഇന്നലെ/*ഇന്നലെ$	 ^innale/*innale$
 	; now; ? ; ഇപ്പോള്‍;  ? ; ippēāḷ‍; 	 ^ഇപ്പോള്/*ഇപ്പോള്$‍	 ^ippēāḷ/*ippēāḷ$‍
-
 	; always; ? ; എപ്പോഴും;  ? ; eppēāḻuṁ; 	 ^എപ്പോഴും/*എപ്പോഴും$	 ^eppēāḻuṁ/*eppēāḻuṁ$
-	; still; ? ; ഇപ്പോഴും;  ? ; ippēāḻuṁ; 	 ^ഇപ്പോഴും/*ഇപ്പോഴും$	 ^ippēāḻuṁ/*ippēāḻuṁ$
-	; suddenly; ? ; പെട്ടെന്ന്;  ? ; peṭṭenn; 	 ^പെട്ടെന്ന്/*പെട്ടെന്ന്$	 ^peṭṭenn/*peṭṭenn$
-
 	; everywhere; ? ; എല്ലായിടത്തും;  ? ; ellāyiṭattuṁ; 	 ^എല്ലായിടത്തും/*എല്ലായിടത്തും$	 ^ellāyiṭattuṁ/*ellāyiṭattuṁ$
 	; where; ? ; എവിടെ;  ? ; eviṭe; 	 ^എവിടെ/*എവിടെ$	 ^eviṭe/*eviṭe$
-യാണ്; is where; ? ; എവിടെയാണ്;  ? ; eviṭeyāṇ; 	 ^എവിടെയാണ്/*എവിടെയാണ്$	 ^eviṭeyāṇ/*eviṭeyāṇ$
+	; is where; ? ; എവിടെയാണ്;  ? ; eviṭeyāṇ; 	 ^എവിടെയാണ്/*എവിടെയാണ്$	 ^eviṭeyāṇ/*eviṭeyāṇ$
 	; is where; ? ; എവിടെയാണുള്ളതെന്നു;  ? ; eviṭeyāṇuḷḷatennu; 	 ^എവിടെയാണുള്ളതെന്നു/*എവിടെയാണുള്ളതെന്നു$	 ^eviṭeyāṇuḷḷatennu/*eviṭeyāṇuḷḷatennu$
 
-
 	; so; ? ; അതുകൊണ്ട്;  ? ; atukeāṇṭ; 	 ^അതുകൊണ്ട്/*അതുകൊണ്ട്$	 ^atukeāṇṭ/*atukeāṇṭ$
-
 	; too; ? ; കൂടി;  ? ; kūṭi; 	 ^കൂടി/*കൂടി$	 ^kūṭi/*kūṭi$
 	; very; ? ; വളരെ;  ? ; vaḷare; 	 ^വളരെ/*വളരെ$	 ^vaḷare/*vaḷare$
 	; definitely; ? ; തന്നെ;  ? ; tanne; 	 ^തന്നെ/*തന്നെ$	 ^tanne/*tanne$
-യും 	; is definitely; ? ; തീര്‍ച്ചയായും;  ? ; tīr‍ccayāyuṁ; 	 ^തീര്/*തീര്$‍^ച്ചയായും/*ച്ചയായും$	 ^tīr/*tīr$‍^ccayāyuṁ/*ccayāyuṁ$
+	; is definitely; ? ; തീര്‍ച്ചയായും;  ? ; tīr‍ccayāyuṁ; 	 ^തീര്/*തീര്$‍^ച്ചയായും/*ച്ചയായും$	 ^tīr/*tīr$‍^ccayāyuṁ/*ccayāyuṁ$
 	; clearly; ? ; വ്യക്തമായി;  ? ; vyaktamāyi; 	 ^വ്യക്തമായി/*വ്യക്തമായി$	 ^vyaktamāyi/*vyaktamāyi$
 	; then; ? ; പിന്നെ;  ? ; pinne; 	 ^പിന്നെ/*പിന്നെ$	 ^pinne/*pinne$
+
 	; like that; ? ; അങ്ങനെ;  ? ; aṅṅane; 	 ^അങ്ങനെ/*അങ്ങനെ$	 ^aṅṅane/*aṅṅane$
-
 	; with; ? ; കൂടെ;  ? ; kūṭe; 	 ^കൂടെ/*കൂടെ$	 ^kūṭe/*kūṭe$
+	; radha; ? ; രാധേ;  ? ; rādhē; 	 ^രാധേ/*രാധേ$	 ^rādhē/*rādhē$
 
-used when calling , hey radha	; radha; ? ; രാധേ;  ? ; rādhē; 	 ^രാധേ/*രാധേ$	 ^rādhē/*rādhē$
-
-+ആണ്	; for what; ? ; എന്തിനാണ്;  ? ; entināṇ; 	 ^എന്തിനാണ്/*എന്തിനാണ്$	 ^entināṇ/*entināṇ$
-
-	; No; ? ; അല്ല;  ? ; alla; 	 ^അല്ല/*അല്ല$	 ^alla/*alla$
-	; No; ? ; ഇല്ല;  ? ; illa; 	 ^ഇല്ല/*ഇല്ല$	 ^illa/*illa$
+	; for what; ? ; എന്തിനാണ്;  ? ; entināṇ; 	 ^എന്തിനാണ്/*എന്തിനാണ്$	 ^entināṇ/*entināṇ$
 
 	; although <subj> know ; ? ; അറിയാമായിരുന്നിട്ടും;  ? ; aṟiyāmāyirunniṭṭuṁ; 	 ^അറിയാമായിരുന്നിട്ടും/*അറിയാമായിരുന്നിട്ടും$	 ^aṟiyāmāyirunniṭṭuṁ/*aṟiyāmāyirunniṭṭuṁ$
-
 	; anything; ? ; എന്തെങ്കിലും;  ? ; enteṅkiluṁ; 	 ^എന്തെങ്കിലും/*എന്തെങ്കിലും$	 ^enteṅkiluṁ/*enteṅkiluṁ$
-
-യോടെ	; with care; ? ; ശ്രദ്ധയോടെ;  ? ; śrad'dhayēāṭe; 	 ^ശ്രദ്ധയോടെ/*ശ്രദ്ധയോടെ$	 ^śrad'dhayēāṭe/*śrad'dhayēāṭe$
-
-ആണ്	; good; ? ; നല്ലതാണ്;  ? ; nallatāṇ; 	 ^നല്ലതാണ്/*നല്ലതാണ്$	 ^nallatāṇ/*nallatāṇ$
-	; slow; ? ; മെല്ലെ;  ? ; melle; 	 ^മെല്ലെ/*മെല്ലെ$	 ^melle/*melle$
-
-യാണ്	; is warm; ? ; ഊഷ്മളമാണ്;  ? ; ūṣmaḷamāṇ; 	 ഊ^ഷ്മളമാണ്/*ഷ്മളമാണ്$	 ū^ṣmaḷamāṇ/*ṣmaḷamāṇ$
-ആയിരുന്നു	; was cold; ? ; തണുപ്പായിരുന്നു;  ? ; taṇuppāyirunnu; 	 ^തണുപ്പായിരുന്നു/*തണുപ്പായിരുന്നു$	 ^taṇuppāyirunnu/*taṇuppāyirunnu$
+	; with care; ? ; ശ്രദ്ധയോടെ;  ? ; śrad'dhayēāṭe; 	 ^ശ്രദ്ധയോടെ/*ശ്രദ്ധയോടെ$	 ^śrad'dhayēāṭe/*śrad'dhayēāṭe$
+	; good; ? ; നല്ലതാണ്;  ? ; nallatāṇ; 	 ^നല്ലതാണ്/*നല്ലതാണ്$	 ^nallatāṇ/*nallatāṇ$
+	; was cold; ? ; തണുപ്പായിരുന്നു;  ? ; taṇuppāyirunnu; 	 ^തണുപ്പായിരുന്നു/*തണുപ്പായിരുന്നു$	 ^taṇuppāyirunnu/*taṇuppāyirunnu$
 
 	; did; ? ; ചെയ്തു;  ? ; ceytu; 	 ^ചെയ്തു/*ചെയ്തു$	 ^ceytu/*ceytu$
 	; did see?; ? ; കണ്ടിരുന്നൊ;  ? ; kaṇṭirunneā; 	 ^കണ്ടിരുന്നൊ/*കണ്ടിരുന്നൊ$	 ^kaṇṭirunneā/*kaṇṭirunneā$
-യാണ്	; is sit; ? ; ഇരിക്കുകയാണ്;  ? ; irikkukayāṇ; 	 ^ഇരിക്കുകയാണ്/*ഇരിക്കുകയാണ്$	 ^irikkukayāṇ/*irikkukayāṇ$
+	; is sit; ? ; ഇരിക്കുകയാണ്;  ? ; irikkukayāṇ; 	 ^ഇരിക്കുകയാണ്/*ഇരിക്കുകയാണ്$	 ^irikkukayāṇ/*irikkukayāṇ$
 	; and become happy; ? ; സന്തോഷമാകുകയും;  ? ; santēāṣamākukayuṁ; 	 ^സന്തോഷമാകുകയും/*സന്തോഷമാകുകയും$	 ^santēāṣamākukayuṁ/*santēāṣamākukayuṁ$
 	; tell; ? ; പറയൂ;  ? ; paṟayū; 	 ^പറയൂ/*പറയൂ$	 ^paṟayū/*paṟayū$
-ഉം 	; and for eat; ? ; തിന്നുവാനും;  ? ; tinnuvānuṁ; 	 ^തിന്നുവാനും/*തിന്നുവാനും$	 ^tinnuvānuṁ/*tinnuvānuṁ$
+	; and for eat; ? ; തിന്നുവാനും;  ? ; tinnuvānuṁ; 	 ^തിന്നുവാനും/*തിന്നുവാനും$	 ^tinnuvānuṁ/*tinnuvānuṁ$
 	; play; ? ; കളിക്കുന്നത്;  ? ; kaḷikkunnat; 	 ^കളിക്കുന്നത്/*കളിക്കുന്നത്$	 ^kaḷikkunnat/*kaḷikkunnat$
 	; could not; ? ; കഴിഞ്ഞില്ല;  ? ; kaḻiññilla; 	 ^കഴിഞ്ഞില്ല/*കഴിഞ്ഞില്ല$	 ^kaḻiññilla/*kaḻiññilla$
 	; can not; ? ; കഴിയില്ല;  ? ; kaḻiyilla; 	 ^കഴിയില്ല/*കഴിയില്ല$	 ^kaḻiyilla/*kaḻiyilla$
 	; can not; ? ; കഴിയുന്നില്ല;  ? ; kaḻiyunnilla; 	 ^കഴിയുന്നില്ല/*കഴിയുന്നില്ല$	 ^kaḻiyunnilla/*kaḻiyunnilla$
 	; didn't got; ? ; കിട്ടിയില്ല;  ? ; kiṭṭiyilla; 	 ^കിട്ടിയില്ല/*കിട്ടിയില്ല$	 ^kiṭṭiyilla/*kiṭṭiyilla$
 	; and to eat; ? ; കുടിക്കുവനുമുള്ള;  ? ; kuṭikkuvanumuḷḷa; 	 ^കുടിക്കുവനുമുള്ള/*കുടിക്കുവനുമുള്ള$	 ^kuṭikkuvanumuḷḷa/*kuṭikkuvanumuḷḷa$
-	; love; ? ; ഇഷ്ടപ്പെടുന്നു;  ? ; iṣṭappeṭunnu; 	 ^ഇഷ്ടപ്പെടുന്നു/*ഇഷ്ടപ്പെടുന്നു$	 ^iṣṭappeṭunnu/*iṣṭappeṭunnu$
-ആണ്	; is love; ? ; ഇഷ്ടമാണ്;  ? ; iṣṭamāṇ; 	 ^ഇഷ്ടമാണ്/*ഇഷ്ടമാണ്$	 ^iṣṭamāṇ/*iṣṭamāṇ$
+	; is love; ? ; ഇഷ്ടമാണ്;  ? ; iṣṭamāṇ; 	 ^ഇഷ്ടമാണ്/*ഇഷ്ടമാണ്$	 ^iṣṭamāṇ/*iṣṭamāṇ$
 	; don't know; ? ; അറിയില്ല;  ? ; aṟiyilla; 	 ^അറിയില്ല/*അറിയില്ല$	 ^aṟiyilla/*aṟiyilla$
 	; can hear; ? ; കേള്‍ക്കാം;  ? ; kēḷ‍kkāṁ; 	 ^കേള്/*കേള്$‍^ക്കാം/*ക്കാം$	 ^kēḷ/*kēḷ$‍^kkāṁ/*kkāṁ$
-	; sleeping; ? ; ഉറങ്ങിക്കൊണ്ടിരിക്കുന്നു;  ? ; uṟaṅṅikkeāṇṭirikkunnu; 	 ^ഉറങ്ങിക്കൊണ്ടിരിക്കുന്നു/*ഉറങ്ങിക്കൊണ്ടിരിക്കുന്നു$	 ^uṟaṅṅikkeāṇṭirikkunnu/*uṟaṅṅikkeāṇṭirikkunnu$
 	; happy; ? ; സന്തോഷം;  ? ; santēāṣaṁ; 	 ^സന്തോഷം/*സന്തോഷം$	 ^santēāṣaṁ/*santēāṣaṁ$
-	; talk<conditional>; ? ; സംസാരിച്ചാല്‍;  ? ; sansāriccāl‍; 	 ^സംസാരിച്ചാല്/*സംസാരിച്ചാല്$‍	 ^sansāriccāl/*sansāriccāl$‍
 	; do not get; ? ; ലഭിക്കാറില്ല;  ? ; labhikkāṟilla; 	 ^ലഭിക്കാറില്ല/*ലഭിക്കാറില്ല$	 ^labhikkāṟilla/*labhikkāṟilla$
 	; when walked; ? ; നടന്നപ്പോള്‍;  ? ; naṭannappēāḷ‍; 	 ^നടന്നപ്പോള്/*നടന്നപ്പോള്$‍	 ^naṭannappēāḷ/*naṭannappēāḷ$‍
 	; to say; ? ; പറയാന്‍;  ? ; paṟayān‍; 	 ^പറയാന്/*പറയാന്$‍	 ^paṟayān/*paṟayān$‍
 	; do; ? ; ചെയ്യുന്നത്;  ? ; ceyyunnat; 	 ^ചെയ്യുന്നത്/*ചെയ്യുന്നത്$	 ^ceyyunnat/*ceyyunnat$
-അപ്പോള്‍ 	; when finished; ? ; തീര്‍ന്നപ്പോള്‍;  ? ; tīr‍nnappēāḷ‍; 	 ^തീര്/*തീര്$‍^ന്നപ്പോള്/*ന്നപ്പോള്$‍	 ^tīr/*tīr$‍^nnappēāḷ/*nnappēāḷ$‍
-
+	; when finished; ? ; തീര്‍ന്നപ്പോള്‍;  ? ; tīr‍nnappēāḷ‍; 	 ^തീര്/*തീര്$‍^ന്നപ്പോള്/*ന്നപ്പോള്$‍	 ^tīr/*tīr$‍^nnappēāḷ/*nnappēāḷ$‍
 	; ; ? ; പോയതെന്നു;  ? ; pēāyatennu; 	 ^പോയതെന്നു/*പോയതെന്നു$	 ^pēāyatennu/*pēāyatennu$
 	; XtransX; ? ; എന്നു;  ? ; ennu; 	 ^എന്നു/*എന്നു$	 ^ennu/*ennu$
 	; XtransX; ? ; പേര്‍ക്കും;  ? ; pēr‍kkuṁ; 	 ^പേര്/*പേര്$‍^ക്കും/*ക്കും$	 ^pēr/*pēr$‍^kkuṁ/*kkuṁ$
 	; XtransX; ? ; ള്ളതെന്നു;  ? ; ḷḷatennu; 	 ^ള്ളതെന്നു/*ള്ളതെന്നു$	 ^ḷḷatennu/*ḷḷatennu$
 	; XtransX; ? ; വരുന്നത്;  ? ; varunnat; 	 ^വരുന്നത്/*വരുന്നത്$	 ^varunnat/*varunnat$
-ആണ് +എന്ന്	; XtransX; ? ; കൊണ്ടാണെന്നു;  ? ; keāṇṭāṇennu; 	 ^കൊണ്ടാണെന്നു/*കൊണ്ടാണെന്നു$	 ^keāṇṭāṇennu/*keāṇṭāṇennu$
+	; XtransX; ? ; കൊണ്ടാണെന്നു;  ? ; keāṇṭāṇennu; 	 ^കൊണ്ടാണെന്നു/*കൊണ്ടാണെന്നു$	 ^keāṇṭāṇennu/*keāṇṭāṇennu$
 	; XtransX; ? ; കൊണ്ടു;  ? ; keāṇṭu; 	 ^കൊണ്ടു/*കൊണ്ടു$	 ^keāṇṭu/*keāṇṭu$
