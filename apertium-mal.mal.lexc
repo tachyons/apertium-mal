@@ -44,6 +44,7 @@ Multichar_Symbols
 %<gen%>         ! Genitive                    !
 %<ins%>         ! Instrumental                !
 %<loc%>         ! Locative                    !
+%<voc%>         ! Vocative                    !
 
 %<ant%>         ! Anthroponym                 !
 
@@ -270,6 +271,8 @@ LEXICON NP2
 %<np%>%<ant%>%<f%>%<sg%>%<acc%>:യെ CLIT-N-ACC ; ! "ye"
 %<np%>%<ant%>%<f%>%<sg%>%<gen%>:യുടെ CLIT-N-GEN ; ! "yuṭe"
 %<np%>%<ant%>%<f%>%<sg%>%<dat%>:യ്ക് CLIT-N ; ! "yk"
+%<np%>%<ant%>%<f%>%<sg%>%<voc%>:േ #; ! ""
+
 %<np%>%<ant%>%<f%>%<sg%>:യ N-CASES-SG ; ! ""
 !plural
 %<np%>%<ant%>%<f%>%<pl%>%<nom%>:മാര്‍ CLIT-N-NOM ; ! ""
@@ -278,6 +281,7 @@ LEXICON NP2
 %<np%>%<ant%>%<f%>%<pl%>%<gen%>:മാരുടെ CLIT-N-GEN ; ! "māruṭe"
 %<np%>%<ant%>%<f%>%<pl%>%<dat%>:മാര്‍ക് CLIT-N ; ! "mār‍k"
 %<np%>%<ant%>%<f%>%<pl%>%<soc%>:മാരോട് CLIT-N ; ! "mārēāṭ"
+%<np%>%<ant%>%<f%>%<pl%>%<vov%>:മാരേ # ; ! ""
 %<np%>%<ant%>%<f%>%<pl%>%<ins%>:മാരാല്‍ CLIT-N ; ! "mārāl‍"
 
 LEXICON NP3
@@ -349,7 +353,9 @@ LEXICON NUM
 
 LEXICON CLIT-WHEN
 
-%+അപ്പോള്‍%<cnjadv%>:%»പോള്‍ CLIT-CC ; 
+!%+അപ്പോള്‍%<cnjadv%>:%»പോള്‍ CLIT-CC ; 
+%+അപ്പോള്‍%<cnjadv%>:%»പോള്‍ CLIT-CC ;
+
 
 CLIT-CC ; 
 
