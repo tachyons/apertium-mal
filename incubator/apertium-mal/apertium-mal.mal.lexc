@@ -346,16 +346,20 @@ LEXICON NUM
 %<num%>:് # ; 
 %<num%>%<subst%>:്  N2-COMMON ; 
 
+LEXICON CLIT-WHEN
+
+%+അപ്പോള്‍%<cnjadv%>:%»അപ്പോള്‍ CLIT-CC ; 
+
 LEXICON V-COMMON-KALI 
 
 %<inf_k%>:%>ക്കുക CLIT-CC ; ! "̔kkuka" ! FIXME
 %<inf_n%>:%>ക്കാന്‍ # ; ! "kkaṇ" ! FIXME ?
 
-%<pres%>:%>ക്കുന്നു # ; ! "kkunnu"
-%<past%>:%>ച്ചു # ; ! "ccu"
-%<fut%>:%>ക്കും # ; ! "kkuṁ"
-%<iter%>%<pres%>:%>ച്ചുകൊണ്ടിരിക്കുന്നു # ; ! "ccu"
-%<cond%>:%>ച്ചാല്‍  # ; ! "ccāl‍"
+%<pres%>:%>ക്കുന്നു CLIT-WHEN ; ! "kkunnu"
+%<past%>:%>ച്ചു CLIT-WHEN ; ! "ccu"
+%<fut%>:%>ക്കും CLIT-WHEN ; ! "kkuṁ"
+%<iter%>%<pres%>:%>ച്ചുകൊണ്ടിരിക്കുന്നു CLIT-WHEN ; ! "ccu"
+%<cond%>:%>ച്ചാല്‍  CLIT-WHEN ; ! "ccāl‍"
 
 !%<simul%>:%>
 !%<oblig%>:%>
@@ -649,10 +653,11 @@ LEXICON Adjectives
 LEXICON Adverbs
 
 വീണ്ടും:വീണ്ടും ADV ; ! "again" ! "vīṇṭuṁ"
-മെല്ലെ:മെല്ലെ ADV ; ! "slow" ! "melle"
-പെട്ടെന്ന്:പെട്ടെന്ന്  ADV ; ! "sudden" ! "peṭṭenn"
-വീണ്ടും:വീണ്ടും ADV ; ! "again" ! "vīṇṭuṁ"
+മെല്ലെ:മെല്ലെ ADV ; ! "slowly" ! "melle"
+പെട്ടെന്ന്:പെട്ടെന്ന്  ADV ; ! "suddenly" ! "peṭṭenn"
 ഇപ്പോഴും:ഇപ്പോഴും ADV ; ! "still" ! ""
+ഇപ്പോള്‍:ഇപ്പോള്‍ ADV ; ! "now" ! ""
+എപ്പോഴും:എപ്പോഴും ADV ; ! "always" ! ""
 
 LEXICON Verbs
 
