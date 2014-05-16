@@ -11,7 +11,6 @@
 	; so; ? ; അതുകൊണ്ട്;  ? ; atukeāṇṭ; 	 ^അതുകൊണ്ട്/*അതുകൊണ്ട്$	 ^atukeāṇṭ/*atukeāṇṭ$
 	; too; ? ; കൂടി;  ? ; kūṭi; 	 ^കൂടി/*കൂടി$	 ^kūṭi/*kūṭi$
 	; very; ? ; വളരെ;  ? ; vaḷare; 	 ^വളരെ/*വളരെ$	 ^vaḷare/*vaḷare$
-	; definitely; ? ; തന്നെ;  ? ; tanne; 	 ^തന്നെ/*തന്നെ$	 ^tanne/*tanne$
 	; is definitely; ? ; തീര്‍ച്ചയായും;  ? ; tīr‍ccayāyuṁ; 	 ^തീര്/*തീര്$‍^ച്ചയായും/*ച്ചയായും$	 ^tīr/*tīr$‍^ccayāyuṁ/*ccayāyuṁ$
 	; clearly; ? ; വ്യക്തമായി;  ? ; vyaktamāyi; 	 ^വ്യക്തമായി/*വ്യക്തമായി$	 ^vyaktamāyi/*vyaktamāyi$
 	; then; ? ; പിന്നെ;  ? ; pinne; 	 ^പിന്നെ/*പിന്നെ$	 ^pinne/*pinne$
