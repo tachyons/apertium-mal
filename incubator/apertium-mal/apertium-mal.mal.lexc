@@ -438,6 +438,7 @@ LEXICON V-COMMON-POKUKA
  
 %<pres%>:%>കുന്നു # ; ! "̔̔unnu"
 %<past%>:%>യി # ; ! "̔i "
+
 LEXICON V-COMMON-URANGUKA
 %<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
 %<inf_n%>:%>ാന്‍  #; ! "̔ān‍ " ! 
@@ -535,6 +536,10 @@ LEXICON A2
 LEXICON ADV
 
 %<adv%>: CLIT-COP ; 
+
+LEXICON ADV-ITG
+
+%<adv%>%<itg%>: CLIT-COP ; 
 
 LEXICON SPOST
 
@@ -654,6 +659,8 @@ LEXICON Adjectives
 ഊഷ്മളം:ഊഷ്മള A2 ; ! "warm" 
 
 LEXICON Adverbs
+
+എവിടെ:എവിടെ ADV-ITG ; ! "where" ! "eviṭe" 
 
 വീണ്ടും:വീണ്ടും ADV ; ! "again" ! "vīṇṭuṁ"
 മെല്ലെ:മെല്ലെ ADV ; ! "slowly" ! "melle"
