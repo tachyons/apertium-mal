@@ -29,7 +29,6 @@
 	; can not; ? ; കഴിയുന്നില്ല;  ? ; kaḻiyunnilla; 	 ^കഴിയുന്നില്ല/*കഴിയുന്നില്ല$	 ^kaḻiyunnilla/*kaḻiyunnilla$
 	; didn't got; ? ; കിട്ടിയില്ല;  ? ; kiṭṭiyilla; 	 ^കിട്ടിയില്ല/*കിട്ടിയില്ല$	 ^kiṭṭiyilla/*kiṭṭiyilla$
 	; and to eat; ? ; കുടിക്കുവനുമുള്ള;  ? ; kuṭikkuvanumuḷḷa; 	 ^കുടിക്കുവനുമുള്ള/*കുടിക്കുവനുമുള്ള$	 ^kuṭikkuvanumuḷḷa/*kuṭikkuvanumuḷḷa$
-	; is love; ? ; ഇഷ്ടമാണ്;  ? ; iṣṭamāṇ; 	 ^ഇഷ്ടമാണ്/*ഇഷ്ടമാണ്$	 ^iṣṭamāṇ/*iṣṭamāṇ$
 	; don't know; ? ; അറിയില്ല;  ? ; aṟiyilla; 	 ^അറിയില്ല/*അറിയില്ല$	 ^aṟiyilla/*aṟiyilla$
 	; can hear; ? ; കേള്‍ക്കാം;  ? ; kēḷ‍kkāṁ; 	 ^കേള്/*കേള്$‍^ക്കാം/*ക്കാം$	 ^kēḷ/*kēḷ$‍^kkāṁ/*kkāṁ$
 	; happy; ? ; സന്തോഷം;  ? ; santēāṣaṁ; 	 ^സന്തോഷം/*സന്തോഷം$	 ^santēāṣaṁ/*santēāṣaṁ$
