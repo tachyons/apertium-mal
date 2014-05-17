@@ -107,7 +107,7 @@ LEXICON CLIT-COP
 %+ആക്%<vbcop%>%<pres%>:%»%{y%}ാണ് CLIT-ITG ; ! "FIXME"
 %+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്നു # ;  ! "FIXME"
 %+ആക്%<vbcop%>%<pres%>%<neg%>:%»%{y%}അല്ല # ; ! "FIXME" 
-%+ആക്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ഇല്ല # ; ! "FIXME" 
+%+ഉണ്ട്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ഇല്ല # ; ! "FIXME" 
 
 # ; 
 
@@ -386,13 +386,20 @@ LEXICON V-COMMON-KANU
 !%<simul%>:%>
 !%<oblig%>:%>
 
+LEXICON NEG 
+
+%<neg%>:%>്ഇല്ല # ; ! "illa" 
+:ു # ;
+
 LEXICON V-COMMON-ARIYUKA
 
-%<inf_k%>:%>ിയുക CLIT-CC ; ! "̔āṇuka" ! FIXME
-%<inf_n%>:%>ിയാന്‍ # ; ! "̔āṇān‍" ! FIXME
+%<inf_k%>:%>ിയുക CLIT-CC ; ! "iyuka" 
+%<inf_n%>:%>ിയാന്‍ # ; ! "iyān‍"
  
-%<pres%>:%>ിയുന്നു # ; ! "̔āṇunnu "
-%<past%>:%>ഞ്ഞു # ; ! "ṇṭu"
+%<pres%>:%>ിയുന്ന NEG ; ! "iyunnu"
+%<past%>:%>ഞ്ഞ NEG ; ! "ññu"
+!%<fut%>:%>
+
 LEXICON V-COMMON-ENNI
 
 %<inf_k%>:%>ുക CLIT-CC ; ! "̔uka" ! FIXME
@@ -512,9 +519,7 @@ LEXICON V-TV-KANUKA
 
 %<v%>%<tv%>: V-COMMON-KANU ; ! ""
 
-LEXICON V-TD-XX  ! FIXME: Placeholder lexicon
 
-%<v%>%<%TD%>%<inf_k%>:%>കുക  # ; 
 
 LEXICON VBCOP-AAK
 
@@ -654,6 +659,8 @@ LEXICON NominalStems
 ചോദ്യം:ചോദ്യ N1 ; ! "question"
 ഇന്ന്:ഇന്ന N3 ; ! "today"
 ഇന്നലെ:ഇന്നലെ N2 ; ! "yesterday"
+ഇഷ്ടം:ഇഷ്ട N1 ; ! "happiness"
+സന്തോഷം:സന്തോഷ N1 ; ! "happiness"
 
 LEXICON ProperNouns 
 
@@ -674,7 +681,9 @@ LEXICON Adjectives
 നേരിയ :നേരിയ A1 ; ! "thin" ! "nēriya"
 ഇളയ:ഇളയ A1 ; ! "young" ! "iḷaya"
 മൂത്ത:മൂത്ത A1 ; ! "old" ! "mūtta"
+
 ഊഷ്മളം:ഊഷ്മള A2 ; ! "warm" ! ""
+
  
 LEXICON Adverbs
 
@@ -696,6 +705,7 @@ LEXICON Adverbs
 
 തന്നെ:തന്നെ ADV ; ! "definitely" ! ""
 കൂടി:കൂടി ADV ; ! "too" ! ""
+പുറത്ത്:പുറത്ത് ADV ; ! "outside" ! ""
 
 LEXICON Verbs
 
@@ -712,7 +722,7 @@ VBCOP-AAK ; ! "be" ! "āk"
 അറിയുക:അറി V-TV-ARIYUKA ; ! "know" ! "aṟiyuka"
 നോക്കുക:നോക്ക  V-TV-NOKKUKA ; ! "look" ! "nēākkuka"
 ഒളിക്കുക:ഒളി V-IV-KALI ; ! "hide" ! "oḷikkuka"
-ഇരിക്കുക:ഇരി V-IV-IRUNNU ; ! "sit" ! "irikkuka"
+!ഇരിക്കുക:ഇരി V-IV-IRUNNU ; ! "sit" ! "irikkuka"
 ലഭിക്കുക:ലഭ V-TV-LABHIKKUKA ; ! "get" ! "labhikkuka"
 ചിരിക്കുക:ചിരി V-IV-KALI ; ! "laugh" ! "cirikkuka"
 നടക്കുക:നട V-IV-NADAKKUKA ; ! "walk" ! "naṭakkuka"
@@ -732,9 +742,7 @@ VBCOP-AAK ; ! "be" ! "āk"
 ഇഷ്ടപ്പെടുക:ഇഷ്ടപ്പ  V-TV-ISHTAPETUKA ; ! "love" ! "iṣṭappeṭuka"
 കരുതുക:കരുത V-IV-URANGUKA ; ! "think" ! "
 
-LEXICON VBCOP
-അല്ല:അല്ല VB1 ; ! "No"
-ഇല്ല:ഇല്ല്ല VB1 ; ! "No"
+
 
 LEXICON Punctuation
 
