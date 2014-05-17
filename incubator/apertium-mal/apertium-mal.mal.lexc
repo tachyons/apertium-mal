@@ -357,8 +357,12 @@ LEXICON CLIT-WHEN
 !%+അപ്പോള്‍%<cnjadv%>:%»പോള്‍ CLIT-CC ; 
 %+അപ്പോള്‍%<cnjadv%>:%»പോള്‍ CLIT-CC ;
 
-
 CLIT-CC ; 
+
+LEXICON NEG 
+
+%<neg%>:%>ില്ല # ; ! "illa" 
+:ു # ;
 
 LEXICON V-COMMON-KALI 
 
@@ -385,11 +389,6 @@ LEXICON V-COMMON-KANU
 
 !%<simul%>:%>
 !%<oblig%>:%>
-
-LEXICON NEG 
-
-%<neg%>:%>്ഇല്ല # ; ! "illa" 
-:ു # ;
 
 LEXICON V-COMMON-ARIYUKA
 
