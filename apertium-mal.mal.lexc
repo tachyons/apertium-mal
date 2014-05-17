@@ -383,8 +383,8 @@ LEXICON V-COMMON-KANU
 %<inf_k%>:%>ാണുക CLIT-CC ; ! "̔āṇuka" ! FIXME
 %<inf_n%>:%>ാണാന്‍  # ; ! "̔āṇān‍" ! FIXME
  
-%<pres%>:%>ാണുന്നു # ; ! "̔āṇunnu "
-%<past%>:%>ണ്ടു # ; ! "ṇṭu"
+%<pres%>:%>ാണുന്ന NEG ; ! "̔āṇunnu "
+%<past%>:%>ണ്ട NEG ; ! "ṇṭu"
 !%<fut%>:%>
 
 !%<simul%>:%>
