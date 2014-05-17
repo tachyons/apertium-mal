@@ -24,14 +24,12 @@
 	; tell; ? ; പറയൂ;  ? ; paṟayū; 	 ^പറയൂ/*പറയൂ$	 ^paṟayū/*paṟayū$
 	; and for eat; ? ; തിന്നുവാനും;  ? ; tinnuvānuṁ; 	 ^തിന്നുവാനും/*തിന്നുവാനും$	 ^tinnuvānuṁ/*tinnuvānuṁ$
 	; play; ? ; കളിക്കുന്നത്;  ? ; kaḷikkunnat; 	 ^കളിക്കുന്നത്/*കളിക്കുന്നത്$	 ^kaḷikkunnat/*kaḷikkunnat$
-	; could not; ? ; കഴിഞ്ഞില്ല;  ? ; kaḻiññilla; 	 ^കഴിഞ്ഞില്ല/*കഴിഞ്ഞില്ല$	 ^kaḻiññilla/*kaḻiññilla$
 	; can not; ? ; കഴിയില്ല;  ? ; kaḻiyilla; 	 ^കഴിയില്ല/*കഴിയില്ല$	 ^kaḻiyilla/*kaḻiyilla$
 	; can not; ? ; കഴിയുന്നില്ല;  ? ; kaḻiyunnilla; 	 ^കഴിയുന്നില്ല/*കഴിയുന്നില്ല$	 ^kaḻiyunnilla/*kaḻiyunnilla$
 	; didn't got; ? ; കിട്ടിയില്ല;  ? ; kiṭṭiyilla; 	 ^കിട്ടിയില്ല/*കിട്ടിയില്ല$	 ^kiṭṭiyilla/*kiṭṭiyilla$
 	; and to eat; ? ; കുടിക്കുവനുമുള്ള;  ? ; kuṭikkuvanumuḷḷa; 	 ^കുടിക്കുവനുമുള്ള/*കുടിക്കുവനുമുള്ള$	 ^kuṭikkuvanumuḷḷa/*kuṭikkuvanumuḷḷa$
 	; don't know; ? ; അറിയില്ല;  ? ; aṟiyilla; 	 ^അറിയില്ല/*അറിയില്ല$	 ^aṟiyilla/*aṟiyilla$
 	; can hear; ? ; കേള്‍ക്കാം;  ? ; kēḷ‍kkāṁ; 	 ^കേള്/*കേള്$‍^ക്കാം/*ക്കാം$	 ^kēḷ/*kēḷ$‍^kkāṁ/*kkāṁ$
-	; happy; ? ; സന്തോഷം;  ? ; santēāṣaṁ; 	 ^സന്തോഷം/*സന്തോഷം$	 ^santēāṣaṁ/*santēāṣaṁ$
 	; do not get; ? ; ലഭിക്കാറില്ല;  ? ; labhikkāṟilla; 	 ^ലഭിക്കാറില്ല/*ലഭിക്കാറില്ല$	 ^labhikkāṟilla/*labhikkāṟilla$
 	; when walked; ? ; നടന്നപ്പോള്‍;  ? ; naṭannappēāḷ‍; 	 ^നടന്നപ്പോള്/*നടന്നപ്പോള്$‍	 ^naṭannappēāḷ/*naṭannappēāḷ$‍
 	; to say; ? ; പറയാന്‍;  ? ; paṟayān‍; 	 ^പറയാന്/*പറയാന്$‍	 ^paṟayān/*paṟayān$‍
