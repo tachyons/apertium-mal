@@ -109,7 +109,7 @@ LEXICON CLIT-COP
 
 %+ആക്%<vbcop%>%<pres%>:%»%{y%}ാണ് CLIT-ITG ; ! "FIXME"
 %+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്നു # ;  ! "FIXME"
-%+ആക്%<vbcop%>%<pres%>%<neg%>:%»%{y%}അല്ല # ; ! "FIXME" 
+%+ആക്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ല്ല # ; ! "FIXME" 
 %+ഉണ്ട്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ില്ല # ; ! "FIXME" 
 
 # ; 
@@ -413,7 +413,7 @@ LEXICON V-COMMON-ARIYUKA
 
 %<inf_k%>:%>ിയുക CLIT-CC ; ! "iyuka" 
 %<inf_n%>:%>ിയാന്‍ # ; ! "iyān‍"
- 
+%<neg%>:%>ിയില്ല # ; ! ""
 %<pres%>:%>ിയുന്ന NEG-WHEN ; ! "iyunnu"
 %<past%>:%>ഞ്ഞ NEG-WHEN ; ! "ññu"
 !%<fut%>:%>
@@ -520,7 +520,7 @@ LEXICON V-COMMON-KITTUKA
 %<inf_n%>:%>ാന്‍ # ; ! "̔ān‍ " ! 
  
 %<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔unnu"
-%<past%>:%>ി NEG-WHEN ; ! "̔i "
+%<past%>:%>ിയ NEG-WHEN ; ! "̔i "
 %<iter%>%<pres%>ികൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "̔i "
 %<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ിയത്  GPR-PAST ; ! ""
