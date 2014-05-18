@@ -388,8 +388,8 @@ LEXICON V-COMMON-KALI
 %<iter%>%<pres%>:%>ച്ചുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "ccu"
 %<cond%>:%>ച്ചാല്‍  NEG-WHEN ; ! "ccāl‍"
 
-%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
+%<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ക്കുന്ന GPR-PAST ; ! ""
 
 !%<simul%>:%>
 !%<oblig%>:%>
