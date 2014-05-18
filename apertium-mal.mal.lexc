@@ -524,7 +524,20 @@ LEXICON V-COMMON-KITTUKA
 %<iter%>%<pres%>ികൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "̔i "
 %<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ിയത്  GPR-PAST ; ! ""
-!NEG-WHEN
+
+LEXICON V-COMMON-THINNUKA
+%<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ാന്‍ # ; ! "̔ān‍ " ! 
+ 
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔unnu"
+%<past%>:%>ു NEG-WHEN ; ! "̔i "
+%<iter%>%<pres%ുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "̔i "
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%> GPR-PAST ; ! ""
+
+
+LEXICON V-TV-THINNUKA
+%<v%>%<tv%>: V-COMMON-THINNUKA ; ! "" 
 
 LEXICON V-TV-KITTUKA 
 %<v%>%<tv%>: V-COMMON-KITTUKA ; ! "" 
@@ -799,6 +812,7 @@ VBCOP-AAK ; ! "be" ! "āk"
 ഇഷ്ടപ്പെടുക:ഇഷ്ടപ്പ  V-TV-ISHTAPETUKA ; ! "love" ! "iṣṭappeṭuka"
 കരുതുക:കരുത V-IV-URANGUKA ; ! "think" ! "
 കിട്ടുകു:കിട്ട V-TV-KITTUKA ; ! "get"
+തിന്നുക:തിന്ന V-TV-THINNUKA ; ! "eat"
 
 
 
