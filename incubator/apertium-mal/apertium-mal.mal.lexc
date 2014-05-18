@@ -38,6 +38,9 @@ Multichar_Symbols
 %<iter%>        ! Iterative                   !
 %<cond%>        ! Conditional                 !
 
+%<gpr_pres%>    ! 
+%<gpr_past%>    !
+
 %<nom%>         ! Nominative                  !
 %<acc%>         ! Accusative                  !
 %<dat%>         ! Dative                      !
@@ -359,10 +362,21 @@ LEXICON CLIT-WHEN
 
 CLIT-CC ; 
 
-LEXICON NEG 
+LEXICON NEG-WHEN
 
 %<neg%>:%>ില്ല # ; ! "illa" 
+%+അപ്പോള്‍%<cnjadv%>:%»പോള്‍ CLIT-CC ;
 :ു # ;
+
+LEXICON GPR-PRES
+
+%<subst%>:%>അത് # ; ! nom-decl
+# ;
+
+LEXICON GPR-PAST 
+
+%<subst%>:%>അത് # ; ! nom-decl
+# ;
 
 LEXICON V-COMMON-KALI 
 
@@ -375,6 +389,9 @@ LEXICON V-COMMON-KALI
 %<iter%>%<pres%>:%>ച്ചുകൊണ്ടിരിക്കുന്നു CLIT-WHEN ; ! "ccu"
 %<cond%>:%>ച്ചാല്‍  CLIT-WHEN ; ! "ccāl‍"
 
+%<gpr_pres%>:%>ഉന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>അന്ന GPR-PAST ; ! ""
+
 !%<simul%>:%>
 !%<oblig%>:%>
 
@@ -383,8 +400,8 @@ LEXICON V-COMMON-KANU
 %<inf_k%>:%>ാണുക CLIT-CC ; ! "̔āṇuka" ! FIXME
 %<inf_n%>:%>ാണാന്‍  # ; ! "̔āṇān‍" ! FIXME
  
-%<pres%>:%>ാണുന്ന NEG ; ! "̔āṇunnu "
-%<past%>:%>ണ്ട NEG ; ! "ṇṭu"
+%<pres%>:%>ാണുന്ന # ; ! "̔āṇunnu "
+%<past%>:%>ണ്ട # ; ! "ṇṭu"
 !%<fut%>:%>
 
 !%<simul%>:%>
@@ -736,7 +753,7 @@ VBCOP-AAK ; ! "be" ! "āk"
 ചെയ്യുക:ചെയ് V-TV-CHEYYUKA ; !  "do" !"ceyyuka"
 പറയുക:പറ V-TV-ARIYUKA ; ! "tell" ! "paṟayuka"
 കഴിയുക:കഴി V-TV-ARIYUKA ; ! "can" ! "kaḻiyuka"
-വരുക:വ V-IV-VARUKA ;!"come " ! "varuka"
+!വരുക:വ V-IV-VARUKA ;!"come " ! "varuka"
 പോകുക:പോ V-IV-POKUKA ; ! "go" ! "pēākuka"
 ഇഷ്ടപ്പെടുക:ഇഷ്ടപ്പ  V-TV-ISHTAPETUKA ; ! "love" ! "iṣṭappeṭuka"
 കരുതുക:കരുത V-IV-URANGUKA ; ! "think" ! "
