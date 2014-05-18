@@ -401,7 +401,7 @@ LEXICON V-COMMON-KANU
 %<inf_n%>:%>ാണാന്‍  # ; ! "̔āṇān‍" ! FIXME
  
 %<pres%>:%>ാണുന്ന # ; ! "̔āṇunnu "
-%<past%>:%>ണ്ട # ; ! "ṇṭu"
+%<past%>:%>ണ്ടു # ; ! "ṇṭu"
 %<gpr_pres%>:%>ാണുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ത GPR-PAST ; ! ""
 !%<fut%>:%>
