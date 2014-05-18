@@ -402,6 +402,8 @@ LEXICON V-COMMON-KANU
  
 %<pres%>:%>ാണുന്ന # ; ! "̔āṇunnu "
 %<past%>:%>ണ്ട # ; ! "ṇṭu"
+%<gpr_pres%>:%>ാണുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ത GPR-PAST ; ! ""
 !%<fut%>:%>
 
 !%<simul%>:%>
@@ -491,7 +493,9 @@ LEXICON V-COMMON-CHEYYUKA
  
 %<pres%>:%>യുന്നു # ; ! "̔̔unnu"
 %<past%>:%>തു # ; ! "̔i "
-%<iter%>%<pres%>:%തുകൊണ്ടിരിക്കുന്നു # ; ! "̔i "
+%<iter%>%<pres%>തുകൊണ്ടിരിക്കുന്നു # ; ! "̔i "
+%<gpr_pres%>:%>യുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ത GPR-PAST ; ! ""
 
 LEXICON V-COMMON-IRUNNU
 %<inf_k%>:%>ിക്കുക  CLIT-CC ; ! "uka" ! FIXME
