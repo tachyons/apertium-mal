@@ -31,6 +31,10 @@ Multichar_Symbols
 %<fut%>         ! Future tense                ! 
 %<perf%>        ! Simple Perfect              !
 %<perm%>        ! Permissive Mood             !
+%<imp%>         ! Imperative Mood             !
+
+%<frml%>        ! Formal                      !
+%<infml%>       ! InFormal                    !
 
 %<inf_k%>       ! Infinitive                  !
 %<inf_n%>       ! Purposive infinitive        !
@@ -416,6 +420,9 @@ LEXICON V-COMMON-ARIYUKA
 %<inf_k%>:%>യുക CLIT-CC ; ! "iyuka" 
 %<inf_n%>:%>യാന്‍ # ; ! "iyān‍"
 %<neg%>:%>യില്ല # ; ! ""
+%<imp%>:%>യ് # ; !""
+%<imp%>%<frml%>:%>യണം # ; !""
+%<imp%>%<infml%>:%>യൂ # ; !""
 %<pres%>:%>യുന്ന NEG-WHEN ; ! "iyunnu"
 %<past%>:%>ഞ്ഞ NEG-WHEN ; ! "ññu"
 !%<fut%>:%>
