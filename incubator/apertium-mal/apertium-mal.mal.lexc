@@ -199,14 +199,18 @@ LEXICON N2
 
 %<n%>%<cmp%>%+:%» NominalStems ; 
 
+LEXICON N3-COMMON
+
+%<sg%>%<nom%>:് CLIT-N-NOM ; ! "ṁ"
+%<sg%>%<loc%>:%>ില്‍ CLIT-N-LOC ; ! "il‍"
+%<sg%>%<acc%>:%>ിനെ CLIT-N-ACC ; ! "ine"
+%<sg%>%<gen%>:%>ിന്റെ CLIT-N-GEN ; ! "̔inṟe"
+%<sg%>%<dat%>:%>ിന് CLIT-N ; ! "in"
+%<sg%>:%>ിന N-CASES-SG ; ! ""
+
 LEXICON N3
 
-%<n%>%<sg%>%<nom%>:് CLIT-N-NOM ; ! "ṁ"
-%<n%>%<sg%>%<loc%>:%>ില്‍ CLIT-N-LOC ; ! "il‍"
-%<n%>%<sg%>%<acc%>:%>ിനെ CLIT-N-ACC ; ! "ine"
-%<n%>%<sg%>%<gen%>:%>ിന്റെ CLIT-N-GEN ; ! "̔inṟe"
-%<n%>%<sg%>%<dat%>:%>ിന് CLIT-N ; ! "in"
-%<n%>%<sg%>:%>ിന N-CASES-SG ; ! ""
+%<n%>: N3-COMMON ; 
 
 !plural
 %<n%>%<pl%>%<nom%>:ുകള്‍ CLIT-N-NOM ; ! "ukaḷ‍"
@@ -370,12 +374,12 @@ LEXICON NEG-WHEN
 
 LEXICON GPR-PRES
 
-%<subst%>:%>അത് # ; ! nom-decl
+%<subst%>:%>അത്  N3-COMMON; 
 # ;
 
 LEXICON GPR-PAST 
 
-%<subst%>:%>അത് # ; ! nom-decl
+%<subst%>:%>അത് N3-COMMON ; 
 # ;
 
 LEXICON V-COMMON-KALI 
