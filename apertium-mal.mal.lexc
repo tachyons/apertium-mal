@@ -505,6 +505,19 @@ LEXICON V-COMMON-IRUNNU
 %<past%>:%>ുന്നു # ; ! "̔i "
 %<iter%>%<pres%>:%ുന്നുകൊണ്ടേയിരിക്കുന്നു # ; ! "̔i "
 
+LEXICON V-COMMON-VARUKA
+%<inf_k%>:%>രുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>രാന്‍#; ! "̔ān‍ " ! 
+ 
+%<pres%>:%>രുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ന്നു# ; ! "̔i "
+%<iter%>%<pres%>ന്നുകൊണ്ടിരിക്കുന്നു# ; ! "̔i "
+%<gpr_pres%>:%>രുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
+
+LEXICON V-IV-VARUKA 
+%<v%>%<tv%>: V-COMMON-VARUKA; ! "" 
+
 LEXICON V-IV-IRUNNU
 %<v%>%<tv%>: V-COMMON-IRUNNU ; ! "" 
 
@@ -767,7 +780,7 @@ VBCOP-AAK ; ! "be" ! "āk"
 ചെയ്യുക:ചെയ V-TV-CHEYYUKA ; !  "do" !"ceyyuka"
 പറയുക:പറ V-TV-ARIYUKA ; ! "tell" ! "paṟayuka"
 കഴിയുക:കഴി V-TV-ARIYUKA ; ! "can" ! "kaḻiyuka"
-!വരുക:വ V-IV-VARUKA ;!"come " ! "varuka"
+വരുക:വ V-IV-VARUKA ;!"come " ! "varuka"
 പോകുക:പോ V-IV-POKUKA ; ! "go" ! "pēākuka"
 ഇഷ്ടപ്പെടുക:ഇഷ്ടപ്പ  V-TV-ISHTAPETUKA ; ! "love" ! "iṣṭappeṭuka"
 കരുതുക:കരുത V-IV-URANGUKA ; ! "think" ! "
