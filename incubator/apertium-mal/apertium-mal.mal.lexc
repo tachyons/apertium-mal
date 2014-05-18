@@ -177,7 +177,7 @@ LEXICON N1
 %<n%>%<pl%>%<gen%>:%>ങ്ങളുടെ CLIT-N-GEN ; ! "ṅṅaḷuṭe"
 %<n%>%<pl%>:%>ങ്ങ N-CASES-PL ; ! "ṅṅaḷ‍"
 
-%<n%>%<cmp%>%+:%» NominalStems ; 
+%<n%>%<cmp%>%+:%» NominalStems ; ! Use/Circ
 
 LEXICON N2-COMMON
 
@@ -197,7 +197,7 @@ LEXICON N2
 
 %<n%>: N2-COMMON ;
 
-%<n%>%<cmp%>%+:%» NominalStems ; 
+%<n%>%<cmp%>%+:%» NominalStems ; ! Use/Circ
 
 LEXICON N3-COMMON
 
@@ -218,7 +218,7 @@ LEXICON N3
 %<n%>%<pl%>%<gen%>:ുകളുടെ CLIT-N-GEN ; ! "ukaḷuṭe"
 %<n%>%<pl%>:ുക N-CASES-PL ; ! "ukaḷ‍"
 
-%<n%>%<cmp%>%+:%» NominalStems ; 
+%<n%>%<cmp%>%+:%» NominalStems ; ! Use/Circ
 
 LEXICON N4
 
@@ -237,7 +237,7 @@ LEXICON N4
 %<n%>%<pl%>%<soc%>:മാരോട് CLIT-N ; ! "mārēāṭ"
 %<n%>%<pl%>%<ins%>:മാരാല്‍ CLIT-N ; ! "mārāl‍"
 
-%<n%>%<cmp%>%+:%» NominalStems ; 
+%<n%>%<cmp%>%+:%» NominalStems ; ! Use/Circ
 
 LEXICON N5
 
@@ -254,7 +254,7 @@ LEXICON N5
 %<n%>%<pl%>%<gen%>:ുകളുടെ CLIT-N-GEN ; ! "ukaḷuṭe"
 %<n%>%<pl%>:ുക N-CASES-PL ; ! "ukaḷ‍"
 
-%<n%>%<cmp%>%+:%» NominalStems ; 
+%<n%>%<cmp%>%+:%» NominalStems ; ! Use/Circ
 
 LEXICON NP1
 
@@ -507,11 +507,11 @@ LEXICON V-COMMON-IRUNNU
 
 LEXICON V-COMMON-VARUKA
 %<inf_k%>:%>രുക  CLIT-CC ; ! "uka" ! FIXME
-%<inf_n%>:%>രാന്‍#; ! "̔ān‍ " ! 
+%<inf_n%>:%>രാൻ # ; ! "̔ān‍ " ! 
  
 %<pres%>:%>രുന്നു # ; ! "̔̔unnu"
-%<past%>:%>ന്നു# ; ! "̔i "
-%<iter%>%<pres%>ന്നുകൊണ്ടിരിക്കുന്നു# ; ! "̔i "
+%<past%>:%>ന്നു # ; ! "̔i "
+%<iter%>%<pres%>ന്നുകൊണ്ടിരിക്കുന്നു # ; ! "̔i "
 %<gpr_pres%>:%>രുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
 
