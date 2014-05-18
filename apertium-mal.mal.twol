@@ -57,5 +57,7 @@ Rules
 "Epenthesis in clitics ({z} → m)"
 %{z%}:മ <=> RVowM:  [ %>: | %»: ]  _ ; 
 
-"Remove ു before ി"
-ു:0 <=> _ %>: :ി ; 
+"Remove vowel before ി"
+Vx:0 <=> _ %>: :ി ; 
+    where Vx in ( ു   ി  ) ;
+
