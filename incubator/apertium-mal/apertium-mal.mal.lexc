@@ -565,13 +565,12 @@ LEXICON DET-DEM
 LEXICON A1 
 
 %<adj%>: # ;
-! TODO: Nominal inflection with -tu 
-!%<adj%>%<subst%>: # ;
+%<adj%>%<subst%>:%>ത  N3-COMMON; 
 
 LEXICON A2
 
 %<adj%>:ം CLIT-CC;
-! TODO: Nominal inflection
+%<adj%>%<subst%>:%>ത  N3-COMMON; 
 
 LEXICON ADV2
 
