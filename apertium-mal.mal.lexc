@@ -369,12 +369,12 @@ LEXICON NEG-WHEN
 
 LEXICON GPR-PRES
 
-%<subst%>:%>അത്  N3-COMMON; 
+%<subst%>:%>ത  N3-COMMON; 
 # ;
 
 LEXICON GPR-PAST 
 
-%<subst%>:%>അത് N3-COMMON ; 
+%<subst%>:%>ത N3-COMMON ; 
 # ;
 
 LEXICON V-COMMON-KALI 
