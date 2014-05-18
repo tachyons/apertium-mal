@@ -29,6 +29,7 @@ Multichar_Symbols
 %<pres%>        ! Present tense               ! വര്‍ത്ത്മാന കാലം 
 %<past%>        ! Past tense                  ! ഭൂത കാലം 
 %<fut%>         ! Future tense                ! 
+%<perf%>        ! Simple Perfect              !
 
 %<inf_k%>       ! Infinitive                  !
 %<inf_n%>       ! Purposive infinitive        !
@@ -398,10 +399,10 @@ LEXICON V-COMMON-KALI
 LEXICON V-COMMON-KANU
 
 %<inf_k%>:%>ാണുക CLIT-CC ; ! "̔āṇuka" ! FIXME
-%<inf_n%>:%>ാണാന്‍  # ; ! "̔āṇān‍" ! FIXME
- 
-%<pres%>:%>ാണുന്ന # ; ! "̔āṇunnu "
-%<past%>:%>ണ്ടു # ; ! "ṇṭu"
+%<inf_n%>:%>ാണാന്‍  NEG-WHEN ; ! "̔āṇān‍" ! 
+%<pres%>:%>ാണുന്ന NEG-WHEN ; ! "̔āṇunnu "
+%<perf%>:%>ണ്ടിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<past%>:%>ണ്ടു NEG-WHEN ; ! "ṇṭu"
 %<gpr_pres%>:%>ാണുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ത GPR-PAST ; ! ""
 !%<fut%>:%>
@@ -528,7 +529,7 @@ LEXICON V-COMMON-KITTUKA
 LEXICON V-COMMON-THINNUKA
 %<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
 %<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔ān‍ " ! 
- 
+%<perf%>:%>ിരുന്നു CLIT-ITG ; ! "̔ān‍ " ! 
 %<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔unnu"
 %<past%>:%>ു NEG-WHEN ; ! "̔i "
 %<iter%>%<pres%ുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "̔i "
