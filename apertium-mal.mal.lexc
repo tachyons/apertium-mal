@@ -488,14 +488,14 @@ LEXICON V-COMMON-ISHTAPETUKA
 %<iter%>%<pres%>:%െട്ടുക്കൊണ്ടിരിക്കുന്നു # ; ! "̔i "
 
 LEXICON V-COMMON-CHEYYUKA
-%<inf_k%>:%>്യുക  CLIT-CC ; ! "uka" ! FIXME
-%<inf_n%>:%>്യാന്‍ #; ! "̔ān‍ " ! 
+%<inf_k%>:%>യുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>യാന്‍ #; ! "̔ān‍ " ! 
  
-%<pres%>:%>്യുന്നു # ; ! "̔̔unnu"
-%<past%>:%>്തു # ; ! "̔i "
-%<iter%>%<pres%>്തുകൊണ്ടിരിക്കുന്നു # ; ! "̔i "
-%<gpr_pres%>:%>്യുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>്ത GPR-PAST ; ! ""
+%<pres%>:%>യുന്നു # ; ! "̔̔unnu"
+%<past%>:%>തു # ; ! "̔i "
+%<iter%>%<pres%>തുകൊണ്ടിരിക്കുന്നു # ; ! "̔i "
+%<gpr_pres%>:%>യുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ത GPR-PAST ; ! ""
 
 LEXICON V-COMMON-IRUNNU
 %<inf_k%>:%>ിക്കുക  CLIT-CC ; ! "uka" ! FIXME
@@ -764,7 +764,7 @@ VBCOP-AAK ; ! "be" ! "āk"
 എണ്ണുക:എണ്ണ V-TV-ENNI ; ! "count" ! "eṇṇuka"
 പരതുക:പരത V-TV-ENNI ; !  "search" ! "paratuka"
 കണ്ടെത്തുക:കണ്ടെത്ത  V-TV-KANDETHUKA ; ! "find" ! "kaṇṭettuka"
-ചെയ്യുക:ചെയ V-TV-CHEYYUKA ; !  "do" !"ceyyuka"
+ചെയ്യുക:ചെയ് V-TV-CHEYYUKA ; !  "do" !"ceyyuka"
 പറയുക:പറ V-TV-ARIYUKA ; ! "tell" ! "paṟayuka"
 കഴിയുക:കഴി V-TV-ARIYUKA ; ! "can" ! "kaḻiyuka"
 !വരുക:വ V-IV-VARUKA ;!"come " ! "varuka"
