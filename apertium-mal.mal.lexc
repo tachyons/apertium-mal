@@ -359,11 +359,6 @@ LEXICON NUM
 %<num%>:് # ; 
 %<num%>%<subst%>:്  N2-COMMON ; 
 
-LEXICON CLIT-WHEN
-
-!%+അപ്പോള്‍%<cnjadv%>:%»പോള്‍ CLIT-CC ; 
-%+അപ്പോള്‍%<cnjadv%>:%»പോള്‍ CLIT-CC ;
-
 CLIT-CC ; 
 
 LEXICON NEG-WHEN
@@ -387,14 +382,14 @@ LEXICON V-COMMON-KALI
 %<inf_k%>:%>ക്കുക CLIT-CC ; ! "̔kkuka" ! FIXME
 %<inf_n%>:%>ക്കാന്‍ # ; ! "kkaṇ" ! FIXME ?
 
-%<pres%>:%>ക്കുന്നു CLIT-WHEN ; ! "kkunnu"
-%<past%>:%>ച്ചു CLIT-WHEN ; ! "ccu"
-%<fut%>:%>ക്കും CLIT-WHEN ; ! "kkuṁ"
-%<iter%>%<pres%>:%>ച്ചുകൊണ്ടിരിക്കുന്നു CLIT-WHEN ; ! "ccu"
-%<cond%>:%>ച്ചാല്‍  CLIT-WHEN ; ! "ccāl‍"
+%<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "kkunnu"
+%<past%>:%>ച്ചു NEG-WHEN ; ! "ccu"
+%<fut%>:%>ക്കും NEG-WHEN ; ! "kkuṁ"
+%<iter%>%<pres%>:%>ച്ചുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "ccu"
+%<cond%>:%>ച്ചാല്‍  NEG-WHEN ; ! "ccāl‍"
 
-%<gpr_pres%>:%>ഉന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>അന്ന GPR-PAST ; ! ""
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
 
 !%<simul%>:%>
 !%<oblig%>:%>
@@ -416,8 +411,8 @@ LEXICON V-COMMON-ARIYUKA
 %<inf_k%>:%>ിയുക CLIT-CC ; ! "iyuka" 
 %<inf_n%>:%>ിയാന്‍ # ; ! "iyān‍"
  
-%<pres%>:%>ിയുന്ന NEG ; ! "iyunnu"
-%<past%>:%>ഞ്ഞ NEG ; ! "ññu"
+%<pres%>:%>ിയുന്ന NEG-WHEN ; ! "iyunnu"
+%<past%>:%>ഞ്ഞ NEG-WHEN ; ! "ññu"
 !%<fut%>:%>
 
 LEXICON V-COMMON-ENNI
@@ -496,6 +491,17 @@ LEXICON V-COMMON-CHEYYUKA
 %<pres%>:%>യുന്നു # ; ! "̔̔unnu"
 %<past%>:%>തു # ; ! "̔i "
 %<iter%>%<pres%>:%തുകൊണ്ടിരിക്കുന്നു # ; ! "̔i "
+
+LEXICON V-COMMON-IRUNNU
+%<inf_k%>:%>ിക്കുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ിക്കാന്‍  #; ! "̔ān‍ " ! 
+ 
+%<pres%>:%>ിക്കുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ുന്നു # ; ! "̔i "
+%<iter%>%<pres%>:%ുന്നുകൊണ്ടേയിരിക്കുന്നു # ; ! "̔i "
+
+LEXICON V-IV-IRUNNU
+%<v%>%<tv%>: V-COMMON-IRUNNU ; ! "" 
 
 LEXICON V-TV-CHEYYUKA 
 %<v%>%<tv%>: V-COMMON-CHEYYUKA ; ! "" 
@@ -742,7 +748,7 @@ VBCOP-AAK ; ! "be" ! "āk"
 അറിയുക:അറി V-TV-ARIYUKA ; ! "know" ! "aṟiyuka"
 നോക്കുക:നോക്ക  V-TV-NOKKUKA ; ! "look" ! "nēākkuka"
 ഒളിക്കുക:ഒളി V-IV-KALI ; ! "hide" ! "oḷikkuka"
-!ഇരിക്കുക:ഇരി V-IV-IRUNNU ; ! "sit" ! "irikkuka"
+ഇരിക്കുക:ഇര V-IV-IRUNNU ; ! "sit" ! "irikkuka"
 ലഭിക്കുക:ലഭ V-TV-LABHIKKUKA ; ! "get" ! "labhikkuka"
 ചിരിക്കുക:ചിരി V-IV-KALI ; ! "laugh" ! "cirikkuka"
 നടക്കുക:നട V-IV-NADAKKUKA ; ! "walk" ! "naṭakkuka"
