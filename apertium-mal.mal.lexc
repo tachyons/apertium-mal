@@ -527,7 +527,7 @@ LEXICON V-COMMON-KITTUKA
 
 LEXICON V-COMMON-THINNUKA
 %<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
-%<inf_n%>:%>ാന്‍ # ; ! "̔ān‍ " ! 
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔ān‍ " ! 
  
 %<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔unnu"
 %<past%>:%>ു NEG-WHEN ; ! "̔i "
