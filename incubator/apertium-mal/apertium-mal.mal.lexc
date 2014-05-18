@@ -389,7 +389,7 @@ LEXICON V-COMMON-KALI
 %<cond%>:%>ച്ചാല്‍  NEG-WHEN ; ! "ccāl‍"
 
 %<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ക്കുന്ന GPR-PAST ; ! ""
+%<gpr_past%>:%>ച്ച GPR-PAST ; ! ""
 
 !%<simul%>:%>
 !%<oblig%>:%>
