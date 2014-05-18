@@ -131,6 +131,10 @@ LEXICON CLIT-N
 
 CLIT-CC ;
 
+LEXICON CLIT-POST-EKK 
+
+%+േക്ക്%<post%>:%»േക്ക് CLIT-CC ; ! "to" ! "ēkk"
+
 LEXICON CLIT-N-NOM 
 
 %+യോടപ്പം%<post%>:%»%{z%}ോടപ്പം CLIT-COP; ! "with" ! "yēāṭappaṁ" 
@@ -140,7 +144,8 @@ CLIT-CC ;
 LEXICON CLIT-N-LOC
 
 %+ൂടെ%<post%>:%»ൂടെ  CLIT-CC ; ! "through" ! "ūṭe"
-%+േക്ക്%<post%>:%»േക്ക് CLIT-CC ; ! "to" ! "ēkk"
+
+CLIT-POST-EKK ;
 
 CLIT-CC ; 
 
@@ -625,13 +630,17 @@ LEXICON A2
 %<adj%>:ം CLIT-CC;
 %<adj%>%<subst%>:%>ത  N3-COMMON; 
 
+LEXICON ADV
+
+%<adv%>: CLIT-COP ; 
+
 LEXICON ADV2
 
 %<adv%>: CLIT-CC ; 
 
-LEXICON ADV
+LEXICON ADV3 
 
-%<adv%>: CLIT-COP ; 
+%<adv%>: CLIT-N-LOC ; 
 
 LEXICON PREADV
 
@@ -640,6 +649,7 @@ LEXICON PREADV
 LEXICON ADV-ITG
 
 %<adv%>%<itg%>: CLIT-COP ; 
+%<adv%>%<itg%>: CLIT-POST-EKK ; 
 
 LEXICON SPOST
 
@@ -769,6 +779,8 @@ LEXICON Adverbs
 എവിടെ:എവിടെ ADV-ITG ; ! "where" ! "eviṭe" 
 
 വളരെ:വളരെ PREADV ; ! "very"
+
+അവിടെ:അവിടെ ADV3 ; ! "there" ! "FIXME"
 
 വീണ്ടും:വീണ്ടും ADV ; ! "again" ! "vīṇṭuṁ"
 മെല്ലെ:മെല്ലെ ADV ; ! "slowly" ! "melle"
