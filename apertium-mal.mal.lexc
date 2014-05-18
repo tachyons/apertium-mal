@@ -413,10 +413,10 @@ LEXICON V-COMMON-KANU
 
 LEXICON V-COMMON-ARIYUKA
 
-%<inf_k%>:%>ിയുക CLIT-CC ; ! "iyuka" 
-%<inf_n%>:%>ിയാന്‍ # ; ! "iyān‍"
-%<neg%>:%>ിയില്ല # ; ! ""
-%<pres%>:%>ിയുന്ന NEG-WHEN ; ! "iyunnu"
+%<inf_k%>:%>യുക CLIT-CC ; ! "iyuka" 
+%<inf_n%>:%>യാന്‍ # ; ! "iyān‍"
+%<neg%>:%>യില്ല # ; ! ""
+%<pres%>:%>യുന്ന NEG-WHEN ; ! "iyunnu"
 %<past%>:%>ഞ്ഞ NEG-WHEN ; ! "ññu"
 !%<fut%>:%>
 
