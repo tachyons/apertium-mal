@@ -134,6 +134,7 @@ LEXICON CLIT-CC
 %+യോ%<cnjcoo%>:%»%{z%}ോ #; ! "or" ! "FIXME"
 
 CLIT-COP ;
+CLIT-QUOT ; !testing
 
 LEXICON CLIT-N
 
@@ -498,11 +499,12 @@ LEXICON V-COMMON-NADAKKUKA
 %<past%>:%>ന്നു # ; ! "̔i "
 
 LEXICON V-COMMON-POKUKA
-%<inf_k%>:%>കുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_k%>:%>കുക CLIT-CC ; ! "uka" ! FIXME
 %<inf_n%>:%>കാന്‍  #; ! "̔ān‍ " ! 
- 
 %<pres%>:%>കുന്നു # ; ! "̔̔unnu"
 %<past%>:%>യി # ; ! "̔i "
+%<gpr_pres%>:%>കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>യ GPR-PAST ; ! ""
 
 LEXICON V-COMMON-URANGUKA
 %<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
