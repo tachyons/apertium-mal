@@ -397,7 +397,7 @@ CLIT-CC ;
 LEXICON NEG-WHEN
 
 %<neg%>:%>ില്ല # ; ! "illa" 
-%+അപ്പോള്‍%<cnjadv%>:%»പോള്‍ CLIT-CC ;
+%+അപ്പോള്‍%<cnjadv%>:%»പ്പോള്‍ CLIT-CC ;
 :ു # ; !FIXME
 #;
 
@@ -498,7 +498,7 @@ LEXICON V-COMMON-NADAKKUKA
 %<inf_n%>:%>ക്കാന്‍  #; ! "̔ān‍ " ! 
  
 %<pres%>:%>ക്കുന്നു # ; ! "̔̔unnu"
-%<past%>:%>ന്നു # ; ! "̔i "
+%<past%>:%>ന്നു NEG-WHEN; ! "̔i "
 
 LEXICON V-COMMON-POKUKA
 %<inf_k%>:%>കുക CLIT-CC ; ! "uka" ! FIXME
