@@ -17,6 +17,7 @@ Multichar_Symbols
 %<spost%>       ! Separable postposition      ! 
 %<vbcop%>       ! Copula                      !
 %<qst%>         ! Question word               |
+%<quot%>
 
 %<subst%>       ! Substantive                 !
 %<attr%>        ! Attributive                 !
@@ -74,7 +75,7 @@ Multichar_Symbols
 %<f%>           ! Feminine                    ! സ്ത്രീലിമ്ഗം
 %<mf%>          ! Masculine/feminine          !
 
-%<quot%>        ! Quote marker                ! 
+%<pquot%>       ! Quote marker                ! 
 %<sent%>        ! Sentence boundary           !
 %<cm%>          ! Comma                       !
 
@@ -91,6 +92,7 @@ Multichar_Symbols
 
 LEXICON Root
 
+Miscellaneous ;
 Conjunctions ; 
 Postpositions ;
 Pronouns ;
@@ -111,12 +113,18 @@ LEXICON CLIT-ITG
 
 # ;
 
+LEXICON CLIT-QUOT 
+
+%+എന്ന്%<quot%>:%»എന്ന CLIT-ITG ; 
+
+# ;
+
 LEXICON CLIT-COP 
 
-%+ആക്%<vbcop%>%<pres%>:%»%{y%}ാണ് CLIT-ITG ; ! "FIXME"
-%+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്നു # ;  ! "FIXME"
-%+ആക്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ല്ല # ; ! "FIXME" 
-%+ഉണ്ട്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ില്ല # ; ! "FIXME" 
+%+ആക്%<vbcop%>%<pres%>:%»%{y%}ാണ് CLIT-QUOT ; ! "FIXME"
+%+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്നു CLIT-QUOT ;  ! "FIXME"
+%+ആക്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ല്ല CLIT-QUOT ; ! "FIXME" 
+%+ഉണ്ട്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ില്ല CLIT-QUOT ; ! "FIXME" 
 
 # ; 
 
@@ -665,6 +673,10 @@ LEXICON CC
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON Miscellaneous 
+
+എന്ന്%<quot%>:എന്ന് # ; ! "enn"
+
 LEXICON Conjunctions 
 
 പക്ഷെ:പക്ഷെ CC ; ! "but" ! "pakṣe"
@@ -841,7 +853,7 @@ VBCOP-AAK ; ! "be" ! "āk"
 
 LEXICON Punctuation
 
-%"%<quot%>:%" # ; 
+%"%<pquot%>:%" # ; 
 %,%<cm%>:%, # ;
 %.%<sent%>:%. # ;
 %!%<sent%>:%! # ;
