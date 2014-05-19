@@ -663,6 +663,10 @@ LEXICON ADV3
 
 %<adv%>: CLIT-N-LOC ; 
 
+LEXICON ADV4
+
+%<adv%>: # ; 
+
 LEXICON PREADV
 
 %<preadv%>: # ; 
