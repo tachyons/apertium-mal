@@ -116,8 +116,11 @@ LEXICON CLIT-ITG
 LEXICON CLIT-QUOT 
 
 %+എന്ന്%<quot%>:%»െന്ന് CLIT-ITG ; 
+CLIT-COP2;
 
 # ;
+LEXICON CLIT-COP2
+%+ഉള്ള%<vbcop%>%<pres%>:%»%{y%}ുള്ള # ; ! "FIXME" 
 
 LEXICON CLIT-COP 
 
@@ -125,7 +128,6 @@ LEXICON CLIT-COP
 %+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്നു CLIT-QUOT ;  ! "FIXME"
 %+ആക്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ല്ല CLIT-QUOT ; ! "FIXME" 
 %+ഉണ്ട്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ില്ല CLIT-QUOT ; ! "FIXME" 
-
 # ; 
 
 LEXICON CLIT-CC 
@@ -830,6 +832,8 @@ LEXICON Adverbs
 തന്നെ:തന്നെ ADV ; ! "definitely" ! ""
 കൂടി:കൂടി ADV ; ! "too" ! ""
 പുറത്ത്:പുറത്ത് ADV ; ! "outside" ! ""
+
+എല്ലായിടത്തും:എല്ലായിടത്തും ADV4 ; ! "everywhere"
 
 LEXICON Verbs
 
