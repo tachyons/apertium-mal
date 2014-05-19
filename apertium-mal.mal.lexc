@@ -571,11 +571,23 @@ LEXICON V-COMMON-THINNUKA
 %<perf%>:%>ിരുന്നു CLIT-ITG ; ! "̔ān‍ " ! 
 %<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔unnu"
 %<past%>:%>ു NEG-WHEN ; ! "̔i "
-%<iter%>%<pres%ുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "̔i "
+%<iter%>%<pres%>:%>ുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "̔i "
 %<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%> GPR-PAST ; ! ""
 
+LEXICON V-COMMON-THEERUKA
+%<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔ān‍ " ! 
+%<perf%>:%>്‍ന്നിരുന്നു CLIT-ITG ; ! "̔ān‍ " ! 
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔unnu"
+%<past%>:%>്‍ന്നു NEG-WHEN ; ! "̔i "
+%<iter%>%<pres%>:%>്‍ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "̔i "
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>്‍ന്ന GPR-PAST ; ! ""
 
+LEXICON V-IV-THEERUKA
+%<v%>%<iv%>: V-COMMON-THEERUKA ; ! "" 
+  
 LEXICON V-TV-THINNUKA
 %<v%>%<tv%>: V-COMMON-THINNUKA ; ! "" 
 
@@ -583,10 +595,10 @@ LEXICON V-TV-KITTUKA
 %<v%>%<tv%>: V-COMMON-KITTUKA ; ! "" 
 
 LEXICON V-IV-VARUKA 
-%<v%>%<tv%>: V-COMMON-VARUKA; ! "" 
+%<v%>%<iv%>: V-COMMON-VARUKA; ! "" 
 
 LEXICON V-IV-IRUNNU
-%<v%>%<tv%>: V-COMMON-IRUNNU ; ! "" 
+%<v%>%<iv%>: V-COMMON-IRUNNU ; ! "" 
 
 LEXICON V-TV-CHEYYUKA 
 %<v%>%<tv%>: V-COMMON-CHEYYUKA ; ! "" 
@@ -729,7 +741,7 @@ PRON-PERS-NNAAN ; ! "I" ! "ñān"
 ഇത്:ഇത് PRON-DEM-IT ; ! "this" ! "it"
 
 എന്ത്:എന്ത PRON-ITG-ENT ; ! "what" ! "ent"
-എന്തുകൊണ്ട്:എന്തുകൊണ്ട PRON-ITG-ENT ; ! "why" ! ""
+എന്തുകൊണ്ട്:എന്തുകൊണ് PRON-ITG-ENT ; ! "why" ! ""
 
 LEXICON Determiners
 
@@ -876,6 +888,7 @@ VBCOP-AAK ; ! "be" ! "āk"
 കരുതുക:കരുത V-IV-URANGUKA ; ! "think" ! "
 കിട്ടുകു:കിട്ട V-TV-KITTUKA ; ! "get"
 തിന്നുക:തിന്ന V-TV-THINNUKA ; ! "eat"
+തീരുക :തീര V-IV-THEERUKA ; ! "finish"
 
 
 
