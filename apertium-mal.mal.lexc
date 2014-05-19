@@ -274,6 +274,17 @@ LEXICON N5
 %<n%>%<pl%>:ുക N-CASES-PL ; ! "ukaḷ‍"
 
 %<n%>%<cmp%>%+:%» NominalStems ; ! Use/Circ
+!noun6 :പേര്‍
+LEXICON N6
+
+%<n%>%<sg%>%<nom%>:്‍ CLIT-N-NOM ; ! "ṁ"
+%<n%>%<sg%>%<loc%>:ില്‍ CLIT-N-LOC ; ! "il‍"
+%<n%>%<sg%>%<acc%>:ിനെ CLIT-N-ACC ; ! "ine"
+%<n%>%<sg%>%<gen%>:ിന്റെ CLIT-N-GEN ; ! "̔inṟe"
+%<n%>%<sg%>%<dat%>:്‍ക്ക് CLIT-N ; ! "in"
+%<n%>%<sg%>:ിന N-CASES-SG ; ! ""
+
+%<n%>%<cmp%>%+:%» NominalStems ; ! Use/Circ
 
 LEXICON NP1
 
@@ -707,7 +718,7 @@ PRON-PERS-NNAAN ; ! "I" ! "ñān"
 ഇത്:ഇത് PRON-DEM-IT ; ! "this" ! "it"
 
 എന്ത്:എന്ത് PRON-ITG-ENT ; ! "what" ! "ent"
-എന്തുകൊണ്ട്:എന്തുകൊണ്ട് PRON-ITG-ENT ; ! "what" ! "ent"
+എന്തുകൊണ്ട്:എന്തുകൊണ്ട് PRON-ITG-ENT ; ! "why" ! ""
 
 LEXICON Determiners
 
@@ -764,6 +775,7 @@ LEXICON NominalStems
 ഇഷ്ടം:ഇഷ്ട N1 ; ! "happiness"
 സന്തോഷം:സന്തോഷ N1 ; ! "happiness"
 തണുപ്പ്:തണുപ്പ N3 ; ! "coldness"
+പേര്‍:പേര N6; ! "" ! "per"
 
 LEXICON ProperNouns 
 
