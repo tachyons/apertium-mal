@@ -694,7 +694,7 @@ LEXICON CC
 
 LEXICON Miscellaneous 
 
-എന്ന്%<quot%>:എന്നു # ; ! "ennu"
+എന്ന്%<quot%>:െന്നു # ; ! "ennu"
 
 LEXICON Conjunctions 
 
@@ -834,6 +834,7 @@ LEXICON Adverbs
 പുറത്ത്:പുറത്ത് ADV ; ! "outside" ! ""
 
 എല്ലായിടത്തും:എല്ലായിടത്തും ADV4 ; ! "everywhere"
+തീര്‍ച്ചയായും:തീര്‍ച്ചയായും ADV4 ; ! "definitly"
 
 LEXICON Verbs
 
