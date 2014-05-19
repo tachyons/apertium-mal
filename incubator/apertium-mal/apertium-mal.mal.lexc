@@ -707,6 +707,7 @@ PRON-PERS-NNAAN ; ! "I" ! "ñān"
 ഇത്:ഇത് PRON-DEM-IT ; ! "this" ! "it"
 
 എന്ത്:എന്ത് PRON-ITG-ENT ; ! "what" ! "ent"
+എന്തുകൊണ്ട്:എന്തുകൊണ്ട് PRON-ITG-ENT ; ! "what" ! "ent"
 
 LEXICON Determiners
 
