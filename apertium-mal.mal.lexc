@@ -380,7 +380,8 @@ LEXICON PRON-DEM-IT
 
 LEXICON PRON-ITG-ENT
 
-%<prn%>%<itg%>%<sg%>%<nom%>: CLIT-N-NOM ; 
+%<prn%>%<itg%>%<sg%>%<nom%>:് CLIT-N-NOM ;
+%<prn%>%<itg%>%<sg%>%<dat%>:ിന് CLIT-N-NOM ; 
 
 LEXICON NUM-ONNU
 
@@ -725,8 +726,8 @@ PRON-PERS-NNAAN ; ! "I" ! "ñān"
 അത്:അത് PRON-DEM-AT ; ! "that" ! "at"
 ഇത്:ഇത് PRON-DEM-IT ; ! "this" ! "it"
 
-എന്ത്:എന്ത് PRON-ITG-ENT ; ! "what" ! "ent"
-എന്തുകൊണ്ട്:എന്തുകൊണ്ട് PRON-ITG-ENT ; ! "why" ! ""
+എന്ത്:എന്ത PRON-ITG-ENT ; ! "what" ! "ent"
+എന്തുകൊണ്ട്:എന്തുകൊണ്ട PRON-ITG-ENT ; ! "why" ! ""
 
 LEXICON Determiners
 
