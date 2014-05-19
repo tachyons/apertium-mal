@@ -82,6 +82,8 @@ Multichar_Symbols
 %{y%}           ! Epenthetic consonant        !
                 !   -y-, -v- or -r-           !
 %{z%}           ! Epenthetic consonant        !
+
+%{p%}           !
    
 %+              ! Clitic/compound boundary    !
 %>              ! Morpheme boundary           !
@@ -398,7 +400,7 @@ CLIT-CC ;
 LEXICON NEG-WHEN
 
 %<neg%>:%>ില്ല # ; ! "illa" 
-%+അപ്പോള്‍%<cnjadv%>:%»പ്പോള്‍ CLIT-CC ;
+%+അപ്പോള്‍%<cnjadv%>:%»%{p%}പ്പോള്‍ CLIT-CC ;
 :ു # ; !FIXME
 #;
 
