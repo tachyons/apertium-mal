@@ -470,6 +470,7 @@ LEXICON V-COMMON-ARIYUKA
 %<inf_n%>:%>യാന്‍ # ; ! "iyān‍"
 %<neg%>:%>യില്ല # ; ! ""
 %<imp%>:%>യ് # ; !""
+%<itg%>:%>യുമോ # ; !""
 %<imp%>%<frml%>:%>യണം # ; !""
 %<imp%>%<infml%>:%>യൂ # ; !""
 %<pres%>:%>യുന്ന NEG-WHEN ; ! "iyunnu"
@@ -492,7 +493,7 @@ LEXICON V-COMMON-LABHIKKUKA
  
 %<pres%>:%>ിക്കുന്നു # ; ! "̔̔unnu"
 %<past%>:%>ിച്ചു  # ; ! "i"
-%<hab%>:%>ാര്‍ CLIT-COP-UNTU ; ! "ār"
+%<hab%>:%>ിക്കാര്‍ CLIT-COP-UNTU ; ! "ār"
 
 LEXICON V-COMMON-NOKKUKA
 
