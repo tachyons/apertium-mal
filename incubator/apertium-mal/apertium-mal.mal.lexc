@@ -143,10 +143,13 @@ CLIT-QUOT ;
 LEXICON CLIT-COP 
 
 %+ആക്%<vbcop%>%<pres%>:%»%{y%}ാണ് CLIT-QUOT ; ! "FIXME"
-%+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്നു CLIT-QUOT ;  ! "FIXME"
+%+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്നു NEG-WHEN-EVEN ;  ! "FIXME"
 %+ആക്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ല്ല CLIT-QUOT ; ! "FIXME" 
 %+ആക്%<vbcop%>%<inf_k%>:%»%{y%}ാകുക CLIT-CC ; ! "FIXME"
 
+CLIT-COP-UNTU ;
+
+# ; 
 
 LEXICON CLIT-CC 
 
@@ -421,7 +424,7 @@ LEXICON NEG-WHEN
 %<neg%>:%>ില്ല # ; ! "illa" 
 %+അപ്പോള്‍%<cnjadv%>:%»%{p%}പ്പോള്‍ CLIT-CC ;
 :ു # ; !FIXME
-#;
+CLIT-COP;
 
 LEXICON NEG-WHEN-EVEN
 
@@ -480,8 +483,8 @@ LEXICON V-COMMON-ARIYUKA
 %<imp%>%<frml%>:%>യണം # ; !""
 %<imp%>%<infml%>:%>യൂ # ; !""
 %<pres%>:%>യുന്ന NEG-WHEN ; ! "iyunnu"
-%<past%>:%>ഞ്ഞ NEG-WHEN ; ! "ññu"
-%<fut%>:%>യും # ;
+%<past%>:%>ഞ്ഞ NEG-WHEN-EVEN ; ! "ññu"
+%<fut%>:%>യും NEG-WHEN ;
 
 LEXICON V-COMMON-ENNI
 
