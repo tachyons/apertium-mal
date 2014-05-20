@@ -123,6 +123,9 @@ CLIT-COP2;
 # ;
 LEXICON CLIT-COP2
 %+ഉള്ള%<vbcop%>%<pres%>:%»%{y%}ുള്ള # ; ! "FIXME" 
+LEXICON CLIT-CC-SEENCOP
+
+%+ആക്%<vbcop%>%<inf_k%>:%»%{y%}ാകുക CLIT-CC ; ! "FIXME"
 
 LEXICON CLIT-COP 
 
@@ -130,6 +133,7 @@ LEXICON CLIT-COP
 %+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്നു CLIT-QUOT ;  ! "FIXME"
 %+ആക്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ല്ല CLIT-QUOT ; ! "FIXME" 
 %+ഉണ്ട്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ില്ല CLIT-QUOT ; ! "FIXME" 
+
 # ; 
 
 LEXICON CLIT-CC 
