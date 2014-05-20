@@ -670,13 +670,13 @@ LEXICON V-TV-KANUKA
 %<v%>%<tv%>: V-COMMON-KANU ; ! ""
 
 
-
 LEXICON VBCOP-AAK
 
 ആക്%<vbcop%>%<pres%>:ആണ് CLIT-ITG ; ! "FIXME"
 ആക്%<vbcop%>%<pres%>%<neg%>:അല്ല CLIT-ITG ; ! "FIXME" 
 ആക്%<vbcop%>%<pres%>%<neg%>:ഇല്ല CLIT-ITG ; ! "FIXME" 
-ആക്%<vbcop%>%<fut%>:ആയിരിക്കുമോ NEG-WHEN-EVEN ; ! "FIXME"
+ആക്%<vbcop%>%<fut%>:ആയിരിക്കുമോ CLIT-ITG ; ! "FIXME"
+!ആക്%<vbcop%>%<past%>:   NEG-WHEN-EVEN ; ! "FIXME"
 
 LEXICON VBCOP-UNTU 
 
