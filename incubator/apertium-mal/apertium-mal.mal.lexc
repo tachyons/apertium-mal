@@ -489,7 +489,7 @@ LEXICON V-COMMON-ENNI
 LEXICON V-COMMON-LABHIKKUKA
 
 %<inf_k%>:%>ിക്കുക  CLIT-CC ; ! "̔uka" ! FIXME
-%<inf_n%>:%>ിക്കാന്‍ #; ! "̔̔ān‍" ! 
+%<inf_n%>:%>ിക്കാന്‍ CLIT-CC; ! "̔̔ān‍" ! 
  
 %<pres%>:%>ിക്കുന്നു # ; ! "̔̔unnu"
 %<past%>:%>ിച്ചു  # ; ! "i"
