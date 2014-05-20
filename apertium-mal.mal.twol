@@ -58,7 +58,7 @@ Rules
 %{z%}:മ <=> RVowM:  [ %>: | %»: ]  _ ; 
 
 "Remove vowel before ി"
-Vx:0 <=> _  %>: :ി ; 
+Vx:0 <=> _  [ %>: | %»: ] :ി ; 
          _  [ %>: | %»: ] %{p%}: ;
     where Vx in ( ു   ി  ) ;
 
