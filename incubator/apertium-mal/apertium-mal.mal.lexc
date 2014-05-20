@@ -404,6 +404,9 @@ LEXICON PRON-ITG-ENT
 %<prn%>%<itg%>%<sg%>%<nom%>:് CLIT-N-NOM ;
 %<prn%>%<itg%>%<sg%>%<dat%>:ിന് CLIT-N-NOM ; 
 
+LEXICON PRON-IND
+%<prn%>%<ind%>%<sg%>%<nom%>: CLIT-N-NOM ;
+
 LEXICON NUM-ONNU
 
 %<num%>:രു # ; 
@@ -726,6 +729,7 @@ LEXICON CC
 
 %<cnjcoo%>: # ; 
 
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Miscellaneous 
@@ -765,6 +769,9 @@ PRON-PERS-NNAAN ; ! "I" ! "ñān"
 
 എന്ത്:എന്ത PRON-ITG-ENT ; ! "what" ! "ent"
 എന്തുകൊണ്ട്:എന്തുകൊണ്ട PRON-ITG-ENT ; ! "why" ! ""
+എന്തെങ്കിലും:എന്തെങ്കിലും PRON-IND ; ! "ANYTHING"
+
+
 
 LEXICON Determiners
 
