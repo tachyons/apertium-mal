@@ -423,6 +423,12 @@ LEXICON NEG-WHEN
 :ു # ; !FIXME
 #;
 
+LEXICON NEG-WHEN-EVEN
+
+%+എന്നിടും%<adv%>:%»ിടും CLIT-CC ; ! "FIXME"
+
+NEG-WHEN ; 
+
 LEXICON GPR-PRES
 
 %<subst%>:%>ത  N3-COMMON; 
@@ -439,7 +445,7 @@ LEXICON V-COMMON-KALI
 %<inf_n%>:%>ക്കാന്‍ # ; ! "kkaṇ" ! FIXME ?
 
 %<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "kkunnu"
-%<past%>:%>ച്ചു NEG-WHEN ; ! "ccu"
+%<past%>:%>ച്ചു NEG-WHEN-EVEN ; ! "ccu"
 %<fut%>:%>ക്കും NEG-WHEN ; ! "kkuṁ"
 %<iter%>%<pres%>:%>ച്ചുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "ccu"
 %<cond%>:%>ച്ചാല്‍  NEG-WHEN ; ! "ccāl‍"
@@ -670,7 +676,7 @@ LEXICON VBCOP-AAK
 ആക്%<vbcop%>%<pres%>:ആണ് CLIT-ITG ; ! "FIXME"
 ആക്%<vbcop%>%<pres%>%<neg%>:അല്ല CLIT-ITG ; ! "FIXME" 
 ആക്%<vbcop%>%<pres%>%<neg%>:ഇല്ല CLIT-ITG ; ! "FIXME" 
-ആക്%<vbcop%>%<fut%>:ആയിരിക്കുമോ CLIT-ITG ; ! "FIXME"
+ആക്%<vbcop%>%<fut%>:ആയിരിക്കുമോ NEG-WHEN-EVEN ; ! "FIXME"
 
 LEXICON VBCOP-UNTU 
 
