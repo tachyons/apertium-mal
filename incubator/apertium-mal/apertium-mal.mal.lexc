@@ -147,9 +147,6 @@ LEXICON CLIT-COP
 %+ആക്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ല്ല CLIT-QUOT ; ! "FIXME" 
 %+ആക്%<vbcop%>%<inf_k%>:%»%{y%}ാകുക CLIT-CC ; ! "FIXME"
 
-CLIT-COP-UNTU ;
-
-# ; 
 
 LEXICON CLIT-CC 
 
