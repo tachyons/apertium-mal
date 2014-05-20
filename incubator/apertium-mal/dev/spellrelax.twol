@@ -1,11 +1,13 @@
 Alphabet
 
-ല  ് ‍    
 ല:ൽ  ്:0   ‍:0
  ;
 
 Rules
 
-"Analyse precomposed and non-atomic chillus"
-ല:ൽ => _  [ ്:0 ‍:0 ] ;
+"Analyse atomic chillu as non-atomic chillu"
+ല:ൽ <=> _   ്:0 ‍:0  ;
+
+"x"
+ല:ല <=> _ [  ്   ] ; 
 
