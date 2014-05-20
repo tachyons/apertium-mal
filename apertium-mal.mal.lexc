@@ -124,7 +124,7 @@ CLIT-COP2;
 # ;
 
 LEXICON CLIT-COP2
-%+ഉള്ള%<vbcop%>%<pres%>:%»%{y%}ുള്ള # ; ! "FIXME" 
+%+ഉണ്ട്%<vbcop%>%<pres%>:%»%{y%}ുള്ള # ; ! "FIXME" 
 
 LEXICON CLIT-CC-SEENCOP
 
@@ -365,8 +365,8 @@ LEXICON NP3
 
 LEXICON PRON-PERS-NNAAN 
 
-എനിക്ക്%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<nom%>:എനിക്ക് CLIT-N-NOM ; 
-എനിക്ക്%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<dat%>:ഞാന്‍ CLIT-N ; 
+ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<nom%>:ഞാന്‍ CLIT-N-NOM ;
+ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<dat%>:എനിക്ക് CLIT-N ;  
 
 LEXICON PRON-PERS-NII
 
@@ -673,6 +673,7 @@ LEXICON VBCOP-AAK
 ആക്%<vbcop%>%<pres%>:ആണ് CLIT-ITG ; ! "FIXME"
 ആക്%<vbcop%>%<pres%>%<neg%>:അല്ല CLIT-ITG ; ! "FIXME" 
 ആക്%<vbcop%>%<pres%>%<neg%>:ഇല്ല CLIT-ITG ; ! "FIXME" 
+ആക്%<vbcop%>%<fut%>:ആയിരിക്കുമോ CLIT-ITG ; ! "FIXME"
 
 LEXICON VBCOP-UNTU 
 
@@ -768,7 +769,7 @@ PRON-PERS-NNAAN ; ! "I" ! "ñān"
 ഇത്:ഇത് PRON-DEM-IT ; ! "this" ! "it"
 
 എന്ത്:എന്ത PRON-ITG-ENT ; ! "what" ! "ent"
-എന്തുകൊണ്ട്:എന്തുകൊണ്ട PRON-ITG-ENT ; ! "why" ! ""
+
 എന്തെങ്കിലും:എന്തെങ്കിലും PRON-IND ; ! "ANYTHING"
 
 
@@ -856,6 +857,7 @@ LEXICON Adjectives
 LEXICON Adverbs
 
 എവിടെ:എവിടെ ADV-ITG ; ! "where" ! "eviṭe" 
+എന്തുകൊണ്ട്:എന്തുകൊണ്ട് ADV-ITG ; ! "why" ! "" FIXME
 
 വളരെ:വളരെ PREADV ; ! "very"
 
