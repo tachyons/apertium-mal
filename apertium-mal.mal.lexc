@@ -838,6 +838,11 @@ LEXICON NominalStems
 സന്തോഷം:സന്തോഷ N1 ; ! "happiness"
 തണുപ്പ്:തണുപ്പ N3 ; ! "coldness"
 പേര്‍:പേര N6; ! "" ! "per"
+നാഡി:നാഡി N2; ! "nerve" !
+വൃക്ക:വൃക്ക N2; ! "kidney"
+ഫലകം:ഫലക N1;
+ഈച്ച:ഈച്ച N2 ; ! ""
+രേഖ:രേഖ N2 ; ! "line"
 
 LEXICON ProperNouns 
 
@@ -930,6 +935,7 @@ VBCOP-AAK ; ! "be" ! "āk"
 കിട്ടുകു:കിട്ട V-TV-KITTUKA ; ! "get"
 തിന്നുക:തിന്ന V-TV-THINNUKA ; ! "eat"
 തീരുക :തീര V-IV-THEERUKA ; ! "finish"
+
 
 
 
