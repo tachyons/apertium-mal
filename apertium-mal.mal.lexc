@@ -79,6 +79,8 @@ Multichar_Symbols
 %<pquot%>       ! Quote marker                ! 
 %<sent%>        ! Sentence boundary           !
 %<cm%>          ! Comma                       !
+%<lpar%>        !
+%<rpar%>        !
 
 %{y%}           ! Epenthetic consonant        !
                 !   -y-, -v- or -r-           !
@@ -939,6 +941,11 @@ LEXICON Punctuation
 %!%<sent%>:%! # ;
 %?%<sent%>:%? # ;
 %:%<sent%>:%: # ; 
+%(%<lpar%>:%( # ;
+%]%<rpar%>:%] # ;
+%[%<lpar%>:%[ # ;
+%)%<rpar%>:%) # ;
+
 
 ! Temporary numeral lexicon
 <[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]+>  DIGITLEX ; ! Use/Circ
