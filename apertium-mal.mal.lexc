@@ -121,17 +121,23 @@ LEXICON CLIT-QUOT
 CLIT-COP2;
 
 # ;
+
 LEXICON CLIT-COP2
 %+ഉള്ള%<vbcop%>%<pres%>:%»%{y%}ുള്ള # ; ! "FIXME" 
+
 LEXICON CLIT-CC-SEENCOP
 
-%+ആക്%<vbcop%>%<inf_k%>:%»%{y%}ാകുക CLIT-CC ; ! "FIXME"
+%+യും%<cnjcoo%>:%»%{y%}ും  CLIT-QUOT ; ! "and, also" ! "FIXME"
+%+യോ%<cnjcoo%>:%»%{z%}ോ #; ! "or" ! "FIXME"
+
+CLIT-QUOT ;
 
 LEXICON CLIT-COP 
 
 %+ആക്%<vbcop%>%<pres%>:%»%{y%}ാണ് CLIT-QUOT ; ! "FIXME"
 %+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്നു CLIT-QUOT ;  ! "FIXME"
 %+ആക്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ല്ല CLIT-QUOT ; ! "FIXME" 
+%+ആക്%<vbcop%>%<inf_k%>:%»%{y%}ാകുക CLIT-CC ; ! "FIXME"
 %+ഉണ്ട്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ില്ല CLIT-QUOT ; ! "FIXME" 
 
 # ; 
