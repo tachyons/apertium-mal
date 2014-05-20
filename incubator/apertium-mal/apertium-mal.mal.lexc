@@ -135,7 +135,7 @@ CLIT-QUOT ;
 
 LEXICON CLIT-COP-UNTU 
 
-%+ഉണ്ട്%<vbcop%>%<pres%>:%»%{y%}ഉണ്ട് CLIT-QUOT ; ! "FIXME" 
+%+ഉണ്ട്%<vbcop%>%<pres%>:%»%{y}ുണ്ട് CLIT-QUOT ; ! "FIXME" 
 %+ഉണ്ട്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ില്ല CLIT-QUOT ; ! "FIXME" 
 
 CLIT-QUOT ;
