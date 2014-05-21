@@ -16,8 +16,10 @@ Multichar_Symbols
 %<post%>        ! Postposition                ! 
 %<spost%>       ! Separable postposition      ! 
 %<vbcop%>       ! Copula                      !
-%<qst%>         ! Question word               |
+%<qst%>         ! Question word               !
+
 %<quot%>
+%<enum%>        ! Enumerative                 !
 
 %<subst%>       ! Substantive                 !
 %<attr%>        ! Attributive                 !
@@ -749,6 +751,8 @@ LEXICON Miscellaneous
 
 എന്ന്%<quot%>:െന്നു # ; ! "ennu" ! ""
 എന്ന്%<quot%>:എന്ന് # ; ! "enn" ! "" ! Dir/LR
+
+എന്ന%<enum%>:എന്ന # ; ! "enna" ! "" 
 
 LEXICON Conjunctions 
 
