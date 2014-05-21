@@ -877,8 +877,6 @@ LEXICON ProperNouns
 രാജു:രാജ NP3 ; ! "rāju" ! "Raju"
 രാധ:രാധ NP2 ; ! "rādha" ! "Radha"
 
-LEXICON PlaceNames
-
 കേരളം:കേരള NP-TOP-KERALA ; ! "keralam" ! "Kerala"
 
 LEXICON Adjectives 
