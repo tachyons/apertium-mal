@@ -364,6 +364,8 @@ LEXICON NP3
 %<np%>%<ant%>%<m%>%<pl%>%<dat%>:ുമാര്‍ക് CLIT-N ; ! "mār‍k"
 %<np%>%<ant%>%<m%>%<pl%>%<soc%>:ുമാരോട് CLIT-N ; ! "mārēāṭ"
 %<np%>%<ant%>%<m%>%<pl%>%<ins%>:ുമാരാല്‍ CLIT-N ; ! "mārāl‍"
+LEXICON NP-TOP-KERALA
+%<np%>%<top%>%<sg%>%<nom%>:ം CLIT-N-NOM ; !""
 
 LEXICON PRON-PERS-NNAAN 
 
@@ -857,6 +859,16 @@ LEXICON NominalStems
 ഐക്യദാര്‍ഢ്യം:ഐക്യദാര്‍ഢ്യ N1 ; ! "" ! ""
 സൗകര്യം:സൗകര്യ N1 ; ! "convenience, smartness, facility" ! ""
 ഝഷം:ഝഷ N1 ; ! "fish" ! ""
+ചിത്രം:ചിത്ര N1 ; ! "picture"
+വർഷം:വർഷ N1; ! "year"
+വഴി:വഴി N2; ! "path"
+സംവിധാനം:സംവിധാന N1 ; ! "mechanism"
+കിലോമീറ്റർ:കിലോമീറ്ററ ; ! "kilo meter"
+മീറ്റർ:മീറ്റർ ; ! "meter"
+ചരിത്രം:ചരിത്ര N1 ; ! "history"
+മലയാളം:മലയാള N1 ; ! "malayalam"
+ദിവസം:ദിവസം  N1 ; ! "day"
+ജീവിതരേഖ:ജീവിതരേഖ N2 ! "path"
 
 LEXICON ProperNouns 
 
@@ -864,6 +876,9 @@ LEXICON ProperNouns
 മേരി:മേരി NP2 ; ! "Mary" ! "mēri"
 രാജു:രാജ NP3 ; ! "Raju " ! "rāju"
 രാധ:രാധ NP2;  ! "Radha" ! "rādha" 
+
+LEXICON PlaceNames
+കേരളം:കേരള NP-TOP-KERALA ; ! "keralam"
 
 LEXICON Adjectives 
 
