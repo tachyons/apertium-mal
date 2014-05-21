@@ -364,7 +364,9 @@ LEXICON NP3
 %<np%>%<ant%>%<m%>%<pl%>%<dat%>:ുമാര്‍ക് CLIT-N ; ! "mār‍k"
 %<np%>%<ant%>%<m%>%<pl%>%<soc%>:ുമാരോട് CLIT-N ; ! "mārēāṭ"
 %<np%>%<ant%>%<m%>%<pl%>%<ins%>:ുമാരാല്‍ CLIT-N ; ! "mārāl‍"
+
 LEXICON NP-TOP-KERALA
+
 %<np%>%<top%>%<sg%>%<nom%>:ം CLIT-N-NOM ; !""
 
 LEXICON PRON-PERS-NNAAN 
