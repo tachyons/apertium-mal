@@ -788,7 +788,8 @@ PRON-PERS-NNAAN ; ! "ñān" ! "I"
 
 LEXICON Determiners
 
-അത്:അത് DET-DEM ; ! "at" ! "that"
+ആ:ആ DET-DEM ; ! "ā" ! "that"
+ഈ:ഈ DET-DEM ; ! "ī" ! "this" 
 
 LEXICON Numerals
 
