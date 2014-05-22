@@ -329,7 +329,7 @@ LEXICON N7 ! വിഷു
 %<n%>%<pl%>%<dat%>:ക്കള്‍ക് CLIT-N ; ! "mār‍k"
 %<n%>%<pl%>%<soc%>:ക്കളോട് CLIT-N ; ! "mārēāṭ"
 %<n%>%<pl%>%<ins%>:ക്കളാല്‍ CLIT-N ; ! "mārāl‍"
-
+%<n%>%<cmp%>%+:%» NominalStems ; ! Use/Circ
 
 LEXICON NP1
 
