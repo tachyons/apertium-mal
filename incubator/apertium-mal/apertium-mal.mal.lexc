@@ -314,6 +314,23 @@ LEXICON N6
 
 %<n%>%<cmp%>%+:%» NominalStems ; ! Use/Circ
 
+LEXICON N7 ! വിഷു
+%<n%>%<sg%>%<nom%>: CLIT-N-NOM ; ! ""
+%<n%>%<sg%>%<loc%>:വില്‍ CLIT-N-LOC; ! "yil‍"
+%<n%>%<sg%>%<acc%>:വിന്റെ CLIT-N-ACC ; ! "yuṭe"
+%<n%>%<sg%>%<gen%>:വിനെ CLIT-N-GEN ; ! "ye"
+%<n%>%<sg%>%<dat%>:വിന് CLIT-N ; ! "yk"
+%<n%>%<sg%>:വ N-CASES-SG ; ! ""
+!plural
+%<n%>%<pl%>%<nom%>:ക്കള്‍ CLIT-N-NOM ; ! "mār‍"
+%<n%>%<pl%>%<loc%>:ക്കളില്‍ CLIT-N-LOC ; ! "māril‍"
+%<n%>%<pl%>%<acc%>:ക്കളെ CLIT-N-ACC ; ! "māre"
+%<n%>%<pl%>%<gen%>:ക്കളുടെ CLIT-N-GEN ; ! "māre"
+%<n%>%<pl%>%<dat%>:ക്കള്‍ക് CLIT-N ; ! "mār‍k"
+%<n%>%<pl%>%<soc%>:ക്കളോട് CLIT-N ; ! "mārēāṭ"
+%<n%>%<pl%>%<ins%>:ക്കളാല്‍ CLIT-N ; ! "mārāl‍"
+
+
 LEXICON NP1
 
 %<np%>%<ant%>%<m%>%<sg%>%<nom%>:് CLIT-N-NOM ; ! "ṁ"
@@ -2939,6 +2956,42 @@ LEXICON NominalStems
 കാറ്റാടി:കാറ്റാടി N2 ; ! "kāṟṟāṭi" ! "weathercock"
 കരണ്ടി:കരണ്ടി N2 ; ! "karaṇṭi" ! "spoon, rake"
 കച്ചി:കച്ചി N2 ; ! "kacci" ! "straw, hay"
+
+വായു:വായു N7 ; ! "vāyu" ! "gas, air"
+വസ്തു:വസ്തു N7 ; ! "vastu" ! "estate"
+പ്രഭു:പ്രഭു N7 ; ! "prabhu" ! "prince, lord, knight, count, aristocrat"
+വേണു:വേണു N7 ; ! "vēṇu" ! "cane"
+പുരാവസ്തു:പുരാവസ്തു N7 ; ! "purāvastu" ! "museum"
+മധു:മധു N7 ; ! "madhu" ! "honey, drink"
+നിഘണ്ടു:നിഘണ്ടു N7 ; ! "nighaṇṭu" ! "lexicon, glossary, dictionary"
+ധാതു:ധാതു N7 ; ! "dhātu" ! "stem, sodium, root, ore, mineral, metal"
+ബിന്ദു:ബിന്ദു N7 ; ! "bindu" ! "zero, point, particle, globule, drop, dot"
+ശത്രു:ശത്രു N7 ; ! "śatru" ! "rival, opponent, foe, enemy, antagonist"
+പശു:പശു N7 ; ! "paśu" ! "cow"
+ശിശു:ശിശു N7 ; ! "śiśu" ! "infant, child, brat, baby"
+വിഷു:വിഷു N7 ; ! "viṣu" ! "equinox"
+കുരു:കുരു N7 ; ! "kuru" ! "sore, botch"
+സേതു:സേതു N7 ; ! "sētu" ! "mole, bridge"
+ധൂമകേതു:ധൂമകേതു N7 ; ! "dhūmakētu" ! "comet"
+കരു:കരു N7 ; ! "karu" ! "tool, mould, die"
+ജന്തു:ജന്തു N7 ; ! "jantu" ! "creature, being, beast, animal"
+അണു:അണു N7 ; ! "aṇu" ! "particle, grain, germ, corpuscle, atom"
+ബന്ധു:ബന്ധു N7 ; ! "bandhu" ! "relative, relation, ally"
+പുഴു:പുഴു N7 ; ! "puḻu" ! "worm, weevil, insect"
+! വധു:വധു N7 ; ! "vadhu" ! "woman, female, bride"
+ഹേതു:ഹേതു N7 ; ! "hētu" ! "spring, source, score, scope, sake, reason, parent, origin, occasion, object, motive, handle, ground, consideration, consequence, cause, causality, base, agent"
+ഋതു:ഋതു N7 ; ! "r̥tu" ! "season"
+ഭിക്ഷു:ഭിക്ഷു N7 ; ! "bhikṣu" ! "beggar"
+പരമാണു:പരമാണു N7 ; ! "paramāṇu" ! "atom"
+! മുഖക്കുരു:മുഖക്കുരു N7 ; ! "mukhakkuru" ! "button, acne"
+ദേവദാരു:ദേവദാരു N7 ; ! "dēvadāru" ! "pine, fir, cedar"
+പ്രാണവായു:പ്രാണവായു N7 ; ! "prāṇavāyu" ! "oxygen, life"
+സാധു:സാധു N7 ; ! "sādhu" ! "thing"
+അന്തരീക്ഷവായു:അന്തരീക്ഷവായു N7 ; ! "antarīkṣavāyu" ! "atmosphere"
+സാനു:സാനു N7 ; ! "sānu" ! "valley"
+മൃത്യു:മൃത്യു N7 ; ! "mr̥tyu" ! "obituary, decease, death"
+! മധുവിധു:മധുവിധു N7 ; ! "madhuvidhu" ! "honeymoon"
+തന്തു:തന്തു N7 ; ! "tantu" ! "thread, sinew, nerve, lint, line"
 
 LEXICON ProperNouns 
 
