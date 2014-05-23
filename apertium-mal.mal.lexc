@@ -391,30 +391,100 @@ LEXICON NP-TOP-KERALA
 LEXICON PRON-PERS-NNAAN 
 
 ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<nom%>:ഞാന്‍ CLIT-N-NOM ;
-ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<dat%>:എനിക്ക് CLIT-N ;  
+ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<acc%>:എന്നെ CLIT-N-ACC ;
+ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<gen%>:എന്റെ CLIT-N-GEN ; 
+ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<dat%>:എനിക്ക് CLIT-N ;
+ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<dat%>:എന്നുടെ CLIT-N ; 
+ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<ins%>:എന്നാല്‍ CLIT-N ; 
+ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<loc%>:എന്നില്‍ CLIT-N-LOC ;
+ഞാന്‍%<prn%>%<pers%>%<p1%>%<mf%>%<sg%>%<soc%>:എന്നോട് CLIT-N ; 
+
 
 LEXICON PRON-PERS-NII
 
 %<prn%>%<pers%>%<p2%>%<mf%>%<sg%>%<nom%>:ീ CLIT-N-NOM ; ! "i"
 %<prn%>%<pers%>%<p2%>%<mf%>%<sg%>%<acc%>:ിന്നെ CLIT-N-ACC ; ! "inne"
+%<prn%>%<pers%>%<p2%>%<mf%>%<sg%>%<gen%>:ിന്റെ CLIT-N-GEN ; ! ""
+%<prn%>%<pers%>%<p2%>%<mf%>%<sg%>%<dat%>:ിനക്ക് CLIT-N ; ! ""
+%<prn%>%<pers%>%<p2%>%<mf%>%<sg%>%<dat%>:ിന്നുടെ CLIT-N ; ! ""
+%<prn%>%<pers%>%<p2%>%<mf%>%<sg%>%<loc%>:ിന്നില്‍ CLIT-N-LOC ; ! ""
+%<prn%>%<pers%>%<p2%>%<mf%>%<sg%>%<ins%>:ിന്നാല്‍ CLIT-N ; ! ""
+%<prn%>%<pers%>%<p2%>%<mf%>%<sg%>%<soc%>:ിന്നോട് CLIT-N ; ! ""
 
 LEXICON PRON-PERS-AVAN
 
-%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<nom%>:ന്‍ CLIT-N-NOM ; 
-%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<gen%>:ന്റെ CLIT-N-GEN ; 
-%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<acc%>:നെ CLIT-N-ACC ; 
+!%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<nom%>:ന്‍ CLIT-N-NOM ; 
+!%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<gen%>:ന്റെ CLIT-N-GEN ; 
+!%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<acc%>:നെ CLIT-N-ACC ; 
 
-LEXICON PRON-PERS-AVAR
-
-%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<nom%>:ര്‍ CLIT-N-NOM ; 
-%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<gen%>:രുടെ CLIT-N-GEN ; 
-%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<dat%>:ര്‍ക്ക് CLIT-N ; 
+%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<nom%>:്‍ CLIT-N-NOM ; ! ""
+%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<acc%>:െ CLIT-N-ACC ; ! ""
+%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<gen%>:്റെ CLIT-N-GEN ; ! ""
+%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<gen%>:ുടെ CLIT-N-GEN ; ! ""
+%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<dat%>:് CLIT-N ; ! ""
+%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<loc%>:ില്‍ CLIT-N-LOC ; ! ""
+%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<ins%>:ാല്‍ CLIT-N ; ! ""
+%<prn%>%<pers%>%<p3%>%<m%>%<sg%>%<soc%>:ോട് CLIT-N ; ! ""
 
 LEXICON PRON-PERS-AVAL
 
-%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<nom%>:ള്‍ CLIT-N-NOM ; 
-%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<dat%>:%>ള്‍ക് CLIT-N ; ! "k"
-%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<gen%>:%>ളുടെ CLIT-N-GEN ; ! "k"
+!%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<nom%>:ള്‍ CLIT-N-NOM ; 
+!%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<dat%>:%>ള്‍ക് CLIT-N ; ! "k"
+!%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<gen%>:%>ളുടെ CLIT-N-GEN ; ! "k"
+
+%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<nom%>:്‍ CLIT-N-NOM ; ! ""
+%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<acc%>:െ CLIT-N-ACC ; ! ""
+%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<gen%>:ുടെ CLIT-N-GEN ; ! ""
+%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<dat%>:്‍ക് CLIT-N ; ! ""
+%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<loc%>:ില്‍ CLIT-N-LOC ; ! ""
+%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<ins%>:ാല്‍ CLIT-N ; ! ""
+%<prn%>%<pers%>%<p3%>%<f%>%<sg%>%<soc%>:ോട് CLIT-N ; ! ""
+
+LEXICON PRON-PERS-NNANNAL
+
+%<prn%>%<pers%>%<p1x%>%<mf%>%<pl%>%<nom%>:്‍ CLIT-N-NOM ; ! ""
+%<prn%>%<pers%>%<p1x%>%<mf%>%<pl%>%<acc%>:െ CLIT-N-ACC ; ! ""
+%<prn%>%<pers%>%<p1x%>%<mf%>%<pl%>%<gen%>:ുടെ CLIT-N-GEN ; ! ""
+%<prn%>%<pers%>%<p1x%>%<mf%>%<pl%>%<dat%>:്‍ക് CLIT-N ; ! ""
+%<prn%>%<pers%>%<p1x%>%<mf%>%<pl%>%<loc%>:ില്‍ CLIT-N-LOC ; ! ""
+%<prn%>%<pers%>%<p1x%>%<mf%>%<pl%>%<ins%>:ാല്‍ CLIT-N ; ! ""
+%<prn%>%<pers%>%<p1x%>%<mf%>%<pl%>%<soc%>:ോട് CLIT-N ; ! ""
+
+LEXICON PRON-PERS-NAAM
+
+%<prn%>%<pers%>%<p1i%>%<mf%>%<pl%>%<nom%>:ാം CLIT-N-NOM ; ! ""
+%<prn%>%<pers%>%<p1i%>%<mf%>%<pl%>%<nom%>:മ്മള്‍ CLIT-N-NOM ; ! ""
+%<prn%>%<pers%>%<p1i%>%<mf%>%<pl%>%<acc%>:മ്മെ CLIT-N-ACC ; ! ""
+%<prn%>%<pers%>%<p1i%>%<mf%>%<pl%>%<gen%>:മ്മുടെ CLIT-N-GEN ; ! ""
+%<prn%>%<pers%>%<p1i%>%<mf%>%<pl%>%<dat%>:മുക്ക് CLIT-N ; ! ""
+%<prn%>%<pers%>%<p1i%>%<mf%>%<pl%>%<loc%>:മ്മില്‍ CLIT-N-LOC ; ! ""
+%<prn%>%<pers%>%<p1i%>%<mf%>%<pl%>%<ins%>:ാമാല്‍ CLIT-N ; ! ""
+%<prn%>%<pers%>%<p1i%>%<mf%>%<pl%>%<soc%>:മ്മോട് CLIT-N ; ! ""
+
+LEXICON PRON-PERS-NINNAL
+
+%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<nom%>:്‍ CLIT-N-NOM ; ! ""
+%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<acc%>:െ CLIT-N-ACC ; ! ""
+%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<gen%>:ുടെ CLIT-N-GEN ; ! ""
+%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<dat%>:്‍ക് CLIT-N ; ! ""
+%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<loc%>:ില്‍ CLIT-N-LOC ; ! ""
+%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<ins%>:ാല്‍ CLIT-N ; ! ""
+%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<soc%>:ോട് CLIT-N ; ! ""
+
+LEXICON PRON-PERS-AVAR
+
+!%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<nom%>:ര്‍ CLIT-N-NOM ; 
+!%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<gen%>:രുടെ CLIT-N-GEN ; 
+!%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<dat%>:ര്‍ക്ക് CLIT-N ; 
+
+%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<nom%>:്‍ CLIT-N-NOM ; ! ""
+%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<acc%>:െ CLIT-N-ACC ; ! ""
+%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<gen%>:ുടെ CLIT-N-GEN ; ! ""
+%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<dat%>:്‍ക്ക്  CLIT-N ; ! ""
+%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<loc%>:ില്‍ CLIT-N-LOC ; ! ""
+%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<ins%>:ാല്‍ CLIT-N ; ! ""
+%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<soc%>:ോട് CLIT-N ; ! ""
+
 
 LEXICON PRON-DEM-AT
 
@@ -794,9 +864,16 @@ LEXICON Pronouns
 
 PRON-PERS-NNAAN ; ! "ñān" ! "I"
 നീ:ന PRON-PERS-NII ; ! "nī" ! "you"
-അവന്‍:അവ PRON-PERS-AVAN ; ! "avan" ! "he"
-അവള്‍:അവ PRON-PERS-AVAL ; ! "avaḷ‍" ! "she"
-അവര്‍:അവ PRON-PERS-AVAR ; ! "avar" ! "they"
+അവന്‍:അവന PRON-PERS-AVAN ; ! "avan" ! "he"
+
+അവള്‍:അവള PRON-PERS-AVAL ; ! "avaḷ‍" ! "she"
+
+ഞങ്ങള്‍:ഞങ്ങള PRON-PERS-NNANNAL ; ! "ñaṅṅaḷ‍" ! "we"
+നാം:ന PRON-PERS-NAAM ; ! "nām" ! "we"
+
+നിങ്ങള്‍:നിങ്ങള PRON-PERS-NINNAL ; ! "niṅṅaḷ‍" ! "you"
+
+അവര്‍:അവര PRON-PERS-AVAR ; ! "avar" ! "they"
 
 അത്:അത് PRON-DEM-AT ; ! "at" ! "that"
 ഇത്:ഇത് PRON-DEM-IT ; ! "it" ! "this"
