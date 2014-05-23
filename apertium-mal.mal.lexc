@@ -387,6 +387,13 @@ LEXICON NP3
 LEXICON NP-TOP-KERALA
 
 %<np%>%<top%>%<sg%>%<nom%>:ം CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<acc%>:ത്തെ	CLIT-N-AA ; !""
+%<np%>%<top%>%<sg%>%<gen%>:ത്തിന്റെ CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<dat%>:ത്തിന് CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<ins%>:ത്താല്‍  CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<ins%>:ത്തില്‍ CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<soc%>:ത്തോട് CLIT-N-NOM ; !""
+
 
 LEXICON PRON-PERS-NNAAN 
 
