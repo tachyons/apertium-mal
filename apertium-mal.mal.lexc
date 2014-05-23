@@ -485,6 +485,15 @@ LEXICON PRON-PERS-AVAR
 %<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<ins%>:ാല്‍ CLIT-N ; ! ""
 %<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<soc%>:ോട് CLIT-N ; ! ""
 
+LEXICON PRON-PERS-ADDEHA
+
+%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<nom%>:ം CLIT-N-NOM ; ! ""
+%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<acc%>:ത്തെ CLIT-N-ACC ; ! ""
+%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<gen%>:ത്തിന്റെ CLIT-N-GEN ; ! ""
+%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<dat%>:ത്തിന് CLIT-N ; ! ""
+%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<loc%>:ത്തില്‍ CLIT-N-LOC ; ! ""
+%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<ins%>:ത്താല്‍ CLIT-N ; ! ""
+%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<soc%>:ത്തോട് CLIT-N ; ! ""
 
 LEXICON PRON-DEM-AT
 
@@ -881,6 +890,7 @@ PRON-PERS-NNAAN ; ! "ñān" ! "I"
 എന്ത്:എന്ത PRON-ITG-ENT ; ! "ent" ! "what"
 
 എന്തെങ്കിലും:എന്തെങ്കിലും PRON-IND ; ! "FIXME" ! "anything"
+അദ്ദേഹം:അദ്ദേഹ PRON-PERS-ADDEHA ; ! "addēhaṁ" ! "he" 
 
 
 
