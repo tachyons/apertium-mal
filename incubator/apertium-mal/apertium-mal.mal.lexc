@@ -536,7 +536,8 @@ CLIT-CC ;
 
 LEXICON NEG-WHEN
 
-%<neg%>:%>ില്ല # ; ! "illa" 
+%+ഉണ്ട്%<adv%>:%>ില്ല # ; ! "illa" 
+!%+ഉണ്ട്%<vbcop%>%<pres%>%<neg%>:%>ില്ല # ; ! "illa" 
 %+അപ്പോള്‍%<cnjadv%>:%»%{p%}പ്പോള്‍ CLIT-CC ;
 :ു # ; !FIXME
 CLIT-COP;
