@@ -65,6 +65,7 @@ Multichar_Symbols
 %<pers%>        ! Personal                    !
 %<itg%>         ! Interrogative               ! 
 %<dem%>         ! Demonstrative               !
+%<ind%>         ! Indefinite                  !
 
 %<p1%>          ! First person
 %<p2%>          ! Second person
@@ -903,6 +904,7 @@ PRON-PERS-NNAAN ; ! "ñān" ! "I"
 എന്ത്:എന്ത PRON-ITG-ENT ; ! "ent" ! "what"
 
 എന്തെങ്കിലും:എന്തെങ്കിലും PRON-IND ; ! "FIXME" ! "anything"
+ഒന്നും:ഒന്നും PRON-IND ; ! "onnuṁ" ! "anything" 
 അദ്ദേഹം:അദ്ദേഹ PRON-PERS-ADDEHA ; ! "addēhaṁ" ! "he" 
 
 

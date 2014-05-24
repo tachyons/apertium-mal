@@ -1,9 +1,17 @@
 SOFT-DELIMITERS = "<,>" cm ;
 DELIMITERS = "<.>" "<:>" "<!>" "<?>" "<|>" "<$.>" "<$:>" "<$!>" "<$?>" "<$|>" ssingular ;
+SUBREADINGS = LTR ; 
 
 LIST N = n ;
+LIST Pron = prn ; 
+LIST Num = num ; 
+
+
+LIST Subst = subst  ;
 
 
 SECTION
 
 SELECT (x); # does nothing
+
+SELECT Pron IF (0C Pron OR Num + Subst) ; 
