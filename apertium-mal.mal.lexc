@@ -144,7 +144,7 @@ CLIT-QUOT ;
 LEXICON CLIT-COP-UNTU 
 
 %+ഉണ്ട്%<vbcop%>%<pres%>:%»%{y}ുണ്ട് CLIT-QUOT ; ! "FIXME" 
-%+ഉണ്ട്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ില്ല CLIT-QUOT ; ! "FIXME" 
+%+ഉണ്ട്%<vbcop%>%<pres%>%+ഉണ്ട്%<adv%>:%»%{y%}ില്ല CLIT-QUOT ; ! "FIXME" 
 
 CLIT-QUOT ;
 
@@ -152,7 +152,7 @@ LEXICON CLIT-COP
 
 %+ആക്%<vbcop%>%<pres%>:%»%{y%}ാണ് CLIT-QUOT ; ! "FIXME"
 %+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്നു NEG-WHEN-EVEN ;  ! "FIXME"
-%+ആക്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ല്ല CLIT-QUOT ; ! "FIXME" 
+%+ആക്%<vbcop%>%<pres%>%+ഉണ്ട്%<adv%>:%»%{y%}ല്ല CLIT-QUOT ; ! "FIXME" 
 %+ആക്%<vbcop%>%<inf_k%>:%»%{y%}ാകുക CLIT-CC ; ! "FIXME"
 
 CLIT-COP-UNTU ;
