@@ -123,12 +123,16 @@ LEXICON CLIT-ITG
 LEXICON CLIT-QUOT 
 
 %+എന്ന്%<quot%>:%»െന്ന് CLIT-ITG ; 
+%+എന്ന്%<quot%>:%»െന്ന് CLIT-COP2 ; 
 CLIT-COP2;
 
 # ;
 
 LEXICON CLIT-COP2
-%+ഉണ്ട്%<vbcop%>%<pres%>:%»%{y%}ുള്ള # ; ! "FIXME" 
+%+ഉണ്ട്%<vbcop%>%<pres%>:%»%{y%}ുള്ള CLIT-ITG ; ! "FIXME" 
+%+ഉണ്ട്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ില്ല CLIT-ITG ; ! "FIXME" 
+
+CLIT-ITG ;
 
 LEXICON CLIT-CC-SEENCOP
 
@@ -790,6 +794,7 @@ LEXICON VBCOP-AAK
 ആക്%<vbcop%>%<pres%>%<neg%>:അല്ല CLIT-ITG ; ! "FIXME" 
 ആക്%<vbcop%>%<pres%>%<neg%>:ഇല്ല CLIT-ITG ; ! "FIXME" 
 ആക്%<vbcop%>%<fut%>:ആയിരിക്കുമോ CLIT-ITG ; ! "FIXME"
+ആക്%<vbcop%>%<past%>:ആയിരുന്നു NEG-WHEN-EVEN ; ! "FIXME"
 !ആക്%<vbcop%>%<past%>:   NEG-WHEN-EVEN ; ! "FIXME"
 
 LEXICON VBCOP-UNTU 
