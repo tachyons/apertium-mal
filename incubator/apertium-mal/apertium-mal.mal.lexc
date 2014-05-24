@@ -592,14 +592,16 @@ LEXICON V-COMMON-ARIYUKA
 
 %<inf_k%>:%>യുക CLIT-CC ; ! "iyuka" 
 %<inf_n%>:%>യാന്‍ # ; ! "iyān‍"
-%<neg%>:%>യില്ല # ; ! ""
-%<imp%>:%>യ് # ; !""
-%<itg%>:%>യുമോ # ; !""
-%<imp%>%<frml%>:%>യണം # ; !""
-%<imp%>%<infml%>:%>യൂ # ; !""
+
 %<pres%>:%>യുന്ന NEG-WHEN ; ! "iyunnu"
 %<past%>:%>ഞ്ഞ NEG-WHEN-EVEN ; ! "ññu"
-%<fut%>:%>യും NEG-WHEN ;
+%<fut%>:%>യു NEG-WHEN ;
+
+%<imp%>:%>യ് # ; !""
+%<imp%>%<frml%>:%>യണം # ; !""
+%<imp%>%<infml%>:%>യൂ # ; !""
+
+!%<itg%>:%>യുമോ # ; !""
 
 LEXICON V-COMMON-ENNI
 
