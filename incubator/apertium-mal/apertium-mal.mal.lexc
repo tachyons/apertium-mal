@@ -130,7 +130,7 @@ CLIT-COP2;
 
 LEXICON CLIT-COP2
 %+ഉണ്ട്%<vbcop%>%<pres%>:%»%{y%}ുള്ള CLIT-ITG ; ! "FIXME" 
-%+ഉണ്ട്%<vbcop%>%<pres%>%<neg%>:%»%{y%}ില്ല CLIT-ITG ; ! "FIXME" 
+%+ഉണ്ട്%<vbcop%>%<pres%>%+ഉണ്ട്%<adv%>:%»%{y%}ില്ല CLIT-ITG ; ! "FIXME" 
 
 CLIT-ITG ;
 
