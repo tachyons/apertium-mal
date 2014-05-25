@@ -399,6 +399,16 @@ LEXICON NP-TOP-KERALA
 %<np%>%<top%>%<sg%>%<ins%>:ത്തില്‍ CLIT-N-NOM ; !""
 %<np%>%<top%>%<sg%>%<soc%>:ത്തോട് CLIT-N-NOM ; !""
 
+LEXICON NP-TOP-INDIA
+
+%<np%>%<top%>%<sg%>%<nom%>: CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<acc%>:യെ	CLIT-N-AA ; !""
+%<np%>%<top%>%<sg%>%<gen%>:യുടെ CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<dat%>:യ്ക് CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<ins%>:യാല്‍ CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<ins%>:യില്‍ CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<soc%>:യോട് CLIT-N-NOM ; !""
+
 
 LEXICON PRON-PERS-NNAAN 
 
@@ -3138,6 +3148,8 @@ LEXICON ProperNouns
 രാധ:രാധ NP2 ; ! "rādha" ! "Radha"
 
 കേരളം:കേരള NP-TOP-KERALA ; ! "keralam" ! "Kerala"
+ഇന്ത്യ:ഇന്ത്യ  NP-TOP-INDIA ; ! "keralam" ! "Kerala"
+
 
 LEXICON Adjectives 
 
