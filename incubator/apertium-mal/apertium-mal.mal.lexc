@@ -131,7 +131,7 @@ CLIT-COP2;
 
 LEXICON CLIT-COP2
 %+ഉണ്ട്%<vbcop%>%<pres%>:%»%{y%}ുള്ള CLIT-ITG ; ! "FIXME" 
-%+ഉണ്ട്%<vbcop%>%<pres%>%+ഉണ്ട്%<adv%>:%»%{y%}ില്ല CLIT-ITG ; ! "FIXME" 
+%+ഉണ്ട്%<vbcop%>%<pres%>%+യ്ില്ല%<adv%>:%»%{y%}ില്ല CLIT-ITG ; ! "FIXME" 
 
 CLIT-ITG ;
 
@@ -145,7 +145,7 @@ CLIT-QUOT ;
 LEXICON CLIT-COP-UNTU 
 
 %+ഉണ്ട്%<vbcop%>%<pres%>:%»%{y}ുണ്ട് CLIT-QUOT ; ! "FIXME" 
-%+ഉണ്ട്%<vbcop%>%<pres%>%+ഉണ്ട്%<adv%>:%»%{y%}ില്ല CLIT-QUOT ; ! "FIXME" 
+%+ഉണ്ട്%<vbcop%>%<pres%>%+യ്ില്ല%<adv%>:%»%{y%}ില്ല CLIT-QUOT ; ! "FIXME" 
 
 CLIT-QUOT ;
 
@@ -153,7 +153,7 @@ LEXICON CLIT-COP
 
 %+ആക്%<vbcop%>%<pres%>:%»%{y%}ാണ് CLIT-QUOT ; ! "FIXME"
 %+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്നു NEG-WHEN-EVEN ;  ! "FIXME"
-%+ആക്%<vbcop%>%<pres%>%+ഉണ്ട്%<adv%>:%»%{y%}ല്ല CLIT-QUOT ; ! "FIXME" 
+%+ആക്%<vbcop%>%<pres%>%+യ്ില്ല%<adv%>:%»%{y%}ല്ല CLIT-QUOT ; ! "FIXME" 
 %+ആക്%<vbcop%>%<inf_k%>:%»%{y%}ാകുക CLIT-CC ; ! "FIXME"
 
 CLIT-COP-UNTU ;
@@ -537,7 +537,7 @@ CLIT-CC ;
 
 LEXICON NEG-WHEN
 
-%+ഉണ്ട്%<adv%>:%>ില്ല   # ; ! "illa" 	
+%+യ്ില്ല%<adv%>:%>ില്ല   # ; ! "illa" 	
 
 !%+ഉണ്ട്%<vbcop%>%<pres%>%<neg%>:%>ില്ല # ; ! "illa" 
 %+അപ്പോള്‍%<cnjadv%>:%»%{p%}പ്പോള്‍ CLIT-CC ;
@@ -599,7 +599,7 @@ LEXICON V-COMMON-ARIYUKA
 %<pres%>:%>യുന്ന NEG-WHEN ; ! "iyunnu"
 %<past%>:%>ഞ്ഞു NEG-WHEN-EVEN ; ! "ññu"
 %<fut%>:%>യും CLIT-CC ;
-%<fut%>%+ഉണ്ട്%<adv%>:%>യ്%>ില്ല   # ; ! "illa" 	
+%<fut%>%+യ്ില്ല%<adv%>:%>യ്%>ില്ല   # ; ! "illa" 	
 
 %<imp%>:%>യ് # ; !""
 %<imp%>%<frml%>:%>യണം # ; !""
@@ -795,8 +795,8 @@ LEXICON V-TV-KANUKA
 LEXICON VBCOP-AAK
 
 ആക്%<vbcop%>%<pres%>:ആണ് CLIT-ITG ; ! "FIXME"
-ആക്%<vbcop%>%<pres%>%+ഉണ്ട്%<adv%>:അല്ല CLIT-ITG ; ! "FIXME" 
-ആക്%<vbcop%>%<pres%>%+ഉണ്ട്%<adv%>:ഇല്ല CLIT-ITG ; ! "FIXME" 
+ആക്%<vbcop%>%<pres%>%+യ്ില്ല%<adv%>:അല്ല CLIT-ITG ; ! "FIXME" 
+ആക്%<vbcop%>%<pres%>%+യ്ില്ല%<adv%>:ഇല്ല CLIT-ITG ; ! "FIXME" 
 ആക്%<vbcop%>%<fut%>:ആയിരിക്കുമോ CLIT-ITG ; ! "FIXME"
 ആക്%<vbcop%>%<past%>:ആയിരുന്നു NEG-WHEN-EVEN ; ! "FIXME"
 !ആക്%<vbcop%>%<past%>:   NEG-WHEN-EVEN ; ! "FIXME"
