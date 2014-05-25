@@ -537,7 +537,8 @@ CLIT-CC ;
 
 LEXICON NEG-WHEN
 
-%+ഉണ്ട്%<adv%>:%>ില്ല # ; ! "illa" 
+%+ഉണ്ട്%<adv%>:%>ില്ല   # ; ! "illa" 	
+
 !%+ഉണ്ട്%<vbcop%>%<pres%>%<neg%>:%>ില്ല # ; ! "illa" 
 %+അപ്പോള്‍%<cnjadv%>:%»%{p%}പ്പോള്‍ CLIT-CC ;
  CLIT-COP ; !FIXME
@@ -597,7 +598,8 @@ LEXICON V-COMMON-ARIYUKA
 
 %<pres%>:%>യുന്ന NEG-WHEN ; ! "iyunnu"
 %<past%>:%>ഞ്ഞു NEG-WHEN-EVEN ; ! "ññu"
-%<fut%>:%>യും NEG-WHEN ;
+%<fut%>:%>യും CLIT-CC ;
+%<fut%>%+ഉണ്ട്%<adv%>:%>യ്%>ില്ല   # ; ! "illa" 	
 
 %<imp%>:%>യ് # ; !""
 %<imp%>%<frml%>:%>യണം # ; !""
