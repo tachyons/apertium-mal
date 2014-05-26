@@ -1032,6 +1032,85 @@ LEXICON V-COMMON-KAKKUKA
 %<imp%>%<frml%>:%>ക്കണം # ; !""
 %<imp%>%<infml%>:%>ക്കൂ # ; !""
 
+LEXICON V-TV-VERUKKUKA
+%<v%>%<tv%>: V-COMMON-VERUKKUKA  ; ! "" 
+
+LEXICON V-IV-NOVUKA
+%<v%>%<iv%>: V-COMMON-NOVUKA  ; ! "" 
+
+LEXICON V-IV-KARAYUKA
+%<v%>%<iv%>: V-COMMON-KARAYUKA  ; ! ""
+
+ 
+LEXICON V-TV-KOLLUKA
+%<v%>%<tv%>: V-COMMON-KOLLUKA  ; ! "" 
+
+LEXICON V-TV-ALANNU
+%<v%>%<tv%>: V-COMMON-ALANNU  ; ! "" 
+
+
+LEXICON V-TV-THARUKA
+%<v%>%<tv%>: V-COMMON-THARUKA  ; ! "" 
+
+
+LEXICON V-TV-VILKUKA
+%<v%>%<tv%>: V-COMMON-VILKUKA  ; ! "" 
+
+
+LEXICON V-IV-VEENU
+%<v%>%<iv%>: V-COMMON-VEENU  ; ! "" 
+
+
+LEXICON V-IV-VIRALUKA
+%<v%>%<iv%>: V-COMMON-VIRALUKA  ; ! "" 
+
+LEXICON V-TV-NILKUKA
+%<v%>%<tv%>: V-COMMON-NILKUKA  ; ! "" 
+
+
+LEXICON V-IV-THAZHUKA
+%<v%>%<iv%>: V-COMMON-THAZHUKA  ; ! "" 
+
+LEXICON V-TV-PERUKA
+%<v%>%<tv%>: V-COMMON-PERUKA  ; ! "" 
+
+
+LEXICON V-TV-ATIKKUKA
+%<v%>%<tv%>: V-COMMON-ATIKKUKA  ; ! "" 
+
+
+LEXICON V-IV-VEIKUKA 
+%<v%>%<iv%>: V-COMMON-VEIKUKA  ; ! "" 
+
+
+LEXICON V-TV-PATUKA
+%<v%>%<tv%>: V-COMMON-PATUKA  ; ! "" 
+
+
+LEXICON V-IV-CHAKUKA
+%<v%>%<iv%>: V-COMMON-CHAKUKA  ; ! "" 
+
+
+LEXICON V-TV-THOTUKA
+%<v%>%<tv%>: V-COMMON-THOTUKA  ; ! "" 
+
+LEXICON V-TV-NERUKA
+%<v%>%<tv%>: V-COMMON-NERUKA  ; ! "" 
+
+LEXICON V-TV-PILARKUKA
+%<v%>%<tv%>: V-COMMON-PILARKUKA  ; ! "" 
+
+LEXICON V-TV-UZHUTHUKA
+%<v%>%<tv%>: V-COMMON-UZHUTHUKA  ; ! "" 
+
+LEXICON V-TV-EALKUKA
+%<v%>%<tv%>: V-COMMON-EALKUKA  ; ! "" 
+
+LEXICON V-TV-NIKAZHUKA
+%<v%>%<tv%>: V-COMMON-NIKAZHUKA  ; ! "" 
+
+LEXICON V-TV-KAKKUKA
+%<v%>%<tv%>: V-COMMON-KAKKUKA  ; ! "" 
 
 
 LEXICON V-IV-THEERUKA
