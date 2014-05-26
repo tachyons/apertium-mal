@@ -642,7 +642,7 @@ LEXICON V-COMMON-NOKKUKA
 %<past%>:%>ി # ; ! "i"
 
 LEXICON V-COMMON-KELKKUKA
-%<inf_k%>:%>ള്‍കുുക  CLIT-CC ; ! "̔ḷ‍kuuka" ! FIXME
+%<inf_k%>:%>ള്‍ക്കുക  CLIT-CC ; ! "̔ḷ‍kuuka" ! FIXME
 %<inf_n%>:%>ള്‍ക്കാന്‍ #; ! "ḷ‍kkān‍" ! 
 %<perm%>:%>ള്‍ക്കാം #; ! "ḷ‍kkām" ! 
 %<pres%>:%>ള്‍കുന്നു # ; ! "̔̔ḷ‍kunnu"
@@ -859,14 +859,14 @@ LEXICON V-COMMON-NILKUKA
 %<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
 
 LEXICON V-COMMON-THAZHUKA
-%<inf_k%>:%>ഴുക CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ഴാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ഴ്ന്നിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>ഴുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>ഴ്ന്നു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>ഴ്ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<gpr_pres%>:%>ഴുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ഴ്ന്ന GPR-PAST ; ! ""
+%<inf_k%>:%>ുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>്ന്നിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>്ന്നു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>്ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>്ന്ന GPR-PAST ; ! ""
 
 
 
@@ -991,7 +991,7 @@ LEXICON V-COMMON-UZHUTHUKA
 %<imp%>%<infml%>:%>ൂ # ; !""
 
 LEXICON V-COMMON-EALKUKA
-%<inf_k%>:%>ല്കുക്ക CLIT-CC ; ! "" ! FIXME
+%<inf_k%>:%>ല്ക്കുക CLIT-CC ; ! "" ! FIXME
 %<inf_n%>:%>ല്കാന്‍ CLIT-CC ; ! "̔" ! 
 %<perf%>:%>റ്റിരുന്നു CLIT-ITG ; ! "̔" ! 
 %<pres%>:%>ല്കുന്നു NEG-WHEN ; ! "̔̔"
@@ -1046,7 +1046,7 @@ LEXICON V-TV-KOLLUKA
 %<v%>%<tv%>: V-COMMON-KOLLUKA  ; ! "" 
 
 LEXICON V-TV-ALANNU
-%<v%>%<tv%>: V-COMMON-ALANNU  ; ! "" 
+%<v%>%<tv%>: V-COMMON‌-ALANNU  ; ! "" 
 
 
 LEXICON V-TV-THARUKA
@@ -3607,33 +3607,33 @@ VBCOP-AAK ; ! "āk" ! "be"
 തീരുക :തീര V-IV-THEERUKA ; ! "FIXME" ! "finish"
 
 ! ചെയ്യുക -done
-! വെറുക്കുക:വെറു V-TV-VERUKKUKA ; ! "veṟukkuka" ! "hate"
+വെറുക്കുക:വെറു V-TV-VERUKKUKA ; ! "veṟukkuka" ! "hate"
 ! കേള്‍ക്കുക -done
-! നോവുക:ന V-IV-NOVUKA ; ! "nēāvuka" ! "pain"
-! കരയുക:കര V-IV-KARAYUKA ; ! "karayuka" ! "cry"
-! കൊല്ലുക:കൊ V-TV-KOLLUKA ; ! "keālluka" ! "kill"
-! അളക്കുക:അള V-TV-ALANNU ; ! "aḷakkuka" ! "measure"
-! തരുക:ത V-TV-THARUKA ; ! "taruka" ! "give"
-! വില്‍ക്കുക:വി V-TV-VILKUKA ; ! "vil‍kkuka" ! "sell"
-! വീഴുക:വീ V-IV-VEENU ; ! "vīḻuka" ! "fall"
-! വിരളുക:വിര V-IV-VIRALUKA; ! "viraḷuka" ! "scare"
+നോവുക:ന V-IV-NOVUKA ; ! "nēāvuka" ! "pain"
+കരയുക:കര V-IV-KARAYUKA ; ! "karayuka" ! "cry"
+കൊല്ലുക:കൊ V-TV-KOLLUKA ; ! "keālluka" ! "kill"
+അളക്കുക:അള V-TV-ALANNU ; ! "aḷakkuka" ! "measure"
+തരുക:ത V-TV-THARUKA ; ! "taruka" ! "give"
+വില്‍ക്കുക:വി V-TV-VILKUKA ; ! "vil‍kkuka" ! "sell"
+വീഴുക:വീ V-IV-VEENU ; ! "vīḻuka" ! "fall"
+വിരളുക:വിര V-IV-VIRALUKA; ! "viraḷuka" ! "scare"
 ! കാണുക - done
-! നില്‍ക്കുക:നി V-TV-NILKUKA ; !"nil‍kkuka" ! "stand"
-! താഴുക:താഴ V-IV-THAZHUKA ; ! "tāḻuka" ! "fall down" 
-! പെറുക:പെ V-TV-PERUKA ; ! "peṟuka"
-! അടിക്കുക:അടി V-TV-ATIKKUKA ; ! "aṭikkuka"
+നില്‍ക്കുക:നി V-TV-NILKUKA ; !"nil‍kkuka" ! "stand"
+താഴുക:താഴ V-IV-THAZHUKA ; ! "tāḻuka" ! "fall down" 
+പെറുക:പെ V-TV-PERUKA ; ! "peṟuka"
+അടിക്കുക:അടി V-TV-ATIKKUKA ; ! "aṭikkuka"
 ! പോകുക -done
-! വൈകുക:വൈക V-IV-VEIKUKA ; ! "vaikuka" ! "delay"
-! പാടുക:പാട V-TV-PATUKA; ! "pāṭuka" ! "sing"
-! ചാകുക:ച V-IV-CHAKUKA; ! "cākuka" ! "die"
-! തൊടുക:തോട V-TV-THOTUKA ; ! "teāṭuka" ! "touch"
-! നേരുക:നേ V-TV-NERUKA ; ! "nēruka" ! "wish"
+വൈകുക:വൈക V-IV-VEIKUKA ; ! "vaikuka" ! "delay"
+പാടുക:പാട V-TV-PATUKA; ! "pāṭuka" ! "sing"
+ചാകുക:ച V-IV-CHAKUKA; ! "cākuka" ! "die"
+തൊടുക:തൊട V-TV-THOTUKA ; ! "teāṭuka" ! "touch"
+നേരുക:നേ V-TV-NERUKA ; ! "nēruka" ! "wish"
 ! ഇരിക്കുക -done
-! പിളര്‍ക്കുക:പിള V-TV-PILARKUKA ; ! "piḷar‍kkuka" ! "cut"
-! ഉഴുതുക:ഉഴു V-TV-UZHUTHUKA ; ! "uḻutuka" ! "" 
-! ഏല്ക്കുക:ഏ  V-TV-EALKUKA ; ! "ēlkkuka"
-! നികഴുക:നിക V-TV-NIKAZHUKA ! "nikaḻuka"
-! കക്കുക:ക V-TV-KAKKUKA ! "kakkuka"
+പിളര്‍ക്കുക:പിള V-TV-PILARKUKA ; ! "piḷar‍kkuka" ! "cut"
+ഉഴുതുക:ഉഴ V-TV-UZHUTHUKA ; ! "uḻutuka" ! "" 
+ഏല്ക്കുക:ഏ  V-TV-EALKUKA ; ! "ēlkkuka"
+നികഴുക:നിക V-TV-NIKAZHUKA; ! "nikaḻuka"
+കക്കുക:ക V-TV-KAKKUKA; ! "kakkuka"
 
 
 
