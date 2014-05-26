@@ -744,6 +744,296 @@ LEXICON V-COMMON-THEERUKA
 %<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>്‍ന്ന GPR-PAST ; ! ""
 
+LEXICON V-COMMON-THEERUKA
+%<inf_k%>:%>ുക  CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>്‍ന്നിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>്‍ന്നു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>്‍ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>്‍ന്ന GPR-PAST ; ! ""
+
+LEXICON V-COMMON-VERUKKUKA
+%<inf_k%>:%>ക്കുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ക്കാന്‍CLIT-CC ; ! "̔ān‍ " ! 
+%<perf%>:%>ത്തിരുന്നു CLIT-ITG ; ! "̔ān‍ " ! 
+%<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔unnu"
+%<past%>:%>ുത്തു NEG-WHEN ; ! "̔i "
+%<iter%>%<pres%>:%>ുത്തുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "̔i "
+%<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ുത്ത GPR-PAST ; ! ""
+
+
+LEXICON V-COMMON-NOVUKA 
+%<inf_k%>:%>ോവുക  CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ോവാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ൊന്തിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ോവുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ൊന്തു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ൊന്തുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ോവുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ൊന്ത GPR-PAST ; ! ""
+
+
+LEXICON V-COMMON-KARAYUKA
+%<inf_k%>:%>യുക  CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>യാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ഞിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>യുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ഞ്ഞു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ഞ്ഞുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>യുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ഞ്ഞ GPR-PAST ; ! ""
+
+LEXICON V-COMMON-KOLLUKA
+%<inf_k%>:%>ല്ലുക  CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ല്ലാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ല്ലുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ന്നു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ല്ലുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
+
+LEXICON V-COMMON‌-ALANNU
+%<inf_k%>:%>ക്കുക  CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ന്നു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
+
+
+LEXICON V-COMMON-THARUKA
+%<inf_k%>:%>രുക  CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>രാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>രുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ന്നു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>രുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
+
+LEXICON V-COMMON-VILKUKA
+%<inf_k%>:%>ല്‍ക്കുക  CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ല്‍ക്കാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>റ്റിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ല്‍കുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>റ്റു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>റ്റുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ല്‍കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>റ്റ GPR-PAST ; ! ""
+
+LEXICON V-COMMON-VEENU
+%<inf_k%>:%>ഴുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ഴാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ണിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ഴുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ണു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ണുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ഴുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ണ GPR-PAST ; ! ""
+
+LEXICON V-COMMON-VIRALUKA
+%<inf_k%>:%>ളുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ളാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ണ്ടിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ളുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ണ്ടു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ണ്ടുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ളുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ണ്ട GPR-PAST ; ! ""
+
+
+LEXICON V-COMMON-NILKUKA
+%<inf_k%>:%>ല്‍ക്കുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ല്‍ക്കുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ന്നു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ല്‍കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
+
+LEXICON V-COMMON-THAZHUKA
+%<inf_k%>:%>ഴുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ഴാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ഴ്ന്നിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ഴുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ഴ്ന്നു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ഴ്ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ഴുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ഴ്ന്ന GPR-PAST ; ! ""
+
+
+
+LEXICON V-COMMON-PERUKA
+%<inf_k%>:%>റുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>റാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>റ്റിന്നിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>റുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>റ്റു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>റ്റുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>റുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>റ്റ GPR-PAST ; ! ""
+%<imp%>:%>റ് # ; !""
+%<imp%>%<frml%>:%>റണം # ; !""
+%<imp%>%<infml%>:%>റൂ # ; !""
+
+LEXICON V-COMMON-ATIKKUKA
+%<inf_k%>:%>ക്കുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ച്ചിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ച്ചു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ച്ചുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ച്ച GPR-PAST ; ! ""
+%<imp%>:%>ക്ക് # ; !""
+%<imp%>%<frml%>:%>ക്കണം # ; !""
+%<imp%>%<infml%>:%>ക്കൂ # ; !""
+
+LEXICON V-COMMON-VEIKUKA
+%<inf_k%>:%>ുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ിയിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ി NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ികൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
+%<imp%>:%>് # ; !""
+%<imp%>%<frml%>:%>ണം # ; !""
+%<imp%>%<infml%>:%>ൂ # ; !""
+
+LEXICON V-COMMON-PATUKA
+%<inf_k%>:%>ുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ിയിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ി NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ികൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
+%<imp%>:%>് # ; !""
+%<imp%>%<frml%>:%>ണം # ; !""
+%<imp%>%<infml%>:%>ൂ # ; !""
+
+LEXICON V-COMMON-NERUKA
+%<inf_k%>:%>രുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>രാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ര്‍ന്നിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>രുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ര്‍ന്നു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ര്‍ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>രുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ര്‍ന്ന GPR-PAST ; ! ""
+%<imp%>:%>ര് # ; !""
+%<imp%>%<frml%>:%>രണം # ; !""
+%<imp%>%<infml%>:%>രൂ # ; !""
+
+LEXICON V-COMMON-PILARKUKA
+%<inf_k%>:%>ര്‍ക്കുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ളര്‍ക്കാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ര്‍ത്തിയിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ര്‍ത്തുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ര്‍ത്തി NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ര്‍ത്തികൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ര്‍തുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ര്‍ത്തി GPR-PAST ; ! ""
+%<imp%>:%>ര്‍ത്ത് # ; !""
+%<imp%>%<frml%>:%>ര്‍ത്തണം # ; !""
+%<imp%>%<infml%>:%>ര്‍ത്ത് # ; !""
+
+
+
+LEXICON V-COMMON-CHAKUKA
+%<inf_k%>:%>ാകുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ാകാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ത്തിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ാകുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ത്തു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ത്തുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ാകുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ത്ത GPR-PAST ; ! ""
+%<imp%>:%>ാക് # ; !""
+%<imp%>%<frml%>:%>കണം # ; !""
+%<imp%>%<infml%>:%>കൂ # ; !""
+
+
+LEXICON V-COMMON-THOTUKA
+%<inf_k%>:%>ുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>്ടിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ടുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>്ടു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>്ടുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>്ട GPR-PAST ; ! ""
+%<imp%>:%>് # ; !""
+%<imp%>%<frml%>:%>ണം # ; !""
+%<imp%>%<infml%>:%>ൂ # ; !""
+
+LEXICON V-COMMON-UZHUTHUKA
+%<inf_k%>:%>ുതുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ുതിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ുതു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ുതുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ുത GPR-PAST ; ! ""
+%<imp%>:%>് # ; !""
+%<imp%>%<frml%>:%>ണം # ; !""
+%<imp%>%<infml%>:%>ൂ # ; !""
+
+LEXICON V-COMMON-EALKUKA
+%<inf_k%>:%>ല്കുക്ക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ല്കാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>റ്റിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ല്കുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>റ്റു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>റ്റുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ല്കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>റ്റ GPR-PAST ; ! ""
+%<imp%>:%>ല്ക് # ; !""
+%<imp%>%<frml%>:%>ല്കണം # ; !""
+%<imp%>%<infml%>:%>ല്കൂ # ; !""
+
+
+
+LEXICON V-COMMON-NIKAZHUKA
+%<inf_k%>:%>ഴുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ഴാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ര്‍ത്തിയിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ഴുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ഴ്ത്തി NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ഴ്ത്തികൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ഴ്ത്തുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ഴ്ത്തി GPR-PAST ; ! ""
+%<imp%>:%>ഴ്ത്ത് # ; !""
+%<imp%>%<frml%>:%>ഴ്ത്തണം # ; !""
+%<imp%>%<infml%>:%>ഴൂ # ; !""
+
+
+LEXICON V-COMMON-KAKKUKA
+%<inf_k%>:%>ക്കുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ട്ടിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>കക്കുന്നുNEG-WHEN ; ! "̔̔"
+%<past%>:%>ട്ടു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ട്ടുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ട്ട GPR-PAST ; ! ""
+%<imp%>:%>ക്ക് # ; !""
+%<imp%>%<frml%>:%>ക്കണം # ; !""
+%<imp%>%<infml%>:%>ക്കൂ # ; !""
+
+
+
 LEXICON V-IV-THEERUKA
 %<v%>%<iv%>: V-COMMON-THEERUKA ; ! "" 
   
