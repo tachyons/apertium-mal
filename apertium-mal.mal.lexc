@@ -648,7 +648,7 @@ LEXICON V-COMMON-KELKKUKA
 %<pres%>:%>ള്‍കുന്നു # ; ! "̔̔ḷ‍kunnu"
 %<past%>:%>ട്ടു # ; ! "ṭṭu"
 
-LEXICON V-COMMON-KANDETHUKA
+LEXICON V-COMMON-KANDETHUKA   ! same as patuka ?? !FIXME
 %<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
 %<inf_n%>:%>ാന്‍  #; ! "̔ān‍ " ! 
  
@@ -3621,10 +3621,17 @@ VBCOP-AAK ; ! "āk" ! "be"
 നില്‍ക്കുക:നി V-TV-NILKUKA ; !"nil‍kkuka" ! "stand"
 താഴുക:താഴ V-IV-THAZHUKA ; ! "tāḻuka" ! "fall down" 
 പെറുക:പെ V-TV-PERUKA ; ! "peṟuka"
-അടിക്കുക:അടി V-TV-ATIKKUKA ; ! "aṭikkuka"
+അടിക്കുക:അടി V-TV-ATIKKUKA ; ! "aṭikkuka" ! "beat"
+വിളിക്കുക:വിളി V-TV-ATIKKUKA ; ! "viḷikkuka" ! "call"
+അനുസരിക്കുക:അനുസരി V-TV-ATIKKUKA ; ! "anusarikkuka" ! "obey"
 ! പോകുക -done
 വൈകുക:വൈക V-IV-VEIKUKA ; ! "vaikuka" ! "delay"
 പാടുക:പാട V-TV-PATUKA; ! "pāṭuka" ! "sing"
+നേടുക:നേട V-TV-PATUKA; ! "nēṭuka ! "achive"
+തുടങ്ങുക:തുടങ്ങ V-TV-PATUKA; ! "tuṭaṅṅuka" ! "start"
+എഴുതുക:എഴുത V-TV-PATUKA ; ! "eḻutuka" ! "write"
+ഒഴുകുക:ഒഴുക V-TV-PATUKA ; ! "oḻukuka" ! "flow"
+നല്‍കുക:നല്‍ക V-TV-PATUKA ; ! "nal‍kuka" ! "give"
 ചാകുക:ച V-IV-CHAKUKA; ! "cākuka" ! "die"
 തൊടുക:തൊട V-TV-THOTUKA ; ! "teāṭuka" ! "touch"
 നേരുക:നേ V-TV-NERUKA ; ! "nēruka" ! "wish"
