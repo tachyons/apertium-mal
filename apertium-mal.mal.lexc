@@ -392,7 +392,7 @@ LEXICON NP3
 LEXICON NP-TOP-KERALA
 
 %<np%>%<top%>%<sg%>%<nom%>:ം CLIT-N-NOM ; !""
-%<np%>%<top%>%<sg%>%<acc%>:ത്തെ	CLIT-N-AA ; !""
+%<np%>%<top%>%<sg%>%<acc%>:ത്തെ	CLIT-N-ACC ; !""
 %<np%>%<top%>%<sg%>%<gen%>:ത്തിന്റെ CLIT-N-NOM ; !""
 %<np%>%<top%>%<sg%>%<dat%>:ത്തിന് CLIT-N-NOM ; !""
 %<np%>%<top%>%<sg%>%<ins%>:ത്താല്‍  CLIT-N-NOM ; !""
@@ -402,7 +402,7 @@ LEXICON NP-TOP-KERALA
 LEXICON NP-TOP-INDIA
 
 %<np%>%<top%>%<sg%>%<nom%>: CLIT-N-NOM ; !""
-%<np%>%<top%>%<sg%>%<acc%>:യെ	CLIT-N-AA ; !""
+%<np%>%<top%>%<sg%>%<acc%>:യെ	CLIT-N-ACC ; !""
 %<np%>%<top%>%<sg%>%<gen%>:യുടെ CLIT-N-NOM ; !""
 %<np%>%<top%>%<sg%>%<dat%>:യ്ക് CLIT-N-NOM ; !""
 %<np%>%<top%>%<sg%>%<ins%>:യാല്‍ CLIT-N-NOM ; !""
@@ -756,7 +756,7 @@ LEXICON V-COMMON-THEERUKA
 
 LEXICON V-COMMON-VERUKKUKA
 %<inf_k%>:%>ക്കുക  CLIT-CC ; ! "uka" ! FIXME
-%<inf_n%>:%>ക്കാന്‍CLIT-CC ; ! "̔ān‍ " ! 
+%<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔ān‍ " ! 
 %<perf%>:%>ത്തിരുന്നു CLIT-ITG ; ! "̔ān‍ " ! 
 %<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔unnu"
 %<past%>:%>ുത്തു NEG-WHEN ; ! "̔i "
@@ -889,6 +889,7 @@ LEXICON V-COMMON-ATIKKUKA
 %<perf%>:%>ച്ചിരുന്നു CLIT-ITG ; ! "̔" ! 
 %<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ച്ചു NEG-WHEN ; ! ""
+%<fut%>:%>ക്കും NEG-WHEN ; ! ""
 %<iter%>%<pres%>:%>ച്ചുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
 %<iter%>%<past%>:%>ച്ചുകൊണ്ടിരിന്നു NEG-WHEN ; ! ""
 %<iter%>%<fut%>:%>ച്ചുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
@@ -1392,8 +1393,8 @@ LEXICON NominalStems
 വർഷം:വർഷ N1 ; ! "FIXME" ! "year"
 വഴി:വഴി N2 ; ! "FIXME" ! "path"
 സംവിധാനം:സംവിധാന N1 ; ! "FIXME" ! "mechanism"
-കിലോമീറ്റർ:കിലോമീറ്ററ NX ; ! "FIXME"! "kilometre"
-മീറ്റർ:മീറ്റർ NX ; ! "FIXME" ! "meter"
+! കിലോമീറ്റർ:കിലോമീറ്ററ NX ; ! "FIXME"! "kilometre"
+! മീറ്റർ:മീറ്റർ NX ; ! "FIXME" ! "meter"
 ചരിത്രം:ചരിത്ര N1 ; ! "FIXME" ! "history"
 മലയാളം:മലയാള N1 ; ! "FIXME" ! "Malayalam"
 ദിവസം:ദിവസം  N1 ; ! "FIXME" ! "day"
@@ -3930,7 +3931,7 @@ LEXICON NominalStems
 നിരാശ:നിരാശ N2 ; ! "nirāśa" ! "frustration, disappointment, despair"
 തടവറ:തടവറ N2 ; ! "taṭavaṟa" ! "cage, bird"
 ചെറുപുഴ:ചെറുപുഴ N2 ; ! "ceṟupuḻa" ! "brook"
-ഖലീഫാ:ഖലീഫാ N2 ; ! "khalīphā" ! "caliph"
+ഖലീഫ:ഖലീഫ N2 ; ! "khalīphā" ! "caliph"
 ഏകാന്തത:ഏകാന്തത N2 ; ! "ēkāntata" ! "solitude, seclusion, privacy, isolation, desolation"
 ഉണ്മ:ഉണ്മ N2 ; ! "uṇma" ! "entity, advancement"
 സമത:സമത N2 ; ! "samata" ! "equity"
