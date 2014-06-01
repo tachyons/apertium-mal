@@ -85,6 +85,8 @@ Multichar_Symbols
 %<lpar%>        !
 %<rpar%>        !
 
+%<top%>          !
+
 %{y%}           ! Epenthetic consonant        !
                 !   -y-, -v- or -r-           !
 %{z%}           ! Epenthetic consonant        !
@@ -165,6 +167,7 @@ LEXICON CLIT-CC
 %+യും%<cnjcoo%>:%»%{y%}ും CLIT-COP ; ! "and, also" ! "FIXME"
 %+യോ%<cnjcoo%>:%»%{z%}ോ #; ! "or" ! "FIXME"
 
+
 CLIT-COP ;
 CLIT-QUOT ; !testing
 
@@ -179,6 +182,7 @@ LEXICON CLIT-POST-EKK
 LEXICON CLIT-N-NOM 
 
 %+യോടപ്പം%<post%>:%»%{z%}ോടപ്പം CLIT-COP; ! "with" ! "yēāṭappaṁ" 
+%+യോടെ%<post%>:%»%{z%}ോടെ #; ! "with" ! "yēāṭe"  
 
 CLIT-CC ;
 
@@ -1044,7 +1048,7 @@ LEXICON V-COMMON-KAKKUKA
 %<inf_k%>:%>ക്കുക CLIT-CC ; ! "" ! FIXME
 %<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" ! 
 %<perf%>:%>ട്ടിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>കക്കുന്നു NEG-WHEN ; ! "̔̔"
+%<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ട്ടു NEG-WHEN ; ! ""
 %<iter%>%<pres%>:%>ട്ടുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
 %<iter%>%<past%>:%>ട്ടുകൊണ്ടിരിന്നു NEG-WHEN ; ! ""
@@ -2448,6 +2452,7 @@ LEXICON NominalStems
 ലംഘനം:ലംഘന N1 ; ! "laṅghanaṁ" ! "transgression, failure, contravention"
 പ്രമുഖസ്ഥാനം:പ്രമുഖസ്ഥാന N1 ; ! "pramukhasthānaṁ" ! "top"
 പിരിമുറുക്കം:പിരിമുറുക്ക N1 ; ! "pirimuṟukkaṁ" ! "tension"
+പുരസ്കാരം:പുരസ്കാര N1 ; ! "" ! ""
 നിയമസഭാംഗം:നിയമസഭാംഗ N1 ; ! "niyamasabhāṅgaṁ" ! "legislator"
 ജാലകം:ജാലക N1 ; ! "jālakaṁ" ! "window, mesh, lattice"
 ചാലകം:ചാലക N1 ; ! "cālakaṁ" ! "electrode"
@@ -2859,6 +2864,7 @@ LEXICON NominalStems
 പങ്ക്:പങ്ക N3 ; ! "paṅk" ! "snack, quota, complicity"
 വകുപ്പ്:വകുപ്പ N3 ; ! "vakupp" ! "article"
 ദ്വീപ്:ദ്വീപ N3 ; ! "dvīp" ! "island"
+പിതാവ്:പിതാവ ; ! "" ! "father"
 തായ്:തായ N3 ; ! "tāy" ! "mamma"
 നാട്:നാട N3 ; ! "nāṭ" ! "country"
 നേതാവ്:നേതാവ N3 ; ! "nētāv" ! "leader"
@@ -3119,6 +3125,7 @@ LEXICON NominalStems
 ജന്മി:ജന്മി N2 ; ! "janmi" ! "owner, landlord"
 ബുദ്ധി:ബുദ്ധി N2 ; ! "bud'dhi" ! "wisdom, thought, sense, reason, mind, brain"
 തട്ടി:തട്ടി N2 ; ! "taṭṭi" ! "partition"
+അക്കാദമി:അക്കാദമി ; ! "" ! "academy"
 യുക്തി:യുക്തി N2 ; ! "yukti" ! "validity, tactic, resource, reason, project, procurement, logic, argument"
 പച്ചക്കറി:പച്ചക്കറി N2 ; ! "paccakkaṟi" ! "vegetable, green"
 മുന്നണി:മുന്നണി N2 ; ! "munnaṇi" ! "van, front"
@@ -3285,6 +3292,7 @@ LEXICON NominalStems
 ആസ്തി:ആസ്തി N2 ; ! "āsti" ! "asset"
 സഞ്ചി:സഞ്ചി N2 ; ! "sañci" ! "sac, pod, pocket, pack, bag"
 പരിമിതി:പരിമിതി N2 ; ! "parimiti" ! "limitation, constraint"
+അതിർത്തി:അതിർത്തി N2 ; ! "" ! "border"
 ധമനി:ധമനി N2 ; ! "dhamani" ! "vein, tube, artery"
 അഭിരുചി:അഭിരുചി N2 ; ! "abhiruci" ! "vocation, taste, season, preference, palate, interest, flavor, aptitude, appetite"
 സംഗതി:സംഗതി N2 ; ! "saṅgati" ! "topic, sake, respect, question, occurrence, matter, issue, instance, event, case, affair"
@@ -4061,6 +4069,8 @@ LEXICON ProperNouns
 രാധ:രാധ NP2 ; ! "rādha" ! "Radha"
 
 കേരളം:കേരള NP-TOP-KERALA ; ! "keralam" ! "Kerala"
+തിരുവനന്തപുരം:തിരുവനന്തപുര NP-TOP-KERALA ; ! "trivandrum"
+കൊല്ലം:കൊല്ല NP-TOP-KERALA ; ! "kollam"
 ഇന്ത്യ:ഇന്ത്യ  NP-TOP-INDIA ; ! "keralam" ! "Kerala"
 
 
