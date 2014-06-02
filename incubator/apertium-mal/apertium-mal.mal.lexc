@@ -125,9 +125,9 @@ LEXICON CLIT-ITG
 
 LEXICON CLIT-QUOT 
 
-%+എന്ന്%<quot%>:%»െന്ന് CLIT-ITG ; 
-%+എന്ന്%<quot%>:%»െന്ന് CLIT-COP2 ; 
-CLIT-COP2;
+%+എന്ന്%<quot%>:%»െന്ന് CLIT-ITG ; ! Use/Circ
+%+എന്ന്%<quot%>:%»െന്ന് CLIT-COP2 ; ! Use/Circ
+CLIT-COP2; ! Use/Circ
 
 # ;
 
@@ -153,10 +153,10 @@ CLIT-QUOT ;
 
 LEXICON CLIT-COP 
 
-%+ആക്%<vbcop%>%<pres%>:%»%{y%}ാണ് CLIT-QUOT ; ! "FIXME"
-%+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്നു NEG-WHEN-EVEN ;  ! "FIXME"
-%+ആക്%<vbcop%>%<pres%>%+യില്ല%<adv%>:%»%{y%}ല്ല CLIT-QUOT ; ! "FIXME" 
-%+ആക്%<vbcop%>%<inf_k%>:%»%{y%}ാകുക CLIT-CC ; ! "FIXME"
+%+ആക്%<vbcop%>%<pres%>:%»%{y%}ാണ് CLIT-QUOT ; ! "FIXME" ! Use/Circ
+%+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്നു NEG-WHEN-EVEN ;  ! "FIXME" ! Use/Circ
+%+ആക്%<vbcop%>%<pres%>%+യില്ല%<adv%>:%»%{y%}ല്ല CLIT-QUOT ; ! "FIXME" ! Use/Circ
+%+ആക്%<vbcop%>%<inf_k%>:%»%{y%}ാകുക CLIT-CC ; ! "FIXME" ! Use/Circ
 
 CLIT-COP-UNTU ;
 
@@ -227,6 +227,7 @@ LEXICON N1
 %<n%>%<sg%>%<dat%>:%>ത്തിന് CLIT-N ; ! "ttin"
 %<n%>%<sg%>:%>ത്ത N-CASES-SG ; ! ""
 
+%<n%>%<sg%>%<cmp%>: # ; ! "for debugging"
 !plural
 %<n%>%<pl%>%<nom%>:%>ങ്ങള്‍ CLIT-N-NOM ; ! "ṅṅaḷ‍"
 %<n%>%<pl%>%<acc%>:%>ങ്ങളെ CLIT-N-ACC ; ! "ṅṅale"
@@ -2864,7 +2865,7 @@ LEXICON NominalStems
 പങ്ക്:പങ്ക N3 ; ! "paṅk" ! "snack, quota, complicity"
 വകുപ്പ്:വകുപ്പ N3 ; ! "vakupp" ! "article"
 ദ്വീപ്:ദ്വീപ N3 ; ! "dvīp" ! "island"
-പിതാവ്:പിതാവ ; ! "" ! "father"
+പിതാവ്:പിതാവ N3; ! "" ! "father"
 തായ്:തായ N3 ; ! "tāy" ! "mamma"
 നാട്:നാട N3 ; ! "nāṭ" ! "country"
 നേതാവ്:നേതാവ N3 ; ! "nētāv" ! "leader"
@@ -3125,7 +3126,7 @@ LEXICON NominalStems
 ജന്മി:ജന്മി N2 ; ! "janmi" ! "owner, landlord"
 ബുദ്ധി:ബുദ്ധി N2 ; ! "bud'dhi" ! "wisdom, thought, sense, reason, mind, brain"
 തട്ടി:തട്ടി N2 ; ! "taṭṭi" ! "partition"
-അക്കാദമി:അക്കാദമി ; ! "" ! "academy"
+അക്കാദമി:അക്കാദമി N2; ! "" ! "academy"
 യുക്തി:യുക്തി N2 ; ! "yukti" ! "validity, tactic, resource, reason, project, procurement, logic, argument"
 പച്ചക്കറി:പച്ചക്കറി N2 ; ! "paccakkaṟi" ! "vegetable, green"
 മുന്നണി:മുന്നണി N2 ; ! "munnaṇi" ! "van, front"
