@@ -165,6 +165,7 @@ CLIT-COP-UNTU ;
 LEXICON CLIT-CC 
 
 %+യും%<cnjcoo%>:%»%{y%}ും CLIT-COP ; ! "and, also" ! "FIXME"
+%+യും%<adv%>:%»%{y%}ും CLIT-COP ; ! "also"
 %+യോ%<cnjcoo%>:%»%{z%}ോ #; ! "or" ! "FIXME"
 
 
@@ -2069,6 +2070,7 @@ LEXICON NominalStems
 അവലോകനം:അവലോകന N1 ; ! "avalēākanaṁ" ! "contemplation"
 വിവേചനം:വിവേചന N1 ; ! "vivēcanaṁ" ! "sense, distinction, discrimination, discretion"
 വാരം:വാര N1 ; ! "vāraṁ" ! "week, base"
+ലോകം:ലോക N1 ; ! "" ! "world"
 മംഗളം:മംഗള N1 ; ! "maṅgaḷaṁ" ! "speed"
 മധ്യഭാഗം:മധ്യഭാഗ N1 ; ! "madhyabhāgaṁ" ! "middle"
 മദ്യപാനം:മദ്യപാന N1 ; ! "madyapānaṁ" ! "drunkenness"
@@ -2854,6 +2856,9 @@ LEXICON NominalStems
 ആയാസം:ആയാസ N1 ; ! "āyāsaṁ" ! "vexation, toil, stress, labour, labor, fatigue, difficulty"
 ആട്ടം:ആട്ട N1 ; ! "āṭṭaṁ" ! "sport"
 അശ്ലീലം:അശ്ലീല N1 ; ! "aślīlaṁ" ! "porn"
+വിദേശം:വിദേശ  N1 ; ! "" ! "foreign"
+ശാസ്ത്രീയം:ശാസ്ത്രീയ N1 ; ! "" ! "scientific"
+ആഭ്യന്തരം:ആഭ്യന്തര N1 ; ! "" ! "internal"
 അവ്യയം:അവ്യയ N1 ; ! "avyayaṁ" ! "conjunction, conjugation"
 അനിഷ്ടം:അനിഷ്ട N1 ; ! "aniṣṭaṁ" ! "antipathy"
 അനിശ്ചിതത്വം:അനിശ്ചിതത്വ N1 ; ! "aniścitatvaṁ" ! "uncertainty, skepticism, flexibility"
@@ -2894,6 +2899,7 @@ LEXICON NominalStems
 സ്വത്ത്:സ്വത്ത N3 ; ! "svatt" ! "wealth"
 സമ്പത്ത്:സമ്പത്ത N3 ; ! "sampatt" ! "resource, prosperity, fortune"
 ഓട്:ഓട N5 ; ! "ōṭ" ! "bismuth"
+വെബ്:വെബ N3 ; ! "" ! "web"
 ഉറപ്പ്:ഉറപ്പ N3 ; ! "uṟapp" ! "security, rock, assurance"
 സ്ഥാനപ്പേര്:സ്ഥാനപ്പേര N3 ; ! "sthānappēr" ! "designation, denomination"
 കെട്ട്:കെട്ട N3 ; ! "keṭṭ" ! "bond"
@@ -2920,6 +2926,10 @@ LEXICON NominalStems
 കുത്ത്:കുത്ത N3 ; ! "kutt" ! "sting, point"
 ചോറ്:ചോറ N3 ; ! "cēāṟ" ! "rice"
 മുറിവ്:മുറിവ N3 ; ! "muṟiv" ! "scratch"
+ബാങ്ക്:ബാങ്ക N3 ; ! "bank" ! "bank"
+ലീഗ്:ലീഗ N3 ; ! "" ! "legue"
+റോഡ്:റോഡ N3; ! "road" ! "road"
+സെന്‍സസ്:സെന്‍സസ N3; ! "Census" ! "Census"
 തുറുപ്പ്:തുറുപ്പ N3 ; ! "tuṟupp" ! "cavalry"
 ഉപദ്വീപ്:ഉപദ്വീപ N3 ; ! "upadvīp" ! "peninsula"
 മെഴുക്:മെഴുക N3 ; ! "meḻuk" ! "seal"
