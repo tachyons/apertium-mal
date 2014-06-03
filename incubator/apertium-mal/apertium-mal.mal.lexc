@@ -515,13 +515,13 @@ LEXICON PRON-PERS-AVAR
 
 LEXICON PRON-PERS-ADDEHA
 
-%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<nom%>:ം CLIT-N-NOM ; ! ""
-%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<acc%>:ത്തെ CLIT-N-ACC ; ! ""
-%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<gen%>:ത്തിന്റെ CLIT-N-GEN ; ! ""
-%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<dat%>:ത്തിന് CLIT-N ; ! ""
-%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<loc%>:ത്തില്‍ CLIT-N-LOC ; ! ""
-%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<ins%>:ത്താല്‍ CLIT-N ; ! ""
-%<prn%>%<pers%>%<p2%>%<mf%>%<pl%>%<soc%>:ത്തോട് CLIT-N ; ! ""
+%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<nom%>:ം CLIT-N-NOM ; ! ""
+%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<acc%>:ത്തെ CLIT-N-ACC ; ! ""
+%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<gen%>:ത്തിന്റെ CLIT-N-GEN ; ! ""
+%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<dat%>:ത്തിന് CLIT-N ; ! ""
+%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<loc%>:ത്തില്‍ CLIT-N-LOC ; ! ""
+%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<ins%>:ത്താല്‍ CLIT-N ; ! ""
+%<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<soc%>:ത്തോട് CLIT-N ; ! ""
 
 LEXICON PRON-DEM-AT
 
@@ -1277,7 +1277,8 @@ LEXICON Miscellaneous
 LEXICON Conjunctions 
 
 പക്ഷെ:പക്ഷെ CC ; ! "pakṣe" ! "but"
-
+പക്ഷേ:പക്ഷേ CC ; ! "" ! "but"
+എങ്കിലും:എങ്കിലും CC ; ! "" ! "but"
 LEXICON Postpositions 
 
 നിന്ന്:നിന്ന് SPOST ; ! "nīnn" ! "from"
@@ -1316,6 +1317,7 @@ PRON-PERS-NNAAN ; ! "ñān" ! "I"
 എന്തെങ്കിലും:എന്തെങ്കിലും PRON-IND ; ! "FIXME" ! "anything"
 ഒന്നും:ഒന്നും PRON-IND ; ! "onnuṁ" ! "anything" 
 അദ്ദേഹം:അദ്ദേഹ PRON-PERS-ADDEHA ; ! "addēhaṁ" ! "he" 
+ഇദ്ദേഹം:ഇദ്ദേഹ PRON-PERS-ADDEHA ; ! "iddēhaṁ" ! "this person" 
 
 
 
@@ -2833,6 +2835,15 @@ LEXICON NominalStems
 പാലനം:പാലന N1 ; ! "pālanaṁ" ! "protection, guard"
 പാഠഭേദം:പാഠഭേദ N1 ; ! "pāṭhabhēdaṁ" ! "version"
 പരിണയം:പരിണയ N1 ; ! "pariṇayaṁ" ! "marriage"
+ദേശീയം:ദേശീയ N1 ; ! "" ! "national"
+രാഷ്ട്രീയം:രാഷ്ട്രീയ N1 ; ! "" ! "politics"
+സ്വന്തം:സ്വന്ത N1 ; ! "" ! "ones own"
+ആധുനികം:ആധുനിക N1 ; ! "" ! "modern"
+അന്താരാഷ്ട്രം:അന്താരാഷ്ട്ര N1 ; ! "" ! "international"
+ഔദ്യോഗികം:ഔദ്യോഗിക N1 ; ! "" ! "officilal"
+വിശുദ്ധം:വിശുദ്ധ N1 ; ! "" ! "holy"
+ലക്ഷം:ലക്ഷ N1 ; ! "" ! "lakh"
+ഭാരതീയം:ഭാരതീയ N1 ; ! "" !"indian"
 പടലം:പടല N1 ; ! "paṭalaṁ" ! "stratum, sheet, nebula, layer, film, chapter"
 ന്യായീകരണം:ന്യായീകരണ N1 ; ! "n'yāyīkaraṇaṁ" ! "justification"
 നേത്രം:നേത്ര N1 ; ! "nētraṁ" ! "eye"
@@ -4105,6 +4116,10 @@ LEXICON Adverbs
 
 എവിടെ:എവിടെ ADV-ITG ; ! "eviṭe" ! "where" 
 എന്തുകൊണ്ട്:എന്തുകൊണ്ട് ADV-ITG ; ! "" FIXME ! "why"
+!എന്ത്:എന്ത് ADV-ITG;
+!എങ്ങിനെ:എങ്ങിനെ ;
+!ആര്:ആര് ;
+
 
 വളരെ:വളരെ PREADV ; ! "FIXME" ! "very"
 ഏറ്റവും:ഏറ്റവും PREADV ; ! "ēṟṟavuṁ" ! "most"
