@@ -1,17 +1,22 @@
 SOFT-DELIMITERS = "<,>" cm ;
-DELIMITERS = "<.>" "<:>" "<!>" "<?>" "<|>" "<$.>" "<$:>" "<$!>" "<$?>" "<$|>" ssingular ;
+DELIMITERS = "<.>" "<:>" "<!>" "<?>" "<|>" "<$.>" "<$:>" "<$!>" "<$?>" "<$|>" ;
+
 SUBREADINGS = LTR ; 
 
 LIST N = n ;
 LIST Pron = prn ; 
 LIST Num = num ; 
+LIST CC = cnjcoo ;
+LIST Spost = spost ; 
 
 
 LIST Subst = subst  ;
-
+LIST Attr = attr ;
 
 SECTION
 
-SELECT (x); # does nothing
-
 SELECT Pron IF (0C Pron OR Num + Subst) ; 
+
+SELECT SUB:1 CC IF (0/1 CC) (1*/1 CC BARRIER (*) - N - Spost) ; 
+
+SELECT SUB:1 CC IF (-1*/1 CC BARRIER (*) - N - Spost) (0/1 CC) ; 
