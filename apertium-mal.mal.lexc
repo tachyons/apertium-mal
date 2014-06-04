@@ -405,6 +405,8 @@ LEXICON NP-TOP-KERALA
 %<np%>%<top%>%<sg%>%<ins%>:ത്തില്‍ CLIT-N-NOM ; !""
 %<np%>%<top%>%<sg%>%<soc%>:ത്തോട് CLIT-N-NOM ; !""
 
+%<np%>%<top%>%<sg%>%<nom%>:# ; !"" !FIXME ! DEBUG
+
 LEXICON NP-TOP-INDIA
 
 %<np%>%<top%>%<sg%>%<nom%>: CLIT-N-NOM ; !""
@@ -522,6 +524,24 @@ LEXICON PRON-PERS-ADDEHA
 %<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<loc%>:ത്തില്‍ CLIT-N-LOC ; ! ""
 %<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<ins%>:ത്താല്‍ CLIT-N ; ! ""
 %<prn%>%<pers%>%<p3%>%<mf%>%<pl%>%<soc%>:ത്തോട് CLIT-N ; ! ""
+
+LEXICON PRON-REF-THAN
+
+%<prn%>%<ref%>%<p2%>%<mf%>%<sg%>%<nom%>:ാന്‍ CLIT-N-NOM ; ! ""
+%<prn%>%<ref%>%<p2%>%<mf%>%<sg%>%<acc%>:ന്നെ CLIT-N-ACC ; ! ""
+%<prn%>%<ref%>%<p2%>%<mf%>%<sg%>%<gen%>:ന്റെ CLIT-N-GEN ; ! ""
+%<prn%>%<ref%>%<p2%>%<mf%>%<sg%>%<dat%>:നിക്ക് CLIT-N ; ! ""
+%<prn%>%<ref%>%<p2%>%<mf%>%<sg%>%<loc%>:ന്നില്‍ CLIT-N-LOC ; ! ""
+%<prn%>%<ref%>%<p2%>%<mf%>%<sg%>%<ins%>:ന്നാല്‍ CLIT-N ; ! ""
+%<prn%>%<ref%>%<p2%>%<mf%>%<sg%>%<soc%>:ന്നോട് CLIT-N ; ! ""
+
+%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<nom%>:ാങ്കള്‍ CLIT-N-NOM ; ! ""
+%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<acc%>:ാങ്കളെ CLIT-N-ACC ; ! ""
+%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<gen%>:ാങ്കളുടെ CLIT-N-GEN ; ! ""
+%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<dat%>:ാങ്കള്‍ക് CLIT-N ; ! ""
+%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<loc%>:ാങ്കളില്‍ CLIT-N-LOC ; ! ""
+%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<ins%>:ാങ്കളാല്‍ CLIT-N ; ! ""
+%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<soc%>:ാങ്കളോട് CLIT-N ; ! ""
 
 LEXICON PRON-DEM-AT
 
@@ -1319,7 +1339,7 @@ PRON-PERS-NNAAN ; ! "ñān" ! "I"
 അദ്ദേഹം:അദ്ദേഹ PRON-PERS-ADDEHA ; ! "addēhaṁ" ! "he" 
 ഇദ്ദേഹം:ഇദ്ദേഹ PRON-PERS-ADDEHA ; ! "iddēhaṁ" ! "this person" 
 
-
+താന്‍:ത PRON-REF-THAN; ! "" ! 
 
 LEXICON Determiners
 
@@ -2338,6 +2358,10 @@ LEXICON NominalStems
 പള്ളം:പള്ള N1 ; ! "paḷḷaṁ" ! "slope, pit"
 പച്ചനിറം:പച്ചനിറ N1 ; ! "paccaniṟaṁ" ! "green"
 നയതന്ത്രം:നയതന്ത്ര N1 ; ! "nayatantraṁ" ! "diplomacy"
+പുരാതനം:പുരാതന N1 ; ! "" ! "ancient"
+സാമ്പത്തികം:സാമ്പത്തിക N1; ! "" ! "economic"
+പ്രശസ്തം:പ്രശസ്ത N1; !"" ! "famous"
+സാംസ്കാരികം:സാംസ്കാരിക N1 ; !"" ! "cultural"
 നടത്തം:നടത്ത N1 ; ! "naṭattaṁ" ! "walking, walk, pace"
 തിമിരം:തിമിര N1 ; ! "timiraṁ" ! "cataract, blindness"
 കലഹം:കലഹ N1 ; ! "kalahaṁ" ! "variance, struggle, storm, squabble, scuffle, row, riot, rebellion, quarrel, implication, fray, fight, faction, discord, contention, conflict, breeze, battle"
@@ -2664,6 +2688,7 @@ LEXICON NominalStems
 ഛായാചിത്രം:ഛായാചിത്ര N1 ; ! "chāyācitraṁ" ! "portrait, picture"
 ചിത്രണം:ചിത്രണ N1 ; ! "citraṇaṁ" ! "portrayal"
 ഗുദം:ഗുദ N1 ; ! "gudaṁ" ! "rectum, anus"
+കൊട്ടാരം:കൊട്ടാര N1 ; ! "" ! "palace"
 ക്ഷീരപഥം:ക്ഷീരപഥ N1 ; ! "kṣīrapathaṁ" ! "galaxy"
 ക്ഷമാപണം:ക്ഷമാപണ N1 ; ! "kṣamāpaṇaṁ" ! "excuse, apology"
 ക്രമഭംഗം:ക്രമഭംഗ N1 ; ! "kramabhaṅgaṁ" ! "disorder"
@@ -2732,6 +2757,7 @@ LEXICON NominalStems
 വ്യയം:വ്യയ N1 ; ! "vyayaṁ" ! "expenditure, consumption"
 വൈരൂപ്യം:വൈരൂപ്യ N1 ; ! "vairūpyaṁ" ! "ugliness, malformation, deformity"
 വൃന്ദം:വൃന്ദ N1 ; ! "vr̥ndaṁ" ! "troop, cluster"
+രോഗം:രോഗ N1 ; ! "" ! "disease" 
 വിഹാരം:വിഹാര N1 ; ! "vihāraṁ" ! "recreation, monastery"
 ലോഭം:ലോഭ N1 ; ! "lēābhaṁ" ! "greed"
 രംഗപ്രവേശനം:രംഗപ്രവേശന N1 ; ! "raṅgapravēśanaṁ" ! "entry"
@@ -2841,9 +2867,11 @@ LEXICON NominalStems
 ആധുനികം:ആധുനിക N1 ; ! "" ! "modern"
 അന്താരാഷ്ട്രം:അന്താരാഷ്ട്ര N1 ; ! "" ! "international"
 ഔദ്യോഗികം:ഔദ്യോഗിക N1 ; ! "" ! "officilal"
+സാങ്കേതികം:സാങ്കേതിക N1 ; ! "" ! "technology"
 വിശുദ്ധം:വിശുദ്ധ N1 ; ! "" ! "holy"
 ലക്ഷം:ലക്ഷ N1 ; ! "" ! "lakh"
 ഭാരതീയം:ഭാരതീയ N1 ; ! "" !"indian"
+ജനകീയം:ജനകീയ N1 ; ! "" ! "popular"
 പടലം:പടല N1 ; ! "paṭalaṁ" ! "stratum, sheet, nebula, layer, film, chapter"
 ന്യായീകരണം:ന്യായീകരണ N1 ; ! "n'yāyīkaraṇaṁ" ! "justification"
 നേത്രം:നേത്ര N1 ; ! "nētraṁ" ! "eye"
@@ -2870,6 +2898,8 @@ LEXICON NominalStems
 വിദേശം:വിദേശ  N1 ; ! "" ! "foreign"
 ശാസ്ത്രീയം:ശാസ്ത്രീയ N1 ; ! "" ! "scientific"
 ആഭ്യന്തരം:ആഭ്യന്തര N1 ; ! "" ! "internal"
+പുസ്തകം:പുസ്തക N1 ; ! "" ! "book"
+സ്വകാര്യം:സ്വകാര്യ N1 ; ! "" ! "secret"
 അവ്യയം:അവ്യയ N1 ; ! "avyayaṁ" ! "conjunction, conjugation"
 അനിഷ്ടം:അനിഷ്ട N1 ; ! "aniṣṭaṁ" ! "antipathy"
 അനിശ്ചിതത്വം:അനിശ്ചിതത്വ N1 ; ! "aniścitatvaṁ" ! "uncertainty, skepticism, flexibility"
@@ -2882,6 +2912,9 @@ LEXICON NominalStems
 വകുപ്പ്:വകുപ്പ N3 ; ! "vakupp" ! "article"
 ദ്വീപ്:ദ്വീപ N3 ; ! "dvīp" ! "island"
 പിതാവ്:പിതാവ N3; ! "" ! "father"
+മാതാവ്:മാതാവ N3; ! "" ! "mother"
+പോലീസ്:പോലീസ N3; ! "" ! "police"
+വിത്ത്:വിത്ത N3 ; ! ""  ! ""seed"
 തായ്:തായ N3 ; ! "tāy" ! "mamma"
 നാട്:നാട N3 ; ! "nāṭ" ! "country"
 നേതാവ്:നേതാവ N3 ; ! "nētāv" ! "leader"
@@ -2923,9 +2956,12 @@ LEXICON NominalStems
 കളിമണ്ണ്:കളിമണ്ണ N3 ; ! "kaḷimaṇṇ" ! "china"
 കുരങ്ങ്:കുരങ്ങ N3 ; ! "kuraṅṅ" ! "monkey"
 മാപ്പ്:മാപ്പ N3 ; ! "māpp" ! "absolution"
+കോളേജ്:കോളേജ N3 ; ! "" ! "college"
 പട്ട്:പട്ട N3 ; ! "paṭṭ" ! "silk"
 സൂക്ഷിച്ച്:സൂക്ഷിച്ച N3 ; ! "sūkṣicc" ! "preservation"
 ചീട്ട്:ചീട്ട N3 ; ! "cīṭṭ" ! "label"
+ബോളിവുഡ്:ബോളിവുഡ N3; ! "bollywood"
+ഹോളിവുഡ്:ഹോളിവുഡ N3; ! "hollywood"
 തടവ്:തടവ N3 ; ! "taṭav" ! "custody"
 തൈര്:തൈര N3 ; ! "tair" ! "curd"
 വിടവ്:വിടവ N3 ; ! "viṭav" ! "fracture"
@@ -2959,6 +2995,7 @@ LEXICON NominalStems
 ബംഗ്ലാവ്:ബംഗ്ലാവ N3 ; ! "baṅglāv" ! "bungalow"
 എഴുന്നള്ളത്ത്:എഴുന്നള്ളത്ത N3 ; ! "eḻunnaḷḷatt" ! "procession"
 സത്ത്:സത്ത N3 ; ! "satt" ! "juice"
+തമിഴ്:തമിഴ N3; ! "" ! "thamizh"
 ചൊല്ല്:ചൊല്ല N3 ; ! "ceāll" ! "tale"
 ആദരവ്:ആദരവ N3 ; ! "ādarav" ! "courtesy"
 പൂള്:പൂള N3 ; ! "pūḷ" ! "slice"
@@ -3403,6 +3440,7 @@ LEXICON NominalStems
 വേശ്യാവൃത്തി:വേശ്യാവൃത്തി N2 ; ! "vēśyāvr̥tti" ! "prostitution"
 വിരക്തി:വിരക്തി N2 ; ! "virakti" ! "dissatisfaction, asceticism"
 മുഖംമൂടി:മുഖംമൂടി N2 ; ! "mukhammūṭi" ! "visor"
+കോടതി:കോടതി N2; ! "" ! "court"
 പ്രൗഢി:പ്രൗഢി N2 ; ! "praḍhi" ! "solemnity"
 പ്രാപ്തി:പ്രാപ്തി N2 ; ! "prāpti" ! "sufficiency, faculty"
 പ്രതിധ്വനി:പ്രതിധ്വനി N2 ; ! "pratidhvani" ! "resonance, repercussion, echo"
@@ -4086,6 +4124,7 @@ LEXICON NominalStems
 LEXICON ProperNouns 
 
 ജെയിംസ്:ജെയിംസ NP1 ; ! "jeyins" ! "James"
+മുഹമ്മദ്:മുഹമ്മദ NP1 ; ! "" ! "muhammed"
 മേരി:മേരി NP2 ; ! "mēri" ! "Mary"
 രാജു:രാജ NP3 ; ! "rāju" ! "Raju"
 രാധ:രാധ NP2 ; ! "rādha" ! "Radha"
@@ -4094,6 +4133,9 @@ LEXICON ProperNouns
 തിരുവനന്തപുരം:തിരുവനന്തപുര NP-TOP-KERALA ; ! "trivandrum"
 കൊല്ലം:കൊല്ല NP-TOP-KERALA ; ! "kollam"
 ഇന്ത്യ:ഇന്ത്യ  NP-TOP-INDIA ; ! "keralam" ! "Kerala"
+ചൈന:ചൈന NP-TOP-INDIA ; ! "china"
+ആലപ്പുഴ:ആലപ്പുഴ NP-TOP-INDIA ; ! "alappuzha"
+അമേരിക്ക:അമേരിക്ക NP-TOP-INDIA ; ! "america"
 
 
 LEXICON Adjectives 
@@ -4286,6 +4328,8 @@ VBCOP-AAK ; ! "āk" ! "be"
 സൃഷ്ടിക്കുക:സൃഷ്ടി V-TV-ATIKKUKA; ! "sr̥ṣṭikkuka"! "Compose"
 സ്ഥാപിക്കുക:സ്ഥാപി V-TV-ATIKKUKA; ! "sthāpikkuka"! "Construct"
 സ്വീകരിക്കുക:സ്വീകരി V-TV-ATIKKUKA; ! "svīkarikkuka"! "Bear"
+ജനിക്കുക:ജനി V-TV-ATIKKUKA; ! "" ! "born"
+സാധിക്കുക:സാധി V-TV-ATIKKUKA; ! "" ! "able"
 
 ! പോകുക -done
 വൈകുക:വൈക V-IV-VEIKUKA ; ! "vaikuka" ! "delay"
