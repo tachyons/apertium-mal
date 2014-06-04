@@ -157,6 +157,7 @@ LEXICON CLIT-COP
 %+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്നു NEG-WHEN-EVEN ;  ! "FIXME" ! Use/Circ
 %+ആക്%<vbcop%>%<pres%>%+യില്ല%<adv%>:%»%{y%}ല്ല CLIT-QUOT ; ! "FIXME" ! Use/Circ
 %+ആക്%<vbcop%>%<inf_k%>:%»%{y%}ാകുക CLIT-CC ; ! "FIXME" ! Use/Circ
+%+ആക്%<vbcop%>%<pprs%>:%»%{y%}ായി NEG-WHEN-EVEN ;  ! "FIXME" ! Use/Circ ! debug
 
 CLIT-COP-UNTU ;
 
@@ -215,8 +216,8 @@ CLIT-CC ;
 
 LEXICON N-CASES-PL
 
-%<loc%>:%>ള്‍ CLIT-N-LOC ; ! "il‍"
-%<dat%>:%>ള്‍ക് CLIT-N ; ! "k"
+%<loc%>:%>ളില്‍ CLIT-N-LOC ; ! "il‍"
+%<dat%>:%>ള്‍ക്ക് CLIT-N ; ! "k"
 %<soc%>:%>ളോട് CLIT-N ; ! "ēāṭ "
 %<ins%>:%>ളാല്‍ CLIT-N ; ! "āl‍"
 
@@ -2950,6 +2951,7 @@ LEXICON NominalStems
 സമ്പത്ത്:സമ്പത്ത N3 ; ! "sampatt" ! "resource, prosperity, fortune"
 ഓട്:ഓട N5 ; ! "ōṭ" ! "bismuth"
 വെബ്:വെബ N3 ; ! "" ! "web"
+തെരഞ്ഞെടുപ്പ്:തെരഞ്ഞെടുപ്പ N3 ; ! "" ! "election"
 ഉറപ്പ്:ഉറപ്പ N3 ; ! "uṟapp" ! "security, rock, assurance"
 സ്ഥാനപ്പേര്:സ്ഥാനപ്പേര N3 ; ! "sthānappēr" ! "designation, denomination"
 കെട്ട്:കെട്ട N3 ; ! "keṭṭ" ! "bond"
@@ -3536,6 +3538,8 @@ LEXICON NominalStems
 കാറ്റാടി:കാറ്റാടി N2 ; ! "kāṟṟāṭi" ! "weathercock"
 കരണ്ടി:കരണ്ടി N2 ; ! "karaṇṭi" ! "spoon, rake"
 കച്ചി:കച്ചി N2 ; ! "kacci" ! "straw, hay"
+
+സ്ത്രീ:സ്ത്രീ N2; ! "" ! "woman"
 
 വായു:വായു N7 ; ! "vāyu" ! "gas, air"
 വസ്തു:വസ്തു N7 ; ! "vastu" ! "estate"
@@ -4336,6 +4340,7 @@ VBCOP-AAK ; ! "āk" ! "be"
 സ്വീകരിക്കുക:സ്വീകരി V-TV-ATIKKUKA; ! "svīkarikkuka"! "Bear"
 ജനിക്കുക:ജനി V-TV-ATIKKUKA; ! "" ! "born"
 സാധിക്കുക:സാധി V-TV-ATIKKUKA; ! "" ! "able"
+പ്രചരിപ്പിക്കുക:പ്രചരിപ്പി V-TV-ATIKKUKA; ! "" ! "spread"
 
 ! പോകുക -done
 വൈകുക:വൈക V-IV-VEIKUKA ; ! "vaikuka" ! "delay"
