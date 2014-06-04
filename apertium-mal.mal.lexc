@@ -187,13 +187,19 @@ LEXICON CLIT-N-NOM
 
 CLIT-CC ;
 
-LEXICON CLIT-N-LOC
+LEXICON CLIT-N-LOC-COMMON
 
 %+ൂടെ%<post%>:%»ൂടെ  CLIT-CC ; ! "through" ! "ūṭe"
 
 CLIT-POST-EKK ;
 
 CLIT-CC ; 
+
+LEXICON CLIT-N-LOC
+
+%<attr%>:%>എ # ; 
+
+CLIT-N-LOC-COMMON ;
 
 LEXICON CLIT-N-ACC 
 
@@ -1257,7 +1263,7 @@ LEXICON ADV2
 
 LEXICON ADV3 
 
-%<adv%>: CLIT-N-LOC ; 
+%<adv%>: CLIT-N-LOC-COMMON ; 
 
 LEXICON ADV4
 
