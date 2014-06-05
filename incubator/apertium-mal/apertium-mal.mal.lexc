@@ -126,14 +126,15 @@ LEXICON CLIT-ITG
 LEXICON CLIT-QUOT 
 
 %+എന്ന്%<quot%>:%»െന്ന് CLIT-ITG ; ! Use/Circ
-%+എന്ന്%<quot%>:%»െന്ന് CLIT-COP2 ; ! Use/Circ
+%+എന്ന്%<quot%>:%»%{y%}െന്ന് CLIT-COP2 ; ! Use/Circ
 CLIT-COP2; ! Use/Circ
 
 # ;
 
 LEXICON CLIT-COP2
 %+ഉണ്ട്%<vbcop%>%<pres%>:%»%{y%}ുള്ള CLIT-ITG ; ! "FIXME" 
-%+ഉണ്ട്%<vbcop%>%<pres%>%+യ്ില്ല%<adv%>:%»%{y%}ില്ല CLIT-ITG ; ! "FIXME" 
+%+ഉണ്ട്%<vbcop%>%<pres%>%+യില്ല%<adv%>:%»%{y%}ില്ല CLIT-ITG ; ! "FIXME" 
+%+ഉണ്ട്%<vbcop%>%<pres%>%+യില്ല%<adv%>%<past%>:%»%{y%}ില്ലായിരുന്നു CLIT-QUOT ; ! "FIXME"  ! debug
 
 CLIT-ITG ;
 
@@ -147,7 +148,7 @@ CLIT-QUOT ;
 LEXICON CLIT-COP-UNTU 
 
 %+ഉണ്ട്%<vbcop%>%<pres%>:%»%{y}ുണ്ട് CLIT-QUOT ; ! "FIXME" 
-%+ഉണ്ട്%<vbcop%>%<pres%>%+യ്ില്ല%<adv%>:%»%{y%}ില്ല CLIT-QUOT ; ! "FIXME" 
+%+ഉണ്ട്%<vbcop%>%<pres%>%+യില്ല%<adv%>:%»%{y%}ില്ല CLIT-QUOT ; ! "FIXME" 
 
 CLIT-QUOT ;
 
@@ -409,7 +410,7 @@ LEXICON NP-TOP-KERALA
 %<np%>%<top%>%<sg%>%<gen%>:ത്തിന്റെ CLIT-N-NOM ; !""
 %<np%>%<top%>%<sg%>%<dat%>:ത്തിന് CLIT-N-NOM ; !""
 %<np%>%<top%>%<sg%>%<ins%>:ത്താല്‍  CLIT-N-NOM ; !""
-%<np%>%<top%>%<sg%>%<ins%>:ത്തില്‍ CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<loc%>:ത്തില്‍ CLIT-N-LOC ; !""
 %<np%>%<top%>%<sg%>%<soc%>:ത്തോട് CLIT-N-NOM ; !""
 
 %<np%>%<top%>%<sg%>%<nom%>:# ; !"" !FIXME ! DEBUG
@@ -580,7 +581,7 @@ CLIT-CC ;
 
 LEXICON NEG-WHEN
 
-%+യ്ില്ല%<adv%>:%>ില്ല   # ; ! "illa" 	
+%+യില്ല%<adv%>:%>ില്ല   # ; ! "illa" 	
 
 !%+ഉണ്ട്%<vbcop%>%<pres%>%<neg%>:%>ില്ല # ; ! "illa" 
 %+അപ്പോള്‍%<cnjadv%>:%»%{p%}പ്പോള്‍ CLIT-CC ;
@@ -642,10 +643,10 @@ LEXICON V-COMMON-ARIYUKA
 %<pres%>:%>യുന്ന NEG-WHEN ; ! "iyunnu"
 %<past%>:%>ഞ്ഞു NEG-WHEN-EVEN ; ! "ññu"
 %<fut%>:%>യും CLIT-CC ;
-%<fut%>%+യ്ില്ല%<adv%>:%>യ്%>ില്ല   # ; ! "illa" 	
+%<fut%>%+യില്ല%<adv%>:%>യ്%>ില്ല   # ; ! "illa" 	
 
 %<imp%>:%>യ് # ; !""
-%<imp%>%<frml%>:%>യണം # ; !""
+%<imp%>%<frml%>:%>യണം CLIT-QUOT; !""
 %<imp%>%<infml%>:%>യൂ # ; !""
 
 LEXICON V-COMMON-ENNI
@@ -1230,8 +1231,8 @@ LEXICON V-TV-KANUKA
 LEXICON VBCOP-AAK
 
 ആക്%<vbcop%>%<pres%>:ആണ് CLIT-ITG ; ! "FIXME"
-ആക്%<vbcop%>%<pres%>%+യ്ില്ല%<adv%>:അല്ല CLIT-ITG ; ! "FIXME" 
-ആക്%<vbcop%>%<pres%>%+യ്ില്ല%<adv%>:ഇല്ല CLIT-ITG ; ! "FIXME" 
+ആക്%<vbcop%>%<pres%>%+യില്ല%<adv%>:അല്ല CLIT-ITG ; ! "FIXME" 
+ആക്%<vbcop%>%<pres%>%+യില്ല%<adv%>:ഇല്ല CLIT-ITG ; ! "FIXME" 
 ആക്%<vbcop%>%<fut%>:ആയിരിക്കുമോ CLIT-ITG ; ! "FIXME"
 ആക്%<vbcop%>%<past%>:ആയിരുന്നു NEG-WHEN-EVEN ; ! "FIXME"
 !ആക്%<vbcop%>%<past%>:   NEG-WHEN-EVEN ; ! "FIXME"
@@ -4130,6 +4131,37 @@ LEXICON NominalStems
 ഖണ്ഡിക:ഖണ്ഡിക N2 ; ! "khaṇḍika" ! "item"
 കപ്പേള:കപ്പേള N2 ; ! "kappēḷa" ! "chapel"
 ഏകാഗ്രത:ഏകാഗ്രത N2 ; ! "ēkāgrata" ! "concentration, attention, absorption"
+
+! ending with n
+മകന്‍:മകന N3;
+മാന്‍:മാന N3;
+യൂണിയന്‍:യൂണിയന N3;
+ടെലിവിഷന്‍:ടെലിവിഷന N3;
+സഹോദരന്‍:സഹോദരന N3;
+പുത്രന്‍:പുത്രന N3;
+കമ്മീഷന്‍:കമ്മീഷന N3;
+ഖുര്‍ആന്‍:ഖുര്‍ആന N3;
+സൂര്യന്‍:സൂര്യന N3 ;
+നടന്‍:നടന N3 ; ! "" ! ""
+ദിവാന്‍:ദിവാന N3 ; ! "" ! ""
+ഭഗവാന്‍:ഭഗവാന N3 ; ! "" ! ""
+മെത്രാന്‍:മെതാന N3 ; ! "" ! ""
+ചന്ദ്രന്‍:ചന്ദ്രന N3 ; ! "" ! ""
+മീന്‍:മീന N3 ; ! "" ! ""
+തേന്‍:തേന N3 ; ! "" ! ""
+ബാറ്റ്സ്മാന്‍:ബാറ്റ്സ്മാന്‍ N3 ; ! "" ! ""
+ഡിസൈന്‍:ഡിസൈന N3 ; ! "" ! ""
+തലവന്‍:തലവന N3 ; ! "" ! ""
+എഞ്ചിന്‍:എഞ്ചിന N3 ; ! "" ! ""
+ആപ്ലിക്കേഷന്‍:ആപ്ലിക്കേഷന N3; ! "" ! ""
+പ്രോട്ടീന്‍:പ്രോട്ടീന്‍ N3; ! "" ! ""
+ഫൈന്‍:ഫൈന്‍ N3; ! "" ! ""
+ട്രെയിന്‍:ട്രെയിന്‍ N3; ! "" ! ""
+ഓര്‍ഗനൈസേഷന്‍:ഓര്‍ഗനൈസേഷന N3; ! "" ! ""
+അദ്ധ്യാപകന്‍:അദ്ധ്യാപകന N3; ! "" ! ""
+പുരോഹിതന്‍:പുരോഹിതന N3; ! "" ! ""
+സ്ഥാപകന്‍:സ്ഥാപകന N3; ! "" ! ""
+
 
 LEXICON ProperNouns 
 
