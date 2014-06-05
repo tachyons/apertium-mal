@@ -1250,7 +1250,10 @@ LEXICON DET-DEM
 LEXICON A1 
 
 %<adj%>: # ;
-%<adj%>%<subst%>:%>ത  N3-COMMON; 
+%<adj%>%<subst%>%<m%>%<sg%>:%>വന്‍  N3-COMMON;
+%<adj%>%<subst%>%<f%>%<sg%>:%>വള്‍  N3-COMMON;
+%<adj%>%<subst%>%<f%>%<pl%>:%>വര്‍ N3-COMMON;
+%<adj%>%<subst%>%<nt%>:%>ത  N3-COMMON;
 
 LEXICON A2
 
