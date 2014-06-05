@@ -135,7 +135,7 @@ LEXICON CLIT-COP2
 %+ഉണ്ട്%<vbcop%>%<pres%>:%»%{y%}ുള്ള CLIT-ITG ; ! "FIXME" 
 %+ഉണ്ട്%<vbcop%>%<pres%>%<nom%>:%»%{y%}ുള്ളത് CLIT-QUOT ; ! "FIXME"  !debug Note : with -atu suffix
 %+ഉണ്ട്%<vbcop%>%<pres%>%+യില്ല%<adv%>:%»%{y%}ില്ല CLIT-ITG ; ! "FIXME" 
-%+ഉണ്ട്%<vbcop%>%<pres%>%+യില്ല%<adv%>%<past%>:%»%{y%}ില്ലായിരുന്നു CLIT-QUOT ; ! "FIXME"  ! debug
+%+ഉണ്ട്%<vbcop%>%<pres%>%+യില്ല%<adv%>%<past%>+ആക്%<vbcop%>%<past%>:%»%{y%}ില്ല%>ായിരുന്നു CLIT-QUOT ; ! "FIXME"  ! debug
 
 CLIT-ITG ;
 
@@ -933,6 +933,7 @@ LEXICON V-COMMON-ATIKKUKA
 %<imp%>:%>ക്ക് # ; !""
 %<imp%>%<frml%>:%>ക്കണം # ; !""
 %<imp%>%<infml%>:%>ക്കൂ # ; !""
+!%<nom%>%:%>ല്‍  CLIT-COP  ; !""
 
 LEXICON V-COMMON-VEIKUKA
 %<inf_k%>:%>ുക CLIT-CC ; ! "" ! FIXME
