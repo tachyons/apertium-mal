@@ -1314,9 +1314,9 @@ LEXICON Conjunctions
 എങ്കിലും:എങ്കിലും CC ; ! "" ! "but"
 LEXICON Postpositions 
 
-!നിന്ന്:നിന്ന് SPOST ; ! "nīnn" ! "from"
-!കൊണ്ട്:കൊണ്ട് SPOST ; ! "keāṇṭ" ! "with"
-!കൊണ്ട്:കൊണ്ടു SPOST ; ! "FIXME" ! "with" !Dir/LR
+നിന്ന്:നിന്ന് SPOST ; ! "nīnn" ! "from"
+കൊണ്ട്:കൊണ്ട് SPOST ; ! "keāṇṭ" ! "with"
+കൊണ്ട്:കൊണ്ടു SPOST ; ! "FIXME" ! "with" !Dir/LR
 !താഴെ:താഴെ SPOST ; ! "tāḻe" ! "under" 
 !കൂടെ:കൂടെ SPOST ; ! "FIXME" ! "with"
 
@@ -1360,8 +1360,11 @@ LEXICON Postpositions
 !==with dative =="
 വേണ്ടി:വേണ്ടി SPOST; ! "for"
 പകരം:പകരം SPOST; ! "in place of"പിറകില്:പിറകില് SPOST-LOC ; ! "FIXME" ! "behind"
-
-
+!==only after place ===
+നിന്ന്:നിന്ന് SPOST ; ! "nīnn" ! "from"
+മുതല്‍:മുതല്‍  SPOST ; ! "" ! "from"
+തൊട്ട്:തൊട്ട് SPOST ; ! "" ! "from"
+വരെ:വരെ SPOST ; ! "" ! "from"
 LEXICON Pronouns
 
 PRON-PERS-NNAAN ; ! "ñān" ! "I"
