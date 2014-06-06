@@ -577,6 +577,7 @@ LEXICON NUM
 
 %<num%>:് # ; 
 %<num%>%<subst%>:്  N2-COMMON ; 
+%<num%>%<ord%>:%>ാം # ;
 
 CLIT-CC ; 
 
@@ -4237,8 +4238,9 @@ LEXICON Adjectives
 മൂത്ത:മൂത്ത A1 ; ! "mūtta" ! "old"
 പ്രധാന:പ്രധാന A1 ; ! "" ! "important"
 ഊഷ്മളം:ഊഷ്മള A2 ; ! "FIXME" ! "warm"
+ഇന്ത്യന്‍:ഇന്ത്യന്‍ AX ; ! "indyan" ! "indian" ! Use/Sub ! Dir/LR
+അമേരിക്കന്‍:അമേരിക്കന്‍ ; ! "american" ! "american" ! Use/Sub ! Dir/LR
 
- 
 LEXICON Adverbs
 
 എവിടെ:എവിടെ ADV-ITG ; ! "eviṭe" ! "where" 
