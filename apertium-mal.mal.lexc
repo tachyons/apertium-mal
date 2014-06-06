@@ -268,7 +268,7 @@ LEXICON N2
 
 LEXICON N3-COMMON
 
-%<sg%>%<nom%>:് CLIT-N-NOM ; ! "ṁ"
+%<sg%>%<nom%>:%>് CLIT-N-NOM ; ! "ṁ"
 %<sg%>%<loc%>:%>ില്‍ CLIT-N-LOC ; ! "il‍"
 %<sg%>%<acc%>:%>ിനെ CLIT-N-ACC ; ! "ine"
 %<sg%>%<gen%>:%>ിന്റെ CLIT-N-GEN ; ! "̔inṟe"
@@ -1326,6 +1326,7 @@ LEXICON Postpositions
 അകത്ത്:അകത്ത് SPOST-LOC ; ! "FIXME" ! "inside"
 പുറത്ത്:പുറത്ത് SPOST-LOC ; ! "FIXME" ! "outside"
 പിറകില്:പിറകില് SPOST-LOC ; ! "FIXME" ! "behind"
+
 
 LEXICON Pronouns
 
