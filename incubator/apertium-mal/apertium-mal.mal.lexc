@@ -86,6 +86,7 @@ Multichar_Symbols
 %<rpar%>        !
 
 %<top%>          !
+%<ord%>          ! Ordinal
 
 %{y%}           ! Epenthetic consonant        !
                 !   -y-, -v- or -r-           !
