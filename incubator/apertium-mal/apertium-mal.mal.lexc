@@ -1523,6 +1523,7 @@ LEXICON NominalStems
 നവംബര്‍:നവംബറ N3;! "" ! "novembr"
 മെയ്:മെയ് NX ; ! " " ! "may"
 ജുലൈ:ജുലൈ N2 ; ! "" ! "julay"
+പാര്‍ട്ടി:പാര്‍ട്ടി N2 ; ! "" ! "party"
 ചരിത്രം:ചരിത്ര N1 ; ! "FIXME" ! "history"
 മലയാളം:മലയാള N1 ; ! "FIXME" ! "Malayalam"
 ദിവസം:ദിവസം  N1 ; ! "FIXME" ! "day"
