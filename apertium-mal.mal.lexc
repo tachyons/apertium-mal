@@ -666,6 +666,7 @@ LEXICON V-COMMON-KANU
 %<past%>:%>ണ്ടു NEG-WHEN ; ! "ṇṭu"
 %<gpr_pres%>:%>ാണുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ത GPR-PAST ; ! ""
+%<perm%>:%>ാണാം #; ! "ḷ‍kkām" ! 
 !%<fut%>:%>
 
 !%<simul%>:%>
@@ -676,7 +677,7 @@ LEXICON V-COMMON-ARIYUKA
 %<inf_k%>:%>യുക CLIT-CC ; ! "iyuka" 
 %<inf_n%>:%>യാന്‍ # ; ! "iyān‍"
 
-%<pres%>:%>യുന്ന NEG-WHEN ; ! "iyunnu"
+%<pres%>:%>യുന്നു NEG-WHEN ; ! "iyunnu"
 %<past%>:%>ഞ്ഞു NEG-WHEN-EVEN ; ! "ññu"
 %<fut%>:%>യും CLIT-CC ;
 %<fut%>%+യില്ല%<adv%>:%>യ്%>ില്ല   # ; ! "illa" 	
@@ -684,6 +685,9 @@ LEXICON V-COMMON-ARIYUKA
 %<imp%>:%>യ് # ; !""
 %<imp%>%<frml%>:%>യണം CLIT-QUOT; !""
 %<imp%>%<infml%>:%>യൂ # ; !""
+
+%<gpr_pres%>:%>യുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ഞ്ഞ GPR-PAST ; ! ""
 
 LEXICON V-COMMON-ENNI
 
@@ -708,8 +712,10 @@ LEXICON V-COMMON-NOKKUKA
 %<inf_k%>:%>ുക  CLIT-CC ; ! "̔uka" ! FIXME
 %<inf_n%>:%>ക്കാന്‍ #; ! "kkān‍" ! 
  
-%<pres%>:%>ന്നു # ; ! "̔̔unnu"
+%<pres%>:%>ുന്നു # ; ! "̔̔unnu"
 %<past%>:%>ി # ; ! "i"
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
 
 LEXICON V-COMMON-KELKKUKA
 %<inf_k%>:%>ള്‍ക്കുക  CLIT-CC ; ! "̔ḷ‍kuuka" ! FIXME
@@ -731,6 +737,10 @@ LEXICON V-COMMON-NADAKKUKA
  
 %<pres%>:%>ക്കുന്നു # ; ! "̔̔unnu"
 %<past%>:%>ന്നു NEG-WHEN; ! "̔i "
+%<iter%>%<pres%>:%>ന്നുണ്ടിരിക്കുന്നു NEG-WHEN ; ! "̔i "
+%<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ന്ന GPR-PAST ; ! "
+
 
 LEXICON V-COMMON-POKUKA
 %<inf_k%>:%>കുക CLIT-CC ; ! "uka" ! FIXME
@@ -1361,7 +1371,7 @@ LEXICON Postpositions
 തമ്മില്:തമ്മില് SPOST ; ! "between"
 
 !മുന്നില്‍:മുന്നില്‍ SPOST-LOC ; ! "munnil" ! "in front"
-!മുമ്പില്‍:മുമ്പില്‍ SPOST-LOC ; ! "mumpil" ! "in front"
+മുമ്പില്‍:മുമ്പില്‍ SPOST-LOC ; ! "mumpil" ! "in front"
 !അടുത്ത്:അടുത്ത് SPOST-LOC ; ! "aṭutt" ! "near" 
 !അകത്ത്:അകത്ത് SPOST-LOC ; ! "FIXME" ! "inside"
 !പുറത്ത്:പുറത്ത് SPOST-LOC ; ! "FIXME" ! "outside"
@@ -1382,16 +1392,17 @@ LEXICON Postpositions
 കൂടെ:കൂടെ SPOST; ! "with"
 നടുക്ക്:നടുക്ക് SPOST; ! "between,amidst"
 ചൂറ്റും:ചൂറ്റും SPOST; ! "around"
-പുറകില്‍:പുറകില്‍ SPOST-LOC; ! "behind"
+പുറകില്‍:പുറകില്‍ SPOST-LOC; ! "behind" ! RL
+പിറകില്‍:പിറകില്‍ SPOST-LOC; ! "behind"
 അടിയില്‍:അടിയില്‍  SPOST-LOC; ! "under"
 താഴെ:താഴെ SPOST; ! "below"
 അരികില്‍:അരികില്‍  SPOST-LOC; ! "beside"
-പുറത്ത്:പുറത്ത് SPOST; ! "on"
+പുറത്ത്:പുറത്ത് SPOST-LOC; ! "on"
 
 !=with possessive/dative=="
 മുകളില്‍:മുകളില്‍ SPOST-LOC; ! "above"
 കുറുകെ:കുറുകെ SPOST; ! "across"
-അടുത്ത്:അടുത്ത് SPOST; ! "adjacent"
+അടുത്ത്:അടുത്ത് SPOST-LOC; ! "adjacent"
 എതിരെ:എതിരെ SPOST; ! "against"
 ഇടയില്‍:ഇടയില്‍  SPOST-LOC; ! "between"
 ശേഷം:ശേഷം SPOST; ! "after"
@@ -1399,7 +1410,7 @@ LEXICON Postpositions
 മുമ്പേ:മുമ്പേ SPOST; ! "prior to"
 മുന്നില്‍:മുന്നില്‍ SPOST; ! "infront of"
 ഉള്ളില്‍:ഉള്ളില്‍ SPOST-LOC; ! "in"
-അകത്ത്:അകത്ത് SPOST-LOC; ! "in"
+അകത്ത്:അകത്ത് SPOST-LOC ; ! "FIXME" ! "inside"
 
 !==with dative =="
 വേണ്ടി:വേണ്ടി SPOST; ! "for"
@@ -1447,6 +1458,7 @@ LEXICON Numerals
 
 ഒരു:ഒ NUM-ONNU ; ! "FIXME" ! "one" 
 രണ്ട്:രണ്ട NUM ; ! "FIXME" ! "two" 
+രണ്ട്:രണ്ടു NUM ; ! "FIXME" ! "two"  ! Dir/LR
 മൂന്ന്:മൂന്ന NUM ; ! "FIXME" ! "three"
 നാല്:നാല NUM ; ! "FIXME" ! "four"
 അഞ്ച്:അഞ്ച NUM ; ! "FIXME" ! "five" 
@@ -1529,6 +1541,7 @@ LEXICON NominalStems
 ജൂണ്‍:ജൂണ N3; !"" ! ""
 സ്കൂള്‍:സ്കൂള N3; ! "" ! "school"
 സെപ്റ്റംബര്‍:സെപ്റ്റംബറ N3; ! "" ! "september"
+ഒക്ടോബര്‍:ഒക്ടോബറ N3 ; ! "" ! "october"
 നവംബര്‍:നവംബറ N3;! "" ! "novembr"
 മെയ്:മെയ് NX ; ! " " ! "may"
 ജുലൈ:ജുലൈ N2 ; ! "" ! "julay"
@@ -4364,7 +4377,10 @@ VBCOP-AAK ; ! "āk" ! "be"
 കാണുക:ക  V-TV-KANUKA ; ! "kāṇuka" ! "see"
 
 അറിയുക:അറി V-TV-ARIYUKA ; ! "aṟiyuka" ! "know"
+കുറയുക:കുറ V-TV-ARIYUKA ; ! "" ! "reduce"
 നോക്കുക:നോക്ക  V-TV-NOKKUKA ; ! "nēākkuka" ! "look"
+കൂടുക:കൂട  V-TV-NOKKUKA ; ! "" ! "increase"
+നടത്തുക:നടത്ത V-TV-NOKKUKA ; ! "" ! ""
 ഒളിക്കുക:ഒളി V-IV-KALI ; ! "oḷikkuka" ! "hide"
 ഇരിക്കുക:ഇര V-IV-IRUNNU ; ! "irikkuka" ! "sit"
 ലഭിക്കുക:ലഭ V-TV-LABHIKKUKA ; ! "labhikkuka" ! "get"
