@@ -1307,6 +1307,10 @@ LEXICON A2
 %<adj%>:ം CLIT-COP; ! debug
 %<adj%>%<subst%>:%>ത  N3-COMMON; 
 
+LEXICON A4
+
+%<adj%>:%>് CLIT-N-NOM ; ! ""
+
 LEXICON ADV
 
 %<adv%>: CLIT-COP ; 
@@ -4319,8 +4323,8 @@ LEXICON Adjectives
 വിവിധ:വിവിധ A1; ! "" ! "variety"
 നിരവധി:നിരവധി A1; ! "' ! ""
 ഇത്തരം:ഇത്തര A2 ; ! "" ! "these type" !debug
-ഇന്ത്യന്‍:ഇന്ത്യന്‍ AX ; ! "indyan" ! "indian" ! Use/Sub ! Dir/LR
-അമേരിക്കന്‍:അമേരിക്കന്‍ AX; ! "american" ! "american" ! Use/Sub ! Dir/LR
+ഇന്ത്യന്‍:ഇന്ത്യന A4 ; ! "indyan" ! "indian" ! Use/Sub ! Dir/LR
+അമേരിക്കന്‍:അമേരിക്കന A4; ! "american" ! "american" ! Use/Sub ! Dir/LR
 
 LEXICON Adverbs
 
