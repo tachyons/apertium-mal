@@ -610,8 +610,10 @@ LEXICON NUM-ONNU
 LEXICON NUM 
 
 %<num%>:് # ; 
+%<num%>:ു # ; ! "debug" 
 %<num%>%<subst%>:്  N2-COMMON ; 
 %<num%>%<ord%>:%>ാം # ;
+%<num%>%<ord%>%<attr%>:%>ാമത്തെ # ;
 
 CLIT-CC ; 
 
@@ -1471,6 +1473,15 @@ LEXICON Numerals
 എട്ട്:എട്ട NUM ; ! "FIXME" ! "eight"
 ഒന്‍പത്:ഒന്‍പത NUM ; ! "FIXME" ! "nine" 
 പത്ത്:പത്ത NUM ; ! "FIXME" ! "ten"
+ഇരുപത്:ഇരുപത NUM; ! "" ! "20"
+മുപ്പത്:മുപ്പത NUM;! "" ! "30"
+നാല്പത്:നാല്പത NUM; ! "" ! "40"
+അമ്പത്‌:അമ്പത NUM ; ! "" ! ""
+അറുപത്‌:അറുപത  NUM ; ! "" ! ""
+എഴുപത്:എഴുപത  NUM ; ! "" ! ""
+എണ്‍പത്:എണ്‍പത NUM ; ! "" ! ""
+തൊണ്ണൂര്‍:തൊണ്ണൂറ NUM ; ! "" ! ""
+
 
 LEXICON NominalStems
 
@@ -4521,6 +4532,7 @@ VBCOP-AAK ; ! "āk" ! "be"
 എഴുതുക:എഴുത V-TV-PATUKA ; ! "eḻutuka" ! "write"
 ഒഴുകുക:ഒഴുക V-TV-PATUKA ; ! "oḻukuka" ! "flow"
 നല്‍കുക:നല്‍ക V-TV-PATUKA ; ! "nal‍kuka" ! "give"
+പുറത്തിറങ്ങുക:പുറത്തിറങ്ങ V-TV-PATUKA ; ! " " ! ""
 ചാകുക:ച V-IV-CHAKUKA; ! "cākuka" ! "die"
 തൊടുക:തൊട V-TV-THOTUKA ; ! "teāṭuka" ! "touch"
 നേരുക:നേ V-TV-NERUKA ; ! "nēruka" ! "wish"
