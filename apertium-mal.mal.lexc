@@ -616,16 +616,31 @@ LEXICON NUM
 %<num%>%<ord%>%<attr%>:%>ാമത്തെ # ;
 
 CLIT-CC ; 
-LEXICON NUM-EXT 
+
+LEXICON NUM-ONN-ONPAT 
+
+ഒരു:ഒ NUM-ONNU ; ! "FIXME" ! "one" 
+രണ്ട്:രണ്ട NUM ; ! "FIXME" ! "two" 
+രണ്ട്:രണ്ടു NUM ; ! "FIXME" ! "two"  ! Dir/LR
+മൂന്ന്:മൂന്ന NUM ; ! "FIXME" ! "three"
+നാല്:നാല NUM ; ! "FIXME" ! "four"
+അഞ്ച്:അഞ്ച NUM ; ! "FIXME" ! "five" 
+ആറ്:ആറ NUM ; ! "FIXME" ! "six" 
+ഏഴ്:ഏഴ NUM ; ! "FIXME" ! "seven" 
+എട്ട്:എട്ട NUM ; ! "FIXME" ! "eight"
+ഒന്‍പത്:ഒന്‍പത NUM ; ! "FIXME" ! "nine" 
+
+CLIT-CC ; 
+
+LEXICON NUM-IRUPAT
 
 %<num%>:് # ; 
-%<num%>%<cmp%>:്തി # ; 
 %<num%>:ു # ; ! "debug" 
 %<num%>%<subst%>:്  N2-COMMON ; 
 %<num%>%<ord%>:%>ാം # ;
 %<num%>%<ord%>%<attr%>:%>ാമത്തെ # ;
-%<num%>%<cmp%>%+:%» NUM-EXT ; ! Use/Circ
-%<num%>%<cmp%>%+:%» NUM ; ! Use/Circ
+
+%<num%>%<cmp%>%+:%>ത്തി NUM-ONN-ONPAT ; 
 
 CLIT-CC ; 
 
@@ -1495,15 +1510,15 @@ LEXICON Numerals
 പതിനെട്ട്:പതിനെട്ട NUM ; ! ""
 പത്തൊമ്പത്:പത്തൊമ്പത NUM ; ! ""
 
-ഇരുപത്:ഇരുപത NUM-EXT; ! "" ! "20"
-മുപ്പത്:മുപ്പത NUM-EXT;! "" ! "30"
-നാല്പത്:നാല്പത NUM-EXT; ! "" ! "40"
-അമ്പത്‌:അമ്പത NUM-EXT ; ! "" ! ""
-അറുപത്‌:അറുപത  NUM-EXT ; ! "" ! ""
-എഴുപത്:എഴുപത  NUM-EXT ; ! "" ! ""
-എണ്‍പത്:എണ്‍പത NUM-EXT ; ! "" ! ""
-തൊണ്ണൂര്‍:തൊണ്ണൂറ NUM-EXT ; ! "" ! ""
-നൂറ്:നൂറ NUM-EXT ; ! "" ! ""
+ഇരുപത്:ഇരുപത NUM-IRUPAT; ! "" ! "twenty"
+മുപ്പത്:മുപ്പത NUM-IRUPAT;! "" ! "thirty"
+നാല്പത്:നാല്പത NUM-IRUPAT; ! "" ! "forty"
+അമ്പത്‌:അമ്പത NUM-IRUPAT ; ! "" ! "fifty"
+അറുപത്‌:അറുപത  NUM-IRUPAT ; ! "" ! "sixty"
+എഴുപത്:എഴുപത  NUM-IRUPAT ; ! "" ! "seventy"
+എണ്‍പത്:എണ്‍പത NUM-IRUPAT ; ! "" ! "eighty"
+തൊണ്ണൂര്‍:തൊണ്ണൂറ NUM-IRUPAT ; ! "" ! "ninety"
+നൂറ്:നൂറ NUM-IRUPAT ; ! "" ! "one hundred"
 
 
 LEXICON NominalStems
