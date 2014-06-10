@@ -619,16 +619,16 @@ CLIT-CC ;
 
 LEXICON NUM-ONN-ONPAT 
 
-ഒരു:ഒ NUM-ONNU ; ! "FIXME" ! "one" 
-രണ്ട്:രണ്ട NUM ; ! "FIXME" ! "two" 
-രണ്ട്:രണ്ടു NUM ; ! "FIXME" ! "two"  ! Dir/LR
-മൂന്ന്:മൂന്ന NUM ; ! "FIXME" ! "three"
-നാല്:നാല NUM ; ! "FIXME" ! "four"
-അഞ്ച്:അഞ്ച NUM ; ! "FIXME" ! "five" 
-ആറ്:ആറ NUM ; ! "FIXME" ! "six" 
-ഏഴ്:ഏഴ NUM ; ! "FIXME" ! "seven" 
-എട്ട്:എട്ട NUM ; ! "FIXME" ! "eight"
-ഒന്‍പത്:ഒന്‍പത NUM ; ! "FIXME" ! "nine" 
+%+ഒരു:ഒ NUM-ONNU ; ! "FIXME" ! "one" 
+%+രണ്ട്:രണ്ട NUM ; ! "FIXME" ! "two" 
+%+രണ്ട്:രണ്ടു NUM ; ! "FIXME" ! "two"  ! Dir/LR
+%+മൂന്ന്:മൂന്ന NUM ; ! "FIXME" ! "three"
+%+നാല്:നാല NUM ; ! "FIXME" ! "four"
+%+അഞ്ച്:അഞ്ച NUM ; ! "FIXME" ! "five" 
+%+ആറ്:ആറ NUM ; ! "FIXME" ! "six" 
+%+ഏഴ്:ഏഴ NUM ; ! "FIXME" ! "seven" 
+%+എട്ട്:എട്ട NUM ; ! "FIXME" ! "eight"
+%+ഒന്‍പത്:ഒന്‍പത NUM ; ! "FIXME" ! "nine" 
 
 CLIT-CC ; 
 
@@ -640,7 +640,7 @@ LEXICON NUM-IRUPAT
 %<num%>%<ord%>:%>ാം # ;
 %<num%>%<ord%>%<attr%>:%>ാമത്തെ # ;
 
-%<num%>%<cmp%>%+:%>്തി NUM-ONN-ONPAT ; 
+%<num%>%<cmp%>:%>്തി NUM-ONN-ONPAT ; 
 
 CLIT-CC ; 
 
