@@ -169,7 +169,7 @@ CLIT-COP-UNTU ;
 
 LEXICON CLIT-CC 
 
-%+യും%<cnjcoo%>:%»%{y%}ും CLIT-COP ; ! "and, also" ! "FIXME"
+%+യും%<cnjcoo%>:%»%{z%}ും CLIT-COP ; ! "and, also" ! "FIXME"
 %+യും%<adv%>:%»%{y%}ും CLIT-COP ; ! "also"
 %+യോ%<cnjcoo%>:%»%{z%}ോ #; ! "or" ! "FIXME"
 
