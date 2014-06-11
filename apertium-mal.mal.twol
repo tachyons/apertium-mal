@@ -55,7 +55,7 @@ Rules
 %{z%}:വ <=> :RVowU  [ %>: | %»: ]  _ ; 
 
 "Epenthesis in clitics ({z} → m)"
-%{z%}:മ <=> RVowM:  [ %>: | %»: ]  _ ; 
+%{z%}:വ <=> RVowM:  [ %>: | %»: ]  _ ; 
 
 "Remove vowel before ി"
 Vx:0 <=> _  [ %>: | %»: ] :ി ; 
