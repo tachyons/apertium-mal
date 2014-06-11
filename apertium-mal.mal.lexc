@@ -445,6 +445,25 @@ LEXICON NP-TOP-INDIA
 %<np%>%<top%>%<sg%>%<loc%>:യില്‍ CLIT-N-LOC ; !""
 %<np%>%<top%>%<sg%>%<soc%>:യോട് CLIT-N-NOM ; !""
 
+LEXICON NP-TOP-CALICUT
+
+%<np%>%<top%>%<sg%>%<nom%>:് CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<acc%>:ിനെ	CLIT-N-ACC ; !""
+%<np%>%<top%>%<sg%>%<gen%>:ിന്റെ CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<dat%>:ിന് CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<ins%>:ിനാല്‍ CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<loc%>:ില്‍ CLIT-N-LOC ; !""
+%<np%>%<top%>%<sg%>%<soc%>:ിനോട് CLIT-N-NOM ; !""
+LEXICON NP-TOP-KANNUR
+
+%<np%>%<top%>%<sg%>%<nom%>:്‍ CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<acc%>:ിനെ	CLIT-N-ACC ; !""
+%<np%>%<top%>%<sg%>%<gen%>:ിന്റെ CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<dat%>:ിന് CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<ins%>:ിനാല്‍ CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<loc%>:ില്‍ CLIT-N-LOC ; !""
+%<np%>%<top%>%<sg%>%<soc%>:ിനോട് CLIT-N-NOM ; !""
+
 
 LEXICON PRON-PERS-NNAAN 
 
@@ -4349,6 +4368,8 @@ LEXICON ProperNouns
 ചൈന:ചൈന NP-TOP-INDIA ; ! "china"
 ആലപ്പുഴ:ആലപ്പുഴ NP-TOP-INDIA ; ! "alappuzha"
 അമേരിക്ക:അമേരിക്ക NP-TOP-INDIA ; ! "america"
+കോഴിക്കോട്:കോഴിക്കോട NP-TOP-CALICUT ; ! "kozhikkod"
+കണ്ണൂര്‍:കണ്ണൂര NP-TOP-KANNUR ; ! "kannur"
 
 
 LEXICON Adjectives 
