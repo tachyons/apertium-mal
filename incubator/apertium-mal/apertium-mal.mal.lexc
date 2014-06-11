@@ -4356,6 +4356,8 @@ LEXICON ProperNouns
 
 ജെയിംസ്:ജെയിംസ NP1 ; ! "jeyins" ! "James"
 തോമസ്:തോമസ NP1 ; ! "" ! "thomas"
+ജോസഫ്:ജോസഫ NP1 ; ! "" ! "josaph"
+രാജീവ്:രാജീവ NP1 ; ! "" ! "rajeev"
 മുഹമ്മദ്:മുഹമ്മദ NP1 ; ! "" ! "muhammed"
 മേരി:മേരി NP2 ; ! "mēri" ! "Mary"
 രാജു:രാജ NP3 ; ! "rāju" ! "Raju"
@@ -4368,7 +4370,12 @@ LEXICON ProperNouns
 ചൈന:ചൈന NP-TOP-INDIA ; ! "china"
 ആലപ്പുഴ:ആലപ്പുഴ NP-TOP-INDIA ; ! "alappuzha"
 അമേരിക്ക:അമേരിക്ക NP-TOP-INDIA ; ! "america"
+തലശ്ശേരി:തലശ്ശേരി NP-TOP-INDIA ; ! "tellicheri"
 കോഴിക്കോട്:കോഴിക്കോട NP-TOP-CALICUT ; ! "kozhikkod"
+മദ്രാസ്:മദ്രാസ NP-TOP-CALICUT ; ! "madras"
+പാലക്കാട്:പാലക്കാട NP-TOP-CALICUT ; ! "palakkad"
+വയനാട്:വയനാട NP-TOP-CALICUT ; ! "vayanad"
+മലപ്പുറം:മലപ്പുറ NP-TOP-KERALA ; ! "malappuram"
 കണ്ണൂര്‍:കണ്ണൂര NP-TOP-KANNUR ; ! "kannur"
 
 
@@ -4417,6 +4424,7 @@ LEXICON Adverbs
 
 വീണ്ടും:വീണ്ടും ADV ; ! "vīṇṭuṁ" ! "again"
 മെല്ലെ:മെല്ലെ ADV ; ! "melle" ! "slowly"
+പതുക്കെ:പതുക്കെ ; ! "pathukke" ! "slowly"
 പെട്ടെന്ന്:പെട്ടെന്ന്  ADV ; ! "peṭṭenn" ! "suddenly"
 ഇപ്പോഴും:ഇപ്പോഴും ADV ; ! "FIXME" ! "still" 
 ഇപ്പോള്‍:ഇപ്പോള്‍ ADV ; ! "FIXME" ! "now"
