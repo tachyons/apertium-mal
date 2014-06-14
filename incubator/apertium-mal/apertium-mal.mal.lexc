@@ -255,6 +255,7 @@ LEXICON N2-COMMON
 %<sg%>%<acc%>:യെ CLIT-N-ACC ; ! "ye"
 %<sg%>%<gen%>:യുടെ CLIT-N-GEN ; ! "yuṭe"
 %<sg%>%<dat%>:യ്ക്ക് CLIT-N ; ! "yk"
+%<sg%>%<dat%>:ക്ക് CLIT-N ; ! "k"  ! debug
 %<sg%>:യ N-CASES-SG ; ! ""
 !plural
 %<pl%>%<nom%>:കള്‍ CLIT-N-NOM ; ! "kaḷ‍"
@@ -1407,6 +1408,7 @@ LEXICON Miscellaneous
 എന്ന്%<quot%>:എന്നു # ; ! "ennu" ! "" ! Dir/LR !debug
 എന്ന%<enum%>:എന്ന # ; ! "enna" ! "" 
 
+എന്നീ%<enum%>:എന്നീ # ; ! "enna" ! "" 
 LEXICON Conjunctions 
 
 പക്ഷെ:പക്ഷെ CC ; ! "pakṣe" ! "but"
@@ -2168,6 +2170,15 @@ LEXICON NominalStems
 ഭാഗ്യം:ഭാഗ്യ N1 ; ! "bhāgyaṁ" ! "luck, lot, fortune, fate, chance, bonanza"
 തരംഗം:തരംഗ N1 ; ! "taraṅgaṁ" ! "wave"
 കഫം:കഫ N1 ; ! "kaphaṁ" ! "mucus"
+രാസസ്വഭാവം:രാസസ്വഭാവ N1;	! "rāsasvabhāvaṁ"
+ബേരിയം:ബേരിയ N1;	! "bēriyaṁ"
+ബാഷ്പശീലം:ബാഷ്പശീല N1;	!"bāṣpaśīlaṁ"
+ഊര്‍ജ്ജതന്ത്രം:ഊര്‍ജ്ജതന്ത്ര N1;	! "ūr‍jjatantraṁ"
+ബെറിലിയം:ബെറിലിയ N1;	! "beṟiliyaṁ"
+പദാര്‍ഥം:പദാര്‍ഥ N1;	! "padār‍thaṁ"
+വൈദ്യുതവിശ്ലേഷണ:വൈദ്യുതവിശ്ലേഷണം N1;	! "vaidyutaviślēṣaṇaṁ"
+ഉല്‍പന്നം:ഉല്‍പന്നം N1;	!"ul‍pannaṁ"
+യുറേനിയം:യുറേനിയം N1;	! "yuṟēniyaṁ"
 കപ്പം:കപ്പ N1 ; ! "kappaṁ" ! "tribute, tributary"
 വളം:വള N1 ; ! "vaḷaṁ" ! "muck"
 പ്രകാശനം:പ്രകാശന N1 ; ! "prakāśanaṁ" ! "vent, release, publication, presentation, illustration, expression, exposure, discovery, disclosure"
@@ -3110,6 +3121,14 @@ LEXICON NominalStems
 അനിഷ്ടം:അനിഷ്ട N1 ; ! "aniṣṭaṁ" ! "antipathy"
 അനിശ്ചിതത്വം:അനിശ്ചിതത്വ N1 ; ! "aniścitatvaṁ" ! "uncertainty, skepticism, flexibility"
 പേര്:പേര N3 ; ! "pēr" ! "name"
+അയിര്:അയിര N3;
+എര്‍ത്ത്:എര്‍ത്ത N3;
+!പിച്ച്% ബ്ലെന്‍ഡ്:പിച്ച്% ബ്ലെന്‍ഡ N3;‍
+ന്യൂട്രോണ്‍:ന്യൂട്രോണ N3;
+റേഡിയസ്:റേഡിയസ N3;
+സയന്‍സ്:സയന്‍സ N3;
+കാഥോഡ്:കാഥോഡ N3;
+സ്രോതസ്സ്:സ്രോതസ്സ N3;
 പഞ്ചായത്ത്:പഞ്ചായത്ത N3 ; ! "pañcāyatt" ! "arbitration"
 രാജാവ്:രാജാവ N3 ; ! "rājāv" ! "king"
 അളവ്:അളവ N3 ; ! "aḷav" ! "volume"
