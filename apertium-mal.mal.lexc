@@ -272,6 +272,7 @@ LEXICON N2
 %<n%>: N2-COMMON ;
 
 %<n%>%<cmp%>%+:%» NominalStems ; ! Use/Circ
+%<n%>%<cmp%>%+:%» Verbs ; ! DEBug
 
 LEXICON N3-COMMON
 
