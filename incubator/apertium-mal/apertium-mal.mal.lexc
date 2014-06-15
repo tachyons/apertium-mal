@@ -161,7 +161,10 @@ LEXICON CLIT-COP
 %+ആക്%<vbcop%>%<past%>:%»%{y%}ായിരുന്ന GPR-PRES ;  ! "FIXME" ! Use/Circ
 %+ആക്%<vbcop%>%<pres%>%+യില്ല%<adv%>:%»%{y%}ല്ല CLIT-QUOT ; ! "FIXME" ! Use/Circ
 %+ആക്%<vbcop%>%<inf_k%>:%»%{y%}ാകുക CLIT-CC ; ! "FIXME" ! Use/Circ
+%+ആക്%<vbcop%>%<pres%>:%»%{y%}ാകുന്നു CLIT-CC ; ! "FIXME" ! Use/Circ
+%+ആക്%<vbcop%>%<fut%>:%»%{y%}ായിരിക്കും CLIT-CC ; ! "FIXME" ! Use/Circ
 %+ആക്%<vbcop%>%<pprs%>:%»%{y%}ായി NEG-WHEN-EVEN ;  ! "FIXME" ! Use/Circ ! debug
+%+ആക്%<vbcop%>%<rp%>:%»%{y%}ായ # ;  ! "FIXME" ! Use/Circ ! debug
 
 CLIT-COP-UNTU ;
 
@@ -209,6 +212,7 @@ CLIT-N-LOC-COMMON ;
 LEXICON CLIT-N-ACC 
 
 %+കൊണ്ട്%<post%>:%»കൊണ്ട് CLIT-CC ; ! "with" ! "keāṇṭ"
+%+ക്കാള്‍%<post%>:%»ക്കാള്‍  CLIT-CC ; ! "with" ! "keāṇṭ"
 
 CLIT-CC ; 
 
@@ -1028,6 +1032,7 @@ LEXICON V-COMMON-ATIKKUKA
 %<imp%>:%>ക്ക് # ; !""
 %<imp%>%<frml%>:%>ക്കണം # ; !""
 %<imp%>%<infml%>:%>ക്കൂ # ; !""
+%<hab%>:%>ക്കാര്‍ CLIT-COP-UNTU ; ! "ār"
 !%<nom%>%:%>ല്‍  CLIT-COP  ; !""
 
 LEXICON V-COMMON-VEIKUKA
@@ -1355,7 +1360,12 @@ LEXICON A2
 %<adj%>: #;
 %<adj%>:ം CLIT-CC;
 %<adj%>:ം CLIT-COP; ! debug
-%<adj%>%<subst%>:%>ത  N3-COMMON; 
+%<adj%>%<subst%>:%>ത  N3-COMMON;
+LEXICON A3
+
+%<adj%>: #;
+%<adj%>:ം CLIT-CC;
+%<adj%>:ം CLIT-COP; ! debug
 
 LEXICON A4
 
@@ -3754,6 +3764,7 @@ LEXICON NominalStems
 സിദ്ധി:സിദ്ധി N2 ; ! "sid'dhi" ! "stroke, speed, result, quality, prize, performance"
 വിഭ്രാന്തി:വിഭ്രാന്തി N2 ; ! "vibhrānti" ! "trip, hallucination"
 മേനി:മേനി N2 ; ! "mēni" ! "body"
+റേഡിയോആക്ടിവിറ്റി:റേഡിയോആക്ടിവിറ്റി N2 ; ! "radio activity"
 മാടമ്പി:മാടമ്പി N2 ; ! "māṭampi" ! "paladin, baron, aristocrat"
 ഭാഷാശൈലി:ഭാഷാശൈലി N2 ; ! "bhāṣāśaili" ! "idiom"
 പദാവലി:പദാവലി N2 ; ! "padāvali" ! "vocabulary"
@@ -4441,15 +4452,15 @@ LEXICON Adjectives
 ചില:ചില A1 ; ! "" ! "some"
 വന്‍:വന്‍ A1; ! "" ! ""
 പ്രധാന:പ്രധാന A1 ; ! "" ! "important"
-പ്രത്യേകം:പ്രത്യേക A2 ;  ! "" ! "spcecial"
-ഊഷ്മളം:ഊഷ്മള A2 ; ! "FIXME" ! "warm"
-തുല്യം:തുല്യ A2 ; ! "" ! "equal"
-ശുദ്ധം:ശുദ്ധ A2 ; ! "" ! ""
-സ്വതന്ത്രം:സ്വതന്ത്ര A2 ; ! "" ! "free'
-അപൂര്‍വം:അപൂര്‍വ A2 ; ! "" ! "rare'
+പ്രത്യേകം:പ്രത്യേക A3 ;  ! "" ! "spcecial"
+ഊഷ്മളം:ഊഷ്മള A3 ; ! "FIXME" ! "warm"
+തുല്യം:തുല്യ A3 ; ! "" ! "equal"
+ശുദ്ധം:ശുദ്ധ A3 ; ! "" ! ""
+സ്വതന്ത്രം:സ്വതന്ത്ര A3 ; ! "" ! "free'
+അപൂര്‍വം:അപൂര്‍വ A3 ; ! "" ! "rare'
 വിവിധ:വിവിധ A1; ! "" ! "variety"
 നിരവധി:നിരവധി A1; ! "' ! ""
-ഇത്തരം:ഇത്തര A2 ; ! "" ! "these type" !debug
+ഇത്തരം:ഇത്തര A3 ; ! "" ! "these type" !debug
 ഇന്ത്യന്‍:ഇന്ത്യന A4 ; ! "indyan" ! "indian" ! Use/Sub ! Dir/LR
 അമേരിക്കന്‍:അമേരിക്കന A4; ! "american" ! "american" ! Use/Sub ! Dir/LR
 
