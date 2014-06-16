@@ -406,6 +406,26 @@ LEXICON N9
 
 %<n%>%<cmp%>%+:%» NominalStems ; ! Use/Circ
 
+LEXICON N10 ! "കാലത്ത്" 
+
+%<n%>%<sg%>%<nom%>:ം CLIT-N-NOM ; ! "ṁ"
+%<n%>%<sg%>%<loc%>:%>ത്ത് CLIT-N-LOC ; ! "tt"
+%<n%>%<sg%>%<loc%>:%>ത്തു CLIT-N-LOC ; ! "ttu" ! "debug"
+%<n%>%<sg%>%<acc%>:%>ത്തെ CLIT-N-ACC ; ! "tte"
+%<n%>%<sg%>%<gen%>:%>ത്തിന്റെ CLIT-N-GEN ; ! "ttinṟe"
+%<n%>%<sg%>%<dat%>:%>ത്തിന് CLIT-N ; ! "ttin"
+%<n%>%<sg%>%<dat%>:%>ത്തിനു CLIT-N ; ! "ttinu" ! "debug"
+%<n%>%<sg%>:%>ത്ത N-CASES-SG ; ! ""
+
+%<n%>%<sg%>%<cmp%>: # ; ! "for debugging"
+!plural
+%<n%>%<pl%>%<nom%>:%>ങ്ങള്‍ CLIT-N-NOM ; ! "ṅṅaḷ‍"
+%<n%>%<pl%>%<acc%>:%>ങ്ങളെ CLIT-N-ACC ; ! "ṅṅale"
+%<n%>%<pl%>%<gen%>:%>ങ്ങളുടെ CLIT-N-GEN ; ! "ṅṅaḷuṭe"
+%<n%>%<pl%>:%>ങ്ങ N-CASES-PL ; ! "ṅṅaḷ‍"
+
+%<n%>%<cmp%>%+:%» NominalStems ; ! Use/Circ
+
 LEXICON NP1
 
 %<np%>%<ant%>%<m%>%<sg%>%<nom%>:് CLIT-N-NOM ; ! "ṁ"
@@ -633,9 +653,11 @@ LEXICON PRON-DEM-AT
 %<prn%>%<dem%>%<sg%>%<acc%>:തിനെ CLIT-N-ACC ; ! ""
 %<prn%>%<dem%>%<sg%>%<gen%>:തിന്റെ CLIT-N-GEN ;  
 %<prn%>%<dem%>%<sg%>%<dat%>:തിന് CLIT-N ; ! ""
+%<prn%>%<dem%>%<sg%>%<dat%>:തിനു CLIT-N ; ! "" ! "debug"
 %<prn%>%<dem%>%<sg%>%<loc%>:തില്‍ CLIT-N-LOC ; ! ""
 %<prn%>%<dem%>%<sg%>%<ins%>:തിനാല്‍ CLIT-N ; ! ""
 %<prn%>%<dem%>%<sg%>%<soc%>:തിനോട് CLIT-N ; ! ""
+%<prn%>%<dem%>%<sg%>%<soc%>:തിനോടു CLIT-N ; ! "" ! 
 
 %<prn%>%<dem%>%<pl%>%<nom%>:വ CLIT-N-NOM ;
 %<prn%>%<dem%>%<pl%>%<acc%>:വയെ CLIT-N-ACC ; ! ""
@@ -1446,7 +1468,7 @@ LEXICON CC
 LEXICON Miscellaneous 
 
 എന്ന്%<quot%>:െന്നു # ; ! "ennu" ! ""
-എന്ന്%<quot%>:എന്ന് # ; ! "enn" ! "" ! Dir/LR
+എന്ന്%<quot%>:എന്ന് CLIT-COP; ! "enn" ! "" ! Dir/LR
 എന്ന്%<quot%>:എന്നു # ; ! "ennu" ! "" ! Dir/LR !debug
 എന്ന%<enum%>:എന്ന # ; ! "enna" ! "" 
 
@@ -1563,11 +1585,13 @@ LEXICON Determiners
 മറ്റ്:മറ്റ് DET-DEM ; ! "" ! "other"
 മറ്റ്:മറ്റു DET-DEM ; ! "" ! "other" !debug
 ഓരോ:ഓരോ DET-DEM ; ! "" ! "each" ! "distributive det"
+മിക്ക:മിക്ക DET-DEM ; ! "' ! "most"
 
 
 LEXICON Numerals
 
 ഒരു:ഒ NUM-ONNU ; ! "FIXME" ! "one" 
+ഒന്ന്:ഒന്ന NUM ; ! "FIXME" ! "two" 
 രണ്ട്:രണ്ട NUM ; ! "FIXME" ! "two" 
 രണ്ട്:രണ്ടു NUM ; ! "FIXME" ! "two"  ! Dir/LR
 മൂന്ന്:മൂന്ന NUM ; ! "FIXME" ! "three"
@@ -1601,7 +1625,7 @@ LEXICON Numerals
 
 LEXICON NominalStems
 
-മഴക്കാലം:മഴക്കാല N1 ; ! "maḻakkālaṁ" ! "rainy season"
+മഴക്കാലം:മഴക്കാല N10 ; ! "maḻakkālaṁ" ! "rainy season"
 മേഘം:മേഘ N1 ; ! "mēghaṁ" ! "cloud"
 പൂന്തോട്ടം:പൂന്തോട്ട N1 ; ! "pūntēāṭṭaṁ" ! "garden"
 കാലാവസ്ഥ:കാലാവസ്ഥ N2 ; ! "kālāvastha" ! "weather"
@@ -1710,7 +1734,7 @@ LEXICON NominalStems
 സ്വയം:സ്വയ N1 ; ! "svayaṁ" ! "missile"
 പകരം:പകര N1 ; ! "pakaraṁ" ! "vice, room, equivalent"
 തരം:തര N1 ; ! "taraṁ" ! "variant, type, standard, specimen, sort, scope, ratio, quality, persuasion, nature, kind, kidney, item, grade, genre, form, description, class, category, breed, brand"
-കാലം:കാല N1 ; ! "kālaṁ" ! "time, tide, season, period, era, day"
+കാലം:കാല N10 ; ! "kālaṁ" ! "time, tide, season, period, era, day"
 യുദ്ധം:യുദ്ധ N1 ; ! "yud'dhaṁ" ! "war, sword, struggle, fight, engagement, conflict, combat, battle, arm, action"
 പ്രാധാന്യം:പ്രാധാന്യ N1 ; ! "prādhān'yaṁ" ! "worth, sovereignty, significance, rank, prominence, priority, predominance, precedence, meaning, importance, consequence, arch, account"
 പഠനം:പഠന N1 ; ! "paṭhanaṁ" ! "study, reading, learning"
@@ -1927,7 +1951,7 @@ LEXICON NominalStems
 കെട്ടിടം:കെട്ടിട N1 ; ! "keṭṭiṭaṁ" ! "fabric, construction, building"
 വീര്യം:വീര്യ N1 ; ! "vīryaṁ" ! "zip, vitality, virtue, vigour, vigor, steam, sperm, sap, robustness, prowess, power, energy"
 അന്വേഷണം:അന്വേഷണ N1 ; ! "anvēṣaṇaṁ" ! "sound, search, scrutiny, scent, research, quest, query, look, investigation, inquisition, inquiry, inquest, examination, enquiry"
-ജീവിതകാലം:ജീവിതകാല N1 ; ! "jīvitakālaṁ" ! "time, life"
+ജീവിതകാലം:ജീവിതകാല N10 ; ! "jīvitakālaṁ" ! "time, life"
 കഥാപാത്രം:കഥാപാത്ര N1 ; ! "kathāpātraṁ" ! "role, personage, character"
 പട്ടം:പട്ട N1 ; ! "paṭṭaṁ" ! "kite"
 നേട്ടം:നേട്ട N1 ; ! "nēṭṭaṁ" ! "victory, quality, pull, gain, dividend, attainment, advantage, acquisition, achievement"
@@ -2020,14 +2044,14 @@ LEXICON NominalStems
 വീക്ഷണം:വീക്ഷണ N1 ; ! "vīkṣaṇaṁ" ! "vision, viewpoint, view, sight, perspective, contemplation, aspect"
 ചായം:ചായ N1 ; ! "cāyaṁ" ! "pigment, paint, dye, colour, color"
 നിലയം:നിലയ N1 ; ! "nilayaṁ" ! "post, nest"
-കുറേക്കാലം:കുറേക്കാല N1 ; ! "kuṟēkkālaṁ" ! "season"
+കുറേക്കാലം:കുറേക്കാല N10 ; ! "kuṟēkkālaṁ" ! "season"
 വികിരണം:വികിരണ N1 ; ! "vikiraṇaṁ" ! "radiation, dispersion"
 പ്രസംഗം:പ്രസംഗ N1 ; ! "prasaṅgaṁ" ! "talk, speech, lecture, essay, discourse, address"
 ഹീലിയം:ഹീലിയ N1 ; ! "hīliyaṁ" ! "helium"
 സാദൃശ്യം:സാദൃശ്യ N1 ; ! "sādr̥śyaṁ" ! "similarity, resemblance, image, correspondence, approach, agreement"
 വ്യാകരണം:വ്യാകരണ N1 ; ! "vyākaraṇaṁ" ! "grammar"
 മുന്നേറ്റം:മുന്നേറ്റ N1 ; ! "munnēṟṟaṁ" ! "progress, advancement"
-ഭരണകാലം:ഭരണകാല N1 ; ! "bharaṇakālaṁ" ! "reign"
+ഭരണകാലം:ഭരണകാല N10 ; ! "bharaṇakālaṁ" ! "reign"
 നയം:നയ N1 ; ! "nayaṁ" ! "policy, attitude"
 രസതന്ത്രം:രസതന്ത്ര N1 ; ! "rasatantraṁ" ! "chemistry"
 പേടകം:പേടക N1 ; ! "pēṭakaṁ" ! "chest, casket, bin, ark"
@@ -2105,7 +2129,7 @@ LEXICON NominalStems
 അതിവേഗം:അതിവേഗ N1 ; ! "ativēgaṁ" ! "velocity"
 യുറേനിയം:യുറേനിയ N1 ; ! "yuṟēniyaṁ" ! "uranium"
 പ്രതിപാദ്യം:പ്രതിപാദ്യ N1 ; ! "pratipādyaṁ" ! "topic, theme, subject, motif"
-പുരാതനകാലം:പുരാതനകാല N1 ; ! "purātanakālaṁ" ! "antiquity"
+പുരാതനകാലം:പുരാതനകാല N10 ; ! "purātanakālaṁ" ! "antiquity"
 കാഠിന്യം:കാഠിന്യ N1 ; ! "kāṭhin'yaṁ" ! "steel, severity, sclerosis, rigor, rigidity, rage, knot, iron, intensity, hardness, austerity"
 ശാസനം:ശാസന N1 ; ! "śāsanaṁ" ! "statute, rule, regulation, punishment, mandate, lesson, law, authority"
 പ്രബോധനം:പ്രബോധന N1 ; ! "prabēādhanaṁ" ! "inspiration, doctrine"
@@ -2123,7 +2147,7 @@ LEXICON NominalStems
 ആധാരം:ആധാര N1 ; ! "ādhāraṁ" ! "writing, testimony, socket, shore, seat, rest, receptacle, instrument, fulcrum, element, document, deed, bottom, basis"
 അടിമത്തം:അടിമത്ത N1 ; ! "aṭimattaṁ" ! "yoke, subjection, slavery, servitude, chain, captivity"
 വൈവിധ്യം:വൈവിധ്യ N1 ; ! "vaividhyaṁ" ! "variety, nuance, diversity, diversification"
-കുട്ടിക്കാലം:കുട്ടിക്കാല N1 ; ! "kuṭṭikkālaṁ" ! "childhood"
+കുട്ടിക്കാലം:കുട്ടിക്കാല N10 ; ! "kuṭṭikkālaṁ" ! "childhood"
 തടസ്സം:തടസ്സ N1 ; ! "taṭas'saṁ" ! "trouble, stopper, stoppage, stop, rock, resistance, reserve, prevention, obstruction, obstacle, objection, load, interruption, interference, interception, impediment, impedance, frustration, fetter, disturbance, disruption, crossing, clog, check, block, barrier, bar, arrest"
 കുളം:കുള N1 ; ! "kuḷaṁ" ! "tank, pool"
 കളം:കള N1 ; ! "kaḷaṁ" ! "floor"
@@ -2329,10 +2353,10 @@ LEXICON NominalStems
 ഭൗതികവാദം:ഭൗതികവാദ N1 ; ! "bhatikavādaṁ" ! "materialism"
 നവോത്ഥാനം:നവോത്ഥാന N1 ; ! "navēāt'thānaṁ" ! "uprising"
 അസംഖ്യം:അസംഖ്യ N1 ; ! "asaṅkhyaṁ" ! "number, myriad, legion, legation"
-അവസാനകാലം:അവസാനകാല N1 ; ! "avasānakālaṁ" ! "twilight"
+അവസാനകാലം:അവസാനകാല N10 ; ! "avasānakālaṁ" ! "twilight"
 സങ്കലനം:സങ്കലന N1 ; ! "saṅkalanaṁ" ! "synthesis, sum, fertilization, composition, compilation, combination, apposition, addition"
 ലിഖിതം:ലിഖിത N1 ; ! "likhitaṁ" ! "letter, document"
-മഴക്കാലം:മഴക്കാല N1 ; ! "maḻakkālaṁ" ! "rain"
+മഴക്കാലം:മഴക്കാല N10 ; ! "maḻakkālaṁ" ! "rain"
 പ്രയാണം:പ്രയാണ N1 ; ! "prayāṇaṁ" ! "voyage, travel, progress, passage, move, march, journey, exodus"
 പ്രതിഫലനം:പ്രതിഫലന N1 ; ! "pratiphalanaṁ" ! "reflection"
 ചാരം:ചാര N1 ; ! "cāraṁ" ! "ash"
@@ -2485,7 +2509,7 @@ LEXICON NominalStems
 ഭരണാധികാരം:ഭരണാധികാര N1 ; ! "bharaṇādhikāraṁ" ! "administration"
 ധാരണം:ധാരണ N1 ; ! "dhāraṇaṁ" ! "maintenance"
 ദൈവരാജ്യം:ദൈവരാജ്യ N1 ; ! "daivarājyaṁ" ! "heaven"
-ചരിത്രാതീതകാലം:ചരിത്രാതീതകാല N1 ; ! "caritrātītakālaṁ" ! "prehistory"
+ചരിത്രാതീതകാലം:ചരിത്രാതീതകാല N10 ; ! "caritrātītakālaṁ" ! "prehistory"
 ഘടികാരം:ഘടികാര N1 ; ! "ghaṭikāraṁ" ! "clock, bell"
 കുറ്റകൃത്യം:കുറ്റകൃത്യ N1 ; ! "kuṟṟakr̥tyaṁ" ! "fact, crime"
 കലം:കല N1 ; ! "kalaṁ" ! "vessel, pot, pan"
@@ -2972,7 +2996,7 @@ LEXICON NominalStems
 ഏഴുദിവസം:ഏഴുദിവസ N1 ; ! "ēḻudivasaṁ" ! "week"
 ആഹ്ലാദം:ആഹ്ലാദ N1 ; ! "āhlādaṁ" ! "joy, hilarity, happiness, festivity, delight"
 ആവിയന്ത്രം:ആവിയന്ത്ര N1 ; ! "āviyantraṁ" ! "engine"
-അവധിക്കാലം:അവധിക്കാല N1 ; ! "avadhikkālaṁ" ! "vacation"
+അവധിക്കാലം:അവധിക്കാല N10 ; ! "avadhikkālaṁ" ! "vacation"
 അരയന്നം:അരയന്ന N1 ; ! "arayannaṁ" ! "swan"
 അഭ്രം:അഭ്ര N1 ; ! "abhraṁ" ! "talc, film, feldspar"
 അധിവാസം:അധിവാസ N1 ; ! "adhivāsaṁ" ! "stay, settlement, occupation, housing"
@@ -3100,7 +3124,7 @@ LEXICON NominalStems
 ഋഷഭം:ഋഷഭ N1 ; ! "r̥ṣabhaṁ" ! "bull"
 ഊഹം:ഊഹ N1 ; ! "ūhaṁ" ! "supposition, speculation, postulate, notion, idea, hypothesis, hint, concept"
 ആലയം:ആലയ N1 ; ! "ālayaṁ" ! "house"
-ആരംഭകാലം:ആരംഭകാല N1 ; ! "ārambhakālaṁ" ! "infancy"
+ആരംഭകാലം:ആരംഭകാല N10 ; ! "ārambhakālaṁ" ! "infancy"
 അമരത്വം:അമരത്വ N1 ; ! "amaratvaṁ" ! "immortality"
 അഭിനന്ദനം:അഭിനന്ദന N1 ; ! "abhinandanaṁ" ! "greeting, congratulation, approval, appreciation"
 അനുപ്രാസം:അനുപ്രാസ N1 ; ! "anuprāsaṁ" ! "rhyme, alliteration"
