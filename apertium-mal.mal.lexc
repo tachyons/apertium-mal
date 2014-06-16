@@ -227,6 +227,7 @@ LEXICON N-CASES-PL
 %<loc%>:%>ളില്‍ CLIT-N-LOC ; ! "il‍"
 %<dat%>:%>ള്‍ക്ക് CLIT-N ; ! "k"
 %<soc%>:%>ളോട് CLIT-N ; ! "ēāṭ "
+%<soc%>:%>ളോടു CLIT-N ; ! "ēāṭu " ! "debug"
 %<ins%>:%>ളാല്‍ CLIT-N ; ! "āl‍"
 
 LEXICON N-CASES-SG
@@ -241,6 +242,7 @@ LEXICON N1
 %<n%>%<sg%>%<acc%>:%>ത്തെ CLIT-N-ACC ; ! "tte"
 %<n%>%<sg%>%<gen%>:%>ത്തിന്റെ CLIT-N-GEN ; ! "ttinṟe"
 %<n%>%<sg%>%<dat%>:%>ത്തിന് CLIT-N ; ! "ttin"
+%<n%>%<sg%>%<dat%>:%>ത്തിനു CLIT-N ; ! "ttinu" ! "debug"
 %<n%>%<sg%>:%>ത്ത N-CASES-SG ; ! ""
 
 %<n%>%<sg%>%<cmp%>: # ; ! "for debugging"
@@ -260,6 +262,8 @@ LEXICON N2-COMMON
 %<sg%>%<gen%>:യുടെ CLIT-N-GEN ; ! "yuṭe"
 %<sg%>%<dat%>:യ്ക്ക് CLIT-N ; ! "yk"
 %<sg%>%<dat%>:ക്ക് CLIT-N ; ! "k"  ! debug
+%<sg%>%<dat%>:യ്ക്കു CLIT-N ; ! "yk" ! "debug"
+%<sg%>%<dat%>:ക്കു CLIT-N ; ! "k"  ! debug
 %<sg%>:യ N-CASES-SG ; ! ""
 !plural
 %<pl%>%<nom%>:കള്‍ CLIT-N-NOM ; ! "kaḷ‍"
@@ -282,6 +286,7 @@ LEXICON N3-COMMON
 %<sg%>%<acc%>:%>ിനെ CLIT-N-ACC ; ! "ine"
 %<sg%>%<gen%>:%>ിന്റെ CLIT-N-GEN ; ! "̔inṟe"
 %<sg%>%<dat%>:%>ിന് CLIT-N ; ! "in"
+%<sg%>%<dat%>:%>ിനു CLIT-N ; ! "inu" ! "debug"
 %<sg%>:%>ിന N-CASES-SG ; ! ""
 
 LEXICON N3
@@ -302,14 +307,16 @@ LEXICON N4
 %<n%>%<sg%>%<loc%>:യില്‍ CLIT-N-LOC; ! "yil‍"
 %<n%>%<sg%>%<acc%>:യുടെ CLIT-N-ACC ; ! "yuṭe"
 %<n%>%<sg%>%<gen%>:യെ CLIT-N-GEN ; ! "ye"
-%<n%>%<sg%>%<dat%>:യ്ക് CLIT-N ; ! "yk"
+%<n%>%<sg%>%<dat%>:യ്ക്ക് CLIT-N ; ! "yk"
+%<n%>%<sg%>%<dat%>:യ്ക്കു CLIT-N ; ! "yku" ! "debug"
 %<n%>%<sg%>:യ N-CASES-SG ; ! ""
 !plural
 %<n%>%<pl%>%<nom%>:മാര്‍  CLIT-N-NOM ; ! "mār‍"
 %<n%>%<pl%>%<loc%>:മാരില്‍ CLIT-N-LOC ; ! "māril‍"
 %<n%>%<pl%>%<acc%>:മാരെ CLIT-N-ACC ; ! "māre"
 %<n%>%<pl%>%<gen%>:മാരുടെ CLIT-N-GEN ; ! "māre"
-%<n%>%<pl%>%<dat%>:മാര്‍ക് CLIT-N ; ! "mār‍k"
+%<n%>%<pl%>%<dat%>:മാര്‍ക്ക് CLIT-N ; ! "mār‍k"
+%<n%>%<pl%>%<dat%>:മാര്‍ക്കു CLIT-N ; ! "mār‍k" ! "debug"
 %<n%>%<pl%>%<soc%>:മാരോട് CLIT-N ; ! "mārēāṭ"
 %<n%>%<pl%>%<ins%>:മാരാല്‍ CLIT-N ; ! "mārāl‍"
 
@@ -322,6 +329,7 @@ LEXICON N5
 %<n%>%<sg%>%<acc%>:ിനെ CLIT-N-ACC ; ! "ine"
 %<n%>%<sg%>%<gen%>:ിന്റെ CLIT-N-GEN ; ! "̔inṟe"
 %<n%>%<sg%>%<dat%>:ിന് CLIT-N ; ! "in"
+%<n%>%<sg%>%<dat%>:ിനു CLIT-N ; ! "inu"
 %<n%>%<sg%>:ിന N-CASES-SG ; ! ""
 
 !plural
@@ -375,6 +383,27 @@ LEXICON N8 ! അദ്യാപകന്‍
 %<n%>%<pl%>%<dat%>:ര്‍ക്ക് CLIT-N ; ! "mār‍k"
 %<n%>%<pl%>%<soc%>:രോട് CLIT-N ; ! "mārēāṭ"
 %<n%>%<pl%>%<ins%>:രാല്‍ CLIT-N ; ! "mārāl‍"
+%<n%>%<cmp%>%+:%» NominalStems ; ! Use/Circ
+
+LEXICON N9-COMMON
+
+%<sg%>%<nom%>:%>ര്‍ CLIT-N-NOM ; ! "ṁ"
+%<sg%>%<loc%>:%>റില്‍ CLIT-N-LOC ; ! "il‍"
+%<sg%>%<acc%>:%>റിനെ CLIT-N-ACC ; ! "ine"
+%<sg%>%<gen%>:%>റിന്റെ CLIT-N-GEN ; ! "̔inṟe"
+%<sg%>%<dat%>:%>റിന് CLIT-N ; ! "in"
+%<sg%>:%>റിന N-CASES-SG ; ! ""
+
+LEXICON N9
+
+%<n%>: N9-COMMON ; 
+
+!plural
+%<n%>%<pl%>%<nom%>:റുകള്‍ CLIT-N-NOM ; ! "ukaḷ‍"
+%<n%>%<pl%>%<acc%>:റുകളെ CLIT-N-ACC ; ! "ukaḷe"
+%<n%>%<pl%>%<gen%>:റുകളുടെ CLIT-N-GEN ; ! "ukaḷuṭe"
+%<n%>%<pl%>:റുക N-CASES-PL ; ! "ukaḷ‍"
+
 %<n%>%<cmp%>%+:%» NominalStems ; ! Use/Circ
 
 LEXICON NP1
@@ -600,6 +629,7 @@ LEXICON PRON-REF-THAN
 LEXICON PRON-DEM-AT
 
 %<prn%>%<dem%>%<sg%>%<nom%>:ത് CLIT-N-NOM ;
+%<prn%>%<dem%>%<sg%>%<nom%>:തു CLIT-N-NOM ; ! debug
 %<prn%>%<dem%>%<sg%>%<acc%>:തിനെ CLIT-N-ACC ; ! ""
 %<prn%>%<dem%>%<sg%>%<gen%>:തിന്റെ CLIT-N-GEN ;  
 %<prn%>%<dem%>%<sg%>%<dat%>:തിന് CLIT-N ; ! ""
@@ -1334,6 +1364,7 @@ LEXICON V-TV-KANUKA
 LEXICON VBCOP-AAK
 
 ആക്%<vbcop%>%<pres%>:ആണ് CLIT-ITG ; ! "FIXME"
+ആക്%<vbcop%>%<past%>:ആയി CLIT-ITG ; ! "FIXME"
 ആക്%<vbcop%>%<pres%>%+യില്ല%<adv%>:അല്ല CLIT-ITG ; ! "FIXME" 
 ആക്%<vbcop%>%<pres%>%+യില്ല%<adv%>:ഇല്ല CLIT-ITG ; ! "FIXME" 
 ആക്%<vbcop%>%<fut%>:ആയിരിക്കുമോ CLIT-ITG ; ! "FIXME"
@@ -1419,7 +1450,10 @@ LEXICON Miscellaneous
 എന്ന്%<quot%>:എന്നു # ; ! "ennu" ! "" ! Dir/LR !debug
 എന്ന%<enum%>:എന്ന # ; ! "enna" ! "" 
 
-എന്നീ%<enum%>:എന്നീ # ; ! "enna" ! "" 
+എന്നീ%<enum%>:എന്നീ # ; ! "ennee" ! "" 
+മുതലായ%<enum%>:മുതലായ # ;
+തുടങ്ങിയ%<enum%>:തുടങ്ങിയ # ;
+
 LEXICON Conjunctions 
 
 പക്ഷെ:പക്ഷെ CC ; ! "pakṣe" ! "but"
@@ -1487,6 +1521,12 @@ LEXICON Postpositions
 മുതല്‍:മുതല്‍  SPOST ; ! "" ! "from"
 തൊട്ട്:തൊട്ട് SPOST ; ! "" ! "from"
 വരെ:വരെ SPOST ; ! "" ! "from"
+!==with all ==
+മാത്രം:മാത്രം SPOST; ! "" ! "only"
+കൂടെ:കൂടെ SPOST ; ! "" ! "with"
+കൂടി:കൂടി SPOST ; ! "" ! ""
+തന്നെ:തന്നെ SPOST ; ! "" ! ""
+പോലും:പോലും SPOST ; ! "" ! ""
 
 LEXICON Pronouns
 
@@ -1494,6 +1534,7 @@ PRON-PERS-NNAAN ; ! "ñān" ! "I"
 നീ:ന PRON-PERS-NII ; ! "nī" ! "you"
 അവന്‍:അവന PRON-PERS-AVAN ; ! "avan" ! "he"
 
+ഇവന്‍:ഇവന PRON-PERS-AVAN ; ! "ivan" ! "he"
 അവള്‍:അവള PRON-PERS-AVAL ; ! "avaḷ‍" ! "she"
 
 ഞങ്ങള്‍:ഞങ്ങള PRON-PERS-NNANNAL ; ! "ñaṅṅaḷ‍" ! "we"
@@ -1519,6 +1560,10 @@ LEXICON Determiners
 
 ആ:ആ DET-DEM ; ! "ā" ! "that"
 ഈ:ഈ DET-DEM ; ! "ī" ! "this" 
+മറ്റ്:മറ്റ് DET-DEM ; ! "" ! "other"
+മറ്റ്:മറ്റു DET-DEM ; ! "" ! "other" !debug
+ഓരോ:ഓരോ DET-DEM ; ! "" ! "each" ! "distributive det"
+
 
 LEXICON Numerals
 
@@ -1618,18 +1663,18 @@ LEXICON NominalStems
 വര്‍ഷം:വര്‍ഷ N1 ; ! "FIXME" ! "year"
 വഴി:വഴി N2 ; ! "FIXME" ! "path"
 സംവിധാനം:സംവിധാന N1 ; ! "FIXME" ! "mechanism"
-കിലോമീറ്റര്‍:കിലോമീറ്ററ N3 ; ! "FIXME"! "kilometre"
-മീറ്റര്‍:മീറ്ററ N3 ; ! "FIXME" ! "meter"
-സര്‍ക്കാര്‍:സര്‍ക്കാറ N3 ; ! "" ! "government"
+കിലോമീറ്റര്‍:കിലോമീറ്റ N9 ; ! "FIXME"! "kilometre"
+മീറ്റര്‍:മീറ്റ N9 ; ! "FIXME" ! "meter"
+സര്‍ക്കാര്‍:സര്‍ക്കാ N9 ; ! "" ! "government"
 ഏപ്രില്‍:ഏപ്രില N3 ; ! "" ! "april"
 ജനുവരി:ജനുവരി N2 ; ! "" "!january"
 നൂറ്റാണ്ട്:നൂറ്റാണ്ട N3 ; ! "" ! "century"
-ഡിസംബര്‍:ഡിസംബറ N3; ! "" ! "december"
+ഡിസംബര്‍:ഡിസംബ N9; ! "" ! "december"
 ജൂണ്‍:ജൂണ N3; !"" ! ""
 സ്കൂള്‍:സ്കൂള N3; ! "" ! "school"
-സെപ്റ്റംബര്‍:സെപ്റ്റംബറ N3; ! "" ! "september"
-ഒക്ടോബര്‍:ഒക്ടോബറ N3 ; ! "" ! "october"
-നവംബര്‍:നവംബറ N3;! "" ! "novembr"
+സെപ്റ്റംബര്‍:സെപ്റ്റംബ N9; ! "" ! "september"
+ഒക്ടോബര്‍:ഒക്ടോബ N9 ; ! "" ! "october"
+നവംബര്‍:നവംബ N9;! "" ! "novembr"
 മെയ്:മെയ് NX ; ! " " ! "may"
 ജുലൈ:ജുലൈ N2 ; ! "" ! "julay"
 പാര്‍ട്ടി:പാര്‍ട്ടി N2 ; ! "" ! "party"
@@ -4475,6 +4520,9 @@ LEXICON Adverbs
 
 
 വളരെ:വളരെ PREADV ; ! "FIXME" ! "very"
+ഏറെ:ഏറെ PREADV ; ! "" ! "very"
+തെല്ല്:തെല്ല് PREADV ; ! "" ! "a somewhat"
+
 ഏറ്റവും:ഏറ്റവും PREADV ; ! "ēṟṟavuṁ" ! "most"
 കൂടുതല്‍:കൂടുതല്‍ PREADV ; ! "" ! "more"
 
@@ -4501,12 +4549,21 @@ LEXICON Adverbs
 തന്നെ:തന്നെ ADV ; ! "FIXME" ! "definitely"
 കൂടി:കൂടി ADV ; ! "FIXME" ! "too"
 പുറത്ത്:പുറത്ത് ADV ; ! "FIXME" ! "outside"
-പിന്നീട്:പിന്നീട് ADV ; ! "" ! "after"
+
 
 എല്ലായിടത്തും:എല്ലായിടത്തും ADV4 ; ! "FIXME" ! "everywhere"
 തീര്‍ച്ചയായും:തീര്‍ച്ചയായും ADV4 ; ! "FIXME" ! "definitly"
 അങ്ങനെ:അങ്ങനെ  ADV ; ! "FIXME" ! "like that"
 ചുറ്റും:ചുറ്റും ADV ; ! "FIXME" !"around"
+!sequential adverbs
+ആദ്യം:ആദ്യം ADV ; ! "" ! "first"
+പിന്നീട്:പിന്നീട് ADV ; ! "" ! "after"
+തുടര്‍ന്ന്:തുടര്‍ന്ന് ADV ; ! "" ! "after"
+ഒടുക്കം:ഒടുക്കം ADV ; ! "" ! "the end"
+അവസാനം:അവസാനം ADV ; ! "" ! "at last"
+ഇടയ്ക്ക്:ഇടയ്ക്ക് ADV ; ! "" ! "in between"
+!Sentinential adv
+കൂടാതെ:കൂടാതെ ADV ; ! "" ! ""
 
 LEXICON Verbs
 
