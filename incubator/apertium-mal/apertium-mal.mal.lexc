@@ -188,6 +188,10 @@ LEXICON CLIT-POST-EKK
 
 %+േക്ക്%<post%>:%»േക്ക് CLIT-CC ; ! "to" ! "ēkk"
 
+LEXICON CLIT-POST-EE 
+
+%+യേ%<post%>:%»േ CLIT-CC ; ! "only" ! ""
+
 LEXICON CLIT-N-NOM 
 
 %+യോടപ്പം%<post%>:%»%{z%}ോടപ്പം CLIT-COP; ! "with" ! "yēāṭappaṁ" 
@@ -343,6 +347,7 @@ LEXICON N5
 LEXICON N6
 
 %<n%>%<sg%>%<nom%>:്‍ CLIT-N-NOM ; ! "ṁ"
+%<n%>%<sg%>%<nom%>:ു CLIT-N-NOM ; ! "ṁ" ! "debug"
 %<n%>%<sg%>%<loc%>:ില്‍ CLIT-N-LOC ; ! "il‍"
 %<n%>%<sg%>%<acc%>:ിനെ CLIT-N-ACC ; ! "ine"
 %<n%>%<sg%>%<gen%>:ിന്റെ CLIT-N-GEN ; ! "̔inṟe"
@@ -795,6 +800,7 @@ LEXICON V-COMMON-ARIYUKA
 
 %<gpr_pres%>:%>യുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ഞ്ഞ GPR-PAST ; ! ""
+!%<
 
 LEXICON V-COMMON-ENNI
 
@@ -1448,11 +1454,16 @@ LEXICON PREADV
 LEXICON ADV-ITG
 
 %<adv%>%<itg%>: CLIT-COP ; 
-%<adv%>%<itg%>: CLIT-POST-EKK ; 
-
+%<adv%>%<itg%>: CLIT-POST-EKK ;
+ 
 LEXICON SPOST
 
 %<spost%>: CLIT-CC ;
+
+LEXICON SPOST1
+
+%<spost%>:ം CLIT-CC ;
+%<spost%>:മ CLIT-POST-EE ;
 
 LEXICON SPOST-LOC
 
@@ -1475,6 +1486,8 @@ LEXICON Miscellaneous
 എന്നീ%<enum%>:എന്നീ # ; ! "ennee" ! "" 
 മുതലായ%<enum%>:മുതലായ # ;
 തുടങ്ങിയ%<enum%>:തുടങ്ങിയ # ;
+ഇത്യാദി%<enum%>:ഇത്യാദി # ;
+
 
 LEXICON Conjunctions 
 
@@ -1506,6 +1519,7 @@ LEXICON Postpositions
 കുറിച്ച്:കുറിച്ച് SPOST; ! "about"
 പോലെ:പോലെ SPOST; ! "as,like"
 മുമ്പ്:മുമ്പ് SPOST; ! "before"
+മുന്‍പ്:മുന്‍പ് SPOST ; ! "before" ! "debug"
 പിമ്പ്:പിമ്പ് SPOST; ! "before"
 സമ്പന്ദിച്ച്:സമ്പന്ദിച്ച് SPOST; ! "according to"
 ഒഴിച്ച്:ഒഴിച്ച് SPOST; ! "except for"
@@ -1527,8 +1541,8 @@ LEXICON Postpositions
 അടുത്ത്:അടുത്ത് SPOST-LOC; ! "adjacent"
 എതിരെ:എതിരെ SPOST; ! "against"
 ഇടയില്‍:ഇടയില്‍  SPOST-LOC; ! "between"
-ശേഷം:ശേഷം SPOST; ! "after"
-അപ്പുറം:അപ്പുറം SPOST; ! "beyond"
+ശേഷം:ശേഷ SPOST1; ! "after"
+അപ്പുറം:അപ്പുറ SPOST1; ! "beyond"
 മുമ്പേ:മുമ്പേ SPOST; ! "prior to"
 മുന്നില്‍:മുന്നില്‍ SPOST; ! "infront of"
 ഉള്ളില്‍:ഉള്ളില്‍ SPOST-LOC; ! "in"
@@ -1536,7 +1550,7 @@ LEXICON Postpositions
 
 !==with dative =="
 വേണ്ടി:വേണ്ടി SPOST; ! "for"
-പകരം:പകരം SPOST; ! "in place of"പിറകില്:പിറകില് SPOST-LOC ; ! "FIXME" ! "behind"
+പകരം:പകര SPOST1; ! "in place of"പിറകില്:പിറകില് SPOST-LOC ; ! "FIXME" ! "behind"
 
 !==only after place ===
 നിന്ന്:നിന്ന് SPOST ; ! "nīnn" ! "from"
@@ -1544,7 +1558,7 @@ LEXICON Postpositions
 തൊട്ട്:തൊട്ട് SPOST ; ! "" ! "from"
 വരെ:വരെ SPOST ; ! "" ! "from"
 !==with all ==
-മാത്രം:മാത്രം SPOST; ! "" ! "only"
+മാത്രം:മാത്ര SPOST1; ! "" ! "only"
 കൂടെ:കൂടെ SPOST ; ! "" ! "with"
 കൂടി:കൂടി SPOST ; ! "" ! ""
 തന്നെ:തന്നെ SPOST ; ! "" ! ""
@@ -1565,6 +1579,7 @@ PRON-PERS-NNAAN ; ! "ñān" ! "I"
 നിങ്ങള്‍:നിങ്ങള PRON-PERS-NINNAL ; ! "niṅṅaḷ‍" ! "you"
 
 അവര്‍:അവര PRON-PERS-AVAR ; ! "avar" ! "they"
+ഇവര്‍:ഇവര PRON-PERS-AVAR ; ! "avar" ! "they"
 
 അത്:അ PRON-DEM-AT ; ! "at" ! "that"
 ഇത്:ഇ PRON-DEM-AT ; ! "it" ! "this"
@@ -1689,6 +1704,17 @@ LEXICON NominalStems
 സംവിധാനം:സംവിധാന N1 ; ! "FIXME" ! "mechanism"
 കിലോമീറ്റര്‍:കിലോമീറ്റ N9 ; ! "FIXME"! "kilometre"
 മീറ്റര്‍:മീറ്റ N9 ; ! "FIXME" ! "meter"
+കമ്പ്യൂട്ടര്‍:കമ്പ്യൂട്ട N9;
+കലണ്ടര്‍:കലണ്ട N9;
+ചതുരശ്രകിലോമീറ്റര്‍:ചതുരശ്രകിലോമീറ്റ N9;
+ശാസ്ത്രജ്ഞര്‍:ശാസ്ത്രജ്ഞ N9 ;
+ഗവര്‍ണര്‍:ഗവര്‍ണ N9 ;
+മണിക്കൂര്‍:മണിക്കൂര്‍  N9 ;
+സെന്റീമീറ്റര്‍:സെന്റീമീറ്റ N9 ;
+ഇന്റര്‍:ഇന്റ N9 ;
+കരാര്‍:കരാ N9 ;
+നായര്‍:നായ N9 ;
+സെന്റര്‍:സെന്റര്‍  N9 ;
 സര്‍ക്കാര്‍:സര്‍ക്കാ N9 ; ! "" ! "government"
 ഏപ്രില്‍:ഏപ്രില N3 ; ! "" ! "april"
 ജനുവരി:ജനുവരി N2 ; ! "" "!january"
@@ -1727,10 +1753,23 @@ LEXICON NominalStems
 സം:സ N1 ; ! "saṁ" ! "hand"
 വിദ്യാഭ്യാസം:വിദ്യാഭ്യാസ N1 ; ! "vidyābhyāsaṁ" ! "study, school, education"
 വിവാഹം:വിവാഹ N1 ; ! "vivāhaṁ" ! "wedding, marriage"
-സമയം:സമയ N1 ; ! "samayaṁ" ! "time, tide, term, season, period, opportunity, occasion, hour, duration, day, date, appointment"
+സമയം:സമയ N10 ; ! "samayaṁ" ! "time, tide, term, season, period, opportunity, occasion, hour, duration, day, date, appointment"
 മരണം:മരണ N1 ; ! "maraṇaṁ" ! "rest, obituary, mortality, exit, end, doom, destruction, departure, demise, decease, death, cessation"
 നിയമം:നിയമ N1 ; ! "niyamaṁ" ! "statute, rule, rigor, regulation, precept, pact, order, norm, law, justice, formula, edict, duty, dogma, clause, act"
 സംഗീതം:സംഗീത N1 ; ! "saṅgītaṁ" ! "strain, recital, music"
+പ്രവര്‍ത്തനം:പ്രവര്‍ത്തന N1;
+നിര്‍മ്മാണം:നിര്‍മ്മാണ N1;
+സ്വാതന്ത്ര്യം:സ്വാതന്ത്ര്യ N1;
+അര്‍ത്ഥം:അര്‍ത്ഥ N1;
+സിസ്റ്റം:സിസ്റ്റ  N1;
+താമസം:താമസ N1;
+ഊര്‍ജ്ജം:ഊര്‍ജ്ജ  N1;
+നിയമസഭാമണ്ഡലം:നിയമസഭാമണ്ഡല  N1;
+ദര്‍ശനം:ദര്‍ശന  N1;
+ഗ്രാം:ഗ്രാ N1;
+കിലോഗ്രാം:കിലോഗ്രാം N1;
+ക്വാണ്ടം:ക്വാണ്ട N1;
+മാര്‍ഗ്ഗം:മാര്‍ഗ്ഗ  N1;
 സ്വയം:സ്വയ N1 ; ! "svayaṁ" ! "missile"
 പകരം:പകര N1 ; ! "pakaraṁ" ! "vice, room, equivalent"
 തരം:തര N1 ; ! "taraṁ" ! "variant, type, standard, specimen, sort, scope, ratio, quality, persuasion, nature, kind, kidney, item, grade, genre, form, description, class, category, breed, brand"
@@ -3219,10 +3258,52 @@ LEXICON NominalStems
 പിതാവ്:പിതാവ N3; ! "" ! "father"
 മാതാവ്:മാതാവ N3; ! "" ! "mother"
 ഭര്‍ത്താവ്:ഭര്‍ത്താവ N3 ; ! "" ! "husband"
+ക്രിക്കറ്റ്:ക്രിക്കറ്റ N3 ; ! "" ! "cricket"
+താലൂക്ക്:താലൂക്ക N3 ; ! "" 
 പോലീസ്:പോലീസ N3; ! "" ! "police"
+മാര്‍ച്ച്:മാര്‍ച്ച N3 ; ! "' !"march"
+മേയ്:മേയ N3; ! "" ! "may"
 വിത്ത്:വിത്ത N3 ; ! ""  ! ""seed"
+ഓഗസ്റ്റ്:ഓഗസ്റ്റ N3; ! ""
+കോണ്‍ഗ്രസ്:കോണ്‍ഗ്രസ N3; ! ""
+സോവിയറ്റ്:സോവിയറ്റ N3; ! ""
+തെക്ക്:തെക്ക N3; ! ""
+സെന്റ്:സെന്റ N3; ! ""
+കിഴക്ക്:കിഴക്ക N3; ! ""
+പടിഞ്ഞാറ്:പടിഞ്ഞാറ N3; ! ""
+കോണ്‍ഗ്രസ്സ്:കോണ്‍ഗ്രസ്സ N3; ! ""
+പ്രസിഡന്റ്:പ്രസിഡന്റ N3; ! ""
+ബ്ലോക്ക്:ബ്ലോക്ക N3; ! ""
+ചൈനീസ്:ചൈനീസ N3; ! ""
+ടെസ്റ്റ്:ടെസ്റ്റ N3; ! ""
+ചാന്‍സ്:ചാന്‍സ N3; ! ""
+ഓര്‍ത്തഡോക്സ്:ഓര്‍ത്തഡോക്സ N3; ! ""
+ഇന്‍സ്റ്റിറ്റ്യൂട്ട്:ഇന്‍സ്റ്റിറ്റ്യൂട്ട N3; ! ""
+പതിപ്പ്:പതിപ്പ N3; ! ""
+ഈസ്റ്റ്:ഈസ്റ്റ N3; ! ""
+ഗ്രൂപ്പ്:ഗ്രൂപ്പ N3; ! ""
+കമ്യൂണിസ്റ്റ്:കമ്യൂണിസ്റ്റ N3; ! ""
+ആഗസ്റ്റ്:ആഗസ്റ്റ N3; ! ""
+വേള്‍ഡ്:വേള്‍ഡ N3; ! ""
+ഗവണ്‍മെന്റ്:ഗവണ്‍മെന്റ N3; ! ""
+റിപ്പോര്‍ട്ട്:റിപ്പോര്‍ട്ട N3; ! ""
+യുണൈറ്റഡ്:യുണൈറ്റഡ N3; ! ""
+ബോര്‍ഡ്:ബോര്‍ഡ N3; ! ""
+അറസ്റ്റ്:അറസ്റ്റ N3; ! ""
+വാക്ക്:വാക്ക N3; ! ""
+പതിവ്:പതിവ N3; ! ""
+ബ്ളോക്ക്:ബ്ളോക്ക N3; ! ""
+സൗത്ത്:സൗത്ത N3; ! ""
+ഗവണ്മെന്റ്:ഗവണ്മെന്റ N3; ! ""
+ഇന്റര്‍നെറ്റ്:ഇന്റര്‍നെറ്റ N3; ! ""
+വെസ്റ്റ്:വെസ്റ്റ N3; ! ""
+സിഖ്:സിഖ N3; ! ""
+സര്‍വീസ്:സര്‍വീസ N3; ! ""
+കോഡ്:കോഡ N3; ! ""
+ലോകകപ്പ്:ലോകകപ്പ N3; ! ""
 തായ്:തായ N3 ; ! "tāy" ! "mamma"
 നാട്:നാട N3 ; ! "nāṭ" ! "country"
+ഇംഗ്ലീഷ്:ഇംഗ്ലീഷ N3 ; ! "" ! "english"
 നേതാവ്:നേതാവ N3 ; ! "nētāv" ! "leader"
 ബസ്:ബസ N3 ; ! "bas" ! "depot"
 നെല്ല്:നെല്ല N3 ; ! "nell" ! "rice"
@@ -4508,7 +4589,9 @@ LEXICON ProperNouns
 LEXICON Adjectives 
 
 ചെറിയ:ചെറിയ A1 ; ! "ceṟiya" ! "small"
+പ്രമുഖ:പ്രമുഖ A1; ! "' ! "importnat"
 പുതിയ:പുതിയ A1 ; ! "putiya" ! "new"
+അടുത്ത:അടുത്ത A1 ; ! "" ! "near"
 പഴയ:പഴയ A1 ; ! "paḻaya" ! "old"
 നീണ്ട:നീണ്ട A1 ; ! "nīṇṭa" ! "long"
 വലിയ:വലിയ A1 ; ! "valiya" ! "big"
@@ -4520,7 +4603,9 @@ LEXICON Adjectives
 മികച്ച:മികച്ച A1; ! "" ! "good"
 ചില:ചില A1 ; ! "" ! "some"
 വന്‍:വന്‍ A1; ! "" ! ""
+മുന്‍:മുന്‍ A1; ! "" ! ""
 പ്രധാന:പ്രധാന A1 ; ! "" ! "important"
+മുഖ്യ:മുഖ്യ A3 ; ! "" ! ""
 പ്രത്യേകം:പ്രത്യേക A3 ;  ! "" ! "spcecial"
 ഊഷ്മളം:ഊഷ്മള A3 ; ! "FIXME" ! "warm"
 തുല്യം:തുല്യ A3 ; ! "" ! "equal"
@@ -4531,7 +4616,10 @@ LEXICON Adjectives
 നിരവധി:നിരവധി A1; ! "' ! ""
 ഇത്തരം:ഇത്തര A3 ; ! "" ! "these type" !debug
 ഇന്ത്യന്‍:ഇന്ത്യന A4 ; ! "indyan" ! "indian" ! Use/Sub ! Dir/LR
+റോമന്‍:റോമന A4; ! "roman" ! Use/Sub ! Dir/LR
+ബ്രിട്ടീഷ്:ബ്രിട്ടീഷ് A4 ; ! "british" ! "indian" ! Use/Sub ! Dir/LR
 അമേരിക്കന്‍:അമേരിക്കന A4; ! "american" ! "american" ! Use/Sub ! Dir/LR
+പ്രമുഖ:പ്രമുഖ A1; ! "important "
 
 LEXICON Adverbs
 
@@ -4587,6 +4675,9 @@ LEXICON Adverbs
 ഇടയ്ക്ക്:ഇടയ്ക്ക് ADV ; ! "" ! "in between"
 !Sentinential adv
 കൂടാതെ:കൂടാതെ ADV ; ! "" ! ""
+
+!not sure
+എല്ലാ:എല്ലാ ADV ; ! "" ! "all'
 
 LEXICON Verbs
 
