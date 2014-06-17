@@ -484,6 +484,28 @@ LEXICON NP3
 %<np%>%<ant%>%<m%>%<pl%>%<soc%>:ുമാരോട് CLIT-N ; ! "mārēāṭ"
 %<np%>%<ant%>%<m%>%<pl%>%<ins%>:ുമാരാല്‍ CLIT-N ; ! "mārāl‍"
 
+LEXICON NP4
+
+%<np%>%<ant%>%<m%>%<sg%>%<nom%>: CLIT-N-NOM ; ! ""
+%<np%>%<ant%>%<m%>%<sg%>%<loc%>:യില്‍ CLIT-N-LOC; ! "yil‍"
+%<np%>%<ant%>%<m%>%<sg%>%<acc%>:യെ CLIT-N-ACC ; ! "ye"
+%<np%>%<ant%>%<m%>%<sg%>%<gen%>:യുടെ CLIT-N-GEN ; ! "yuṭe"
+%<np%>%<ant%>%<m%>%<sg%>%<dat%>:യ്ക് CLIT-N ; ! "yk"
+%<np%>%<ant%>%<m%>%<sg%>%<voc%>:േ #; ! ""
+
+%<np%>%<ant%>%<m%>%<sg%>:യ N-CASES-SG ; ! ""
+!plural
+%<np%>%<ant%>%<m%>%<pl%>%<nom%>:മാര്‍ CLIT-N-NOM ; ! ""
+%<np%>%<ant%>%<m%>%<pl%>%<loc%>:മാരില്‍ CLIT-N-LOC ; ! "mār‍"
+%<np%>%<ant%>%<m%>%<pl%>%<acc%>:മാരെ CLIT-N-ACC ; ! "māre"
+%<np%>%<ant%>%<m%>%<pl%>%<gen%>:മാരുടെ CLIT-N-GEN ; ! "māruṭe"
+%<np%>%<ant%>%<m%>%<pl%>%<dat%>:മാര്‍ക് CLIT-N ; ! "mār‍k"
+%<np%>%<ant%>%<m%>%<pl%>%<soc%>:മാരോട് CLIT-N ; ! "mārēāṭ"
+%<np%>%<ant%>%<m%>%<pl%>%<vov%>:മാരേ # ; ! ""
+%<np%>%<ant%>%<m%>%<pl%>%<ins%>:മാരാല്‍ CLIT-N ; ! "mārāl‍"
+
+
+
 LEXICON NP-TOP-KERALA
 
 %<np%>%<top%>%<sg%>%<nom%>:ം CLIT-N-NOM ; !""
@@ -3443,6 +3465,15 @@ LEXICON NominalStems
 യോജിപ്പ്:യോജിപ്പ N3 ; ! "yēājipp" ! "accord"
 ബ്ലേഡ്:ബ്ലേഡ N3 ; ! "blēḍ" ! "blade"
 ചുള്ളിക്കാട്:ചുള്ളിക്കാട N5 ; ! "cuḷḷikkāṭ" ! "heath"
+സുറിയാനി:സുറിയാനി N2; ! ""
+!ഇടുക്കി:ഇടുക്കി N2; ! ""
+ചക്രവര്‍ത്തി:ചക്രവര്‍ത്തി N2; ! ""
+ഭഗവതി:ഭഗവതി N2; ! ""
+നമ്പൂതിരി:നമ്പൂതിരി N2; ! ""
+യൂണിവേഴ്സിറ്റി:യൂണിവേഴ്സിറ്റി N2; ! ""
+സൊസൈറ്റി:സൊസൈറ്റി N2; ! ""
+ബംഗാളി:ബംഗാളി N2; ! ""
+
 
 സ്ഥിതി:സ്ഥിതി N2 ; ! "sthiti" ! "temperature, sweat, stay, status, station, state, situation, shape, posture, post, position, place, nature, existence, event, condition, bearer, air"
 വഴി:വഴി N2 ; ! "vaḻi" ! "way, track, stream, room, road, path, passage, line, highway, gateway, entrance, channel, access"
@@ -3937,6 +3968,9 @@ LEXICON NominalStems
 വസ്തു:വസ്തു N7 ; ! "vastu" ! "estate"
 പ്രഭു:പ്രഭു N7 ; ! "prabhu" ! "prince, lord, knight, count, aristocrat"
 വേണു:വേണു N7 ; ! "vēṇu" ! "cane"
+ഹിന്ദു:ഹിന്ദു N7; ! ""
+ഗുരു:ഗുരു N7; ! ""
+ഉബുണ്ടു:ഉബുണ്ടു N7; ! ""
 പുരാവസ്തു:പുരാവസ്തു N7 ; ! "purāvastu" ! "museum"
 മധു:മധു N7 ; ! "madhu" ! "honey, drink"
 നിഘണ്ടു:നിഘണ്ടു N7 ; ! "nighaṇṭu" ! "lexicon, glossary, dictionary"
@@ -4569,6 +4603,25 @@ LEXICON ProperNouns
 ക്യൂറി:ക്യൂറി NP2 ; ! "cury"
 രാജു:രാജ NP3 ; ! "rāju" ! "Raju"
 രാധ:രാധ NP2 ; ! "rādha" ! "Radha"
+
+ജോണ്‍:ജോണ്‍ NPX; ! ""
+ഖാന്‍:ഖാന്‍ NPX; ! ""
+പോള്‍:പോള്‍ NPX; ! ""
+മാര്‍പ്പാപ്പ:മാര്‍പ്പാപ്പ NP4; ! ""
+ഗാന്ധി:ഗാന്ധി NP4; ! ""
+റോബര്‍ട്ട്:റോബര്‍ട്ട് NPX; ! ""
+കൃഷ്ണന്‍:കൃഷ്ണന്‍ NPX; ! ""
+ജോര്‍ജ്ജ്:ജോര്‍ജ്ജ് NPX; ! ""
+അലക്സാണ്ടര്‍:അലക്സാണ്ടര്‍ NPX; ! ""
+ജോര്‍ജ്:ജോര്‍ജ് NPX; ! ""
+യേശു:യേശു NP4; ! ""
+ജോണ്‍സണ്:ജോണ്‍സണ് NPX; ! ""
+ഡേവിഡ്:ഡേവിഡ NP1; ! ""
+അമീര്‍:അമീര്‍ NPX; ! ""
+പൗലോസ്:പൗലോസ NP1; ! ""
+ശിവന്‍:ശിവന്‍ NPX; ! ""
+
+
 
 കേരളം:കേരള NP-TOP-KERALA ; ! "keralam" ! "Kerala"
 തിരുവനന്തപുരം:തിരുവനന്തപുര NP-TOP-KERALA ; ! "trivandrum"
