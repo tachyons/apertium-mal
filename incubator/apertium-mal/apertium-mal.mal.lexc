@@ -88,6 +88,8 @@ Multichar_Symbols
 %<top%>          !
 %<ord%>          ! Ordinal
 
+%<pcpl%>         ! participle                 !
+
 %{y%}           ! Epenthetic consonant        !
                 !   -y-, -v- or -r-           !
 %{z%}           ! Epenthetic consonant        !
@@ -665,13 +667,21 @@ LEXICON PRON-REF-THAN
 %<prn%>%<ref%>%<p2%>%<mf%>%<sg%>%<ins%>:ന്നാല്‍ CLIT-N ; ! ""
 %<prn%>%<ref%>%<p2%>%<mf%>%<sg%>%<soc%>:ന്നോട് CLIT-N ; ! ""
 
-%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<nom%>:ാങ്കള്‍ CLIT-N-NOM ; ! ""
-%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<acc%>:ാങ്കളെ CLIT-N-ACC ; ! ""
-%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<gen%>:ാങ്കളുടെ CLIT-N-GEN ; ! ""
-%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<dat%>:ാങ്കള്‍ക് CLIT-N ; ! ""
-%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<loc%>:ാങ്കളില്‍ CLIT-N-LOC ; ! ""
-%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<ins%>:ാങ്കളാല്‍ CLIT-N ; ! ""
-%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<soc%>:ാങ്കളോട് CLIT-N ; ! ""
+%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<nom%>:ങ്ങള്‍ CLIT-N-NOM ; ! ""
+%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<acc%>:ങ്ങളെ CLIT-N-ACC ; ! ""
+%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<gen%>:ങ്ങളുടെ CLIT-N-GEN ; ! ""
+%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<dat%>:ങ്ങള്‍ക്ക് CLIT-N ; ! ""
+%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<loc%>:ങ്ങളില്‍ CLIT-N-LOC ; ! ""
+%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<ins%>:ങ്ങളാല്‍ CLIT-N ; ! ""
+%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<soc%>:ങ്ങളോട് CLIT-N ; ! ""
+
+!%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<nom%>:ാങ്കള്‍ CLIT-N-NOM ; ! ""
+!%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<acc%>:ാങ്കളെ CLIT-N-ACC ; ! ""
+!%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<gen%>:ാങ്കളുടെ CLIT-N-GEN ; ! ""
+!%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<dat%>:ാങ്കള്‍ക് CLIT-N ; ! ""
+!%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<loc%>:ാങ്കളില്‍ CLIT-N-LOC ; ! ""
+!%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<ins%>:ാങ്കളാല്‍ CLIT-N ; ! ""
+!%<prn%>%<ref%>%<p2%>%<mf%>%<pl%>%<soc%>:ാങ്കളോട് CLIT-N ; ! ""
 
 LEXICON PRON-DEM-AT
 
@@ -1114,6 +1124,7 @@ LEXICON V-COMMON-ATIKKUKA
 %<imp%>%<frml%>:%>ക്കണം # ; !""
 %<imp%>%<infml%>:%>ക്കൂ # ; !""
 %<hab%>:%>ക്കാര്‍ CLIT-COP-UNTU ; ! "ār"
+%<pcpl%>:%>ച്ച് # ; ! ""
 !%<nom%>%:%>ല്‍  CLIT-COP  ; !""
 
 LEXICON V-COMMON-VEIKUKA
@@ -3297,6 +3308,7 @@ LEXICON NominalStems
 പ്രസിഡന്റ്:പ്രസിഡന്റ N3; ! ""
 ബ്ലോക്ക്:ബ്ലോക്ക N3; ! ""
 ചൈനീസ്:ചൈനീസ N3; ! ""
+കമ്മ്യൂണിസ്റ്റ്:കമ്മ്യൂണിസ്റ്റ N3; ! ""
 ടെസ്റ്റ്:ടെസ്റ്റ N3; ! ""
 ചാന്‍സ്:ചാന്‍സ N3; ! ""
 ഓര്‍ത്തഡോക്സ്:ഓര്‍ത്തഡോക്സ N3; ! ""
@@ -3844,6 +3856,7 @@ LEXICON NominalStems
 ചതി:ചതി N2 ; ! "cati" ! "treachery, trap, swindle, decoy, deception, deceit"
 ഗോവണി:ഗോവണി N2 ; ! "gēāvaṇi" ! "staircase"
 വട്ടി:വട്ടി N2 ; ! "vaṭṭi" ! "basket"
+നബി:നബി N2 ; ! "" ! 
 ഭരണരീതി:ഭരണരീതി N2 ; ! "bharaṇarīti" ! "form"
 ബേക്കറി:ബേക്കറി N2 ; ! "bēkkaṟi" ! "bakery"
 നാളി:നാളി N2 ; ! "nāḷi" ! "jet"
@@ -3961,6 +3974,7 @@ LEXICON NominalStems
 കാറ്റാടി:കാറ്റാടി N2 ; ! "kāṟṟāṭi" ! "weathercock"
 കരണ്ടി:കരണ്ടി N2 ; ! "karaṇṭi" ! "spoon, rake"
 കച്ചി:കച്ചി N2 ; ! "kacci" ! "straw, hay"
+ജൂലൈ:ജൂലൈ N2; !"july
 
 സ്ത്രീ:സ്ത്രീ N2; ! "" ! "woman"
 
@@ -4609,11 +4623,11 @@ LEXICON ProperNouns
 പോള്‍:പോള്‍ NPX; ! ""
 മാര്‍പ്പാപ്പ:മാര്‍പ്പാപ്പ NP4; ! ""
 ഗാന്ധി:ഗാന്ധി NP4; ! ""
-റോബര്‍ട്ട്:റോബര്‍ട്ട് NPX; ! ""
+റോബര്‍ട്ട്:റോബര്‍ട്ട1 NP1; ! ""
 കൃഷ്ണന്‍:കൃഷ്ണന്‍ NPX; ! ""
-ജോര്‍ജ്ജ്:ജോര്‍ജ്ജ് NPX; ! ""
+ജോര്‍ജ്ജ്:ജോര്‍ജ്ജ NP1; ! ""
 അലക്സാണ്ടര്‍:അലക്സാണ്ടര്‍ NPX; ! ""
-ജോര്‍ജ്:ജോര്‍ജ് NPX; ! ""
+ജോര്‍ജ്:ജോര്‍ജ1 NP1; ! ""
 യേശു:യേശു NP4; ! ""
 ജോണ്‍സണ്:ജോണ്‍സണ് NPX; ! ""
 ഡേവിഡ്:ഡേവിഡ NP1; ! ""
@@ -4626,7 +4640,8 @@ LEXICON ProperNouns
 കേരളം:കേരള NP-TOP-KERALA ; ! "keralam" ! "Kerala"
 തിരുവനന്തപുരം:തിരുവനന്തപുര NP-TOP-KERALA ; ! "trivandrum"
 കൊല്ലം:കൊല്ല NP-TOP-KERALA ; ! "kollam"
-ഇന്ത്യ:ഇന്ത്യ  NP-TOP-INDIA ; ! "keralam" ! "Kerala"
+ഇന്ത്യ:ഇന്ത്യ  NP-TOP-INDIA ; ! "india" ! ""
+ആഫ്രിക്ക:ആഫ്രിക്ക NP-TOP-INDIA ; ! "africa"
 ചൈന:ചൈന NP-TOP-INDIA ; ! "china"
 ആലപ്പുഴ:ആലപ്പുഴ NP-TOP-INDIA ; ! "alappuzha"
 അമേരിക്ക:അമേരിക്ക NP-TOP-INDIA ; ! "america"
@@ -4637,6 +4652,7 @@ LEXICON ProperNouns
 വയനാട്:വയനാട NP-TOP-CALICUT ; ! "vayanad"
 മലപ്പുറം:മലപ്പുറ NP-TOP-KERALA ; ! "malappuram"
 കണ്ണൂര്‍:കണ്ണൂര NP-TOP-KANNUR ; ! "kannur"
+തിരുവിതാംകൂര്‍:തിരുവിതാംകൂര NP-TOP-KANNUR ; ! "thiruvitam koor"
 
 എറണാകുളം:എറണാകുള NP-TOP-KERALA; ! ""
 കോട്ടയം:കോട്ടയ  NP-TOP-KERALA; ! ""
@@ -4688,6 +4704,8 @@ LEXICON Adjectives
 നിരവധി:നിരവധി A1; ! "' ! ""
 ഇത്തരം:ഇത്തര A3 ; ! "" ! "these type" !debug
 ഇന്ത്യന്‍:ഇന്ത്യന A4 ; ! "indyan" ! "indian" ! Use/Sub ! Dir/LR
+ആഫ്രിക്കന്‍:ആഫ്രിക്കന A4 ; ! "african" ! ""
+യൂറോപ്യന്‍:യൂറോപ്യന A4 ; ! "europian"
 റോമന്‍:റോമന A4; ! "roman" ! Use/Sub ! Dir/LR
 ബ്രിട്ടീഷ്:ബ്രിട്ടീഷ് A4 ; ! "british" ! "indian" ! Use/Sub ! Dir/LR
 അമേരിക്കന്‍:അമേരിക്കന A4; ! "american" ! "american" ! Use/Sub ! Dir/LR
@@ -4751,6 +4769,9 @@ LEXICON Adverbs
 !not sure
 എല്ലാ:എല്ലാ ADV ; ! "" ! "all'
 
+!quantitative
+മുഴുവന്‍:മുഴുവന്‍ ADV ; ! "complete"
+
 LEXICON Verbs
 
 VBCOP-AAK ; ! "āk" ! "be"
@@ -4808,6 +4829,7 @@ VBCOP-AAK ; ! "āk" ! "be"
 പെറുക:പെ V-TV-PERUKA ; ! "peṟuka"
 അടിക്കുക:അടി V-TV-ATIKKUKA ; ! "aṭikkuka" ! "beat"
 വിളിക്കുക:വിളി V-TV-ATIKKUKA ; ! "viḷikkuka" ! "call"
+പ്രവേശിക്കുക:പ്രവേശി V-TV-ATIKKUKA ; ! "" ! "enter"
 അനുസരിക്കുക:അനുസരി V-TV-ATIKKUKA ; ! "anusarikkuka" ! "obey"
 ആരംഭിക്കുക:ആരംഭി V-TV-ATIKKUKA ; ! "ārambhikkuka" !"start"
 പ്രവര്‍ത്തിക്കുക:പ്രവര്‍ത്തി V-TV-ATIKKUKA ; ! "pravar‍ttikkuka" ! "do"
@@ -4852,6 +4874,7 @@ VBCOP-AAK ; ! "āk" ! "be"
 നിയന്ത്രിക്കുക:നിയന്ത്രി V-TV-ATIKKUKA; ! "niyantrikkuka"! "Conduct"
 നിര്‍ണ്ണയിക്കുക:നിര്‍ണ്ണയി V-TV-ATIKKUKA; ! "nir‍ṇṇayikkuka"! "Calculate"
 നിര്‍മിക്കുക:നിര്‍മി V-TV-ATIKKUKA; ! "nir‍mikkuka"! "Construct"
+നിര്‍മിക്കുക:നിര്‍മ്മി V-TV-ATIKKUKA; ! "nir‍mikkuka"! "Construct" ! "debug"
 നിര്‍വഹിക്കുക:നിര്‍വഹി V-TV-ATIKKUKA; ! "nir‍vahikkuka"! "Administer"
 നിവര്‍ത്തിക്കുക:നിവര്‍ത്തി V-TV-ATIKKUKA; ! "nivar‍ttikkuka"! "Complete"
 പണികഴിപ്പിക്കുക:പണികഴിപ്പി V-TV-ATIKKUKA; ! "paṇikaḻippikkuka"! "Construct"
