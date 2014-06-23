@@ -33,6 +33,7 @@ Multichar_Symbols
 %<past%>        ! Past tense                  ! ഭൂത കാലം 
 %<fut%>         ! Future tense                ! 
 %<perf%>        ! Simple Perfect              !
+%<rem_perf%>    ! Remote Perfect              !
 %<perm%>        ! Permissive mood             !
 %<imp%>         ! Imperative mood             !
 %<hab%>         ! Habitual aspect             ! 
@@ -101,6 +102,7 @@ Multichar_Symbols
 %>              ! Morpheme boundary           !
 %»              ! Clitic boundary
 %               ! Space symbol                !
+‍                ! u200d                        !
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -857,6 +859,8 @@ LEXICON V-COMMON-KALI
 
 %<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ച്ച GPR-PAST ; ! ""
+%<pcpl%>:%>ച്ച് # ; ! "" ! "debug"
+
 
 !%<simul%>:%>
 !%<oblig%>:%>
@@ -918,8 +922,8 @@ LEXICON V-COMMON-LABHIKKUKA
 LEXICON V-COMMON-NOKKUKA
 
 %<inf_k%>:%>ുക  CLIT-CC ; ! "̔uka" ! FIXME
-%<inf_n%>:%>ക്കാന്‍ #; ! "kkān‍" ! 
- 
+%<inf_n%>:%>ാന്‍ #; ! "kkān‍" ! 
+%<perf%>:%>ിയിരുന്നു CLIT-ITG ; ! "̔" ! 
 %<pres%>:%>ുന്നു # ; ! "̔̔unnu"
 %<past%>:%>ി # ; ! "i"
 %<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
@@ -935,7 +939,7 @@ LEXICON V-COMMON-KELKKUKA
 LEXICON V-COMMON-KANDETHUKA   ! same as patuka ?? !FIXME
 %<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
 %<inf_n%>:%>ാന്‍  #; ! "̔ān‍ " ! 
- 
+%<rem_perf%>:%>ിയിട്ടുണ്ട് CLIT-ITG ; ! "̔ān‍ " ! 
 %<pres%>:%>ുന്നു # ; ! "̔̔unnu"
 %<past%>:%>ി # ; ! "̔i "
 %<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
@@ -1021,11 +1025,13 @@ LEXICON V-COMMON-THINNUKA
 %<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
 %<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔ān‍ " ! 
 %<perf%>:%>ിരുന്നു CLIT-ITG ; ! "̔ān‍ " ! 
+%<rem_perf%>:%>ിട്ടുണ്ട് CLIT-ITG ; ! "̔" ! 
 %<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔unnu"
 %<past%>:%>ു NEG-WHEN ; ! "̔i "
 %<iter%>%<pres%>:%>ുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "̔i "
 %<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%> GPR-PAST ; ! ""
+
 
 LEXICON V-COMMON-THEERUKA
 %<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
@@ -1056,6 +1062,7 @@ LEXICON V-COMMON-VERUKKUKA
 %<iter%>%<pres%>:%>ുത്തുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "̔i "
 %<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ുത്ത GPR-PAST ; ! ""
+%<perm%>:%>ക്കാം #;
 
 
 LEXICON V-COMMON-NOVUKA 
@@ -1488,6 +1495,144 @@ LEXICON V-IV-KALI
 LEXICON V-TV-KANUKA
 
 %<v%>%<tv%>: V-COMMON-KANU ; ! ""
+!reverse
+LEXICON V-IV-VERUKKUKA
+%<v%>%<iv%>: V-COMMON-VERUKKUKA  ; ! "" 
+
+LEXICON V-TV-NOVUKA
+%<v%>%<TV%>: V-COMMON-NOVUKA  ; ! "" 
+
+LEXICON V-TV-KARAYUKA
+%<v%>%<TV%>: V-COMMON-KARAYUKA  ; ! ""
+
+ 
+LEXICON V-IV-KOLLUKA
+%<v%>%<iv%>: V-COMMON-KOLLUKA  ; ! "" 
+
+LEXICON V-IV-ALANNU
+%<v%>%<iv%>: V-COMMON‌-ALANNU  ; ! "" 
+
+
+LEXICON V-IV-THARUKA
+%<v%>%<iv%>: V-COMMON-THARUKA  ; ! "" 
+
+
+LEXICON V-IV-VILKUKA
+%<v%>%<iv%>: V-COMMON-VILKUKA  ; ! "" 
+
+
+LEXICON V-TV-VEENU
+%<v%>%<TV%>: V-COMMON-VEENU  ; ! "" 
+
+
+LEXICON V-TV-VIRALUKA
+%<v%>%<TV%>: V-COMMON-VIRALUKA  ; ! "" 
+
+LEXICON V-IV-NILKUKA
+%<v%>%<iv%>: V-COMMON-NILKUKA  ; ! "" 
+
+
+LEXICON V-TV-THAZHUKA
+%<v%>%<TV%>: V-COMMON-THAZHUKA  ; ! "" 
+
+LEXICON V-IV-PERUKA
+%<v%>%<iv%>: V-COMMON-PERUKA  ; ! "" 
+
+
+LEXICON V-IV-ATIKKUKA
+%<v%>%<iv%>: V-COMMON-ATIKKUKA  ; ! "" 
+
+
+LEXICON V-TV-VEIKUKA 
+%<v%>%<TV%>: V-COMMON-VEIKUKA  ; ! "" 
+
+
+LEXICON V-IV-PATUKA
+%<v%>%<iv%>: V-COMMON-PATUKA  ; ! "" 
+
+
+LEXICON V-TV-CHAKUKA
+%<v%>%<TV%>: V-COMMON-CHAKUKA  ; ! "" 
+
+
+LEXICON V-IV-THOTUKA
+%<v%>%<iv%>: V-COMMON-THOTUKA  ; ! "" 
+
+LEXICON V-IV-NERUKA
+%<v%>%<iv%>: V-COMMON-NERUKA  ; ! "" 
+
+LEXICON V-IV-PILARKUKA
+%<v%>%<iv%>: V-COMMON-PILARKUKA  ; ! "" 
+
+LEXICON V-IV-UZHUTHUKA
+%<v%>%<iv%>: V-COMMON-UZHUTHUKA  ; ! "" 
+
+LEXICON V-IV-EALKUKA
+%<v%>%<iv%>: V-COMMON-EALKUKA  ; ! "" 
+
+LEXICON V-IV-NIKAZHUKA
+%<v%>%<iv%>: V-COMMON-NIKAZHUKA  ; ! "" 
+
+LEXICON V-IV-KAKKUKA
+%<v%>%<iv%>: V-COMMON-KAKKUKA  ; ! "" 
+
+
+LEXICON V-TV-THEERUKA
+%<v%>%<TV%>: V-COMMON-THEERUKA ; ! "" 
+  
+LEXICON V-IV-THINNUKA
+%<v%>%<iv%>: V-COMMON-THINNUKA ; ! "" 
+
+LEXICON V-IV-KITTUKA 
+%<v%>%<iv%>: V-COMMON-KITTUKA ; ! "" 
+
+LEXICON V-TV-VARUKA 
+%<v%>%<TV%>: V-COMMON-VARUKA; ! "" 
+
+LEXICON V-TV-IRUNNU
+%<v%>%<TV%>: V-COMMON-IRUNNU ; ! "" 
+
+LEXICON V-IV-CHEYYUKA 
+%<v%>%<iv%>: V-COMMON-CHEYYUKA ; ! "" 
+
+LEXICON V-IV-ISHTAPETUKA
+%<v%>%<iv%>: V-COMMON-ISHTAPETUKA ; ! "" 
+
+LEXICON V-TV-URANGUKA
+%<v%>%<TV%>: V-COMMON-URANGUKA ; ! "" 
+
+LEXICON V-TV-POKUKA 
+%<v%>%<TV%>: V-COMMON-POKUKA ; ! "" 
+
+LEXICON V-TV-NADAKKUKA
+%<v%>%<TV%>: V-COMMON-NADAKKUKA ; ! "" 
+
+LEXICON V-IV-KANDETHUKA
+%<v%>%<iv%>: V-COMMON-KANDETHUKA ; ! "" 
+
+LEXICON V-IV-KELKKUKA
+%<v%>%<iv%>: V-COMMON-KELKKUKA ; ! "" 
+ 
+LEXICON V-IV-NOKKUKA 
+%<v%>%<iv%>: V-COMMON-NOKKUKA ; ! ""
+
+LEXICON V-IV-LABHIKKUKA 
+%<v%>%<iv%>: V-COMMON-LABHIKKUKA ; ! ""
+
+LEXICON V-IV-ENNI
+%<v%>%<iv%>: V-COMMON-ENNI ; ! ""
+
+LEXICON V-IV-ARIYUKA
+
+%<v%>%<iv%>: V-COMMON-ARIYUKA ; ! ""
+
+LEXICON V-TV-KALI
+
+%<v%>%<TV%>: V-COMMON-KALI ; ! ""
+
+LEXICON V-IV-KANUKA
+
+%<v%>%<iv%>: V-COMMON-KANU ; ! ""
 
 
 LEXICON VBCOP-AAK
@@ -1755,22 +1900,33 @@ LEXICON NominalStems
 പട്ടി:പട്ടി N2 ; ! "paṭṭi" ! "dog"
 കുട്ടി:കുട്ടി N2 ; ! "kuṭṭi" !"children"
 പൂച്ച:പൂച്ച N2 ; ! "pūcca" ! "cat"
+ഖരാവസ്ഥ:ഖരാവസ്ഥ N2; ! "' ! "solid state'
 അമ്മ:അമ്മ N4 ; ! "am'ma" ! "mother"
 ജനല്‍:ജനല N3 ; ! "janal‍" ! "window"
+മണല്‍:മണല N3; ! "" ! "sand"
 ജയില്‍:ജയില N3 ; ! "" ! "jayil"
 നോബല്‍:നോബല N3 ; ! "" ! "nobel"
 നോബെല്‍:നോബെല N3 ; ! "" ! "nobel"
 മരം:മര N1 ; ! "maraṁ" ! "tree"
+ഉല്‍പന്നം:ഉല്‍പന്ന N1 ; ! "" ! "product"
+ഉല്‍പന്നം:ഉല്പന്നം N1 ; ! "" ! "product' ! "debug"
+നഷ്ടം:നഷ്ട N1; !"" ! ""
+പ്രായോഗികം:പ്രായോഗിക N1; ! "" ! "practical" FIXME
 ലോഹം:ലോഹ N1 ; ! "' ! "metal"
 വര്‍ഷം:വര്‍ഷ N1; ! "" ! "year"
 കണ്ണ്:കണ്ണ N3 ; ! "kaṇṇa" ! "eye"
+റേഡിയോഐസോട്ടോപ്പ്:റേഡിയോഐസോട്ടോപ്പ് N3; ! "' ! "radio isotope'
 കൈ:കൈ N2 ; ! "kai" ! "hand"
 കളി:കളി N2 ; ! "kaḷi"  ! "game"
+ദമ്പതി:ദമ്പതി  N2; ! "' ! "couples'
 മേശ:മേശ N2 ; ! "mēśa" ! "table"
 കസേര:കസേര N2 ; ! "kasēra" ! "chair"
+വിക്കിപീഡിയ:വിക്കിപീഡിയ N2; ! "" ! "wikipeadia'
 പക്ഷി:പക്ഷി N2 ; ! "pakṣi" ! "bird"
+ഉല്‍സര്‍ജീകാരി:ഉല്‍സര്‍ജീകാരി N2; ! "" !""
 മ്രിഗം:മ്രിഗ N1 ; ! "mrigaṁ" ! "animal"
 തല:തല N2 ; ! "tala" ! "head"
+വര്‍ണരാജി:വര്‍ണരാജി N2 ; ! "' ! ""
 വെള്ളം:വെള്ള N1 ; ! "veḷḷaṁ" ! "water"
 ജനം:ജന N1 ; ! "FIXME" ! "people" 
 ഉത്തരം:ഉത്തര N1 ; ! "FIXME" ! "answer"
@@ -1798,6 +1954,7 @@ LEXICON NominalStems
 പുച്ഛം:പുച്ഛ N1 ; ! "FIXME" ! "contempt, scorn, abhorrence; decision"
 ഔഷധം:ഔഷധ N1 ; ! "FIXME" ! "medicine"
 ഗൂഢന്‍:ഗൂഢന N3 ; ! "FIXME" ! ""
+ഹൈഡ്രജന്‍:ഹൈഡ്രജന N3 ; ! "' ! "'hydrogen"
 ഋഷഭം:ഋഷഭ N1 ; ! "FIXME" ! ""
 പരദുഃഖം:പരദുഃഖ N1 ; ! "FIXME" ! ""
 അധഃപതനം:അധഃപതന N1; ! "FIXME" ! "abjectness"
@@ -1852,7 +2009,7 @@ LEXICON NominalStems
 ക്ഷേത്രം:ക്ഷേത്ര N1 ; ! "kṣētraṁ" ! "temple, pagoda, area"
 പ്രകാരം:പ്രകാര N1 ; ! "prakāraṁ" ! "type, stamp, sort, respect, rate, rampart, quality, mood, manner, fence"
 ദിവസം:ദിവസ N1 ; ! "divasaṁ" ! "day"
-സ്ഥാനം:സ്ഥാന N1 ; ! "sthānaṁ" ! "stripe, status, state, stall, stage, situation, site, seat, scope, room, region, rank, quarter, post, position, point, placing, place, origin, opening, location, grade, goal, establishment, disposition"
+സ്ഥാനം:സ്ഥാന N10 ; ! "sthānaṁ" ! "stripe, status, state, stall, stage, situation, site, seat, scope, room, region, rank, quarter, post, position, point, placing, place, origin, opening, location, grade, goal, establishment, disposition"
 ജീവിതം:ജീവിത N1 ; ! "jīvitaṁ" ! "existence, being"
 രൂപം:രൂപ N1 ; ! "rūpaṁ" ! "system, sign, shape, set, projection, profile, picture, mould, genre, format, form, fig, contour, build, aspect, appearance"
 ആദ്യം:ആദ്യ N1 ; ! "ādyaṁ" ! "alpha"
@@ -3358,6 +3515,7 @@ LEXICON NominalStems
 എര്‍ത്ത്:എര്‍ത്ത N3;
 !പിച്ച്% ബ്ലെന്‍ഡ്:പിച്ച്% ബ്ലെന്‍ഡ N3;‍
 ന്യൂട്രോണ്‍:ന്യൂട്രോണ N3;
+റഡോണ്‍:റഡോണ N3;
 റേഡിയസ്:റേഡിയസ N3;
 സയന്‍സ്:സയന്‍സ N3;
 കാഥോഡ്:കാഥോഡ N3;
@@ -3587,6 +3745,8 @@ LEXICON NominalStems
 നദി:നദി N2 ; ! "nadi" ! "river"
 ശക്തി:ശക്തി N2 ; ! "śakti" ! "vigour, sword, strength, steam, power, hand, force, ability"
 സെക്രട്ടറി:സെക്രട്ടറി N2 ; ! "sekraṭṭaṟi" ! "secretary"
+മെര്‍ക്കുറി:മെര്‍ക്കുറി N2 ; ! " " ! "mercury'
+
 അറബി:അറബി N2 ; ! "aṟabi" ! "arabic, arab"
 പദവി:പദവി N2 ; ! "padavi" ! "title, tire, status, station, state, sphere, situation, seat, position, place, order, hat, grade, embassy, designation, consequence, capacity, appointment"
 ഭൂമി:ഭൂമി N2 ; ! "bhūmi" ! "world, soil, land, earth, cradle, country"
@@ -4160,6 +4320,7 @@ LEXICON NominalStems
 രചന:രചന N2 ; ! "racana" ! "writing, texture, design, creation, construction, composition, arrangement"
 ശിക്ഷ:ശിക്ഷ N2 ; ! "śikṣa" ! "sword, sentence, scourge, rod, reward, punishment, penalty, pain, doom, correction"
 പാത:പാത N2 ; ! "pāta" ! "way, track, road, path, pad, highway"
+ഗാഢത:ഗാഢത N2 ; ! "" ! "Solidity"
 ച:ച N2 ; ! "ca" ! "plant"
 പ്രത്യേകത:പ്രത്യേകത N2 ; ! "pratyēkata" ! "specialty, specialization, speciality, singularity, singular, peculiarity"
 വ്യവസ്ഥ:വ്യവസ്ഥ N2 ; ! "vyavastha" ! "system, stipulation, statute, service, scheme, rule, restriction, regularity, qualification, provision, organization, order, method, measure, law, form, disposition, condition, article, arrangement"
@@ -4729,6 +4890,9 @@ LEXICON ProperNouns
 മണ്ടേല:മണ്ടേല NP4-COG;
 ഫ്രഡറിക്:ഫ്രഡറിക NP1;
 ഡിക്ലര്‍ക്ക്:ഡിക്ലര്‍ക്ക NP1-COG;
+ആന്ദ്രെ:ആന്ദ്രെ NP4;
+ലൂയിസ്:ലൂയിസ NP1;
+ഡെബ്രെയിന്‍:ഡെബ്രെയിന NPX-COG; ! ""
 
 
 കേരളം:കേരള NP-TOP-KERALA ; ! "keralam" ! "Kerala"
@@ -4753,22 +4917,30 @@ LEXICON ProperNouns
 എറണാകുളം:എറണാകുള NP-TOP-KERALA; ! ""
 കോട്ടയം:കോട്ടയ  NP-TOP-KERALA; ! ""
 ഭാരതം:ഭാരത NP-TOP-KERALA; ! ""
-തിരുവിതാംകൂര്‍:തിരുവിതാംകൂര്‍ NP-TOP-X; ! ""
+തിരുവിതാംകൂര്‍:തിരുവിതാംകൂര്‍ NP-TOP-KANNUR; ! ""
 തൃശ്ശൂര്‍:തൃശ്ശൂര NP-TOP-KANNUR; ! ""
 കൊച്ചി:കൊച്ചി NP-TOP-INDIA; ! ""
-സൌദി:സൌദി NP-TOP-X; ! ""
-മലബാര്‍:മലബാര്‍ NP-TOP-X; ! ""
+സൌദി:സൌദി NP-TOP-INDIA; ! ""
+മലബാര്‍:മലബാര്‍ NP-TOP-KANNUR; ! ""
 ഡെല്‍ഹി:ഡെല്‍ഹി NP-TOP-INDIA; ! ""
 ബംഗാള്‍:ബംഗാള്‍ NP-TOP-X; ! ""
 പത്തനംതിട്ട:പത്തനംതിട്ട NP-TOP-INDIA; ! ""
 പാകിസ്താന്‍:പാകിസ്താന്‍ NP-TOP-X; ! ""
-മൈസൂര്‍:മൈസൂര്‍ NP-TOP-X; ! ""
+മൈസൂര്‍:മൈസൂര്‍ NP-TOP-KANNUR; ! ""
 മലങ്കര:മലങ്കര NP-TOP-INDIA; ! ""
-വൈക്കം:വൈക്കം NP-TOP-X; ! ""
+വൈക്കം:വൈക്ക NP-TOP-KERALA; ! ""
 ജപ്പാന്‍:ജപ്പാന്‍ NP-TOP-X; ! ""
 കര്‍ണാടക:കര്‍ണാടക NP-TOP-INDIA; ! ""
 കൊടുങ്ങല്ലൂര്‍:കൊടുങ്ങല്ലൂര NP-TOP-KANNUR; ! ""
-
+ഒന്റാറിയോ:ഒന്റാറിയോ NP-TOP-INDIA ; ! ""
+ന്യൂ% മെക്സിക്കോ:ന്യൂ% മെക്സിക്കോ NP-TOP-INDIA; ! ""
+ഉറ്റാഹ്:ഉറ്റാഹ NP-TOP-CALICUT; ! ""
+വിര്‍ജീന്യ:വിര്‍ജീന്യ NP-TOP-INDIA; ! ""
+ഓസ്ട്രേലിയ:ഓസ്ട്രേലിയ NP-TOP-INDIA; ! ""
+ചെക്ക്% റിപ്പബ്ലിക്ക NP-TOP-CALICUT; ! ""
+ബൊഹീമി NP-TOP-INDIA; ! ""
+കൊളറാഡോ:കൊളറാഡോ NP-TOP-INDIA ; ! ""
+കോംഗോ:കോംഗോ NP-TOP-INDIA ; ! ""
 
 
 LEXICON Adjectives 
@@ -4790,9 +4962,11 @@ LEXICON Adjectives
 ചില:ചില A1 ; ! "" ! "some"
 വന്‍:വന്‍ A1; ! "" ! ""
 മുന്‍:മുന്‍ A1; ! "" ! ""
-പ്രധാന:പ്രധാന A1 ; ! "" ! "important"
+പ്രധാനം:പ്രധാന A1 ; ! "" ! "important"
 മുഖ്യ:മുഖ്യ A3 ; ! "" ! ""
 പ്രത്യേകം:പ്രത്യേക A3 ;  ! "" ! "spcecial"
+സമ്പുഷ്ടം:സമ്പുഷ്ട A3 ; ! "" ! "rich"
+അപൂര്‍വം:അപൂര്‍വ A3 ; ! "" ! "rare"
 ഊഷ്മളം:ഊഷ്മള A3 ; ! "FIXME" ! "warm"
 തുല്യം:തുല്യ A3 ; ! "" ! "equal"
 ശുദ്ധം:ശുദ്ധ A3 ; ! "" ! ""
@@ -4808,6 +4982,9 @@ LEXICON Adjectives
 ബ്രിട്ടീഷ്:ബ്രിട്ടീഷ് A4 ; ! "british" ! "indian" ! Use/Sub ! Dir/LR
 അമേരിക്കന്‍:അമേരിക്കന A4; ! "american" ! "american" ! Use/Sub ! Dir/LR
 പ്രമുഖ:പ്രമുഖ A1; ! "important "
+!colors
+നീല:നീല A1;
+മഞ്ഞ:മഞ്ഞ A1;
 
 LEXICON Adverbs
 
@@ -4866,9 +5043,13 @@ LEXICON Adverbs
 
 !not sure
 എല്ലാ:എല്ലാ ADV ; ! "" ! "all'
+ഉടന്‍:ഉടന്‍ ADV ; ! "" ! "quicikly"
+ഉഗ്രം:ഉഗ്രം ADV ; ! "" ! "strongly'
 
 !quantitative
 മുഴുവന്‍:മുഴുവന്‍ ADV ; ! "complete"
+!quantifier
+മിക്കവാറും:മിക്കവാറും ADV;
 
 LEXICON Verbs
 
@@ -4887,6 +5068,7 @@ VBCOP-AAK ; ! "āk" ! "be"
 നോക്കുക:നോക്ക  V-TV-NOKKUKA ; ! "nēākkuka" ! "look"
 കൂടുക:കൂട  V-TV-NOKKUKA ; ! "" ! "increase"
 നടത്തുക:നടത്ത V-TV-NOKKUKA ; ! "" ! ""
+ചെലുത്തുക:ചെലുത്ത V-IV-NOKKUKA ; ! "" ! ""
 ഉള്‍പ്പെടുത്തുക:ഉള്‍പ്പെടുത്ത V-TV-NOKKUKA ; ! "" ! "include"
 ഒളിക്കുക:ഒളി V-IV-KALI ; ! "oḷikkuka" ! "hide"
 ഇരിക്കുക:ഇര V-IV-IRUNNU ; ! "irikkuka" ! "sit"
@@ -4911,13 +5093,17 @@ VBCOP-AAK ; ! "āk" ! "be"
 പോകുക:പോ V-IV-POKUKA ; ! "pēākuka" ! "go"
 ഇഷ്ടപ്പെടുക:ഇഷ്ടപ്പെ  V-TV-ISHTAPETUKA ; ! "iṣṭappeṭuka" ! "love"
 പങ്കിടുക:പങ്കി  V-TV-ISHTAPETUKA ; ! "" ! "share"
+അറിയപ്പെടുക:അറിയപ്പെ V-TV-ISHTAPETUKA ; ! "" ! "known "
 കരുതുക:കരുത V-IV-URANGUKA ; ! "FIXME" ! "think"
+മാറുക:മാറ V-IV-URANGUKA ; ! "FIXME" ! "change"
 പോരാടുക:പോരാട V-IV-URANGUKA ; ! "FIXME" ! "fight"
 കിട്ടുക:കിട്ട V-TV-KITTUKA ; ! "FIXME" ! "get"
 തിന്നുക:തിന്ന V-TV-THINNUKA ; ! "FIXME" ! "eat"
 തീരുക :തീര V-IV-THEERUKA ; ! "FIXME" ! "finish"
 ! ചെയ്യുക -done
 വെറുക്കുക:വെറു V-TV-VERUKKUKA ; ! "veṟukkuka" ! "hate"
+എടുക്കുക:എടു V-TV-VERUKKUKA ; ! "" ! "separate"
+
 ! കേള്‍ക്കുക -done
 നോവുക:ന V-IV-NOVUKA ; ! "nēāvuka" ! "pain"
 കരയുക:കര V-IV-KARAYUKA ; ! "karayuka" ! "cry"
@@ -4932,29 +5118,34 @@ VBCOP-AAK ; ! "āk" ! "be"
 താഴുക:താഴ V-IV-THAZHUKA ; ! "tāḻuka" ! "fall down" 
 പെറുക:പെ V-TV-PERUKA ; ! "peṟuka"
 അടിക്കുക:അടി V-TV-ATIKKUKA ; ! "aṭikkuka" ! "beat"
+വേര്‍തിരിക്കുക:വേര്‍തിരി V-TV-ATIKKUKA ; ! "" ! ""separate
 ശിക്ഷിക്കുക:ശിക്ഷി V-TV-ATIKKUKA ; ! ""! ""
+ആചരിക്കുക:ആചരി V-TV-ATIKKUKA ; ! ""! ""
 വിളിക്കുക:വിളി V-TV-ATIKKUKA ; ! "viḷikkuka" ! "call"
-പ്രവേശിക്കുക:പ്രവേശി V-TV-ATIKKUKA ; ! "" ! "enter"
-താമസിക്കുക:താമസി V-TV-ATIKKUKA ; ! "" ! "live"
+പ്രവേശിക്കുക:പ്രവേശി V-IV-ATIKKUKA ; ! "" ! "enter"
+താമസിക്കുക:താമസി V-IV-ATIKKUKA ; ! "" ! "live"
 അനുസരിക്കുക:അനുസരി V-TV-ATIKKUKA ; ! "anusarikkuka" ! "obey"
 ആരംഭിക്കുക:ആരംഭി V-TV-ATIKKUKA ; ! "ārambhikkuka" !"start"
-പ്രവര്‍ത്തിക്കുക:പ്രവര്‍ത്തി V-TV-ATIKKUKA ; ! "pravar‍ttikkuka" ! "do"
-അന്തരിക്കുക:അന്തരി V-TV-ATIKKUKA ; ! "antarikkuka" ! "die"
-അഭിനയിക്കുക:അഭിനയി V-TV-ATIKKUKA ; ! "" ! "act"
-അടക്കക്കുക:അട V-TV-ATIKKUKA; ! "aṭakkal‍"! "Closing"
+പ്രവര്‍ത്തിക്കുക:പ്രവര്‍ത്തി V-IV-ATIKKUKA ; ! "pravar‍ttikkuka" ! "do"
+അന്തരിക്കുക:അന്തരി V-IV-ATIKKUKA ; ! "antarikkuka" ! "die"
+അഭിനയിക്കുക:അഭിനയി V-IV-ATIKKUKA ; ! "" ! "act"
+അടക്കുക:അട V-TV-ATIKKUKA; ! "aṭakkal‍"! "Closing"
+ഉപയോഗിക്കുക:ഉപയോഗി V-TV-ATIKKUKA ; ! "upayēāgikkuka" ! "use"
+പുറപ്പെടുവിക്കുക:പുറപ്പെടുവി  V-TV-ATIKKUKA ; ! "" ! "send out"
+കാണിക്കുക:കാണി V-TV-ATIKKUKA; ! ""! "make see"
 അനുഭവിക്കുക:അനുഭവി V-TV-ATIKKUKA; ! "anubhavikkuka"! "Bear"
-അനുമാനിക്കുക:അനുമാനി V-TV-ATIKKUKA; ! "anumānikkuka"! "Draw"
+അനുമാനിക്കുക:അനുമാനി V-IV-ATIKKUKA; ! "anumānikkuka"! "Draw"
 അന്വേഷിക്കുക:അന്വേഷി V-TV-ATIKKUKA; ! "anvēṣikkuka"! "Ask"
-അപേക്ഷിക്കുക:അപേക്ഷി V-TV-ATIKKUKA; ! "apēkṣikkuka"! "Ask"
-അഭിനയിക്കുക:അഭിനയി V-TV-ATIKKUKA; ! "abhinayikkuka"! "Act"
-അഭ്യര്‍ത്ഥിക്കുക:അഭ്യര്‍ത്ഥി V-TV-ATIKKUKA; ! "abhyar‍t'thikkuka"! "Ask"
+അപേക്ഷിക്കുക:അപേക്ഷി V-IV-ATIKKUKA; ! "apēkṣikkuka"! "Ask"
+അഭിനയിക്കുക:അഭിനയി V-IV-ATIKKUKA; ! "abhinayikkuka"! "Act"
+അഭ്യര്‍ത്ഥിക്കുക:അഭ്യര്‍ത്ഥി V-IV-ATIKKUKA; ! "abhyar‍t'thikkuka"! "Ask"
 അവലംബിക്കുക:അവലംബി V-TV-ATIKKUKA; ! "avalambikkuka"! "Depend"
 അവസാനിപ്പിക്കുക:അവസാനിപ്പി V-TV-ATIKKUKA; ! "avasānippikkuka"! "Close"
 ആകര്‍ഷിക്കുക:ആകര്‍ഷി V-TV-ATIKKUKA; ! "ākar‍ṣikkuka"! "Attach"
 ആഗമിക്കുക:ആഗമി V-TV-ATIKKUKA; ! "āgamikkuka"! "Come"
 ആധാരമാക്കുക:ആധാരമാ V-TV-ATIKKUKA; ! "ādhāramākkuka"! "Bear"
 ആരംഭിക്കുക:ആരംഭി V-TV-ATIKKUKA; ! "ārambhikkuka"! "Begin"
-ആരോപിക്കുക:ആരോപി V-TV-ATIKKUKA; ! "ārēāpikkuka"! "Attach"
+ആരോപിക്കുക:ആരോപി V-TV-ATIKKUKA; ! "ārēāpikkuka"! "Attach"
 ആശ്രയിക്കുക:ആശ്രയി V-TV-ATIKKUKA; ! "āśrayikkuka"! "Depend"
 ഇഴയ്‌ക്കുക:ഇഴയ്‌ V-TV-ATIKKUKA; ! "iḻay‌kkuka"! "Draw"
 ഉത്‌പാദിപ്പിക്കുക:ഉത്‌പാദിപ്പി V-TV-ATIKKUKA; ! "ut‌pādippikkuka"! "Bear"
@@ -4998,7 +5189,7 @@ VBCOP-AAK ; ! "āk" ! "be"
 ഭരിക്കുക:ഭരി V-TV-ATIKKUKA; ! "bharikkuka"! "Conduct"
 മദ്യപിക്കുക:മദ്യപി V-TV-ATIKKUKA; ! "madyapikkuka"! "Drink"
 മരിക്കുക:മരി V-TV-ATIKKUKA; ! "marikkuka"! "Die"
-വിജയിക്കുക:വിജയി V-TV-ATIKKUKA; ! "" ! "win" 
+വിജയിക്കുക:വിജയി V-IV-ATIKKUKA; ! "" ! "win" 
 ആദരിക്കുക:ആദരി V-TV-ATIKKUKA; ! "" ! "respect"
 പ്രഖ്യാപിക്കുക:പ്രഖ്യാപി  V-TV-ATIKKUKA; ! "" ! "announce"
 മാറ്റിമറിക്കുക:മാറ്റിമറി V-TV-ATIKKUKA; ! "māṟṟimaṟikkuka"! "Change"
@@ -5040,7 +5231,9 @@ VBCOP-AAK ; ! "āk" ! "be"
 ചാകുക:ച V-IV-CHAKUKA; ! "cākuka" ! "die"
 തൊടുക:തൊട V-TV-THOTUKA ; ! "teāṭuka" ! "touch"
 നേരുക:നേ V-TV-NERUKA ; ! "nēruka" ! "wish"
-ഉയരുക:ഉയ V-TV-NERUKA ; ! "" ! "arise"
+ഉയരുക:ഉയ V-IV-NERUKA ; ! "" ! "arise"
+ചേരുക:ചേ V-TV-NERUKA ; ! "" ! "join"
+എത്തിച്ചേരുക:എത്തിച്ചേ V-IV-NERUKA ; ! "" ! "arrive"
 ! ഇരിക്കുക -done
 പിളര്‍ക്കുക:പിള V-TV-PILARKUKA ; ! "piḷar‍kkuka" ! "cut"
 ഉഴുതുക:ഉഴ V-TV-UZHUTHUKA ; ! "uḻutuka" ! "" 
@@ -5074,6 +5267,7 @@ LEXICON DIGITLEX-CIPH
 
 DIGITLEX ; 
 %<num%>%<loc%>:%ല്  CLIT-N-LOC ;
+%<num%>%<dat%>:%ന് # ;
 %<num%>%<loc%>:% ല്  CLIT-N-LOC ;  
 
 LEXICON DIGITLEX
