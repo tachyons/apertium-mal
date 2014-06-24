@@ -52,13 +52,22 @@ LEXICON V-TV-LABHIKKUKA
 
 %<v%>%<tv%>: K ; 
 
+
+LEXICON V-PAST-I
+
+%<past%>:%>ി K ; ! ""
+
+LEXICON V-PAST-II
+
+%<past%>:%>ണ്ടു K ; ! ""
+
 LEXICON V-IV-VIRALUKA
 
-%<v%>%<iv%>: K ; 
+%<v%>%<iv%>: V-PAST-II ; 
 
 LEXICON V-IV-VEIKUKA
 
-%<v%>%<iv%>: K ; 
+%<v%>%<iv%>: V-PAST-I ; 
 
 
 LEXICON DET-XXX
@@ -81,6 +90,10 @@ LEXICON Verbs
 
 ഉണ്ട്:ഉ VBCOP-UNTU ; ! "uṇṭ" ! "have"
 
-ലഭിക്കുക:ലഭ V-TV-LABHIKKUKA ; ! "labhikkuka" ! "get"
-കൂടുക:കൂടുക V-IV-VEIKUKA ; ! "
+ഇരുളുക:ഇരു V-IV-VIRALUKA ; ! "iruḷuka" ! "darken"
+കൂടുക:കൂട V-IV-VEIKUKA ; ! "kūṭuka" ! "be together"
+
+
+<tachyons> മഴ»ക്കാല»മേഘ>ങ്ങ»െല്ലാ»മിരുണ്ടു»കൂടി
+<tachyons> maḻa»kkāla»mēgha>ṅṅa»̔ellā»miruṇṭu»kūṭi
 
