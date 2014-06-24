@@ -1,0 +1,70 @@
+
+Multichar_Symbols
+
+%<n%>
+%<v%>
+%<vbcop%>
+
+%<sg%>
+%<pl%>
+
+%<nom%>
+%<gen%>
+
+%<tv%> 
+%<iv%>
+
+%<pres%>
+
+%>
+%»
+
+LEXICON Root
+
+Nouns ; 
+Verbs ; 
+
+LEXICON K
+
+%+:%» Root ; 
+# ; 
+
+LEXICON N-MRIGAM 
+
+%<n%>%<sg%>%<nom%>: K ; 
+%<n%>%<pl%>%<nom%>:%>ങ്ങള്‍ K ; ! "ṅṅaḷ‍"
+
+LEXICON N-KKALAM
+
+%<n%>%<sg%>%<nom%>:ം K ; ! "ṁ"
+%<n%>%<pl%>%<nom%>:%>ങ്ങള്‍ K ; ! "ṅṅaḷ‍"
+
+LEXICON VBCOP-UNTU 
+
+%<vbcop%>%<pres%>:ണ്ട് K ; ! "ṇṭ"
+
+LEXICON V-TV-LABHIKKUKA
+
+%<v%>%<tv%>: K ; 
+
+LEXICON V-IV-VIRALUKA
+
+%<v%>%<iv%>: K ; 
+
+LEXICON V-IV-VEIKUKA
+
+%<v%>%<iv%>: K ; 
+
+LEXICON Nouns 
+
+മ്രിഗം:മ്രിഗ N-MRIGAM ; ! "mrigaṁ" ! "animal"
+മേഘം:മേഘ N-MRIGAM ; ! "mēghaṁ" ! "cloud"
+മഴക്കാലം:മഴക്കാല N-KKALAM ; ! "maḻakkālaṁ" ! "rain"
+
+LEXICON Verbs 
+
+ഉണ്ട്:ഉ VBCOP-UNTU ; ! "uṇṭ" ! "have"
+
+ലഭിക്കുക:ലഭ V-TV-LABHIKKUKA ; ! "labhikkuka" ! "get"
+കൂടുക:കൂടുക V-IV-VEIKUKA ; ! "
+

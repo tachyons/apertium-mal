@@ -1,0 +1,14 @@
+Alphabet
+
+
+%>:0
+%»:0 ; 
+
+Sets 
+
+Wboundary = %» ; 
+
+Rules 
+
+"Rem word boundary"
+%»:0 <=> _ ; 
