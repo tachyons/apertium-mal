@@ -119,7 +119,8 @@ ProperNouns ;
 Adjectives ;
 Adverbs ; 
 Verbs ; 
-Punctuation ; 
+Punctuation ;
+Interjections;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -1719,6 +1720,13 @@ LEXICON SPOST-LOC
 LEXICON CC 
 
 %<cnjcoo%>: # ; 
+
+LEXICON INTERJ
+%<ij%>: # ;
+
+LEXICON INTERJ-ILLA
+%<ij%>: # ;
+%<ij%>: # ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -5056,6 +5064,7 @@ LEXICON Verbs
 VBCOP-AAK ; ! "āk" ! "be"
 ഉണ്ട്:ഉ VBCOP-UNTU ; ! "uṇṭ" ! "have"
 
+
 കളിക്കുക:കളി V-IV-KALI ; ! "kaḷikkuka" ! "play"
 ഉപയോഗിക്കുക:ഉപയോഗി V-IV-KALI ; ! "upayēāgikkuka" ! "use"
 ചോദിക്കുക:ചോദി V-IV-KALI ; ! "cēādikkuka" ! "ask"
@@ -5240,7 +5249,12 @@ VBCOP-AAK ; ! "āk" ! "be"
 ഏല്ക്കുക:ഏ  V-TV-EALKUKA ; ! "ēlkkuka"
 നികഴുക:നിക V-TV-NIKAZHUKA; ! "nikaḻuka"
 കക്കുക:ക V-TV-KAKKUKA; ! "kakkuka"
+ഇരുളുക:ഇരു V-IV-VIRALUKA ; ! "'
+കൂടുക:കൂട V-IV-VEIKUKA ; ! ""
 
+LEXICON Interjections
+
+ഇല്ല:ഇല്ല INTERJ ;
 
 
 
