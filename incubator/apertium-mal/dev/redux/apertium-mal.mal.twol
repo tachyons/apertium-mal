@@ -1,5 +1,11 @@
 Alphabet
 
+ അ ആ ഇ ഈ ഉ ഊ ഋ ഌ എ ഏ ഐ ഒ ഓ ഔ ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട 
+ ഠ ഡ ഢ ണ ത ഥ ദ ധ ന ഩ പ ഫ ബ ഭ മ യ ര റ ല ള ഴ വ  ശ ഷ സ ഹ  
+
+ ാ ി ീ  ു ൂ ൃ ൄ െ േ ൈ ൊ ോ ൌ ് ൎ ം ഃ
+
+‍
 
 %>:0
 %»:0 ; 
@@ -10,5 +16,28 @@ Wboundary = %» ;
 
 Rules 
 
-"Rem word boundary"
-%»:0 <=> _ ; 
+! Sandhi rules
+
+"Remove 'anusuvara' when followed by a word boundary"
+ം:0 <=> _ %»: ;
+
+"Change free vowels to combining vowels after word boundary"
+Vx:Vy <=> %»: _ ; 
+    where Vx in ( എ  ഇ  ഉ       )
+          Vy in ( െ ി  ു    ) matched ; 
+
+"Delete 'virama' before word boundary"
+്:0 <=> _ (‍:0) %»: ; 
+
+"Remove zero-width joiner, \u200d when followed by a word boundary"
+‍:0 <=> _  [ %>: | %»: ]  ;
+
+
+
+!മഴക്കാലമേഘങ്ങളെല്ലാമിരുണ്ടുകൂടി
+!മഴക്കാലമേഘങ്ങള്‍െല്ലാം
+
+! മഴക്കാലമേഘങ്ങള്െല്ലാം
+! മഴക്കാലമേഘങ്ങള്െല്ലാം
+! മഴക്കാലമേഘങ്ങളെല്ലാം
+
