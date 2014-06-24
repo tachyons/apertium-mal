@@ -16,6 +16,8 @@ Multichar_Symbols
 
 %<pres%>
 
+
+%+
 %>
 %»
 
@@ -31,7 +33,7 @@ LEXICON K
 
 LEXICON N-MRIGAM 
 
-%<n%>%<sg%>%<nom%>: K ; 
+%<n%>%<sg%>%<nom%>:ം K ; ! "ṁ"
 %<n%>%<pl%>%<nom%>:%>ങ്ങള്‍ K ; ! "ṅṅaḷ‍"
 
 LEXICON N-KKALAM
