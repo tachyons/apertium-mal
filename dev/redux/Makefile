@@ -6,4 +6,4 @@ all:
 	hfst-fst2fst -O -i mal.automorf.hfst -o mal.automorf.ohfst
 
 clean:
-	rm *.hfst
+	rm *.hfst *.ohfst
