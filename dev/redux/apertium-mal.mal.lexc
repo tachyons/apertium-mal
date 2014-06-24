@@ -3,6 +3,7 @@ Multichar_Symbols
 
 %<n%>
 %<v%>
+%<det%>
 %<vbcop%>
 
 %<sg%>
@@ -23,6 +24,7 @@ Multichar_Symbols
 
 LEXICON Root
 
+Determiners ;
 Nouns ; 
 Verbs ; 
 
@@ -30,6 +32,7 @@ LEXICON K
 
 %+:%» Root ; 
 # ; 
+
 
 LEXICON N-MRIGAM 
 
@@ -56,6 +59,17 @@ LEXICON V-IV-VIRALUKA
 LEXICON V-IV-VEIKUKA
 
 %<v%>%<iv%>: K ; 
+
+
+LEXICON DET-XXX
+
+%<det%>: K ; 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Determiners
+
+എല്ലാം:എല്ലാം DET-XXX ; ! "ellāṁ" ! "all"
 
 LEXICON Nouns 
 
