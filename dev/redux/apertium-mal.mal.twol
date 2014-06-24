@@ -14,12 +14,19 @@ Sets
 
 Wboundary = %» ; 
 
+DepVowel = െ ി  ു  ; 
+
 Rules 
 
 ! Sandhi rules
 
 "Remove 'anusuvara' when followed by a word boundary"
 ം:0 <=> _ %»: ;
+    except 
+        _ %»: :DepVowel ; 
+
+"Convert 'anusuvara' to letter മ  'm' when followed by dependent vowel"
+ം:മ <=> _ %»: :DepVowel ; 
 
 "Change free vowels to combining vowels after word boundary"
 Vx:Vy <=> %»: _ ; 
@@ -34,10 +41,12 @@ Vx:Vy <=> %»: _ ;
 
 
 
-!മഴക്കാലമേഘങ്ങളെല്ലാമിരുണ്ടുകൂടി
-!മഴക്കാലമേഘങ്ങള്‍െല്ലാം
 
-! മഴക്കാലമേഘങ്ങള്െല്ലാം
-! മഴക്കാലമേഘങ്ങള്െല്ലാം
+!മഴക്കാലമേഘങ്ങളെല്ലാമിരുണ്ടുകൂടി
 ! മഴക്കാലമേഘങ്ങളെല്ലാം
+
+! മഴക്കാലം»മേഘ>ങ്ങള്‍»എല്ലാം»ഇരു>ണ്ടു	
+! മഴക്കാലമേഘങ്ങളെല്ലാിരുണ്ടു
+
+
 
