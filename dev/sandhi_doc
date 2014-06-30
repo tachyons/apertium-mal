@@ -1,0 +1,155 @@
+Inflection and Agglutination : Challenges To Malayalam Computing
+
+Santhosh Thottingal ( santhosh.thottingal@gmail.com ,  http://thottingal.in),
+
+Swathanthra Malayalam Computing ( http://smc.org.in)
+
+
+
+
+Language Features
+
+"In agglutinative languages the union of words may be compared to mechanical compounds, in inflective languages to chemical compounds. --R. Morris. [1913 Webster]"
+
+Malayalam is both agglutinative and inflective language. Most of the Indian languages, especially south Indian languages has this feature. Based on a set of rules, in the context of tense, singular/plural difference, gender etc, the root word get inflected to form new words. In addition to this two or more words can form another single word based on another set of rules. These characteristics of languages make the language computing challenging in various ways. This article investigates the rules of this inflection and agglutination and explains how it is challenging to some computer based language processing.
+
+The inflective nature is defined in a logical manner in Sandhi Rules of Malayalam. Let us examine the logical structure of a Malayalam word with a special emphasis on its string processing nature.
+
+പതയയെത പ്രകൃതിയില േചരതണാകനതാം പദം ചിലെപാളിത രണിന-മിടയ ചിലയകരം േചരേകണതണിടനില-െയനേത േപരതിനിഹ അതം പ്രകൃതിയംകടി-േചരനതിനംഗെമന േപര
+-ഏ ആര രാജരാജ വരമ [പ്രകൃതിപതയങള- കേരളപാണിനീയം]
+
+പ്രകൃതി എന ശബവിഭാഗതില പ്രത്യയം ചേര്‍ന്നിട്ടാണ് പദമണാകനത്. പ്രകൃതി പതയയങള ചേരനിടള ശബസ്വരപം തെന പദെമന സാരം. 
+
+From the above definition of a Malayalam word let us derive a Regular Expression(Computational representation of a string pattern) for a typical Malayalam word;
+പദം= (പ്രകൃതി)*[പ്രത്യയം]
+
+The above expression means a Malayalam word can be formed by any number(well, it is limited, say, less than 10) of പ്രകൃതി and zero or one പ്രത്യയം
+
+Let us expand the regular expression following the three classification ARR defined for the Sandhi
+
+Positional Classification
+
+Based on whether the word is formed by പ്രകൃതി only or പ്രകൃതി and പ്രത്യയം or multiple പ്രകൃതി and പ്രത്യയം.
+a) പദമദ്ധ്യ സന്ധി: (പ്രകൃതി)+ (പ്രത്യയം)
+Eg: മരത്തില്‍= മരം[പ്രകൃതി]+ ഇല[പ്രത്യയം] 
+b) പദാന്ത്യസന്ധി: (പ്രകൃതി)*
+Eg: വെണ്‍പ്രാവു്=വെണ്‍ [പ്രകൃതി ]+ പ്രാവ് [പ്രകൃതി]
+പൊല്‍പ്പൂ=പൊന്‍ [പ്രകൃതി] + പൂ[പ്രകൃതി]
+c) ഉഭയസന്ധി: (പ്രകൃതി)*+ (പ്രത്യയം)
+Eg: മണിയറയില്‍ = മണി[പ്രകൃതി] + അറ[പ്രകൃതി] + ഇല്‍[പ്രത്യയം]] 
+CV (Consonant Vowel) Pair Based Classification
+a) സ്വരസന്ധി : [vowel]+[vowel]
+Eg: മഴ+അല്ല=മഴയല്ല ==> അകാരം+അ 
+b) സ്വരവ്യഞ്ജനസന്ധി : [vowel]+ [consonant]
+
+Eg: താമര+ കുളം= താമരക്കുളം ==>അകാരം+ത 
+c) വ്യഞ്ജനസ്വരസന്ധി: [consonant]+ [vowel]
+Eg: കണ്ണ്+ഇല്ല= കണ്ണില്ല
+
+c) വ്യഞ്ജനസന്ധി: [consonant]+ [consonant]
+ Eg: നെല്‍+മണി-നെന്‍മണി
+Changes to letters during Sandhi 
+a) Deletion - േലാപസന്ധി
+സ്വരതിനമനപ േലാപിയം സംവതം വയരതമാകയാല അതിെന സ്വരമായിേട വകവേയണ സന്ധിയില
+
+We can formulate the above rule in a logical way as follows
+
+/്/ (pseudo-samvruthokaaram)+ [സ്വരം] = സ്വരചിഹം($2)
+ /്ു/(samvruthokaram)+ [സ്വരം] = സ്വരചിഹം($2)
+
+where [സ്വരം] = any of ["അ", "ആ", "ഇ","ഈ","ഉ","ഊ", "ഋ","എ","ഏ","ഐ","ഒ","ഓ","ഔ"]
+[സ്വരചിഹം$2] = സന്ധിയില രണാമേത സ്വരതിെന സ്വരചിഹം
+Example: സ്വരചിഹം(ഇ)= ്ി Illustration:
+അത്/അതു് + ഇല്ല = അതില്ല
+പൂവ്/പൂവു്+ ഉണ്ട്= പൂവുണ്ട്
+ സന്തോഷ്+ ആണ്= സന്തോഷാണ്
+
+This is not simple. for example, consider വാക്+ ഈശ്വരന്‍ = വാഗീശ്വരന. There are hundreds of rules and most of them have exceptions. We may need to Consider chillus also. Sometimes, the same chillu may refer to more than one base letter.
+
+ഞായര്‍+ ആഴ്ച= ഞായറാഴ്ച
+നായര്‍+ അല്ല = നായരല്ല
+
+Note: There are some other rules in ലോപപസന്ധി for the അകാരേലാപം. But in Unicode, the code points are always for the letters with implicit അകാരം. For eg: ക , ഘ , ത ...So it is easy to handle such rules.
+
+Examples:
+
+അല്ല+എന്ന് = അല്ലെന്ന്
+വരിക+ എടോ = വരികെടോ
+
+b) Insertion - ആഗമസന്ധി 
+Main rule:
+വരജിപ സ്വരസംേയാഗം യ വ േചരത യഥാവേല; പരവം താലവ്യമാെണങില
+യകാരമതിേലയണം; പരേവാേമാഷയസ്വരം വനാല വകാരം േചരതെകാളക.
+
+Here is my Logical rules for this
+
+[താലവ്യസ്വരചിഹം] + [സ്വരം] = യ + സ്വരചിഹം($2)
+[ഓഷ്ഠ്യസ്വരചിഹം] + [സ്വരം] = വ + സ്വരചിഹം($2)
+where താലവ്യസ്വരചിഹം= ["ാ","ി","ീ","െ","േ","ൈ"]
+
+ഓഷ്ഠ്യസ്വരചിഹം = ["ു","ൂ","ൊ","ോ","ൗ","ൌ"] - Vowels pronounced using lips Here in addition to vowel signs, we need to consider vowels themselves as well.
+
+ആ+അമ്മ=ആയമ്മ
+ഐ+ ആയിരം=അയ്യായിരം=എയായിരം
+
+Illustration:
+
+First Rule
+
+കര+ഉള = കര/യ/ള േപാരാ+ഇത്= േപാരാ/യി/ത് വഴി+ആകം=വഴി/യാ/കം തീ+ആട്=തീ/യാ /ട് തെന +അവന= തെന/യ/വന
+
+േചരേന+ഉള = േചരേന/യ/ള ൈക+ഉണ് =ൈക/യ/ണ്
+
+Second Rule
+
+തിര+ഓണം=തിര/േവാ/ണം മാത+ഉണായിരന= മാത/വ/ണായിരന പ+അമ്=പ/വ/മ്
+
+Here we need clarification whether അ is താലവ്യസ്വരചിഹം or ഓഷ്ഠ്യസ്വരചിഹം . Reason is AR Rajarajavarma has given the following two examples under two of the above rules. This is a phonetic problem. Hard to set a rule based on script.
+
+കര+ഉള=കര/യ/ള തട+ഉന= തട/വ/ന
+
+പതയയാദികകാരതിന മനപം താലവ്യയാഗമം
+
+[താലവ്യസ്വരചിഹം] + ക = [താലവ്യസ്വരചിഹം] + യ
+
+തല+ക്= തലയ് ചിരി+കന= ചിരിയന.
+
+This rule conflicts with the Kerala gov stylebook which says, in ഇകാരം+ക യ Is not required
+
+In the above rule there is a condition that it is pre- prathyaya. We can safely consider that any word which starts with ക is a prathyaya. Since there is no root word which starts with ക in Malayalam
+
+c) Duplication -ദവിതവസന്ധി Rules
+
+1. ഉതരപദതിെല ആദിയിെല വരണം ദഡമാെണങില ഇരടികം. പടി+കടി=പടികടി, തല+േചാറ്=തലേചാറ്
+2.
+ചെടഴതകളകേശഷം വയഞനം വനാല ഇരടികം. അ+മാതിരി=അമാതിരി   ഇ+മട്=ഇമട്
+3.
+മന,തന,പാകിക വിനെയചങളകം, ആധാരികാഭാസതിനം,ആധാരികാ പതിഗാഹിക,പേയാജിക
+എനി വിഭകികളകം േശഷം വരന ദഢാകരങള ഇരടികം. - This rule is complex to make in
+
+computer logic, unless we can classify the first member of sandhi
+4. ചിലകളക േശഷം വരന ദഢവരണം ഇരടികം.  പാല + കിണി = പാലകിണി	പാല +
+
+കപി = പാലകപി 5 ആ ഊ ഋ -കാരാനയ ശബതിന േശഷം വരന കള പതയയതിെല ക-കാരം ഇരടികം മാതാ + കള =
+മാതാകള പ + കള = പകള
+6. സംവതാനയ പദതിന േശഷം സവരാദി പ്രത്യയം വനാല ഇരടികം 
+
+7. അലപ സമാസതിനം കിയാ ധാതവിനം േശഷം വരന ദഢാകരങളിരടികകയില മലമകള + ചരണം = മലമകളചരണം 
+
+പരവപദതിലള ലിങ വചന പതയയങളക് േലാപമിലാത പദങളക് അലപ സമാസം എന പറയന 
+
+േദവര ഉമര മലമകള ഇവയിെല അര കള ഒരികലം േലാപികകയില കട +േകാല =കടേകാല എരി +തീ = എരിതീ അടി +പിടി =അടിപിടി
+
+കട എരി അടി എനിവ യഥാകമം കടയക എരിയക അടികക എനിവയെട ധാതകളാണ് അതെകാണാണ് ഈ പദങള ഇരടികാതത്
+
+Challenge is identifying whether the first word is a ധാത- A good Database may be a solution but not preparing such a database is not a trivial task.
+8. ഉതരപദതിെല ആദിയിെല വരണം ശിഥിലമാെണങില ഇരടികകയില 
+9. രണ പദവം സംസതമാെണങില ദഢവരണം ഇരടികകയില. Computationally very difficult to identify whether the word is Sanskrit or not and often a debatable subject. 
+10. സംവതാനയപദതിന േശഷം ദഢവരണം വനാല ഇരടികകയില 
+
+e) Substitution - ആേദശസന്ധി
+Many of the rules in this category are word formation rules
+
+For eg: അകല+തന= അകറന, േവള+ത= േവട, െതാള+നറ്=െതാണറ് ഉള+മ= ഉണ So, not sure whether we need to consider them as important as others.
+
+

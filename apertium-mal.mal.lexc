@@ -5025,7 +5025,7 @@ LEXICON ProperNouns
 രാജു:രാജ NP3 ; ! "rāju" ! "Raju"
 രാധ:രാധ NP2 ; ! "rādha" ! "Radha"
 
-ജോണ്‍:ജോണ NPX; ! ""
+ജോണ്‍:ജോണ NP5; ! ""
 ഖാന്‍:ഖാന NPX; ! ""
 പോള്‍:പോള NP5; ! ""
 മാര്‍പ്പാപ്പ:മാര്‍പ്പാപ്പ NP4; ! ""
@@ -5041,14 +5041,14 @@ LEXICON ProperNouns
 ഡേവിഡ്:ഡേവിഡ NP1; ! ""
 അമീര്‍:അമീറ NP5; ! ""
 പൗലോസ്:പൗലോസ NP1; ! ""
-ശിവന്‍:ശിവന്‍ NPX; ! ""
+ശിവന്‍:ശിവന NP5; ! ""
 നെല്‍സണ്‍:നെല്‍സണ NP5;
 മണ്ടേല:മണ്ടേല NP4-COG;
 ഫ്രഡറിക്:ഫ്രഡറിക NP1;
 ഡിക്ലര്‍ക്ക്:ഡിക്ലര്‍ക്ക NP1-COG;
 ആന്ദ്രെ:ആന്ദ്രെ NP4;
 ലൂയിസ്:ലൂയിസ NP1;
-ഡെബ്രെയിന്‍:ഡെബ്രെയിന NPX-COG; ! ""
+ഡെബ്രെയിന്‍:ഡെബ്രെയിന NP5-COG; ! ""
 
 
 കേരളം:കേരള NP-TOP-KERALA ; ! "keralam" ! "Kerala"
@@ -5228,7 +5228,7 @@ VBCOP-AAK ; ! "āk" ! "be"
 കൂടുക:കൂട  V-TV-NOKKUKA ; ! "" ! "increase"
 നടത്തുക:നടത്ത V-TV-NOKKUKA ; ! "" ! ""
 ചെലുത്തുക:ചെലുത്ത V-IV-NOKKUKA ; ! "" ! ""
-ഉള്‍പ്പെടുത്തുക:ഉള്‍പ്പെടുത്ത V-TV-NOKKUKA ; ! "" ! "include"
+ഉള്‍പെടുത്തുക:ഉള്‍പ്പെടുത്ത V-TV-NOKKUKA ; ! "" ! "include"
 ഒളിക്കുക:ഒളി V-IV-KALI ; ! "oḷikkuka" ! "hide"
 ഇരിക്കുക:ഇര V-IV-IRUNNU ; ! "irikkuka" ! "sit"
 ലഭിക്കുക:ലഭ V-TV-LABHIKKUKA ; ! "labhikkuka" ! "get"
@@ -5374,7 +5374,7 @@ VBCOP-AAK ; ! "āk" ! "be"
 സൃഷ്ടിക്കുക:സൃഷ്ടി V-TV-ATIKKUKA; ! "sr̥ṣṭikkuka"! "Compose"
 സ്ഥാപിക്കുക:സ്ഥാപി V-TV-ATIKKUKA; ! "sthāpikkuka"! "Construct"
 സ്വീകരിക്കുക:സ്വീകരി V-TV-ATIKKUKA; ! "svīkarikkuka"! "Bear"
-ജനിക്കുക:ജനി V-TV-ATIKKUKA; ! "" ! "born"
+ജനിക്കുക:ജനി V-IV-ATIKKUKA; ! "" ! "born"
 സാധിക്കുക:സാധി V-TV-ATIKKUKA; ! "" ! "able"
 പ്രചരിപ്പിക്കുക:പ്രചരിപ്പി V-TV-ATIKKUKA; ! "" ! "spread"
 
