@@ -54,17 +54,17 @@ a) Deletion - േലാപസന്ധി
 
 We can formulate the above rule in a logical way as follows
 
-/്/ (pseudo-samvruthokaaram)+ [സ്വരം] = സ്വരചിഹം($2)
- /്ു/(samvruthokaram)+ [സ്വരം] = സ്വരചിഹം($2)
+/്/ (pseudo-samvruthokaaram)+ [സ്വരം] = സ്വരചിഹ്നം($2)
+ /്ു/(samvruthokaram)+ [സ്വരം] = സ്വരചിഹ്നം($2)
 
 where [സ്വരം] = any of ["അ", "ആ", "ഇ","ഈ","ഉ","ഊ", "ഋ","എ","ഏ","ഐ","ഒ","ഓ","ഔ"]
-[സ്വരചിഹം$2] = സന്ധിയില രണാമേത സ്വരതിെന സ്വരചിഹം
-Example: സ്വരചിഹം(ഇ)= ്ി Illustration:
+[സ്വരചിഹ്നം$2] = സന്ധിയില രണാമേത സ്വരതിെന സ്വരചിഹ്നം
+Example: സ്വരചിഹ്നം(ഇ)= ്ി Illustration:
 അത്/അതു് + ഇല്ല = അതില്ല
 പൂവ്/പൂവു്+ ഉണ്ട്= പൂവുണ്ട്
  സന്തോഷ്+ ആണ്= സന്തോഷാണ്
 
-This is not simple. for example, consider വാക്+ ഈശ്വരന്‍ = വാഗീശ്വരന. There are hundreds of rules and most of them have exceptions. We may need to Consider chillus also. Sometimes, the same chillu may refer to more than one base letter.
+This is not simple. for example, consider വാക്+ ഈശ്വരന്‍ = വാഗീശ്വരുന്ന. There are hundreds of rules and most of them have exceptions. We may need to Consider chillus also. Sometimes, the same chillu may refer to more than one base letter.
 
 ഞായര്‍+ ആഴ്ച= ഞായറാഴ്ച
 നായര്‍+ അല്ല = നായരല്ല
@@ -78,16 +78,16 @@ Examples:
 
 b) Insertion - ആഗമസന്ധി 
 Main rule:
-വരജിപ സ്വരസംേയാഗം യ വ േചരത യഥാവേല; പരവം താലവ്യമാെണങില
-യകാരമതിേലയണം; പരേവാേമാഷയസ്വരം വനാല വകാരം േചരതെകാളക.
+വരജിപ സ്വരസംേയാഗം യ വ േചരത യഥാവേല; പരവം താലവ്യമാണെങ്കില്‍
+യകാരമതിേലയണം; പരേവാേമാഷയസ്വരം വന്നാല്‍  വകാരം േചരതെകാളക.
 
 Here is my Logical rules for this
 
-[താലവ്യസ്വരചിഹം] + [സ്വരം] = യ + സ്വരചിഹം($2)
-[ഓഷ്ഠ്യസ്വരചിഹം] + [സ്വരം] = വ + സ്വരചിഹം($2)
-where താലവ്യസ്വരചിഹം= ["ാ","ി","ീ","െ","േ","ൈ"]
+[താലവ്യസ്വരചിഹ്നം] + [സ്വരം] = യ + സ്വരചിഹ്നം($2)
+[ഓഷ്ഠ്യസ്വരചിഹ്നം] + [സ്വരം] = വ + സ്വരചിഹ്നം($2)
+where താലവ്യസ്വരചിഹ്നം= ["ാ","ി","ീ","െ","േ","ൈ"]
 
-ഓഷ്ഠ്യസ്വരചിഹം = ["ു","ൂ","ൊ","ോ","ൗ","ൌ"] - Vowels pronounced using lips Here in addition to vowel signs, we need to consider vowels themselves as well.
+ഓഷ്ഠ്യസ്വരചിഹ്നം = ["ു","ൂ","ൊ","ോ","ൗ","ൌ"] - Vowels pronounced using lips Here in addition to vowel signs, we need to consider vowels themselves as well.
 
 ആ+അമ്മ=ആയമ്മ
 ഐ+ ആയിരം=അയ്യായിരം=എയായിരം
@@ -96,60 +96,79 @@ Illustration:
 
 First Rule
 
-കര+ഉള = കര/യ/ള േപാരാ+ഇത്= േപാരാ/യി/ത് വഴി+ആകം=വഴി/യാ/കം തീ+ആട്=തീ/യാ /ട് തെന +അവന= തെന/യ/വന
+കര+ഉള്ള = കര/യു/ള്ള
+പോരാ+ഇത്=പോരാ/യി/ത്
+വഴി+ആകും=വഴി/യാ/കും
+തീ+ആട്ട്=തീ/യാ/ട്ട്
+തന്നെ +അവന്‍= തന്നെ/യ/വന്‍
 
-േചരേന+ഉള = േചരേന/യ/ള ൈക+ഉണ് =ൈക/യ/ണ്
+ചേര്‍ന്നേ+ഉള്ളൂ =ചേ‌ര്‍ന്നേ/യു/ള്ളൂ
+കൈ+ഉണ്ട് =കൈ/യു/ണ്ട്
 
 Second Rule
 
-തിര+ഓണം=തിര/േവാ/ണം മാത+ഉണായിരന= മാത/വ/ണായിരന പ+അമ്=പ/വ/മ്
+തിരു+ഓണം=തിരു/വോ/ണം
+മാതു+ഉണ്ടായിരുന്നു= മാതു/വു/ണ്ടായിരുന്നു
+പൂ+അമ്പ്=പൂ/വ/മ്പ്
 
-Here we need clarification whether അ is താലവ്യസ്വരചിഹം or ഓഷ്ഠ്യസ്വരചിഹം . Reason is AR Rajarajavarma has given the following two examples under two of the above rules. This is a phonetic problem. Hard to set a rule based on script.
+Here we need clarification whether അ is താലവ്യസ്വരചിഹ്നം or ഓഷ്ഠ്യസ്വരചിഹ്നം . Reason is AR Rajarajavarma has given the following two examples under two of the above rules. This is a phonetic problem. Hard to set a rule based on script.
 
-കര+ഉള=കര/യ/ള തട+ഉന= തട/വ/ന
+കര+ഉള്ള=കര/യു/ള്ള
+തട+വുന്ന= തട/വു/ന്നു
 
 പതയയാദികകാരതിന മനപം താലവ്യയാഗമം
 
-[താലവ്യസ്വരചിഹം] + ക = [താലവ്യസ്വരചിഹം] + യ
+[താലവ്യസ്വരചിഹ്നം] + ക = [താലവ്യസ്വരചിഹ്നം] + യ
 
-തല+ക്= തലയ് ചിരി+കന= ചിരിയന.
+തല+ക്ക്= തലയ്ക്ക്
+ചിരി+ക്കുന്നു= ചിരിയ്ക്കുന്നു.
 
-This rule conflicts with the Kerala gov stylebook which says, in ഇകാരം+ക യ Is not required
+This rule conflicts with the Kerala gov stylebook which says, in ഇകാരം+ക്ക=യ്ക്ക Is not required
 
 In the above rule there is a condition that it is pre- prathyaya. We can safely consider that any word which starts with ക is a prathyaya. Since there is no root word which starts with ക in Malayalam
 
 c) Duplication -ദവിതവസന്ധി Rules
 
-1. ഉതരപദതിെല ആദിയിെല വരണം ദഡമാെണങില ഇരടികം. പടി+കടി=പടികടി, തല+േചാറ്=തലേചാറ്
-2.
-ചെടഴതകളകേശഷം വയഞനം വനാല ഇരടികം. അ+മാതിരി=അമാതിരി   ഇ+മട്=ഇമട്
-3.
-മന,തന,പാകിക വിനെയചങളകം, ആധാരികാഭാസതിനം,ആധാരികാ പതിഗാഹിക,പേയാജിക
-എനി വിഭകികളകം േശഷം വരന ദഢാകരങള ഇരടികം. - This rule is complex to make in
+1. ഉത്തരപദത്തിലെ ആദിയിലെ വര്‍ണം ദഡമാണെങ്കില്‍ ഇരട്ടിക്കും. 
+പട്ടി+കുട്ടി=പട്ടികുട്ടി, 
+തലചോറ്=തലച്ചോറ്
+2.ചെടഴതകളകേശഷം വയഞനം വന്നാല്‍  ഇരട്ടിക്കും. 
+അ+മാതിരി=അമ്മാതിരി
+ഇ+മട്ട്=ഇമ്മട്ട്
+3.മന,തന,പാകിക വിനെയചങളകം, ആധാരികാഭാസതിനം,ആധാരികാ പതിഗാഹിക,പേയാജിക
+എനി വിഭകികളകം ശേഷം വരുന്ന ദഢാകരങള ഇരട്ടിക്കും. - This rule is complex to make in computer logic, unless we can classify the first member of sandhi
+4. ചില്ലുകള്‍ക് ശേഷം വരുന്ന ദഢവര്‍ണം ഇരട്ടിക്കും.  
+പാല്‍  + കിണ്ടി = പാലക്കിണ്ടി
+പാല്‍ +കപ്പി = പാല്‍ക്കുപ്പി
+5 ആ ഊ ഋ -കാരാനയ ശബ്ദത്തിന് ശേഷം വരുന്ന കള്‍ പൃത്യയത്തിലെ ക-കാരം ഇരട്ടിക്കും 
+മാതാ + കള്‍ =മാതാക്കള്‍
+പൂ + കള്‍ = പൂക്കള്‍
+6. സംവതാനയ പദതിന ശേഷം സവരാദി പ്രത്യയം വന്നാല്‍  ഇരട്ടിക്കും 
 
-computer logic, unless we can classify the first member of sandhi
-4. ചിലകളക േശഷം വരന ദഢവരണം ഇരടികം.  പാല + കിണി = പാലകിണി	പാല +
+7. അലപ സമാസതിനം കിയാ ധാതവിനം ശേഷം വരുന്ന ദഢാകരങളിരടികകയില 
+മലമകള്‍ + ചരണം = മലമകള്‍ചരണം 
 
-കപി = പാലകപി 5 ആ ഊ ഋ -കാരാനയ ശബതിന േശഷം വരന കള പതയയതിെല ക-കാരം ഇരടികം മാതാ + കള =
-മാതാകള പ + കള = പകള
-6. സംവതാനയ പദതിന േശഷം സവരാദി പ്രത്യയം വനാല ഇരടികം 
+പരവപദതിലള ലിങ വചന പതയയങളക് േലാപമിലാത പദങ്ങള്‍ക്ക് അലപ സമാസം എന പറയന 
 
-7. അലപ സമാസതിനം കിയാ ധാതവിനം േശഷം വരന ദഢാകരങളിരടികകയില മലമകള + ചരണം = മലമകളചരണം 
-
-പരവപദതിലള ലിങ വചന പതയയങളക് േലാപമിലാത പദങളക് അലപ സമാസം എന പറയന 
-
-േദവര ഉമര മലമകള ഇവയിെല അര കള ഒരികലം േലാപികകയില കട +േകാല =കടേകാല എരി +തീ = എരിതീ അടി +പിടി =അടിപിടി
+േദവര ഉമര മലമകള ഇവയിെല അര കള ഒരിക്കലും ലോപിക്കുകയില 
+കട +േകാല =കടേകാല 
+എരി +തീ = എരിതീ 
+അടി +പിടി =അടിപിടി
 
 കട എരി അടി എനിവ യഥാകമം കടയക എരിയക അടികക എനിവയെട ധാതകളാണ് അതെകാണാണ് ഈ പദങള ഇരടികാതത്
 
 Challenge is identifying whether the first word is a ധാത- A good Database may be a solution but not preparing such a database is not a trivial task.
-8. ഉതരപദതിെല ആദിയിെല വരണം ശിഥിലമാെണങില ഇരടികകയില 
-9. രണ പദവം സംസതമാെണങില ദഢവരണം ഇരടികകയില. Computationally very difficult to identify whether the word is Sanskrit or not and often a debatable subject. 
-10. സംവതാനയപദതിന േശഷം ദഢവരണം വനാല ഇരടികകയില 
+8. ഉത്തരപദത്തിലെ ആദിയിലെ വര്‍ണം ശിഥിലമാണെങ്കില്‍ ഇരടികകയില 
+9. രണ പദവം സംസതമാണെങ്കില്‍ ദഢവര്‍ണം ഇരടികകയില. Computationally very difficult to identify whether the word is Sanskrit or not and often a debatable subject. 
+10. സംവതാനയപദതിന ശേഷം ദഢവര്‍ണം വന്നാല്‍  ഇരടികകയില 
 
-e) Substitution - ആേദശസന്ധി
+e) Substitution - ആദേശസന്ധി
 Many of the rules in this category are word formation rules
 
-For eg: അകല+തന= അകറന, േവള+ത= േവട, െതാള+നറ്=െതാണറ് ഉള+മ= ഉണ So, not sure whether we need to consider them as important as others.
+For eg: അകല്‍+തുന്നു= അകറ്റുന്നു,
+വേള്‍+തു=വേട്ടു,
+തൊള്‍+നൂറ്=തൊണ്ണൂറ് 
+ഉള്‍+മ= ഉണ്മ
+   So, not sure whether we need to consider them as important as others.
 
 
