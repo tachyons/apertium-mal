@@ -15,13 +15,15 @@ Malayalam is both agglutinative and inflective language. Most of the Indian lang
 
 The inflective nature is defined in a logical manner in Sandhi Rules of Malayalam. Let us examine the logical structure of a Malayalam word with a special emphasis on its string processing nature.
 
-പതയയെത പ്രകൃതിയില േചരതണാകനതാം പദം ചിലെപാളിത രണിന-മിടയ ചിലയകരം േചരേകണതണിടനില-െയനേത േപരതിനിഹ അതം പ്രകൃതിയംകടി-േചരനതിനംഗെമന േപര
+പ്രത്യയത്തെ പ്രകൃതിയില േചരതണാകനതാം പദം ചിലെപാളിത രണിന-മിടയ ചിലയകരം േചരേകണതണിടനില-െയനേത േപരതിനിഹ അതം പ്രകൃതിയംകടി-േചരനതിനംഗെമന േപര
 -ഏ ആര രാജരാജ വരമ [പ്രകൃതിപതയങള- കേരളപാണിനീയം]
 
-പ്രകൃതി എന ശബവിഭാഗതില പ്രത്യയം ചേര്‍ന്നിട്ടാണ് പദമണാകനത്. പ്രകൃതി പതയയങള ചേരനിടള ശബസ്വരപം തെന പദെമന സാരം. 
+പ്രകൃതി എന്ന ശബവിഭാഗതില പ്രത്യയം ചേര്‍ന്നിട്ടാണ് പദമുണ്ടാകുന്നത്. പ്രകൃതി പ്രത്യയങ്ങള്‍ ചേര്‍ന്നിട്ടുള്ള ശബസ്വരപം തന്നെ പദമെന്ന് സാരം. 
+###ie word=പ്രകൃതി+പ്രത്യയം
 
 From the above definition of a Malayalam word let us derive a Regular Expression(Computational representation of a string pattern) for a typical Malayalam word;
 പദം= (പ്രകൃതി)*[പ്രത്യയം]
+###പദം=word
 
 The above expression means a Malayalam word can be formed by any number(well, it is limited, say, less than 10) of പ്രകൃതി and zero or one പ്രത്യയം
 
@@ -30,27 +32,28 @@ Let us expand the regular expression following the three classification ARR defi
 Positional Classification
 
 Based on whether the word is formed by പ്രകൃതി only or പ്രകൃതി and പ്രത്യയം or multiple പ്രകൃതി and പ്രത്യയം.
-a) പദമദ്ധ്യ സന്ധി: (പ്രകൃതി)+ (പ്രത്യയം)
-Eg: മരത്തില്‍= മരം[പ്രകൃതി]+ ഇല[പ്രത്യയം] 
-b) പദാന്ത്യസന്ധി: (പ്രകൃതി)*
-Eg: വെണ്‍പ്രാവു്=വെണ്‍ [പ്രകൃതി ]+ പ്രാവ് [പ്രകൃതി]
+a) പദമദ്ധ്യ സന്ധി: (പ്രകൃതി)+ (പ്രത്യയം) #sandhi inside a word
+Eg: മരത്തില്‍= മരം[പ്രകൃതി]+ ഇല്‍[പ്രത്യയം] # locative form of a tree
+b) പദാന്ത്യസന്ധി: (പ്രകൃതി)*             #sandhi at the end of the word
+Eg: വെണ്‍പ്രാവു്=വെണ്‍ [പ്രകൃതി ]+ പ്രാവ് [പ്രകൃതി] # white pigeon
 പൊല്‍പ്പൂ=പൊന്‍ [പ്രകൃതി] + പൂ[പ്രകൃതി]
-c) ഉഭയസന്ധി: (പ്രകൃതി)*+ (പ്രത്യയം)
+c) ഉഭയസന്ധി: (പ്രകൃതി)*+ (പ്രത്യയം) # mix of above 2 sandhi
 Eg: മണിയറയില്‍ = മണി[പ്രകൃതി] + അറ[പ്രകൃതി] + ഇല്‍[പ്രത്യയം]] 
+
 CV (Consonant Vowel) Pair Based Classification
-a) സ്വരസന്ധി : [vowel]+[vowel]
+a) സ്വരസന്ധി : [vowel]+[vowel] 
 Eg: മഴ+അല്ല=മഴയല്ല ==> അകാരം+അ 
 b) സ്വരവ്യഞ്ജനസന്ധി : [vowel]+ [consonant]
 
 Eg: താമര+ കുളം= താമരക്കുളം ==>അകാരം+ത 
 c) വ്യഞ്ജനസ്വരസന്ധി: [consonant]+ [vowel]
-Eg: കണ്ണ്+ഇല്ല= കണ്ണില്ല
+Eg: കണ്ണ്+ഇല്ല= കണ്ണില്ല       # No+eye
 
 c) വ്യഞ്ജനസന്ധി: [consonant]+ [consonant]
- Eg: നെല്‍+മണി-നെന്‍മണി
+ Eg: നെല്‍+മണി-നെന്‍മണി 
 Changes to letters during Sandhi 
-a) Deletion - േലാപസന്ധി
-സ്വരതിനമനപ േലാപിയം സംവതം വയരതമാകയാല അതിെന സ്വരമായിേട വകവേയണ സന്ധിയില
+a) Deletion - ലോപസന്ധി
+സ്വരതിനമനപ ലോപിയം സംവതം വയരതമാകയാല അതിെന സ്വരമായിേട വകവേയണ സന്ധിയില
 
 We can formulate the above rule in a logical way as follows
 
@@ -58,23 +61,23 @@ We can formulate the above rule in a logical way as follows
  /്ു/(samvruthokaram)+ [സ്വരം] = സ്വരചിഹ്നം($2)
 
 where [സ്വരം] = any of ["അ", "ആ", "ഇ","ഈ","ഉ","ഊ", "ഋ","എ","ഏ","ഐ","ഒ","ഓ","ഔ"]
-[സ്വരചിഹ്നം$2] = സന്ധിയില രണാമേത സ്വരതിെന സ്വരചിഹ്നം
-Example: സ്വരചിഹ്നം(ഇ)= ്ി Illustration:
-അത്/അതു് + ഇല്ല = അതില്ല
-പൂവ്/പൂവു്+ ഉണ്ട്= പൂവുണ്ട്
- സന്തോഷ്+ ആണ്= സന്തോഷാണ്
+[സ്വരചിഹ്നം$2] = സന്ധിയില രണ്ടാമത്തെ സ്വരത്തിന്റെ സ്വരചിഹ്നം
+Example: സ്വരചിഹ്നം(ഇ)=ി Illustration:
+അത്/അതു് + ഇല്ല = അതില്ല 
+പൂവ്/പൂവു്+ ഉണ്ട്= പൂവുണ്ട് # have flower
+ സന്തോഷ്+ ആണ്= സന്തോഷാണ് # is santhosh
 
 This is not simple. for example, consider വാക്+ ഈശ്വരന്‍ = വാഗീശ്വരുന്ന. There are hundreds of rules and most of them have exceptions. We may need to Consider chillus also. Sometimes, the same chillu may refer to more than one base letter.
 
-ഞായര്‍+ ആഴ്ച= ഞായറാഴ്ച
-നായര്‍+ അല്ല = നായരല്ല
+ഞായര്‍+ ആഴ്ച= ഞായറാഴ്ച # sunday + week
+നായര്‍+ അല്ല = നായരല്ല  # not nair
 
 Note: There are some other rules in ലോപപസന്ധി for the അകാരേലാപം. But in Unicode, the code points are always for the letters with implicit അകാരം. For eg: ക , ഘ , ത ...So it is easy to handle such rules.
 
 Examples:
 
 അല്ല+എന്ന് = അല്ലെന്ന്
-വരിക+ എടോ = വരികെടോ
+വരിക+ എടോ = വരികെടോ #come + hey
 
 b) Insertion - ആഗമസന്ധി 
 Main rule:
@@ -148,19 +151,19 @@ c) Duplication -ദവിതവസന്ധി Rules
 7. അലപ സമാസതിനം കിയാ ധാതവിനം ശേഷം വരുന്ന ദഢാകരങളിരടികകയില 
 മലമകള്‍ + ചരണം = മലമകള്‍ചരണം 
 
-പരവപദതിലള ലിങ വചന പതയയങളക് േലാപമിലാത പദങ്ങള്‍ക്ക് അലപ സമാസം എന പറയന 
+പരവപദതിലള ലിങ വചന പ്രത്യയങ്ങള്‍ ക് ലോപമിലാത പദങ്ങള്‍ക്ക് അലപ സമാസം എന പറയന 
 
 േദവര ഉമര മലമകള ഇവയിെല അര കള ഒരിക്കലും ലോപിക്കുകയില 
-കട +േകാല =കടേകാല 
+കട + കോല്‍ =കടക്കോല്‍ 
 എരി +തീ = എരിതീ 
 അടി +പിടി =അടിപിടി
 
 കട എരി അടി എനിവ യഥാകമം കടയക എരിയക അടികക എനിവയെട ധാതകളാണ് അതെകാണാണ് ഈ പദങള ഇരടികാതത്
 
 Challenge is identifying whether the first word is a ധാത- A good Database may be a solution but not preparing such a database is not a trivial task.
-8. ഉത്തരപദത്തിലെ ആദിയിലെ വര്‍ണം ശിഥിലമാണെങ്കില്‍ ഇരടികകയില 
-9. രണ പദവം സംസതമാണെങ്കില്‍ ദഢവര്‍ണം ഇരടികകയില. Computationally very difficult to identify whether the word is Sanskrit or not and often a debatable subject. 
-10. സംവതാനയപദതിന ശേഷം ദഢവര്‍ണം വന്നാല്‍  ഇരടികകയില 
+8. ഉത്തരപദത്തിലെ ആദിയിലെ വര്‍ണം ശിഥിലമാണെങ്കില്‍ ഇരട്ടിക്കുകയില 
+9. രണ പദവം സംസതമാണെങ്കില്‍ ദഢവര്‍ണം ഇരട്ടിക്കുകയില. Computationally very difficult to identify whether the word is Sanskrit or not and often a debatable subject. 
+10. സംവതാനയപദതിന ശേഷം ദഢവര്‍ണം വന്നാല്‍  ഇരട്ടിക്കുകയില 
 
 e) Substitution - ആദേശസന്ധി
 Many of the rules in this category are word formation rules
