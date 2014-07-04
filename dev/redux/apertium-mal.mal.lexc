@@ -91,9 +91,12 @@ LEXICON DET-XXX
 %<det%>: K ; 
 LEXICON VBCOP-AAK
 %<vbcop%>%<fut%>:കും #;
+LEXICON VBCOP-UNTU
+%<vbcop%>%<fut%>:ണ്ട് #;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON VBCOP
 ആക്:ആ VBCOP-AAK;  ! "FIXME" !debug
+ഉണ്ട്:ഉ VBCOP-UNTU ; ! "uṇṭ" ! "have"
 LEXICON Determiners
 
 എല്ലാം:എല്ലാം DET-XXX ; ! "ellāṁ" ! "all"
@@ -105,6 +108,7 @@ LEXICON Nouns
 മഴക്കാലം:മഴക്കാല N-KKALAM ; ! "maḻakkālaṁ" ! "rainy season"
 തല:തല N-THALA ; ! "tala" ! "head"
 വഴി:വഴി N-THALA ; ! "vaḻi" ! "path"
+കൈ:കൈ N-THALA ; ! "vaḻi" ! "hand"
 
 LEXICON Verbs 
 
@@ -112,6 +116,8 @@ LEXICON Verbs
 
 ഇരുളുക:ഇരു V-IV-VIRALUKA ; ! "iruḷuka" ! "darken"
 കൂടുക:കൂട V-IV-VEIKUKA ; ! "kūṭuka" ! "be together"
+
+
 
 ! മേഘങ്ങളെല്ലാം‌
 ! മേഘങ്ങളെല്ലാം
