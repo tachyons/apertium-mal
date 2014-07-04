@@ -92,7 +92,7 @@ LEXICON DET-XXX
 LEXICON VBCOP-AAK
 %<vbcop%>%<fut%>:കും #;
 LEXICON VBCOP-UNTU
-%<vbcop%>%<fut%>:ണ്ട് #;
+%<vbcop%>%<pres%>:ണ്ട് #;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON VBCOP
 ആക്:ആ VBCOP-AAK;  ! "FIXME" !debug
