@@ -5,15 +5,14 @@ Alphabet
 
  ാ ി ീ  ു ൂ ൃ ൄ െ േ ൈ ൊ ോ ൌ ് ൎ ം ഃ
 
-‍
+‍ %{യ%}:0
 
 %>:0
 %»:0 ; 
 
 Sets 
 
-Wboundary = %» ; 
-
+FullVowel = ആ ;
 DepVowel = െ ി  ു  ; 
 ThalSwara = ാ ി ീ  െ േ ൈ ;
 OshtSwara =ു ൂ ൊ ോ ൌ ൗ ;
@@ -31,9 +30,10 @@ Rules
 ം:മ <=> _ %»: :DepVowel ; 
 
 "Change free vowels to combining vowels after word boundary"
-Vx:Vy <=> %»: _ ; 
-    where Vx in ( എ  ഇ  ഉ       )
-          Vy in ( െ ി  ു    ) matched ; 
+Vx:Vy <=> %»:  _ ; 
+                         %»: :യ _ ;  
+    where Vx in ( എ  ഇ  ഉ    ആ   )
+          Vy in ( െ ി  ു   ാ ) matched ; 
 
 "Delete 'virama' before word boundary"
 ്:0 <=> _ (‍:0) %»: ; 
@@ -41,6 +41,8 @@ Vx:Vy <=> %»: _ ;
 "Remove zero-width joiner, \u200d when followed by a word boundary"
 ‍:0 <=> _  [ %>: | %»: ]  ;
 
+"After a character in the ThalSwara set {യ} surfaces as യ"
+%{യ%}:യ <=> ThalSwara: %»: _ FullVowel: ; 
 
 
 
