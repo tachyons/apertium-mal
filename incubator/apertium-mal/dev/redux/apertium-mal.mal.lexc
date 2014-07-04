@@ -21,6 +21,7 @@ Multichar_Symbols
 %<past%>
 %<pres%>
 
+%{യ%}
 
 %+
 %>
@@ -35,7 +36,7 @@ VBCOP ;
 
 LEXICON K
 
-%+:%» Root ; 
+%+:%»%{യ%} Root ; 
 # ; 
 
 
