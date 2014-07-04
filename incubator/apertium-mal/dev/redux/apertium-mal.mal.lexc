@@ -31,6 +31,7 @@ LEXICON Root
 Determiners ;
 Nouns ; 
 Verbs ; 
+VBCOP ;
 
 LEXICON K
 
@@ -87,9 +88,11 @@ LEXICON V-IV-VEIKUKA
 LEXICON DET-XXX
 
 %<det%>: K ; 
-
+LEXICON VBCOP-AAK
+%<vbcop%>%<fut%>:കും #;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+LEXICON VBCOP
+ആക്:ആ VBCOP-AAK;  ! "FIXME" !debug
 LEXICON Determiners
 
 എല്ലാം:എല്ലാം DET-XXX ; ! "ellāṁ" ! "all"
@@ -100,6 +103,7 @@ LEXICON Nouns
 മേഘം:മേഘ N-MRIGAM ; ! "mēghaṁ" ! "cloud"
 മഴക്കാലം:മഴക്കാല N-KKALAM ; ! "maḻakkālaṁ" ! "rainy season"
 തല:തല N-THALA ; ! "tala" ! "head"
+വഴി:വഴി N-THALA ; ! "vaḻi" ! "path"
 
 LEXICON Verbs 
 
