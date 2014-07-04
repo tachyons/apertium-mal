@@ -3,7 +3,7 @@ Alphabet
  അ ആ ഇ ഈ ഉ ഊ ഋ ഌ എ ഏ ഐ ഒ ഓ ഔ ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട 
  ഠ ഡ ഢ ണ ത ഥ ദ ധ ന ഩ പ ഫ ബ ഭ മ യ ര റ ല ള ഴ വ  ശ ഷ സ ഹ  
 
- ാ ി ീ  ു ൂ ൃ ൄ െ േ ൈ ൊ ോ ൌ ് ൎ ം ഃ
+ ാ ി ീ  ു ൂ ൃ ൄ െ േ ൈ ൊ ോ ൌ ് ൎ ം ഃ  ൗ
 
 ‍ %{യ%}:0
 
@@ -41,8 +41,9 @@ Vx:Vy <=> %»:  _ ;
 "Remove zero-width joiner, \u200d when followed by a word boundary"
 ‍:0 <=> _  [ %>: | %»: ]  ;
 
-"After a character in the ThalSwara set {യ} surfaces as യ"
-%{യ%}:യ <=> ThalSwara: %»: _ FullVowel: ; 
-
+"Surfacing of {യ} as യ and വ"
+%{യ%}:Cx <=> Cy: %»: _ FullVowel: ; 
+         where Cy in ( ാ  ി  ീ  െ  േ  ൈ  ു  ൂ  ൊ  ോ  ൌ  ൗ ) 
+               Cx in ( യ   യ  യ   യ    യ     യ    വ   വ     വ       വ      വ      വ   ) matched ; 
 
 
