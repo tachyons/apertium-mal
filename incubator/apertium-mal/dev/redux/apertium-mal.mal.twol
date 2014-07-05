@@ -12,7 +12,7 @@ Alphabet
 
 Sets 
 
-FullVowel = എ  ഇ  ഉ    ആ ;
+FullVowel = എ  ഇ  ഉ    ആ ഓ ;
 DepVowel = െ ി  ു  ; 
 ThalSwara = ാ ി ീ  െ േ ൈ ;
 OshtSwara =ു ൂ ൊ ോ ൌ ൗ ;
@@ -32,8 +32,8 @@ Rules
 "Change free vowels to combining vowels after word boundary"
 Vx:Vy <=> %»: (:0) _ ; 
                          %»: [ %{യ%}:യ | %{യ%}:വ ] _ ;  
-    where Vx in ( എ  ഇ  ഉ    ആ    )
-          Vy in ( െ ി  ു   ാ ) matched ; 
+    where Vx in ( എ  ഇ  ഉ    ആ   ഓ  )
+          Vy in ( െ ി  ു   ാ  ോ ) matched ; 
 
 "Delete 'virama' before word boundary"
 ്:0 <=> _ (‍:0) %»: ; 

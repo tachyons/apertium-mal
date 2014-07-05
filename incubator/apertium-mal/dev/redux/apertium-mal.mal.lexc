@@ -4,6 +4,7 @@ Multichar_Symbols
 %<n%>
 %<v%>
 %<det%>
+%<adj%>
 %<vbcop%>
 
 %<sg%>
@@ -90,18 +91,26 @@ LEXICON V-IV-VEIKUKA
 LEXICON DET-XXX
 
 %<det%>: K ; 
+
 LEXICON VBCOP-AAK
+
 %<vbcop%>%<fut%>:കും #;
+
 LEXICON VBCOP-UNTU
+
 %<vbcop%>%<pres%>:ണ്ട് #;
 
 LEXICON A1 
 
-%<adj%>: # ;
+%<adj%>: K ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 LEXICON VBCOP
+
 ആക്:ആ VBCOP-AAK;  ! "FIXME" !debug
 ഉണ്ട്:ഉ VBCOP-UNTU ; ! "uṇṭ" ! "have"
+
 LEXICON Determiners
 
 എല്ലാം:എല്ലാം DET-XXX ; ! "ellāṁ" ! "all"
