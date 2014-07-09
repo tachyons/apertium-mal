@@ -569,7 +569,25 @@ LEXICON NP4-COG
 %<np%>%<cog%>%<m%>%<pl%>%<vov%>:മാരേ # ; ! ""
 %<np%>%<cog%>%<m%>%<pl%>%<ins%>:മാരാല്‍ CLIT-N ; ! "mārāl‍"
 
+LEXICON NP5-COG ! "endind with chillu നെല്‍സണ്‍"
 
+%<np%>%<cog%>%<m%>%<sg%>%<nom%>:് CLIT-N-NOM ; ! ""
+%<np%>%<cog%>%<m%>%<sg%>%<loc%>:ില്‍ CLIT-N-LOC; ! "yil‍"
+%<np%>%<cog%>%<m%>%<sg%>%<acc%>:െ CLIT-N-ACC ; ! "ye"
+%<np%>%<cog%>%<m%>%<sg%>%<gen%>:ിന്റെ CLIT-N-GEN ; ! "yuṭe"
+%<np%>%<cog%>%<m%>%<sg%>%<dat%>:ിന് CLIT-N ; ! "yk"
+%<np%>%<cog%>%<m%>%<sg%>%<dat%>:ിനു CLIT-N ; ! "n" ! "debug"
+%<np%>%<cog%>%<m%>%<sg%>%<voc%>:നോ #; ! ""
+%<np%>%<cog%>%<m%>%<sg%>: N-CASES-SG ; ! ""
+!plural
+%<np%>%<cog%>%<m%>%<pl%>%<nom%>:മാര്‍ CLIT-N-NOM ; ! ""
+%<np%>%<cog%>%<m%>%<pl%>%<loc%>:മാരില്‍ CLIT-N-LOC ; ! "mār‍"
+%<np%>%<cog%>%<m%>%<pl%>%<acc%>:മാരെ CLIT-N-ACC ; ! "māre"
+%<np%>%<cog%>%<m%>%<pl%>%<gen%>:മാരുടെ CLIT-N-GEN ; ! "māruṭe"
+%<np%>%<cog%>%<m%>%<pl%>%<dat%>:മാര്‍ക് CLIT-N ; ! "mār‍k"
+%<np%>%<cog%>%<m%>%<pl%>%<soc%>:മാരോട് CLIT-N ; ! "mārēāṭ"
+%<np%>%<cog%>%<m%>%<pl%>%<vov%>:മാരേ # ; ! ""
+%<np%>%<cog%>%<m%>%<pl%>%<ins%>:മാരാല്‍ CLIT-N ; ! "mārāl‍"
 
 LEXICON NP-TOP-KERALA
 
@@ -3626,6 +3644,7 @@ LEXICON NominalStems
 താലൂക്ക്:താലൂക്ക N3 ; ! "" 
 പോലീസ്:പോലീസ N3; ! "" ! "police"
 മാര്‍ച്ച്:മാര്‍ച്ച N3 ; ! "' !"march"
+പൂവ്:പൂവ N3; ! "' ! "flower"
 മേയ്:മേയ N3; ! "" ! "may"
 വിത്ത്:വിത്ത N3 ; ! ""  ! ""seed"
 ഓഗസ്റ്റ്:ഓഗസ്റ്റ N3; ! ""
@@ -4582,7 +4601,7 @@ LEXICON NominalStems
 കറ:കറ N2 ; ! "kaṟa" ! "stain, spot, slur, scale, sap, bitumen"
 രക്ഷ:രക്ഷ N2 ; ! "rakṣa" ! "security, screen, rock, remedy, redress, amulet"
 പ്രതിഭ:പ്രതിഭ N2 ; ! "pratibha" ! "brain, astuteness"
-ഐതിഹ്യങ്ങള്‍:ഐതിഹ്യങ്ങള്‍ N2 ; ! "aitihyaṅṅaḷ‍" ! "folklore"
+! ഐതിഹ്യങ്ങള്‍:ഐതിഹ്യങ്ങള്‍ N2 ; ! "aitihyaṅṅaḷ‍" ! "folklore"
 ചെണ്ട:ചെണ്ട N2 ; ! "ceṇṭa" ! "drum"
 മാല:മാല N2 ; ! "māla" ! "chain"
 സീമ:സീമ N2 ; ! "sīma" ! "term, range, margin, march, line, limit, end, edge, compass, boundary, border, barrier"
