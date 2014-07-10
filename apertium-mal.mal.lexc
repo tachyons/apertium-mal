@@ -34,6 +34,7 @@ Multichar_Symbols
 %<fut%>         ! Future tense                ! 
 %<perf%>        ! Simple Perfect              !
 %<rem_perf%>    ! Remote Perfect              !
+%<contpres%>    ! Contemporaneous perfect      !
 %<perm%>        ! Permissive mood             !
 %<imp%>         ! Imperative mood             !
 %<hab%>         ! Habitual aspect             ! 
@@ -1211,7 +1212,7 @@ LEXICON V-COMMON-ATIKKUKA
 %<past%>:%>ച്ചു NEG-WHEN ; ! ""
 %<fut%>:%>ക്കും NEG-WHEN ; ! ""
 %<iter%>%<pres%>:%>ച്ചുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>ച്ചുകൊണ്ടിരിന്നു NEG-WHEN ; ! ""
+%<iter%>%<past%>:%>ച്ചുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
 %<iter%>%<fut%>:%>ച്ചുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
 %<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ച്ച GPR-PAST ; ! ""
@@ -1220,6 +1221,7 @@ LEXICON V-COMMON-ATIKKUKA
 %<imp%>%<infml%>:%>ക്കൂ # ; !""
 %<hab%>:%>ക്കാര്‍ CLIT-COP-UNTU ; ! "ār"
 %<pcpl%>:%>ച്ച് # ; ! ""
+%<contpres%>:%>ച്ചിരിക്കുന്നു # ; 
 !%<nom%>%:%>ല്‍  CLIT-COP  ; !""
 
 LEXICON V-COMMON-VEIKUKA
@@ -1229,7 +1231,7 @@ LEXICON V-COMMON-VEIKUKA
 %<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ി NEG-WHEN ; ! ""
 %<iter%>%<pres%>:%>ികൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>ികൊണ്ടിരിന്നു NEG-WHEN ; ! ""
+%<iter%>%<past%>:%>ികൊണ്ടിരുന്നു NEG-WHEN ; ! ""
 %<iter%>%<fut%>:%>ികൊണ്ടിരിക്കും NEG-WHEN ; ! ""
 %<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ിയ GPR-PAST ; ! ""
@@ -1244,7 +1246,7 @@ LEXICON V-COMMON-PATUKA
 %<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ി NEG-WHEN ; ! ""
 %<iter%>%<pres%>:%>ികൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>ികൊണ്ടിരിന്നു NEG-WHEN ; ! ""
+%<iter%>%<past%>:%>ികൊണ്ടിരുന്നു NEG-WHEN ; ! ""
 %<iter%>%<fut%>:%>ികൊണ്ടിരിക്കും NEG-WHEN ; ! ""
 %<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ിയ GPR-PAST ; ! ""
@@ -1259,7 +1261,7 @@ LEXICON V-COMMON-NERUKA
 %<pres%>:%>രുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ര്‍ന്നു NEG-WHEN ; ! ""
 %<iter%>%<pres%>:%>ര്‍ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>ര്‍ന്നുകൊണ്ടിരിന്നു NEG-WHEN ; ! ""
+%<iter%>%<past%>:%>ര്‍ന്നുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
 %<iter%>%<fut%>:%>ര്‍ന്നുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
 %<gpr_pres%>:%>രുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ര്‍ന്ന GPR-PAST ; ! ""
@@ -1274,7 +1276,7 @@ LEXICON V-COMMON-PILARKUKA
 %<pres%>:%>ര്‍ത്തുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ര്‍ത്തി NEG-WHEN ; ! ""
 %<iter%>%<pres%>:%>ര്‍ത്തികൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>ര്‍ത്തികൊണ്ടിരിന്നു NEG-WHEN ; ! ""
+%<iter%>%<past%>:%>ര്‍ത്തികൊണ്ടിരുന്നു NEG-WHEN ; ! ""
 %<iter%>%<fut%>:%>ര്‍ത്തികൊണ്ടിരിക്കും  NEG-WHEN ; ! ""
 %<gpr_pres%>:%>ര്‍തുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ര്‍ത്തി GPR-PAST ; ! ""
@@ -1291,7 +1293,7 @@ LEXICON V-COMMON-CHAKUKA
 %<pres%>:%>ാകുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ത്തു NEG-WHEN ; ! ""
 %<iter%>%<pres%>:%>ത്തുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>ത്തുകൊണ്ടിരിന്നു NEG-WHEN ; ! ""
+%<iter%>%<past%>:%>ത്തുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
 %<iter%>%<fut%>:%>ത്തുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
 %<gpr_pres%>:%>ാകുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ത്ത GPR-PAST ; ! ""
@@ -1307,7 +1309,7 @@ LEXICON V-COMMON-THOTUKA
 %<pres%>:%>ടുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>്ടു NEG-WHEN ; ! ""
 %<iter%>%<pres%>:%>്ടുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>്ടുകൊണ്ടിരിന്നു NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>്ടുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
 %<iter%>%<pres%>:%>്ടുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
 %<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>്ട GPR-PAST ; ! ""
@@ -1322,7 +1324,7 @@ LEXICON V-COMMON-UZHUTHUKA
 %<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ുതു NEG-WHEN ; ! ""
 %<iter%>%<pres%>:%>ുതുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>ുതുകൊണ്ടിരിന്നു NEG-WHEN ; ! ""
+%<iter%>%<past%>:%>ുതുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
 %<iter%>%<fut%>:%>ുതുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
 %<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ുത GPR-PAST ; ! ""
@@ -1337,7 +1339,7 @@ LEXICON V-COMMON-EALKUKA
 %<pres%>:%>ല്കുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>റ്റു NEG-WHEN ; ! ""
 %<iter%>%<pres%>:%>റ്റുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>റ്റുകൊണ്ടിരിന്നു NEG-WHEN ; ! ""
+%<iter%>%<past%>:%>റ്റുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
 %<iter%>%<fut%>:%>റ്റുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
 %<gpr_pres%>:%>ല്കുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>റ്റ GPR-PAST ; ! ""
@@ -1354,7 +1356,7 @@ LEXICON V-COMMON-NIKAZHUKA
 %<pres%>:%>ഴുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ഴ്ത്തി NEG-WHEN ; ! ""
 %<iter%>%<pres%>:%>ഴ്ത്തികൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>ഴ്ത്തികൊണ്ടിരിന്നു NEG-WHEN ; ! ""
+%<iter%>%<past%>:%>ഴ്ത്തികൊണ്ടിരുന്നു NEG-WHEN ; ! ""
 %<iter%>%<fut%>:%>ഴ്ത്തികൊണ്ടിരിക്കും NEG-WHEN ; ! ""
 %<gpr_pres%>:%>ഴ്ത്തുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ഴ്ത്തി GPR-PAST ; ! ""
@@ -1370,7 +1372,7 @@ LEXICON V-COMMON-KAKKUKA
 %<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ട്ടു NEG-WHEN ; ! ""
 %<iter%>%<pres%>:%>ട്ടുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>ട്ടുകൊണ്ടിരിന്നു NEG-WHEN ; ! ""
+%<iter%>%<past%>:%>ട്ടുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
 %<iter%>%<fut%>:%>ട്ടുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
 %<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ട്ട GPR-PAST ; ! ""
