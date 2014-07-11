@@ -34,10 +34,16 @@ Multichar_Symbols
 %<fut%>         ! Future tense                ! 
 %<perf%>        ! Simple Perfect              !
 %<rem_perf%>    ! Remote Perfect              !
-%<contpres%>    ! Contemporaneous perfect      !
+%<contpres%>    ! Contemporaneous perfect     !
 %<perm%>        ! Permissive mood             !
 %<imp%>         ! Imperative mood             !
 %<hab%>         ! Habitual aspect             ! 
+
+%<prec%>         ! Precative mood             ! 
+%<opt%>          ! Optative mood              !
+%<irre%>         ! Irrealis mood              !
+%<satis%>        ! satisfactive mood              !  
+%<monit%>        ! monitory  mood              !    
 
 %<frml%>        ! Formal                      !
 %<infml%>       ! InFormal                    !
@@ -48,7 +54,7 @@ Multichar_Symbols
 %<simul%>       ! Simultaneous                !
 
 %<iter%>        ! Iterative                   !
-%<cond%>        ! Conditional                 !
+%<cond%>        ! Conditional Mood                 !
 
 %<gpr_pres%>    ! 
 %<gpr_past%>    !
@@ -92,6 +98,7 @@ Multichar_Symbols
 %<ord%>          ! Ordinal
 
 %<pcpl%>         ! participle                 !
+%<passive%>         ! participle                 !
 
 %{y%}           ! Epenthetic consonant        !
                 !   -y-, -v- or -r-           !
@@ -894,6 +901,8 @@ LEXICON V-COMMON-KANU
 %<past%>:%>ണ്ടു NEG-WHEN ; ! "ṇṭu"
 %<gpr_pres%>:%>ാണുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ത GPR-PAST ; ! ""
+%<pass%>%<gpr_pres%>:%>ാണപ്പെടുന്ന GPR-PRES ; ! ""
+%<pass%>%<gpr_past%>:%>ാണപ്പെട്ട GPR-PAST ; ! "
 %<perm%>:%>ാണാം #; ! "ḷ‍kkām" ! 
 !%<fut%>:%>
 
@@ -1211,17 +1220,33 @@ LEXICON V-COMMON-ATIKKUKA
 %<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ച്ചു NEG-WHEN ; ! ""
 %<fut%>:%>ക്കും NEG-WHEN ; ! ""
+%<pass%>%<pres%>:%>ക്കപ്പെടുന്നു NEG-WHEN ; ! "̔̔"
+%<pass%>%<past%>:%>ക്കപ്പെട്ടു NEG-WHEN ; ! ""
+%<pass%>%<fut%>:%>ക്കപ്പെടും NEG-WHEN ; ! ""
 %<iter%>%<pres%>:%>ച്ചുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
 %<iter%>%<past%>:%>ച്ചുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
 %<iter%>%<fut%>:%>ച്ചുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
 %<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ച്ച GPR-PAST ; ! ""
+%<pass%>%<gpr_pres%>:%>ക്കപ്പെടുന്ന GPR-PRES ; ! ""
+%<pass%>%<gpr_past%>:%>ക്കപ്പെട്ട GPR-PAST ; ! ""
 %<imp%>:%>ക്ക് # ; !""
 %<imp%>%<frml%>:%>ക്കണം # ; !""
 %<imp%>%<infml%>:%>ക്കൂ # ; !""
 %<hab%>:%>ക്കാര്‍ CLIT-COP-UNTU ; ! "ār"
 %<pcpl%>:%>ച്ച് # ; ! ""
 %<contpres%>:%>ച്ചിരിക്കുന്നു # ; 
+%<prec%>:%>ക്കണേ # ; 
+%<opt%>:%>ട്ടെ # ; 
+%<irre%>%<past%>:%>ച്ചേനെ # ; 
+%<cond%>:%>ച്ചാല്‍  NEG-WHEN ; ! "ccāl‍"
+%<monit%>%<fut%>:%>ക്കുമേ # ;
+%<satis%>%<fut%>:%>ക്കുമല്ലൊ #;
+%<satis%>%<pres%>:%>ക്കുന്നല്ലൊ #;
+%<satis%>%<past%>:%>ത്തല്ലൊ #;
+%<oblig%>:%>ക്കണം # ; 
+%<itg%>:%>ക്കുമോ # ; 
+
 !%<nom%>%:%>ല്‍  CLIT-COP  ; !""
 
 LEXICON V-COMMON-VEIKUKA
@@ -1661,6 +1686,8 @@ LEXICON VBCOP-AAK
 
 ആക്%<vbcop%>%<pres%>:ആണ് CLIT-ITG ; ! "FIXME"
 ആക്%<vbcop%>%<past%>:ആയി CLIT-ITG ; ! "FIXME"
+ആക്%<vbcop%>%<past%>:ആയും CLIT-ITG ; ! "FIXME" !debug !TODO adverb
+ആക്%<vbcop%>%<past%>:ആയിട്ടും CLIT-ITG ; ! "FIXME"
 ആക്%<vbcop%>%<pres%>%+യില്ല%<adv%>:അല്ല CLIT-ITG ; ! "FIXME" 
 ആക്%<vbcop%>%<pres%>%+യില്ല%<adv%>:ഇല്ല CLIT-ITG ; ! "FIXME" 
 ആക്%<vbcop%>%<fut%>:ആയിരിക്കുമോ CLIT-ITG ; ! "FIXME"
@@ -5227,6 +5254,7 @@ LEXICON Adverbs
 
 !quantitative
 മുഴുവന്‍:മുഴുവന്‍ ADV ; ! "complete"
+ഏതാണ്ട്:ഏതാണ്ട് ADV; ! "some what"
 !quantifier
 മിക്കവാറും:മിക്കവാറും ADV;
 
