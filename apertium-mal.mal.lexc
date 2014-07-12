@@ -1007,7 +1007,7 @@ LEXICON V-COMMON-URANGUKA
 LEXICON V-COMMON-ISHTAPETUKA
 %<inf_k%>:%>ടുക  CLIT-CC ; ! "uka" ! FIXME
 %<inf_n%>:%>ടാന്‍  #; ! "̔ān‍ " ! 
- 
+
 %<pres%>:%>ടുന്നു # ; ! "̔̔unnu"
 %<past%>:%>ട്ടു # ; ! "̔i "
 %<iter%>%<pres%>:%>ട്ടുക്കൊണ്ടിരിക്കുന്നു # ; ! "̔i "
@@ -1021,6 +1021,7 @@ LEXICON V-COMMON-CHEYYUKA
 %<iter%>%<pres%>്തുകൊണ്ടിരിക്കുന്നു # ; ! "̔i "
 %<gpr_pres%>:%>്യുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>്ത GPR-PAST ; ! ""
+%<pcpl%>:%>്ത് # ; ! ""
 
 LEXICON V-COMMON-IRUNNU
 %<inf_k%>:%>ിക്കുക  CLIT-CC ; ! "uka" ! FIXME
@@ -1212,7 +1213,35 @@ LEXICON V-COMMON-PERUKA
 %<imp%>:%>റ് # ; !""
 %<imp%>%<frml%>:%>റണം # ; !""
 %<imp%>%<infml%>:%>റൂ # ; !""
-
+LEXICON PASS-CONT
+%<inf_k%>:%>ടുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ടാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ട്ടിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ടുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ട്ടു NEG-WHEN ; ! ""
+%<fut%>:%>ടും NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ട്ടുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<iter%>%<past%>:%>ട്ടുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
+%<iter%>%<fut%>:%>ട്ടുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ടുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ട്ട GPR-PAST ; ! ""
+%<imp%>:%>ട് # ; !""
+%<imp%>%<frml%>:%>ടണം # ; !""
+%<imp%>%<infml%>:%>ടൂ # ; !""
+%<hab%>:%>ടാര്‍ CLIT-COP-UNTU ; ! "ār"
+%<pcpl%>:%>ട്ട് # ; ! ""
+!
+%<contpres%>:%>ട്ടിക്കുന്നു # ; 
+%<prec%>:%>ടണേ # ; 
+%<opt%>:%>ടട്ടെ # ; 
+%<irre%>%<past%>:%>ട്ടേനെ # ; 
+%<cond%>:%>ട്ടാല്‍  NEG-WHEN ; ! "ccāl‍"
+%<monit%>%<fut%>:%>ടുമേ # ;
+%<satis%>%<fut%>:%>ടുമല്ലൊ #;
+%<satis%>%<pres%>:%>ടുന്നല്ലൊ #;
+%<satis%>%<past%>:%>ച്ചല്ലൊ #;
+%<oblig%>:%>ടണം # ; 
+%<itg%>:%>ടുമോ # ; 
 LEXICON V-COMMON-ATIKKUKA
 %<inf_k%>:%>ക്കുക CLIT-CC ; ! "" ! FIXME
 %<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" ! 
@@ -1220,16 +1249,12 @@ LEXICON V-COMMON-ATIKKUKA
 %<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ച്ചു NEG-WHEN ; ! ""
 %<fut%>:%>ക്കും NEG-WHEN ; ! ""
-%<pass%>%<pres%>:%>ക്കപ്പെടുന്നു NEG-WHEN ; ! "̔̔"
-%<pass%>%<past%>:%>ക്കപ്പെട്ടു NEG-WHEN ; ! ""
-%<pass%>%<fut%>:%>ക്കപ്പെടും NEG-WHEN ; ! ""
+%<pass%>:%>ക്കപ്പെ PASS-CONT ;
 %<iter%>%<pres%>:%>ച്ചുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
 %<iter%>%<past%>:%>ച്ചുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
 %<iter%>%<fut%>:%>ച്ചുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
 %<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ച്ച GPR-PAST ; ! ""
-%<pass%>%<gpr_pres%>:%>ക്കപ്പെടുന്ന GPR-PRES ; ! ""
-%<pass%>%<gpr_past%>:%>ക്കപ്പെട്ട GPR-PAST ; ! ""
 %<imp%>:%>ക്ക് # ; !""
 %<imp%>%<frml%>:%>ക്കണം # ; !""
 %<imp%>%<infml%>:%>ക്കൂ # ; !""
@@ -1237,7 +1262,7 @@ LEXICON V-COMMON-ATIKKUKA
 %<pcpl%>:%>ച്ച് # ; ! ""
 %<contpres%>:%>ച്ചിരിക്കുന്നു # ; 
 %<prec%>:%>ക്കണേ # ; 
-%<opt%>:%>ട്ടെ # ; 
+%<opt%>:%>ക്കട്ടെ # ; 
 %<irre%>%<past%>:%>ച്ചേനെ # ; 
 %<cond%>:%>ച്ചാല്‍  NEG-WHEN ; ! "ccāl‍"
 %<monit%>%<fut%>:%>ക്കുമേ # ;
