@@ -16,9 +16,17 @@ FullVowel = എ  ഇ  ഉ    ആ ഓ ;
 DepVowel = െ ി  ു  ; 
 ThalSwara = ാ ി ീ  െ േ ൈ ;
 OshtSwara =ു ൂ ൊ ോ ൌ ൗ ;
+Kharam = ക ച ട ത പ  ;
+AthiKharam =ഖ ഛ ഠ ഥ ഫ ;
+! ര ല വ ശ ഷ സ ഹ ള ഴ റ ണ ;
+Mrithu = ഗ ജ ഡ ദ ബ ;
+Khosham = ഘ ഝ ഢ ധ ഭ;
+Anunasiaka =ങ ഞ ണ ന മ ;
+!Dridam=ക ച ട ത പ ഖ ഛ ഠ ഥ ഫ ;
+Dridam= ക ച ട ത പ  ഖ ഛ ഠ ഥ ഫ ഗ ജ ഡ ദ ബ ഘ ഝ ഢ ധ ഭ ശ ഷ സ ;
+
 
 Rules 
-
 ! Sandhi rules
 
 "Remove 'anusuvara' when followed by a word boundary"
