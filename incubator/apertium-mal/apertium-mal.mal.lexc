@@ -894,581 +894,2087 @@ LEXICON GPR-PAST
 %<subst%>:%>ത N3-COMMON ; 
 # ;
 
-LEXICON V-COMMON-KALI 
-
-%<inf_k%>:%>ക്കുക CLIT-CC ; ! "̔kkuka" ! FIXME
-%<inf_n%>:%>ക്കാന്‍ # ; ! "kkaṇ" ! FIXME ?
-
-%<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "kkunnu"
-%<past%>:%>ച്ചു NEG-WHEN-EVEN ; ! "ccu"
-%<fut%>:%>ക്കും NEG-WHEN ; ! "kkuṁ"
-%<iter%>%<pres%>:%>ച്ചുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "ccu"
-%<cond%>:%>ച്ചാല്‍  NEG-WHEN ; ! "ccāl‍"
-
+LEXICON V-COMMON‌-ALANNU
+%<inf_k%>:%>ക്കുക  CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ന്നിട്ടുണ്ട്  # ;
+%<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ന്നു NEG-WHEN ; ! ""
+%<fut%>:%>ക്കും  NEG-WHEN ;
+%<pass%>:%>ക്കപ്പെ CONT ;
+%<iter%>:%>ന്നുകൊണ്ടി  ITER-TENS;
+%<iter%>%<cont%>:%>ന്നുകൊണ്ടേ ITER-TENS;
 %<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ച്ച GPR-PAST ; ! ""
-%<pcpl%>:%>ച്ച് # ; ! "" ! "debug"
-
-
-!%<simul%>:%>
-!%<oblig%>:%>
-
-LEXICON V-COMMON-KANU
-
-%<inf_k%>:%>ാണുക CLIT-CC ; ! "̔āṇuka" ! FIXME
-%<inf_n%>:%>ാണാന്‍  NEG-WHEN ; ! "̔āṇān‍" ! 
-%<pres%>:%>ാണുന്ന NEG-WHEN ; ! "̔āṇunnu "
-%<perf%>:%>ണ്ടിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<past%>:%>ണ്ടു NEG-WHEN ; ! "ṇṭu"
-%<gpr_pres%>:%>ാണുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ത GPR-PAST ; ! ""
-%<pass%>:%>ാണപ്പെ PASS-CONT ;
-!%<pass%>%<gpr_pres%>:%>ാണപ്പെടുന്ന GPR-PRES ; ! ""
-!%<pass%>%<gpr_past%>:%>ാണപ്പെട്ട GPR-PAST ; ! "
-%<perm%>:%>ാണാം #; ! "ḷ‍kkām" ! 
-!%<fut%>:%>
-
-!%<simul%>:%>
-!%<oblig%>:%>
-
+%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
+%<imp%>:%>ക്ക  CONT_IMP; !""
+%<pcpl%>:%>ന്ന്  # ;
+%<contpres%>:%>ന്നിരിക്കുന്നു # ;
+%<prec%>:%>ക്ക PREC-CONT ; ! ""
+%<opt%>:%>ക്കട്ടെ  # ; !
+%<irre%>%<past%>:%>ന്നേനെ # ; !
+%<cond%>:%>ന്നാല്‍ NEG-WHEN ; ! "ccāl‍"
+%<monit%>%<fut%>:%>ക്കുമേ # ;!
+%<satis%>%<fut%>:%>ക്കുമല്ലൊ #; ! ""
+%<satis%>%<past%>:%>ന്നല്ലൊ #; ! ""
+%<satis%>%<pres%>:%>ക്കുന്നല്ലൊ #; ! ""
+%<oblig%>:%>ക്കണം # ; ! ""
+%<itg%>:%>ക്കുമോ # ; ! ""
+!%<iter%>%<pres%>:%>ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+LEXICON V-COMMON‌-ALANNU
+%<inf_k%>:%>ക്കുക  CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ന്നിട്ടുണ്ട്  # ;
+%<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ന്നു NEG-WHEN ; ! ""
+%<fut%>:%>ക്കും  NEG-WHEN ;
+%<pass%>:%>ക്കപ്പെ CONT ;
+%<iter%>:%>ന്നുകൊണ്ടി  ITER-TENS;
+%<iter%>%<cont%>:%>ന്നുകൊണ്ടേ ITER-TENS;
+%<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
+%<imp%>:%>ക്ക  CONT_IMP; !""
+%<pcpl%>:%>ന്ന്  # ;
+%<contpres%>:%>ന്നിരിക്കുന്നു # ;
+%<prec%>:%>ക്ക PREC-CONT ; ! ""
+%<opt%>:%>ക്കട്ടെ  # ; !
+%<irre%>%<past%>:%>ന്നേനെ # ; !
+%<cond%>:%>ന്നാല്‍ NEG-WHEN ; ! "ccāl‍"
+%<monit%>%<fut%>:%>ക്കുമേ # ;!
+%<satis%>%<fut%>:%>ക്കുമല്ലൊ #; ! ""
+%<satis%>%<past%>:%>ന്നല്ലൊ #; ! ""
+%<satis%>%<pres%>:%>ക്കുന്നല്ലൊ #; ! ""
+%<oblig%>:%>ക്കണം # ; ! ""
+%<itg%>:%>ക്കുമോ # ; ! ""
+!%<iter%>%<pres%>:%>ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
 LEXICON V-COMMON-ARIYUKA
-
-%<inf_k%>:%>യുക CLIT-CC ; ! "iyuka" 
+%<inf_k%>:%>യുക CLIT-CC ; ! "iyuka"
 %<inf_n%>:%>യാന്‍ # ; ! "iyān‍"
-
+%<perf%>:%>ഞ്ഞിരുന്നു CLIT-ITG ; ! "̔"
+%<rem_perf%>:%>ഞ്ഞിട്ടുണ്ട് # ; ! "'
 %<pres%>:%>യുന്നു NEG-WHEN ; ! "iyunnu"
 %<past%>:%>ഞ്ഞു NEG-WHEN-EVEN ; ! "ññu"
 %<fut%>:%>യും CLIT-CC ;
-%<fut%>%+യില്ല%<adv%>:%>യ്%>ില്ല   # ; ! "illa" 	
-
+%<pass%>:%>യപ്പെ PASS-CONT ;
+%<iter%>:%>ഞ്ഞുകൊണ്ടി ITER-TENS; ! ""
+%<iter%>%<cont%>:%>ഞ്ഞുകൊണ്ടേ ITER-TENS; ! ""
+%<gpr_pres%>:%>യുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ഞ്ഞ GPR-PAST ; ! ""
 %<imp%>:%>യ് # ; !""
-%<imp%>%<frml%>:%>യണം CLIT-QUOT; !""
-%<imp%>%<infml%>:%>യൂ # ; !""
-
+%<pcpl%>:%>ഞ്ഞ് # ; ! ""
+%<contpres%>:%>ഞ്ഞിരുന്നു # ; !
+%<prec%>:%>യ PREC-CONT ; ! ""
+%<opt%>:%>യട്ടെ # ;
+%<irre%>%<past%>:%>ഞ്ഞേനെ # ;
+%<cond%>:%>ഞാല്‍ NEG-WHEN ; ! "ccāl‍"
+%<monit%>%<fut%>:%>യുമോ # ;!
+%<satis%>%<fut%>:%>യുമല്ലോ #; !
+%<satis%>%<past%>:%>ഞ്ഞല്ലൊ #; !
+%<satis%>%<pres%>:%>യുന്നല്ലൊ #; !
+%<oblig%>:%>യണം # ; !
+%<itg%>:%>യുമോ # ; !
+!%<fut%>%+യില്ല%<adv%>:%>യ്%>ില്ല   # ; ! "illa"
+!%<imp%>%<frml%>:%>യണം CLIT-QUOT; !""
+!%<imp%>%<infml%>:%>യൂ # ; !""
+LEXICON V-COMMON-ARIYUKA
+%<inf_k%>:%>യുക CLIT-CC ; ! "iyuka"
+%<inf_n%>:%>യാന്‍ # ; ! "iyān‍"
+%<perf%>:%>ഞ്ഞിരുന്നു CLIT-ITG ; ! "̔"
+%<rem_perf%>:%>ഞ്ഞിട്ടുണ്ട് # ; ! "'
+%<pres%>:%>യുന്നു NEG-WHEN ; ! "iyunnu"
+%<past%>:%>ഞ്ഞു NEG-WHEN-EVEN ; ! "ññu"
+%<fut%>:%>യും CLIT-CC ;
+%<pass%>:%>യപ്പെ PASS-CONT ;
+%<iter%>:%>ഞ്ഞുകൊണ്ടി ITER-TENS; ! ""
+%<iter%>%<cont%>:%>ഞ്ഞുകൊണ്ടേ ITER-TENS; ! ""
 %<gpr_pres%>:%>യുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ഞ്ഞ GPR-PAST ; ! ""
-!%<
-
-LEXICON V-COMMON-ENNI
-
-%<inf_k%>:%>ുക CLIT-CC ; ! "̔uka" ! FIXME
-%<inf_n%>:%>ാൻ # ; ! "̔̔ān‍" ! 
- 
-%<pres%>:%>ുന്നു # ; ! "̔̔unnu"
-%<past%>:%>ി # ; ! "i"
-%<iter%>%<pres%>:%>ിക്കൊണ്ടിരിക്കുന്നു # ; ! "i"
-
-LEXICON V-COMMON-LABHIKKUKA
-
-%<inf_k%>:%>ിക്കുക  CLIT-CC ; ! "̔uka" ! FIXME
-%<inf_n%>:%>ിക്കാന്‍ CLIT-CC; ! "̔̔ān‍" ! 
- 
-%<pres%>:%>ിക്കുന്നു # ; ! "̔̔unnu"
-%<past%>:%>ിച്ചു  # ; ! "i"
-%<gpr_pres%>:%>ിക്കുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ിച്ച GPR-PAST ; ! ""
-
-%<hab%>:%>ിക്കാര്‍ CLIT-COP-UNTU ; ! "ār"
-
-LEXICON V-COMMON-NOKKUKA
-
-%<inf_k%>:%>ുക  CLIT-CC ; ! "̔uka" ! FIXME
-%<inf_n%>:%>ാന്‍ #; ! "kkān‍" ! 
-%<perf%>:%>ിയിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>ുന്നു # ; ! "̔̔unnu"
-%<past%>:%>ി # ; ! "i"
-%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
-
-LEXICON V-COMMON-KELKKUKA
-%<inf_k%>:%>ള്‍ക്കുക  CLIT-CC ; ! "̔ḷ‍kuuka" ! FIXME
-%<inf_n%>:%>ള്‍ക്കാന്‍ #; ! "ḷ‍kkān‍" ! 
-%<perm%>:%>ള്‍ക്കാം #; ! "ḷ‍kkām" ! 
-%<pres%>:%>ള്‍കുന്നു # ; ! "̔̔ḷ‍kunnu"
-%<past%>:%>ട്ടു # ; ! "ṭṭu"
-
-LEXICON V-COMMON-KANDETHUKA   ! same as patuka ?? !FIXME
-%<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
-%<inf_n%>:%>ാന്‍  #; ! "̔ān‍ " ! 
-%<rem_perf%>:%>ിയിട്ടുണ്ട് CLIT-ITG ; ! "̔ān‍ " ! 
-%<pres%>:%>ുന്നു # ; ! "̔̔unnu"
-%<past%>:%>ി # ; ! "̔i "
-%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
-
-LEXICON V-COMMON-NADAKKUKA
-%<inf_k%>:%>ക്കുക  CLIT-CC ; ! "uka" ! FIXME
-%<inf_n%>:%>ക്കാന്‍  #; ! "̔ān‍ " ! 
- 
-%<pres%>:%>ക്കുന്നു # ; ! "̔̔unnu"
-%<past%>:%>ന്നു NEG-WHEN; ! "̔i "
-%<iter%>%<pres%>:%>ന്നുണ്ടിരിക്കുന്നു NEG-WHEN ; ! "̔i "
-%<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ന്ന GPR-PAST ; ! "
-
-
-LEXICON V-COMMON-POKUKA
-%<inf_k%>:%>കുക CLIT-CC ; ! "uka" ! FIXME
-%<inf_n%>:%>കാന്‍  #; ! "̔ān‍ " ! 
-%<pres%>:%>കുന്നു # ; ! "̔̔unnu"
-%<past%>:%>യി # ; ! "̔i "
-%<gpr_pres%>:%>കുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>യ GPR-PAST ; ! ""
-%<imp%>:%> # ; !""
-%<imp%>%<frml%>:%>കണം # ; !""
-%<imp%>%<infml%>:%>കൂ # ; !""
-
-LEXICON V-COMMON-URANGUKA
-%<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
-%<inf_n%>:%>ാന്‍  #; ! "̔ān‍ " ! 
- 
-%<pres%>:%>ുന്നു # ; ! "̔̔unnu"
-%<past%>:%>ി # ; ! "̔i "
-%<fut%>:%>ും # ; ! "̔i "
-%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
-%<iter%>%<pres%>:%>ിക്കൊണ്ടിരിക്കുന്നു # ; ! "̔i "
-
-LEXICON V-COMMON-ISHTAPETUKA
-%<inf_k%>:%>ടുക  CLIT-CC ; ! "uka" ! FIXME
-%<inf_n%>:%>ടാന്‍  #; ! "̔ān‍ " ! 
-
-%<pres%>:%>ടുന്നു # ; ! "̔̔unnu"
-%<past%>:%>ട്ടു # ; ! "̔i "
-%<iter%>%<pres%>:%>ട്ടുക്കൊണ്ടിരിക്കുന്നു # ; ! "̔i "
-
-LEXICON V-COMMON-CHEYYUKA
-%<inf_k%>:%>്യുക  CLIT-CC ; ! "uka" ! FIXME
-%<inf_n%>:%>്യാന്‍ #; ! "̔ān‍ " ! 
- 
-%<pres%>:%>്യുന്നു # ; ! "̔̔unnu"
-%<past%>:%>്തു # ; ! "̔i "
-%<iter%>%<pres%>്തുകൊണ്ടിരിക്കുന്നു # ; ! "̔i "
-%<gpr_pres%>:%>്യുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>്ത GPR-PAST ; ! ""
-%<pcpl%>:%>്ത് # ; ! ""
-
-LEXICON V-COMMON-IRUNNU
-%<inf_k%>:%>ിക്കുക  CLIT-CC ; ! "uka" ! FIXME
-%<inf_n%>:%>ിക്കാന്‍  #; ! "̔ān‍ " ! 
- 
-%<pres%>:%>ിക്കുന്നു # ; ! "̔̔unnu"
-%<past%>:%>ുന്നു # ; ! "̔i "
-%<iter%>%<pres%>:%ുന്നുകൊണ്ടേയിരിക്കുന്നു # ; ! "̔i "
-
-LEXICON V-COMMON-VARUKA
-%<inf_k%>:%>രുക  CLIT-CC ; ! "uka" ! FIXME
-%<inf_n%>:%>രാൻ # ; ! "̔ān‍ " ! 
- 
-%<pres%>:%>രുന്നു # ; ! "̔̔unnu"
-%<past%>:%>ന്നു # ; ! "̔i "
-%<iter%>%<pres%>ന്നുകൊണ്ടിരിക്കുന്നു # ; ! "̔i "
-%<gpr_pres%>:%>രുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
-
-LEXICON V-COMMON-KITTUKA
-%<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
-%<inf_n%>:%>ാന്‍ # ; ! "̔ān‍ " ! 
- 
-%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔unnu"
-%<past%>:%>ിയ NEG-WHEN ; ! "̔i "
-%<iter%>%<pres%>ികൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "̔i "
-%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ിയത്  GPR-PAST ; ! ""
-
-LEXICON V-COMMON-THINNUKA
-%<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
-%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔ān‍ " ! 
-%<perf%>:%>ിരുന്നു CLIT-ITG ; ! "̔ān‍ " ! 
-%<rem_perf%>:%>ിട്ടുണ്ട് CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔unnu"
-%<past%>:%>ു NEG-WHEN ; ! "̔i "
-%<iter%>%<pres%>:%>ുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "̔i "
-%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%> GPR-PAST ; ! ""
-
-
-LEXICON V-COMMON-THEERUKA
-%<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
-%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔ān‍ " ! 
-%<perf%>:%>്‍ന്നിരുന്നു CLIT-ITG ; ! "̔ān‍ " ! 
-%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔unnu"
-%<past%>:%>്‍ന്നു NEG-WHEN ; ! "̔i "
-%<iter%>%<pres%>:%>്‍ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "̔i "
-%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>്‍ന്ന GPR-PAST ; ! ""
-
-LEXICON V-COMMON-THEERUKA
-%<inf_k%>:%>ുക  CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>്‍ന്നിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>്‍ന്നു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>്‍ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>്‍ന്ന GPR-PAST ; ! ""
-
-LEXICON V-COMMON-VERUKKUKA
-%<inf_k%>:%>ക്കുക  CLIT-CC ; ! "uka" ! FIXME
-%<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔ān‍ " ! 
-%<perf%>:%>ത്തിരുന്നു CLIT-ITG ; ! "̔ān‍ " ! 
-%<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔unnu"
-%<past%>:%>ുത്തു NEG-WHEN ; ! "̔i "
-%<iter%>%<pres%>:%>ുത്തുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "̔i "
-%<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ുത്ത GPR-PAST ; ! ""
-%<perm%>:%>ക്കാം #;
-
-
-LEXICON V-COMMON-NOVUKA 
-%<inf_k%>:%>ോവുക  CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ോവാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ൊന്തിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>ോവുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>ൊന്തു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>ൊന്തുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<gpr_pres%>:%>ോവുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ൊന്ത GPR-PAST ; ! ""
-
-
-LEXICON V-COMMON-KARAYUKA
-%<inf_k%>:%>യുക  CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>യാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ഞിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>യുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>ഞ്ഞു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>ഞ്ഞുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<gpr_pres%>:%>യുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ഞ്ഞ GPR-PAST ; ! ""
-
-LEXICON V-COMMON-KOLLUKA
-%<inf_k%>:%>ല്ലുക  CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ല്ലാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>ല്ലുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>ന്നു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<gpr_pres%>:%>ല്ലുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
-
-LEXICON V-COMMON‌-ALANNU
-%<inf_k%>:%>ക്കുക  CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>ന്നു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
-
-
-LEXICON V-COMMON-THARUKA
-%<inf_k%>:%>രുക  CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>രാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>രുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>ന്നു NEG-WHEN ; ! ""
-%<past%>:%>രും # ; ! ""
-%<iter%>%<pres%>:%>ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<gpr_pres%>:%>രുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
-
-LEXICON V-COMMON-VILKUKA
-%<inf_k%>:%>ല്‍ക്കുക  CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ല്‍ക്കാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>റ്റിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>ല്‍കുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>റ്റു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>റ്റുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<gpr_pres%>:%>ല്‍കുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>റ്റ GPR-PAST ; ! ""
-
-LEXICON V-COMMON-VEENU
-%<inf_k%>:%>ഴുക CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ഴാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ണിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>ഴുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>ണു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>ണുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<gpr_pres%>:%>ഴുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ണ GPR-PAST ; ! ""
-
-LEXICON V-COMMON-VIRALUKA
-%<inf_k%>:%>ളുക CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ളാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ണ്ടിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>ളുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>ണ്ടു NEG-WHEN ; ! ""
-%<pp%>:%>ണ്ട് # ; ! ""
-%<iter%>%<pres%>:%>ണ്ടുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<gpr_pres%>:%>ളുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ണ്ട GPR-PAST ; ! ""
-
-
-LEXICON V-COMMON-NILKUKA
-%<inf_k%>:%>ല്‍ക്കുക CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>ല്‍ക്കുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>ന്നു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<gpr_pres%>:%>ല്‍കുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
-
-LEXICON V-COMMON-THAZHUKA
-%<inf_k%>:%>ുക CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>്ന്നിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>്ന്നു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>്ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>്ന്ന GPR-PAST ; ! ""
-
-
-
-LEXICON V-COMMON-PERUKA
-%<inf_k%>:%>റുക CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>റാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>റ്റിന്നിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>റുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>റ്റു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>റ്റുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<gpr_pres%>:%>റുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>റ്റ GPR-PAST ; ! ""
-%<imp%>:%>റ് # ; !""
-%<imp%>%<frml%>:%>റണം # ; !""
-%<imp%>%<infml%>:%>റൂ # ; !""
-LEXICON PASS-CONT
-%<inf_k%>:%>ടുക CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ടാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ട്ടിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>ടുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>ട്ടു NEG-WHEN ; ! ""
-%<fut%>:%>ടും NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>ട്ടുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>ട്ടുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
-%<iter%>%<fut%>:%>ട്ടുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
-%<gpr_pres%>:%>ടുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ട്ട GPR-PAST ; ! ""
-%<imp%>:%>ട് # ; !""
-%<imp%>%<frml%>:%>ടണം # ; !""
-%<imp%>%<infml%>:%>ടൂ # ; !""
-%<hab%>:%>ടാര്‍ CLIT-COP-UNTU ; ! "ār"
-%<pcpl%>:%>ട്ട് # ; ! ""
-!
-%<contpres%>:%>ട്ടിക്കുന്നു # ; 
-%<prec%>:%>ടണേ # ; 
-%<opt%>:%>ടട്ടെ # ; 
-%<irre%>%<past%>:%>ട്ടേനെ # ; 
-%<cond%>:%>ട്ടാല്‍  NEG-WHEN ; ! "ccāl‍"
-%<monit%>%<fut%>:%>ടുമേ # ;
-%<satis%>%<fut%>:%>ടുമല്ലൊ #;
-%<satis%>%<pres%>:%>ടുന്നല്ലൊ #;
-%<satis%>%<past%>:%>ച്ചല്ലൊ #;
-%<oblig%>:%>ടണം # ; 
-%<itg%>:%>ടുമോ # ; 
-LEXICON ITER-TENS
-%<pres%>:%>രിക്കുന്നു NEG-WHEN ; ! ""
-%<past%>:%>രുന്നു NEG-WHEN ; ! ""
-%<fut%>:%>രിക്കും NEG-WHEN ; ! ""
-LEXICON CONT_IMP
-് # ; !""
-%<frml%>:%>ണം # ; !""
-%<infml%>:%>ൂ # ; !""
-LEXICON CONT_IMP
-ണേ # ; !""
-%<neg%>:%>രുതേ # ; !""
+%<imp%>:%>യ് # ; !""
+%<imp%>:%>യ CONT_IMP; !""
+%<pcpl%>:%>ഞ്ഞ് # ; ! ""
+%<contpres%>:%>ഞ്ഞിരുന്നു # ; !
+%<prec%>:%>യ PREC-CONT ; ! ""
+%<opt%>:%>യട്ടെ # ;
+%<irre%>%<past%>:%>ഞ്ഞേനെ # ;
+%<cond%>:%>ഞാല്‍ NEG-WHEN ; ! "ccāl‍"
+%<monit%>%<fut%>:%>യുമോ # ;!
+%<satis%>%<fut%>:%>യുമല്ലോ #; !
+%<satis%>%<past%>:%>ഞ്ഞല്ലൊ #; !
+%<satis%>%<pres%>:%>യുന്നല്ലൊ #; !
+%<oblig%>:%>യണം # ; !
+%<itg%>:%>യുമോ # ; !
+!%<fut%>%+യില്ല%<adv%>:%>യ്%>ില്ല   # ; ! "illa"
+!%<imp%>%<frml%>:%>യണം CLIT-QUOT; !""
+!%<imp%>%<infml%>:%>യൂ # ; !""
 LEXICON V-COMMON-ATIKKUKA
 %<inf_k%>:%>ക്കുക CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ച്ചിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ച്ചിരുന്നു CLIT-ITG ; ! "̔" !
 %<rem_perf%>:%>ച്ചിട്ടുണ്ട് # ; ! "' !""
 %<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ച്ചു NEG-WHEN ; ! ""
 %<fut%>:%>ക്കും NEG-WHEN ; ! ""
 %<pass%>:%>ക്കപ്പെ PASS-CONT ;
 %<iter%>:%>ച്ചുകൊണ്ടി ITER-TENS; ! ""
-%<iter%>:%>ച്ചുകൊണ്ടേയി ITER-TENS; ! ""
+%<iter%>%<cont%>:%>ച്ചുകൊണ്ടേയി ITER-TENS; ! ""
 %<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ച്ച GPR-PAST ; ! ""
-%<imp%>:%>ക്ക CONT_IMP; !""
-!%<imp%>:%>ക്ക് # ; !""
-!%<imp%>%<frml%>:%>ക്കണം # ; !""
-!%<imp%>%<infml%>:%>ക്കൂ # ; !""
 %<hab%>:%>ക്കാര്‍ CLIT-COP-UNTU ; ! "ār"
+%<imp%>:%>ക്ക CONT_IMP; !""
 %<pcpl%>:%>ച്ച് # ; ! ""
 %<contpres%>:%>ച്ചിരിക്കുന്നു # ;
 %<prec%>:%>ക്ക PREC-CONT ; ! "" ! ""
-!%<prec%>:%>ക്കണേ # ; 
-!%<prec%>%<neg%>:%>ക്കരുതേ # ; 
-%<opt%>:%>ക്കട്ടെ # ; 
-%<irre%>%<past%>:%>ച്ചേനെ # ; 
+%<opt%>:%>ക്കട്ടെ # ;
+%<irre%>%<past%>:%>ച്ചേനെ # ;
 %<cond%>:%>ച്ചാല്‍  NEG-WHEN ; ! "ccāl‍"
 %<monit%>%<fut%>:%>ക്കുമേ # ;
 %<satis%>%<fut%>:%>ക്കുമല്ലൊ #;
+%<satis%>%<past%>:%>ച്ചല്ലൊ #;
 %<satis%>%<pres%>:%>ക്കുന്നല്ലൊ #;
-%<satis%>%<past%>:%>ത്തല്ലൊ #;
-%<oblig%>:%>ക്കണം # ; 
-%<itg%>:%>ക്കുമോ # ; 
-
-!%<nom%>%:%>ല്‍  CLIT-COP  ; !""
-
-LEXICON V-COMMON-VEIKUKA
-%<inf_k%>:%>ുക CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ിയിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>ി NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>ികൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>ികൊണ്ടിരുന്നു NEG-WHEN ; ! ""
-%<iter%>%<fut%>:%>ികൊണ്ടിരിക്കും NEG-WHEN ; ! ""
-%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
-%<imp%>:%>് # ; !""
-%<imp%>%<frml%>:%>ണം # ; !""
-%<imp%>%<infml%>:%>ൂ # ; !""
-
-LEXICON V-COMMON-PATUKA
-%<inf_k%>:%>ുക CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ിയിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>ി NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>ികൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>ികൊണ്ടിരുന്നു NEG-WHEN ; ! ""
-%<iter%>%<fut%>:%>ികൊണ്ടിരിക്കും NEG-WHEN ; ! ""
-%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
-%<imp%>:%>് # ; !""
-%<imp%>%<frml%>:%>ണം # ; !""
-%<imp%>%<infml%>:%>ൂ # ; !""
-
-LEXICON V-COMMON-NERUKA
-%<inf_k%>:%>രുക CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>രാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ര്‍ന്നിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>രുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>ര്‍ന്നു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>ര്‍ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>ര്‍ന്നുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
-%<iter%>%<fut%>:%>ര്‍ന്നുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
-%<gpr_pres%>:%>രുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ര്‍ന്ന GPR-PAST ; ! ""
-%<imp%>:%>ര് # ; !""
-%<imp%>%<frml%>:%>രണം # ; !""
-%<imp%>%<infml%>:%>രൂ # ; !""
-
-LEXICON V-COMMON-PILARKUKA
-%<inf_k%>:%>ര്‍ക്കുക CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ളര്‍ക്കാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ര്‍ത്തിയിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>ര്‍ത്തുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>ര്‍ത്തി NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>ര്‍ത്തികൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>ര്‍ത്തികൊണ്ടിരുന്നു NEG-WHEN ; ! ""
-%<iter%>%<fut%>:%>ര്‍ത്തികൊണ്ടിരിക്കും  NEG-WHEN ; ! ""
-%<gpr_pres%>:%>ര്‍തുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ര്‍ത്തി GPR-PAST ; ! ""
-%<imp%>:%>ര്‍ത്ത് # ; !""
-%<imp%>%<frml%>:%>ര്‍ത്തണം # ; !""
-%<imp%>%<infml%>:%>ര്‍ത്ത് # ; !""
-
-
-
+%<oblig%>:%>ക്കണം # ;
+%<itg%>:%>ക്കുമോ # ;
 LEXICON V-COMMON-CHAKUKA
 %<inf_k%>:%>ാകുക CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ാകാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ത്തിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<inf_n%>:%>ാകാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ത്തിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ത്തിട്ടുണ്ട് # ; ! "'
 %<pres%>:%>ാകുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ത്തു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>ത്തുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>ത്തുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
-%<iter%>%<fut%>:%>ത്തുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
+%<fut%>:%>ാകും NEG-WHEN ; ! ""
+%<iter%>:%>ത്തുകൊണ്ടി ITER-TENS; ! ""
+%<iter%>%<cont%>:%>ത്തുകൊണ്ടേ ITER-TENS; ! ""
 %<gpr_pres%>:%>ാകുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ത്ത GPR-PAST ; ! ""
 %<imp%>:%>ാക് # ; !""
-%<imp%>%<frml%>:%>കണം # ; !""
-%<imp%>%<infml%>:%>കൂ # ; !""
-
-
-LEXICON V-COMMON-THOTUKA
-%<inf_k%>:%>ുക CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>്ടിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>ടുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>്ടു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>്ടുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>്ടുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>്ടുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
-%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>്ട GPR-PAST ; ! ""
-%<imp%>:%>് # ; !""
-%<imp%>%<frml%>:%>ണം # ; !""
-%<imp%>%<infml%>:%>ൂ # ; !""
-
-LEXICON V-COMMON-UZHUTHUKA
-%<inf_k%>:%>ുതുക CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ുതിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>ുതു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>ുതുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>ുതുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
-%<iter%>%<fut%>:%>ുതുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
-%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ുത GPR-PAST ; ! ""
-%<imp%>:%>് # ; !""
-%<imp%>%<frml%>:%>ണം # ; !""
-%<imp%>%<infml%>:%>ൂ # ; !""
-
+%<pcpl%>:%>ത്ത് # ; ! ""
+%<contpres%>:%>ത്തിരുന്നു # ;
+%<prec%>:%>ക PREC-CONT ; ! ""
+%<opt%>:%>ാകട്ടെ # ;
+%<irre%>%<past%>:%>ത്തേനെ # ;
+%<cond%>:%>ത്താല്‍ NEG-WHEN ; ! "ccāl‍"
+!%<imp%>%<frml%>:%>കണം # ; !""
+!%<imp%>%<infml%>:%>കൂ # ; !""
+!%<iter%>%<fut%>:%>ത്തുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
+!%<iter%>%<past%>:%>ത്തുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
+!%<iter%>%<pres%>:%>ത്തുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+LEXICON V-COMMON-CHAKUKA
+%<inf_k%>:%>ാകുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ാകാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ത്തിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ത്തിട്ടുണ്ട് # ; ! "'
+%<pres%>:%>ാകുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ത്തു NEG-WHEN ; ! ""
+%<fut%>:%>ാകും NEG-WHEN ; ! ""
+%<iter%>:%>ത്തുകൊണ്ടി ITER-TENS; ! ""
+%<iter%>%<cont%>:%>ത്തുകൊണ്ടേ ITER-TENS; ! ""
+%<gpr_pres%>:%>ാകുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ത്ത GPR-PAST ; ! ""
+%<imp%>:%>ാക് # ; !""
+%<imp%>:%>ക CONT_IMP; !""
+%<pcpl%>:%>ത്ത് # ; ! ""
+%<contpres%>:%>ത്തിരുന്നു # ;
+%<prec%>:%>ക PREC-CONT ; ! ""
+%<opt%>:%>ാകട്ടെ # ;
+%<irre%>%<past%>:%>ത്തേനെ # ;
+%<cond%>:%>ത്താല്‍ NEG-WHEN ; ! "ccāl‍"
+!%<imp%>%<frml%>:%>കണം # ; !""
+!%<imp%>%<infml%>:%>കൂ # ; !""
+!%<iter%>%<fut%>:%>ത്തുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
+!%<iter%>%<past%>:%>ത്തുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
+!%<iter%>%<pres%>:%>ത്തുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+LEXICON V-COMMON-CHEYYUKA
+%<inf_k%>:%>്യുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>്യാന്‍ #; ! "̔ān‍ " !
+%<perf%>:%>്തിരുന്നു CLIT-ITG ; ! "̔" ! "അടിച്ചിരുന്നു"
+%<rem_perf%>:%>്തിട്ടുണ്ട്  # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>്യുന്നു # ; ! "̔̔unnu"
+%<past%>:%>്തു # ; ! "̔i "
+%<fut%>:%>ും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>പ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%> ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%> ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>്യുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>്ത GPR-PAST ; ! ""
+%<hab%>:%> CLIT-COP-UNTU ; ! "ār" ! "അടിക്കാ‌ര്‍"
+%<imp%>:%> CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>്ത് # ; ! ""
+%<contpres%>:%> # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%> # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%> # ; ! "അടിച്ചേനെ"
+%<cond%>:%> NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%> # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%> #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%> #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%> #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%> # ; ! "അടിക്കണം"
+%<itg%>:%> # ; ! "അടിക്കുമോ "
+!%<iter%>%<pres%>്തുകൊണ്ടിരിക്കുന്നു # ; ! "̔i "
+LEXICON V-COMMON-CHEYYUKA
+%<inf_k%>:%>്യുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>്യാന്‍ #; ! "̔ān‍ " !
+%<perf%>:%> CLIT-ITG ; ! "̔" ! "അടിച്ചിരുന്നു"
+%<rem_perf%>:%> # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>്യുന്നു # ; ! "̔̔unnu"
+%<past%>:%>്തു # ; ! "̔i "
+%<fut%>:%> NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%> PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%> ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%> ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>്യുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>്ത GPR-PAST ; ! ""
+%<hab%>:%> CLIT-COP-UNTU ; ! "ār" ! "അടിക്കാ‌ര്‍"
+%<imp%>:%> CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>്ത് # ; ! ""
+!%<iter%>%<pres%>്തുകൊണ്ടിരിക്കുന്നു # ; ! "̔i "
 LEXICON V-COMMON-EALKUKA
 %<inf_k%>:%>ല്ക്കുക CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ല്കാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>റ്റിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<inf_n%>:%>ല്കാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>റ്റിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>റ്റിട്ടുണ്ട് # ; !
 %<pres%>:%>ല്കുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>റ്റു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>റ്റുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>റ്റുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
-%<iter%>%<fut%>:%>റ്റുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
+%<fut%>:%>ല്കും NEG-WHEN ; ! ""
+%<pass%>:%>ല്കപ്പെ PASS-CONT ; !
+%<iter%>:%>റ്റുകൊണ്ടി ITER-TENS; ! ""
+%<iter%>%<cont%>:%>റ്റുകൊണ്ടേ ITER-TENS; ! ""
 %<gpr_pres%>:%>ല്കുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>റ്റ GPR-PAST ; ! ""
 %<imp%>:%>ല്ക് # ; !""
-%<imp%>%<frml%>:%>ല്കണം # ; !""
-%<imp%>%<infml%>:%>ല്കൂ # ; !""
-
-
-
-LEXICON V-COMMON-NIKAZHUKA
-%<inf_k%>:%>ഴുക CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ഴാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ര്‍ത്തിയിരുന്നു CLIT-ITG ; ! "̔" ! 
-%<pres%>:%>ഴുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>ഴ്ത്തി NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>ഴ്ത്തികൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>ഴ്ത്തികൊണ്ടിരുന്നു NEG-WHEN ; ! ""
-%<iter%>%<fut%>:%>ഴ്ത്തികൊണ്ടിരിക്കും NEG-WHEN ; ! ""
-%<gpr_pres%>:%>ഴ്ത്തുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ഴ്ത്തി GPR-PAST ; ! ""
-%<imp%>:%>ഴ്ത്ത് # ; !""
-%<imp%>%<frml%>:%>ഴ്ത്തണം # ; !""
-%<imp%>%<infml%>:%>ഴൂ # ; !""
-
-
+%<pcpl%>:%>റ്റ് # ; ! ""
+%<contpres%>:%>റ്റിരിക്കുന്നു # ;
+%<prec%>:%>ല്ക PREC-CONT ; ! ""
+%<opt%>:%>ല്കട്ടെ # ;
+%<irre%>%<past%>:%> # ; ! "*********"
+%<cond%>:%>റ്റാല്‍ NEG-WHEN ;
+%<monit%>%<fut%>:%>ല്കുമോ # ;
+%<satis%>%<fut%>:%>ല്കുമല്ലോ #;
+%<satis%>%<past%>:%>റ്റല്ലോ  #;
+%<satis%>%<pres%>:%>ല്കുന്നല്ലോ #;
+%<oblig%>:%>ല്കണം # ;
+%<itg%>:%>ല്കുമോ # ;
+!%<imp%>%<frml%>:%>ല്കണം # ; !""
+!%<imp%>%<infml%>:%>ല്കൂ # ; !""
+!%<iter%>%<fut%>:%>റ്റുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
+!%<iter%>%<past%>:%>റ്റുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
+!%<iter%>%<pres%>:%>റ്റുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+LEXICON V-COMMON-EALKUKA
+%<inf_k%>:%>ല്ക്കുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ല്കാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>റ്റിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>റ്റിട്ടുണ്ട് # ; !
+%<pres%>:%>ല്കുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>റ്റു NEG-WHEN ; ! ""
+%<fut%>:%>ല്കും NEG-WHEN ; ! ""
+%<pass%>:%>ല്കപ്പെ PASS-CONT ; !
+%<iter%>:%>റ്റുകൊണ്ടി ITER-TENS; ! ""
+%<iter%>%<cont%>:%>റ്റുകൊണ്ടേ ITER-TENS; ! ""
+%<gpr_pres%>:%>ല്കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>റ്റ GPR-PAST ; ! ""
+%<imp%>:%>ല്ക് # ; !""
+%<imp%>:%>ല്ക CONT_IMP; !""
+%<pcpl%>:%>റ്റ് # ; ! ""
+%<contpres%>:%>റ്റിരിക്കുന്നു # ;
+%<prec%>:%>ല്ക PREC-CONT ; ! ""
+%<opt%>:%>ല്കട്ടെ # ;
+%<irre%>%<past%>:%> # ; ! "*********"
+%<cond%>:%>റ്റാല്‍ NEG-WHEN ;
+%<monit%>%<fut%>:%>ല്കുമോ # ;
+%<satis%>%<fut%>:%>ല്കുമല്ലോ #;
+%<satis%>%<past%>:%>റ്റല്ലോ  #;
+%<satis%>%<pres%>:%>ല്കുന്നല്ലോ #;
+%<oblig%>:%>ല്കണം # ;
+%<itg%>:%>ല്കുമോ # ;
+!%<imp%>%<frml%>:%>ല്കണം # ; !""
+!%<imp%>%<infml%>:%>ല്കൂ # ; !""
+!%<iter%>%<fut%>:%>റ്റുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
+!%<iter%>%<past%>:%>റ്റുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
+!%<iter%>%<pres%>:%>റ്റുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+LEXICON V-COMMON-ENNI
+%<inf_k%>:%>ുക CLIT-CC ; ! "̔uka" ! FIXME
+%<inf_n%>:%>ാൻ # ; ! "̔̔ān‍" !
+%<perf%>:%>ിയിരുന്നു CLIT-ITG ;
+%<rem_perf%>:%>ിട്ടുണ്ട് # ; ! "'
+%<pres%>:%>ുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ി # ; ! "i"
+%<fut%>:%>ും NEG-WHEN ; ! ""
+%<pass%>:%>പ്പെ  PASS-CONT ;
+%<iter%>:%>ിക്കൊണ്ടി ITER-TENS; ! ""
+%<iter%>%<cont%>:%>ിക്കൊണ്ടേ ITER-TENS; ! ""
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
+%<imp%>:%> CONT_IMP; !""
+%<pcpl%>:%>ി # ; ! "" ! "***********"
+%<contpres%>:%>ിയിരിക്കുന്നു # ;
+%<prec%>:%> PREC-CONT ; ! ""
+%<opt%>:%>ട്ടെ # ;
+%<irre%>%<past%>:%>ിയേനെ # ;
+%<cond%>:%>ിയാല്‍  NEG-WHEN ; ! "ccāl‍"
+%<monit%>%<fut%>:%>ുമേ # ;
+%<satis%>%<fut%>:%>ുമല്ലൊ #;
+%<satis%>%<past%>:%>ിയല്ലൊ #;
+%<satis%>%<pres%>:%>ുന്നല്ലൊ #;
+%<oblig%>:%>ണം  # ;
+%<itg%>:%>ുമോ # ;
+!%<iter%>%<pres%>:%>ിക്കൊണ്ടിരിക്കുന്നു # ; ! "i"
+LEXICON V-COMMON-ENNI
+%<inf_k%>:%>ുക CLIT-CC ; ! "̔uka" ! FIXME
+%<inf_n%>:%>ാൻ # ; ! "̔̔ān‍" !
+%<perf%>:%>ിയിരുന്നു CLIT-ITG ;
+%<rem_perf%>:%>ിട്ടുണ്ട് # ; ! "'
+%<pres%>:%>ുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ി # ; ! "i"
+%<fut%>:%>ും NEG-WHEN ; ! ""
+%<pass%>:%>പ്പെ  PASS-CONT ;
+%<iter%>:%>ിക്കൊണ്ടി ITER-TENS; ! ""
+%<iter%>%<cont%>:%>ിക്കൊണ്ടേ ITER-TENS; ! ""
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
+%<imp%>:%> CONT_IMP; !""
+%<pcpl%>:%>ി # ; ! "" ! "***********"
+%<contpres%>:%>ിയിരിക്കുന്നു # ;
+%<prec%>:%> PREC-CONT ; ! ""
+%<opt%>:%>ട്ടെ # ;
+%<irre%>%<past%>:%>ിയേനെ # ;
+%<cond%>:%>ിയാല്‍  NEG-WHEN ; ! "ccāl‍"
+%<monit%>%<fut%>:%>ുമോ  # ;
+%<satis%>%<fut%>:%>ുമല്ലൊ #;
+%<satis%>%<past%>:%>ിയല്ലൊ #;
+%<satis%>%<pres%>:%>ുന്നല്ലൊ #;
+%<oblig%>:%>ണം  # ;
+%<itg%>:%>ുമോ # ;
+!%<iter%>%<pres%>:%>ിക്കൊണ്ടിരിക്കുന്നു # ; ! "i"
+LEXICON V-COMMON-IRUNNU
+%<inf_k%>:%>ിക്കുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ിക്കാന്‍  #; ! "̔ān‍ " !
+%<perf%>:%>ുന്നിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ുന്നിട്ടുണ്ട് # ; ! "' !
+%<pres%>:%>ിക്കുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ുന്നു # ; ! "̔i "
+%<fut%>:%>ിക്കും NEG-WHEN ; ! "" !
+%<pass%>:%>ിക്കപ്പെ PASS-CONT ; !
+%<iter%>:%>ുന്നുകൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>ുന്നുകൊണ്ടേ ITER-TENS; ! "" !
+%<gpr_pres%>:%>ിക്കുന്ന GPR-PRES ; ! "" !
+%<gpr_past%>:%>ുന്ന GPR-PAST ; ! "" !
+%<imp%>:%>ിക്ക CONT_IMP; !"" !
+%<pcpl%>:%>ുന്ന് # ; ! "" !
+%<contpres%>:%>ുന്നിരിക്കുന്നു # ; !
+%<prec%>:%>ിക്ക PREC-CONT ; ! "" !
+%<opt%>:%>ിക്കട്ടെ # ; !
+%<irre%>%<past%>:%>ുന്നേനെ # ; !
+%<cond%>:%>ുന്നാല്‍  NEG-WHEN ; ! "ccāl‍" !
+%<monit%>%<fut%>:%>ിക്കുമേ # ;!
+%<satis%>%<fut%>:%>ിക്കുമല്ലൊ #; !
+%<satis%>%<past%>:%>ുന്നല്ലൊ #; !
+%<satis%>%<pres%>:%>ിക്കുന്നല്ലൊ #; !
+%<oblig%>:%>ിക്കണം # ; !
+%<itg%>:%>ിക്കുമോ # ; !
+!%<iter%>%<pres%>:%ുന്നുകൊണ്ടേയിരിക്കുന്നു # ; ! "̔i "
+LEXICON V-COMMON-IRUNNU
+%<inf_k%>:%>ിക്കുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ിക്കാന്‍  #; ! "̔ān‍ " !
+%<perf%>:%>ുന്നിരുന്നു CLIT-ITG ; ! "̔" ! "അടിച്ചിരുന്നു"
+%<rem_perf%>:%>ുന്നിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ിക്കുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ുന്നു # ; ! "̔i "
+%<fut%>:%>ിക്കും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>ിക്കപ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>ുന്നുകൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ുന്നുകൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ിക്കുന്ന GPR-PRES ; ! "" ! "അടിക്കുന്ന"
+%<gpr_past%>:%>ുന്ന GPR-PAST ; ! "" ! "അടിച്ച"
+%<imp%>:%>ിക്ക CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>ുന്ന് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>ുന്നിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%>ിക്ക PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ിക്കട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ുന്നേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ുന്നാല്‍  NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>ിക്കുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>ിക്കുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>ുന്നല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>ിക്കുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>ിക്കണം # ; ! "അടിക്കണം"
+%<itg%>:%>ിക്കുമോ # ; ! "അടിക്കുമോ "
+!%<iter%>%<pres%>:%ുന്നുകൊണ്ടേയിരിക്കുന്നു # ; ! "̔i "
+LEXICON V-COMMON-ISHTAPETUKA
+%<inf_k%>:%>ടുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ടാന്‍  #; ! "̔ān‍ " !
+%<perf%>:%>ട്ടിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ട്ടിട്ടുണ്ട് # ; ! "' !
+%<pres%>:%>ടുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ട്ടു # ; ! "̔i "
+%<fut%>:%>ടും NEG-WHEN ; ! "" !
+%<pass%>:%> PASS-CONT ; !
+%<iter%>:%>ട്ടുകൊണ്ടി ITER-TENS; ! ""
+%<iter%>%<cont%>:%>ട്ടുകൊണേ ITER-TENS; ! ""
+%<gpr_pres%>:%>ടുന്ന GPR-PRES ; ! "" !
+%<gpr_past%>:%>ട്ട GPR-PAST ; ! "" !
+%<imp%>:%>ട്ട CONT_IMP; !"" !
+%<pcpl%>:%>ട്ട് # ; ! "" !
+%<contpres%>:%>ട്ടിരിക്കുന്നു # ; !
+%<prec%>:%>ട്ട PREC-CONT ; ! "" !
+%<opt%>:%>ടട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ട്ടേനെ # ; !
+%<cond%>:%>ട്ടാല്‍ NEG-WHEN ; ! "ccāl‍"
+%<monit%>%<fut%>:%>ടുമേ # ;!
+%<satis%>%<fut%>:%>ടുമല്ലൊ #; !
+%<satis%>%<past%>:%>ട്ടല്ലൊ #; !
+%<satis%>%<pres%>:%>ടുന്നല്ലൊ #; !
+%<oblig%>:%>ടണം # ; !
+%<itg%>:%>ടുമോ # ; !
+!%<iter%>%<pres%>:%>ട്ടുക്കൊണ്ടിരിക്കുന്നു # ; ! "̔i "
+LEXICON V-COMMON-ISHTAPETUKA
+%<inf_k%>:%>ടുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ടാന്‍  #; ! "̔ān‍ " !
+%<pres%>:%>ടുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ട്ടു # ; ! "̔i "
+!%<iter%>%<pres%>:%>ട്ടുക്കൊണ്ടിരിക്കുന്നു # ; ! "̔i "
 LEXICON V-COMMON-KAKKUKA
 %<inf_k%>:%>ക്കുക CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" ! 
-%<perf%>:%>ട്ടിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ട്ടിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ട്ടിട്ട്ണ്ട് # ; ! "' !
 %<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ട്ടു NEG-WHEN ; ! ""
-%<iter%>%<pres%>:%>ട്ടുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>ട്ടുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
-%<iter%>%<fut%>:%>ട്ടുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
+%<fut%>:%>ക്കും NEG-WHEN ; ! "" !
+%<pass%>:%>ക്കപ്പെ PASS-CONT ; !
+%<iter%>:%>ട്ടുകൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>ട്ടുകൊണ്ടേ ITER-TENS; ! "" !
 %<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ട്ട GPR-PAST ; ! ""
 %<imp%>:%>ക്ക് # ; !""
-%<imp%>%<frml%>:%>ക്കണം # ; !""
-%<imp%>%<infml%>:%>ക്കൂ # ; !""
+%<hab%>:%> CLIT-COP-UNTU ; ! "ār" ! "*************അടിക്കാ‌ര്‍"
+%<pcpl%>:%>ട്ട് # ; ! "" !
+%<contpres%>:%>ട്ടിരുന്നു # ; !
+%<prec%>:%>ക്ക PREC-CONT ; ! "" !
+%<opt%>:%>ക്കട്ടെ # ; !
+%<irre%>%<past%>:%>ട്ടേനെ # ; ! "
+%<cond%>:%>ട്ടാല്‍ NEG-WHEN ; ! "ccāl‍" !
+%<monit%>%<fut%>:%>ക്കുമേ # ;!
+%<satis%>%<fut%>:%>ക്കുമല്ലൊ #; !
+%<satis%>%<past%>:%>ട്ടല്ലൊ #; !
+%<satis%>%<pres%>:%>ക്കുന്നല്ലൊ #; !
+%<oblig%>:%>ക്കണം # ; !
+%<itg%>:%>ക്കുമോ # ; !
+!%<imp%>%<frml%>:%>ക്കണം # ; !""
+!%<imp%>%<infml%>:%>ക്കൂ # ; !""
+!%<iter%>%<fut%>:%>ട്ടുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
+!%<iter%>%<past%>:%>ട്ടുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
+!%<iter%>%<pres%>:%>ട്ടുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+LEXICON V-COMMON-KAKKUKA
+%<inf_k%>:%>ക്കുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ട്ടിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ട്ടിട്ട്ണ്ട് # ; ! "' !
+%<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ട്ടു NEG-WHEN ; ! ""
+%<fut%>:%>ക്കും NEG-WHEN ; ! "" !
+%<pass%>:%>ക്കപ്പെ PASS-CONT ; !
+%<iter%>:%>ട്ടുകൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>ട്ടുകൊണ്ടേ ITER-TENS; ! "" !
+%<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ട്ട GPR-PAST ; ! ""
+%<imp%>:%>ക്ക് # ; !""
+%<hab%>:%> CLIT-COP-UNTU ; ! "ār" ! "*************അടിക്കാ‌ര്‍"
+%<pcpl%>:%>ട്ട് # ; ! "" !
+%<contpres%>:%>ട്ടിരുന്നു # ; !
+%<prec%>:%>ക്ക PREC-CONT ; ! "" !
+%<opt%>:%>ക്കട്ടെ # ; !
+%<irre%>%<past%>:%>ട്ടേനെ # ; ! "
+%<cond%>:%>ട്ടാല്‍ NEG-WHEN ; ! "ccāl‍" !
+%<monit%>%<fut%>:%>ക്കുമേ # ;!
+%<satis%>%<fut%>:%>ക്കുമല്ലൊ #; !
+%<satis%>%<past%>:%>ട്ടല്ലൊ #; !
+%<satis%>%<pres%>:%>ക്കുന്നല്ലൊ #; !
+%<oblig%>:%>ക്കണം # ; !
+%<itg%>:%>ക്കുമോ # ; !
+!%<imp%>%<frml%>:%>ക്കണം # ; !""
+!%<imp%>%<infml%>:%>ക്കൂ # ; !""
+!%<iter%>%<fut%>:%>ട്ടുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
+!%<iter%>%<past%>:%>ട്ടുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
+!%<iter%>%<pres%>:%>ട്ടുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+LEXICON V-COMMON-KALI
+%<inf_k%>:%>ക്കുക CLIT-CC ; ! "̔kkuka" ! FIXME
+%<inf_n%>:%>ക്കാന്‍ # ; ! "kkaṇ" ! FIXME ?
+%<perf%>:%>ച്ചിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ച്ചിട്ടുണ്ട് # ; ! "' !
+%<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "kkunnu"
+%<past%>:%>ച്ചു NEG-WHEN-EVEN ; ! "ccu"
+%<fut%>:%>ക്കും NEG-WHEN ; ! "kkuṁ"
+%<fut%>:%>ക്കും  NEG-WHEN ; ! "" !
+%<pass%>:%>ക്കപ്പെ PASS-CONT ; !
+%<iter%>:%>ച്ചുകൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>ച്ചുകുകൊണ്ടേ ITER-TENS; ! "" !
+%<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ച്ച GPR-PAST ; ! ""
+%<hab%>:%>ക്കാര്‍ CLIT-COP-UNTU ; !
+%<imp%>:%>ക്ക് CONT_IMP; !"" !
+%<pcpl%>:%>ച്ച് # ; ! "" ! "debug"
+%<contpres%>:%>ച്ചിരിക്കുന്നു # ; !
+%<prec%>:%>ക്ക PREC-CONT ; ! "" !
+%<opt%>:%>ക്കട്ടെ # ; !
+%<irre%>%<past%>:%>ച്ചേനെ # ; !
+%<cond%>:%>ച്ചാല്‍  NEG-WHEN ; ! "ccāl‍"
+%<monit%>%<fut%>:%>ക്കുമേ # ;!
+%<satis%>%<fut%>:%>ക്കുമല്ലൊ #; !
+%<satis%>%<past%>:%>ച്ചല്ലൊ #; !
+%<satis%>%<pres%>:%>ക്കുന്നല്ലൊ #; !
+%<oblig%>:%>ക്കണം # ; !
+%<itg%>:%>ക്കുമോ # ; !
+!%<iter%>%<pres%>:%>ച്ചുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "ccu"
+LEXICON V-COMMON-KALI
+%<inf_k%>:%>ക്കുക CLIT-CC ; ! "̔kkuka" ! FIXME
+%<inf_n%>:%>ക്കാന്‍ # ; ! "kkaṇ" ! FIXME ?
+%<perf%>:%> CLIT-ITG ; ! "̔" ! "അടിച്ചിരുന്നു"
+%<rem_perf%>:%> # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "kkunnu"
+%<past%>:%>ച്ചു NEG-WHEN-EVEN ; ! "ccu"
+%<fut%>:%>ക്കും NEG-WHEN ; ! "kkuṁ"
+%<fut%>:%> NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%> PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%> ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%> ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ച്ച GPR-PAST ; ! ""
+%<hab%>:%> CLIT-COP-UNTU ; ! "ār" ! "അടിക്കാ‌ര്‍"
+%<imp%>:%> CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>ച്ച് # ; ! "" ! "debug"
+%<contpres%>:%> # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%> # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%> # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ച്ചാല്‍  NEG-WHEN ; ! "ccāl‍"
+%<monit%>%<fut%>:%> # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%> #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%> #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%> #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%> # ; ! "അടിക്കണം"
+%<itg%>:%> # ; ! "അടിക്കുമോ "
+!%<iter%>%<pres%>:%>ച്ചുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! "ccu"
+LEXICON V-COMMON-KANDETHUKA   ! same as patuka ?? !FIXME
+%<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ാന്‍  #; ! "̔ān‍ " !
+%<perf%>:%>ിയിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ിയിട്ടുണ്ട് # ; ! "' !
+%<pres%>:%>ുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ി # ; ! "̔i "
+%<fut%>:%>ും NEG-WHEN ; ! "" !
+%<pass%>:%>പ്പെ PASS-CONT ; !
+%<iter%>:%>ികൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>ികൊണ്ടേ ITER-TENS; ! "" !
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
+%<imp%>:%> CONT_IMP; !"" !
+%<pcpl%>:%>് # ; ! "" !
+%<contpres%>:%>ിയിരിക്കുന്നു # ;
+%<prec%>:%> PREC-CONT ; ! ""
+%<opt%>:%>ട്ടെ # ; !
+%<irre%>%<past%>:%>ിയേനെ # ; !
+%<cond%>:%>ിയാല്‍ NEG-WHEN ; ! "ccāl‍"
+%<monit%>%<fut%>:%>ുമേ # ;!
+%<satis%>%<fut%>:%>ുമല്ലൊ #; !
+%<satis%>%<past%>:%>ിയല്ലൊ #; !
+%<satis%>%<pres%>:%>ുന്നല്ലൊ #; !
+%<oblig%>:%>ണം # ; !
+%<itg%>:%>ുമോ # ; !
+!%<rem_perf%>:%>ിയിട്ടുണ്ട് CLIT-ITG ; ! "̔ān‍ " !
+LEXICON V-COMMON-KANDETHUKA   ! same as patuka ?? !FIXME
+%<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ാന്‍  #; ! "̔ān‍ " !
+%<perf%>:%> CLIT-ITG ; ! "̔" ! "അടിച്ചിരുന്നു"
+%<rem_perf%>:%> # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ി # ; ! "̔i "
+%<fut%>:%> NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%> PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%> ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%> ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
+%<hab%>:%> CLIT-COP-UNTU ; ! "ār" ! "അടിക്കാ‌ര്‍"
+%<imp%>:%> CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%> # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%> # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%> # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%> # ; ! "അടിച്ചേനെ"
+%<cond%>:%> NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%> # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%> #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%> #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%> #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%> # ; ! "അടിക്കണം"
+%<itg%>:%> # ; ! "അടിക്കുമോ "
+!%<rem_perf%>:%>ിയിട്ടുണ്ട് CLIT-ITG ; ! "̔ān‍ " !
+LEXICON V-COMMON-KANU
+%<inf_k%>:%>ാണുക CLIT-CC ; ! "̔āṇuka" ! FIXME
+%<inf_n%>:%>ാണാന്‍  NEG-WHEN ; ! "̔āṇān‍" !
+%<perf%>:%>ണ്ടിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ണ്ടിട്ടുണ്ട് # ; ! "' !""
+%<pres%>:%>ാണുന്ന NEG-WHEN ; ! "̔āṇunnu "
+%<past%>:%>ണ്ടു NEG-WHEN ; ! "ṇṭu"
+%<fut%>:%>ാണും NEG-WHEN ; ! "" ! ""
+%<pass%>:%>ാണപ്പെ PASS-CONT ; ! ""
+%<iter%>:%>ണ്ടുകൊണ്ടി ITER-TENS; ! "" ! ""
+%<iter%>%<cont%>:%>ണ്ടുകൊണ്ടേ ITER-TENS; ! "" ! ""
+%<gpr_pres%>:%>ാണുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ത GPR-PAST ; ! ""
+%<imp%>:%>ാണ CONT_IMP; !"" ! ""
+%<pcpl%>:%>ണ്ട് # ; ! "" ! ""
+%<contpres%>:%>ണ്ടിരിക്കുന്നു # ; ! ""
+%<prec%>:%>ാണ PREC-CONT ; ! "" ! " "
+%<opt%>:%>ാണട്ടെ # ; !
+%<irre%>%<past%>:%>ണ്ടേനെ # ; ! ""
+%<cond%>:%>ണ്ടാല്‍ NEG-WHEN ; ! "ccāl‍" ! ""
+%<monit%>%<fut%>:%>ാണുമോ # ;!
+%<satis%>%<fut%>:%>ാണുമല്ലോ #; !
+%<satis%>%<past%>:%>ണ്ടല്ലൊ #; !
+%<satis%>%<pres%>:%>ാണുന്നല്ലൊ #; !
+%<oblig%>:%>ാണണം # ; !
+%<itg%>:%>ാണുമോ # ; !
+!%<pass%>%<gpr_past%>:%>ാണപ്പെട്ട GPR-PAST ; ! "
+!%<pass%>%<gpr_pres%>:%>ാണപ്പെടുന്ന GPR-PRES ; ! ""
+!%<perm%>:%>ാണാം #; ! "ḷ‍kkām" !
+LEXICON V-COMMON-KANU
+%<inf_k%>:%>ാണുക CLIT-CC ; ! "̔āṇuka" ! FIXME
+%<inf_n%>:%>ാണാന്‍  NEG-WHEN ; ! "̔āṇān‍" !
+%<perf%>:%>ണ്ടിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ണ്ടിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ാണുന്ന NEG-WHEN ; ! "̔āṇunnu "
+%<past%>:%>ണ്ടു NEG-WHEN ; ! "ṇṭu"
+%<fut%>:%>ാണും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>ാണപ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>ണ്ടുകൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ണ്ടുകൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ാണുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ത GPR-PAST ; ! ""
+%<imp%>:%>ാണ CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>ണ്ട് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>ണ്ടിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%> # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%> # ; ! "അടിച്ചേനെ"
+%<cond%>:%> NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%> # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%> #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%> #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%> #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%> # ; ! "അടിക്കണം"
+%<itg%>:%> # ; ! "അടിക്കുമോ "
+!%<pass%>%<gpr_past%>:%>ാണപ്പെട്ട GPR-PAST ; ! "
+!%<pass%>%<gpr_pres%>:%>ാണപ്പെടുന്ന GPR-PRES ; ! ""
+!%<perm%>:%>ാണാം #; ! "ḷ‍kkām" !
+LEXICON V-COMMON-KARAYUKA
+%<inf_k%>:%>യുക  CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>യാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ഞിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ഞ്ഞിട്ടുണ്ട് # ; ! "' !""
+%<pres%>:%>യുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ഞ്ഞു NEG-WHEN ; ! ""
+!%<fut%>:%>യും NEG-WHEN ; ! "" ! ""
+%<pass%>:%>യപ്പെ PASS-CONT ; ! ""
+%<iter%>:%>ഞ്ഞുകൊണ്ടി ITER-TENS; ! "" ! ""
+%<iter%>%<cont%>:%>ഞ്ഞുകൊണ്ടേ ITER-TENS; ! "" ! ""
+%<gpr_pres%>:%>യുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ഞ്ഞ GPR-PAST ; ! ""
+%<imp%>:%>യ CONT_IMP; !"" ! ""
+%<pcpl%>:%>ഞ്ഞ് # ; ! "" ! ""
+%<contpres%>:%>ഞ്ഞിരിക്കുന്നു # ; ! ""
+%<prec%>:%>യ PREC-CONT ; ! "" ! ""
+%<opt%>:%>യട്ടെ # ; ! ""
+%<irre%>%<past%>:%>ഞ്ഞേനെ # ; ! ""
+%<cond%>:%>ഞാല്‍ NEG-WHEN ; ! "ccāl‍" ! ""
+%<monit%>%<fut%>:%>യുമേ # ;! ""
+%<satis%>%<fut%>:%>യുമല്ലോ #; ! ""
+%<satis%>%<past%>:%>ഞ്ഞല്ലൊ #; ! ""
+%<satis%>%<pres%>:%>യുന്നല്ലൊ #; ! ""
+%<oblig%>:%>യണം # ; ! ""
+%<itg%>:%>യുമോ # ; ! " "
+LEXICON V-COMMON-KARAYUKA
+%<inf_k%>:%>യുക  CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>യാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ഞിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ഞ്ഞിട്ടുണ്ട് # ; ! "' !""
+%<pres%>:%>യുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ഞ്ഞു NEG-WHEN ; ! ""
+!%<fut%>:%>യും NEG-WHEN ; ! "" ! ""
+%<pass%>:%>യപ്പെ PASS-CONT ; ! ""
+%<iter%>:%>ഞ്ഞുകൊണ്ടി ITER-TENS; ! "" ! ""
+%<iter%>%<cont%>:%>ഞ്ഞുകൊണ്ടേ ITER-TENS; ! "" ! ""
+%<gpr_pres%>:%>യുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ഞ്ഞ GPR-PAST ; ! ""
+%<imp%>:%>യ CONT_IMP; !"" ! ""
+%<pcpl%>:%>ഞ്ഞ് # ; ! "" ! ""
+%<contpres%>:%>ഞ്ഞിരിക്കുന്നു # ; ! ""
+%<prec%>:%>യ PREC-CONT ; ! "" ! ""
+%<opt%>:%>യട്ടെ # ; ! ""
+%<irre%>%<past%>:%>ഞ്ഞേനെ # ; ! ""
+%<cond%>:%>ഞാല്‍ NEG-WHEN ; ! "ccāl‍" ! ""
+%<monit%>%<fut%>:%>യുമേ # ;! ""
+%<satis%>%<fut%>:%>യുമല്ലോ #; ! ""
+%<satis%>%<past%>:%>ഞ്ഞല്ലൊ #; ! ""
+%<satis%>%<pres%>:%>യുന്നല്ലൊ #; ! ""
+%<oblig%>:%>യണം # ; ! ""
+%<itg%>:%>യുമോ # ; ! " "
+LEXICON V-COMMON-KELKKUKA
+%<inf_k%>:%>ള്‍ക്കുക  CLIT-CC ; ! "̔ḷ‍kuuka" ! FIXME
+%<inf_n%>:%>ള്‍ക്കാന്‍ #; ! "ḷ‍kkān‍" !
+%<perf%>:%>ട്ടിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ട്ടിട്ടുണ്ട് # ; ! "' !
+%<pres%>:%>ള്‍കുന്നു # ; ! "̔̔ḷ‍kunnu"
+%<past%>:%>ട്ടു # ; ! "ṭṭu"
+%<fut%>:%>ള്‍ക്കും NEG-WHEN ; ! "" !
+%<pass%>:%>ള്‍ക്കപ്പെ PASS-CONT ; !
+%<iter%>:%>ട്ടുകൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>ട്ടുകൊണ്ടേ ITER-TENS; ! "" !
+%<gpr_pres%>:%>ള്‍ക്കുന്ന GPR-PRES ; ! "" !
+%<gpr_past%>:%>ട്ട GPR-PAST ; ! "" !
+%<hab%>:%>ള്‍ക്കാര്‍ CLIT-COP-UNTU ; ! "ār" !
+%<imp%>:%>ള്‍ക്ക CONT_IMP; !"" !
+%<pcpl%>:%>ട്ട് # ; ! "" ! ""
+%<contpres%>:%>ട്ടിരിക്കുന്നു # ; ! ""
+%<prec%>:%>ള്‍ക്ക PREC-CONT ; ! "" ! ""
+%<opt%>:%>ള്‍ക്കട്ടെ # ; ! ""
+%<irre%>%<past%>:%>ട്ടേനെ # ; ! ""
+%<cond%>:%>ട്ടാല്‍ NEG-WHEN ; ! "ccāl‍" ! ""
+%<monit%>%<fut%>:%>ള്‍ക്കുമേ # ;! " "
+%<satis%>%<fut%>:%>ള്‍ക്കുമല്ലൊ #; ! ""
+%<satis%>%<past%>:%>ട്ടല്ലൊ #; ! ""
+%<satis%>%<pres%>:%>ള്‍ക്കുന്നല്ലൊ #; ! ""
+%<oblig%>:%>ള്‍ക്കണം # ; !
+%<itg%>:%>ള്‍ക്കുമോ # ; ! ""
+%<perm%>:%>ള്‍ക്കാം #; ! "ḷ‍kkām" !
+LEXICON V-COMMON-KELKKUKA
+%<inf_k%>:%>ള്‍ക്കുക  CLIT-CC ; ! "̔ḷ‍kuuka" ! FIXME
+%<inf_n%>:%>ള്‍ക്കാന്‍ #; ! "ḷ‍kkān‍" !
+%<perf%>:%>ട്ടിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ട്ടിട്ടുണ്ട് # ; ! "' !
+%<pres%>:%>ള്‍കുന്നു # ; ! "̔̔ḷ‍kunnu"
+%<past%>:%>ട്ടു # ; ! "ṭṭu"
+%<fut%>:%>ള്‍ക്കും NEG-WHEN ; ! "" !
+%<pass%>:%>ള്‍ക്കപ്പെ PASS-CONT ; !
+%<iter%>:%>ട്ടുകൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>ട്ടുകൊണ്ടേ ITER-TENS; ! "" !
+%<gpr_pres%>:%>ള്‍ക്കുന്ന GPR-PRES ; ! "" !
+%<gpr_past%>:%>ട്ട GPR-PAST ; ! "" !
+%<hab%>:%>ള്‍വിക്കാര്‍ CLIT-COP-UNTU ; ! "ār" !
+%<imp%>:%>ള്‍ക്ക CONT_IMP; !"" !
+%<pcpl%>:%>ട്ട് # ; ! "" ! ""
+%<contpres%>:%>ട്ടിരിക്കുന്നു # ; ! ""
+%<prec%>:%>ള്‍ക്ക PREC-CONT ; ! "" ! ""
+%<opt%>:%>ള്‍ക്കട്ടെ # ; ! ""
+%<irre%>%<past%>:%>ട്ടേനെ # ; ! ""
+%<cond%>:%>ട്ടാല്‍ NEG-WHEN ; ! "ccāl‍" ! ""
+%<monit%>%<fut%>:%>ള്‍ക്കുമേ # ;! " "
+%<satis%>%<fut%>:%>ള്‍ക്കുമല്ലൊ #; ! ""
+%<satis%>%<past%>:%>ട്ടല്ലൊ #; ! ""
+%<satis%>%<pres%>:%>ള്‍ക്കുന്നല്ലൊ #; ! ""
+%<oblig%>:%>ള്‍ക്കണം # ; !
+%<itg%>:%>ള്‍ക്കുമോ # ; ! ""
+%<perm%>:%>ള്‍ക്കാം #; ! "ḷ‍kkām" !
+LEXICON V-COMMON-KITTUKA
+%<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ാന്‍ # ; ! "̔ān‍ " !
+%<perf%>:%>ിയിരുന്നു CLIT-ITG ; ! "̔" ! ""
+%<rem_perf%>:%>ിയിട്ടുണ്ട് # ; ! "' !""
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔unnu"
+%<past%>:%>ിയ NEG-WHEN ; ! "̔i "
+%<fut%>:%>ും NEG-WHEN ; ! "" ! ""
+%<pass%>:%>പ്പെ PASS-CONT ; ! ""
+%<iter%>:%>ിക്കൊണ്ടി ITER-TENS; ! "" ! ""
+%<iter%>%<cont%>:%>ിക്കൊണ്ടേ ITER-TENS; ! "" ! ""
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ിയത്  GPR-PAST ; ! "
+%<imp%>:%> CONT_IMP; !"" ! ""
+%<pcpl%>:%>് # ; ! "" ! ""
+%<contpres%>:%>ിയിരിക്കുന്നു # ; ! ""
+%<prec%>:%> PREC-CONT ; ! "" ! ""
+%<opt%>:%>ട്ടെ # ; ! ""
+%<irre%>%<past%>:%>ിയേനെ # ; ! ""
+%<cond%>:%>ിയാല്‍ NEG-WHEN ; ! "ccāl‍" ! ""
+%<monit%>%<fut%>:%>ുമേ # ;! ""
+%<satis%>%<fut%>:%>ുമല്ലൊ #; ! ""
+%<satis%>%<past%>:%>ിയല്ലൊ #; ! ""
+%<satis%>%<pres%>:%>ുന്നല്ലൊ #; ! ""
+%<oblig%>:%>ണം # ; ! ""
+%<itg%>:%>ട്ടുമോ # ; ! " "
+LEXICON V-COMMON-KITTUKA
+%<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ാന്‍ # ; ! "̔ān‍ " !
+%<perf%>:%>ിയിരുന്നു CLIT-ITG ; ! "̔" ! "അടിച്ചിരുന്നു"
+%<rem_perf%>:%>ിയിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔unnu"
+%<past%>:%>ിയ NEG-WHEN ; ! "̔i "
+%<fut%>:%>ും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>പ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>ിക്കൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ിക്കൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ിയത്  GPR-PAST ; ! "
+%<imp%>:%> CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>ിയിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ിയേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ിയാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%> # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%> #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%> #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%> #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%> # ; ! "അടിക്കണം"
+%<itg%>:%> # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-KOLLUKA
+%<inf_k%>:%>ല്ലുക  CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ല്ലാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ന്നിട്ടുണ്ട് # ; ! "' !
+%<pres%>:%>ല്ലുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ന്നു NEG-WHEN ; ! ""
+%<fut%>:%>ല്ലും NEG-WHEN ; ! "" !
+%<pass%>:%>ല്ലപ്പെ PASS-CONT ; !
+%<iter%>:%>ന്നുകൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>ന്നുകൊണ്ടേ ITER-TENS; ! "" !
+%<gpr_pres%>:%>ല്ലുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
+%<imp%>:%>ല്ല CONT_IMP; !"" !
+%<pcpl%>:%>ന്ന് # ; ! "" !
+%<contpres%>:%>ന്നിരിക്കുന്നു # ; !
+%<prec%>:%>ല്ല PREC-CONT ; ! "" !
+%<opt%>:%>ല്ലട്ടെ # ; ! "
+%<irre%>%<past%>:%>ന്നേനെ # ; !
+%<cond%>:%>ന്നാല്‍ NEG-WHEN ; ! "ccāl‍" !
+%<monit%>%<fut%>:%>ല്ലുമേ # ;!
+%<satis%>%<fut%>:%>ല്ലുമല്ലൊ #; !
+%<satis%>%<past%>:%>ന്നല്ലൊ #; !
+%<satis%>%<pres%>:%>ല്ലുന്നല്ലൊ #; !
+%<oblig%>:%>ല്ലണം # ; !
+%<itg%>:%>ല്ലുമോ # ; !
+LEXICON V-COMMON-KOLLUKA
+%<inf_k%>:%>ല്ലുക  CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ല്ലാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ന്നിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ല്ലുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ന്നു NEG-WHEN ; ! ""
+%<fut%>:%>ല്ലും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>ല്ലപ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>ന്നുകൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ന്നുകൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ല്ലുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
+%<imp%>:%>ല്ല CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>ന്ന് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>ന്നിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%>ല്ല PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ല്ലട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ന്നേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ന്നാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>ല്ലുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>ല്ലുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>ന്നല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>ല്ലുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>ല്ലണം # ; ! "അടിക്കണം"
+%<itg%>:%>ല്ലുമോ # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-LABHIKKUKA
+%<inf_k%>:%>ിക്കുക  CLIT-CC ; ! "̔uka" ! FIXME
+%<inf_n%>:%>ിക്കാന്‍ CLIT-CC; ! "̔̔ān‍" !
+%<perf%>:%>ിച്ചിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ിച്ചിട്ടുണ്ട് # ; ! "' !
+%<pres%>:%>ിക്കുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ിച്ചു  # ; ! "i"
+%<fut%>:%>ിക്കും NEG-WHEN ; ! "" !
+%<pass%>:%>ിക്കപ്പെ PASS-CONT ; !
+%<iter%>:%>ിച്ചുകൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>ിച്ചുകൊണ്ടേ ITER-TENS; ! "" !
+%<gpr_pres%>:%>ിക്കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ിച്ച GPR-PAST ; ! ""
+%<hab%>:%>ിക്കാര്‍ CLIT-COP-UNTU ; ! "ār"
+%<imp%>:%>ിക്ക CONT_IMP; !"" !
+%<pcpl%>:%>ിച്ച് # ; ! "" !
+%<contpres%>:%>ിച്ചിരിക്കുന്നു # ; !
+%<prec%>:%>ിക്ക PREC-CONT ; ! "" !
+%<opt%>:%>ിക്കട്ടെ # ; !
+%<irre%>%<past%>:%>ിച്ചേനെ # ; !
+%<cond%>:%>ിച്ചാല്‍ NEG-WHEN ; ! "ccāl‍" !
+%<monit%>%<fut%>:%>ിക്കുമേ # ;!
+%<satis%>%<fut%>:%>ിക്കുമല്ലൊ #; !
+%<satis%>%<past%>:%>ിച്ചല്ലൊ #; !
+%<satis%>%<pres%>:%>ിക്കുന്നല്ലൊ #; !
+%<oblig%>:%>ിക്കണം # ; !
+%<itg%>:%>ിക്കുമോ # ; ! ""
+LEXICON V-COMMON-LABHIKKUKA
+%<inf_k%>:%>ിക്കുക  CLIT-CC ; ! "̔uka" ! FIXME
+%<inf_n%>:%>ിക്കാന്‍ CLIT-CC; ! "̔̔ān‍" !
+%<perf%>:%>ിച്ചിരുന്നു CLIT-ITG ; ! "̔" ! "അടിച്ചിരുന്നു"
+%<rem_perf%>:%>ിച്ചിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ിക്കുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ിച്ചു  # ; ! "i"
+%<fut%>:%>ിക്കും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>ിക്കപ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>ിച്ചുകൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ിച്ചുകൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ിക്കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ിച്ച GPR-PAST ; ! ""
+%<hab%>:%>ിക്കാര്‍ CLIT-COP-UNTU ; ! "ār"
+%<imp%>:%>ിക്ക CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>ിച്ച് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>ിച്ചിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%>ിക്ക PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ിക്കട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ിച്ചേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ിച്ചാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>ിക്കുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>ിക്കുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>ിച്ചല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>ിക്കുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>ിക്കണം # ; ! "അടിക്കണം"
+%<itg%>:%>ിക്കുമോ # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-NADAKKUKA
+%<inf_k%>:%>ക്കുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ക്കാന്‍  #; ! "̔ān‍ " !
+%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ന്നിട്ടുണ്ട് # ; ! "' !""
+%<pres%>:%>ക്കുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ന്നു NEG-WHEN; ! "̔i "
+%<fut%>:%>ക്കും NEG-WHEN ; ! "" ! ""
+%<pass%>:%>ക്കപ്പെ PASS-CONT ; ! ""
+%<iter%>:%>ന്നുകൊണ്ടി ITER-TENS; ! "" ! ""
+%<iter%>%<cont%>:%>ന്നുകൊണ്ടേ ITER-TENS; ! "" ! ""
+%<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ന്ന GPR-PAST ; !
+%<imp%>:%>ക്ക CONT_IMP; !"" ! ""
+%<pcpl%>:%>ന്ന് # ; ! "" ! ""
+%<contpres%>:%>ന്നിരിക്കുന്നു # ; ! ""
+%<prec%>:%>ക്ക PREC-CONT ; ! "" ! ""
+%<opt%>:%>ക്കട്ടെ # ; ! ""
+%<irre%>%<past%>:%>ന്നേനെ # ; ! ""
+%<cond%>:%>ന്നാല്‍ NEG-WHEN ; ! "ccāl‍" ! ""
+%<monit%>%<fut%>:%>ക്കുമേ # ;! ""
+%<satis%>%<fut%>:%>ക്കുമല്ലൊ #; !
+%<satis%>%<past%>:%>ന്നല്ലൊ #; ! ""
+%<satis%>%<pres%>:%>ക്കുന്നല്ലൊ #; ! ""
+%<oblig%>:%>ക്കണം # ; ! ""
+%<itg%>:%>ക്കുമോ # ; ! " "
+LEXICON V-COMMON-NADAKKUKA
+%<inf_k%>:%>ക്കുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ക്കാന്‍  #; ! "̔ān‍ " !
+%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ന്നിട്ടുണ്ട് # ; ! "' !""
+%<pres%>:%>ക്കുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ന്നു NEG-WHEN; ! "̔i "
+%<fut%>:%>ക്കും NEG-WHEN ; ! "" ! ""
+%<pass%>:%>ക്കപ്പെ PASS-CONT ; ! ""
+%<iter%>:%>ന്നുകൊണ്ടി ITER-TENS; ! "" ! ""
+%<iter%>%<cont%>:%>ന്നുകൊണ്ടേ ITER-TENS; ! "" ! ""
+%<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ന്ന GPR-PAST ; !
+%<imp%>:%>ക്ക CONT_IMP; !"" ! ""
+%<pcpl%>:%>ന്ന് # ; ! "" ! ""
+%<contpres%>:%>ന്നിരിക്കുന്നു # ; ! ""
+%<prec%>:%>ക്ക PREC-CONT ; ! "" ! ""
+%<opt%>:%>ക്കട്ടെ # ; ! ""
+%<irre%>%<past%>:%>ന്നേനെ # ; ! ""
+%<cond%>:%>ന്നാല്‍ NEG-WHEN ; ! "ccāl‍" ! ""
+%<monit%>%<fut%>:%>ക്കുമേ # ;! ""
+%<satis%>%<fut%>:%>ക്കുമല്ലൊ #; !
+%<satis%>%<past%>:%>ന്നല്ലൊ #; ! ""
+%<satis%>%<pres%>:%>ക്കുന്നല്ലൊ #; ! ""
+%<oblig%>:%>ക്കണം # ; ! ""
+%<itg%>:%>ക്കുമോ # ; ! " "
+LEXICON V-COMMON-NERUKA
+%<inf_k%>:%>രുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>രാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ര്‍ന്നിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ര്‍ന്നിട്ടുണ്ട് # ; ! "' !
+%<pres%>:%>രുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ര്‍ന്നു NEG-WHEN ; ! ""
+%<fut%>:%>രും NEG-WHEN ; ! "" !
+%<pass%>:%>രപ്പെ PASS-CONT ; !
+%<iter%>:%>ര്‍ന്നുകൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>ര്‍ന്നുകൊണ്ടേ ITER-TENS; ! "" !
+%<gpr_pres%>:%>രുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ര്‍ന്ന GPR-PAST ; ! ""
+%<imp%>:%>ര CONT_IMP ; !""
+%<pcpl%>:%>ര്‍ന്ന് # ; ! "" !
+%<contpres%>:%>ര്‍ന്നിരിക്കുന്നു # ; !
+%<prec%>:%>ര PREC-CONT ; ! "" !
+%<opt%>:%>രട്ടെ # ; !
+%<irre%>%<past%>:%>ര്‍ന്നേനെ # ; !
+%<cond%>:%>ര്‍ന്നാല്‍ NEG-WHEN ; ! "ccāl‍" !
+%<monit%>%<fut%>:%>രുമേ # ;!
+%<satis%>%<fut%>:%>രുമല്ലൊ #; !
+%<satis%>%<past%>:%>ന്നല്ലൊ #; !
+%<satis%>%<pres%>:%>രുന്നല്ലൊ #; !
+%<oblig%>:%>രണം # ; !
+%<itg%>:%>രുമോ # ; !
+LEXICON V-COMMON-NERUKA
+%<inf_k%>:%>രുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>രാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ര്‍ന്നിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%> # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>രുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ര്‍ന്നു NEG-WHEN ; ! ""
+%<fut%>:%> NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%> PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%> ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%> ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>രുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ര്‍ന്ന GPR-PAST ; ! ""
+%<imp%>:%>ര CONT_IMP ; !""
+%<pcpl%>:%> # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%> # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%> # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%> # ; ! "അടിച്ചേനെ"
+%<cond%>:%> NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%> # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%> #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%> #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%> #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%> # ; ! "അടിക്കണം"
+%<itg%>:%> # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-NIKAZHUKA
+%<inf_k%>:%>ഴുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ഴാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ര്‍ത്തിയിരുന്നു CLIT-ITG ; ! "̔" !
+%<pres%>:%>ഴുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ഴ്ത്തി NEG-WHEN ; ! ""
+LEXICON V-COMMON-NILKUKA
+%<inf_k%>:%>ല്‍ക്കുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ന്നിട്ടുണ്ട് # ; ! "' !""
+%<pres%>:%>ല്‍ക്കുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ന്നു NEG-WHEN ; ! ""
+%<fut%>:%>ല്‍ക്കും NEG-WHEN ; ! "" ! ""
+%<pass%>:%>ല്‍ക്കപ്പെ PASS-CONT ; ! ""
+%<iter%>:%>ന്നുകൊണ്ടി ITER-TENS; ! "" ! ""
+%<iter%>%<cont%>:%>ന്നുകൊണ്ടേ ITER-TENS; ! "" ! ""
+%<gpr_pres%>:%>ല്‍കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
+%<imp%>:%>ല്‍ക്ക CONT_IMP; !"" ! ""
+%<pcpl%>:%>ല്‍ക്ക് # ; ! "" ! ""
+%<contpres%>:%>ന്നിരുന്നു # ; ! ""
+%<prec%>:%>ല്‍ക്ക PREC-CONT ; ! "" ! ""
+%<opt%>:%>ല്‍ക്കട്ടെ # ; ! ""
+%<irre%>%<past%>:%>ന്നേനെ # ; ! ""
+%<cond%>:%>ന്നാല്‍ NEG-WHEN ; ! "ccāl‍" ! ""
+%<monit%>%<fut%>:%>ല്‍ക്കുമേ # ;! " "
+%<satis%>%<fut%>:%>ല്‍ക്കുമല്ലൊ #; ! ""
+%<satis%>%<past%>:%>ന്നല്ലൊ #; ! ""
+%<satis%>%<pres%>:%>ല്‍ക്കുന്നല്ലൊ #; ! ""
+%<oblig%>:%>ല്‍ക്കണം # ; ! ""
+%<itg%>:%>ല്‍ക്കുമോ # ; ! ""
+LEXICON V-COMMON-NILKUKA
+%<inf_k%>:%>ല്‍ക്കുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%> # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ല്‍ക്കുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ന്നു NEG-WHEN ; ! ""
+%<fut%>:%> NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%> PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%> ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%> ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ല്‍കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
+%<hab%>:%> CLIT-COP-UNTU ; ! "ār" ! "അടിക്കാ‌ര്‍"
+%<imp%>:%> CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%> # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%> # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%> # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%> # ; ! "അടിച്ചേനെ"
+%<cond%>:%> NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%> # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%> #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%> #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%> #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%> # ; ! "അടിക്കണം"
+%<itg%>:%> # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-NOKKUKA
+%<inf_k%>:%>ുക  CLIT-CC ; ! "̔uka" ! FIXME
+%<inf_n%>:%>ാന്‍ #; ! "kkān‍" !
+%<perf%>:%>ിയിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ിയിട്ടുണ്ട് # ; ! "'
+%<pres%>:%>ുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ി # ; ! "i"
+%<fut%>:%>ും NEG-WHEN ; ! "" !
+%<pass%>:%>പ്പെ PASS-CONT ; !
+%<iter%>:%>ിക്കൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>ിക്കൊണ്ടേ ITER-TENS; ! "" !
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
+%<imp%>:%> CONT_IMP; !"" !
+%<pcpl%>:%>് # ; ! "" !
+%<contpres%>:%>ിയിരിക്കുന്നു # ; !
+%<prec%>:%> PREC-CONT ; ! "" !
+%<opt%>:%>ട്ടെ # ; !
+%<irre%>%<past%>:%>ിയേനെ # ; !
+%<cond%>:%>ിയാല്‍ NEG-WHEN ; ! "ccāl‍" !
+%<monit%>%<fut%>:%>ുമേ # ;!
+%<satis%>%<fut%>:%>ുമല്ലൊ #; !
+%<satis%>%<past%>:%>ിയല്ലൊ #; !
+%<satis%>%<pres%>:%>ുന്നല്ലൊ #; !
+%<oblig%>:%>ണം # ; !
+%<itg%>:%>ുമോ # ; ! ""
+LEXICON V-COMMON-NOKKUKA
+%<inf_k%>:%>ുക  CLIT-CC ; ! "̔uka" ! FIXME
+%<inf_n%>:%>ാന്‍ #; ! "kkān‍" !
+%<perf%>:%>ിയിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ിയിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ി # ; ! "i"
+%<fut%>:%>ും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>പ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>ിക്കൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ിക്കൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
+%<imp%>:%> CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>ിയിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ിയേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ിയാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>ുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>ുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>ിയല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>ുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>ണം # ; ! "അടിക്കണം"
+%<itg%>:%>ുമോ # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-NOVUKA
+%<inf_k%>:%>ോവുക  CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ോവാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ൊന്തിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ൊന്തിട്ടുണ്ട് # ; ! "' !
+%<pres%>:%>ോവുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ൊന്തു NEG-WHEN ; ! ""
+%<fut%>:%>ൊവും NEG-WHEN ; ! "" !
+%<pass%>:%>ൊവിക്കപ്പെ PASS-CONT ; !
+%<iter%>:%>ൊവിച്ചുകൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>ൊവിച്ചുകൊണ്ടേ ITER-TENS; ! "" !
+%<gpr_pres%>:%>ോവുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ൊന്ത GPR-PAST ; ! ""
+%<imp%>:%>ൊവിക്ക CONT_IMP; !"" !
+%<pcpl%>:%>ൊവിക്ക് # ; ! "" !
+%<contpres%>:%>ൊവിച്ചിരുന്നു # ; !
+%<prec%>:%>ൊവിക്ക PREC-CONT ; ! "" !
+%<opt%>:%>ൊവിക്കട്ടെ # ; !
+%<irre%>%<past%>:%>ൊവിച്ചേനെ # ; !
+%<cond%>:%>ൊവിച്ചാല്‍ NEG-WHEN ; ! "ccāl‍"
+%<monit%>%<fut%>:%>ൊവിക്കുമേ # ;!
+%<satis%>%<fut%>:%>ൊവിക്കുമല്ലൊ #; !
+%<satis%>%<past%>:%>ൊവിച്ചല്ലൊ #; !
+%<satis%>%<pres%>:%>ൊവിക്കുന്നല്ലൊ #; !
+%<oblig%>:%>ൊവിക്കണം # ; !
+%<itg%>:%>ൊവിക്കുമോ # ; !
+LEXICON V-COMMON-NOVUKA
+%<inf_k%>:%>ോവുക  CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ോവാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ൊന്തിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%> # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ോവുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ൊന്തു NEG-WHEN ; ! ""
+%<fut%>:%> NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%> PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%> ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%> ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ോവുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ൊന്ത GPR-PAST ; ! ""
+%<hab%>:%> CLIT-COP-UNTU ; ! "ār" ! "അടിക്കാ‌ര്‍"
+%<imp%>:%> CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%> # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%> # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%> # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%> # ; ! "അടിച്ചേനെ"
+%<cond%>:%> NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%> # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%> #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%> #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%> #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%> # ; ! "അടിക്കണം"
+%<itg%>:%> # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-PATUKA
+%<inf_k%>:%>ുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ിയിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ിയിട്ടുണ്ട് # ; ! "' !
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ി NEG-WHEN ; ! ""
+%<fut%>:%>ും NEG-WHEN ; ! "" !
+%<pass%>:%>പ്പെ PASS-CONT ; !
+%<iter%>:%>ികൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>ികൊണ്ടേ ITER-TENS; ! "" !
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
+%<imp%>:%> CONT_IMP; !""
+%<pcpl%>:%>് # ; ! "" !
+%<contpres%>:%>ിയിരിക്കുന്നു # ;
+%<prec%>:%> PREC-CONT ; ! ""
+%<opt%>:%>ട്ടെ # ; !
+%<irre%>%<past%>:%>ിയേനെ # ; !
+%<cond%>:%>ിയാല്‍ NEG-WHEN ; ! "ccāl‍"
+%<monit%>%<fut%>:%>ുമേ # ;!
+%<satis%>%<fut%>:%>ുമല്ലൊ #; !
+%<satis%>%<past%>:%>ിയല്ലൊ #; !
+%<satis%>%<pres%>:%>ുന്നല്ലൊ #; !
+%<oblig%>:%>ണം # ; !
+%<itg%>:%>ുമോ # ; !
+!%<rem_perf%>:%>ിയിട്ടുണ്ട് CLIT-ITG ; ! "̔ān‍ " !
+LEXICON V-COMMON-PATUKA
+%<inf_k%>:%>ുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ിയിരുന്നു CLIT-ITG ; ! "̔" !
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ി NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
+%<imp%>:%> CONT_IMP; !""
+LEXICON V-COMMON-PERUKA
+%<inf_k%>:%>റുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>റാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>റ്റിന്നിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>റ്റിട്ടുണ്ട് # ; ! "' !""
+%<pres%>:%>റുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>റ്റു NEG-WHEN ; ! ""
+%<fut%>:%>റും NEG-WHEN ; ! "" ! ""
+%<pass%>:%>റപ്പെ PASS-CONT ; ! ""
+%<iter%>:%>റ്റുകൊണ്ടി ITER-TENS; ! "" ! ""
+%<iter%>%<cont%>:%>റ്റുകൊണ്ടേ ITER-TENS; ! "" ! ""
+%<gpr_pres%>:%>റുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>റ്റ GPR-PAST ; ! ""
+%<imp%>:%>റ് # ; !""
+%<pcpl%>:%>റ്റ് # ; ! "" ! ""
+%<contpres%>:%>റ്റിരുന്നു # ; ! ""
+%<prec%>:%>റ PREC-CONT ; ! "" ! ""
+%<opt%>:%>റട്ടെ # ; ! ""
+%<irre%>%<past%>:%>റ്റ്ഏനെ # ; ! ""
+%<cond%>:%>റ്റാല്‍ NEG-WHEN ; ! "ccāl‍" ! ""
+%<monit%>%<fut%>:%>റുമേ # ;! ""
+%<satis%>%<fut%>:%>റുമല്ലൊ #; ! ""
+%<satis%>%<past%>:%>റ്റല്ലൊ #; ! ""
+%<satis%>%<pres%>:%>റുന്നല്ലൊ #; ! ""
+%<oblig%>:%>റണം # ; ! ""
+%<itg%>:%>റുമോ # ; ! ""
+LEXICON V-COMMON-PERUKA
+%<inf_k%>:%>റുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>റാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>റ്റിന്നിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%> # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>റുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>റ്റു NEG-WHEN ; ! ""
+%<fut%>:%> NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%> PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%> ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%> ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>റുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>റ്റ GPR-PAST ; ! ""
+%<imp%>:%>റ് # ; !""
+%<pcpl%>:%> # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%> # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%> # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%> # ; ! "അടിച്ചേനെ"
+%<cond%>:%> NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%> # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%> #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%> #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%> #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%> # ; ! "അടിക്കണം"
+%<itg%>:%> # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-PILARKUKA
+%<inf_k%>:%>ര്‍ക്കുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ളര്‍ക്കാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ര്‍ത്തിയിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ര്‍ത്തിയിട്ടുണ്ട് # ; ! "'
+%<pres%>:%>ര്‍ത്തുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ര്‍ത്തി NEG-WHEN ; ! ""
+%<fut%>:%>ര്‍ത്തും NEG-WHEN ; ! "" !
+%<pass%>:%>ര്‍ത്തപ്പെ PASS-CONT ; !
+%<iter%>:%>ര്‍ത്തിക്കൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>ര്‍ത്തിക്കൊണ്ടേ ITER-TENS; ! "" !
+%<gpr_pres%>:%>ര്‍തുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ര്‍ത്തി GPR-PAST ; ! ""
+%<imp%>:%>ര്‍ത്ത് # ; !""
+%<pcpl%>:%>ര്‍ത്ത് # ; ! "" !
+%<contpres%>:%>ര്‍ത്തിയിരിക്കുന്നു # ; !
+%<prec%>:%>ര്‍ത്ത PREC-CONT ; ! "" ! "
+%<opt%>:%>ര്‍ത്തട്ടെ # ; !
+%<irre%>%<past%>:%>ര്‍ത്തിയേനെ # ; !
+%<cond%>:%>ര്‍ത്തിയാല്‍ NEG-WHEN ; ! "ccāl‍" !
+%<monit%>%<fut%>:%>ര്‍ത്തുമേ # ;!
+%<satis%>%<fut%>:%>ര്‍ത്തുമല്ലൊ #; !
+%<satis%>%<past%>:%>ര്‍ത്തിയല്ലൊ #; !
+%<satis%>%<pres%>:%>ര്‍ത്തുന്നല്ലൊ #; !
+%<oblig%>:%>ര്‍ത്തണം # ; !
+%<itg%>:%>ര്‍ത്തുമോ # ; !
+LEXICON V-COMMON-PILARKUKA
+%<inf_k%>:%>ര്‍ക്കുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ളര്‍ക്കാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ര്‍ത്തിയിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ര്‍ത്തിയിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ര്‍ത്തുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ര്‍ത്തി NEG-WHEN ; ! ""
+%<fut%>:%>ര്‍ത്തും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>ര്‍ത്തപ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>ര്‍ത്തിക്കൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ര്‍ത്തിക്കൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ര്‍തുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ര്‍ത്തി GPR-PAST ; ! ""
+%<imp%>:%>ര്‍ത്ത് # ; !""
+%<pcpl%>:%>ര്‍ത്ത് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>ര്‍ത്തിയിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%>ര്‍ത്ത PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ര്‍ത്തട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ര്‍ത്തിയേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ര്‍ത്തിയാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>ര്‍ത്തുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>ര്‍ത്തുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>ര്‍ത്തിയല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>ര്‍ത്തുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>ര്‍ത്തണം # ; ! "അടിക്കണം"
+%<itg%>:%>ര്‍ത്തുമോ # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-POKUKA
+%<inf_k%>:%>കുക CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>കാന്‍  #; ! "̔ān‍ " !
+%<perf%>:%>യിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>യിട്ടുണ്ട് # ; ! "' !
+%<pres%>:%>കുന്നു # ; ! "̔̔unnu"
+%<past%>:%>യി # ; ! "̔i "
+%<fut%>:%>കും NEG-WHEN ; ! "" !
+%<pass%>:%>കപ്പെ PASS-CONT ; !
+%<iter%>:%>യിക്കൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>യിക്കൊണ്ടേ ITER-TENS; ! "" !
+%<gpr_pres%>:%>കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>യ GPR-PAST ; ! ""
+%<imp%>:%> # ; !""
+%<pcpl%>:%> # ; ! "" !
+%<contpres%>:%>യിരുന്നു # ; !
+%<prec%>:%>ക PREC-CONT ; ! "" !
+%<opt%>:%>കട്ടെ # ; !
+%<irre%>%<past%>:%>യേനെ # ; !
+%<cond%>:%>യാല്‍ NEG-WHEN ; ! "ccāl‍" !
+%<monit%>%<fut%>:%>കുമേ # ;!
+%<satis%>%<fut%>:%>കുമല്ലൊ #; !
+%<satis%>%<past%>:%>യല്ലൊ #; !
+%<satis%>%<pres%>:%>കുന്നല്ലൊ #; !
+%<oblig%>:%>കണം # ; !
+%<itg%>:%>ടിക്കുമോ # ; !
+LEXICON V-COMMON-POKUKA
+%<inf_k%>:%>കുക CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>കാന്‍  #; ! "̔ān‍ " !
+%<perf%>:%>യിരുന്നു CLIT-ITG ; ! "̔" ! "അടിച്ചിരുന്നു"
+%<rem_perf%>:%>യിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>കുന്നു # ; ! "̔̔unnu"
+%<past%>:%>യി # ; ! "̔i "
+%<fut%>:%>കും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>കപ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>യിക്കൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>യിക്കൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>യ GPR-PAST ; ! ""
+%<imp%>:%> # ; !""
+%<pcpl%>:%> # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>യിരുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%>ക PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>കട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>യേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>യാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>കുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>കുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>യല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>കുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>കണം # ; ! "അടിക്കണം"
+%<itg%>:%>ടിക്കുമോ # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-THARUKA
+%<inf_k%>:%>രുക  CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>രാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ന്നിട്ടുണ്ട് # ; ! "' !
+%<pres%>:%>രുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ന്നു NEG-WHEN ; ! ""
+%<past%>:%>രും # ; ! ""
+%<fut%>:%>രും NEG-WHEN ; ! "" !
+%<iter%>:%>ന്നുകൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>ന്നുകൊണ്ടേ ITER-TENS; ! "" !
+%<gpr_pres%>:%>രുന്ന GPR-PRES ; ! "" !
+%<gpr_past%>:%>ന്ന GPR-PAST ; ! "" !
+%<imp%>:%>ര CONT_IMP; !"" !
+%<pcpl%>:%>ന്ന് # ; ! "" !
+%<contpres%>:%>ന്നിരുന്നു # ; !
+%<prec%>:%>ര PREC-CONT ; ! "" !
+%<opt%>:%>രട്ടെ # ; !
+%<irre%>%<past%>:%>ന്നേനെ # ; !
+%<cond%>:%>ന്നാല്‍ NEG-WHEN ; ! "ccāl‍" !
+%<monit%>%<fut%>:%>രുമേ # ;!
+%<satis%>%<fut%>:%>രുമല്ലൊ #; !
+%<satis%>%<past%>:%>ന്നല്ലൊ #; !
+%<satis%>%<pres%>:%>രുന്നല്ലൊ #; !
+%<oblig%>:%>രണം # ; !
+%<itg%>:%>രുമോ # ; !
+LEXICON V-COMMON-THARUKA
+%<inf_k%>:%>രുക  CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>രാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ന്നിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>രുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ന്നു NEG-WHEN ; ! ""
+%<past%>:%>രും # ; ! ""
+%<fut%>:%>രും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<iter%>:%>ന്നുകൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ന്നുകൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>രുന്ന GPR-PRES ; ! "" ! "അടിക്കുന്ന"
+%<gpr_past%>:%>ന്ന GPR-PAST ; ! "" ! "അടിച്ച"
+%<imp%>:%>ര CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>ന്ന് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>ന്നിരുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%>ര PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>രട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ന്നേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ന്നാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>രുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>രുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>ന്നല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>രുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>രണം # ; ! "അടിക്കണം"
+%<itg%>:%>രുമോ # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-THAZHUKA
+%<inf_k%>:%>ുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>്ന്നിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>്ന്നിട്ടുണ്ട് # ; ! "' !
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>്ന്നു NEG-WHEN ; ! ""
+%<fut%>:%>ും NEG-WHEN ; ! "" !
+%<pass%>:%>്ക്കപ്പെ PASS-CONT ; !
+%<iter%>:%>്ന്നുകൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>്ന്നുകൊണ്ടേ ITER-TENS; ! "" !
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>്ന്ന GPR-PAST ; ! ""
+%<imp%>:%> CONT_IMP; !"" !
+%<pcpl%>:%>്ന്ന് # ; ! "" !
+%<contpres%>:%>്ന്നിരിക്കുന്നു # ; !
+%<prec%>:%> PREC-CONT ; ! "" !
+%<opt%>:%>ട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>്ന്നേനെ # ; !
+%<cond%>:%>്ന്നാല്‍ NEG-WHEN ; ! "ccāl‍" !
+%<monit%>%<fut%>:%>ുമേ # ;!
+%<satis%>%<fut%>:%>ുമല്ലൊ #; !
+%<satis%>%<past%>:%>്ന്നല്ലൊ #; !
+%<satis%>%<pres%>:%>ുന്നല്ലൊ #; !
+%<oblig%>:%>ണം # ; !
+%<itg%>:%>ുമോ # ; !
+LEXICON V-COMMON-THAZHUKA
+%<inf_k%>:%>ുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>്ന്നിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>്ന്നിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>്ന്നു NEG-WHEN ; ! ""
+%<fut%>:%>ും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>്ക്കപ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>്ന്നുകൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>്ന്നുകൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>്ന്ന GPR-PAST ; ! ""
+%<imp%>:%> CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>്ന്ന് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>്ന്നിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>്ന്നേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>്ന്നാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>ുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>ുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>്ന്നല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>ുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>ണം # ; ! "അടിക്കണം"
+%<itg%>:%>ുമോ # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-THEERUKA
+%<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔ān‍ " !
+%<perf%>:%>്‍ന്നിരുന്നു CLIT-ITG ; ! "̔ān‍ " !
+%<rem_perf%>:%>്ന്നിട്ടുണ്ട് # ; ! "' !
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔unnu"
+%<past%>:%>്‍ന്നു NEG-WHEN ; ! "̔i "
+%<fut%>:%>ും NEG-WHEN ; ! "" !
+%<pass%>:%>്ക്കപ്പെ PASS-CONT ; !
+%<iter%>:%>്ന്നുകൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>്ന്നുകൊണ്ടേ ITER-TENS; ! "" !
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>്‍ന്ന GPR-PAST ; ! ""
+%<imp%>:%>്ക്ക CONT_IMP; !"" !
+%<pcpl%>:%>്ത്ത് # ; ! "" !
+%<contpres%>:%>്ത്തിരിക്കുന്നു # ; !
+%<prec%>:%>്ക്ക PREC-CONT ; ! "" !
+%<opt%>:%>്ക്കട്ടെ # ; !
+%<irre%>%<past%>:%>്ത്തേനെ # ; !
+%<cond%>:%>്ത്താല്‍ NEG-WHEN ; ! "ccāl‍" !
+%<monit%>%<fut%>:%>്ക്കുമേ # ;!
+%<satis%>%<fut%>:%>്ക്കുമല്ലൊ #; !
+%<satis%>%<past%>:%>്ത്തല്ലൊ #; !
+%<satis%>%<pres%>:%>്ക്കുന്നല്ലൊ #; !
+%<oblig%>:%>്ക്കണം # ; !
+%<itg%>:%>്ക്കുമോ # ; !
+LEXICON V-COMMON-THEERUKA
+%<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔ān‍ " !
+%<perf%>:%>്‍ന്നിരുന്നു CLIT-ITG ; ! "̔ān‍ " !
+%<rem_perf%>:%>്ന്നിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔unnu"
+%<past%>:%>്‍ന്നു NEG-WHEN ; ! "̔i "
+%<fut%>:%>ും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>്ക്കപ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>്ന്നുകൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>്ന്നുകൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>്‍ന്ന GPR-PAST ; ! ""
+%<imp%>:%>്ക്ക CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>്ത്ത് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>്ത്തിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%>്ക്ക PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>്ക്കട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>്ത്തേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>്ത്താല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>്ക്കുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>്ക്കുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>്ത്തല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>്ക്കുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>്ക്കണം # ; ! "അടിക്കണം"
+%<itg%>:%>്ക്കുമോ # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-THINNUKA
+%<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔ān‍ " !
+%<perf%>:%>ിരുന്നു CLIT-ITG ; ! "̔ān‍ " !
+%<rem_perf%>:%>ിട്ടുണ്ട് CLIT-ITG ; ! "̔" !
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔unnu"
+%<past%>:%>ു NEG-WHEN ; ! "̔i "
+%<fut%>:%>ും NEG-WHEN ; ! "" !
+%<pass%>:%>പ്പെ PASS-CONT ; !
+%<iter%>:%>ുകൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>ുകൊണ്ടേ ITER-TENS; ! "" !
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%> GPR-PAST ; ! ""
+%<imp%>:%> CONT_IMP; !"" !
+%<pcpl%>:%>് # ; ! "" !
+%<contpres%>:%>ിരിക്കുന്നു # ; !
+%<prec%>:%> PREC-CONT ; ! "" !
+%<opt%>:%>ട്ടെ # ; !
+%<irre%>%<past%>:%>േനെ # ; !
+%<cond%>:%>ാല്‍ NEG-WHEN ; ! "ccāl‍" !
+%<monit%>%<fut%>:%>ുമേ # ;!
+%<satis%>%<fut%>:%>ുമല്ലൊ #; !
+%<satis%>%<past%>:%>ല്ലൊ #; !
+%<satis%>%<pres%>:%>ുന്നല്ലൊ #; !
+%<oblig%>:%>ണം # ; !
+%<itg%>:%>ുമോ # ; !
+LEXICON V-COMMON-THINNUKA
+%<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔ān‍ " !
+%<perf%>:%>ിരുന്നു CLIT-ITG ; ! "̔ān‍ " !
+%<rem_perf%>:%>ിട്ടുണ്ട് CLIT-ITG ; ! "̔" !
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔unnu"
+%<past%>:%>ു NEG-WHEN ; ! "̔i "
+%<fut%>:%>ും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>പ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%> ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%> ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%> GPR-PAST ; ! ""
+%<hab%>:%> CLIT-COP-UNTU ; ! "ār" ! "അടിക്കാ‌ര്‍"
+%<imp%>:%> CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%> # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%> # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%> # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%> # ; ! "അടിച്ചേനെ"
+%<cond%>:%> NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%> # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%> #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%> #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%> #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%> # ; ! "അടിക്കണം"
+%<itg%>:%> # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-THOTUKA
+%<inf_k%>:%>ുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>്ടിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>്ടിട്ടുണ്ട് # ; ! "' !
+%<pres%>:%>ടുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>്ടു NEG-WHEN ; ! ""
+%<fut%>:%>ും NEG-WHEN ; ! "" !
+%<pass%>:%>പ്പെ PASS-CONT ; !
+%<iter%>:%>ുകൊണ്ടി ITER-TENS; ! "" !
+%<iter%>%<cont%>:%>ുകൊണ്ടേ ITER-TENS; ! "" !
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>്ട GPR-PAST ; ! ""
+%<imp%>:%>് # ; !""
+%<pcpl%>:%>് # ; ! "" !
+%<contpres%>:%>്ടിരിക്കുന്നു # ; !
+%<prec%>:%> PREC-CONT ; ! "" !
+%<opt%>:%>ട്ടെ # ; !
+%<irre%>%<past%>:%>്ടേനെ # ; !
+%<cond%>:%>്ടാല്‍ NEG-WHEN ; ! "ccāl‍" !
+%<monit%>%<fut%>:%>ുമേ # ;!
+%<satis%>%<fut%>:%>ുമല്ലൊ #; !
+%<satis%>%<past%>:%>്ടല്ലൊ #; !
+%<satis%>%<pres%>:%>ുന്നല്ലൊ #; !
+%<oblig%>:%>ണം # ; !
+%<itg%>:%>ുമോ # ; !
+LEXICON V-COMMON-THOTUKA
+%<inf_k%>:%>ുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>്ടിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>്ടിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ടുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>്ടു NEG-WHEN ; ! ""
+%<fut%>:%>ും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>പ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>ുകൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ുകൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>്ട GPR-PAST ; ! ""
+%<imp%>:%>് # ; !""
+%<pcpl%>:%>് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>്ടിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>്ടേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>്ടാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>ുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>ുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>്ടല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>ുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>ണം # ; ! "അടിക്കണം"
+%<itg%>:%>ുമോ # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-URANGUKA
+%<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ാന്‍  #; ! "̔ān‍ " !
+%<perf%>:%>ിയിരുന്നു CLIT-ITG ; ! "̔" ! "അടിച്ചിരുന്നു"
+%<rem_perf%>:%>ിയിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ി # ; ! "̔i "
+%<fut%>:%>ും # ; ! "̔i "
+%<pass%>:%>പ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>ിക്കൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ിക്കൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
+%<imp%>:%> CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>ി # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>ിയിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ിയേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ിയാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>ുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>ുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>ിയല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>ുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>ണം # ; ! "അടിക്കണം"
+%<itg%>:%>ുമോ # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-URANGUKA
+%<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ാന്‍  #; ! "̔ān‍ " !
+%<perf%>:%>ിയിരുന്നു CLIT-ITG ; ! "̔" ! "അടിച്ചിരുന്നു"
+%<rem_perf%>:%>ിയിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ി # ; ! "̔i "
+%<fut%>:%>ും # ; ! "̔i "
+%<pass%>:%>പ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>ിക്കൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ിക്കൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
+%<imp%>:%> CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>ി # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>ിയിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ിയേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ിയാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>ുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>ുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>ിയല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>ുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>ണം # ; ! "അടിക്കണം"
+%<itg%>:%>ുമോ # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-UZHUTHUKA
+%<inf_k%>:%>ുതുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ുതിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ുതിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ുതു NEG-WHEN ; ! ""
+!%<fut%>:%>ുതും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>ുതപ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>ുതുകൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ുതുകൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ുത GPR-PAST ; ! ""
+%<imp%>:%>് # ; !""
+%<pcpl%>:%>ുത് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>ുതിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "**************അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ുതട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ുതിയേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ുതിയാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>ുതുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>ുതുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%> #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%> #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%> # ; ! "അടിക്കണം"
+%<itg%>:%> # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-UZHUTHUKA
+%<inf_k%>:%>ുതുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ുതിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%> # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ുതു NEG-WHEN ; ! ""
+!%<fut%>:%> NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%> PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%> ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%> ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ുത GPR-PAST ; ! ""
+%<imp%>:%>് # ; !""
+%<pcpl%>:%> # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%> # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%> # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%> # ; ! "അടിച്ചേനെ"
+%<cond%>:%> NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%> # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%> #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%> #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%> #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%> # ; ! "അടിക്കണം"
+%<itg%>:%> # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-VARUKA
+%<inf_k%>:%>രുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>രാന്‍ # ; ! "̔ān‍ " !
+%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" ! "അടിച്ചിരുന്നു"
+%<rem_perf%>:%>ന്നിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>രുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ന്നു # ; ! "̔i "
+%<fut%>:%>രും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%> PASS-CONT ; ! "അടിക്കപ്പെ **************"
+%<iter%>:%>ന്നുകൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ന്നുകൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>രുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
+%<imp%>:%>ര CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>ന്ന് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>ന്നിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%>ര PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>രട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ന്നേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ന്നാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>രുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>രുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>ന്നല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>രുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>രണം # ; ! "അടിക്കണം"
+%<itg%>:%>രുമോ # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-VARUKA
+%<inf_k%>:%>രുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>രാന്‍ # ; ! "̔ān‍ " !
+%<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" ! "അടിച്ചിരുന്നു"
+%<rem_perf%>:%>ന്നിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>രുന്നു # ; ! "̔̔unnu"
+%<past%>:%>ന്നു # ; ! "̔i "
+%<fut%>:%>രും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%> PASS-CONT ; ! "****അടിക്കപ്പെ"
+%<iter%>:%>ന്നുകൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ന്നുകൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>രുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
+%<imp%>:%>ര CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>ന്ന് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>ന്നിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%>ര PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>രട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ന്നേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ന്നാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>രുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>രുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>ന്നല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>രുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>രണം # ; ! "അടിക്കണം"
+%<itg%>:%>രുമോ # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-VEENU
+%<inf_k%>:%>ഴുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ഴാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ണിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ണിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ഴുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ണു NEG-WHEN ; ! ""
+!%<fut%>:%>ഴും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>ഴപ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>ണുകൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ണുകൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ഴുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ണ GPR-PAST ; ! ""
+%<imp%>:%>ഴ CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>ണ് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>ണിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%>ഴ PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ഴട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ണേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ണാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>ഴുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>ഴുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>ണല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>ഴുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>ഴണം # ; ! "അടിക്കണം"
+%<itg%>:%>ഴുമോ # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-VEENU
+%<inf_k%>:%>ഴുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ഴാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ണിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ണിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ഴുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ണു NEG-WHEN ; ! ""
+!%<fut%>:%>ഴും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>ഴപ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>ണുകൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ണുകൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ഴുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ണ GPR-PAST ; ! ""
+%<imp%>:%>ഴ CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>ണ് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>ണിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%>ഴ PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ഴട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ണേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ണാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>ഴുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>ഴുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>ണല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>ഴുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>ഴണം # ; ! "അടിക്കണം"
+%<itg%>:%>ഴുമോ # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-VEIKUKA
+%<inf_k%>:%>ുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ിയിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ിയിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ി NEG-WHEN ; ! ""
+%<fut%>:%>ും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>പ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>ിക്കൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ിക്കൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
+%<imp%>:%>് # ; !""
+%<pcpl%>:%> # ; ! "" ! "അടിച്ച് **********"
+%<contpres%>:%>ിയിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ിയേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ിയാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>ുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>ുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>ിയല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>ുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>ണം # ; ! "അടിക്കണം"
+%<itg%>:%>ുമോ # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-VEIKUKA
+%<inf_k%>:%>ുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ിയിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ിയിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ി NEG-WHEN ; ! ""
+%<fut%>:%>ും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>പ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>ിക്കൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ിക്കൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ിയ GPR-PAST ; ! ""
+%<imp%>:%>് # ; !""
+%<pcpl%>:%> # ; ! "" ! "അടിച്ച് **********"
+%<contpres%>:%>ിയിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ിയേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ിയാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>ുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>ുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>ിയല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>ുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>ണം # ; ! "അടിക്കണം"
+%<itg%>:%>ുമോ # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-VERUKKUKA
+%<inf_k%>:%>ക്കുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔ān‍ " !
+%<perf%>:%>ത്തിരുന്നു CLIT-ITG ; ! "̔ān‍ " !
+%<rem_perf%>:%>ത്തിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔unnu"
+%<past%>:%>ത്തു NEG-WHEN ; ! "̔i "
+%<fut%>:%>ക്കും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>ക്കപ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>ത്തുകൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ത്തുകൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ുത്ത GPR-PAST ; ! ""
+%<imp%>:%>ക്ക CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>ത്ത് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>ത്തിരിക്കുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%>ക്ക PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ക്കട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ത്തേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ത്താല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>ക്കുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>ക്കുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>ത്തല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>ക്കുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>ക്കണം # ; ! "അടിക്കണം"
+%<itg%>:%>ക്കുമോ # ; ! "അടിക്കുമോ "
+%<perm%>:%>ക്കാം #;
+LEXICON V-COMMON-VERUKKUKA
+%<inf_k%>:%>ക്കുക  CLIT-CC ; ! "uka" ! FIXME
+%<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔ān‍ " !
+%<perf%>:%>ത്തിരുന്നു CLIT-ITG ; ! "̔ān‍ " !
+%<rem_perf%>:%>ത്തിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔unnu"
+%<past%>:%>ത്തു NEG-WHEN ; ! "̔i "
+%<fut%>:%>ക്കും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>ക്കപ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>ത്തുകൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%> ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ുത്ത GPR-PAST ; ! ""
+%<hab%>:%> CLIT-COP-UNTU ; ! "ār" ! "അടിക്കാ‌ര്‍"
+%<imp%>:%> CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%> # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%> # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%> PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%> # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%> # ; ! "അടിച്ചേനെ"
+%<cond%>:%> NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%> # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%> #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%> #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%> #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%> # ; ! "അടിക്കണം"
+%<itg%>:%> # ; ! "അടിക്കുമോ "
+%<perm%>:%>ക്കാം #;
+LEXICON V-COMMON-VILKUKA
+%<inf_k%>:%>ല്‍ക്കുക  CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ല്‍ക്കാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>റ്റിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>റ്റിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ല്‍കുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>റ്റു NEG-WHEN ; ! ""
+%<fut%>:%>ല്‍ക്കും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>ല്‍ക്കപ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>റ്റുകൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>റ്റുകൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ല്‍കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>റ്റ GPR-PAST ; ! ""
+%<imp%>:%>ല്‍ക്ക CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>റ്റ് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>റ്റിരുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%>ല്‍ക്ക PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ല്‍ക്കട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>റ്റ്ഏനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>റ്റാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>ല്‍ക്കുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>ല്‍ക്കുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>റ്റല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>ല്‍ക്കുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>ല്‍ക്കണം # ; ! "അടിക്കണം"
+%<itg%>:%>ല്‍ക്കുമോ # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-VILKUKA
+%<inf_k%>:%>ല്‍ക്കുക  CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ല്‍ക്കാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>റ്റിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>റ്റിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ല്‍കുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>റ്റു NEG-WHEN ; ! ""
+%<fut%>:%>ല്‍ക്കും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>ല്‍ക്കപ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>റ്റുകൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>റ്റുകൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ല്‍കുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>റ്റ GPR-PAST ; ! ""
+%<imp%>:%>ല്‍ക്ക CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>റ്റ് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>റ്റിരുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%>ല്‍ക്ക PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ല്‍ക്കട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>റ്റ്ഏനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>റ്റാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>ല്‍ക്കുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>ല്‍ക്കുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>റ്റല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>ല്‍ക്കുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>ല്‍ക്കണം # ; ! "അടിക്കണം"
+%<itg%>:%>ല്‍ക്കുമോ # ; ! "അടിക്കുമോ "
+LEXICON V-COMMON-VIRALUKA
+%<inf_k%>:%>ളുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ളാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ണ്ടിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ണ്ടിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ളുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ണ്ടു NEG-WHEN ; ! ""
+%<fut%>:%>ളും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>ളപ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>ണ്ടുകൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ണ്ടുകൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ളുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ണ്ട GPR-PAST ; ! ""
+%<imp%>:%>ള CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>ണ്ട് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>ണ്ടിരുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%>ള PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ളട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ണ്ടേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ണ്ടാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>ളുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>ളുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>ണ്ടല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>ളുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>ളണം # ; ! "അടിക്കണം"
+%<itg%>:%>ളുമോ # ; ! "അടിക്കുമോ "
+!%<pp%>:%>ണ്ട് # ; ! ""
+LEXICON V-COMMON-VIRALUKA
+%<inf_k%>:%>ളുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ളാന്‍ CLIT-CC ; ! "̔" !
+%<perf%>:%>ണ്ടിരുന്നു CLIT-ITG ; ! "̔" !
+%<rem_perf%>:%>ണ്ടിട്ടുണ്ട് # ; ! "' !"അടിച്ചിട്ടുണ്ട്"
+%<pres%>:%>ളുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ണ്ടു NEG-WHEN ; ! ""
+%<fut%>:%>ളും NEG-WHEN ; ! "" ! "അടിക്കും"
+%<pass%>:%>ളപ്പെ PASS-CONT ; ! "അടിക്കപ്പെ"
+%<iter%>:%>ണ്ടുകൊണ്ടി ITER-TENS; ! "" ! "അടിച്ചുകൊണ്ടി"
+%<iter%>%<cont%>:%>ണ്ടുകൊണ്ടേ ITER-TENS; ! "" ! "അടിച്ചുകുകൊണ്ടേ"
+%<gpr_pres%>:%>ളുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ണ്ട GPR-PAST ; ! ""
+%<imp%>:%>ള CONT_IMP; !"" ! "അടിക്ക->അടിക്ക് ,അടിക്കൂ,അടിക്കണം"
+%<pcpl%>:%>ണ്ട് # ; ! "" ! "അടിച്ച്"
+%<contpres%>:%>ണ്ടിരുന്നു # ; ! "അടിച്ചിരിക്കുന്നു"
+%<prec%>:%>ള PREC-CONT ; ! "" ! "അടിക്ക->അടിക്കണേ,അടിക്കരുതേ "
+%<opt%>:%>ളട്ടെ # ; ! "അടിക്കട്ടെ"
+%<irre%>%<past%>:%>ണ്ടേനെ # ; ! "അടിച്ചേനെ"
+%<cond%>:%>ണ്ടാല്‍ NEG-WHEN ; ! "ccāl‍" ! "അടിച്ചാല്‍ "
+%<monit%>%<fut%>:%>ളുമേ # ;! "അടിക്കുമേ "
+%<satis%>%<fut%>:%>ളുമല്ലൊ #; ! "അടിക്കുമല്ലൊ"
+%<satis%>%<past%>:%>ണ്ടല്ലൊ #; ! "അടിച്ചല്ലൊ"
+%<satis%>%<pres%>:%>ളുന്നല്ലൊ #; ! "അടിക്കുന്നല്ലൊ"
+%<oblig%>:%>ളണം # ; ! "അടിക്കണം"
+%<itg%>:%>ളുമോ # ; ! "അടിക്കുമോ "
+!%<pp%>:%>ണ്ട് # ; ! ""
 
 LEXICON V-TV-VERUKKUKA
 %<v%>%<tv%>: V-COMMON-VERUKKUKA  ; ! "" 
