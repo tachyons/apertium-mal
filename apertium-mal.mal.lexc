@@ -820,6 +820,8 @@ LEXICON PRON-DEM-IT
 LEXICON PRON-ITG-ENT
 
 %<prn%>%<itg%>%<sg%>%<nom%>:് CLIT-N-NOM ;
+%<prn%>%<itg%>%<sg%>%<nom%>:ു് CLIT-N-NOM ; ! "debug"
+%<prn%>%<itg%>%<sg%>%<nom%>:ു CLIT-N-NOM ; ! "debug"
 %<prn%>%<itg%>%<sg%>%<dat%>:ിന് CLIT-N-NOM ; 
 
 LEXICON PRON-IND
@@ -920,8 +922,9 @@ LEXICON V-COMMON-KANU
 %<past%>:%>ണ്ടു NEG-WHEN ; ! "ṇṭu"
 %<gpr_pres%>:%>ാണുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ത GPR-PAST ; ! ""
-%<pass%>%<gpr_pres%>:%>ാണപ്പെടുന്ന GPR-PRES ; ! ""
-%<pass%>%<gpr_past%>:%>ാണപ്പെട്ട GPR-PAST ; ! "
+%<pass%>:%>ാണപ്പെ PASS-CONT ;
+!%<pass%>%<gpr_pres%>:%>ാണപ്പെടുന്ന GPR-PRES ; ! ""
+!%<pass%>%<gpr_past%>:%>ാണപ്പെട്ട GPR-PAST ; ! "
 %<perm%>:%>ാണാം #; ! "ḷ‍kkām" ! 
 !%<fut%>:%>
 
@@ -1011,6 +1014,9 @@ LEXICON V-COMMON-POKUKA
 %<past%>:%>യി # ; ! "̔i "
 %<gpr_pres%>:%>കുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>യ GPR-PAST ; ! ""
+%<imp%>:%> # ; !""
+%<imp%>%<frml%>:%>കണം # ; !""
+%<imp%>%<infml%>:%>കൂ # ; !""
 
 LEXICON V-COMMON-URANGUKA
 %<inf_k%>:%>ുക  CLIT-CC ; ! "uka" ! FIXME
@@ -1162,6 +1168,7 @@ LEXICON V-COMMON-THARUKA
 %<perf%>:%>ന്നിരുന്നു CLIT-ITG ; ! "̔" ! 
 %<pres%>:%>രുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ന്നു NEG-WHEN ; ! ""
+%<past%>:%>രും # ; ! ""
 %<iter%>%<pres%>:%>ന്നുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
 %<gpr_pres%>:%>രുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ന്ന GPR-PAST ; ! ""
@@ -1261,26 +1268,40 @@ LEXICON PASS-CONT
 %<satis%>%<past%>:%>ച്ചല്ലൊ #;
 %<oblig%>:%>ടണം # ; 
 %<itg%>:%>ടുമോ # ; 
+LEXICON ITER-TENS
+%<pres%>:%>രിക്കുന്നു NEG-WHEN ; ! ""
+%<past%>:%>രുന്നു NEG-WHEN ; ! ""
+%<fut%>:%>രിക്കും NEG-WHEN ; ! ""
+LEXICON CONT_IMP
+് # ; !""
+%<frml%>:%>ണം # ; !""
+%<infml%>:%>ൂ # ; !""
+LEXICON CONT_IMP
+ണേ # ; !""
+%<neg%>:%>രുതേ # ; !""
 LEXICON V-COMMON-ATIKKUKA
 %<inf_k%>:%>ക്കുക CLIT-CC ; ! "" ! FIXME
 %<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" ! 
 %<perf%>:%>ച്ചിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<rem_perf%>:%>ച്ചിട്ടുണ്ട് # ; ! "' !""
 %<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ച്ചു NEG-WHEN ; ! ""
 %<fut%>:%>ക്കും NEG-WHEN ; ! ""
 %<pass%>:%>ക്കപ്പെ PASS-CONT ;
-%<iter%>%<pres%>:%>ച്ചുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
-%<iter%>%<past%>:%>ച്ചുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
-%<iter%>%<fut%>:%>ച്ചുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
+%<iter%>:%>ച്ചുകൊണ്ടി ITER-TENS; ! ""
+%<iter%>:%>ച്ചുകൊണ്ടേയി ITER-TENS; ! ""
 %<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
 %<gpr_past%>:%>ച്ച GPR-PAST ; ! ""
-%<imp%>:%>ക്ക് # ; !""
-%<imp%>%<frml%>:%>ക്കണം # ; !""
-%<imp%>%<infml%>:%>ക്കൂ # ; !""
+%<imp%>:%>ക്ക CONT_IMP; !""
+!%<imp%>:%>ക്ക് # ; !""
+!%<imp%>%<frml%>:%>ക്കണം # ; !""
+!%<imp%>%<infml%>:%>ക്കൂ # ; !""
 %<hab%>:%>ക്കാര്‍ CLIT-COP-UNTU ; ! "ār"
 %<pcpl%>:%>ച്ച് # ; ! ""
-%<contpres%>:%>ച്ചിരിക്കുന്നു # ; 
-%<prec%>:%>ക്കണേ # ; 
+%<contpres%>:%>ച്ചിരിക്കുന്നു # ;
+%<prec%>:%>ക്ക PREC-CONT ; ! "" ! ""
+!%<prec%>:%>ക്കണേ # ; 
+!%<prec%>%<neg%>:%>ക്കരുതേ # ; 
 %<opt%>:%>ക്കട്ടെ # ; 
 %<irre%>%<past%>:%>ച്ചേനെ # ; 
 %<cond%>:%>ച്ചാല്‍  NEG-WHEN ; ! "ccāl‍"
@@ -1591,10 +1612,10 @@ LEXICON V-IV-VERUKKUKA
 %<v%>%<iv%>: V-COMMON-VERUKKUKA  ; ! "" 
 
 LEXICON V-TV-NOVUKA
-%<v%>%<TV%>: V-COMMON-NOVUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-NOVUKA  ; ! "" 
 
 LEXICON V-TV-KARAYUKA
-%<v%>%<TV%>: V-COMMON-KARAYUKA  ; ! ""
+%<v%>%<tv%>: V-COMMON-KARAYUKA  ; ! ""
 
  
 LEXICON V-IV-KOLLUKA
@@ -1613,18 +1634,18 @@ LEXICON V-IV-VILKUKA
 
 
 LEXICON V-TV-VEENU
-%<v%>%<TV%>: V-COMMON-VEENU  ; ! "" 
+%<v%>%<tv%>: V-COMMON-VEENU  ; ! "" 
 
 
 LEXICON V-TV-VIRALUKA
-%<v%>%<TV%>: V-COMMON-VIRALUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-VIRALUKA  ; ! "" 
 
 LEXICON V-IV-NILKUKA
 %<v%>%<iv%>: V-COMMON-NILKUKA  ; ! "" 
 
 
 LEXICON V-TV-THAZHUKA
-%<v%>%<TV%>: V-COMMON-THAZHUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-THAZHUKA  ; ! "" 
 
 LEXICON V-IV-PERUKA
 %<v%>%<iv%>: V-COMMON-PERUKA  ; ! "" 
@@ -1635,7 +1656,7 @@ LEXICON V-IV-ATIKKUKA
 
 
 LEXICON V-TV-VEIKUKA 
-%<v%>%<TV%>: V-COMMON-VEIKUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-VEIKUKA  ; ! "" 
 
 
 LEXICON V-IV-PATUKA
@@ -1643,7 +1664,7 @@ LEXICON V-IV-PATUKA
 
 
 LEXICON V-TV-CHAKUKA
-%<v%>%<TV%>: V-COMMON-CHAKUKA  ; ! "" 
+%<v%>%<tv%>: V-COMMON-CHAKUKA  ; ! "" 
 
 
 LEXICON V-IV-THOTUKA
@@ -1669,7 +1690,7 @@ LEXICON V-IV-KAKKUKA
 
 
 LEXICON V-TV-THEERUKA
-%<v%>%<TV%>: V-COMMON-THEERUKA ; ! "" 
+%<v%>%<tv%>: V-COMMON-THEERUKA ; ! "" 
   
 LEXICON V-IV-THINNUKA
 %<v%>%<iv%>: V-COMMON-THINNUKA ; ! "" 
@@ -1678,10 +1699,10 @@ LEXICON V-IV-KITTUKA
 %<v%>%<iv%>: V-COMMON-KITTUKA ; ! "" 
 
 LEXICON V-TV-VARUKA 
-%<v%>%<TV%>: V-COMMON-VARUKA; ! "" 
+%<v%>%<tv%>: V-COMMON-VARUKA; ! "" 
 
 LEXICON V-TV-IRUNNU
-%<v%>%<TV%>: V-COMMON-IRUNNU ; ! "" 
+%<v%>%<tv%>: V-COMMON-IRUNNU ; ! "" 
 
 LEXICON V-IV-CHEYYUKA 
 %<v%>%<iv%>: V-COMMON-CHEYYUKA ; ! "" 
@@ -1690,13 +1711,13 @@ LEXICON V-IV-ISHTAPETUKA
 %<v%>%<iv%>: V-COMMON-ISHTAPETUKA ; ! "" 
 
 LEXICON V-TV-URANGUKA
-%<v%>%<TV%>: V-COMMON-URANGUKA ; ! "" 
+%<v%>%<tv%>: V-COMMON-URANGUKA ; ! "" 
 
 LEXICON V-TV-POKUKA 
-%<v%>%<TV%>: V-COMMON-POKUKA ; ! "" 
+%<v%>%<tv%>: V-COMMON-POKUKA ; ! "" 
 
 LEXICON V-TV-NADAKKUKA
-%<v%>%<TV%>: V-COMMON-NADAKKUKA ; ! "" 
+%<v%>%<tv%>: V-COMMON-NADAKKUKA ; ! "" 
 
 LEXICON V-IV-KANDETHUKA
 %<v%>%<iv%>: V-COMMON-KANDETHUKA ; ! "" 
@@ -1719,7 +1740,7 @@ LEXICON V-IV-ARIYUKA
 
 LEXICON V-TV-KALI
 
-%<v%>%<TV%>: V-COMMON-KALI ; ! ""
+%<v%>%<tv%>: V-COMMON-KALI ; ! ""
 
 LEXICON V-IV-KANUKA
 
@@ -3714,6 +3735,7 @@ LEXICON NominalStems
 മാതാവ്:മാതാവ N3; ! "" ! "mother"
 ഭര്‍ത്താവ്:ഭര്‍ത്താവ N3 ; ! "" ! "husband"
 ക്രിക്കറ്റ്:ക്രിക്കറ്റ N3 ; ! "" ! "cricket"
+കാറ്റ്:കാറ്റ N3 ; ! "" ! "cricket"
 താലൂക്ക്:താലൂക്ക N3 ; ! "" 
 പോലീസ്:പോലീസ N3; ! "" ! "police"
 മാര്‍ച്ച്:മാര്‍ച്ച N3 ; ! "' !"march"
@@ -5402,6 +5424,9 @@ LEXICON ProperNouns
 സേലം:സേല NP-TOP-KERALA; ! "" ! ""
 വിഴുപ്പുരം:വിഴുപ്പുര NP-TOP-KERALA; ! "" ! ""
 
+പഞ്ചാബ്:പഞ്ചാബ NP-TOP-CALICUT; ! "" ! ""
+ഉത്തരാഖണ്ഡ്:ഉത്തരാഖണ്ഡ NP-TOP-CALICUT; ! "" ! ""
+
 അഡിലാബാദ്:അഡിലാബാദ NP-TOP-CALICUT; ! "" ! ""
 മേദക്ക്:മേദക്ക NP-TOP-CALICUT; ! "" ! ""
 നിസാമബാദ്:നിസാമബാദ NP-TOP-CALICUT; ! "" ! ""
@@ -5730,6 +5755,7 @@ LEXICON Adjectives
 !colors
 നീല:നീല A1;
 മഞ്ഞ:മഞ്ഞ A1;
+സായുധം:സായുധ A3;
 
 LEXICON Adverbs
 
@@ -5886,13 +5912,14 @@ VBCOP-AAK ; ! "āk" ! "be"
 ഉറങ്ങുക:ഉറങ്ങ  V-IV-URANGUKA ; ! "uṟaṅṅuka" ! "sleep"
 വാങ്ങുക:വാങ്ങ  V-IV-URANGUKA ; ! "uṟaṅṅuka" ! "sleep"
 ചുമത്തുക:ചുമത്ത V-IV-URANGUKA ; ! "" ! "'
+മനസ്സിലാക്കുക:മനസ്സിലാക്ക V-TV-URANGUKA ; ! "" ! "'
 എണ്ണുക:എണ്ണ V-TV-ENNI ; ! "eṇṇuka" ! "count" 
 പരതുക:പരത V-TV-ENNI ; ! "paratuka" !  "search"
 കണ്ടെത്തുക:കണ്ടെത്ത  V-TV-KANDETHUKA ; ! "kaṇṭettuka" ! "find"
 ചെയ്യുക:ചെയ V-TV-CHEYYUKA ;! "ceyyuka" ! "do" 
 പറയുക:പറ V-TV-ARIYUKA ; ! "paṟayuka" ! "tell"
 കഴിയുക:കഴി V-TV-ARIYUKA ; ! "kaḻiyuka" ! "can"
-വരുക:വ V-IV-VARUKA ; ! "varuka" ! "come "
+വരുക:വ V-IV-THARUKA ; ! "varuka" ! "come "
 !ഉയരുക:ഉയ V-IV-VARUKA ; ! "" ! "arise"
 പോകുക:പോ V-IV-POKUKA ; ! "pēākuka" ! "go"
 ഇഷ്ടപ്പെടുക:ഇഷ്ടപ്പെ  V-TV-ISHTAPETUKA ; ! "iṣṭappeṭuka" ! "love"
@@ -6025,6 +6052,7 @@ VBCOP-AAK ; ! "āk" ! "be"
 
 ! പോകുക -done
 വൈകുക:വൈക V-IV-VEIKUKA ; ! "vaikuka" ! "delay"
+കിട്ടുക:കിട്ട V-TV-VEIKUKA ; ! "" ! "get"
 പാടുക:പാട V-TV-PATUKA; ! "pāṭuka" ! "sing"
 നേടുക:നേട V-TV-PATUKA; ! "nēṭuka ! "achive"
 തുടങ്ങുക:തുടങ്ങ V-TV-PATUKA; ! "tuṭaṅṅuka" ! "start"
