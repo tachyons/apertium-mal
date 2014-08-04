@@ -656,7 +656,15 @@ LEXICON NP-TOP-JAPAN
 %<np%>%<top%>%<sg%>%<loc%>:നില്‍ CLIT-N-LOC ; !""
 %<np%>%<top%>%<sg%>%<soc%>:നോട് CLIT-N-NOM ; !""
 
+LEXICON NP-TOP-BRAZIL
 
+%<np%>%<top%>%<sg%>%<nom%>:ല്‍ CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<acc%>:ലിനെ CLIT-N-ACC ; !""
+%<np%>%<top%>%<sg%>%<gen%>:ലിന്റെ CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<dat%>:ലിന് CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<ins%>:ലിനാല്‍ CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<loc%>:ലില്‍  CLIT-N-LOC ; !""
+%<np%>%<top%>%<sg%>%<soc%>:ലിനോട് CLIT-N-NOM ; !""
 
 LEXICON PRON-PERS-NNAAN 
 
@@ -893,7 +901,35 @@ LEXICON GPR-PAST
 
 %<subst%>:%>ത N3-COMMON ; 
 # ;
-
+LEXICON PASS-CONT
+%<inf_k%>:%>ടുക CLIT-CC ; ! "" ! FIXME
+%<inf_n%>:%>ടാന്‍ CLIT-CC ; ! "̔" ! 
+%<perf%>:%>ട്ടിരുന്നു CLIT-ITG ; ! "̔" ! 
+%<pres%>:%>ടുന്നു NEG-WHEN ; ! "̔̔"
+%<past%>:%>ട്ടു NEG-WHEN ; ! ""
+%<fut%>:%>ടും NEG-WHEN ; ! ""
+%<iter%>%<pres%>:%>ട്ടുകൊണ്ടിരിക്കുന്നു NEG-WHEN ; ! ""
+%<iter%>%<past%>:%>ട്ടുകൊണ്ടിരുന്നു NEG-WHEN ; ! ""
+%<iter%>%<fut%>:%>ട്ടുകൊണ്ടിരിക്കും NEG-WHEN ; ! ""
+%<gpr_pres%>:%>ടുന്ന GPR-PRES ; ! ""
+%<gpr_past%>:%>ട്ട GPR-PAST ; ! ""
+%<imp%>:%>ട് # ; !""
+%<imp%>%<frml%>:%>ടണം # ; !""
+%<imp%>%<infml%>:%>ടൂ # ; !""
+%<hab%>:%>ടാര്‍ CLIT-COP-UNTU ; ! "ār"
+%<pcpl%>:%>ട്ട് # ; ! ""
+!
+%<contpres%>:%>ട്ടിക്കുന്നു # ; 
+%<prec%>:%>ടണേ # ; 
+%<opt%>:%>ടട്ടെ # ; 
+%<irre%>%<past%>:%>ട്ടേനെ # ; 
+%<cond%>:%>ട്ടാല്‍  NEG-WHEN ; ! "ccāl‍"
+%<monit%>%<fut%>:%>ടുമേ # ;
+%<satis%>%<fut%>:%>ടുമല്ലൊ #;
+%<satis%>%<pres%>:%>ടുന്നല്ലൊ #;
+%<satis%>%<past%>:%>ച്ചല്ലൊ #;
+%<oblig%>:%>ടണം # ; 
+%<itg%>:%>ടുമോ # ; 
 LEXICON V-COMMON‌-ALANNU
 %<inf_k%>:%>ക്കുക  CLIT-CC ; ! "" ! FIXME
 %<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" !
@@ -956,7 +992,7 @@ LEXICON V-COMMON-ARIYUKA
 %<pres%>:%>യുന്നു NEG-WHEN ; ! "iyunnu"
 %<past%>:%>ഞ്ഞു NEG-WHEN-EVEN ; ! "ññu"
 %<fut%>:%>യും CLIT-CC ;
-%<pass%>:%>യപ്പെ PASS-CONT ;
+%<pass%>:%>യപ്പെ  ;
 %<iter%>:%>ഞ്ഞുകൊണ്ടി ITER-TENS; ! ""
 %<iter%>%<cont%>:%>ഞ്ഞുകൊണ്ടേ ITER-TENS; ! ""
 %<gpr_pres%>:%>യുന്ന GPR-PRES ; ! ""
@@ -6883,10 +6919,10 @@ LEXICON ProperNouns
 ശ്രീലങ്ക:ശ്രീലങ്ക NP-TOP-INDIA; ! "" ! ""
 വെനിസ്വേല:വെനിസ്വേല NP-TOP-INDIA; ! "" ! ""
 
-ബ്രസീല്‍:ബ്രസീല്‍ NP-TOP-BRAZIL; ! "" ! ""
-ഇസ്രയേല്‍:ഇസ്രയേല്‍ NP-TOP-BRAZIL; ! "" ! ""
-പോര്‍ച്ചുഗല്‍:പോര്‍ച്ചുഗല്‍ NP-TOP-BRAZIL; ! "" ! ""
-സെനെഗല്‍:സെനെഗല്‍ NP-TOP-BRAZIL; ! "" ! ""
+ബ്രസീല്‍:ബ്രസീ NP-TOP-BRAZIL; ! "" ! ""
+ഇസ്രയേല്‍:ഇസ്രയേ NP-TOP-BRAZIL; ! "" ! ""
+പോര്‍ച്ചുഗല്‍:പോര്‍ച്ചുഗ NP-TOP-BRAZIL; ! "" ! ""
+സെനെഗല്‍:സെനെഗ NP-TOP-BRAZIL; ! "" ! ""
 
 നൗറു:നൗറു NP-TOP-PERU; ! "" ! ""
 പലാവു:പലാവു NP-TOP-PERU; ! "" ! ""
