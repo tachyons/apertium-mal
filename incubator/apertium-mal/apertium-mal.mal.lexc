@@ -930,6 +930,11 @@ LEXICON PASS-CONT
 %<satis%>%<past%>:%>ച്ചല്ലൊ #;
 %<oblig%>:%>ടണം # ; 
 %<itg%>:%>ടുമോ # ; 
+LEXICON CONT_IMP
+് # ; !""
+%<frml%>:%>ണം # ; !""
+%<infml%>:%>ൂ # ; !""
+
 LEXICON V-COMMON‌-ALANNU
 %<inf_k%>:%>ക്കുക  CLIT-CC ; ! "" ! FIXME
 %<inf_n%>:%>ക്കാന്‍ CLIT-CC ; ! "̔" !
