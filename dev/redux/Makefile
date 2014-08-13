@@ -4,6 +4,7 @@ all:
 	hfst-compose-intersect -1 mal.lexc.hfst -2 mal.twol.hfst -o mal.autogen.hfst
 	hfst-invert mal.autogen.hfst -o mal.automorf.hfst
 	hfst-fst2fst -O -i mal.automorf.hfst -o mal.automorf.ohfst
+	hfst-fst2fst -O -i mal.autogen.hfst -o mal.autogen.ohfst
 
 clean:
 	rm *.hfst *.ohfst
