@@ -24,10 +24,11 @@ Multichar_Symbols
 %<pres%>
 
 %{യ%}
-
-%+
-%>
-%»
+%{A%}
+%+              ! Clitic/compound boundary    !
+%>              ! Morpheme boundary           !
+%»              ! Clitic boundary
+%               ! Space symbol                !
 
 LEXICON Root
 
