@@ -24,6 +24,7 @@ Multichar_Symbols
 %<pres%>
 
 %{യ%}
+%{അ%}
 %{A%}
 %+              ! Clitic/compound boundary    !
 %>              ! Morpheme boundary           !
@@ -44,34 +45,36 @@ LEXICON K
 # ; 
 
 LEXICON A !sandhi for adjective
-%+:%»%{A%} Root ; 
+%+:%»%{അ%} Root ; 
 # ; 
 
 LEXICON N-MRIGAM 
 
 %<n%>%<sg%>%<nom%>:ം K ; ! "ṁ"
+%<n%>%<sg%>%<v%>: K ; ! "ṁ"
 %<n%>%<pl%>%<nom%>:%>ങ്ങള്‍ K ; ! "ṅṅaḷ‍"
-%<n%>%<attr%>: # ; ! ""
+%<n%>%<attr%>: A ; ! ""
 
-LEXICON N-KKALAM
+!LEXICON N-KKALAM
 
-%<n%>%<sg%>%<nom%>:ം K ; ! "ṁ"
-%<n%>%<pl%>%<nom%>:%>ങ്ങള്‍ K ; ! "ṅṅaḷ‍"
-%<n%>%<attr%>: # ; ! ""
+!%<n%>%<sg%>%<nom%>:%>ം K ; ! "ṁ"
+!%<n%>%<pl%>%<nom%>:%>ങ്ങള്‍ K ; ! "ṅṅaḷ‍"
+!%<n%>%<attr%>:K ; ! ""
 
 LEXICON N-THALA
 
 %<n%>%<sg%>%<nom%>: K ; ! "ṁ"
 %<n%>%<pl%>%<nom%>:%>കള്‍ K ; ! "ṅṅaḷ‍"
-%<n%>%<attr%>: # ; ! ""
+%<n%>%<attr%>: A ; ! ""
+
 
 LEXICON VBCOP-UNTU 
 
 %<vbcop%>%<pres%>:ണ്ട് K ; ! "ṇṭ"
 
-LEXICON V-TV-LABHIKKUKA
+!LEXICON V-TV-LABHIKKUKA
 
-%<v%>%<tv%>: K ; 
+!%<v%>%<tv%>: K ; 
 
 
 LEXICON V-PAST-I
@@ -105,7 +108,7 @@ LEXICON VBCOP-UNTU
 
 LEXICON A1 
 
-%<adj%>: K ;
+%<adj%>: A ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -120,11 +123,11 @@ LEXICON Determiners
 
 LEXICON Nouns 
 
-!മഴക്കാലം:മഴക്കാല N-MRIGAM ; ! "mēghaṁ" ! "cloud"
+മഴക്കാലം:മഴക്കാല N-MRIGAM ; ! "mēghaṁ" ! "cloud"
 മ്രിഗം:മ്രിഗ N-MRIGAM ; ! "mrigaṁ" ! "animal"
 ഓണം:ഓണ N-MRIGAM ; ! "oaanam" ! "oanam"
 മേഘം:മേഘ N-MRIGAM ; ! "mēghaṁ" ! "cloud"
-മഴക്കാലം:മഴക്കാല N-KKALAM ; ! "maḻakkālaṁ" ! "rainy season"
+!മഴക്കാലം:മഴക്കാല N-THALA ; ! "maḻakkālaṁ" ! "rainy season"
 തല:തല N-THALA ; ! "tala" ! "head"
 വഴി:വഴി N-THALA ; ! "vaḻi" ! "path"
 കൈ:കൈ N-THALA ; ! "vaḻi" ! "hand"
