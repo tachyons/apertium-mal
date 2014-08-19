@@ -8,6 +8,7 @@ Alphabet
 ‍ ‌
 
 ‍%{യ%}:0
+‍%{അ%}:0
 
 %>:0
 %»:0 ; 
@@ -15,7 +16,7 @@ Alphabet
 Sets 
 
 FullVowel = എ  ഇ  ഉ  ആ ഓ ;
-DepVowel = െ ി  ു  ; 
+DepVowel = െ ി  ു ; 
 ThalSwara = ാ ി ീ  െ േ ൈ ;
 OshtSwara = ു ൂ ൊ ോ ൌ ൗ ;
 Kharam = ക ച ട ത പ  ;
@@ -25,11 +26,13 @@ Mrithu = ഗ ജ ഡ ദ ബ ;
 Khosham = ഘ ഝ ഢ ധ ഭ;
 Anunasiaka = ങ ഞ ണ ന മ ;
 !Dridam= ക ച ട ത പ ഖ ഛ ഠ ഥ ഫ ;
-Dridam= ക ച ട ത പ  ഖ ഛ ഠ ഥ ഫ ഗ ജ ഡ ദ ബ ഘ ഝ ഢ ധ ഭ ശ ഷ സ ;
+Dridam = ക ച ട ത പ  ഖ ഛ ഠ ഥ ഫ ഗ ജ ഡ ദ ബ ഘ ഝ ഢ ധ ഭ ശ ഷ സ ;
+Madhyamam = യ ര ല വ ;
 
 
 Rules 
 ! Sandhi rules
+
 
 "Remove 'anusuvara' when followed by a word boundary"
 ം:0 <=> _ %»: ;
@@ -53,8 +56,16 @@ Vx:Vy <=> %»: (:0) _ ;
 
 
 "Surfacing of {യ} as യ and വ"
-%{യ%}:Cx <=> Cy: %»: _ FullVowel: ; 
+%{യ%}:Cx <=> Cy: %»: _ FullVowel: ;
          where Cy in ( ാ  ി  ീ  െ  േ  ൈ  ു  ൂ  ൊ  ോ  ൌ  ൗ ) 
-               Cx in ( യ   യ  യ   യ    യ     യ    വ   വ     വ       വ      വ      വ   ) matched ; 
+               Cx in ( യ   യ  യ   യ    യ     യ    വ   വ     വ       വ      വ      വ   ) matched ;
+
+"Double the Dridam when it followed by {അ}"
+%{അ%}:Ax <=> Ay: %»: _ Dridam: ;
+          where Ay in ( ക്ക ച്ച ട്ട ത്ത പ്പ  ഖ്ഖ  ച്ഛ   ഠ ഥ ഫ്ഫ  ഗ്ഗ ജ്ജ ഡ്ഡ ദ്ദ ബ്ബ ഘ്ഘ ഝ ഢ ധ്ധ ഭ്ഭ  ശ്ശ ഷ്ഷ  സ്സ ) 
+               Ax in (  ക ച ട ത പ  ഖ ഛ ഠ ഥ ഫ ഗ ജ ഡ ദ ബ ഘ ഝ ഢ ധ ഭ ശ ഷ സ  ) matched ;
+
+
+
 
 
