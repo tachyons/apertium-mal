@@ -619,6 +619,16 @@ LEXICON NP-TOP-INDIA
 %<np%>%<top%>%<sg%>%<loc%>:യില്‍ CLIT-N-LOC ; !""
 %<np%>%<top%>%<sg%>%<soc%>:യോട് CLIT-N-NOM ; !""
 
+LEXICON NP-TOP-PERU
+
+%<np%>%<top%>%<sg%>%<nom%>: CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<acc%>:വിനെ	CLIT-N-ACC ; !""
+%<np%>%<top%>%<sg%>%<gen%>:വിന്റെ CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<dat%>:വിന് CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<ins%>:വിനാല്‍ CLIT-N-NOM ; !""
+%<np%>%<top%>%<sg%>%<loc%>:വില്‍  CLIT-N-LOC ; !""
+%<np%>%<top%>%<sg%>%<soc%>:വിനോട് CLIT-N-NOM ; !""
+
 LEXICON NP-TOP-CALICUT
 
 %<np%>%<top%>%<sg%>%<nom%>:് CLIT-N-NOM ; !""
@@ -24792,13 +24802,13 @@ LEXICON ProperNouns
 രാധ:രാധ NP2 ; ! "rādha" ! "Radha"
 
 ജോണ്‍:ജോണ NP5; ! ""
-ഖാന്‍:ഖാന NPX; ! ""
+ഖാന്‍:ഖാന NP5; ! ""
 പോള്‍:പോള NP5; ! ""
 മാര്‍പ്പാപ്പ:മാര്‍പ്പാപ്പ NP4; ! ""
 മഹാത്മാഗാന്ധി:മഹാത്മാഗാന്ധി NP4;
 ഗാന്ധി:ഗാന്ധി NP4; ! ""
 റോബര്‍ട്ട്:റോബര്‍ട്ട NP1; ! ""
-കൃഷ്ണന്‍:കൃഷ്ണന്‍ NPX; ! ""
+കൃഷ്ണന്‍:കൃഷ്ണന NP5; ! ""
 ജോര്‍ജ്ജ്:ജോര്‍ജ്ജ NP1; ! ""
 അലക്സാണ്ടര്‍:അലക്സാണ്ടറ NP5; ! ""
 ജോര്‍ജ്:ജോര്‍ജ NP1; ! ""
@@ -24847,7 +24857,7 @@ LEXICON ProperNouns
 സൌദി:സൌദി NP-TOP-INDIA; ! ""
 മലബാര്‍:മലബാ NP-TOP-MALABAR; ! ""
 ഡെല്‍ഹി:ഡെല്‍ഹി NP-TOP-INDIA; ! ""
-ബംഗാള്‍:ബംഗാള്‍ NP-TOP-X; ! ""
+ബംഗാള്‍:ബംഗാള NP-TOP-KANNUR; ! ""
 പത്തനംതിട്ട:പത്തനംതിട്ട NP-TOP-INDIA; ! ""
 പാകിസ്താന്‍:പാകിസ്താ NP-TOP-JAPAN; ! ""
 മൈസൂര്‍:മൈസൂ NP-TOP-MALABAR; ! ""
