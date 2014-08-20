@@ -939,6 +939,9 @@ LEXICON ITER-TENS
 %<pres%>:%>രിക്കുന്നു NEG-WHEN ; ! ""
 %<past%>:%>രുന്നു NEG-WHEN ; ! ""
 %<fut%>:%>രിക്കും NEG-WHEN ; ! ""
+LEXICON PREC-CONT
+:%>ണേ # ; ! ""
+%<frml%>:%>രുതേ # ; ! ""
 
 LEXICON V-COMMON‌-ALANNU
 %<inf_k%>:%>ക്കുക  CLIT-CC ; ! "" ! FIXME
@@ -948,7 +951,7 @@ LEXICON V-COMMON‌-ALANNU
 %<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ന്നു NEG-WHEN ; ! ""
 %<fut%>:%>ക്കും  NEG-WHEN ;
-%<pass%>:%>ക്കപ്പെ CONT ;
+%<pass%>:%>ക്കപ്പെ PASS-CONT ;
 %<iter%>:%>ന്നുകൊണ്ടി  ITER-TENS;
 %<iter%>%<cont%>:%>ന്നുകൊണ്ടേ ITER-TENS;
 %<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
@@ -975,7 +978,7 @@ LEXICON V-COMMON‌-ALANNU
 %<pres%>:%>ക്കുന്നു NEG-WHEN ; ! "̔̔"
 %<past%>:%>ന്നു NEG-WHEN ; ! ""
 %<fut%>:%>ക്കും  NEG-WHEN ;
-%<pass%>:%>ക്കപ്പെ CONT ;
+%<pass%>:%>ക്കപ്പെ PASS-CONT ;
 %<iter%>:%>ന്നുകൊണ്ടി  ITER-TENS;
 %<iter%>%<cont%>:%>ന്നുകൊണ്ടേ ITER-TENS;
 %<gpr_pres%>:%>ക്കുന്ന GPR-PRES ; ! ""
@@ -1002,7 +1005,7 @@ LEXICON V-COMMON-ARIYUKA
 %<pres%>:%>യുന്നു NEG-WHEN ; ! "iyunnu"
 %<past%>:%>ഞ്ഞു NEG-WHEN-EVEN ; ! "ññu"
 %<fut%>:%>യും CLIT-CC ;
-%<pass%>:%>യപ്പെ  ;
+%<pass%>:%>യപ്പെ PASS-CONT ;
 %<iter%>:%>ഞ്ഞുകൊണ്ടി ITER-TENS; ! ""
 %<iter%>%<cont%>:%>ഞ്ഞുകൊണ്ടേ ITER-TENS; ! ""
 %<gpr_pres%>:%>യുന്ന GPR-PRES ; ! ""
@@ -1639,32 +1642,7 @@ LEXICON V-COMMON-KARAYUKA
 %<satis%>%<pres%>:%>യുന്നല്ലൊ #; ! ""
 %<oblig%>:%>യണം # ; ! ""
 %<itg%>:%>യുമോ # ; ! " "
-LEXICON V-COMMON-KARAYUKA
-%<inf_k%>:%>യുക  CLIT-CC ; ! "" ! FIXME
-%<inf_n%>:%>യാന്‍ CLIT-CC ; ! "̔" !
-%<perf%>:%>ഞിരുന്നു CLIT-ITG ; ! "̔" !
-%<rem_perf%>:%>ഞ്ഞിട്ടുണ്ട് # ; ! "' !""
-%<pres%>:%>യുന്നു NEG-WHEN ; ! "̔̔"
-%<past%>:%>ഞ്ഞു NEG-WHEN ; ! ""
-!%<fut%>:%>യും NEG-WHEN ; ! "" ! ""
-%<pass%>:%>യപ്പെ PASS-CONT ; ! ""
-%<iter%>:%>ഞ്ഞുകൊണ്ടി ITER-TENS; ! "" ! ""
-%<iter%>%<cont%>:%>ഞ്ഞുകൊണ്ടേ ITER-TENS; ! "" ! ""
-%<gpr_pres%>:%>യുന്ന GPR-PRES ; ! ""
-%<gpr_past%>:%>ഞ്ഞ GPR-PAST ; ! ""
-%<imp%>:%>യ CONT_IMP; !"" ! ""
-%<pcpl%>:%>ഞ്ഞ് # ; ! "" ! ""
-%<contpres%>:%>ഞ്ഞിരിക്കുന്നു # ; ! ""
-%<prec%>:%>യ PREC-CONT ; ! "" ! ""
-%<opt%>:%>യട്ടെ # ; ! ""
-%<irre%>%<past%>:%>ഞ്ഞേനെ # ; ! ""
-%<cond%>:%>ഞാല്‍ NEG-WHEN ; ! "ccāl‍" ! ""
-%<monit%>%<fut%>:%>യുമേ # ;! ""
-%<satis%>%<fut%>:%>യുമല്ലോ #; ! ""
-%<satis%>%<past%>:%>ഞ്ഞല്ലൊ #; ! ""
-%<satis%>%<pres%>:%>യുന്നല്ലൊ #; ! ""
-%<oblig%>:%>യണം # ; ! ""
-%<itg%>:%>യുമോ # ; ! " "
+
 LEXICON V-COMMON-UYARUKA
 %<inf_k%>:%>രുക CLIT-CC ; ! "̔kkuka" ! FIXME
 %<inf_n%>:%>രാന്‍ # ; ! "kkaṇ" ! FIXME ?
@@ -26034,6 +26012,7 @@ VBCOP-AAK ; ! "āk" ! "be"
 എടുത്തുകാട്ടുക:എടുത്തുകാട്ട V-IV-ENNI; ! eṭuttukāṭṭuka
 എത്തിക്കഴിയുക:എത്തിക്കഴി V-IV-KARAYUKA; ! ettikkaḻiyuka
 എത്തിച്ചുകൊടുക്കുക:എത്തിച്ചുകൊടു V-TV-VERUKKUKA; ! etticcukeāṭukkuka 
+കൊടുക്കുക:കൊടു V-TV-VERUKKUKA; ! keāṭukkuka 
 കഷ്ടപ്പെടുക:കഷ്ടപ്പെ V-IV-ISHTAPETUKA; ! kaṣ‌ṭappeṭuka 
 കൊഴിയുക:കൊഴി V-IV-KARAYUKA; ! keāḻiyuka
 ചായുക:ചാ V-IV-KARAYUKA; ! cāyuka
